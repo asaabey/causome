@@ -1,0 +1,43 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Explore disease mechanisms and the evidence connecting them.' } = Astro.props;
+const path = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f6f5ef" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{title} · Causome</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Causome home">
+        <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><path d="M9 9 25 11 17 26Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="9" cy="9" r="4" fill="currentColor"/><circle cx="25" cy="11" r="3" fill="currentColor"/><circle cx="17" cy="26" r="4" fill="currentColor"/></svg>
+        <span>Causome<span class="brand-caption">Living disease atlas</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="/diseases/sle/" aria-current={path.startsWith('/diseases/') ? 'page' : undefined}>Disease atlas</a>
+        <a href="/methodology/" aria-current={path.startsWith('/methodology/') ? 'page' : undefined}>Methodology</a>
+        <a href="/sources/" aria-current={path.startsWith('/sources/') ? 'page' : undefined}>Sources</a>
+      </nav>
+      <span class="header-status"><span></span> Development preview</span>
+    </header>
+    <main id="main-content"><slot /></main>
+    <footer class="site-footer">
+      <div><a class="footer-brand" href="/">Causome</a><p>A clearer view of the mechanisms that connect.</p></div>
+      <p class="footer-note">Illustrative foundation demo. Scientific content is unreviewed.<br />For exploration and development; not medical advice.</p>
+    </footer>
+  </body>
+</html>

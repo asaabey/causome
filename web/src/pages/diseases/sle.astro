@@ -1,0 +1,34 @@
+---
+import AtlasLayout from '../../layouts/AtlasLayout.astro';
+import MechanismMap from '../../components/MechanismMap';
+import release from '../../data/fixture';
+
+const entityLabel = (id: string) => release.entities.find((entity) => entity.id === id)?.label ?? id;
+const claimFor = (id: string) => release.claims.find((claim) => claim.id === id);
+const evidenceFor = (id: string) => release.evidenceItems.find((evidence) => evidence.id === id);
+const sourceFor = (id: string) => release.sources.find((source) => source.id === id);
+const readable = (value: string) => value.replaceAll('_', ' ');
+---
+<AtlasLayout title="Systemic lupus erythematosus" description="An illustrative SLE mechanism map with selectable relationships and an evidence inspector. Scientific content is unreviewed.">
+  <section class="disease-hero page-width">
+    <div class="breadcrumbs"><a href="/">Atlas</a><span aria-hidden="true">/</span><span>Systemic lupus erythematosus</span></div>
+    <div class="disease-heading">
+      <div><p class="eyebrow">Disease map · SLE</p><h1>Systemic lupus<br />erythematosus</h1><p class="hero-description">Explore an illustrative mechanism circuit. Select a mediator or connection to inspect its claim, context, and evidence status.</p></div>
+      <dl class="release-meta"><dt>Working fixture</dt><dd>{release.id}</dd><dt>Fixture cutoff</dt><dd>{release.evidenceCutoff} · Unreviewed</dd></dl>
+    </div>
+    <aside class="preview-notice" aria-label="Scientific review status"><span class="notice-symbol" aria-hidden="true">i</span><div><strong>Illustrative data · Not scientifically reviewed</strong>This development fixture tests the atlas interface. Its claims and citation placeholders are not verified SLE evidence. All scores are Not assessed.</div></aside>
+  </section>
+  <section class="map-section" aria-labelledby="map-heading">
+    <div class="map-section-heading"><div><h2 id="map-heading">Mechanism map</h2><p>{release.entities.length} entities · {release.relationships.length} relationships · Unassessed</p></div><a href="#mechanism-outline">Read the text outline ↓</a></div>
+    <MechanismMap release={release} client:load />
+    <noscript><p class="preview-notice">The interactive map needs JavaScript. Every entity, relationship, and evidence item is available in the text outline below.</p></noscript>
+  </section>
+  <section id="mechanism-outline" class="outline-section page-width" aria-labelledby="outline-heading">
+    <p class="eyebrow">An alternative view</p><h2 id="outline-heading">The mechanism, in words</h2><p>This outline contains the complete fixture and remains available without JavaScript. These records are illustrative and unverified.</p>
+    <details open><summary>Entities ({release.entities.length})</summary><div class="outline-content">{release.entities.map((entity) => <article id={`entity-${entity.id}`}><span class="record-label">{readable(entity.entityClass)}</span><h3>{entity.label}</h3><p>{entity.description}</p><p class="unassessed">Mechanistic weight, evidence confidence, and therapeutic leverage: Not assessed.</p><ul>{entity.biologicalRoleClaimIds.map((id) => <li><a href={`#claim-${id}`}>{claimFor(id)?.text ?? id}</a></li>)}</ul></article>)}</div></details>
+    <details open><summary>Relationships ({release.relationships.length})</summary><div class="outline-content">{release.relationships.map((relationship) => <article id={`relationship-${relationship.id}`}><span class="record-label">{relationship.directionality === 'symmetric' ? 'Symmetric association' : 'Directed relationship'} · Illustrative</span><h3>{entityLabel(relationship.sourceId)} {readable(relationship.predicate)} {entityLabel(relationship.targetId)}</h3><p>Context: {release.contexts.find((context) => context.id === relationship.contextId)?.label}. Evidence confidence: Not assessed.</p><ul>{relationship.supportingClaimIds.map((id) => <li><a href={`#claim-${id}`}>{claimFor(id)?.text ?? id}</a></li>)}</ul><p class="empty-note">{relationship.qualifyingClaimIds.length ? 'Qualifying claims:' : 'No qualifying evidence entered in this fixture.'}</p>{relationship.qualifyingClaimIds.map((id) => <p><a href={`#claim-${id}`}>{claimFor(id)?.text ?? id}</a></p>)}<p class="empty-note">{relationship.contradictingClaimIds.length ? 'Contradicting claims:' : 'No contradicting evidence entered in this fixture.'}</p>{relationship.contradictingClaimIds.map((id) => <p><a href={`#claim-${id}`}>{claimFor(id)?.text ?? id}</a></p>)}</article>)}</div></details>
+    <details open><summary>Claims and linked evidence ({release.claims.length})</summary><div class="outline-content">{release.claims.map((claim) => <article id={`claim-${claim.id}`}><span class="record-label">Unverified fixture claim</span><h3>{claim.text}</h3><p>Context: {release.contexts.find((context) => context.id === claim.contextId)?.label}</p><p>Limitations: {claim.limitations.join(' ')}</p><ul>{claim.evidenceItemIds.map((id) => { const evidence = evidenceFor(id); const source = evidence && sourceFor(evidence.sourceId); return <li>{evidence?.summary} {evidence && <span>Location: {evidence.location}. Fixture retrieved: {evidence.retrievedAt}. </span>}{source && <a href={source.url}>{source.title} — fixture documentation</a>}</li>; })}</ul></article>)}</div></details>
+    <details><summary>Therapeutic interventions ({release.therapies.length})</summary><div class="outline-content"><p>No therapy assertions are included in this foundation fixture. Verified indication, status, mechanism, and source details are required during curation.</p></div></details>
+    <details><summary>Initial fixture note</summary><div class="outline-content"><p>This candidate root bundle demonstrates data validation, graph interaction, a feedback loop, and the distinction between directed relationships and symmetric associations. It has no scientific approval and is not a published map release.</p><p><a href="/methodology/">Read the methodology and publication policy</a> · <a href="/sources/">View the fixture sources</a></p></div></details>
+  </section>
+</AtlasLayout>

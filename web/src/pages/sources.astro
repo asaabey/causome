@@ -1,0 +1,12 @@
+---
+import AtlasLayout from '../layouts/AtlasLayout.astro';
+import release from '../data/fixture';
+---
+<AtlasLayout title="Sources">
+  <section class="page-width content-page">
+    <p class="eyebrow">Evidence provenance</p><h1>Trace every claim.</h1><p class="hero-description">Sources should support specific claims on the map. This development fixture contains documentation placeholders; primary scientific sources enter during the curated SLE milestone.</p>
+    <aside class="preview-notice"><span class="notice-symbol" aria-hidden="true">i</span><div><strong>No verified scientific sources in this fixture</strong>Documentation links demonstrate the evidence interface. They do not verify the illustrative biological relationships.</div></aside>
+    <ul class="source-list">{release.sources.map((source) => <li><span class="record-label">Fixture documentation</span><h2><a href={source.url}>{source.title}</a></h2><p>Source ID: {source.id}</p><p>Linked evidence items: {release.evidenceItems.filter((evidence) => evidence.sourceId === source.id).length}. Scientific verification: Not performed.</p></li>)}</ul>
+    <h2>What the curated release will require</h2><p>Each scientific claim needs a directly relevant, verified primary source, a traceable location in that source, its evidence context and limitations, and a review disposition. Therapy assertions additionally need verified status and indication.</p><p><a href="/methodology/#publication-policy">Read the scientific publication policy</a> · <a href="/diseases/sle/#mechanism-outline">Inspect the fixture claims</a></p>
+  </section>
+</AtlasLayout>

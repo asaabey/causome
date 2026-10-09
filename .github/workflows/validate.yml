@@ -1,0 +1,30 @@
+name: Validate and build
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - uses: pnpm/action-setup@v6
+      - name: Install pinned dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Validate snapshot and types
+        run: pnpm check
+      - name: Test data and graph geometry
+        run: pnpm test
+      - name: Build static preview
+        run: pnpm build

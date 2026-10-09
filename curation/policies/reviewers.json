@@ -1,0 +1,7 @@
+{
+  "publicationEnabled": false,
+  "authorizedDomainReviewers": [],
+  "minimumIndependentApprovals": 1,
+  "allowAuthorApproval": false,
+  "note": "Configure verified domain reviewers and an authenticated approval verifier before Milestone 3. This file does not authorize publication."
+}

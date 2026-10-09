@@ -1,0 +1,699 @@
+{
+  "id": "sle-illustrative-001",
+  "revisionId": "sle-illustrative-001-r1",
+  "formatVersion": "0.1.0",
+  "diseaseId": "sle",
+  "title": "SLE mechanism map — illustrative fixture",
+  "status": "candidate",
+  "illustrative": true,
+  "parentReleaseId": null,
+  "parentContentDigest": null,
+  "createdAt": "2026-10-09",
+  "evidenceCutoff": "2026-10-09",
+  "changeSetRevision": "sle-demo-r1",
+  "entities": [
+    {
+      "id": "entity-baff",
+      "revisionId": "entity-baff-r1",
+      "status": "candidate",
+      "label": "BAFF",
+      "synonyms": [
+        "BLyS"
+      ],
+      "entityClass": "cytokine",
+      "description": "BAFF is included as a named entity in an illustrative SLE interface fixture. Its depicted roles are unverified and require scientific curation.",
+      "biologicalRoleClaimIds": [
+        "claim-demo-01",
+        "claim-demo-05"
+      ],
+      "externalIds": []
+    },
+    {
+      "id": "entity-b_cells",
+      "revisionId": "entity-b_cells-r1",
+      "status": "candidate",
+      "label": "B cells",
+      "synonyms": [],
+      "entityClass": "cell",
+      "description": "B cells is included as a named entity in an illustrative SLE interface fixture. Its depicted roles are unverified and require scientific curation.",
+      "biologicalRoleClaimIds": [
+        "claim-demo-01",
+        "claim-demo-02",
+        "claim-demo-06"
+      ],
+      "externalIds": []
+    },
+    {
+      "id": "entity-autoantibodies",
+      "revisionId": "entity-autoantibodies-r1",
+      "status": "candidate",
+      "label": "Autoantibodies",
+      "synonyms": [],
+      "entityClass": "antibody",
+      "description": "Autoantibodies is included as a named entity in an illustrative SLE interface fixture. Its depicted roles are unverified and require scientific curation.",
+      "biologicalRoleClaimIds": [
+        "claim-demo-02",
+        "claim-demo-03"
+      ],
+      "externalIds": []
+    },
+    {
+      "id": "entity-immune_complexes",
+      "revisionId": "entity-immune_complexes-r1",
+      "status": "candidate",
+      "label": "Immune complexes",
+      "synonyms": [],
+      "entityClass": "immune_complex",
+      "description": "Immune complexes is included as a named entity in an illustrative SLE interface fixture. Its depicted roles are unverified and require scientific curation.",
+      "biologicalRoleClaimIds": [
+        "claim-demo-03",
+        "claim-demo-04"
+      ],
+      "externalIds": []
+    },
+    {
+      "id": "entity-tissue_inflammation",
+      "revisionId": "entity-tissue_inflammation-r1",
+      "status": "candidate",
+      "label": "Tissue inflammation",
+      "synonyms": [],
+      "entityClass": "clinical_outcome",
+      "description": "Tissue inflammation is included as a named entity in an illustrative SLE interface fixture. Its depicted roles are unverified and require scientific curation.",
+      "biologicalRoleClaimIds": [
+        "claim-demo-04",
+        "claim-demo-05",
+        "claim-demo-06"
+      ],
+      "externalIds": []
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-demo-01",
+      "revisionId": "relationship-demo-01-r1",
+      "status": "candidate",
+      "sourceId": "entity-baff",
+      "targetId": "entity-b_cells",
+      "predicate": "stimulates",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-sle-demo",
+      "assessmentId": "assessment-relationship-demo-01",
+      "supportingClaimIds": [
+        "claim-demo-01"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-demo-02",
+      "revisionId": "relationship-demo-02-r1",
+      "status": "candidate",
+      "sourceId": "entity-b_cells",
+      "targetId": "entity-autoantibodies",
+      "predicate": "produces",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-sle-demo",
+      "assessmentId": "assessment-relationship-demo-02",
+      "supportingClaimIds": [
+        "claim-demo-02"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-demo-03",
+      "revisionId": "relationship-demo-03-r1",
+      "status": "candidate",
+      "sourceId": "entity-autoantibodies",
+      "targetId": "entity-immune_complexes",
+      "predicate": "forms",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-sle-demo",
+      "assessmentId": "assessment-relationship-demo-03",
+      "supportingClaimIds": [
+        "claim-demo-03"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-demo-04",
+      "revisionId": "relationship-demo-04-r1",
+      "status": "candidate",
+      "sourceId": "entity-immune_complexes",
+      "targetId": "entity-tissue_inflammation",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-sle-demo",
+      "assessmentId": "assessment-relationship-demo-04",
+      "supportingClaimIds": [
+        "claim-demo-04"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-demo-05",
+      "revisionId": "relationship-demo-05-r1",
+      "status": "candidate",
+      "sourceId": "entity-tissue_inflammation",
+      "targetId": "entity-baff",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-sle-demo",
+      "assessmentId": "assessment-relationship-demo-05",
+      "supportingClaimIds": [
+        "claim-demo-05"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-demo-06",
+      "revisionId": "relationship-demo-06-r1",
+      "status": "candidate",
+      "sourceId": "entity-b_cells",
+      "targetId": "entity-tissue_inflammation",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-sle-demo",
+      "assessmentId": "assessment-relationship-demo-06",
+      "supportingClaimIds": [
+        "claim-demo-06"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-demo-01",
+      "revisionId": "claim-demo-01-r1",
+      "status": "candidate",
+      "text": "Demonstrative assertion (unverified): BAFF stimulates B cells in this illustrative graph.",
+      "subjectId": "entity-baff",
+      "objectId": "entity-b_cells",
+      "predicate": "stimulates",
+      "contextId": "context-sle-demo",
+      "evidenceItemIds": [
+        "evidence-fixture-documentation"
+      ],
+      "verification": "unverified",
+      "causalInterpretation": "illustrative",
+      "limitations": [
+        "This is a demonstration of interface behavior, not a scientifically reviewed assertion. No primary scientific source has been attached."
+      ]
+    },
+    {
+      "id": "claim-demo-02",
+      "revisionId": "claim-demo-02-r1",
+      "status": "candidate",
+      "text": "Demonstrative assertion (unverified): B cells produces Autoantibodies in this illustrative graph.",
+      "subjectId": "entity-b_cells",
+      "objectId": "entity-autoantibodies",
+      "predicate": "produces",
+      "contextId": "context-sle-demo",
+      "evidenceItemIds": [
+        "evidence-fixture-documentation"
+      ],
+      "verification": "unverified",
+      "causalInterpretation": "illustrative",
+      "limitations": [
+        "This is a demonstration of interface behavior, not a scientifically reviewed assertion. No primary scientific source has been attached."
+      ]
+    },
+    {
+      "id": "claim-demo-03",
+      "revisionId": "claim-demo-03-r1",
+      "status": "candidate",
+      "text": "Demonstrative assertion (unverified): Autoantibodies forms Immune complexes in this illustrative graph.",
+      "subjectId": "entity-autoantibodies",
+      "objectId": "entity-immune_complexes",
+      "predicate": "forms",
+      "contextId": "context-sle-demo",
+      "evidenceItemIds": [
+        "evidence-fixture-documentation"
+      ],
+      "verification": "unverified",
+      "causalInterpretation": "illustrative",
+      "limitations": [
+        "This is a demonstration of interface behavior, not a scientifically reviewed assertion. No primary scientific source has been attached."
+      ]
+    },
+    {
+      "id": "claim-demo-04",
+      "revisionId": "claim-demo-04-r1",
+      "status": "candidate",
+      "text": "Demonstrative assertion (unverified): Immune complexes contributes to Tissue inflammation in this illustrative graph.",
+      "subjectId": "entity-immune_complexes",
+      "objectId": "entity-tissue_inflammation",
+      "predicate": "contributes_to",
+      "contextId": "context-sle-demo",
+      "evidenceItemIds": [
+        "evidence-fixture-documentation"
+      ],
+      "verification": "unverified",
+      "causalInterpretation": "illustrative",
+      "limitations": [
+        "This is a demonstration of interface behavior, not a scientifically reviewed assertion. No primary scientific source has been attached."
+      ]
+    },
+    {
+      "id": "claim-demo-05",
+      "revisionId": "claim-demo-05-r1",
+      "status": "candidate",
+      "text": "Demonstrative assertion (unverified): Tissue inflammation contributes to BAFF in this illustrative graph.",
+      "subjectId": "entity-tissue_inflammation",
+      "objectId": "entity-baff",
+      "predicate": "contributes_to",
+      "contextId": "context-sle-demo",
+      "evidenceItemIds": [
+        "evidence-fixture-documentation"
+      ],
+      "verification": "unverified",
+      "causalInterpretation": "illustrative",
+      "limitations": [
+        "This is a demonstration of interface behavior, not a scientifically reviewed assertion. No primary scientific source has been attached."
+      ]
+    },
+    {
+      "id": "claim-demo-06",
+      "revisionId": "claim-demo-06-r1",
+      "status": "candidate",
+      "text": "Demonstrative assertion (unverified): B cells is associated with Tissue inflammation in this illustrative graph.",
+      "subjectId": "entity-b_cells",
+      "objectId": "entity-tissue_inflammation",
+      "predicate": "is_associated_with",
+      "contextId": "context-sle-demo",
+      "evidenceItemIds": [
+        "evidence-fixture-documentation"
+      ],
+      "verification": "unverified",
+      "causalInterpretation": "illustrative",
+      "limitations": [
+        "This is a demonstration of interface behavior, not a scientifically reviewed assertion. No primary scientific source has been attached."
+      ]
+    }
+  ],
+  "evidenceItems": [
+    {
+      "id": "evidence-fixture-documentation",
+      "revisionId": "evidence-fixture-documentation-r1",
+      "status": "candidate",
+      "sourceId": "source-fixture-documentation",
+      "summary": "Local documentation describes why this fixture exists. It is not primary evidence for any biological assertion.",
+      "location": "Illustrative fixture section",
+      "retrievedAt": "2026-10-09"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-fixture-documentation",
+      "revisionId": "source-fixture-documentation-r1",
+      "status": "candidate",
+      "title": "Causome illustrative fixture documentation",
+      "url": "/methodology/#illustrative-fixture",
+      "kind": "fixture_documentation"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context-sle-demo",
+      "revisionId": "context-sle-demo-r1",
+      "status": "candidate",
+      "diseaseId": "sle",
+      "label": "Illustrative SLE context (unreviewed)",
+      "organism": "human",
+      "phenotype": null,
+      "tissue": null,
+      "stage": null
+    }
+  ],
+  "assessments": [
+    {
+      "id": "assessment-entity-baff",
+      "revisionId": "assessment-entity-baff-r1",
+      "status": "candidate",
+      "subjectId": "entity-baff",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-01",
+        "claim-demo-05"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-b_cells",
+      "revisionId": "assessment-entity-b_cells-r1",
+      "status": "candidate",
+      "subjectId": "entity-b_cells",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-01",
+        "claim-demo-02",
+        "claim-demo-06"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-autoantibodies",
+      "revisionId": "assessment-entity-autoantibodies-r1",
+      "status": "candidate",
+      "subjectId": "entity-autoantibodies",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-02",
+        "claim-demo-03"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-immune_complexes",
+      "revisionId": "assessment-entity-immune_complexes-r1",
+      "status": "candidate",
+      "subjectId": "entity-immune_complexes",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-03",
+        "claim-demo-04"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-tissue_inflammation",
+      "revisionId": "assessment-entity-tissue_inflammation-r1",
+      "status": "candidate",
+      "subjectId": "entity-tissue_inflammation",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-04",
+        "claim-demo-05",
+        "claim-demo-06"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-demo-01",
+      "revisionId": "assessment-relationship-demo-01-r1",
+      "status": "candidate",
+      "subjectId": "relationship-demo-01",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-01"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-demo-02",
+      "revisionId": "assessment-relationship-demo-02-r1",
+      "status": "candidate",
+      "subjectId": "relationship-demo-02",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-02"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-demo-03",
+      "revisionId": "assessment-relationship-demo-03-r1",
+      "status": "candidate",
+      "subjectId": "relationship-demo-03",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-03"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-demo-04",
+      "revisionId": "assessment-relationship-demo-04-r1",
+      "status": "candidate",
+      "subjectId": "relationship-demo-04",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-04"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-demo-05",
+      "revisionId": "assessment-relationship-demo-05-r1",
+      "status": "candidate",
+      "subjectId": "relationship-demo-05",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-05"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-demo-06",
+      "revisionId": "assessment-relationship-demo-06-r1",
+      "status": "candidate",
+      "subjectId": "relationship-demo-06",
+      "contextId": "context-sle-demo",
+      "scoringModelId": "scoring-unassessed-v1",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-demo-06"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Unassessed demonstration record. No appraisal or calibration has been completed.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    }
+  ],
+  "scoringModels": [
+    {
+      "id": "scoring-unassessed-v1",
+      "revisionId": "scoring-unassessed-v1-r1",
+      "status": "candidate",
+      "label": "Unassessed fixture model",
+      "calibrated": false,
+      "description": "No numerical appraisal is allowed in the Milestone 1 contract."
+    }
+  ],
+  "mapViews": [
+    {
+      "id": "map-sle-demo",
+      "revisionId": "map-sle-demo-r1",
+      "status": "candidate",
+      "label": "Illustrative overview",
+      "contextId": "context-sle-demo",
+      "entityIds": [
+        "entity-baff",
+        "entity-b_cells",
+        "entity-autoantibodies",
+        "entity-immune_complexes",
+        "entity-tissue_inflammation"
+      ],
+      "relationshipIds": [
+        "relationship-demo-01",
+        "relationship-demo-02",
+        "relationship-demo-03",
+        "relationship-demo-04",
+        "relationship-demo-05",
+        "relationship-demo-06"
+      ],
+      "assessmentIds": [
+        "assessment-entity-baff",
+        "assessment-entity-b_cells",
+        "assessment-entity-autoantibodies",
+        "assessment-entity-immune_complexes",
+        "assessment-entity-tissue_inflammation",
+        "assessment-relationship-demo-01",
+        "assessment-relationship-demo-02",
+        "assessment-relationship-demo-03",
+        "assessment-relationship-demo-04",
+        "assessment-relationship-demo-05",
+        "assessment-relationship-demo-06"
+      ],
+      "layoutId": "layout-sle-demo"
+    }
+  ],
+  "layouts": [
+    {
+      "id": "layout-sle-demo",
+      "revisionId": "layout-sle-demo-r1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-baff",
+          "x": 120,
+          "y": 160
+        },
+        {
+          "entityId": "entity-b_cells",
+          "x": 400,
+          "y": 160
+        },
+        {
+          "entityId": "entity-autoantibodies",
+          "x": 680,
+          "y": 160
+        },
+        {
+          "entityId": "entity-immune_complexes",
+          "x": 680,
+          "y": 430
+        },
+        {
+          "entityId": "entity-tissue_inflammation",
+          "x": 400,
+          "y": 430
+        }
+      ]
+    }
+  ],
+  "manifest": {
+    "algorithm": "sha256",
+    "schemaVersion": "0.1.0",
+    "contentDigest": "3b5cd32431e05f39147d7ec263712561bb401b69a5c0f638703631a58d28e001"
+  },
+  "therapies": []
+}

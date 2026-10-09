@@ -1,0 +1,1047 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://causome.local/schemas/release.schema.json",
+  "title": "Causome Milestone 1 root snapshot (scores unassessed)",
+  "description": "Preview schema for a self-contained root graph. Successor releases and scored assessments are deferred. Scientific publication also requires trusted workflow validation.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revisionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "formatVersion": {
+      "const": "0.1.0"
+    },
+    "diseaseId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "under_review",
+        "approved",
+        "published"
+      ]
+    },
+    "illustrative": {
+      "type": "boolean"
+    },
+    "parentReleaseId": {
+      "type": "null"
+    },
+    "parentContentDigest": {
+      "type": "null"
+    },
+    "createdAt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidenceCutoff": {
+      "type": "string",
+      "minLength": 1
+    },
+    "changeSetRevision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      },
+      "minItems": 1
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relationship"
+      },
+      "minItems": 1
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      },
+      "minItems": 1
+    },
+    "evidenceItems": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidenceItem"
+      },
+      "minItems": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      },
+      "minItems": 1
+    },
+    "contexts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/context"
+      },
+      "minItems": 1
+    },
+    "assessments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/assessment"
+      },
+      "minItems": 1
+    },
+    "scoringModels": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/scoringModel"
+      },
+      "minItems": 1
+    },
+    "mapViews": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/mapView"
+      },
+      "minItems": 1
+    },
+    "layouts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/layout"
+      },
+      "minItems": 1
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "algorithm": {
+          "const": "sha256"
+        },
+        "schemaVersion": {
+          "const": "0.1.0"
+        },
+        "contentDigest": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "algorithm",
+        "schemaVersion",
+        "contentDigest"
+      ],
+      "additionalProperties": false
+    },
+    "therapies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/therapy"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "revisionId",
+    "formatVersion",
+    "diseaseId",
+    "title",
+    "status",
+    "illustrative",
+    "parentReleaseId",
+    "parentContentDigest",
+    "createdAt",
+    "evidenceCutoff",
+    "changeSetRevision",
+    "entities",
+    "relationships",
+    "claims",
+    "evidenceItems",
+    "sources",
+    "contexts",
+    "assessments",
+    "scoringModels",
+    "mapViews",
+    "layouts",
+    "manifest",
+    "therapies"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "entity": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "synonyms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "entityClass": {
+          "enum": [
+            "cytokine",
+            "cell",
+            "antibody",
+            "process",
+            "clinical_outcome",
+            "immune_complex"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "biologicalRoleClaimIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "externalIds": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "namespace": {
+                "type": "string",
+                "minLength": 1
+              },
+              "value": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "namespace",
+              "value"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "label",
+        "synonyms",
+        "entityClass",
+        "description",
+        "biologicalRoleClaimIds",
+        "externalIds"
+      ],
+      "additionalProperties": false
+    },
+    "relationship": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "sourceId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "targetId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "predicate": {
+          "type": "string",
+          "enum": [
+            "stimulates",
+            "produces",
+            "forms",
+            "contributes_to",
+            "is_associated_with"
+          ]
+        },
+        "directionality": {
+          "enum": [
+            "directed",
+            "symmetric"
+          ]
+        },
+        "polarity": {
+          "enum": [
+            "positive",
+            "negative",
+            "not_applicable"
+          ]
+        },
+        "contextId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assessmentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supportingClaimIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "qualifyingClaimIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "contradictingClaimIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "sourceId",
+        "targetId",
+        "predicate",
+        "directionality",
+        "polarity",
+        "contextId",
+        "assessmentId",
+        "supportingClaimIds",
+        "qualifyingClaimIds",
+        "contradictingClaimIds"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "predicate": {
+                "const": "is_associated_with"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "directionality": {
+                "const": "symmetric"
+              },
+              "polarity": {
+                "const": "not_applicable"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "directionality": {
+                "const": "directed"
+              },
+              "polarity": {
+                "enum": [
+                  "positive",
+                  "negative"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "claim": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subjectId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "objectId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "predicate": {
+          "type": "string",
+          "enum": [
+            "stimulates",
+            "produces",
+            "forms",
+            "contributes_to",
+            "is_associated_with"
+          ]
+        },
+        "contextId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidenceItemIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "verification": {
+          "enum": [
+            "unverified",
+            "reviewed"
+          ]
+        },
+        "causalInterpretation": {
+          "enum": [
+            "illustrative",
+            "association",
+            "causal"
+          ]
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "text",
+        "subjectId",
+        "objectId",
+        "predicate",
+        "contextId",
+        "evidenceItemIds",
+        "verification",
+        "causalInterpretation",
+        "limitations"
+      ],
+      "additionalProperties": false
+    },
+    "evidenceItem": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "sourceId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "location": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retrievedAt": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "sourceId",
+        "summary",
+        "location",
+        "retrievedAt"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "fixture_documentation",
+            "publication",
+            "trial"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "title",
+        "url",
+        "kind"
+      ],
+      "additionalProperties": false
+    },
+    "context": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "diseaseId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "organism": {
+          "type": "string",
+          "minLength": 1
+        },
+        "phenotype": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tissue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "stage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "diseaseId",
+        "label",
+        "organism",
+        "phenotype",
+        "tissue",
+        "stage"
+      ],
+      "additionalProperties": false
+    },
+    "assessment": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "subjectId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contextId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scoringModelId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "metricStatus": {
+          "type": "object",
+          "properties": {
+            "mechanisticWeight": {
+              "const": "unassessed"
+            },
+            "evidenceConfidence": {
+              "const": "unassessed"
+            },
+            "therapeuticLeverage": {
+              "const": "unassessed"
+            }
+          },
+          "required": [
+            "mechanisticWeight",
+            "evidenceConfidence",
+            "therapeuticLeverage"
+          ],
+          "additionalProperties": false
+        },
+        "mechanisticWeight": {
+          "type": "null"
+        },
+        "evidenceConfidence": {
+          "type": "null"
+        },
+        "therapeuticLeverage": {
+          "type": "null"
+        },
+        "supportingClaimIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "qualifyingClaimIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "contradictingClaimIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewerDecision": {
+          "type": "null"
+        },
+        "reviewedAt": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "subjectId",
+        "contextId",
+        "scoringModelId",
+        "metricStatus",
+        "mechanisticWeight",
+        "evidenceConfidence",
+        "therapeuticLeverage",
+        "supportingClaimIds",
+        "qualifyingClaimIds",
+        "contradictingClaimIds",
+        "rationale",
+        "reviewerDecision",
+        "reviewedAt"
+      ],
+      "additionalProperties": false
+    },
+    "scoringModel": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "calibrated": {
+          "const": false
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "label",
+        "calibrated",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "layout": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "positions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "entityId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "entityId",
+              "x",
+              "y"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "positions"
+      ],
+      "additionalProperties": false
+    },
+    "mapView": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contextId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entityIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "relationshipIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "assessmentIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "layoutId": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "label",
+        "contextId",
+        "entityIds",
+        "relationshipIds",
+        "assessmentIds",
+        "layoutId"
+      ],
+      "additionalProperties": false
+    },
+    "therapy": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revisionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "under_review",
+            "approved",
+            "published"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "modality": {
+          "type": "string",
+          "minLength": 1
+        },
+        "directTargetIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "indirectTargetIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "mechanismOfAction": {
+          "type": "string",
+          "minLength": 1
+        },
+        "indicationContextId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "developmentStatus": {
+          "enum": [
+            "unverified",
+            "experimental",
+            "approved",
+            "withdrawn"
+          ]
+        },
+        "trialSourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "supportingClaimIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "lastVerifiedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "revisionId",
+        "status",
+        "name",
+        "modality",
+        "directTargetIds",
+        "indirectTargetIds",
+        "mechanismOfAction",
+        "indicationContextId",
+        "developmentStatus",
+        "trialSourceIds",
+        "supportingClaimIds",
+        "lastVerifiedAt"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
