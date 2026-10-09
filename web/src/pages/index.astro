@@ -1,6 +1,6 @@
 ---
 import AtlasLayout from '../layouts/AtlasLayout.astro';
-import release from '../data/fixture';
+import release from '../data/release';
 ---
 <AtlasLayout title="Living disease atlas">
   <section class="landing-hero page-width">
@@ -8,14 +8,14 @@ import release from '../data/fixture';
     <h1>Follow the mechanism.<br /><em>Inspect the evidence.</em></h1>
     <p class="hero-description">Disease is a network of interacting processes. Causome brings those connections into view, with the claims, context, and uncertainty behind every link.</p>
     <a class="button-link" href="/diseases/sle/">Explore the SLE map <span aria-hidden="true">↗</span></a>
-    <p class="quiet-note">Milestone 1 · Illustrative, unreviewed data</p>
+    <p class="quiet-note">Milestone 2 · Source checked; human domain review pending</p>
   </section>
   <section class="page-width atlas-list" aria-labelledby="atlas-heading">
     <div class="section-heading"><h2 id="atlas-heading">Inside the atlas</h2><span>01 / Disease map</span></div>
     <a class="disease-card" href="/diseases/sle/">
-      <div><p class="eyebrow">Autoimmune disease · SLE</p><h3>Systemic lupus<br />erythematosus</h3><p>A small mechanism fixture for exploring the first atlas interface.</p></div>
+      <div><p class="eyebrow">Autoimmune disease · SLE</p><h3>Systemic lupus<br />erythematosus</h3><p>A bounded nucleic-acid, interferon and B-cell circuit with primary evidence and linked interventions.</p></div>
       <div class="card-circuit" aria-hidden="true"><svg viewBox="0 0 300 190"><path d="M55 65 148 32 245 85 159 155 55 65M148 32 159 155" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="55" cy="65" r="17"/><circle cx="148" cy="32" r="11"/><circle cx="245" cy="85" r="20"/><circle cx="159" cy="155" r="14"/></svg></div>
-      <div class="card-meta"><span>{release.entities.length} entities · {release.relationships.length} relationships</span><span class="pill">Illustrative preview</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+      <div class="card-meta"><span>{release.entities.length} entities · {release.relationships.length} relationships</span><span class="pill">Scientific candidate</span><span class="card-arrow" aria-hidden="true">↗</span></div>
     </a>
   </section>
   <section class="page-width principles" aria-label="Atlas principles">

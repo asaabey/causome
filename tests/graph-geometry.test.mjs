@@ -50,3 +50,20 @@ test('vertical association curves beside endpoints rather than through the targe
   assert.ok(association.label.x < source.x);
   assert.ok(association.end.x <= target.x + 1);
 });
+
+test('receptor ellipses and substrate parallelograms clip to their visible boundaries', () => {
+  const ellipse = boundaryPoint({ x: 0, y: 0, width: 200, height: 100, shape: 'ellipse' }, { x: 200, y: 0 });
+  assert.ok(Math.abs(((ellipse.x - 100) / 100) ** 2 + ((ellipse.y - 50) / 50) ** 2 - 1) < 1e-8);
+  const substrate = boundaryPoint({ x: 0, y: 0, width: 200, height: 100, shape: 'parallelogram' }, { x: 0, y: 0 });
+  assert.ok(substrate.x > 0 && substrate.x < 30 && substrate.y > 0);
+});
+
+test('a downstream feedback return leaves the bottom and enters the upstream left boundary', () => {
+  const source = { x: 600, y: 470, width: 190, height: 112, shape: 'hexagon' };
+  const target = { x: 0, y: 0, width: 190, height: 112, shape: 'hexagon' };
+  const edge = edgeGeometry(source, target, false, true);
+  assert.equal(edge.start.y, source.y + source.height);
+  assert.equal(edge.end.x, target.x);
+  assert.ok(edge.label.y > source.y + source.height);
+  assert.ok(edge.path.includes(' Q '));
+});

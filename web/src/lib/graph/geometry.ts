@@ -1,5 +1,5 @@
 /** Geometry shared by SVG node silhouettes and edge clipping. All coordinates are flow-space. */
-export type Shape = 'diamond' | 'capsule' | 'hexagon' | 'rectangle' | 'octagon';
+export type Shape = 'diamond' | 'capsule' | 'hexagon' | 'rectangle' | 'octagon' | 'ellipse' | 'parallelogram';
 export interface Point { x: number; y: number }
 export interface ShapeBox extends Point { width: number; height: number; shape: Shape }
 
@@ -11,6 +11,7 @@ export function polygonPoints(shape: Exclude<Shape, 'capsule'>, width: number, h
   switch (shape) {
     case 'diamond': return [{ x: width / 2, y: 0 }, { x: width, y: height / 2 }, { x: width / 2, y: height }, { x: 0, y: height / 2 }];
     case 'hexagon': return [{ x: width / 5, y: 0 }, { x: width * 4 / 5, y: 0 }, { x: width, y: height / 2 }, { x: width * 4 / 5, y: height }, { x: width / 5, y: height }, { x: 0, y: height / 2 }];
+    case 'parallelogram': return [{ x: width * .15, y: 0 }, { x: width, y: 0 }, { x: width * .85, y: height }, { x: 0, y: height }];
     case 'octagon': {
       const cut = Math.min(width, height) * 0.24;
       return [{ x: cut, y: 0 }, { x: width - cut, y: 0 }, { x: width, y: cut }, { x: width, y: height - cut }, { x: width - cut, y: height }, { x: cut, y: height }, { x: 0, y: height - cut }, { x: 0, y: cut }];
@@ -26,6 +27,11 @@ export function boundaryPoint(box: ShapeBox, toward: Point): Point {
   const origin = center(box);
   const direction = { x: toward.x - origin.x, y: toward.y - origin.y };
   if (Math.abs(direction.x) + Math.abs(direction.y) < 1e-8) return { x: origin.x + box.width / 2, y: origin.y };
+
+  if (box.shape === 'ellipse') {
+    const t = 1 / Math.hypot(direction.x / (box.width / 2), direction.y / (box.height / 2));
+    return { x: origin.x + direction.x * t, y: origin.y + direction.y * t };
+  }
 
   if (box.shape === 'capsule') {
     // The SVG capsule is a rounded rectangle with radius min(width,height)/2.
@@ -65,6 +71,19 @@ export interface EdgeGeometry { path: string; label: Point; start: Point; end: P
 export function edgeGeometry(source: ShapeBox, target: ShapeBox, symmetric: boolean, feedback = false): EdgeGeometry {
   const a = center(source);
   const b = center(target);
+  if (feedback && a.y > b.y + 100) {
+    // Return from the downstream row around its bottom and the upstream left,
+    // rather than cutting horizontally through neighboring biological nodes.
+    const routeX = Math.min(source.x, target.x) - 110;
+    const routeY = Math.max(source.y + source.height, target.y + target.height) + 100;
+    const start = boundaryPoint(source, { x: a.x, y: routeY });
+    const end = boundaryPoint(target, { x: routeX, y: b.y });
+    const radius = 28;
+    return {
+      path: `M ${start.x} ${start.y} L ${start.x} ${routeY - radius} Q ${start.x} ${routeY} ${start.x - radius} ${routeY} L ${routeX + radius} ${routeY} Q ${routeX} ${routeY} ${routeX} ${routeY - radius} L ${routeX} ${end.y + radius} Q ${routeX} ${end.y} ${routeX + radius} ${end.y} L ${end.x} ${end.y}`,
+      label: { x: (start.x + routeX) / 2, y: routeY - 18 }, start, end, feedback,
+    };
+  }
   if (symmetric || feedback) {
     const vertical = Math.abs(a.y - b.y) > 100;
     const routeX = Math.min(source.x, target.x) - (feedback ? 150 : 125);

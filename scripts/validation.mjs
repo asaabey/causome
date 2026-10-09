@@ -65,10 +65,10 @@ export function validatePreview(bundle) {
     if (assessment && (assessment.subjectId !== edge.id || assessment.contextId !== edge.contextId)) {
       errors.push(`${edge.id}: assessment does not match its subject and context`);
     }
-    for (const claimId of edge.supportingClaimIds) {
+    for (const claimId of [...edge.supportingClaimIds, ...edge.qualifyingClaimIds, ...edge.contradictingClaimIds]) {
       const claim = indexes.claims.get(claimId);
       if (claim && (claim.subjectId !== edge.sourceId || claim.objectId !== edge.targetId || claim.contextId !== edge.contextId || claim.predicate !== edge.predicate)) {
-        errors.push(`${edge.id}: supporting claim ${claimId} does not match the relationship`);
+        errors.push(`${edge.id}: attached claim ${claimId} does not match the relationship`);
       }
     }
   }
@@ -79,25 +79,60 @@ export function validatePreview(bundle) {
     symmetricPairs.add(key);
   }
   for (const claim of bundle.claims) {
-    reference('entities', claim.subjectId, claim.id);
+    if (!indexes.therapies.has(claim.subjectId)) reference('entities', claim.subjectId, claim.id);
     reference('entities', claim.objectId, claim.id);
     reference('contexts', claim.contextId, claim.id);
     for (const id of claim.evidenceItemIds) reference('evidenceItems', id, claim.id);
     if (bundle.illustrative && (claim.verification !== 'unverified' || claim.causalInterpretation !== 'illustrative')) {
       errors.push(`${claim.id}: illustrative claims must remain explicitly unverified`);
     }
+    if (!bundle.illustrative) {
+      if (!['source_checked', 'reviewed'].includes(claim.verification) || claim.causalInterpretation === 'illustrative') errors.push(`${claim.id}: scientific candidate needs a source check`);
+      const review = claim.reviewDisposition;
+      if (claim.sourceCheckedAt > bundle.evidenceCutoff) errors.push(`${claim.id}: source check exceeds evidence cutoff`);
+      if (review?.decision === 'pending_domain_review' && (review.reviewerId !== null || review.reviewedAt !== null || claim.verification === 'reviewed')) errors.push(`${claim.id}: pending review cannot carry human approval`);
+      if (claim.verification === 'reviewed' && (review?.decision !== 'accepted' || !review.reviewerId || !review.reviewedAt)) errors.push(`${claim.id}: reviewed claim needs a recorded domain-review disposition`);
+      for (const id of claim.evidenceItemIds) {
+        const evidence = indexes.evidenceItems.get(id);
+        const source = evidence && indexes.sources.get(evidence.sourceId);
+        if (source?.kind === 'fixture_documentation') errors.push(`${claim.id}: scientific candidate cannot cite fixture documentation`);
+      }
+    }
   }
-  for (const evidence of bundle.evidenceItems) reference('sources', evidence.sourceId, evidence.id);
+  for (const evidence of bundle.evidenceItems) {
+    reference('sources', evidence.sourceId, evidence.id);
+    if (!bundle.illustrative && evidence.retrievedAt > bundle.evidenceCutoff) errors.push(`${evidence.id}: retrieval exceeds evidence cutoff`);
+  }
+  if (!bundle.illustrative) {
+    for (const entity of bundle.entities) if (!entity.biologicalRoleClaimIds.length) errors.push(`${entity.id}: scientific entity needs a role claim`);
+    for (const source of bundle.sources) {
+      try {
+        if (new URL(source.url).protocol !== 'https:') errors.push(`${source.id}: scientific source needs an HTTPS URL`);
+      } catch { errors.push(`${source.id}: invalid scientific source URL`); }
+    }
+  }
   for (const therapy of bundle.therapies) {
     for (const id of [...therapy.directTargetIds, ...therapy.indirectTargetIds]) reference('entities', id, therapy.id);
     reference('contexts', therapy.indicationContextId, therapy.id);
     for (const id of therapy.supportingClaimIds) reference('claims', id, therapy.id);
+    for (const id of [...(therapy.qualifyingClaimIds ?? []), ...(therapy.contradictingClaimIds ?? [])]) reference('claims', id, therapy.id);
+    for (const id of therapy.verificationSourceIds ?? []) reference('sources', id, therapy.id);
+    if (!bundle.illustrative) {
+      if (therapy.directTargetIds.length + therapy.indirectTargetIds.length === 0) errors.push(`${therapy.id}: therapy needs a linked target`);
+      if (therapy.lastVerifiedAt > bundle.evidenceCutoff) errors.push(`${therapy.id}: verification exceeds evidence cutoff`);
+      for (const id of [...therapy.supportingClaimIds, ...therapy.qualifyingClaimIds, ...therapy.contradictingClaimIds]) {
+        const claim = indexes.claims.get(id);
+        if (claim && claim.subjectId !== therapy.id) errors.push(`${therapy.id}: claim ${id} does not concern the therapy`);
+      }
+      if (therapy.developmentStatus === 'approved' && !therapy.verificationSourceIds.some(id => indexes.sources.get(id)?.kind === 'regulatory')) errors.push(`${therapy.id}: approved therapy needs regulatory status evidence`);
+    }
     for (const id of therapy.trialSourceIds) {
       reference('sources', id, therapy.id);
       const source = indexes.sources.get(id);
       if (source && source.kind !== 'trial') errors.push(`${therapy.id}: ${id} is not a trial source`);
     }
   }
+  if (bundle.formatVersion !== bundle.manifest.schemaVersion) errors.push('Manifest schema version does not match bundle format version');
   for (const context of bundle.contexts) {
     if (context.diseaseId !== bundle.diseaseId) errors.push(`${context.id}: disease does not match release`);
   }
@@ -176,6 +211,7 @@ export async function validatePublication(bundle, trustedWorkflow = {}) {
     if (claim.verification !== 'reviewed' || claim.causalInterpretation === 'illustrative') {
       errors.push(`${claim.id}: unverified claim cannot be published`);
     }
+    if (claim.reviewDisposition?.decision === 'pending_domain_review') errors.push(`${claim.id}: pending domain review cannot be published`);
   }
   if (typeof trustedWorkflow.verifyAuthenticatedApproval !== 'function') {
     errors.push('Publication requires a trusted authenticated approval verifier; JSON approval fields are insufficient');

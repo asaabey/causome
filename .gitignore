@@ -5,6 +5,12 @@ web/.astro/
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+credentials.json
+secrets.yaml
+secrets.yml
+service-account*.json
 test-results/
 playwright-report/
 .playwright-mcp/

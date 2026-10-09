@@ -9,7 +9,7 @@ if (args.some(arg => arg.startsWith('--') && arg !== '--publish') || paths.lengt
   console.error('Usage: node scripts/validate-release.mjs [bundle.json] [--publish]');
   process.exit(1);
 }
-const path = paths[0] ?? new URL('../knowledge/diseases/sle/releases/sle-illustrative-001.json', import.meta.url);
+const path = paths[0] ?? new URL('../knowledge/diseases/sle/candidates/sle-curated-candidate-001.json', import.meta.url);
 try {
   const bundle = JSON.parse(await readFile(path, 'utf8'));
   const result = publication ? await validatePublication(bundle) : validatePreview(bundle);

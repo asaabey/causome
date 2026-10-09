@@ -1132,6 +1132,8 @@ Done when:
 
 ### 20.2 Milestone 2: Curated SLE experience
 
+Status: Reviewable source-checked candidate implemented on 2026-10-10: 21 entities, 27 relationships, and three therapies, with focused map views, claim-level provenance, study systems, qualifying evidence, negative trial outcomes, and a complete static outline. All scores remain unassessed. Human domain review of the proposed maintaining circuit and source interpretations is pending; no reviewed or published release is claimed. See curation/reviews/sle-curated-candidate-001.md for the initial note and claim ledger.
+
 Build:
 
 - Manually curate the bounded SLE set in Section 5.2; source concepts guide inclusion but are not substitutes for primary-source verification.
@@ -1286,10 +1288,10 @@ The following remain open; they do not replace the MVP defaults and publication 
 
 ## 24. Immediate next steps
 
-1. Start Milestone 1: scaffold the Astro app and minimal data/schema folders.
+1. Milestone 1 is complete: the Astro app, graph renderer, schema and validation/build CI are implemented.
 2. Create the small illustrative fixture, validator, selectable graph, and evidence inspector.
 3. Choose the graph renderer using the fixture and commit to one implementation.
-4. Start Milestone 2: manually curate the bounded SLE map and its sources and therapy records.
+4. Milestone 2 candidate is implemented: complete the pending domain review of the bounded SLE map, primary-source interpretations and therapy records.
 5. Start Milestone 3: complete accessibility, authenticated scientific review, and static publication of the root release.
 6. Launch when Section 21 passes; use initial user feedback to prioritize Milestone 4.
 
