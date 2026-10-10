@@ -1,0 +1,149 @@
+{
+  "verifiedAt": "2026-10-10T05:39:53.782521+00:00",
+  "mode": "unreviewed-local-preview",
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "tests": {
+    "unitIntegration": 82,
+    "browser": 42,
+    "optInBenchmarksSkipped": 4
+  },
+  "astro": {
+    "files": 35,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0,
+    "routes": 28
+  },
+  "registryCandidates": 10,
+  "health": {
+    "baseURL": "http://127.0.0.1:4322",
+    "passed": true
+  },
+  "immutableSnapshotsPreserved": true,
+  "automaticCandidates": [
+    {
+      "diseaseId": "crest-syndrome",
+      "candidateId": "crest-syndrome-appraised-candidate-30d2fc09b9ce",
+      "contentDigest": "f0ce0ed21a86ea484954b7761c6ebc2995f7a8a41504daceeec1690b69866a67",
+      "assessmentCount": 59,
+      "weightCount": 59,
+      "confidenceCount": 59,
+      "therapeuticCategoryCount": 59,
+      "acceptedReviewCount": 0
+    },
+    {
+      "diseaseId": "pre-eclampsia",
+      "candidateId": "pre-eclampsia-appraised-candidate-41278c06c087",
+      "contentDigest": "7f47946e9eefb4831f5bdeb673bfbc70ba68af7643e38d89e6c31e1fbad2aefb",
+      "assessmentCount": 57,
+      "weightCount": 57,
+      "confidenceCount": 57,
+      "therapeuticCategoryCount": 57,
+      "acceptedReviewCount": 0
+    }
+  ],
+  "initialBrowserRun": {
+    "passed": 38,
+    "failed": 4,
+    "skipped": 4,
+    "reason": "Selected disease reset on reload when new diseases changed the default workspace; URL persistence repaired it.",
+    "log": "/private/tmp/causome-auto-browser.txt"
+  },
+  "finalBrowserLog": "/private/tmp/causome-auto-browser-final.txt",
+  "unitLog": "/private/tmp/causome-auto-all-tests.txt",
+  "rawLogStorage": "Local temporary diagnostic logs; not durable source evidence. Appraisal inputs/results remain in disease workspace packets.",
+  "independentSemanticValidationClaimed": false,
+  "calibrationClaimed": false,
+  "publicApprovalClaimed": false,
+  "performanceRerunClaimed": false,
+  "sourceFiles": [
+    {
+      "path": "scripts/automatic-appraisal.mjs",
+      "sha256": "93bf3e0315412ed25f98e9227744d368994ccc07d1e3d7be6d0d16fc90129b31"
+    },
+    {
+      "path": "scripts/curate.mjs",
+      "sha256": "97623f5262f935e6e40127ba7c0e2a194464442fb3534e505ab0e541ae7406b7"
+    },
+    {
+      "path": "scripts/curation/assessment.mjs",
+      "sha256": "9dc4ee69eb12e5fde1e28bbf94c2c48a6efffe114b33c4761f608c3e8cbe0a0b"
+    },
+    {
+      "path": "scripts/scoring.mjs",
+      "sha256": "2d970eac621b7e102a58fa3255cb34ade6fd644c70a1d455ebf3fd3859c0ab2a"
+    },
+    {
+      "path": "schemas/release.schema.json",
+      "sha256": "ac6bab0622f63a2a8f8df1c207fa96d7f434ba4c49f47f07d4bf953d4791f495"
+    },
+    {
+      "path": "web/src/components/CurationWorkbench.tsx",
+      "sha256": "31759e36ec58de2397a1d159a8d24c2c42e1c8835fd8751f56615903d6c8b58d"
+    },
+    {
+      "path": "web/src/components/AssessmentCard.astro",
+      "sha256": "126b200d12e04def4275d13cbfc3baef0b568d8509a5b0d7e5e383f92df7c723"
+    },
+    {
+      "path": "web/src/components/graph/EvidenceInspector.tsx",
+      "sha256": "e186a1a326ad645ee73569593175fa6dba8a50f14551225f1409f9fceb4739a0"
+    },
+    {
+      "path": "web/src/lib/assessment.ts",
+      "sha256": "b711fa3e21b564f2fd92ead6285e84df42e9c737549939f03a0e27af08131a49"
+    },
+    {
+      "path": "web/src/data/types.ts",
+      "sha256": "c5a49b86c4875f6cb428198c259c4a759a98f2414b89ef9ad8987dfd3d95fee4"
+    },
+    {
+      "path": "web/src/pages/methodology.astro",
+      "sha256": "50a068572867cebc9142797eaf6b81e858aae1e164f374fff3c74b65795151bf"
+    },
+    {
+      "path": "tests/automatic-appraisal.test.mjs",
+      "sha256": "8f61ec092e5f7308388d202007c7928b7cd5d7f69c6b324d819db9274ece704e"
+    },
+    {
+      "path": "tests/browser/automatic-appraisal.spec.ts",
+      "sha256": "b5d9eddcc3144cf6b945b2b1861a02a99b242258a249734c5a2235b798f3cbe0"
+    },
+    {
+      "path": "CURATION.md",
+      "sha256": "2f4b71f3885effe9f1d07bb0cba73b7b96574cf558bb0703424156f74b6b5dec"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2df6644d796514c631820a56137ea0fd35684bcdaa19783cd59159cf7fb6e9fa"
+    },
+    {
+      "path": "PROGRESS.md",
+      "sha256": "d5b99e8518ec22433c30bd1481dd2912ffe642ce451f5593c5b786abe04f3d00"
+    },
+    {
+      "path": "knowledge/diseases/crest-syndrome/disease.json",
+      "sha256": "1ed017ae1ba37e5b20e9667559d0040021ab4302ebcea91c291664815f8535cd"
+    },
+    {
+      "path": "knowledge/diseases/crest-syndrome/candidates/crest-syndrome-appraised-candidate-30d2fc09b9ce.json",
+      "sha256": "f23a60fd76db031c25f334b87de5c1a60b446821da1428a9168326083abd6074"
+    },
+    {
+      "path": "knowledge/diseases/crest-syndrome/candidates/crest-syndrome-candidate-001.json",
+      "sha256": "6581ad6f502ef6641eb4ee777b44e6d4f283f19544f24a452361126a6b0a96e9"
+    },
+    {
+      "path": "knowledge/diseases/pre-eclampsia/disease.json",
+      "sha256": "8193432f83b457a23271b2472cfed1545fefd93b44669a1a2e329f521647a1c6"
+    },
+    {
+      "path": "knowledge/diseases/pre-eclampsia/candidates/pre-eclampsia-appraised-candidate-41278c06c087.json",
+      "sha256": "5964fb436edc63b97a11b33da749b410a30fc36e925d8fbc79757e2284e32896"
+    },
+    {
+      "path": "knowledge/diseases/pre-eclampsia/candidates/pre-eclampsia-candidate-001.json",
+      "sha256": "77609515cbd1a1f3df37dca170774ba3f38ddad85aaca7f8743954ca198bc532"
+    }
+  ]
+}

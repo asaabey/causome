@@ -46,7 +46,7 @@ export interface Assessment extends RecordIdentity {
   metricStatus: { mechanisticWeight: 'unassessed' | 'assessed'; evidenceConfidence: 'unassessed' | 'assessed'; therapeuticLeverage: 'unassessed' | 'categorical' };
   mechanisticWeight: number | null; evidenceConfidence: number | null; therapeuticLeverage: null;
   weightRaw?: number | null; weightTier?: number | null;
-  appraisalProvenance?: { status: 'provisional'; assessorId: string; assessorKind: 'agent' | 'human'; assessedAt: string; inputDigest: string; baseReleaseId: string; baseContentDigest: string };
+  appraisalProvenance?: { status: 'provisional'; assessorId: string; assessorKind: 'agent' | 'human' | 'system'; assessedAt: string; inputDigest: string; baseReleaseId: string; baseContentDigest: string; method?: 'rules'; rulesVersion?: string };
   therapeuticAppraisal?: { category: 'approved_direct_target' | 'experimental_direct_target' | 'withdrawn_direct_target' | 'unverified_direct_target' | 'indirect_intervention' | 'no_linked_intervention'; scope: 'entity' | 'relationship_endpoints'; therapyIds: string[]; rationale: string };
   weightComponents?: Record<string, { rating: number | null; rationale: string; claimIds: string[] }>;
   confidenceAppraisal?: { dimensions: Record<string, { rating: string; rationale: string; claimIds: string[] }>; downgradeRationale?: string };

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "id": "crest-syndrome",
+  "label": "CREST syndrome (limited cutaneous systemic sclerosis)",
+  "summary": "A bounded limited cutaneous systemic sclerosis map: anticentromere autoimmunity, endothelial vasculopathy with a pulmonary arterial hypertension branch, fibroblast activation and calcinosis associations. Raynaud's phenomenon has no supported edge yet. Diffuse cutaneous SSc-specific features, scleroderma renal crisis, morphea and overlap syndromes are out of scope.",
+  "query": "(TITLE_ABS:\"CREST syndrome\" OR TITLE_ABS:\"limited cutaneous systemic sclerosis\" OR TITLE_ABS:\"limited systemic sclerosis\" OR TITLE_ABS:\"anticentromere\")",
+  "aliases": [
+    "CREST",
+    "limited cutaneous systemic sclerosis",
+    "lcSSc",
+    "limited scleroderma"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "crest-syndrome-appraised-candidate-30d2fc09b9ce"
+}

@@ -2,7 +2,7 @@ import { ArrowRight, BookOpen, CornerUpLeft, ExternalLink } from 'lucide-react';
 import { useLayoutEffect, useRef } from 'react';
 import type { Claim, Entity, Relationship, ReleaseBundle } from '../../data/types';
 import { classPresentation, humanize } from './FlowElements';
-import { therapeuticLabel, appraisalFieldLabel } from '../../lib/assessment';
+import { therapeuticLabel, appraisalFieldLabel, metricLabel, appraisalAttribution } from '../../lib/assessment';
 
 export type Selection = { kind: 'entity' | 'relationship' | 'therapy'; id: string } | null;
 
@@ -78,11 +78,11 @@ export default function EvidenceInspector({ release, contextId, assessmentIds, s
       {subject && <>
         <div className="evidence-context"><span className="graph-kicker">Biological context</span><p>{context?.label ?? 'Not specified'}</p><small>{[context?.organism, context?.phenotype, context?.tissue, context?.stage].filter(Boolean).join(' · ')}</small></div>
         <dl className="evidence-scores">
-          <div><dt>Mechanistic weight</dt><dd>{assessment?.mechanisticWeight == null ? 'Not assessed' : `${assessment.mechanisticWeight}/100`}</dd></div>
-          <div><dt>Evidence confidence</dt><dd>{assessment?.evidenceConfidence == null ? 'Not assessed' : `${assessment.evidenceConfidence}/4`}</dd></div>
+          <div><dt>Mechanistic weight</dt><dd>{metricLabel(assessment, 'mechanisticWeight')}</dd></div>
+          <div><dt>Evidence confidence</dt><dd>{metricLabel(assessment, 'evidenceConfidence')}</dd></div>
           <div><dt>Therapeutic leverage</dt><dd>{therapeuticLabel(assessment)}</dd></div>
         </dl>
-        {assessment?.appraisalProvenance && <p className="evidence-appraisal-status"><strong>Provisional · uncalibrated · review pending.</strong><br />Draft by {assessment.appraisalProvenance.assessorId} ({assessment.appraisalProvenance.assessorKind}), {assessment.appraisalProvenance.assessedAt}.</p>}
+        {assessment?.appraisalProvenance && <p className="evidence-appraisal-status"><strong>Provisional · uncalibrated · review pending.</strong><br />{appraisalAttribution(assessment)}</p>}
         {(assessment?.mechanisticWeight != null || assessment?.evidenceConfidence != null) && <p className="evidence-empty">Model: {scoringModel?.label} ({scoringModel?.revisionId}). Calibration: {scoringModel?.calibrated ? 'Accepted' : 'Pending'}. Appraisal review: {assessment?.reviewerDecision ?? 'Pending'}.</p>}
         {assessment?.therapeuticAppraisal && <details className="evidence-appraisal"><summary>Therapeutic target coverage and limits</summary><p>{assessment.therapeuticAppraisal.rationale}</p>{assessment.therapeuticAppraisal.therapyIds.map(id => { const therapy = release.therapies.find(item => item.id === id); return therapy && <div key={id}><button type="button" onClick={() => onSelect({ kind: 'therapy', id })}>{therapy.name} · {humanize(therapy.developmentStatus)}</button><p>{therapy.indication} · {therapy.jurisdiction} · verified {therapy.lastVerifiedAt}</p><ul>{therapy.limitations?.map(limit => <li key={limit}>{limit}</li>)}</ul></div>; })}</details>}
         {assessment?.weightComponents && <details className="evidence-appraisal"><summary>Weight components and rationale</summary><p>Raw: {assessment.weightRaw ?? 'Not assessed'} · Tier: {assessment.weightTier ?? 'Not assessed'} · Model: {assessment.scoringModelId}</p><ul>{Object.entries(assessment.weightComponents).map(([key, value]) => <li key={key}><strong>{appraisalFieldLabel(key)}: {value.rating ?? 'Not assessed'}/4</strong><p>{value.rationale}</p><small>Claims: {value.claimIds.length ? value.claimIds.map(id => <a key={id} href={`#claim-${id}`}>{id} </a>) : 'None recorded'}</small></li>)}</ul></details>}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "id": "pre-eclampsia",
+  "label": "Pre-eclampsia",
+  "summary": "A bounded pre-eclampsia map: defective placentation and placental ischaemia/oxidative stress, the antiangiogenic sFlt-1/soluble endoglin/PlGF axis, maternal endothelial dysfunction with renal, hepatic and cerebral end-organ outcomes, and immune/complement/AT1 autoantibody contributions. Chronic hypertension without pre-eclampsia, gestational hypertension alone, postpartum-onset disease, screening performance and therapy efficacy are out of scope.",
+  "query": "(TITLE_ABS:\"preeclampsia\" OR TITLE_ABS:\"pre-eclampsia\")",
+  "aliases": [
+    "preeclampsia",
+    "PE",
+    "toxaemia of pregnancy",
+    "gestational proteinuric hypertension"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "pre-eclampsia-appraised-candidate-41278c06c087"
+}

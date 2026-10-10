@@ -973,7 +973,8 @@
             "assessorKind": {
               "enum": [
                 "agent",
-                "human"
+                "human",
+                "system"
               ]
             },
             "assessedAt": {
@@ -987,6 +988,12 @@
             },
             "baseContentDigest": {
               "type": "string"
+            },
+            "method": {
+              "const": "rules"
+            },
+            "rulesVersion": {
+              "const": "causome-auto-appraisal-v1"
             }
           },
           "required": [

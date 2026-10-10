@@ -12,7 +12,7 @@ import { scanDisease } from './curation/scan.mjs';
 import { reconcileExtraction, releaseDiff, validateExtraction, validateRevisionChanges } from './curation/reconcile.mjs';
 import { evaluateExtraction, evaluateSearch } from './curation/evaluate.mjs';
 import { seedDisease } from './curation/seed.mjs';
-import { assessmentTemplate, assessCandidate } from './curation/assessment.mjs';
+import { assessmentTemplate, assessCandidate, autoAssessCandidate } from './curation/assessment.mjs';
 import { loadPublishedRelease } from './release-store.mjs';
 
 const root = resolve('knowledge/diseases');
@@ -32,6 +32,7 @@ pnpm curate preview --disease <slug> --candidate <candidate-id>
 pnpm curate calibration-template --base <bundle.json> --output <calibration.json>
 pnpm curate assessment-template --base <bundle.json> --output <appraisals.json>
 pnpm curate assess --base <bundle.json> --input <appraisals.json>
+pnpm curate auto-assess --base <bundle.json>
 pnpm curate calibrate --input <calibration.json> [--output <result.json>]
 pnpm curate evaluate --reference <held-out.json> --predictions <predictions.json> --adjudication <review.json> --output <result.json>
 pnpm curate evaluate-search --reference <search-labels.json> --input <retrieved-ids.json> --output <result.json>
@@ -50,6 +51,26 @@ function parse(argv) {
 }
 const required = (options, key) => { assert(options[key], `Missing --${key}`); return options[key]; };
 const bundleAt = path => { const bundle = readJSON(path), validation = validatePreview(bundle); assert(validation.valid, validation.errors.join('\n')); return bundle; };
+function storeAutomaticAppraisal(base, { force = false } = {}) {
+  // Preserve explicit editorial work and already generated drafts. Raw snapshots
+  // remain immutable; every automatic appraisal gets its own candidate and inputs.
+  if (!force && (base.illustrative || base.assessments.some(item => item.appraisalProvenance ||
+      base.scoringModels.some(model => model.id === item.scoringModelId && model.calibrated) &&
+      (item.mechanisticWeight !== null || item.evidenceConfidence !== null)))) return base;
+  const { input, candidate } = autoAssessCandidate(base);
+  const directory = join('curation/workspace', base.diseaseId, 'appraisals', candidate.id);
+  writeImmutableJSON(join(directory, 'input.json'), input);
+  writeImmutableJSON(join(directory, 'result.json'), { version: 1, rulesVersion: input.rulesVersion,
+    baseReleaseId: base.id, baseContentDigest: contentDigest(base), candidateId: candidate.id,
+    contentDigest: contentDigest(candidate), inputDigest: hash(input), assessmentCount: candidate.assessments.length,
+    weightCount: candidate.assessments.filter(item => item.mechanisticWeight !== null).length,
+    confidenceCount: candidate.assessments.filter(item => item.evidenceConfidence !== null).length,
+    therapyCoverageCount: candidate.assessments.filter(item => item.therapeuticAppraisal).length,
+    limitations: input.limitations, publicationChanged: false });
+  writeImmutableJSON(join(root, candidate.diseaseId, 'candidates', `${candidate.id}.json`), candidate);
+  console.log(`Automatic provisional appraisals: ${candidate.id}\nInputs and results: ${directory}\nSelect with curate preview --disease ${candidate.diseaseId} --candidate ${candidate.id}`);
+  return candidate;
+}
 function storeProposal(report, base, inputs) {
   const directory = join('curation/workspace', report.diseaseId, 'proposals', report.id);
   if (inputs) {
@@ -65,6 +86,7 @@ function storeProposal(report, base, inputs) {
   if (existsSync(reportPath)) assert(readFileSync(reportPath, 'utf8') === markdown, 'Existing review report differs');
   else writeFileSync(reportPath, markdown, { flag: 'wx' });
   if (report.candidate) writeImmutableJSON(join(root, report.diseaseId, 'candidates', `${report.candidate.id}.json`), report.candidate);
+  if (report.candidate) storeAutomaticAppraisal(report.candidate);
   return directory;
 }
 
@@ -76,10 +98,14 @@ export async function main(argv = process.argv.slice(2)) {
     extract: ['base', 'papers', 'output', 'adapter', 'paper-keys'], reconcile: ['base', 'papers', 'extraction', 'cutoff'], propose: ['base', 'candidate'],
     diff: ['before', 'after', 'output'], preview: ['disease', 'candidate'], 'calibration-template': ['base', 'output'], calibrate: ['input', 'output'],
     'assessment-template': ['base', 'output'], assess: ['base', 'input'],
+    'auto-assess': ['base'],
     evaluate: ['reference', 'predictions', 'adjudication', 'output'], 'evaluate-search': ['reference', 'input', 'output'], 'schedule-ready': ['evaluation', 'search-evaluation', 'manual-review'],
   };
   assert(allowed[command] && Object.keys(options).every(key => allowed[command].includes(key)), `Unknown command or option.\n${help}`);
   switch (command) {
+    case 'auto-assess': {
+      storeAutomaticAppraisal(bundleAt(required(options, 'base')), { force: true }); break;
+    }
     case 'assessment-template': {
       writeImmutableJSON(required(options, 'output'), assessmentTemplate(bundleAt(required(options, 'base')))); console.log(options.output); break;
     }
@@ -115,7 +141,8 @@ export async function main(argv = process.argv.slice(2)) {
       writeImmutableJSON(join(root, profile.id, 'candidates', `${result.bundle.id}.json`), result.bundle);
       const directory = join('curation/workspace', profile.id, 'imports', `seed-${result.bundle.changeSetRevision}`);
       writeImmutableJSON(join(directory, 'papers.json'), result.papers); writeImmutableJSON(join(directory, 'extraction.json'), result.extraction);
-      console.log(`Seeded ${result.bundle.id}. Select it explicitly with curate preview; public pointer unchanged.`); break;
+      console.log(`Seeded ${result.bundle.id}; inputs: ${directory}. Public pointer unchanged.`);
+      storeAutomaticAppraisal(result.bundle); break;
     }
     case 'import': {
       const profile = loadDisease(root, required(options, 'disease')), input = readJSON(required(options, 'input'));
@@ -169,8 +196,9 @@ export async function main(argv = process.argv.slice(2)) {
     }
     case 'preview': {
       const profile = loadDisease(root, required(options, 'disease')), id = required(options, 'candidate'); assert(safeSlug(id), 'Invalid candidate ID');
-      const candidate = bundleAt(join(root, profile.id, 'candidates', `${id}.json`)); assert(candidate.diseaseId === profile.id && !['approved', 'published'].includes(candidate.status), 'Preview selector requires this disease’s candidate');
-      writeJSON(join(root, profile.id, 'disease.json'), { ...profile, previewCandidate: id }); console.log(`Preview selected ${id}; public pointer unchanged.`); break;
+      let candidate = bundleAt(join(root, profile.id, 'candidates', `${id}.json`)); assert(candidate.diseaseId === profile.id && !['approved', 'published'].includes(candidate.status), 'Preview selector requires this disease’s candidate');
+      candidate = storeAutomaticAppraisal(candidate);
+      writeJSON(join(root, profile.id, 'disease.json'), { ...profile, previewCandidate: candidate.id }); console.log(`Preview selected ${candidate.id}; public pointer unchanged.`); break;
     }
     case 'calibration-template': {
       const base = bundleAt(required(options, 'base')), blank = Object.fromEntries([...weightComponents, 'confidence'].map(key => [key, null]));

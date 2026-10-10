@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Default automatic provisional appraisals after seeding, reconciliation and unappraised proposals/previews; versioned context/evidence rules, retained reproducible input receipts, a standalone `auto-assess` command and browser worksheet export. Unknown study quality caps automatic confidence at 1/4; therapeutic coverage is categorical and source-derived.
+
 - Disease-independent curation CLI, local source queue and draft/export workbench, live Europe PMC scans, persistent-identifier deduplication, overlap/broad refresh, correction/retraction flags, failure-safe cursors and attempt logs.
 - Strict manual/model extraction contracts, exact source/base/prompt binding, contextual reconciliation, immutable proposal packets and complete scientific/view diffs.
 - Contextual scoring/calibration logic and held-out/search evaluators with blank reviewer templates; independent calibration, evaluations and approvals remain pending.
@@ -40,6 +42,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Superseded concept drafts, standalone visual prototypes, the early milestone-3 verification summary and generated local browser/test caches. Frozen disease snapshots, source inputs and dated audit records are retained.
 
 ### Fixed
+
+- Persist the chosen curation disease in the page URL so its saved draft is restored after reload even when additional diseases change the default workspace.
 
 - Preserve source-to-target direction in connected-relationship labels, distinguish symmetric associations, use the active route's context, and reset the inspector scroll position on selection.
 - Keep the selected evidence shortcut beside the diagram and focus the inspector when following search, target or relationship links.

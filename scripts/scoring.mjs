@@ -157,7 +157,11 @@ export function validateScoring(bundle) {
     if (scored && !model?.calibrated && !provisional) errors.push(`${assessment.id}: assessed values require a calibrated model or an explicit provisional appraisal`);
     if (assessment.appraisalProvenance) {
       const provenance = assessment.appraisalProvenance;
-      if (!provisional || !nonempty(provenance.assessorId) || !['agent', 'human'].includes(provenance.assessorKind) || !validDate(provenance.assessedAt) || !/^[a-f0-9]{64}$/.test(provenance.inputDigest ?? '') || !nonempty(provenance.baseReleaseId) || !/^[a-f0-9]{64}$/.test(provenance.baseContentDigest ?? '')) errors.push(`${assessment.id}: incomplete provisional appraisal provenance`);
+      if (!provisional || !nonempty(provenance.assessorId) || !['agent', 'human', 'system'].includes(provenance.assessorKind) || !validDate(provenance.assessedAt) || !/^[a-f0-9]{64}$/.test(provenance.inputDigest ?? '') || !nonempty(provenance.baseReleaseId) || !/^[a-f0-9]{64}$/.test(provenance.baseContentDigest ?? '')) errors.push(`${assessment.id}: incomplete provisional appraisal provenance`);
+      if (provenance.assessorKind === 'system' || provenance.method === 'rules') {
+        if (provenance.assessorKind !== 'system' || provenance.method !== 'rules' || provenance.rulesVersion !== 'causome-auto-appraisal-v1') errors.push(`${assessment.id}: automatic appraisal needs its supported rules version and system provenance`);
+        if (assessment.evidenceConfidence > 1) errors.push(`${assessment.id}: automatic metadata confidence cannot exceed tier 1`);
+      }
       if (assessment.reviewerDecision !== null || assessment.reviewedAt !== null || assessment.reviewerId) errors.push(`${assessment.id}: provisional appraisal cannot claim independent review`);
     }
     if (provisional && ['approved', 'published'].includes(bundle.status)) errors.push(`${assessment.id}: provisional appraisal cannot be published`);
