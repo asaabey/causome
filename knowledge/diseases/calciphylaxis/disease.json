@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "id": "calciphylaxis",
+  "label": "Calciphylaxis",
+  "summary": "A bounded map of calcific uraemic arteriolopathy: mineral-metabolism drivers, calcification-inhibitor deficiency (MGP/vitamin K, fetuin-A), vascular smooth-muscle osteogenic change, arteriolar calcification, thrombosis and skin ischaemic necrosis, plus curated therapies.",
+  "query": "(TITLE_ABS:\"calciphylaxis\" OR TITLE_ABS:\"calcific uremic arteriolopathy\" OR TITLE_ABS:\"calcific uraemic arteriolopathy\")",
+  "aliases": [
+    "calcific uremic arteriolopathy",
+    "calcific uraemic arteriolopathy",
+    "CUA",
+    "uremic calciphylaxis",
+    "non-uremic calciphylaxis"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "calciphylaxis-appraised-candidate-cc06694e21cc"
+}

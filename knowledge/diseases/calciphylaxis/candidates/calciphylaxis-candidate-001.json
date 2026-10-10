@@ -1,0 +1,4132 @@
+{
+  "id": "calciphylaxis-candidate-001",
+  "revisionId": "calciphylaxis-candidate-001-r1",
+  "formatVersion": "0.3.0",
+  "diseaseId": "calciphylaxis",
+  "title": "Calciphylaxis",
+  "status": "candidate",
+  "illustrative": false,
+  "diseaseDescription": "Calciphylaxis (calcific uraemic arteriolopathy): ischaemic skin necrosis from calcification, intimal thickening and thrombosis of small cutaneous arterioles, mainly in people on dialysis. This bounded map covers dialysis and clinical risk factors (phosphate, calcium load, PTH, obesity, diabetes, corticosteroids, hypoalbuminaemia, female sex), calcification-inhibitor deficiency (vitamin K status, warfarin, matrix Gla protein, fetuin-A), vascular smooth-muscle osteogenic change, arteriolar calcification, thrombophilia and microthrombosis, skin necrosis, sepsis and mortality. Most human links are associations from case-control studies and biopsy series; causal links rest on rodent knockout/warfarin models and in vitro work. Contradicting and qualifying results are retained.",
+  "diseaseAliases": [
+    "calcific uremic arteriolopathy",
+    "calcific uraemic arteriolopathy",
+    "CUA",
+    "uremic calciphylaxis"
+  ],
+  "parentReleaseId": null,
+  "parentContentDigest": null,
+  "createdAt": "2026-10-10T00:00:00.000Z",
+  "evidenceCutoff": "2026-10-10",
+  "changeSetRevision": "seed-8ee0cfad9dca",
+  "releaseNote": "Initial bounded calciphylaxis candidate from 23 primary reports (Europe PMC abstracts only). Associations, in-vitro mechanisms and animal-model findings remain distinct; qualifying and contradicting results are retained (no phosphate association in the Japanese nationwide study, PTH not the key driver in the German registry, non-significant calcium-binder trend, arteriolar calcification also present in normal and non-calciphylaxis skin, subgroup-specific thrombophilias). Source checks were performed by agents, not humans. Independent domain review is pending; automatic appraisals are conservative and uncalibrated.",
+  "entities": [
+    {
+      "id": "entity-calciphylaxis",
+      "label": "Calciphylaxis (clinical syndrome)",
+      "entityClass": "clinical_outcome",
+      "description": "Calcific uraemic arteriolopathy: painful cutaneous ischaemia and necrosis with medial calcification of cutaneous arterioles.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-calciphylaxis-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-mgp-carboxylation-risk",
+        "claim-cua-vka-warfarin-casecontrol",
+        "claim-cua-fetuin-a-low-registry",
+        "claim-cua-skin-bmp2-runx2-glumgp",
+        "claim-cua-dialysis-incidence-anzdata",
+        "claim-cua-phosphate-china-casecontrol",
+        "claim-cua-pth-nigwekar",
+        "claim-cua-calcium-japan",
+        "claim-cua-obesity-weenig",
+        "claim-cua-steroids-weenig",
+        "claim-cua-diabetes-insulin-nigwekar",
+        "claim-cua-albumin-japan",
+        "claim-cua-female-mazhar",
+        "claim-cua-thrombophilia-case-control",
+        "claim-cua-uk-matched-mortality"
+      ]
+    },
+    {
+      "id": "entity-vitamin-k",
+      "label": "Vitamin K status",
+      "entityClass": "metabolite",
+      "description": "Vitamin K status; deficiency denotes low status, limiting gamma-carboxylation of Gla proteins.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-vitamin-k-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-vitk-def-mgp-carboxylation"
+      ]
+    },
+    {
+      "id": "entity-vka",
+      "label": "Vitamin K antagonist (warfarin) exposure",
+      "entityClass": "process",
+      "description": "Exposure to vitamin K antagonists (warfarin, phenprocoumon, acenocoumarol).",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-vka-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-vka-warfarin-casecontrol",
+        "claim-cua-warfarin-rat-mgp-carboxylation",
+        "claim-cua-warfarin-rat-medial-calcification"
+      ]
+    },
+    {
+      "id": "entity-mgp",
+      "label": "Matrix Gla protein (carboxylated, active)",
+      "entityClass": "protein",
+      "description": "Vitamin K-dependent extracellular calcification inhibitor; uncarboxylated/dp-ucMGP is the inactive form (low active MGP).",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-mgp-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-mgp-carboxylation-risk",
+        "claim-cua-vitk-def-mgp-carboxylation",
+        "claim-cua-skin-bmp2-runx2-glumgp",
+        "claim-cua-warfarin-rat-mgp-carboxylation",
+        "claim-cua-mgp-knockout-arterial-calcification"
+      ]
+    },
+    {
+      "id": "entity-fetuin-a",
+      "label": "Fetuin-A",
+      "entityClass": "protein",
+      "description": "Circulating systemic calcification inhibitor (alpha2-Heremans-Schmid glycoprotein, AHSG).",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-fetuin-a-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-fetuin-a-low-registry",
+        "claim-cua-fetuin-a-knockout-calcification"
+      ]
+    },
+    {
+      "id": "entity-phosphate",
+      "label": "Serum phosphate / hyperphosphataemia",
+      "entityClass": "metabolite",
+      "description": "Serum or extracellular inorganic phosphate concentration.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-phosphate-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-phosphate-vsmc-osteogenic",
+        "claim-cua-phosphate-china-casecontrol"
+      ]
+    },
+    {
+      "id": "entity-vsmc-osteogenic",
+      "label": "Vascular smooth muscle cell osteochondrogenic transdifferentiation",
+      "entityClass": "process",
+      "description": "Osteo/chondrogenic phenotype switch of vascular smooth muscle cells, marked by BMP-2 signalling, Runx2/Cbfa-1, osteocalcin and osteopontin expression.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-vsmc-osteogenic-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-osteogenic-to-arteriolar-calcification",
+        "claim-cua-osteopontin-calcified-vessels",
+        "claim-cua-phosphate-vsmc-osteogenic"
+      ]
+    },
+    {
+      "id": "entity-arteriolar-calcification",
+      "label": "Medial calcification of cutaneous arterioles",
+      "entityClass": "process",
+      "description": "Medial (mural) calcification of small cutaneous and subcutaneous arterioles, the defining vascular lesion of calciphylaxis.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-arteriolar-calcification-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-osteogenic-to-arteriolar-calcification",
+        "claim-cua-osteopontin-calcified-vessels",
+        "claim-cua-warfarin-rat-medial-calcification",
+        "claim-cua-mgp-knockout-arterial-calcification",
+        "claim-cua-fetuin-a-knockout-calcification",
+        "claim-cua-histo-dermal-calcification-vs-esrd"
+      ]
+    },
+    {
+      "id": "entity-ckd-dialysis",
+      "label": "Kidney failure on dialysis (CKD stage 5D)",
+      "entityClass": "clinical_outcome",
+      "description": "Kidney failure treated with haemodialysis or peritoneal dialysis.",
+      "synonyms": [
+        "ESKD on dialysis",
+        "CKD 5D"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-ckd-dialysis-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-dialysis-incidence-anzdata"
+      ]
+    },
+    {
+      "id": "entity-calcium-load",
+      "label": "Calcium load (serum calcium, calcium-based binders)",
+      "entityClass": "metabolite",
+      "description": "Calcium exposure from serum calcium elevation and calcium-containing phosphate binders.",
+      "synonyms": [
+        "calcium carbonate",
+        "serum calcium"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-calcium-load-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-calcium-japan"
+      ]
+    },
+    {
+      "id": "entity-pth",
+      "label": "Parathyroid hormone / hyperparathyroidism",
+      "entityClass": "protein",
+      "description": "Parathyroid hormone levels and secondary hyperparathyroidism.",
+      "synonyms": [
+        "PTH",
+        "iPTH"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-pth-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-pth-nigwekar"
+      ]
+    },
+    {
+      "id": "entity-obesity",
+      "label": "Obesity",
+      "entityClass": "clinical_outcome",
+      "description": "Obesity / higher body mass index.",
+      "synonyms": [
+        "high BMI"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-obesity-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-obesity-weenig"
+      ]
+    },
+    {
+      "id": "entity-diabetes",
+      "label": "Diabetes mellitus",
+      "entityClass": "clinical_outcome",
+      "description": "Diabetes mellitus, including insulin-treated diabetes.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-diabetes-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-diabetes-insulin-nigwekar"
+      ]
+    },
+    {
+      "id": "entity-corticosteroids",
+      "label": "Systemic corticosteroid exposure",
+      "entityClass": "process",
+      "description": "Use of systemic glucocorticoids.",
+      "synonyms": [
+        "glucocorticoids"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-corticosteroids-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-steroids-weenig"
+      ]
+    },
+    {
+      "id": "entity-hypoalbuminaemia",
+      "label": "Hypoalbuminaemia",
+      "entityClass": "clinical_outcome",
+      "description": "Low serum albumin, a marker of malnutrition/inflammation.",
+      "synonyms": [
+        "low serum albumin"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-hypoalbuminaemia-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-albumin-japan"
+      ]
+    },
+    {
+      "id": "entity-female-sex",
+      "label": "Female sex",
+      "entityClass": "clinical_outcome",
+      "description": "Female sex as a demographic risk marker (no ontology class fits; modelled as clinical attribute).",
+      "synonyms": [
+        "women"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-female-sex-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-female-mazhar"
+      ]
+    },
+    {
+      "id": "entity-intimal-hyperplasia",
+      "label": "Arteriolar intimal hyperplasia / fibrosis",
+      "entityClass": "process",
+      "description": "Intimal proliferation/fibrosis narrowing small cutaneous arteries and arterioles.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-intimal-hyperplasia-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-histo-intimal-hyperplasia-specific"
+      ]
+    },
+    {
+      "id": "entity-thrombosis",
+      "label": "Cutaneous microvascular thrombosis",
+      "entityClass": "process",
+      "description": "Fibrin/platelet thrombi in dermal and subcutaneous small vessels.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-thrombosis-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-histo-thrombosis-lesional-only",
+        "claim-cua-amputation-margin-thrombosis",
+        "claim-cua-il6-tissue-factor-endothelium"
+      ]
+    },
+    {
+      "id": "entity-thrombophilia",
+      "label": "Thrombophilia (protein C/S deficiency, antiphospholipid antibodies)",
+      "entityClass": "process",
+      "description": "Inherited or acquired hypercoagulable states, including lupus anticoagulant, protein C/S and antithrombin deficiency.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-thrombophilia-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-thrombophilia-case-control"
+      ]
+    },
+    {
+      "id": "entity-inflammation",
+      "label": "Systemic inflammation",
+      "entityClass": "process",
+      "description": "Inflammatory signalling (e.g. IL-6) acting on vascular endothelium.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-inflammation-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-il6-tissue-factor-endothelium"
+      ]
+    },
+    {
+      "id": "entity-skin-necrosis",
+      "label": "Skin ischaemia, necrosis and ulceration",
+      "entityClass": "clinical_outcome",
+      "description": "Ischaemic cutaneous lesions of calciphylaxis: plaques, retiform purpura, necrosis and ulceration.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-skin-necrosis-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-histo-thrombosis-lesional-only",
+        "claim-cua-histo-intimal-hyperplasia-specific",
+        "claim-cua-histo-dermal-calcification-vs-esrd",
+        "claim-cua-amputation-margin-thrombosis",
+        "claim-cua-ulceration-mortality"
+      ]
+    },
+    {
+      "id": "entity-wound-infection",
+      "label": "Wound infection / sepsis",
+      "entityClass": "clinical_outcome",
+      "description": "Infection of necrotic wounds and resulting bacteraemia/septicaemia.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-wound-infection-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-malaysia-septicaemia-death"
+      ]
+    },
+    {
+      "id": "entity-mortality",
+      "label": "Mortality",
+      "entityClass": "clinical_outcome",
+      "description": "Death (all-cause or calciphylaxis-related).",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-mortality-8ee0cfad9dca",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-cua-ulceration-mortality",
+        "claim-cua-uk-matched-mortality",
+        "claim-cua-malaysia-septicaemia-death"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-a4454746b0f191ab74f5",
+      "revisionId": "relationship-a4454746b0f191ab74f5-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-mgp",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-5a6bd05f13849b6ebb9e",
+      "supportingClaimIds": [
+        "claim-cua-mgp-carboxylation-risk",
+        "claim-cua-skin-bmp2-runx2-glumgp"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-a91eaa28411cdbb636fd",
+      "revisionId": "relationship-a91eaa28411cdbb636fd-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-mgp",
+      "targetId": "entity-vitamin-k",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-15a2585870e163675d24",
+      "supportingClaimIds": [
+        "claim-cua-vitk-def-mgp-carboxylation"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-bde9b3d5209fff4b3ad6",
+      "revisionId": "relationship-bde9b3d5209fff4b3ad6-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-vka",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-4d3473ec3112ce35c94e",
+      "supportingClaimIds": [
+        "claim-cua-vka-warfarin-casecontrol"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-ded97be29973451f1670",
+      "revisionId": "relationship-ded97be29973451f1670-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-fetuin-a",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-fc042518602b45cc0920",
+      "supportingClaimIds": [
+        "claim-cua-fetuin-a-low-registry"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-a849c82f4248136786f4",
+      "revisionId": "relationship-a849c82f4248136786f4-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-vsmc-osteogenic",
+      "targetId": "entity-arteriolar-calcification",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-b5fae692dbe0d77983c7",
+      "supportingClaimIds": [
+        "claim-cua-osteogenic-to-arteriolar-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-2aa6ff3dc31d6323c15b",
+      "revisionId": "relationship-2aa6ff3dc31d6323c15b-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-arteriolar-calcification",
+      "targetId": "entity-vsmc-osteogenic",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-a17196a60c97015419fd",
+      "supportingClaimIds": [
+        "claim-cua-osteopontin-calcified-vessels"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-68430fc167a853ce593e",
+      "revisionId": "relationship-68430fc167a853ce593e-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-vka",
+      "targetId": "entity-mgp",
+      "predicate": "inhibits",
+      "directionality": "directed",
+      "polarity": "negative",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-e586a3e7ef56f1d9b72d",
+      "supportingClaimIds": [
+        "claim-cua-warfarin-rat-mgp-carboxylation"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-4e269b95808386badf28",
+      "revisionId": "relationship-4e269b95808386badf28-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-vka",
+      "targetId": "entity-arteriolar-calcification",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-ab465ffa11af14063c9d",
+      "supportingClaimIds": [
+        "claim-cua-warfarin-rat-medial-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-9028d2af3cbbe60fd4ef",
+      "revisionId": "relationship-9028d2af3cbbe60fd4ef-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-mgp",
+      "targetId": "entity-arteriolar-calcification",
+      "predicate": "inhibits",
+      "directionality": "directed",
+      "polarity": "negative",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-84dafb46653f1d5e0529",
+      "supportingClaimIds": [
+        "claim-cua-mgp-knockout-arterial-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-155674ee9065118a8501",
+      "revisionId": "relationship-155674ee9065118a8501-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-fetuin-a",
+      "targetId": "entity-arteriolar-calcification",
+      "predicate": "inhibits",
+      "directionality": "directed",
+      "polarity": "negative",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-233b656c256b7dfde824",
+      "supportingClaimIds": [
+        "claim-cua-fetuin-a-knockout-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-b2d7ca2cbb44fef01b6c",
+      "revisionId": "relationship-b2d7ca2cbb44fef01b6c-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-phosphate",
+      "targetId": "entity-vsmc-osteogenic",
+      "predicate": "stimulates",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-d9c627b79746fdd6f5ac",
+      "supportingClaimIds": [
+        "claim-cua-phosphate-vsmc-osteogenic"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-d8610bd54f9fd1aa7e78",
+      "revisionId": "relationship-d8610bd54f9fd1aa7e78-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-ckd-dialysis",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-7bccee68bf262559321b",
+      "supportingClaimIds": [
+        "claim-cua-dialysis-incidence-anzdata"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-cdb6e334dfefe23991e9",
+      "revisionId": "relationship-cdb6e334dfefe23991e9-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-phosphate",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-45a06bfd85bbd442ad8a",
+      "supportingClaimIds": [
+        "claim-cua-phosphate-china-casecontrol"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [
+        "claim-cua-phosphate-null-japan"
+      ]
+    },
+    {
+      "id": "relationship-8424a802222aa23bb811",
+      "revisionId": "relationship-8424a802222aa23bb811-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-calcium-load",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-06a8393bb0b846570269",
+      "supportingClaimIds": [
+        "claim-cua-calcium-japan"
+      ],
+      "qualifyingClaimIds": [
+        "claim-cua-calcium-binder-bleyer"
+      ],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-57466b6768fabed35a4b",
+      "revisionId": "relationship-57466b6768fabed35a4b-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-pth",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-22c2c43987eb3f69c99e",
+      "supportingClaimIds": [
+        "claim-cua-pth-nigwekar"
+      ],
+      "qualifyingClaimIds": [
+        "claim-cua-pth-not-key-german-registry"
+      ],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-0bb211be1315fc1ad4f8",
+      "revisionId": "relationship-0bb211be1315fc1ad4f8-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-obesity",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-7a0bc73aef81dc6c3848",
+      "supportingClaimIds": [
+        "claim-cua-obesity-weenig"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-4f0da8537703f87c08ef",
+      "revisionId": "relationship-4f0da8537703f87c08ef-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-corticosteroids",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-85e5759784d10935c3f9",
+      "supportingClaimIds": [
+        "claim-cua-steroids-weenig"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-fff95805a7ddd949d119",
+      "revisionId": "relationship-fff95805a7ddd949d119-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-diabetes",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-7d8783bde87a4ac233ad",
+      "supportingClaimIds": [
+        "claim-cua-diabetes-insulin-nigwekar"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-18e77c90566e7891c20e",
+      "revisionId": "relationship-18e77c90566e7891c20e-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-hypoalbuminaemia",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-e407b5de2ce91282e71c",
+      "supportingClaimIds": [
+        "claim-cua-albumin-japan"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-0da5496298970c971718",
+      "revisionId": "relationship-0da5496298970c971718-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-female-sex",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-1e454c0be2e2b4f5ee28",
+      "supportingClaimIds": [
+        "claim-cua-female-mazhar"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-6fb5f1dafeb1b8a1f03e",
+      "revisionId": "relationship-6fb5f1dafeb1b8a1f03e-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-skin-necrosis",
+      "targetId": "entity-thrombosis",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-cc38dce3b81515e7c2e6",
+      "supportingClaimIds": [
+        "claim-cua-histo-thrombosis-lesional-only",
+        "claim-cua-amputation-margin-thrombosis"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-76bd5d2ae3e47abb43cc",
+      "revisionId": "relationship-76bd5d2ae3e47abb43cc-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-intimal-hyperplasia",
+      "targetId": "entity-skin-necrosis",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-df1ab2e2827bdfc62642",
+      "supportingClaimIds": [
+        "claim-cua-histo-intimal-hyperplasia-specific"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-faa5d585a8b287f44fe2",
+      "revisionId": "relationship-faa5d585a8b287f44fe2-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-arteriolar-calcification",
+      "targetId": "entity-skin-necrosis",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-0b7d62b68a4e8ced45e3",
+      "supportingClaimIds": [
+        "claim-cua-histo-dermal-calcification-vs-esrd"
+      ],
+      "qualifyingClaimIds": [
+        "claim-cua-histo-calcification-in-normal-skin",
+        "claim-cua-amputation-margin-calcification-nonspecific"
+      ],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-78a2bc40d8ad350986ee",
+      "revisionId": "relationship-78a2bc40d8ad350986ee-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-thrombophilia",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-899b1c6db080329c9a71",
+      "supportingClaimIds": [
+        "claim-cua-thrombophilia-case-control"
+      ],
+      "qualifyingClaimIds": [
+        "claim-cua-thrombophilia-stage5-subgroup"
+      ],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-d6eafebfcef5d48330cd",
+      "revisionId": "relationship-d6eafebfcef5d48330cd-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-mortality",
+      "targetId": "entity-skin-necrosis",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-0fa1e9f159bd4c16ee01",
+      "supportingClaimIds": [
+        "claim-cua-ulceration-mortality"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-83166202c6cd88799d3b",
+      "revisionId": "relationship-83166202c6cd88799d3b-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-calciphylaxis",
+      "targetId": "entity-mortality",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-6689472cf256f51b80f6",
+      "supportingClaimIds": [
+        "claim-cua-uk-matched-mortality"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-a9b56e770b2c035cbef4",
+      "revisionId": "relationship-a9b56e770b2c035cbef4-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-mortality",
+      "targetId": "entity-wound-infection",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-d5c8cf271bc659344975",
+      "supportingClaimIds": [
+        "claim-cua-malaysia-septicaemia-death"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-bc44ebf6f1e45bde0d8f",
+      "revisionId": "relationship-bc44ebf6f1e45bde0d8f-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "entity-inflammation",
+      "targetId": "entity-thrombosis",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-calciphylaxis-overview",
+      "assessmentId": "assessment-610ed2b01e35a5a911c4",
+      "supportingClaimIds": [
+        "claim-cua-il6-tissue-factor-endothelium"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-cua-mgp-carboxylation-risk",
+      "revisionId": "claim-cua-mgp-carboxylation-risk-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In haemodialysis patients, a lower carboxylated fraction of circulating matrix Gla protein was associated with higher odds of calciphylaxis, each 0.1-unit fall in relative cMGP corresponding to more than a two-fold higher risk; the association persisted in patients not taking warfarin.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-mgp",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-mgp-carboxylation-risk"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Very small case-control (n=40) from a single programme; wide uncertainty around the risk estimate",
+        "MGP measured at or after diagnosis, so reverse causation and illness effects cannot be excluded",
+        "Brief report; abstract does not report the full multivariable adjustment set"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-vitk-def-mgp-carboxylation",
+      "revisionId": "claim-cua-vitk-def-mgp-carboxylation-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Among the same dialysis patients, vitamin K deficiency was associated with a lower carboxylated fraction of matrix Gla protein in multivariable adjusted analyses, linking vitamin K status to MGP activation rather than to total MGP mass.",
+      "subjectId": "entity-mgp",
+      "objectId": "entity-vitamin-k",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-vitk-def-mgp-carboxylation"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Cross-sectional biomarker association within a 40-patient case-control study; not an intervention",
+        "Vitamin K assay and deficiency threshold not described in the abstract",
+        "Observational: unmeasured nutritional and inflammatory confounding plausible in dialysis patients"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-vka-warfarin-casecontrol",
+      "revisionId": "claim-cua-vka-warfarin-casecontrol-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In a Japanese nationwide case-control study of biopsy- and clinically-confirmed calciphylaxis in haemodialysis patients, warfarin therapy was strongly associated with calciphylaxis and remained significant after multivariable adjustment (univariate OR 11.4, 95% CI 2.7-48.1).",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-vka",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-vka-warfarin-casecontrol"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Retrospective case-control with 48% centre response rate; selection and recall bias likely",
+        "Exposures recorded at the time of diagnosis, so indication bias (atrial fibrillation, vascular disease) cannot be excluded",
+        "Wide confidence interval around the warfarin odds ratio; modest sample size"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-fetuin-a-low-registry",
+      "revisionId": "claim-cua-fetuin-a-low-registry-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Dialysis patients with calciphylaxis in the German registry had median serum fetuin-A well below the assay reference range, indicating depletion of this systemic calcification inhibitor in established calciphylaxis.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-fetuin-a",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-fetuin-a-low-registry"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Comparison is against an assay reference range, not against matched dialysis controls (fetuin-A is also low in CKD generally)",
+        "Fetuin-A is a negative acute-phase reactant, so low levels may reflect the inflammation and wound burden of established disease",
+        "Cross-sectional measurement after diagnosis; no temporal or causal inference possible"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-skin-bmp2-runx2-glumgp",
+      "revisionId": "claim-cua-skin-bmp2-runx2-glumgp-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Skin specimens from calciphylaxis patients showed increased expression of inactive uncarboxylated matrix Gla protein alongside upregulation of BMP-2, Runx2 and sclerostin, compared with dialysis and non-CKD skin controls.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-mgp",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-skin-bmp2-runx2-glumgp"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Very small tissue series (7 cases); semi-quantitative immunohistochemistry",
+        "Cross-sectional biopsy of established lesions: cannot separate cause from consequence of calcification",
+        "Local Glu-MGP staining may reflect lesional vitamin K consumption rather than systemic vitamin K status"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-osteogenic-to-arteriolar-calcification",
+      "revisionId": "claim-cua-osteogenic-to-arteriolar-calcification-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "The authors interpret calciphylaxis as an active osteogenic process in which upregulated BMP-2/Runx2 signalling in the cutaneous vessel wall accompanies hydroxyapatite deposition and widespread media calcification of cutaneous arterioles.",
+      "subjectId": "entity-vsmc-osteogenic",
+      "objectId": "entity-arteriolar-calcification",
+      "predicate": "contributes_to",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-osteogenic-to-arteriolar-calcification"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "hypothesis",
+      "limitations": [
+        "Observational human histology: directionality between the osteogenic programme and mineral deposition is inferred, not demonstrated",
+        "Only 7 cases; marker expression scored on lesional tissue where calcification is already present",
+        "No functional or interventional component"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-osteopontin-calcified-vessels",
+      "revisionId": "claim-cua-osteopontin-calcified-vessels-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In 25 calciphylaxis skin biopsies, osteopontin expression was confined to the subcutis and was most striking in calcified vessels, though it was also present in non-calcified and mineral-poor vessels, suggesting the osteogenic marker is not simply a consequence of mineral deposition.",
+      "subjectId": "entity-arteriolar-calcification",
+      "objectId": "entity-vsmc-osteogenic",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-osteopontin-calcified-vessels"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Case series without a matched control group of dialysis skin biopsies",
+        "Immunohistochemistry scored descriptively, not quantified",
+        "Mixed uraemic and non-uraemic cases (renal failure in 21 of 25); cross-sectional"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-warfarin-rat-mgp-carboxylation",
+      "revisionId": "claim-cua-warfarin-rat-mgp-carboxylation-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In rats, high-dose warfarin produced focal medial calcification of arteries and heart valves resembling the matrix Gla protein-deficient mouse, which the authors attribute to warfarin inhibiting gamma-carboxylation and thus inactivating MGP; serum MGP fell while calcium and phosphorus were unchanged.",
+      "subjectId": "entity-vka",
+      "objectId": "entity-mgp",
+      "predicate": "inhibits",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-warfarin-rat-mgp-carboxylation"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Rat model of warfarin-induced arterial calcification; not human calciphylaxis and no skin or cutaneous arteriolar lesions assessed",
+        "Pharmacological warfarin doses far above clinical anticoagulant exposure",
+        "The MGP mechanism is inferred from phenotypic similarity to the MGP-deficient mouse rather than tested directly"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-warfarin-rat-medial-calcification",
+      "revisionId": "claim-cua-warfarin-rat-medial-calcification-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Warfarin administration caused medial calcification of the elastic lamellae of rat arteries within two weeks that progressively increased over five weeks, showing that vitamin K antagonism alone is sufficient to initiate medial arterial calcification.",
+      "subjectId": "entity-vka",
+      "objectId": "entity-arteriolar-calcification",
+      "predicate": "contributes_to",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-warfarin-rat-medial-calcification"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Rat large arteries and heart valves, not cutaneous arterioles, and not a calciphylaxis model (no skin necrosis reported)",
+        "Supraphysiological warfarin dosing with vitamin K co-administration",
+        "Species differences in MGP handling and mineral metabolism limit transfer to human dialysis patients"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-mgp-knockout-arterial-calcification",
+      "revisionId": "claim-cua-mgp-knockout-arterial-calcification-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Mice lacking matrix Gla protein develop spontaneous arterial and cartilage calcification and die of blood-vessel rupture within two months, establishing MGP as an active inhibitor of soft-tissue and arterial calcification produced by vascular smooth muscle cells.",
+      "subjectId": "entity-mgp",
+      "objectId": "entity-arteriolar-calcification",
+      "predicate": "inhibits",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-mgp-knockout-arterial-calcification"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "causal",
+      "limitations": [
+        "Mouse germline knockout of total MGP; not human calciphylaxis and not a model of cutaneous arteriolar disease",
+        "Phenotype involves large elastic arteries and cartilage rather than cutaneous arterioles",
+        "Complete lifelong MGP absence is a more extreme perturbation than the partial undercarboxylation seen in dialysis patients"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-fetuin-a-knockout-calcification",
+      "revisionId": "claim-cua-fetuin-a-knockout-calcification-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Fetuin-A (Ahsg)-deficient mice develop severe ectopic calcification of multiple organs on a mineral- and vitamin D-rich diet without changes in calcium or phosphate homeostasis, identifying fetuin-A as a systemically acting inhibitor of ectopic calcification.",
+      "subjectId": "entity-fetuin-a",
+      "objectId": "entity-arteriolar-calcification",
+      "predicate": "inhibits",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-fetuin-a-knockout-calcification"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "causal",
+      "limitations": [
+        "Mouse knockout with dietary mineral challenge; not human calciphylaxis and cutaneous arteriolar calcification was not the reported phenotype",
+        "Organ-level ectopic calcification described generically rather than specifically in skin arterioles",
+        "The link to calciphylaxis is the authors inference, not a tested outcome"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-phosphate-vsmc-osteogenic",
+      "revisionId": "claim-cua-phosphate-vsmc-osteogenic-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Elevated extracellular phosphate dose-dependently induced mineralisation of cultured human aortic smooth muscle cells and enhanced expression of the osteoblastic differentiation markers osteocalcin and Cbfa-1 (Runx2), through the sodium-dependent phosphate cotransporter Pit-1.",
+      "subjectId": "entity-phosphate",
+      "objectId": "entity-vsmc-osteogenic",
+      "predicate": "stimulates",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-phosphate-vsmc-osteogenic"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "In vitro study of CKD-type vascular calcification in human aortic smooth muscle cells; not calciphylaxis and not cutaneous arteriolar cells",
+        "Cultured cells in high-phosphate media do not reproduce the inhibitor-replete, flowing in vivo environment",
+        "No clinical or histological calciphylaxis outcome measured"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-dialysis-incidence-anzdata",
+      "revisionId": "claim-cua-dialysis-incidence-anzdata-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In the ANZDATA registry (2019-2022), calciphylaxis occurred in patients on kidney replacement therapy at an incidence of about 4.5 episodes per 1000 patient-years on dialysis.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-ckd-dialysis",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-dialysis-incidence-anzdata"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Registry-reported cases; diagnosis not centrally adjudicated and likely under-reported",
+        "Describes incidence within dialysis; no non-dialysis comparator incidence, so dialysis is a setting rather than a quantified relative risk"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-phosphate-china-casecontrol",
+      "revisionId": "claim-cua-phosphate-china-casecontrol-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In a single-centre Chinese matched case-control study of haemodialysis patients, higher serum phosphate was an independent risk factor for calciphylaxis after multivariable analysis.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-phosphate",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-phosphate-china-casecontrol"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Very small sample; wide confidence intervals",
+        "Retrospective; laboratory timing relative to onset not standardised in abstract",
+        "Association only"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-phosphate-null-japan",
+      "revisionId": "claim-cua-phosphate-null-japan-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In the Japanese nationwide case-control study, serum phosphate and calcium-phosphate product were not significantly associated with biopsy-confirmed calciphylaxis in haemodialysis patients.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-phosphate",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-phosphate-null-japan"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Small number of definite cases limits power to detect associations",
+        "Null finding may reflect Japanese practice patterns (tight phosphate control)"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-calcium-binder-bleyer",
+      "revisionId": "claim-cua-calcium-binder-bleyer-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In a small peritoneal dialysis case-control study, cumulative calcium carbonate (calcium salt) ingestion showed a trend toward increased calciphylaxis risk, which the authors interpreted as calcium ingestion being a risk factor.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-calcium-load",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-calcium-binder-bleyer"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Only 8 cases; the calcium carbonate association was a non-significant trend (p about 0.056)",
+        "Peritoneal dialysis population only",
+        "Result details partly lost to pipeline normaliser after a literal '<' in the abstract; quote taken from conclusion"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-pth-nigwekar",
+      "revisionId": "claim-cua-pth-nigwekar-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In a large-dialysis-organisation matched case-control study (1030 incident CUA cases), higher serum calcium, phosphorus and parathyroid hormone at haemodialysis initiation were associated with later calciphylaxis.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-pth",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-pth-nigwekar"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Case ascertainment from clinical records (not uniformly biopsy-proven)",
+        "Baseline values measured a median of ~2.5 years before CUA; residual confounding possible",
+        "Association only"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-pth-not-key-german-registry",
+      "revisionId": "claim-cua-pth-not-key-german-registry-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In the German calciphylaxis registry, median intact PTH in dialysis CUA patients was only moderately raised (147 pg/mL) and the authors concluded uncontrolled hyperparathyroidism is not the key determinant of calciphylaxis.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-pth",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-pth-not-key-german-registry"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Descriptive registry without a control group; no formal risk estimate for PTH",
+        "Voluntary notification; selection bias possible"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-calcium-japan",
+      "revisionId": "claim-cua-calcium-japan-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In the Japanese nationwide case-control study, higher adjusted serum calcium at diagnosis was associated with calciphylaxis in univariate analysis (warfarin and low albumin were the multivariable risk factors).",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-calcium-load",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-calcium-japan"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Univariate association; serum calcium not reported as an independent risk factor after multivariable adjustment",
+        "Calcium measured at diagnosis; reflects serum calcium rather than binder exposure"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-obesity-weenig",
+      "revisionId": "claim-cua-obesity-weenig-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In the Mayo Clinic series, obesity was identified as a risk factor for calciphylaxis in dialysis patients compared with age- and sex-matched dialysis controls.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-obesity",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-obesity-weenig"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Retrospective single centre",
+        "Risk factor analysis restricted to dialysis subset; no controls for 15 non-dialysis cases"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-steroids-weenig",
+      "revisionId": "claim-cua-steroids-weenig-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In the same Mayo Clinic matched dialysis analysis, systemic corticosteroid use was associated with calciphylaxis.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-corticosteroids",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-steroids-weenig"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Retrospective single centre; dose and timing of corticosteroid exposure not given in abstract",
+        "Confounding by underlying inflammatory disease possible"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-diabetes-insulin-nigwekar",
+      "revisionId": "claim-cua-diabetes-insulin-nigwekar-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Diabetes was associated with later calciphylaxis in the large US dialysis case-control study, and insulin-treated patients showed a dose-response increase in odds of CUA at typical injection sites (abdomen/thigh).",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-diabetes",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-diabetes-insulin-nigwekar"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Observational; injection-site trauma interpretation is the authors' hypothesis",
+        "Insulin use is also a marker of diabetes severity and obesity"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-albumin-japan",
+      "revisionId": "claim-cua-albumin-japan-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In the Japanese nationwide case-control study, lower serum albumin remained a significant risk factor for calciphylaxis after multivariable adjustment.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-hypoalbuminaemia",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-albumin-japan"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Albumin measured at diagnosis, so may reflect illness/inflammation (reverse causation)",
+        "Small number of cases"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-female-mazhar",
+      "revisionId": "claim-cua-female-mazhar-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In a US case-control study of end-stage kidney disease patients, women had about sixfold higher odds of calciphylaxis; low albumin and higher phosphate were also associated.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-female-sex",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-female-mazhar"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Small sample; wide confidence interval",
+        "Not replicated in all populations (Chinese and Japanese case-control studies found no female excess)"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-histo-thrombosis-lesional-only",
+      "revisionId": "claim-cua-histo-thrombosis-lesional-only-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In paired biopsies of lesional and clinically normal skin from 18 patients with suspected calciphylaxis (mostly dialysis), microvascular thrombosis was found only in lesional tissue.",
+      "subjectId": "entity-skin-necrosis",
+      "objectId": "entity-thrombosis",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-histo-thrombosis-lesional-only"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Small study (n=18) acknowledged by authors",
+        "Suspected rather than uniformly confirmed calciphylaxis",
+        "Cross-sectional histology cannot establish temporal order of thrombosis and necrosis"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-histo-intimal-hyperplasia-specific",
+      "revisionId": "claim-cua-histo-intimal-hyperplasia-specific-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Intimal hyperplasia of small arteries/arterioles was confined to lesional skin and, together with thrombosis and coarse vascular calcification, was judged a specific finding in suspected calciphylaxis.",
+      "subjectId": "entity-intimal-hyperplasia",
+      "objectId": "entity-skin-necrosis",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-histo-intimal-hyperplasia-specific"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Small study (n=18)",
+        "Authors' 'pathogenic role' is an inference from co-occurrence, not tested",
+        "Intimal hyperplasia co-occurred with calcification and thrombosis in most samples, so independent contribution unclear"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-histo-calcification-in-normal-skin",
+      "revisionId": "claim-cua-histo-calcification-in-normal-skin-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Small-artery/arteriolar calcification was nearly as common in clinically normal skin as in lesional skin of the same patients; only coarse calcification was lesion-specific, so vascular calcification alone lacked specificity for necrotic lesions.",
+      "subjectId": "entity-arteriolar-calcification",
+      "objectId": "entity-skin-necrosis",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-histo-calcification-in-normal-skin"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Small study (n=18)",
+        "Control tissue from the same high-risk patients, not healthy controls"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-histo-dermal-calcification-vs-esrd",
+      "revisionId": "claim-cua-histo-dermal-calcification-vs-esrd-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Skin biopsies from patients with calciphylaxis (n=57) were significantly more likely than biopsies from ESRD patients without calciphylaxis (n=26) to show dermal vessel calcification and diffuse dermal thrombi; histology was indistinguishable between patients with and without CKD, suggesting a common pathway in uraemic and non-uraemic calciphylaxis.",
+      "subjectId": "entity-arteriolar-calcification",
+      "objectId": "entity-skin-necrosis",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-histo-dermal-calcification-vs-esrd"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Retrospective, single cohort",
+        "Control biopsies taken for other indications (not matched sites)",
+        "Effect sizes not given in abstract"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-amputation-margin-thrombosis",
+      "revisionId": "claim-cua-amputation-margin-thrombosis-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Compared with viable skin from amputation margins of ESRD patients without calciphylaxis, skin biopsies taken for suspected calciphylaxis showed significantly more small-vessel thrombosis, whereas calcification prevalence did not differ overall.",
+      "subjectId": "entity-skin-necrosis",
+      "objectId": "entity-thrombosis",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-amputation-margin-thrombosis"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Biopsies were for suspicion of calciphylaxis, not all confirmed",
+        "Amputation sites differ anatomically from typical biopsy sites",
+        "Small sample"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-amputation-margin-calcification-nonspecific",
+      "revisionId": "claim-cua-amputation-margin-calcification-nonspecific-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Medial calcification and other historically 'characteristic' findings also occurred in viable skin of ESRD patients without calciphylaxis; only the combination of medial calcification with thrombosis was rare in unaffected patients (six-fold more prevalent in high-suspicion biopsies).",
+      "subjectId": "entity-arteriolar-calcification",
+      "objectId": "entity-skin-necrosis",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-amputation-margin-calcification-nonspecific"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Calcification was more common in the high-clinical-suspicion subgroup, so the null overall comparison partly reflects diagnostic uncertainty",
+        "Small sample"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-thrombophilia-case-control",
+      "revisionId": "claim-cua-thrombophilia-case-control-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In a two-centre case-control study of patients with renal disease (38 calciphylaxis cases, 114 matched CKD controls), lupus anticoagulant, protein C deficiency and combined thrombophilias were more frequent in calciphylaxis cases.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-thrombophilia",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-thrombophilia-case-control"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Thrombophilia testing done clinically, not systematically; denominators small and variable",
+        "Acquired protein C deficiency may reflect warfarin, liver disease or the illness itself",
+        "Temporal relationship to calciphylaxis onset unclear"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-thrombophilia-stage5-subgroup",
+      "revisionId": "claim-cua-thrombophilia-stage5-subgroup-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Restricting to stage 5 CKD, only lupus anticoagulant and combined thrombophilia remained associated with calciphylaxis (protein C deficiency did not), and in warfarin-unexposed patients only lupus anticoagulant and protein C deficiency remained; the associated thrombophilia component varies by subgroup.",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-thrombophilia",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-thrombophilia-stage5-subgroup"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Very small subgroups; multiple comparisons",
+        "Subgroup counts as printed in the abstract are internally inconsistent"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-ulceration-mortality",
+      "revisionId": "claim-cua-ulceration-mortality-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In a single-centre prospective series of 36 calciphylaxis cases, six-month mortality was 33% in patients presenting with non-ulcerating plaques and rose to above 80% once ulceration developed.",
+      "subjectId": "entity-mortality",
+      "objectId": "entity-skin-necrosis",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-ulceration-mortality"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Small series; unadjusted descriptive comparison",
+        "Clinical (largely non-biopsy) diagnosis",
+        "Ulceration may mark more advanced or severe disease rather than independently cause death"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-uk-matched-mortality",
+      "revisionId": "claim-cua-uk-matched-mortality-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In the UK Calciphylaxis Study, haemodialysis patients with calciphylaxis had substantially higher all-cause mortality than propensity-matched haemodialysis patients without calciphylaxis (annual mortality 67% vs 10.2%).",
+      "subjectId": "entity-calciphylaxis",
+      "objectId": "entity-mortality",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-uk-matched-mortality"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Registry with voluntary enrolment",
+        "Residual confounding possible despite propensity matching",
+        "Causes of death not detailed in abstract"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-malaysia-septicaemia-death",
+      "revisionId": "claim-cua-malaysia-septicaemia-death-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "In a 13-centre Malaysian dialysis cohort of 33 confirmed calciphylaxis cases, about half died within three months of diagnosis and septicaemia from infection was the most frequent cause of death.",
+      "subjectId": "entity-mortality",
+      "objectId": "entity-wound-infection",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-malaysia-septicaemia-death"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Small descriptive cohort without comparison group",
+        "Source of sepsis (wound vs other) not specified in abstract",
+        "Cause-of-death attribution from medical records"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-cua-il6-tissue-factor-endothelium",
+      "revisionId": "claim-cua-il6-tissue-factor-endothelium-8ee0cfad9dca",
+      "status": "candidate",
+      "text": "Sera from patients with uraemic calciphylaxis induced IL-6 and IL-6R synthesis in primary human dermal microvascular endothelial cells; TYMP-driven IL-6 activated tissue factor, a trigger of the extrinsic coagulation pathway, which anti-IL-6 treatment inhibited, and calciphylaxis skin showed increased IL-6 signalling.",
+      "subjectId": "entity-inflammation",
+      "objectId": "entity-thrombosis",
+      "predicate": "contributes_to",
+      "contextId": "context-calciphylaxis-overview",
+      "evidenceItemIds": [
+        "evidence-cua-il6-tissue-factor-endothelium"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Endpoint is endothelial tissue-factor induction in vitro, not observed thrombosis",
+        "IL-6 signalling is largely local (lesional microenvironment) rather than demonstrated systemic inflammation",
+        "Serum effect may reflect uraemia generally; comparison groups not detailed in abstract"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  ],
+  "evidenceItems": [
+    {
+      "id": "evidence-cua-mgp-carboxylation-risk",
+      "revisionId": "evidence-cua-mgp-carboxylation-risk-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-350819082df06385364b",
+      "summary": "In haemodialysis patients, a lower carboxylated fraction of circulating matrix Gla protein was associated with higher odds of calciphylaxis, each 0.1-unit fall in relative cMGP corresponding to more than a two-fold higher risk; the association persisted in patients not taking warfarin.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human case-control: 20 haemodialysis patients with calciphylaxis vs 20 haemodialysis controls matched for age, sex, race and warfarin use",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-vitk-def-mgp-carboxylation",
+      "revisionId": "evidence-cua-vitk-def-mgp-carboxylation-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-350819082df06385364b",
+      "summary": "Among the same dialysis patients, vitamin K deficiency was associated with a lower carboxylated fraction of matrix Gla protein in multivariable adjusted analyses, linking vitamin K status to MGP activation rather than to total MGP mass.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human case-control: 40 haemodialysis patients (20 with calciphylaxis, 20 controls) with plasma vitamin K status and carboxylated/uncarboxylated MGP measurements",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-vka-warfarin-casecontrol",
+      "revisionId": "evidence-cua-vka-warfarin-casecontrol-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-4e993189a4211caa4103",
+      "summary": "In a Japanese nationwide case-control study of biopsy- and clinically-confirmed calciphylaxis in haemodialysis patients, warfarin therapy was strongly associated with calciphylaxis and remained significant after multivariable adjustment (univariate OR 11.4, 95% CI 2.7-48.1).",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human case-control: 28 definite calciphylaxis cases vs 56 age- and dialysis-vintage-matched haemodialysis controls, from a nationwide Japanese survey",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-fetuin-a-low-registry",
+      "revisionId": "evidence-cua-fetuin-a-low-registry-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-c9181a16e2cb8f5c2a6d",
+      "summary": "Dialysis patients with calciphylaxis in the German registry had median serum fetuin-A well below the assay reference range, indicating depletion of this systemic calcification inhibitor in established calciphylaxis.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human observational registry with central biobank: biochemistry in 207 dialysis patients with calcific uraemic arteriolopathy",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-skin-bmp2-runx2-glumgp",
+      "revisionId": "evidence-cua-skin-bmp2-runx2-glumgp-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-3d89b93079bc6b72317f",
+      "summary": "Skin specimens from calciphylaxis patients showed increased expression of inactive uncarboxylated matrix Gla protein alongside upregulation of BMP-2, Runx2 and sclerostin, compared with dialysis and non-CKD skin controls.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human tissue series: skin specimens from 7 calcific uraemic arteriolopathy patients vs 7 dialysis and 7 non-CKD controls (histology, immunohistochemistry, electron microscopy, EDX, RT-PCR)",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-osteogenic-to-arteriolar-calcification",
+      "revisionId": "evidence-cua-osteogenic-to-arteriolar-calcification-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-3d89b93079bc6b72317f",
+      "summary": "The authors interpret calciphylaxis as an active osteogenic process in which upregulated BMP-2/Runx2 signalling in the cutaneous vessel wall accompanies hydroxyapatite deposition and widespread media calcification of cutaneous arterioles.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human tissue series: 7 calcific uraemic arteriolopathy skin specimens with osteogenic marker expression, EDX mineral analysis and arteriolar media calcification, vs 14 controls",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-osteopontin-calcified-vessels",
+      "revisionId": "evidence-cua-osteopontin-calcified-vessels-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-6045de6f30a89a0145a7",
+      "summary": "In 25 calciphylaxis skin biopsies, osteopontin expression was confined to the subcutis and was most striking in calcified vessels, though it was also present in non-calcified and mineral-poor vessels, suggesting the osteogenic marker is not simply a consequence of mineral deposition.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human biopsy series: 25 formalin-fixed paraffin-embedded skin biopsies with a diagnosis of calciphylaxis, stained for osteopontin",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-warfarin-rat-mgp-carboxylation",
+      "revisionId": "evidence-cua-warfarin-rat-mgp-carboxylation-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-66a9aa2dccdc5c353ff1",
+      "summary": "In rats, high-dose warfarin produced focal medial calcification of arteries and heart valves resembling the matrix Gla protein-deficient mouse, which the authors attribute to warfarin inhibiting gamma-carboxylation and thus inactivating MGP; serum MGP fell while calcium and phosphorus were unchanged.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Animal experiment: rats given high-dose warfarin with concurrent vitamin K to preserve coagulation, assessed for aortic and valvular calcification, MGP mRNA/protein and serum MGP over 2-5 weeks",
+      "evidenceType": "animal_experiment"
+    },
+    {
+      "id": "evidence-cua-warfarin-rat-medial-calcification",
+      "revisionId": "evidence-cua-warfarin-rat-medial-calcification-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-66a9aa2dccdc5c353ff1",
+      "summary": "Warfarin administration caused medial calcification of the elastic lamellae of rat arteries within two weeks that progressively increased over five weeks, showing that vitamin K antagonism alone is sufficient to initiate medial arterial calcification.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Animal experiment: time course of aortic and heart-valve calcification in warfarin-treated rats",
+      "evidenceType": "animal_experiment"
+    },
+    {
+      "id": "evidence-cua-mgp-knockout-arterial-calcification",
+      "revisionId": "evidence-cua-mgp-knockout-arterial-calcification-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-27f40c48b366741439eb",
+      "summary": "Mice lacking matrix Gla protein develop spontaneous arterial and cartilage calcification and die of blood-vessel rupture within two months, establishing MGP as an active inhibitor of soft-tissue and arterial calcification produced by vascular smooth muscle cells.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Animal experiment: Mgp-null (knockout) mice compared with wild-type littermates, arterial and cartilage phenotype",
+      "evidenceType": "animal_experiment"
+    },
+    {
+      "id": "evidence-cua-fetuin-a-knockout-calcification",
+      "revisionId": "evidence-cua-fetuin-a-knockout-calcification-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-9b0264b7b58f418a23a9",
+      "summary": "Fetuin-A (Ahsg)-deficient mice develop severe ectopic calcification of multiple organs on a mineral- and vitamin D-rich diet without changes in calcium or phosphate homeostasis, identifying fetuin-A as a systemically acting inhibitor of ectopic calcification.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Animal experiment: Ahsg (fetuin-A)-deficient mice on mineral/vitamin D-rich diet and on DBA/2 background, with ex vivo serum mineral-formation inhibition assays",
+      "evidenceType": "animal_experiment"
+    },
+    {
+      "id": "evidence-cua-phosphate-vsmc-osteogenic",
+      "revisionId": "evidence-cua-phosphate-vsmc-osteogenic-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-ea454427e3379b1711c4",
+      "summary": "Elevated extracellular phosphate dose-dependently induced mineralisation of cultured human aortic smooth muscle cells and enhanced expression of the osteoblastic differentiation markers osteocalcin and Cbfa-1 (Runx2), through the sodium-dependent phosphate cotransporter Pit-1.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human in vitro: cultured human aortic smooth muscle cells (HSMCs) exposed to physiological vs hyperphosphataemic phosphate concentrations, with phosphonoformic acid inhibition of the Pit-1 cotransporter",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-cua-dialysis-incidence-anzdata",
+      "revisionId": "evidence-cua-dialysis-incidence-anzdata-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-35c3fef9b8f4b44b5896",
+      "summary": "In the ANZDATA registry (2019-2022), calciphylaxis occurred in patients on kidney replacement therapy at an incidence of about 4.5 episodes per 1000 patient-years on dialysis.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Australia/New Zealand binational dialysis and transplant registry; 333 calciphylaxis episodes vs 46,526 KRT patients without calciphylaxis",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-phosphate-china-casecontrol",
+      "revisionId": "evidence-cua-phosphate-china-casecontrol-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-df9a6b313431bcfda6a9",
+      "summary": "In a single-centre Chinese matched case-control study of haemodialysis patients, higher serum phosphate was an independent risk factor for calciphylaxis after multivariable analysis.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Single-centre retrospective matched case-control (20 haemodialysis cases, 40 controls matched on age and dialysis vintage), China",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-phosphate-null-japan",
+      "revisionId": "evidence-cua-phosphate-null-japan-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-4e993189a4211caa4103",
+      "summary": "In the Japanese nationwide case-control study, serum phosphate and calcium-phosphate product were not significantly associated with biopsy-confirmed calciphylaxis in haemodialysis patients.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Japanese nationwide survey with case-control analysis: 28 definite (biopsy/clinical) haemodialysis calciphylaxis cases vs 56 age- and vintage-matched controls",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-calcium-binder-bleyer",
+      "revisionId": "evidence-cua-calcium-binder-bleyer-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-f4ac41c116336a338ae6",
+      "summary": "In a small peritoneal dialysis case-control study, cumulative calcium carbonate (calcium salt) ingestion showed a trend toward increased calciphylaxis risk, which the authors interpreted as calcium ingestion being a risk factor.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "University peritoneal dialysis centre; 8 CAPD calciphylaxis cases vs 37 controls matched on modality and dialysis vintage",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-pth-nigwekar",
+      "revisionId": "evidence-cua-pth-nigwekar-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-0c3edccf9dcc1bdf3e07",
+      "summary": "In a large-dialysis-organisation matched case-control study (1030 incident CUA cases), higher serum calcium, phosphorus and parathyroid hormone at haemodialysis initiation were associated with later calciphylaxis.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "US large dialysis organisation; 1030 incident haemodialysis CUA cases matched 1:2 on age, sex and race to 2060 controls; baseline factors at dialysis initiation",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-pth-not-key-german-registry",
+      "revisionId": "evidence-cua-pth-not-key-german-registry-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-c9181a16e2cb8f5c2a6d",
+      "summary": "In the German calciphylaxis registry, median intact PTH in dialysis CUA patients was only moderately raised (147 pg/mL) and the authors concluded uncontrolled hyperparathyroidism is not the key determinant of calciphylaxis.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "German nationwide internet-based registry, 2006-2015; 253 CUA patients (207 on dialysis), with central biobank",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-calcium-japan",
+      "revisionId": "evidence-cua-calcium-japan-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-4e993189a4211caa4103",
+      "summary": "In the Japanese nationwide case-control study, higher adjusted serum calcium at diagnosis was associated with calciphylaxis in univariate analysis (warfarin and low albumin were the multivariable risk factors).",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Japanese nationwide survey with case-control analysis: 28 definite haemodialysis calciphylaxis cases vs 56 matched controls",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-obesity-weenig",
+      "revisionId": "evidence-cua-obesity-weenig-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-d8d23e8311e0da27b172",
+      "summary": "In the Mayo Clinic series, obesity was identified as a risk factor for calciphylaxis in dialysis patients compared with age- and sex-matched dialysis controls.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Mayo Clinic retrospective study; 64 calciphylaxis patients including 49 dialysis cases matched to 98 dialysis controls",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-steroids-weenig",
+      "revisionId": "evidence-cua-steroids-weenig-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-d8d23e8311e0da27b172",
+      "summary": "In the same Mayo Clinic matched dialysis analysis, systemic corticosteroid use was associated with calciphylaxis.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Mayo Clinic retrospective study; 49 dialysis calciphylaxis cases vs 98 age- and sex-matched dialysis controls",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-diabetes-insulin-nigwekar",
+      "revisionId": "evidence-cua-diabetes-insulin-nigwekar-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-0c3edccf9dcc1bdf3e07",
+      "summary": "Diabetes was associated with later calciphylaxis in the large US dialysis case-control study, and insulin-treated patients showed a dose-response increase in odds of CUA at typical injection sites (abdomen/thigh).",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "US large dialysis organisation; 1030 incident haemodialysis CUA cases vs 2060 matched controls",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-albumin-japan",
+      "revisionId": "evidence-cua-albumin-japan-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-4e993189a4211caa4103",
+      "summary": "In the Japanese nationwide case-control study, lower serum albumin remained a significant risk factor for calciphylaxis after multivariable adjustment.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Japanese nationwide survey with case-control analysis: 28 definite haemodialysis calciphylaxis cases vs 56 matched controls",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-female-mazhar",
+      "revisionId": "evidence-cua-female-mazhar-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-a97b8fa8953abd19482c",
+      "summary": "In a US case-control study of end-stage kidney disease patients, women had about sixfold higher odds of calciphylaxis; low albumin and higher phosphate were also associated.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Single-centre case-control; 19 calciphylaxis cases (18 haemodialysis, 1 transplant) vs 54 controls matched on haemodialysis start date",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-histo-thrombosis-lesional-only",
+      "revisionId": "evidence-cua-histo-thrombosis-lesional-only-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-9a5a1fb7483606fdf954",
+      "summary": "In paired biopsies of lesional and clinically normal skin from 18 patients with suspected calciphylaxis (mostly dialysis), microvascular thrombosis was found only in lesional tissue.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human skin biopsies, lesional vs within-patient normal skin, 18 patients with suspected calciphylaxis (16 on dialysis)",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-histo-intimal-hyperplasia-specific",
+      "revisionId": "evidence-cua-histo-intimal-hyperplasia-specific-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-9a5a1fb7483606fdf954",
+      "summary": "Intimal hyperplasia of small arteries/arterioles was confined to lesional skin and, together with thrombosis and coarse vascular calcification, was judged a specific finding in suspected calciphylaxis.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human skin biopsies, lesional vs within-patient normal skin, 18 patients with suspected calciphylaxis",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-histo-calcification-in-normal-skin",
+      "revisionId": "evidence-cua-histo-calcification-in-normal-skin-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-9a5a1fb7483606fdf954",
+      "summary": "Small-artery/arteriolar calcification was nearly as common in clinically normal skin as in lesional skin of the same patients; only coarse calcification was lesion-specific, so vascular calcification alone lacked specificity for necrotic lesions.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Human skin biopsies, lesional vs within-patient normal skin, 18 patients with suspected calciphylaxis",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-histo-dermal-calcification-vs-esrd",
+      "revisionId": "evidence-cua-histo-dermal-calcification-vs-esrd-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-cb83edad8ec411a52111",
+      "summary": "Skin biopsies from patients with calciphylaxis (n=57) were significantly more likely than biopsies from ESRD patients without calciphylaxis (n=26) to show dermal vessel calcification and diffuse dermal thrombi; histology was indistinguishable between patients with and without CKD, suggesting a common pathway in uraemic and non-uraemic calciphylaxis.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Retrospective histopathology cohort: 57 calciphylaxis skin biopsies vs 26 biopsies from ESRD patients without calciphylaxis",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-amputation-margin-thrombosis",
+      "revisionId": "evidence-cua-amputation-margin-thrombosis-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-d7c346069503b47670b9",
+      "summary": "Compared with viable skin from amputation margins of ESRD patients without calciphylaxis, skin biopsies taken for suspected calciphylaxis showed significantly more small-vessel thrombosis, whereas calcification prevalence did not differ overall.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "38 skin biopsies for suspected calciphylaxis vs 43 healthy-margin amputation specimens from ESRD patients without calciphylaxis; 2 autopsies",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-amputation-margin-calcification-nonspecific",
+      "revisionId": "evidence-cua-amputation-margin-calcification-nonspecific-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-d7c346069503b47670b9",
+      "summary": "Medial calcification and other historically 'characteristic' findings also occurred in viable skin of ESRD patients without calciphylaxis; only the combination of medial calcification with thrombosis was rare in unaffected patients (six-fold more prevalent in high-suspicion biopsies).",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "38 skin biopsies for suspected calciphylaxis vs 43 healthy-margin amputation specimens from ESRD patients without calciphylaxis",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-thrombophilia-case-control",
+      "revisionId": "evidence-cua-thrombophilia-case-control-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-4884b6e96efde7c5f78e",
+      "summary": "In a two-centre case-control study of patients with renal disease (38 calciphylaxis cases, 114 matched CKD controls), lupus anticoagulant, protein C deficiency and combined thrombophilias were more frequent in calciphylaxis cases.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Retrospective matched case-control (1:3 by age, sex, race), patients with CKD at two Boston academic hospitals",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-thrombophilia-stage5-subgroup",
+      "revisionId": "evidence-cua-thrombophilia-stage5-subgroup-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-4884b6e96efde7c5f78e",
+      "summary": "Restricting to stage 5 CKD, only lupus anticoagulant and combined thrombophilia remained associated with calciphylaxis (protein C deficiency did not), and in warfarin-unexposed patients only lupus anticoagulant and protein C deficiency remained; the associated thrombophilia component varies by subgroup.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Subgroup analysis of the matched case-control study (stage 5 CKD; warfarin-unexposed)",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-ulceration-mortality",
+      "revisionId": "evidence-cua-ulceration-mortality-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-bc571e413d870f19aa0f",
+      "summary": "In a single-centre prospective series of 36 calciphylaxis cases, six-month mortality was 33% in patients presenting with non-ulcerating plaques and rose to above 80% once ulceration developed.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Single-centre prospective series of 36 dialysis patients with calciphylaxis (Canada)",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-uk-matched-mortality",
+      "revisionId": "evidence-cua-uk-matched-mortality-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-90a5b9cd2c695dbd3aa5",
+      "summary": "In the UK Calciphylaxis Study, haemodialysis patients with calciphylaxis had substantially higher all-cause mortality than propensity-matched haemodialysis patients without calciphylaxis (annual mortality 67% vs 10.2%).",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "UK national calciphylaxis registry (n=89), 62 haemodialysis patients vs propensity-matched CRISIS-HD haemodialysis cohort",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-malaysia-septicaemia-death",
+      "revisionId": "evidence-cua-malaysia-septicaemia-death-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-d9c7b17bbea7ff015944",
+      "summary": "In a 13-centre Malaysian dialysis cohort of 33 confirmed calciphylaxis cases, about half died within three months of diagnosis and septicaemia from infection was the most frequent cause of death.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Multicentre retrospective observational cohort, 33 dialysis patients with confirmed calciphylaxis, Malaysia 2016-2021",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-cua-il6-tissue-factor-endothelium",
+      "revisionId": "evidence-cua-il6-tissue-factor-endothelium-8ee0cfad9dca",
+      "status": "candidate",
+      "sourceId": "source-doi-e603c0535124e23b1b46",
+      "summary": "Sera from patients with uraemic calciphylaxis induced IL-6 and IL-6R synthesis in primary human dermal microvascular endothelial cells; TYMP-driven IL-6 activated tissue factor, a trigger of the extrinsic coagulation pathway, which anti-IL-6 treatment inhibited, and calciphylaxis skin showed increased IL-6 signalling.",
+      "location": "Europe PMC abstract",
+      "retrievedAt": "2026-10-10",
+      "studySystem": "Primary human dermal microvascular endothelial cells exposed to calciphylaxis patient sera, plus spatial analysis of calciphylaxis skin",
+      "evidenceType": "human_in_vitro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-doi-350819082df06385364b",
+      "revisionId": "source-doi-350819082df06385364b-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Vitamin K-Dependent Carboxylation of Matrix Gla Protein Influences the Risk of Calciphylaxis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28049648/",
+      "kind": "publication",
+      "studyId": "PMID:28049648",
+      "citation": "Nigwekar SU, Bloch DB, Nazarian RM, Vermeer C, Booth SL, Xu D, Thadhani RI, Malhotra R.. Vitamin K-Dependent Carboxylation of Matrix Gla Protein Influences the Risk of Calciphylaxis.. Journal of the American Society of Nephrology : JASN. 2017-01-03",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1681/asn.2016060651",
+        "MED:28049648",
+        "PMID:28049648"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-4e993189a4211caa4103",
+      "revisionId": "source-doi-4e993189a4211caa4103-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "A case-control study of calciphylaxis in Japanese end-stage renal disease patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22121234/",
+      "kind": "publication",
+      "studyId": "PMID:22121234",
+      "citation": "Hayashi M, Takamatsu I, Kanno Y, Yoshida T, Abe T, Sato Y, Japanese Calciphylaxis Study Group.. A case-control study of calciphylaxis in Japanese end-stage renal disease patients.. Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association. 2011-11-25",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1093/ndt/gfr658",
+        "MED:22121234",
+        "PMID:22121234"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-c9181a16e2cb8f5c2a6d",
+      "revisionId": "source-doi-c9181a16e2cb8f5c2a6d-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Calcific uraemic arteriolopathy (calciphylaxis): data from a large nationwide registry.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26908770/",
+      "kind": "publication",
+      "studyId": "PMID:26908770",
+      "citation": "Brandenburg VM, Kramann R, Rothe H, Kaesler N, Korbiel J, Specht P, Schmitz S, Krüger T, Floege J, Ketteler M.. Calcific uraemic arteriolopathy (calciphylaxis): data from a large nationwide registry.. Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association. 2017-01-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1093/ndt/gfv438",
+        "MED:26908770",
+        "PMID:26908770"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-3d89b93079bc6b72317f",
+      "revisionId": "source-doi-3d89b93079bc6b72317f-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Novel insights into osteogenesis and matrix remodelling associated with calcific uraemic arteriolopathy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23223222/",
+      "kind": "publication",
+      "studyId": "PMID:23223222",
+      "citation": "Kramann R, Brandenburg VM, Schurgers LJ, Ketteler M, Westphal S, Leisten I, Bovi M, Jahnen-Dechent W, Knüchel R, Floege J, Schneider RK.. Novel insights into osteogenesis and matrix remodelling associated with calcific uraemic arteriolopathy.. Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association. 2012-12-06",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1093/ndt/gfs466",
+        "MED:23223222",
+        "PMID:23223222"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-6045de6f30a89a0145a7",
+      "revisionId": "source-doi-6045de6f30a89a0145a7-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Osteopontin expression in biopsies of calciphylaxis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25847841/",
+      "kind": "publication",
+      "studyId": "PMID:25847841",
+      "citation": "Magro CM, Momtahen S, Hagen JW.. Osteopontin expression in biopsies of calciphylaxis.. European journal of dermatology : EJD. 2015-01-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1684/ejd.2014.2448",
+        "MED:25847841",
+        "PMID:25847841"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-66a9aa2dccdc5c353ff1",
+      "revisionId": "source-doi-66a9aa2dccdc5c353ff1-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Warfarin causes rapid calcification of the elastic lamellae in rat arteries and heart valves.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9743228/",
+      "kind": "publication",
+      "studyId": "PMID:9743228",
+      "citation": "Price PA, Faus SA, Williamson MK.. Warfarin causes rapid calcification of the elastic lamellae in rat arteries and heart valves.. Arteriosclerosis, thrombosis, and vascular biology. 1998-09-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1161/01.atv.18.9.1400",
+        "MED:9743228",
+        "PMID:9743228"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-27f40c48b366741439eb",
+      "revisionId": "source-doi-27f40c48b366741439eb-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Spontaneous calcification of arteries and cartilage in mice lacking matrix GLA protein.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9052783/",
+      "kind": "publication",
+      "studyId": "PMID:9052783",
+      "citation": "Luo G, Ducy P, McKee MD, Pinero GJ, Loyer E, Behringer RR, Karsenty G.. Spontaneous calcification of arteries and cartilage in mice lacking matrix GLA protein.. Nature. 1997-03-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1038/386078a0",
+        "MED:9052783",
+        "PMID:9052783"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-9b0264b7b58f418a23a9",
+      "revisionId": "source-doi-9b0264b7b58f418a23a9-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "The serum protein alpha 2-Heremans-Schmid glycoprotein/fetuin-A is a systemically acting inhibitor of ectopic calcification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12897203/",
+      "kind": "publication",
+      "studyId": "PMID:12897203",
+      "citation": "Schafer C, Heiss A, Schwarz A, Westenfeld R, Ketteler M, Floege J, Muller-Esterl W, Schinke T, Jahnen-Dechent W.. The serum protein alpha 2-Heremans-Schmid glycoprotein/fetuin-A is a systemically acting inhibitor of ectopic calcification.. The Journal of clinical investigation. 2003-08-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1172/jci17202",
+        "MED:12897203",
+        "PMID:12897203"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-ea454427e3379b1711c4",
+      "revisionId": "source-doi-ea454427e3379b1711c4-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Phosphate regulation of vascular smooth muscle cell calcification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11009570/",
+      "kind": "publication",
+      "studyId": "PMID:11009570",
+      "citation": "Jono S, McKee MD, Murry CE, Shioi A, Nishizawa Y, Mori K, Morii H, Giachelli CM.. Phosphate regulation of vascular smooth muscle cell calcification.. Circulation research. 2000-09-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1161/01.res.87.7.e10",
+        "MED:11009570",
+        "PMID:11009570"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-35c3fef9b8f4b44b5896",
+      "revisionId": "source-doi-35c3fef9b8f4b44b5896-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Calciphylaxis Episodes in the Australia and New Zealand Dialysis and Transplant Registry.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38765561/",
+      "kind": "publication",
+      "studyId": "PMID:38765561",
+      "citation": "Toussaint ND, Davies CE, Bongetti E, Ruderman I, Elder GJ, Hawley CM, Krishnasamy R, Roberts MA, Jardine MJ, De Zoysa JR, McDonald SP.. Calciphylaxis Episodes in the Australia and New Zealand Dialysis and Transplant Registry.. Kidney international reports. 2024-01-18",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1016/j.ekir.2024.01.026",
+        "MED:38765561",
+        "PMID:38765561"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-df9a6b313431bcfda6a9",
+      "revisionId": "source-doi-df9a6b313431bcfda6a9-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Risk factors for calciphylaxis in Chinese hemodialysis patients: a matched case-control study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33641601/",
+      "kind": "publication",
+      "studyId": "PMID:33641601",
+      "citation": "Liu Y, Zhang X, Xie X, Yang X, Liu H, Tang R, Liu B.. Risk factors for calciphylaxis in Chinese hemodialysis patients: a matched case-control study.. Renal failure. 2021-12-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1080/0886022x.2021.1884094",
+        "MED:33641601",
+        "PMID:33641601"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-f4ac41c116336a338ae6",
+      "revisionId": "source-doi-f4ac41c116336a338ae6-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Calcium use increases risk of calciphylaxis: a case-control study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10433161/",
+      "kind": "publication",
+      "studyId": "PMID:10433161",
+      "citation": "Zacharias JM, Fontaine B, Fine A.. Calcium use increases risk of calciphylaxis: a case-control study.. Peritoneal dialysis international : journal of the International Society for Peritoneal Dialysis. 1999-05-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1177/089686089901900310",
+        "MED:10433161",
+        "PMID:10433161"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-0c3edccf9dcc1bdf3e07",
+      "revisionId": "source-doi-0c3edccf9dcc1bdf3e07-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "A Nationally Representative Study of Calcific Uremic Arteriolopathy Risk Factors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27080977/",
+      "kind": "publication",
+      "studyId": "PMID:27080977",
+      "citation": "Nigwekar SU, Zhao S, Wenger J, Hymes JL, Maddux FW, Thadhani RI, Chan KE.. A Nationally Representative Study of Calcific Uremic Arteriolopathy Risk Factors.. Journal of the American Society of Nephrology : JASN. 2016-04-14",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1681/asn.2015091065",
+        "MED:27080977",
+        "PMID:27080977"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-d8d23e8311e0da27b172",
+      "revisionId": "source-doi-d8d23e8311e0da27b172-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Calciphylaxis: natural history, risk factor analysis, and outcome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17141359/",
+      "kind": "publication",
+      "studyId": "PMID:17141359",
+      "citation": "Weenig RH, Sewell LD, Davis MD, McCarthy JT, Pittelkow MR.. Calciphylaxis: natural history, risk factor analysis, and outcome.. Journal of the American Academy of Dermatology. 2006-12-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1016/j.jaad.2006.08.065",
+        "MED:17141359",
+        "PMID:17141359"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-a97b8fa8953abd19482c",
+      "revisionId": "source-doi-a97b8fa8953abd19482c-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Risk factors and mortality associated with calciphylaxis in end-stage renal disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11422768/",
+      "kind": "publication",
+      "studyId": "PMID:11422768",
+      "citation": "Mazhar AR, Johnson RJ, Gillen D, Stivelman JC, Ryan MJ, Davis CL, Stehman-Breen CO.. Risk factors and mortality associated with calciphylaxis in end-stage renal disease.. Kidney international. 2001-07-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1046/j.1523-1755.2001.00803.x",
+        "MED:11422768",
+        "PMID:11422768"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-9a5a1fb7483606fdf954",
+      "revisionId": "source-doi-9a5a1fb7483606fdf954-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Histologic comparison of normal and diseased skin in patients with suspected calciphylaxis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40412723/",
+      "kind": "publication",
+      "studyId": "PMID:40412723",
+      "citation": "Cheeley JT, Jagannathan G, Ellis CL, O'Neill WC.. Histologic comparison of normal and diseased skin in patients with suspected calciphylaxis.. Journal of the American Academy of Dermatology. 2025-05-22",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1016/j.jaad.2025.05.1404",
+        "MED:40412723",
+        "PMID:40412723"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-d7c346069503b47670b9",
+      "revisionId": "source-doi-d7c346069503b47670b9-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Questionable specificity of histologic findings in calcific uremic arteriolopathy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29885932/",
+      "kind": "publication",
+      "studyId": "PMID:29885932",
+      "citation": "Ellis CL, O'Neill WC.. Questionable specificity of histologic findings in calcific uremic arteriolopathy.. Kidney international. 2018-06-07",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1016/j.kint.2018.03.016",
+        "MED:29885932",
+        "PMID:29885932"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-cb83edad8ec411a52111",
+      "revisionId": "source-doi-cb83edad8ec411a52111-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Histopathology of Calciphylaxis: Cohort Study With Clinical Correlations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29053546/",
+      "kind": "publication",
+      "studyId": "PMID:29053546",
+      "citation": "Chen TY, Lehman JS, Gibson LE, Lohse CM, El-Azhary RA.. Histopathology of Calciphylaxis: Cohort Study With Clinical Correlations.. The American Journal of dermatopathology. 2017-11-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1097/dad.0000000000000824",
+        "MED:29053546",
+        "PMID:29053546"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-4884b6e96efde7c5f78e",
+      "revisionId": "source-doi-4884b6e96efde7c5f78e-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Association Between Hypercoagulable Conditions and Calciphylaxis in Patients With Renal Disease: A Case-Control Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29238798/",
+      "kind": "publication",
+      "studyId": "PMID:29238798",
+      "citation": "Dobry AS, Ko LN, St John J, Sloan JM, Nigwekar S, Kroshinsky D.. Association Between Hypercoagulable Conditions and Calciphylaxis in Patients With Renal Disease: A Case-Control Study.. JAMA dermatology. 2018-02-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1001/jamadermatol.2017.4920",
+        "MED:29238798",
+        "PMID:29238798"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-bc571e413d870f19aa0f",
+      "revisionId": "source-doi-bc571e413d870f19aa0f-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Calciphylaxis is usually non-ulcerating: risk factors, outcome and therapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12028462/",
+      "kind": "publication",
+      "studyId": "PMID:12028462",
+      "citation": "Fine A, Zacharias J.. Calciphylaxis is usually non-ulcerating: risk factors, outcome and therapy.. Kidney international. 2002-06-01",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1046/j.1523-1755.2002.00375.x",
+        "MED:12028462",
+        "PMID:12028462"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-90a5b9cd2c695dbd3aa5",
+      "revisionId": "source-doi-90a5b9cd2c695dbd3aa5-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Calciphylaxis in end-stage kidney disease: outcome data from the United Kingdom Calciphylaxis Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33548054/",
+      "kind": "publication",
+      "studyId": "PMID:33548054",
+      "citation": "Chinnadurai R, Huckle A, Hegarty J, Kalra PA, Sinha S.. Calciphylaxis in end-stage kidney disease: outcome data from the United Kingdom Calciphylaxis Study.. Journal of nephrology. 2021-02-06",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1007/s40620-020-00908-9",
+        "MED:33548054",
+        "PMID:33548054"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-d9c7b17bbea7ff015944",
+      "revisionId": "source-doi-d9c7b17bbea7ff015944-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Calcific Uremic Arteriolopathy (CUA) Among Malaysian Dialysis Patients: Clinical Characteristics, Treatment, and Outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39677159/",
+      "kind": "publication",
+      "studyId": "PMID:39677159",
+      "citation": "Lee YW, Tan MH, Bavanandan S, Bee BC, Lim CTS, Mohd R, Liew YF, Loh CL, Liu WJ, Mohamad Nor FS, Harun Z, Rahmat K, Tan CHH, Wong KW, Lim SK.. Calcific Uremic Arteriolopathy (CUA) Among Malaysian Dialysis Patients: Clinical Characteristics, Treatment, and Outcomes.. Cureus. 2024-11-14",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.7759/cureus.73711",
+        "MED:39677159",
+        "PMID:39677159"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-e603c0535124e23b1b46",
+      "revisionId": "source-doi-e603c0535124e23b1b46-8ee0cfad9dca",
+      "status": "candidate",
+      "title": "Activation and targetability of TYMP-IL-6-TF signaling in the skin microenvironment in uremic calciphylaxis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40267216/",
+      "kind": "publication",
+      "studyId": "PMID:40267216",
+      "citation": "Napoleon MA, Yang X, Zhang Y, Morrissey A, Krinsky S, Lazowski A, Bouchouari H, Brahim AM, Sellinger I, Edwards T, Jose A, Lotfolhzadeh S, Almiron R, Yin W, Siracuse JJ, Francis J, Lokau J, Garbers C, Del Carmen PM, Kolachalama VB, Dries R, Nazarian RM, Nigwekar SU, Chitalia VC.. Activation and targetability of TYMP-IL-6-TF signaling in the skin microenvironment in uremic calciphylaxis.. Science translational medicine. 2025-04-23",
+      "accessScope": "Europe PMC abstract (full abstract cached); full text not inspected",
+      "identifiers": [
+        "DOI:10.1126/scitranslmed.adn5772",
+        "MED:40267216",
+        "PMID:40267216"
+      ],
+      "flags": []
+    }
+  ],
+  "therapies": [],
+  "contexts": [
+    {
+      "id": "context-calciphylaxis-overview",
+      "label": "Calciphylaxis mechanisms; individual studies retain their own cohorts and experimental systems",
+      "organism": "Human dialysis cohorts, skin biopsies and human cells, plus selected rodent models",
+      "phenotype": "Calciphylaxis (predominantly uraemic, in kidney failure on dialysis)",
+      "tissue": "Cutaneous and subcutaneous arterioles, skin, circulation",
+      "stage": "Mechanistic synthesis; not a complete disease model",
+      "revisionId": "context-calciphylaxis-overview-8ee0cfad9dca",
+      "status": "candidate",
+      "diseaseId": "calciphylaxis"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "assessment-159931276b34f8374c30",
+      "revisionId": "assessment-159931276b34f8374c30-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-calciphylaxis",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-mgp-carboxylation-risk",
+        "claim-cua-vka-warfarin-casecontrol",
+        "claim-cua-fetuin-a-low-registry",
+        "claim-cua-skin-bmp2-runx2-glumgp",
+        "claim-cua-dialysis-incidence-anzdata",
+        "claim-cua-phosphate-china-casecontrol",
+        "claim-cua-pth-nigwekar",
+        "claim-cua-calcium-japan",
+        "claim-cua-obesity-weenig",
+        "claim-cua-steroids-weenig",
+        "claim-cua-diabetes-insulin-nigwekar",
+        "claim-cua-albumin-japan",
+        "claim-cua-female-mazhar",
+        "claim-cua-thrombophilia-case-control",
+        "claim-cua-uk-matched-mortality"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-71ebd9265c8a92c867a0",
+      "revisionId": "assessment-71ebd9265c8a92c867a0-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-vitamin-k",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-vitk-def-mgp-carboxylation"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-7390d4ca71dad0cd1937",
+      "revisionId": "assessment-7390d4ca71dad0cd1937-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-vka",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-vka-warfarin-casecontrol",
+        "claim-cua-warfarin-rat-mgp-carboxylation",
+        "claim-cua-warfarin-rat-medial-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-173ba9680ba1a3988693",
+      "revisionId": "assessment-173ba9680ba1a3988693-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-mgp",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-mgp-carboxylation-risk",
+        "claim-cua-vitk-def-mgp-carboxylation",
+        "claim-cua-skin-bmp2-runx2-glumgp",
+        "claim-cua-warfarin-rat-mgp-carboxylation",
+        "claim-cua-mgp-knockout-arterial-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-3d93910c01d0181e6c04",
+      "revisionId": "assessment-3d93910c01d0181e6c04-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-fetuin-a",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-fetuin-a-low-registry",
+        "claim-cua-fetuin-a-knockout-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-b99fba7cd30eee54ef09",
+      "revisionId": "assessment-b99fba7cd30eee54ef09-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-phosphate",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-phosphate-vsmc-osteogenic",
+        "claim-cua-phosphate-china-casecontrol"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-5d1b3c31de7a5fcf51ce",
+      "revisionId": "assessment-5d1b3c31de7a5fcf51ce-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-vsmc-osteogenic",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-osteogenic-to-arteriolar-calcification",
+        "claim-cua-osteopontin-calcified-vessels",
+        "claim-cua-phosphate-vsmc-osteogenic"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-32d1d7604c9641ded7a6",
+      "revisionId": "assessment-32d1d7604c9641ded7a6-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-arteriolar-calcification",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-osteogenic-to-arteriolar-calcification",
+        "claim-cua-osteopontin-calcified-vessels",
+        "claim-cua-warfarin-rat-medial-calcification",
+        "claim-cua-mgp-knockout-arterial-calcification",
+        "claim-cua-fetuin-a-knockout-calcification",
+        "claim-cua-histo-dermal-calcification-vs-esrd"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-95fd4ce03be73773fc49",
+      "revisionId": "assessment-95fd4ce03be73773fc49-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-ckd-dialysis",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-dialysis-incidence-anzdata"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-5dee5212cda5c072b83d",
+      "revisionId": "assessment-5dee5212cda5c072b83d-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-calcium-load",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-calcium-japan"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-43f1ee29b13646b9312f",
+      "revisionId": "assessment-43f1ee29b13646b9312f-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-pth",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-pth-nigwekar"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-ba1251804996de8c73bd",
+      "revisionId": "assessment-ba1251804996de8c73bd-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-obesity",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-obesity-weenig"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-52a2937d93b1ae7c0676",
+      "revisionId": "assessment-52a2937d93b1ae7c0676-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-diabetes",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-diabetes-insulin-nigwekar"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-3e97b53b7cd6a5cd578a",
+      "revisionId": "assessment-3e97b53b7cd6a5cd578a-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-corticosteroids",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-steroids-weenig"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-ec696990d9f239d2ee55",
+      "revisionId": "assessment-ec696990d9f239d2ee55-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-hypoalbuminaemia",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-albumin-japan"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-32db7397ac644a99e97a",
+      "revisionId": "assessment-32db7397ac644a99e97a-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-female-sex",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-female-mazhar"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-ccdc32af3a278f1b03d0",
+      "revisionId": "assessment-ccdc32af3a278f1b03d0-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-intimal-hyperplasia",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-histo-intimal-hyperplasia-specific"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-3f2d602d14151181c550",
+      "revisionId": "assessment-3f2d602d14151181c550-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-thrombosis",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-histo-thrombosis-lesional-only",
+        "claim-cua-amputation-margin-thrombosis",
+        "claim-cua-il6-tissue-factor-endothelium"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-964fee1d6473b3ef777f",
+      "revisionId": "assessment-964fee1d6473b3ef777f-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-thrombophilia",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-thrombophilia-case-control"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-a401b9754dd284cc135e",
+      "revisionId": "assessment-a401b9754dd284cc135e-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-inflammation",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-il6-tissue-factor-endothelium"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-42f2a89774d60d4be454",
+      "revisionId": "assessment-42f2a89774d60d4be454-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-skin-necrosis",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-histo-thrombosis-lesional-only",
+        "claim-cua-histo-intimal-hyperplasia-specific",
+        "claim-cua-histo-dermal-calcification-vs-esrd",
+        "claim-cua-amputation-margin-thrombosis",
+        "claim-cua-ulceration-mortality"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-47a4feccbf8c8adf13ad",
+      "revisionId": "assessment-47a4feccbf8c8adf13ad-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-wound-infection",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-malaysia-septicaemia-death"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-f1c1b7178d64b5b5f669",
+      "revisionId": "assessment-f1c1b7178d64b5b5f669-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "entity-mortality",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-ulceration-mortality",
+        "claim-cua-uk-matched-mortality",
+        "claim-cua-malaysia-septicaemia-death"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-5a6bd05f13849b6ebb9e",
+      "revisionId": "assessment-5a6bd05f13849b6ebb9e-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-a4454746b0f191ab74f5",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-mgp-carboxylation-risk",
+        "claim-cua-skin-bmp2-runx2-glumgp"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-15a2585870e163675d24",
+      "revisionId": "assessment-15a2585870e163675d24-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-a91eaa28411cdbb636fd",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-vitk-def-mgp-carboxylation"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-4d3473ec3112ce35c94e",
+      "revisionId": "assessment-4d3473ec3112ce35c94e-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-bde9b3d5209fff4b3ad6",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-vka-warfarin-casecontrol"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-fc042518602b45cc0920",
+      "revisionId": "assessment-fc042518602b45cc0920-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-ded97be29973451f1670",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-fetuin-a-low-registry"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-b5fae692dbe0d77983c7",
+      "revisionId": "assessment-b5fae692dbe0d77983c7-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-a849c82f4248136786f4",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-osteogenic-to-arteriolar-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-a17196a60c97015419fd",
+      "revisionId": "assessment-a17196a60c97015419fd-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-2aa6ff3dc31d6323c15b",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-osteopontin-calcified-vessels"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-e586a3e7ef56f1d9b72d",
+      "revisionId": "assessment-e586a3e7ef56f1d9b72d-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-68430fc167a853ce593e",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-warfarin-rat-mgp-carboxylation"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-ab465ffa11af14063c9d",
+      "revisionId": "assessment-ab465ffa11af14063c9d-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-4e269b95808386badf28",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-warfarin-rat-medial-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-84dafb46653f1d5e0529",
+      "revisionId": "assessment-84dafb46653f1d5e0529-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-9028d2af3cbbe60fd4ef",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-mgp-knockout-arterial-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-233b656c256b7dfde824",
+      "revisionId": "assessment-233b656c256b7dfde824-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-155674ee9065118a8501",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-fetuin-a-knockout-calcification"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-d9c627b79746fdd6f5ac",
+      "revisionId": "assessment-d9c627b79746fdd6f5ac-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-b2d7ca2cbb44fef01b6c",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-phosphate-vsmc-osteogenic"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-7bccee68bf262559321b",
+      "revisionId": "assessment-7bccee68bf262559321b-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-d8610bd54f9fd1aa7e78",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-dialysis-incidence-anzdata"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-45a06bfd85bbd442ad8a",
+      "revisionId": "assessment-45a06bfd85bbd442ad8a-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-cdb6e334dfefe23991e9",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-phosphate-china-casecontrol"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [
+        "claim-cua-phosphate-null-japan"
+      ],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-06a8393bb0b846570269",
+      "revisionId": "assessment-06a8393bb0b846570269-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-8424a802222aa23bb811",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-calcium-japan"
+      ],
+      "qualifyingClaimIds": [
+        "claim-cua-calcium-binder-bleyer"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-22c2c43987eb3f69c99e",
+      "revisionId": "assessment-22c2c43987eb3f69c99e-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-57466b6768fabed35a4b",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-pth-nigwekar"
+      ],
+      "qualifyingClaimIds": [
+        "claim-cua-pth-not-key-german-registry"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-7a0bc73aef81dc6c3848",
+      "revisionId": "assessment-7a0bc73aef81dc6c3848-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-0bb211be1315fc1ad4f8",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-obesity-weenig"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-85e5759784d10935c3f9",
+      "revisionId": "assessment-85e5759784d10935c3f9-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-4f0da8537703f87c08ef",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-steroids-weenig"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-7d8783bde87a4ac233ad",
+      "revisionId": "assessment-7d8783bde87a4ac233ad-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-fff95805a7ddd949d119",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-diabetes-insulin-nigwekar"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-e407b5de2ce91282e71c",
+      "revisionId": "assessment-e407b5de2ce91282e71c-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-18e77c90566e7891c20e",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-albumin-japan"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-1e454c0be2e2b4f5ee28",
+      "revisionId": "assessment-1e454c0be2e2b4f5ee28-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-0da5496298970c971718",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-female-mazhar"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-cc38dce3b81515e7c2e6",
+      "revisionId": "assessment-cc38dce3b81515e7c2e6-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-6fb5f1dafeb1b8a1f03e",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-histo-thrombosis-lesional-only",
+        "claim-cua-amputation-margin-thrombosis"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-df1ab2e2827bdfc62642",
+      "revisionId": "assessment-df1ab2e2827bdfc62642-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-76bd5d2ae3e47abb43cc",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-histo-intimal-hyperplasia-specific"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-0b7d62b68a4e8ced45e3",
+      "revisionId": "assessment-0b7d62b68a4e8ced45e3-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-faa5d585a8b287f44fe2",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-histo-dermal-calcification-vs-esrd"
+      ],
+      "qualifyingClaimIds": [
+        "claim-cua-histo-calcification-in-normal-skin",
+        "claim-cua-amputation-margin-calcification-nonspecific"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-899b1c6db080329c9a71",
+      "revisionId": "assessment-899b1c6db080329c9a71-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-78a2bc40d8ad350986ee",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-thrombophilia-case-control"
+      ],
+      "qualifyingClaimIds": [
+        "claim-cua-thrombophilia-stage5-subgroup"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-0fa1e9f159bd4c16ee01",
+      "revisionId": "assessment-0fa1e9f159bd4c16ee01-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-d6eafebfcef5d48330cd",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-ulceration-mortality"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-6689472cf256f51b80f6",
+      "revisionId": "assessment-6689472cf256f51b80f6-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-83166202c6cd88799d3b",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-uk-matched-mortality"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-d5c8cf271bc659344975",
+      "revisionId": "assessment-d5c8cf271bc659344975-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-a9b56e770b2c035cbef4",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-malaysia-septicaemia-death"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-610ed2b01e35a5a911c4",
+      "revisionId": "assessment-610ed2b01e35a5a911c4-8ee0cfad9dca",
+      "status": "candidate",
+      "subjectId": "relationship-bc44ebf6f1e45bde0d8f",
+      "contextId": "context-calciphylaxis-overview",
+      "scoringModelId": "scoring-calciphylaxis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-cua-il6-tissue-factor-endothelium"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    }
+  ],
+  "scoringModels": [
+    {
+      "id": "scoring-calciphylaxis-unassessed",
+      "revisionId": "scoring-calciphylaxis-unassessed-8ee0cfad9dca",
+      "status": "candidate",
+      "label": "Unassessed baseline",
+      "calibrated": false,
+      "description": "No numerical scores. Calibration requires independent domain reviewers and representative paired appraisals."
+    }
+  ],
+  "layouts": [
+    {
+      "id": "layout-calciphylaxis-overview",
+      "revisionId": "layout-calciphylaxis-overview-8ee0cfad9dca",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-ckd-dialysis",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-obesity",
+          "x": 200,
+          "y": 200
+        },
+        {
+          "entityId": "entity-diabetes",
+          "x": 50,
+          "y": 350
+        },
+        {
+          "entityId": "entity-corticosteroids",
+          "x": 200,
+          "y": 500
+        },
+        {
+          "entityId": "entity-hypoalbuminaemia",
+          "x": 50,
+          "y": 650
+        },
+        {
+          "entityId": "entity-female-sex",
+          "x": 200,
+          "y": 800
+        },
+        {
+          "entityId": "entity-vka",
+          "x": 50,
+          "y": 950
+        },
+        {
+          "entityId": "entity-phosphate",
+          "x": 430,
+          "y": 50
+        },
+        {
+          "entityId": "entity-calcium-load",
+          "x": 580,
+          "y": 200
+        },
+        {
+          "entityId": "entity-pth",
+          "x": 430,
+          "y": 350
+        },
+        {
+          "entityId": "entity-vitamin-k",
+          "x": 580,
+          "y": 500
+        },
+        {
+          "entityId": "entity-mgp",
+          "x": 430,
+          "y": 650
+        },
+        {
+          "entityId": "entity-fetuin-a",
+          "x": 580,
+          "y": 800
+        },
+        {
+          "entityId": "entity-vsmc-osteogenic",
+          "x": 810,
+          "y": 50
+        },
+        {
+          "entityId": "entity-arteriolar-calcification",
+          "x": 960,
+          "y": 200
+        },
+        {
+          "entityId": "entity-intimal-hyperplasia",
+          "x": 810,
+          "y": 350
+        },
+        {
+          "entityId": "entity-thrombophilia",
+          "x": 960,
+          "y": 500
+        },
+        {
+          "entityId": "entity-thrombosis",
+          "x": 810,
+          "y": 650
+        },
+        {
+          "entityId": "entity-inflammation",
+          "x": 960,
+          "y": 800
+        },
+        {
+          "entityId": "entity-calciphylaxis",
+          "x": 1190,
+          "y": 50
+        },
+        {
+          "entityId": "entity-skin-necrosis",
+          "x": 1340,
+          "y": 200
+        },
+        {
+          "entityId": "entity-wound-infection",
+          "x": 1190,
+          "y": 350
+        },
+        {
+          "entityId": "entity-mortality",
+          "x": 1340,
+          "y": 500
+        }
+      ]
+    }
+  ],
+  "mapViews": [
+    {
+      "id": "view-calciphylaxis-overview",
+      "revisionId": "view-calciphylaxis-overview-8ee0cfad9dca",
+      "status": "candidate",
+      "label": "Mineral risk, calcification-inhibitor loss, arteriolar lesion & outcomes",
+      "contextId": "context-calciphylaxis-overview",
+      "entityIds": [
+        "entity-calciphylaxis",
+        "entity-vitamin-k",
+        "entity-vka",
+        "entity-mgp",
+        "entity-fetuin-a",
+        "entity-phosphate",
+        "entity-vsmc-osteogenic",
+        "entity-arteriolar-calcification",
+        "entity-ckd-dialysis",
+        "entity-calcium-load",
+        "entity-pth",
+        "entity-obesity",
+        "entity-diabetes",
+        "entity-corticosteroids",
+        "entity-hypoalbuminaemia",
+        "entity-female-sex",
+        "entity-intimal-hyperplasia",
+        "entity-thrombosis",
+        "entity-thrombophilia",
+        "entity-inflammation",
+        "entity-skin-necrosis",
+        "entity-wound-infection",
+        "entity-mortality"
+      ],
+      "relationshipIds": [
+        "relationship-a4454746b0f191ab74f5",
+        "relationship-a91eaa28411cdbb636fd",
+        "relationship-bde9b3d5209fff4b3ad6",
+        "relationship-ded97be29973451f1670",
+        "relationship-a849c82f4248136786f4",
+        "relationship-2aa6ff3dc31d6323c15b",
+        "relationship-68430fc167a853ce593e",
+        "relationship-4e269b95808386badf28",
+        "relationship-9028d2af3cbbe60fd4ef",
+        "relationship-155674ee9065118a8501",
+        "relationship-b2d7ca2cbb44fef01b6c",
+        "relationship-d8610bd54f9fd1aa7e78",
+        "relationship-cdb6e334dfefe23991e9",
+        "relationship-8424a802222aa23bb811",
+        "relationship-57466b6768fabed35a4b",
+        "relationship-0bb211be1315fc1ad4f8",
+        "relationship-4f0da8537703f87c08ef",
+        "relationship-fff95805a7ddd949d119",
+        "relationship-18e77c90566e7891c20e",
+        "relationship-0da5496298970c971718",
+        "relationship-6fb5f1dafeb1b8a1f03e",
+        "relationship-76bd5d2ae3e47abb43cc",
+        "relationship-faa5d585a8b287f44fe2",
+        "relationship-78a2bc40d8ad350986ee",
+        "relationship-d6eafebfcef5d48330cd",
+        "relationship-83166202c6cd88799d3b",
+        "relationship-a9b56e770b2c035cbef4",
+        "relationship-bc44ebf6f1e45bde0d8f"
+      ],
+      "assessmentIds": [
+        "assessment-159931276b34f8374c30",
+        "assessment-71ebd9265c8a92c867a0",
+        "assessment-7390d4ca71dad0cd1937",
+        "assessment-173ba9680ba1a3988693",
+        "assessment-3d93910c01d0181e6c04",
+        "assessment-b99fba7cd30eee54ef09",
+        "assessment-5d1b3c31de7a5fcf51ce",
+        "assessment-32d1d7604c9641ded7a6",
+        "assessment-95fd4ce03be73773fc49",
+        "assessment-5dee5212cda5c072b83d",
+        "assessment-43f1ee29b13646b9312f",
+        "assessment-ba1251804996de8c73bd",
+        "assessment-52a2937d93b1ae7c0676",
+        "assessment-3e97b53b7cd6a5cd578a",
+        "assessment-ec696990d9f239d2ee55",
+        "assessment-32db7397ac644a99e97a",
+        "assessment-ccdc32af3a278f1b03d0",
+        "assessment-3f2d602d14151181c550",
+        "assessment-964fee1d6473b3ef777f",
+        "assessment-a401b9754dd284cc135e",
+        "assessment-42f2a89774d60d4be454",
+        "assessment-47a4feccbf8c8adf13ad",
+        "assessment-f1c1b7178d64b5b5f669",
+        "assessment-5a6bd05f13849b6ebb9e",
+        "assessment-15a2585870e163675d24",
+        "assessment-4d3473ec3112ce35c94e",
+        "assessment-fc042518602b45cc0920",
+        "assessment-b5fae692dbe0d77983c7",
+        "assessment-a17196a60c97015419fd",
+        "assessment-e586a3e7ef56f1d9b72d",
+        "assessment-ab465ffa11af14063c9d",
+        "assessment-84dafb46653f1d5e0529",
+        "assessment-233b656c256b7dfde824",
+        "assessment-d9c627b79746fdd6f5ac",
+        "assessment-7bccee68bf262559321b",
+        "assessment-45a06bfd85bbd442ad8a",
+        "assessment-06a8393bb0b846570269",
+        "assessment-22c2c43987eb3f69c99e",
+        "assessment-7a0bc73aef81dc6c3848",
+        "assessment-85e5759784d10935c3f9",
+        "assessment-7d8783bde87a4ac233ad",
+        "assessment-e407b5de2ce91282e71c",
+        "assessment-1e454c0be2e2b4f5ee28",
+        "assessment-cc38dce3b81515e7c2e6",
+        "assessment-df1ab2e2827bdfc62642",
+        "assessment-0b7d62b68a4e8ced45e3",
+        "assessment-899b1c6db080329c9a71",
+        "assessment-0fa1e9f159bd4c16ee01",
+        "assessment-6689472cf256f51b80f6",
+        "assessment-d5c8cf271bc659344975",
+        "assessment-610ed2b01e35a5a911c4"
+      ],
+      "layoutId": "layout-calciphylaxis-overview"
+    }
+  ],
+  "manifest": {
+    "algorithm": "sha256",
+    "schemaVersion": "0.3.0",
+    "contentDigest": "d3c091fc02ec80f8c139fa00a8e455fe60e5818868b01a6394a0c416cdcbfc22"
+  }
+}
