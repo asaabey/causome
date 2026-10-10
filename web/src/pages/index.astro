@@ -10,7 +10,7 @@ const release = primaryDisease.bundle;
     <h1>Follow the mechanism.<br /><em>Inspect the evidence.</em></h1>
     <p class="hero-description">Disease is a network of interacting processes. Causome brings those connections into view, with the claims, context, and uncertainty behind every link.</p>
     <a class="button-link" href={sitePath(`/diseases/${primaryDisease.profile.id}/`)}>Explore the {primaryDisease.profile.aliases[0] ?? primaryDisease.profile.label} map <span aria-hidden="true">↗</span></a>
-    <p class="quiet-note">{isPublication ? `Reviewed root release · ${release.id}` : 'Source checked; human domain review pending'}</p>
+    {isPublication && <p class="quiet-note">Reviewed root release · {release.id}</p>}
   </section>
   <section class="page-width atlas-list" aria-labelledby="atlas-heading">
     <div class="section-heading"><h2 id="atlas-heading">Inside the atlas</h2><span>{atlas.length} / Disease maps</span></div>

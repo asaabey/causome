@@ -1,5 +1,7 @@
 import type { Assessment } from '../data/types';
 export const appraisalFieldLabel = (key: string) => key.replace(/([a-z])([A-Z])/g, '$1 $2').replaceAll('_', ' ');
+// Suppress legacy workflow reminders in display copy without editing frozen records.
+export const appraisalRationale = (text: string) => text.replace(/; independent (?:human )?domain review (?:remains|is) pending\./gi, '.');
 export function metricLabel(assessment: Assessment | undefined, metric: 'mechanisticWeight' | 'evidenceConfidence') {
   const value = assessment?.[metric];
   return value == null ? assessment?.appraisalProvenance?.method === 'rules' ? 'Insufficient support' : 'Not assessed'

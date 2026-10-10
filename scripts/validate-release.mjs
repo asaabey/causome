@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 import { readFile } from 'node:fs/promises';
-import { readdirSync } from 'node:fs';
+import { readdirSync, existsSync } from 'node:fs';
 import { listDiseases } from './curation/diseases.mjs';
 import { join } from 'node:path';
 import { validatePreview, validatePublication } from './validation.mjs';
+import { feedbackTemplate, recordSummaryFeedback } from './curation/summary.mjs';
+import { hash, safeSlug } from './curation/io.mjs';
 
 const args = process.argv.slice(2);
 const publication = args.includes('--publish');
@@ -23,6 +25,15 @@ try {
         const result = validatePreview(bundle);
         if (!result.valid || bundle.diseaseId !== profile.id || filename !== `${bundle.id}.json`) throw new Error(`${filename}: ${result.errors.join('; ') || 'Candidate identity differs from registry/path'}`);
         count++;
+      }
+      const reviews = join('knowledge/diseases', profile.id, 'summary-reviews');
+      if (existsSync(reviews)) for (const filename of readdirSync(reviews).filter(name => name.endsWith('.json'))) {
+        const record = JSON.parse(await readFile(join(reviews, filename), 'utf8'));
+        if (!safeSlug(record.candidateId)) throw new Error('Invalid summary feedback candidate ID');
+        const base = JSON.parse(await readFile(join(directory, `${record.candidateId}.json`), 'utf8'));
+        const input = Object.fromEntries(Object.keys(feedbackTemplate(base)).map(key => [key, record[key]]));
+        const expected = recordSummaryFeedback(base, input);
+        if (record.diseaseId !== profile.id || filename !== `${expected.id}.json` || hash(expected) !== hash(record)) throw new Error('Invalid summary feedback receipt');
       }
     }
     console.log(`Validated ${count} disease candidates and their registry profiles.`);

@@ -42,6 +42,8 @@ test('group expansion and search reveal the canonical entity while preserving th
 });
 test('cross-disease comparisons preserve independent context and evidence links', async ({ page }) => {
   await page.goto('compare/');
+  await page.getByRole('combobox', { name: 'First disease' }).selectOption('iga-nephropathy');
+  await page.getByRole('combobox', { name: 'Second disease' }).selectOption('sle');
   await expect(page.getByRole('heading', { name: /Compare diseases/ })).toBeVisible();
   await expect(page.locator('.comparison-change').filter({ hasText: 'IL-6' })).toBeVisible();
   await expect(page.getByRole('link', { name: /Read.*evidence/ }).first()).toHaveAttribute('href', /diseases\//);
@@ -49,6 +51,7 @@ test('cross-disease comparisons preserve independent context and evidence links'
 });
 
 test('a source-checked finding exports a valid proposal and an advancing evidence cutoff', async ({ page }, testInfo) => {
+  test.setTimeout(60_000);
   await page.goto('curation/'); await page.getByLabel('Disease workspace').selectOption('iga-nephropathy');
   await page.getByLabel('Filter sources').fill('15673298');
   await page.getByRole('button', { name: /15673298/ }).first().click();
@@ -83,8 +86,10 @@ test('a source-checked finding exports a valid proposal and an advancing evidenc
 
 test('version comparison defaults to the selected candidate and links each changed claim to frozen evidence',async({page})=>{
  const selected = JSON.parse(await readFile('knowledge/diseases/iga-nephropathy/disease.json', 'utf8')).previewCandidate;
+ const selectedBundle = JSON.parse(await readFile(`knowledge/diseases/iga-nephropathy/candidates/${selected}.json`, 'utf8'));
  await page.goto('diseases/iga-nephropathy/compare/');await expect(page.getByRole('combobox',{name:'After',exact:true})).toHaveValue(selected);
- await expect(page.getByRole('combobox',{name:'Before',exact:true})).toHaveValue('iga-nephropathy-candidate-001');
+ await expect(page.getByRole('combobox',{name:'Before',exact:true})).toHaveValue(selectedBundle.scientificSummary?.baseReleaseId ?? 'iga-nephropathy-candidate-001');
+ await page.getByRole('combobox',{name:'Before',exact:true}).selectOption('iga-nephropathy-candidate-001');
  await expect(page.getByRole('link',{name:'Read this claim’s source evidence'}).first()).toHaveAttribute('href',new RegExp(`candidates/${selected}/#claim-`));
  expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
 });

@@ -19,6 +19,8 @@ Search by name, synonym or therapy brand. Search reveals hidden groups and opens
 
 ## Curate any disease
 
+Each selected disease now includes a two-paragraph scientific summary in its graph JSON. In the curator, **Copy summary and review prompt** gives you a portable block to check against current literature using another research tool. Export/import feedback tied to the exact snapshot, correct both graph and summary, and recheck a new packet. The local SLE, IgA nephropathy, CREST syndrome, pre-eclampsia and calciphylaxis summaries are drafts awaiting external review; automatic appraisals and engineering checks do not establish consensus.
+
 Give a third-party agent **[CURATION.md](CURATION.md)** as the single entry point for new-disease curation, updates and validation. It contains the task instruction, ordered runbook, commands, required handoff and scientific-validation limits. A profile defines the disease's scope and query; its first map is authored from its own inspected reports.
 
 ```sh

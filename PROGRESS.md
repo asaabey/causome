@@ -1,12 +1,12 @@
 # Local milestone record — 2026-10-10
 
-The product and reusable curation workflow are implemented locally. GitHub, remote publication and scheduling remain deferred. Scientific candidates are clearly labelled; engineering tests do not grant domain approval, calibration or evaluation acceptance.
+The product and reusable curation workflow are implemented locally. The private [GitHub repository](https://github.com/asaabey/causome) contains the committed project; scientific publication and scheduling remain deferred. Scientific candidates are clearly labelled; engineering tests do not grant domain approval, calibration or evaluation acceptance.
 
 | Milestone | Local implementation | Remaining acceptance |
 | --- | --- | --- |
 | 1. Graph foundation | Static Astro atlas, accessible React Flow graph, deterministic geometry and a complete JavaScript-free outline. | Complete locally. |
 | 2. Curated SLE experience | Source-checked bounded map: 21 entities, 27 relationships, 40 claims, three therapies; focused views, contextual evidence and negative/qualifying findings. | Independent human source/domain review. |
-| 3. Publish the MVP | Exact-commit authenticated review/CI gate, immutable root storage, public-build isolation, accessibility/performance checks, artifact archiving/restoration and health checks. | GitHub deferred; independent scientific approval, manual assistive-technology review, actual user walkthrough, reviewed-artifact staging redeployment and public hosting. |
+| 3. Publish the MVP | Exact-commit authenticated review/CI gate, immutable root storage, public-build isolation, accessibility/performance checks, artifact archiving/restoration and health checks. | Independent scientific approval, manual assistive-technology review, actual user walkthrough, reviewed-artifact staging redeployment and public hosting. |
 | 4. Evidence depth/history | Immutable successors, revision and stale-base checks, complete before/after diffs and historical evidence routes; groups, calibrated-rubric validation and 200-entity/400-relationship stress fixture. | Real scoring calibration if assessed scores are used, independently approved successor, usability pilot and hosting rollback. |
 | 5. Living literature workflow | Live Europe PMC retrieval, overlap/indexing/update/notice/known-source refresh, identifier deduplication, flags and attempt logs; strict manual/model extraction, immutable reconciliation packets, held-out/search evaluators and scheduling readiness. | Independent review of a real manual scan; actual reviewer-labelled held-out/search evaluations; configured model backend if desired. Weekly scans remain off. |
 | 6. Additional diseases | Generic profiles, entities and routes; bounded IgA nephropathy example; shared canonical identities with separate disease evidence, assessments and layouts; cross-disease comparison. | Two independently reviewed maps; current SLE and IgA maps remain candidates. |
@@ -23,7 +23,17 @@ The product and reusable curation workflow are implemented locally. GitHub, remo
 
 A source-checked finding must retain its canonical endpoints, context, exact source hash/passage, location, study system, limitations and checker/date. A model cannot check its own source, invent scores or approve anything. Source updates invalidate stale browser exports. Proposal packets retain the exact extraction and source inputs as well as the complete diff. Publication additionally requires independently authenticated review of the exact candidate.
 
-## Verified locally
+## Overall summary review — latest local verification
+
+All five selected disease maps now embed two-paragraph, claim-linked summaries in new immutable graph snapshots. Agent-authored inputs are retained in `curation/examples/disease-summaries.json`; source records and appraisals are preserved. The curator supports copying the portable current-literature review prompt, exporting a packet/feedback template and authoring a summary revision. The CLI records actual external feedback against the exact candidate, summary and packet digests; changed snapshots require a new check and historical feedback remains distinct.
+
+Summary-workflow verification passed **92 unit/integration tests**, **46 desktop/mobile browser checks** (four opt-in benchmarks skipped), schema/registry checks for 19 candidates and Astro checks for 37 files with no errors, warnings or hints. The static build produced 40 pages and five Markdown summary downloads; the live port-4322 preview passed its release-health check. The browser rerun covers clipboard content, exact packet export, blank feedback templates, author-bound edits, JavaScript-free summaries and the existing evidence workflows. Original committed snapshots and receipts pass the immutable comparison. The initial browser failures and their corrections are retained in the [summary verification record](curation/verification/2026-10-10/summary-review.json).
+
+**External scientific checking has not run.** The five summaries remain agent drafts, independent appraisal calibration/domain approval remain pending, and no publication or schedule was advanced. The automatic extractive fallback is a starting draft, not a current-literature synthesis or consensus check.
+
+Subsequent local interface changes render mediator mentions as bold evidence links in both summaries and preserve the exact copied review text. Repeated review/approval-pending reminders are removed from the local interface; underlying scientific records remain unchanged and historical notes are available in collapsed details. Verification includes 92 passing unit/integration tests, desktop/mobile summary and rating checks, zero Astro diagnostics across 39 files, a 40-page build and a scan confirming no visible review-pending reminders on those pages. The final mobile history check passed on rerun after encountering a temporarily missing page during the rebuild.
+
+## Earlier local verification
 
 Report summaries now use descriptive filenames: [engineering verification](curation/verification/2026-10-10/engineering-verification.md) and [appraisal verification](curation/verification/2026-10-10/appraisals/appraisal-verification.md). Historical source manifests retain the original paths and hashes from their verification runs; documentation renames do not represent a new verification run.
 

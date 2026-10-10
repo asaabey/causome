@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "recordedAt": "2026-10-10T07:36:08.809140+00:00",
+  "scope": "Local overall scientific-summary workflow engineering verification; no external literature verdict.",
+  "baselineCommit": "fcd6428f742516b9f7420bab1e739bdc49ce4998",
+  "checks": {
+    "unitIntegration": {
+      "command": "pnpm test",
+      "passed": 92,
+      "failed": 0,
+      "log": "/private/tmp/causome-summary-tests-final4.txt"
+    },
+    "registry": {
+      "command": "pnpm validate",
+      "candidates": 19,
+      "result": "passed"
+    },
+    "astro": {
+      "command": "pnpm check",
+      "files": 37,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0,
+      "log": "/private/tmp/causome-summary-check-final2.txt"
+    },
+    "browser": {
+      "command": "pnpm exec playwright test",
+      "passed": 46,
+      "failed": 0,
+      "skipped": 4,
+      "skipReason": "Opt-in performance/stress benchmarks not enabled",
+      "viewports": [
+        "desktop 1366x768",
+        "mobile 390x844"
+      ],
+      "log": "/private/tmp/causome-summary-browser-final.txt",
+      "report": "/private/tmp/causome-summary-browser-final-report",
+      "screenshot": "/private/tmp/causome-summary-workbench.png"
+    },
+    "build": {
+      "command": "pnpm build",
+      "htmlPages": 40,
+      "summaryMarkdownDownloads": 5,
+      "result": "passed",
+      "log": "/private/tmp/causome-summary-build-final2.txt"
+    },
+    "health": {
+      "command": "pnpm health http://127.0.0.1:4322 web/dist/release.json --preview",
+      "result": "passed"
+    },
+    "immutability": {
+      "command": "node scripts/check-immutability.mjs <baselineCommit>",
+      "result": "passed",
+      "note": "Existing committed snapshots/receipts preserved; registry preview selections advanced to new summary candidates."
+    }
+  },
+  "failedRunsRetained": [
+    {
+      "log": "/private/tmp/causome-summary-initial-tests.txt",
+      "passed": 81,
+      "failed": 1,
+      "correction": "CLI integration test follows the frozen appraisal base through the new selected summary snapshot."
+    },
+    {
+      "log": "/private/tmp/causome-summary-tests-final3.txt",
+      "passed": 91,
+      "failed": 1,
+      "correction": "Reviewed-base fixture uses unassessed data; provisional scores correctly prevented the earlier fixture from being marked approved."
+    },
+    {
+      "log": "/private/tmp/causome-summary-browser.txt",
+      "passed": 38,
+      "failed": 8,
+      "skipped": 4,
+      "corrections": [
+        "Cross-disease test explicitly selects the known shared-identity pair instead of assuming registry ordering.",
+        "Summary comparison opens its named base; the test separately selects the initial snapshot to inspect scientific claim changes.",
+        "Long curation integration test gets a 60-second budget; the summary panel is memoized to avoid rerendering during finding edits.",
+        "JavaScript-free summary test resolves the disease URL from the site root instead of the curation subdirectory."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "diseaseId": "calciphylaxis",
+      "candidateId": "calciphylaxis-summary-candidate-9b1e60179c27",
+      "contentDigest": "328e540a3c2ba5ec8e4b3ada6c2283f703aa6c6c56a0910bea3f1a7a7ed0090c",
+      "summaryRevisionId": "summary-9b1e60179c27",
+      "paragraphCount": 2,
+      "paragraphWordCounts": [
+        96,
+        102
+      ],
+      "authorKind": "agent",
+      "reviewStatus": "pending_external_review"
+    },
+    {
+      "diseaseId": "crest-syndrome",
+      "candidateId": "crest-syndrome-summary-candidate-b57a0717c4a3",
+      "contentDigest": "112a2f0704da6e4d745a823c1ceeaf954d5c59c2bd9b714543159032f6f19909",
+      "summaryRevisionId": "summary-b57a0717c4a3",
+      "paragraphCount": 2,
+      "paragraphWordCounts": [
+        100,
+        93
+      ],
+      "authorKind": "agent",
+      "reviewStatus": "pending_external_review"
+    },
+    {
+      "diseaseId": "iga-nephropathy",
+      "candidateId": "iga-nephropathy-summary-candidate-5bcf0968db75",
+      "contentDigest": "029b0fdd051fae92a8406ef781b72681d8bd5d39584afdb527d76fe7ca572b6b",
+      "summaryRevisionId": "summary-5bcf0968db75",
+      "paragraphCount": 2,
+      "paragraphWordCounts": [
+        72,
+        103
+      ],
+      "authorKind": "agent",
+      "reviewStatus": "pending_external_review"
+    },
+    {
+      "diseaseId": "pre-eclampsia",
+      "candidateId": "pre-eclampsia-summary-candidate-980515be46a7",
+      "contentDigest": "a958e582014c622f9f582fb36bea452e5ec7bca00dbf1195daf5c08e37781c4c",
+      "summaryRevisionId": "summary-980515be46a7",
+      "paragraphCount": 2,
+      "paragraphWordCounts": [
+        94,
+        104
+      ],
+      "authorKind": "agent",
+      "reviewStatus": "pending_external_review"
+    },
+    {
+      "diseaseId": "sle",
+      "candidateId": "sle-summary-candidate-f3c3742263d5",
+      "contentDigest": "838249cbf80a8a9de5bb0051d91d24bbc91fd9fa64aa013aa7c2b6543c720161",
+      "summaryRevisionId": "summary-f3c3742263d5",
+      "paragraphCount": 2,
+      "paragraphWordCounts": [
+        87,
+        101
+      ],
+      "authorKind": "agent",
+      "reviewStatus": "pending_external_review"
+    }
+  ],
+  "scientificChecks": {
+    "externalCurrentLiteratureReview": "not run",
+    "externalFeedbackReceipts": "none recorded for these five candidates",
+    "claimEntailment": "not established by this engineering verification",
+    "appraisalCalibration": "pending",
+    "authenticatedDomainApproval": "pending"
+  },
+  "publicationChanged": false,
+  "schedulingChanged": false,
+  "sourceManifest": {
+    "CHANGELOG.md": "7fb9125e22df84e917d324c237c3a1094b83ed2ea34bc7e8719661b5885755ce",
+    "CURATION.md": "1785a1ab64e90d928dd662c1fbfaecf6d76b6a59c04123be68d9e2a5ab4c7eae",
+    "PROGRESS.md": "186463e9a7ff585a3ec997e4a24e145b9f2fc20ab367295d4efec4043426c579",
+    "README.md": "c2de40dcb3e2718dd55104ba263b132f1a0abc8405ee938fdb87016cfd4b21f2",
+    "curation/examples/disease-summaries.json": "e007dbcd2721e3922dba66703fb453b229345f33d60d14a38e27518385de3912",
+    "knowledge/diseases/calciphylaxis/candidates/calciphylaxis-summary-candidate-9b1e60179c27.json": "bebe69e55b25e04f7b52e1ef6f23b5fbe18ee53e7ae3564f15464891a29375e1",
+    "knowledge/diseases/calciphylaxis/disease.json": "85a2f48964a497bf5bcfab04ce83274e2a1959451fa56b0a272318afc7ac8ea8",
+    "knowledge/diseases/crest-syndrome/candidates/crest-syndrome-summary-candidate-b57a0717c4a3.json": "3f776ed6b13613e4b2461191bed479db927c10ab7bc37bcde626a9c4b29ed68a",
+    "knowledge/diseases/crest-syndrome/disease.json": "b46493820608b33241a587887f7fa9253e0539d7e57870b62169c457ccbada74",
+    "knowledge/diseases/iga-nephropathy/candidates/iga-nephropathy-summary-candidate-5bcf0968db75.json": "6fbd50cb11d7407051f6545e2f3f10a3ec14f2995b733389ff5d18ff6c5b4d63",
+    "knowledge/diseases/iga-nephropathy/disease.json": "3ae2d2d5ba96afc1db5c10f3d6fbde6aef3ffb65486647a09636051b8a3b2fc7",
+    "knowledge/diseases/pre-eclampsia/candidates/pre-eclampsia-summary-candidate-980515be46a7.json": "013136f04447102fcff40c72a2dc18346a70d33897c661566a1e227b9c452c6a",
+    "knowledge/diseases/pre-eclampsia/disease.json": "aacafca2849ca4d00c064bf14ff85ce578abdd36a23b80319fbadbbfaf22a6c3",
+    "knowledge/diseases/sle/candidates/sle-summary-candidate-f3c3742263d5.json": "74241615c9f50d6a22a8d7a24c8600e0b86ac712bacbc3cdc03478cd4d7c9b74",
+    "knowledge/diseases/sle/disease.json": "f24738e8f8718db3cd32d0331dea4d24d7e5004e8bd7da229b7796a92827269e",
+    "schemas/release.schema.json": "20db5d4c4e00427f1098b4aa0c4babeebb1067dc6238b453387b354f0813b58d",
+    "scripts/curate.mjs": "ef60523ae461553d76cd2213eb10ee6ea473c9fe737825e72eda831e0d36d62b",
+    "scripts/curation/assessment.mjs": "1b92b051a4531425bb05bf976fec225e773822e45867faf4625fdee0e43b4c3d",
+    "scripts/curation/reconcile.mjs": "d8b4cca4c422a4caf4fbc43c61bb6575bef50f502b887991cea08ad9c7567158",
+    "scripts/curation/summary.mjs": "ba6c576f3ac4dcc56bcf66de59607b8cbb8e045792d120a0f8b91bd94fee29e8",
+    "scripts/disease-summary.mjs": "3c4023cc57ccae437a2d2b2966cdae6a08e0d3e140ada5570574307befd0c78f",
+    "scripts/validate-release.mjs": "6aa0299e58a4bd8ea10431c7a2fa058a547573613699f81992ab415633d1f81c",
+    "scripts/validation.mjs": "b49ba592e840c61c173adc79a265e4082f35d022e9c1e2f5a2733c2539d282e5",
+    "tests/automatic-appraisal.test.mjs": "769243784373693f90319d29fae3986d4d22228cdd52cca6726c709d9c69b659",
+    "tests/browser/curation.spec.ts": "fec24d7b4fef2b5857f4ebe06b841a6585ce7e3e2b59362b9204a574ad9bb089",
+    "tests/browser/disease-summary.spec.ts": "64d5ba87d90073ef500747daf2fbcef5f7dc6a0f1536d5efd5b2479bd36d309b",
+    "tests/disease-summary.test.mjs": "a89bf6903357fe9f69584570e2abb0b87b36c5095dcbaa0aba6b891721a69384",
+    "web/src/components/CurationWorkbench.tsx": "4a71ccd22710e2b6c259002c82a6707ea0e6d72702d9bdc2067e74f350e15147",
+    "web/src/components/DiseasePage.astro": "bb79403908282f84f83a7fdd72d489c41439c2f643db8d3fc4e0986042d14005",
+    "web/src/components/SummaryReview.tsx": "d11a9d2859c66010702ebe5fb36da4f6dcee34081e6a55fa84c8c62d63b3fb53",
+    "web/src/components/VersionComparison.tsx": "5e595b3bfe8595d7ff647d13233ee7aebd0fbb736ca81c972e8a8123c1201900",
+    "web/src/data/curation.ts": "40597fd1465893465bcc46af9c29a7135dd676f7aa081af3216bd6f63a9b21b0",
+    "web/src/data/types.ts": "c8baaf40e484afcc5ab21e5a0cf22acf662988082395adfd83ec7aeb9b79d3ab",
+    "web/src/pages/[workspace].astro": "5530d5534acbbc8d8549c938d1e42df45a31f9cd88762a43f1a907015b7fd0e8",
+    "web/src/pages/diseases/[disease]/summary-review.md.ts": "a015f76037bfd6d59186e7da89a065df9709df53c6c33d38a0b966ea3291f033",
+    "web/src/pages/methodology.astro": "ac943c22f12d50e38f4fdec4914b87d9debbdb2b46c962de685af131273560bd"
+  }
+}

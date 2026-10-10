@@ -22,6 +22,9 @@ export function contentDigest(bundle) {
   return createHash('sha256').update(canonicalize(content)).digest('hex');
 }
 
+/** Bind summary prose to every scientific and view record, independently of release metadata. */
+export const summaryGraphDigest = bundle => contentDigest(Object.fromEntries(['diseaseId', 'evidenceCutoff', ...collections].map(key => [key, bundle[key]])));
+
 /** Preview validation permits candidates but never skips source/reference checks. */
 export function validatePreview(bundle) {
   const errors = [];
@@ -37,6 +40,20 @@ export function validatePreview(bundle) {
   if ((bundle.parentReleaseId === null) !== (bundle.parentContentDigest === null) || bundle.parentReleaseId === bundle.id) errors.push('Parent ID and digest must be paired and cannot refer to this release');
   if (!validDate(bundle.evidenceCutoff) || !Number.isFinite(Date.parse(bundle.createdAt))) errors.push('Invalid release creation date or evidence cutoff');
   errors.push(...validateScoring(bundle));
+  if (bundle.scientificSummary) {
+    const summary = bundle.scientificSummary;
+    if (bundle.illustrative || bundle.formatVersion !== '0.3.0') errors.push('Scientific summaries require a scientific format 0.3.0 snapshot');
+    if (summary.graphContentDigest !== summaryGraphDigest(bundle) || summary.evidenceCutoff !== bundle.evidenceCutoff) errors.push('Scientific summary is stale for this graph or evidence cutoff');
+    if (!validDate(summary.authoredAt) || summary.authoredAt < bundle.evidenceCutoff || summary.authoredAt > new Date().toISOString().slice(0, 10)) errors.push('Invalid scientific summary authoring date');
+    if (!summary.scope.trim() || !summary.authoredBy.id.trim()) errors.push('Scientific summary needs an explicit scope and actual author');
+    const input = { version: summary.version, diseaseId: bundle.diseaseId, baseReleaseId: summary.baseReleaseId, baseContentDigest: summary.baseContentDigest,
+      scope: summary.scope, authoredBy: summary.authoredBy, authoredAt: summary.authoredAt, paragraphs: summary.paragraphs };
+    if (contentDigest(input) !== summary.inputDigest || summary.revisionId !== `summary-${summary.inputDigest.slice(0, 12)}`) errors.push('Scientific summary content differs from its input digest or revision');
+    for (const paragraph of summary.paragraphs) {
+      if (!paragraph.text.trim() || /[\r\n]/.test(paragraph.text) || paragraph.text.split(/\s+/).length > 220) errors.push('Summary text must contain one or two single paragraphs, at most 220 words each');
+      for (const id of paragraph.claimIds) if (!indexes.claims.has(id)) errors.push(`Summary references missing claim ${id}`);
+    }
+  }
   const allIds = new Set();
   for (const name of collections) {
     for (const record of bundle[name]) {
@@ -251,6 +268,7 @@ export async function validatePublication(bundle, trustedWorkflow = {}) {
   if (!preview.valid) return { valid: false, errors };
   if (bundle.illustrative) errors.push('Illustrative content cannot be published as scientific knowledge');
   if (!['approved', 'published'].includes(bundle.status)) errors.push('Release must be approved before publication');
+  if (bundle.scientificSummary?.status === 'pending_external_review') errors.push('Summary external feedback does not confer authenticated scientific publication approval');
   for (const name of collections) {
     for (const record of bundle[name]) {
       if (!['approved', 'published'].includes(record.status)) errors.push(`${record.id}: unapproved record cannot be published`);

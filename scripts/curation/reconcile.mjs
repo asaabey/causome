@@ -71,6 +71,7 @@ export function reconcileExtraction({ base, extraction, papers, cutoff }) {
     if (base.sources.some(source => sourceIdentifiers(source).some(id => paper.identifiers.map(normalize).includes(id)))) report.warnings.push(`${paper.key}: a source already used by the base is flagged; reconcile its existing claims before generating a candidate.`);
   }
   const candidate = structuredClone(base), revision = hash(binding).slice(0, 12);
+  delete candidate.scientificSummary;
   candidate.formatVersion = '0.3.0'; candidate.manifest.schemaVersion = '0.3.0';
   candidate.id = `${base.diseaseId}-candidate-${revision}`; candidate.revisionId = `${candidate.id}-r1`; candidate.changeSetRevision = proposalId;
   const publicBase = ['approved', 'published'].includes(base.status) && !base.illustrative;
@@ -178,8 +179,10 @@ export function releaseDiff(before, after) {
 
 const revisionContent = record => Object.fromEntries(Object.entries(record).filter(([key]) => !['revisionId', 'status'].includes(key)));
 export function validateRevisionChanges(before, after) {
-  return collections.flatMap(name => after[name].flatMap(record => {
+  const errors = collections.flatMap(name => after[name].flatMap(record => {
     const previous = before[name].find(item => item.id === record.id);
     return previous && previous.revisionId === record.revisionId && canonicalize(revisionContent(previous)) !== canonicalize(revisionContent(record)) ? [`${record.id}: changed record content requires a new revision ID`] : [];
   }));
+  if (before.scientificSummary && after.scientificSummary && before.scientificSummary.revisionId === after.scientificSummary.revisionId && canonicalize(before.scientificSummary) !== canonicalize(after.scientificSummary)) errors.push('Changed summary requires a new summary revision ID');
+  return errors;
 }

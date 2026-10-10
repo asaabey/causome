@@ -68,6 +68,12 @@ export interface ReleaseBundle {
   status: EditorialStatus; illustrative: boolean; parentReleaseId: string | null; parentContentDigest: string | null;
   releaseNote?: string; createdAt: string; evidenceCutoff: string; changeSetRevision: string;
   diseaseDescription?: string; diseaseAliases?: string[];
+  scientificSummary?: {
+    version: 1; revisionId: string; status: 'pending_external_review'; scope: string;
+    paragraphs: { text: string; claimIds: string[] }[];
+    authoredBy: { id: string; kind: 'human' | 'agent' | 'system' }; authoredAt: string; evidenceCutoff: string;
+    graphContentDigest: string; baseReleaseId: string; baseContentDigest: string; inputDigest: string;
+  };
   entities: Entity[]; relationships: Relationship[]; claims: Claim[]; evidenceItems: EvidenceItem[];
   sources: Source[]; therapies: Therapy[]; contexts: DiseaseContext[]; assessments: Assessment[]; scoringModels: ScoringModel[];
   mapViews: MapView[]; layouts: Layout[];

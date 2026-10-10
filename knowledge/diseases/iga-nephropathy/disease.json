@@ -9,5 +9,5 @@
   "query": "(TITLE_ABS:\"IgA nephropathy\" OR TITLE_ABS:\"IgA nephritis\")",
   "overlapDays": 30,
   "reconciliationDays": 90,
-  "previewCandidate": "iga-nephropathy-appraised-candidate-bf0656421814"
+  "previewCandidate": "iga-nephropathy-summary-candidate-5bcf0968db75"
 }

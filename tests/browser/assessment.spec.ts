@@ -12,7 +12,8 @@ test('current node and edge ratings show provenance, components and categorical 
  await expect(inspector.locator('.evidence-scores')).toContainText(`${assessment.evidenceConfidence}/4`);
  await expect(inspector.locator('.evidence-scores')).toContainText('Approved direct target');
  await expect(inspector.locator('.evidence-scores')).not.toContainText('Not assessed');
- await expect(inspector).toContainText('Provisional · uncalibrated · review pending');
+ await expect(inspector).toContainText('Provisional · uncalibrated');
+ await expect(inspector).not.toContainText(/review pending|domain review remains pending|pending domain review|appraisal review: pending/i);
  await inspector.getByText('Weight components and rationale', { exact:true }).click();
  await expect(inspector.locator('.evidence-appraisal').filter({hasText:'Weight components and rationale'})).toContainText('Independent corroboration');
  await inspector.getByText('Therapeutic target coverage and limits', {exact:true}).click();
@@ -33,6 +34,8 @@ test('current appraisals are exposed in the curator and original history remains
  await page.getByLabel('Disease workspace').selectOption('sle');
  await expect(page.getByRole('region',{name:'Current appraisals'})).toContainText('48 of 48');
  await expect(page.getByRole('region',{name:'Current appraisals'})).toContainText('uncalibrated');
+ await expect(page.getByRole('region',{name:'Current appraisals'})).not.toContainText(/review pending/i);
+ await expect(page.locator('.footer-note')).toHaveText('Local disease atlas.');
  await page.getByLabel('Disease workspace').selectOption('iga-nephropathy');
  await expect(page.getByRole('region',{name:'Current appraisals'})).toContainText('16 of 16');
  await page.goto('diseases/sle/candidates/sle-curated-candidate-001/');

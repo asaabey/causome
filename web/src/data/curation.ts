@@ -1,7 +1,8 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
-import { hash } from '../../../scripts/curation/io.mjs';
+import { hash, safeSlug } from '../../../scripts/curation/io.mjs';
 import { atlas } from './atlas';
+import { summaryPacket, feedbackTemplate, recordSummaryFeedback } from '../../../scripts/curation/summary.mjs';
 import type { CurationDisease } from '../components/CurationWorkbench';
 export const curationDiseases: CurationDisease[] = atlas.map(({ profile, bundle }) => {
   const root = resolve('../curation/workspace', profile.id), statePath = join(root, 'state.json');
@@ -22,5 +23,16 @@ export const curationDiseases: CurationDisease[] = atlas.map(({ profile, bundle 
     }
     papers = [...byKey.values()]; runId ??= paths.length ? 'Manual inspected imports' : null;
   }
-  return { id: profile.id, label: profile.label, base: bundle, papers: papers.map(paper => ({ paper, paperDigest: hash(paper) })), runId };
+  const feedbackRoot = resolve('../knowledge/diseases', profile.id, 'summary-reviews');
+  const feedback = existsSync(feedbackRoot) ? readdirSync(feedbackRoot).filter(name => /^summary-feedback-[a-f0-9]+\.json$/.test(name)).map(name => {
+    const record = JSON.parse(readFileSync(join(feedbackRoot, name), 'utf8'));
+    if (!safeSlug(record.candidateId) || record.diseaseId !== profile.id || name !== `${record.id}.json`) throw new Error('Invalid summary feedback identity');
+    const reviewed = JSON.parse(readFileSync(resolve('../knowledge/diseases', profile.id, 'candidates', `${record.candidateId}.json`), 'utf8'));
+    const input = Object.fromEntries(Object.keys(feedbackTemplate(reviewed)).map(key => [key, record[key]]));
+    if (hash(recordSummaryFeedback(reviewed, input)) !== hash(record)) throw new Error('Invalid summary feedback receipt');
+    return { ...record, current: record.contentDigest === bundle.manifest.contentDigest };
+  }) : [];
+  const packet = bundle.scientificSummary ? summaryPacket(bundle) : null;
+  return { id: profile.id, label: profile.label, base: bundle, papers: papers.map(paper => ({ paper, paperDigest: hash(paper) })), runId,
+    ...(packet ? { summaryReview: { reviewText: packet.reviewText, packet, feedbackTemplate: feedbackTemplate(bundle), feedback } } : {}) };
 });

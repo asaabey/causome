@@ -23,9 +23,9 @@ Choose a task:
 1. **Define the scope.** Record disease name, safe lowercase slug, aliases, phenotype/organ/stage, exclusions, evidence cutoff and literature query. When essential scope is missing, request it; do not silently claim coverage of the whole disease. Search existing entities for shared canonical identities, while retaining disease-specific context and evidence.
 2. **Register and retrieve.** Use `curate init` and `curate scan` as shown in sections 1–2. Scanning works before a first map exists. The scan prints the actual source-snapshot and review-report paths. Inspect retrieved primary reports, exact passages and source notices. A successful search is not evidence that its results support a mechanism or that coverage is complete.
 3. **Author the first-map input.** Copy [the blank first-map contract](curation/templates/first-map.json) into `curation/workspace/<slug>/first-map.json`. Follow [the inspected IgA example](curation/examples/iga-first-map.json) for structure, not scientific content. Replace placeholders with this disease's entities, source metadata, atomic findings, exact quotations, study context and limitations. Retain qualifying and contradictory evidence. Record only source checks actually performed, with the real checker/date and actual access scope; identify agent checks as agent work, never human approval. Model-adapter extraction output cannot contain its own source checks. Missing evidence/checks must remain pending in the handoff rather than being fabricated to seed a map.
-4. **Create the graph bundle.** After the first-map source checks are available, run `curate seed`. It creates one self-contained candidate JSON containing entities, relationships, claims, evidence items, sources, contexts, assessments and views/layouts. It also retains normalized source/extraction inputs under `curation/workspace/<slug>/imports/`. Keep the authored first-map input too: exact quotations are not currently embedded in the graph bundle. Use a new candidate ID for changed input. The CLI preserves that initial snapshot and automatically creates a second candidate with conservative weight/confidence appraisals and therapeutic target categories. Use the final appraised candidate ID printed by the command. Seeding creates no therapies; add supported therapy/context changes through the full-candidate proposal route in section 4. Section 5 explains automatic ratings and optional editorial replacements.
+4. **Create the graph bundle.** After the first-map source checks are available, run `curate seed`. It creates one self-contained candidate JSON containing entities, relationships, claims, evidence items, sources, contexts, assessments and views/layouts. It also retains normalized source/extraction inputs under `curation/workspace/<slug>/imports/`. Keep the authored first-map input too: exact quotations are not currently embedded in the graph bundle. Use a new candidate ID for changed input. The CLI preserves that initial snapshot, creates conservative appraisals, then embeds an extractive summary in a new candidate and writes its review packet. Use the final **summary candidate ID** printed by the command. Seeding creates no therapies; add supported therapy/context changes through the full-candidate proposal route in section 4. Section 5 explains automatic ratings and optional editorial replacements.
 5. **Validate before selecting.** Run the candidate and registry checks below. Fix structural errors using actual evidence. Leave missing science explicitly unresolved. Automatic appraisals are now part of the CLI workflow. For an existing unappraised map, use `auto-assess --base <candidate.json>` or select it with `curate preview`; both create a new appraised candidate. Explicit editorial replacements use `assessment-template` / `assess`, identify the actual assessor kind, and require validation against the resulting candidate. Do not copy another disease's scores or imply calibration.
-6. **Select and inspect locally.** Select the validated candidate with `curate preview` (which automatically appraises an unappraised snapshot), then validate the final selected candidate ID if it changed. Run `pnpm check` and `pnpm build`, and inspect its disease page and evidence outline. Use port 4322 or an available `CAUSOME_PORT`; do not replace another project's server. Changed UI behavior needs the relevant existing browser checks. A data-only candidate does not require running every benchmark.
+6. **Select, summarize and check the overall science.** Select with `curate preview`, which adds missing appraisals and a summary in new snapshots. Replace the extractive draft with a connected one- or two-paragraph synthesis before scientific handoff; section 7 gives the commands. Check the final exact candidate, run `pnpm check` and `pnpm build`, and inspect its page and review packet. Submit that packet to an external research tool for a current-literature check; record the actual report or mark this step not run. Resolve major issues in both the summary and graph, generate a new packet and recheck. Use port 4322 or an available `CAUSOME_PORT`; do not replace another project's server. Changed UI behavior needs relevant browser checks; data-only changes do not require every benchmark.
 7. **Deliver the handoff.** Include the final candidate, all input/source/proposal artifacts, actual validation results and unresolved evidence/review gaps. Use the checklist below. No public pointer, reviewer policy or schedule is changed by this workflow.
 
 These commands are a sequence with placeholders, not a script to run verbatim. First author the input and perform actual source checks; then replace `<slug>` and `<candidate-id>` with their real values:
@@ -47,8 +47,9 @@ pnpm build
 | Registry integrity | `pnpm validate` | All registered candidates and their disease/profile/path identities. |
 | Product integration | `pnpm check`, then `pnpm build` | The atlas type-checks and builds with the candidate. It does not establish source entailment. |
 | Scientific support | Inspect actual primary-source passages and the claim's scope; retain dispositions and unresolved gaps. | Only the checks actually performed. Quote matching and a checker name alone do not establish support or independent human approval. |
+| Overall scientific understanding (primary review unit) | Section 7: export the summary packet, check it with an external research tool, and record actual feedback with `summary-feedback`. | Whether that tool found the bounded overall explanation consistent, needing revision or insufficiently supported, with its actual search coverage and sources. This is recorded external feedback, not certification of every graph element or authenticated publication approval. |
 | Checker evaluation | Section 5's `curate evaluate` / `evaluate-search`, with real held-out labels, predictions and actual adjudication. | Measured extractor/search performance on those datasets; not validity of every claim in a disease map. |
-| Automated semantic verification and random audits | Section 7 describes the proposed implementation. | **Not implemented.** There is no runnable service or audit command that certifies scientific support at scale. Report this layer as pending. |
+| Automated claim-level semantic verification and random audits | Section 8 describes an optional future implementation. | **Not implemented.** There is no runnable service or audit command that certifies every assertion at scale. Summary review is the practical overall-science check; it does not imply claim-level assurance. |
 
 Separate `passed`, `failed`, `not run` and `pending scientific review` in the report. Include the command, date, exit result, output/report path and exact candidate ID/content digest. Do not convert successful engineering checks into a scientific-validity or publication verdict. A failed check remains visible after a correction and rerun.
 
@@ -61,6 +62,7 @@ Write a concise report at `curation/workspace/<slug>/handoff/report.md` containi
 - Paths to the authored first-map input, exact source snapshots/quotations, source-check provenance and any extraction/proposal/diff/appraisal inputs. Include actual model/prompt versions when a model adapter was used.
 - Entity/relationship/claim/source counts; supporting, qualifying and contradicting evidence; unresolved notices, context gaps, study-independence uncertainty and missing therapies/appraisals.
 - Actual validation results by layer, corrected failures, checks not run and scientific checks still pending. If there is no seedable candidate, explain why and hand off the draft/evidence rather than asserting completion.
+- The one- or two-paragraph scientific summary, its scope/cutoff, final summary revision, portable review packet and actual external feedback receipts. State tool/date/search coverage, verdict, major issues and resolutions, or explicitly say external review has not run.
 - The local preview route if selected, and confirmation that domain review/calibration remain pending and publication/scheduling were not advanced.
 
 `curation/workspace/` is ignored local storage. When handing the work to another agent or machine, transfer the referenced input/evidence packet with the candidate; a Git checkout alone will not contain it. Preserve original records and historical hashes.
@@ -183,7 +185,7 @@ Inputs/results are retained in `curation/workspace/<slug>/appraisals/<appraised-
 | Therapeutic leverage | Derive categorical direct/indirect target coverage from frozen therapy records, development status and endpoints. No linked therapy yields “No intervention curated”; the rules do not discover drugs or establish efficacy. |
 | Evidence and provenance | Preserve supporting/qualifying/contradicting categories, contextual references, component/dimension rationales and source notices. Qualifiers/negative controls cannot be counted as positive functional support. Source-type tags and claim interpretation are inputs requiring verification, not automatically proven facts. |
 
-These are conservative rules, not a configured LLM appraisal backend or the independent semantic validator proposed in section 7. They fill the product automatically and expose their limitations. Improve a draft with a reasoned editorial worksheet when more source information is available; independent calibration and authenticated scientific review remain separate gates. The original snapshots and existing SLE/IgA editorial drafts remain unchanged.
+These are conservative rules, not a configured LLM appraisal backend or the independent claim-level semantic validator proposed in section 8. They fill the product automatically and expose their limitations. Improve a draft with a reasoned editorial worksheet when more source information is available; independent calibration and authenticated scientific review remain separate gates. The original snapshots and existing SLE/IgA editorial drafts remain unchanged. Reappraisal invalidates an embedded summary; selecting the resulting candidate regenerates a fresh draft and packet.
 
 ### Local provisional appraisal
 
@@ -222,13 +224,60 @@ Weekly scheduling remains off until a real manual scan is reviewed and held-out/
 
 ## 6. Scientific publication and recovery
 
-GitHub is deferred. Continue reviewing local candidates without changing the disabled reviewer policy. When publication is enabled through trusted review, the same authenticated gate covers a root or successor, and successors must name the exact current parent. Historical files and original receipts are never rewritten. Before publishing scores, both calibration reviewers and each appraisal decision require authenticated backing.
+The private source repository is [asaabey/causome](https://github.com/asaabey/causome). Scientific publication is deferred. Continue reviewing local candidates without changing the disabled reviewer policy. When publication is enabled through trusted review, the same authenticated gate covers a root or successor, and successors must name the exact current parent. Historical files and original receipts are never rewritten. Before publishing scores, both calibration reviewers and each appraisal decision require authenticated backing.
 
 `archive:site` archives verified public output. `restore:site` verifies archive/file hashes, paths, counts and release identity before restoring exact bytes into a fresh directory. It rejects links, traversal, duplicate entries and existing destinations. A synthetic local round-trip test is engineering evidence, not a demonstrated hosting redeployment. Actual staging recovery and previous-release rollback must be recorded against approved artifacts.
 
 Restoring an earlier site artifact does not move the scientific `current.json` pointer backward. A scientific content reversion is a newly reviewed successor whose parent is the current release.
 
-## 7. Proposed validation at scale: evidence checks, exceptions and random audits
+## 7. Overall scientific summary review
+
+**Implemented locally; external checking requires an actual tool run.** The primary review unit is one or two paragraphs answering: **does this overall explanation represent current scientific understanding within its declared scope?** Paragraph 1 connects the central mechanisms and disease manifestations. Paragraph 2 distinguishes established observations from uncertain interpretations, major contrary findings and therapeutic evidence. Keep each paragraph under 220 words. Preserve mixed human/cell/animal contexts and material caveats; do not inflate the map into a universal causal circuit.
+
+The summary is embedded as `scientificSummary` in the same JSON that drives the graph. It includes author/date, scope/cutoff, paragraph-to-claim links, input digest, summary revision and a digest of all scientific/view collections. Claim links provide traceability, not a semantic proof that the prose is entailed. Changing graph records or the cutoff makes the old summary invalid. Reconciliation and reappraisal remove it; their CLI workflow creates a new draft. Original candidates and their review packets remain immutable.
+
+Seeding, ready proposals/reconciliation, automatic appraisal and preview selection create an **extractive system draft** when no summary exists. It selects a few contextual findings and their limitations; it does not perform a literature search or establish consensus. The curator must turn it into a coherent synthesis with the actual author kind. The five local disease maps have agent-authored two-paragraph drafts from their frozen evidence; [the saved inputs](curation/examples/disease-summaries.json) reproduce them. Their external scientific review remains pending.
+
+### Author or revise the summary
+
+The workbench's **Edit summary draft** exports an author-bound input. Its claim links need inspection if the scientific content changes. Agents can use:
+
+```sh
+pnpm curate summary-template --base <candidate.json> --output summary-input.json
+# Edit scope, paragraphs and claimIds. Set authoredBy to the actual human/agent.
+pnpm curate summarize --base <candidate.json> --input summary-input.json
+pnpm curate preview --disease <slug> --candidate <printed-summary-candidate-id>
+```
+
+`summarize` creates a new candidate and retains the exact input under `curation/workspace/<slug>/summaries/<candidate-id>/input.json`. It preserves scientific records and appraisals while resetting review dispositions where necessary. An edited system-attributed worksheet is rejected; use the actual human/agent author.
+
+### Check the review block in an external tool
+
+In `/curation/?disease=<slug>`, use **Copy summary and review prompt**, **Download summary review**, or **Export summary packet**. The disease page also provides a Markdown download without JavaScript. The CLI can export the same packet:
+
+```sh
+pnpm curate summary-packet --base <summary-candidate.json> --output <review-directory>
+```
+
+The directory contains `review.md`, `packet.json` and `feedback-template.json`. The packet binds the exact candidate ID/digest, summary revision/digest, scope, evidence cutoff, linked sources/access limits and versioned external review prompt. Paste `review.md` into your chosen research tool. The prompt asks for an independent current-literature search and an overall verdict, major errors/omissions/outdated interpretations, causal overstatement, unresolved debates, specific corrections and citations. A tool without retrieval must disclose that limitation; agreement from memory is not a current-literature check. Independent tools may disagree; preserve the disagreements rather than vote them away. No external service is called automatically by this implementation.
+
+### Record feedback and resolve changes
+
+Fill in the exported feedback template with the actual tool, recorder, check date, search coverage/date, consulted URLs, verdict, explanation, issues and original report. Allowed verdicts are `consistent_with_caveats`, `needs_revision` and `insufficient_evidence`. An issue contains `severity` (`major`/`minor`), `category` (`unsupported`, `omission`, `outdated`, `causal_overstatement`, `scope`, `other`), `description`, `suggestedCorrection` and `sourceUrls`. Do not fabricate a search or source: no search cannot yield a current-science consistency verdict, and unresolved major issues require revision or insufficient evidence.
+
+```sh
+pnpm curate summary-feedback --base <summary-candidate.json> --input <completed-feedback.json>
+pnpm validate
+pnpm build
+```
+
+The receipt is saved immutably under `knowledge/diseases/<slug>/summary-reviews/summary-feedback-<digest>.json` and appears in the rebuilt curator. Registry validation verifies its exact snapshot/packet bindings and record digest. Identical imports are idempotent. The receipt records external feedback, not authenticated human approval; it changes neither graph nor summary nor publication status. The snapshot's frozen pending-review status remains its original authoring state; actual reports are shown separately.
+
+For major feedback, inspect the cited sources and update the underlying graph through extraction/reconciliation or a full-candidate proposal. For full-candidate edits, remove the now-stale `scientificSummary`, use new record revision IDs, and let the CLI create a fresh summary. Revise the prose to match the corrected graph, then export and recheck the **new** packet. A prose-only clarification also creates a new summary candidate. Old feedback remains visible as historical and cannot be submitted for a different snapshot, even when most prose is unchanged. Keep unresolved major issues visible and the candidate provisional.
+
+Summary review answers the overall-understanding question. It does not validate every node/edge, calibrate scores, prove literature completeness or replace authenticated scientific publication review. Summary candidates currently retain a pending review status and cannot bypass the publication gate.
+
+## 8. Optional future claim-level verification: evidence checks, exceptions and random audits
 
 **Design, not an active verification service.** The current pipeline checks structure, provenance and passage matching. It does not run independent semantic verification. The proposal below changes the unit of human work from reading every paper to checking short evidence cards, release-critical exceptions and a statistically defined sample. It evaluates whether assertions are supported within their stated scope; it cannot certify that a disease model is complete or biologically true.
 

@@ -97,13 +97,15 @@ test('CLI seeds, previews and reconciles a disease with automatic appraisals, fr
   const original = readFileSync(originalPath);
   const selected = run('preview', '--disease', slug, '--candidate', input.id);
   const profile = read(join(directory, 'knowledge/diseases', slug, 'disease.json'));
-  assert.match(selected, /appraised-candidate/);
+  assert.match(selected, /summary-candidate/);
   const candidate = read(join(candidateDirectory, `${profile.previewCandidate}.json`));
   assert(candidate.assessments.every(item => item.mechanisticWeight !== null && item.evidenceConfidence !== null && item.therapeuticAppraisal));
   assert.deepEqual(readFileSync(originalPath), original);
-  const appraisalDirectory = join(directory, 'curation/workspace', slug, 'appraisals', candidate.id);
+  assert.equal(candidate.scientificSummary.status, 'pending_external_review');
+  const appraisedBase = read(join(candidateDirectory, `${candidate.scientificSummary.baseReleaseId}.json`));
+  const appraisalDirectory = join(directory, 'curation/workspace', slug, 'appraisals', appraisedBase.id);
   assert.equal(read(join(appraisalDirectory, 'result.json')).inputDigest, candidate.assessments[0].appraisalProvenance.inputDigest);
-  assert.deepEqual(candidate, assessCandidate(JSON.parse(original), read(join(appraisalDirectory, 'input.json'))));
+  assert.deepEqual(appraisedBase, assessCandidate(JSON.parse(original), read(join(appraisalDirectory, 'input.json'))));
   const seedInputs = join(directory, 'curation/workspace', slug, 'imports', readdirSync(join(directory, 'curation/workspace', slug, 'imports'))[0]);
   const extraction = read(join(seedInputs, 'extraction.json'));
   extraction.baseReleaseId = candidate.id; extraction.baseContentDigest = candidate.manifest.contentDigest;

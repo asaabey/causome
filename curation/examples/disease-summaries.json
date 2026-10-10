@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "note": "Agent-authored synthesis of the frozen local graphs; no new literature search or external verdict recorded.",
+  "inputs": {
+    "sle": {
+      "version": 1,
+      "diseaseId": "sle",
+      "baseReleaseId": "sle-appraised-candidate-df64ccfede54",
+      "baseContentDigest": "d9d9d4ac4a3adf5b921bbddfe782d9db20705b0e27e04e32b530a9ce46f396b2",
+      "scope": "A bounded nucleic-acid, interferon and B-cell circuit with a renal injury branch.",
+      "authoredBy": {
+        "id": "causome-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-10",
+      "paragraphs": [
+        {
+          "text": "This bounded SLE model connects self-reactive antibodies and nucleic-acid-containing immune complexes with innate sensing and B-cell responses. In the cited culture systems, RNA- and DNA-containing complexes stimulate TLR7- or TLR9-dependent plasmacytoid dendritic-cell interferon production. Type I interferon can increase monocyte BAFF release and promote stages of B-cell differentiation; BAFF and enhanced TLR7 signalling support B-cell survival in the cited mouse models. Autoantibody-producing cells and immune complexes provide a proposed route connecting these processes. The renal branch places deposited immune complexes upstream of Fc-receptor-dependent inflammation in lupus-prone mice.",
+          "claimIds": [
+            "claim-antibodies-complexes",
+            "claim-complexes-tlr7",
+            "claim-complexes-tlr9",
+            "claim-pdc-ifn",
+            "claim-ifn-baff",
+            "claim-baff-bcells",
+            "claim-tlr7-bcells",
+            "claim-bcells-blasts",
+            "claim-il6-plasma",
+            "claim-plasma-antibodies",
+            "claim-complexes-fcr",
+            "claim-fcr-kidney"
+          ]
+        },
+        {
+          "text": "The evidence spans human observations, cell cultures and animal models; it does not establish a universal, self-sufficient causal circuit for every SLE phenotype. Reduced apoptotic clearance is a proposed initiating route, TLR9 can have different effects across models, and renal immune-complex deposition alone did not produce severe nephritis in an Fc-receptor-deficient model. The cited belimumab and anifrolumab trials provide clinical intervention evidence for selected outcomes and populations, while anifrolumab and enpatoran programmes include negative primary endpoints. Target engagement, an approved indication and benefit across all disease manifestations are distinct conclusions. This summary remains a draft to be checked against current literature.",
+          "claimIds": [
+            "claim-clearance-debris",
+            "claim-debris-complexes",
+            "claim-tlr9-context",
+            "claim-renal-not-sufficient",
+            "claim-belimumab-trial",
+            "claim-anifrolumab-trial",
+            "claim-anifrolumab-negative",
+            "claim-enpatoran-negative"
+          ]
+        }
+      ]
+    },
+    "iga-nephropathy": {
+      "version": 1,
+      "diseaseId": "iga-nephropathy",
+      "baseReleaseId": "iga-nephropathy-appraised-candidate-bf0656421814",
+      "baseContentDigest": "33faad932802923425cc2ccd575b2685541223176aeb75ad54e2d1615ece40e8",
+      "scope": "IgA1 glycosylation, antiglycan antibodies and mesangial signalling, with study-specific limits.",
+      "authoredBy": {
+        "id": "causome-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-10",
+      "paragraphs": [
+        {
+          "text": "This bounded IgA nephropathy model follows galactose-deficient IgA1, glycan-specific IgG, immune-complex formation and mesangial responses. Patient-derived IgA1-secreting cultures produced galactose-deficient IgA1, and IL-6 accentuated that glycosylation abnormality in culture. Galactose-deficient IgA1 formed complexes with patient-derived glycan-specific IgG in vitro. Large IgA1-containing complex fractions stimulated cultured mesangial-cell proliferation and ERK signalling; stimulated mesangial cultures also secreted IL-6. These findings motivate a proposed connection between abnormal IgA1, complex-dependent mesangial activation and local inflammatory signalling.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-il6-cells",
+            "claim-iga-gd-complex",
+            "claim-iga-igg-complex",
+            "claim-iga-complex-mesangial",
+            "claim-iga-complex-erk",
+            "claim-iga-mesangial-il6"
+          ]
+        },
+        {
+          "text": "Most functional links in this map come from cell-culture experiments rather than intervention in patients. Smaller complex fractions inhibited proliferation, and uncomplexed IgA1 did not significantly alter proliferation, so the complex effect cannot be attributed uniformly to IgA1 alone. Mesangial ERK activation in biopsies was associated with proteinuria and blood pressure, which does not establish its causal contribution to renal injury. The assembled pathway and any feedback interpretation remain provisional; this selected-report map is not a complete account of IgA nephropathy and does not synthesize treatment efficacy. An independent current-literature check should identify major missing mechanisms and any necessary expansion of its scope.",
+          "claimIds": [
+            "claim-iga-size-qualification",
+            "claim-6b874a35ea11211276d1",
+            "claim-iga-erk-kidney",
+            "claim-iga-mesangial-il6"
+          ]
+        }
+      ]
+    },
+    "crest-syndrome": {
+      "version": 1,
+      "diseaseId": "crest-syndrome",
+      "baseReleaseId": "crest-syndrome-appraised-candidate-30d2fc09b9ce",
+      "baseContentDigest": "f0ce0ed21a86ea484954b7761c6ebc2995f7a8a41504daceeec1690b69866a67",
+      "scope": "A bounded limited cutaneous systemic sclerosis map: anticentromere autoimmunity, endothelial vasculopathy with a pulmonary arterial hypertension branch, fibroblast activation and calcinosis associations. Raynaud's phenomenon has no supported edge yet. Diffuse cutaneous SSc-specific features, scleroderma renal crisis, morphea and overlap syndromes are out of scope.",
+      "authoredBy": {
+        "id": "causome-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-10",
+      "paragraphs": [
+        {
+          "text": "This bounded CREST/limited cutaneous systemic sclerosis map brings together vascular injury, autoimmunity and fibrosis. In the cited cohorts, anticentromere antibodies mark particular clinical and genetic subsets; calcinosis is associated with digital ischaemia, ulcers and other vascular features. Plasmacytoid dendritic-cell activation and CXCL4/type I interferon findings connect immune activity with vascular and fibrotic abnormalities, while CXCL4 impaired endothelial-cell functions in culture. Fibroblast experiments implicate autocrine TGF-beta and integrin signalling in collagen production and the myofibroblast phenotype, with endothelin providing a further experimental connection to fibrosis. These observations suggest interacting vascular, immune and fibrotic processes rather than a demonstrated single initiating cause.",
+          "claimIds": [
+            "claim-crest-hla-ii-aca",
+            "claim-crest-aca-calcinosis",
+            "claim-crest-calcinosis-digital-ischaemia",
+            "claim-crest-calcinosis-digital-ulcers-sctc",
+            "claim-crest-pdc-produce-ifn",
+            "claim-crest-cxcl4-pah",
+            "claim-crest-cxcl4-inhibits-endothelial",
+            "claim-crest-tgfb-autocrine-collagen",
+            "claim-crest-avb3-myofibroblast-phenotype",
+            "claim-crest-et1-fibroblast-collagen"
+          ]
+        },
+        {
+          "text": "Much of this evidence is observational, and several functional experiments concern systemic sclerosis generally, diffuse disease or animal models rather than CREST specifically. Anticentromere positivity did not distinguish pulmonary arterial hypertension within one CREST cohort; other vascular associations should therefore not be promoted to universal causal or predictive rules. The links among ischaemia, calcinosis, fibrosis and organ manifestations remain incompletely established at whole-disease scale. This draft does not synthesize therapy efficacy and requires checking for major omissions within its declared CREST/limited-disease scope, especially where broader systemic-sclerosis findings have been transferred to this subset.",
+          "claimIds": [
+            "claim-crest-aca-pah-null-crest",
+            "claim-crest-il6-elevated-dcssc",
+            "claim-crest-aeca-transfer-ec-apoptosis",
+            "claim-crest-calcinosis-digital-ischaemia",
+            "claim-crest-tgfb-autocrine-collagen"
+          ]
+        }
+      ]
+    },
+    "pre-eclampsia": {
+      "version": 1,
+      "diseaseId": "pre-eclampsia",
+      "baseReleaseId": "pre-eclampsia-appraised-candidate-41278c06c087",
+      "baseContentDigest": "7f47946e9eefb4831f5bdeb673bfbc70ba68af7643e38d89e6c31e1fbad2aefb",
+      "scope": "A bounded pre-eclampsia map: defective placentation and placental ischaemia/oxidative stress, the antiangiogenic sFlt-1/soluble endoglin/PlGF axis, maternal endothelial dysfunction with renal, hepatic and cerebral end-organ outcomes, and immune/complement/AT1 autoantibody contributions. Chronic hypertension without pre-eclampsia, gestational hypertension alone, postpartum-onset disease, screening performance and therapy efficacy are out of scope.",
+      "authoredBy": {
+        "id": "causome-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-10",
+      "paragraphs": [
+        {
+          "text": "This bounded pre-eclampsia map connects placental dysfunction with maternal vascular and renal manifestations. Placental-bed biopsies associate affected pregnancies with impaired spiral-artery remodelling; maternal KIR/fetal HLA-C associations and decidual NK-cell experiments suggest immune contributions to placentation. Placental hypoxia-reoxygenation experiments generate oxidative stress and inflammatory output. Excess placental sFlt-1 and reduced free VEGF/PlGF are linked with the antiangiogenic state, while serum/cell experiments and pregnant-animal models support routes to endothelial dysfunction, hypertension, proteinuria and glomerular injury. Soluble endoglin, AT1-receptor agonistic antibodies and complement findings add candidate contributing pathways rather than establishing a single explanation for every case.",
+          "claimIds": [
+            "claim-pe-impaired-spiral-artery-remodelling",
+            "claim-pe-kir-aa-fetal-c2-risk",
+            "claim-pe-unk-kir2ds1-trophoblast-migration",
+            "claim-pe-ischaemia-reperfusion-oxidative-stress",
+            "claim-pe-hr-placental-tnf-secretion",
+            "claim-pe-sflt1-placental-excess",
+            "claim-pe-sflt1-endothelial-dysfunction-in-vitro",
+            "claim-pe-sflt1-rat-hypertension",
+            "claim-pe-seng-rat-hellp",
+            "claim-pe-at1aa-transfer-mice",
+            "claim-pe-complement-c5b9-urine"
+          ]
+        },
+        {
+          "text": "Human associations, cultured tissues and animal perturbations support different parts of this synthesis, but do not establish the assembled pathway as sufficient or universal in patients. The angiogenic disturbance is less pronounced in late-onset disease; isolated HELLP and some term eclampsia cases do not share the same circulating profile. Endotheliosis is not specific to pre-eclampsia, AT1 autoantibodies also occur in some normotensive pregnancies, and endothelial findings vary between studies. Several stored abstracts have missing statistical text or uninspected corrections, limiting interpretation. Treatment efficacy is outside this summary. A current-literature review should test the overall explanation, heterogeneity and missing central pathways while preserving these uncertainties.",
+          "claimIds": [
+            "claim-pe-sflt1-late-onset-weaker",
+            "claim-pe-isolated-hellp-low-angiogenic",
+            "claim-pe-eclampsia-term-normal-profile",
+            "claim-pe-endotheliosis-normal-pregnancy",
+            "claim-pe-at1aa-also-in-normotensive",
+            "claim-pe-fmd-not-attenuated",
+            "claim-pe-sflt1-prospective-rise",
+            "claim-pe-seng-prospective-rise"
+          ]
+        }
+      ]
+    },
+    "calciphylaxis": {
+      "version": 1,
+      "diseaseId": "calciphylaxis",
+      "baseReleaseId": "calciphylaxis-appraised-candidate-cc06694e21cc",
+      "baseContentDigest": "241217535dab54d06f53f94e556c478475ea46b00920c58e1e286b81fdb9a58b",
+      "scope": "A bounded map of calcific uraemic arteriolopathy: mineral-metabolism drivers, calcification-inhibitor deficiency (MGP/vitamin K, fetuin-A), vascular smooth-muscle osteogenic change, arteriolar calcification, thrombosis and skin ischaemic necrosis, plus curated therapies.",
+      "authoredBy": {
+        "id": "causome-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-10",
+      "paragraphs": [
+        {
+          "text": "This bounded calciphylaxis map centres on small-vessel calcification together with thrombosis and vascular narrowing in predominantly dialysis-related disease. Human studies associate disease with aspects of mineral metabolism, vitamin K antagonism and reduced calcification-inhibitor activity; cultured smooth-muscle-cell and animal experiments support mechanisms involving phosphate, matrix Gla protein and fetuin-A. Human skin studies link an osteogenic programme with arteriolar mineral deposition and show thrombosis/intimal hyperplasia in lesional skin. Endothelial culture experiments add an inflammatory tissue-factor route to coagulation. The resulting model proposes convergence of calcification and vascular occlusion rather than a sufficient explanation based on mineral deposition alone.",
+          "claimIds": [
+            "claim-cua-mgp-carboxylation-risk",
+            "claim-cua-vka-warfarin-casecontrol",
+            "claim-cua-pth-nigwekar",
+            "claim-cua-phosphate-vsmc-osteogenic",
+            "claim-cua-mgp-knockout-arterial-calcification",
+            "claim-cua-fetuin-a-knockout-calcification",
+            "claim-cua-skin-bmp2-runx2-glumgp",
+            "claim-cua-histo-thrombosis-lesional-only",
+            "claim-cua-histo-intimal-hyperplasia-specific",
+            "claim-cua-il6-tissue-factor-endothelium"
+          ]
+        },
+        {
+          "text": "Risk-factor findings vary across cohorts: phosphate and parathyroid-hormone results are not uniform, and vascular calcification can occur in clinically normal skin. Observational associations and experimental vascular calcification should not be equated with proven human calciphylaxis causation. Treatment signals are also limited: CALCIPHYX did not meet its wound or pain primary endpoints, uncontrolled sodium-thiosulfate improvement reports do not establish efficacy, and the cited vitamin K trial improved a biomarker without reducing coronary calcification progression. A secondary cinacalcet prevention analysis does not establish treatment of existing lesions. This selected-report summary requires an independent current-literature check of the combined mechanism, important omissions and therapeutic interpretation.",
+          "claimIds": [
+            "claim-cua-phosphate-null-japan",
+            "claim-cua-pth-not-key-german-registry",
+            "claim-cua-histo-calcification-in-normal-skin",
+            "claim-hexasodium-fytate-calciphyx-primary",
+            "claim-sodium-thiosulfate-cohort",
+            "claim-vitamin-k1-mechanism-mgp",
+            "claim-cinacalcet-evolve-incidence",
+            "claim-cinacalcet-evolve-vka"
+          ]
+        }
+      ]
+    }
+  }
+}

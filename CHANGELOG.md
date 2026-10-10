@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Bold, linked mediator mentions in scientific summaries on the curator and disease pages, including snapshot-specific evidence links and common name variants; portable review text remains unchanged.
+
+- Overall scientific-summary review: embedded one- or two-paragraph graph-bound summaries, default extractive drafts, five agent-authored local summaries, portable current-literature review prompts/packets, browser copy/edit/export and immutable external-feedback receipts. Changed snapshots require a new review; feedback cannot grant publication approval.
+
 - Default automatic provisional appraisals after seeding, reconciliation and unappraised proposals/previews; versioned context/evidence rules, retained reproducible input receipts, a standalone `auto-assess` command and browser worksheet export. Unknown study quality caps automatic confidence at 1/4; therapeutic coverage is categorical and source-derived.
 
 - Disease-independent curation CLI, local source queue and draft/export workbench, live Europe PMC scans, persistent-identifier deduplication, overlap/broad refresh, correction/retraction flags, failure-safe cursors and attempt logs.
@@ -27,6 +31,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Review packet and candidate validation tests covering provenance, therapy integrity and rejection of publication before domain review.
 
 ### Changed
+
+- Removed human-review and approval-pending reminders from the local interface, including summaries, ratings, evidence inspection, history and shared page notices. Source provenance, scientific limitations and underlying review records remain available.
 
 - Made root `CURATION.md` the single agent entry point for new diseases, updates and validation, including task instructions, an ordered runbook and required evidence/validation handoff. Reused the existing workflow guide rather than adding a duplicate.
 

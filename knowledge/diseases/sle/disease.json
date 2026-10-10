@@ -10,5 +10,5 @@
   "query": "(TITLE_ABS:\"systemic lupus erythematosus\" OR TITLE_ABS:\"lupus nephritis\")",
   "overlapDays": 30,
   "reconciliationDays": 90,
-  "previewCandidate": "sle-appraised-candidate-df64ccfede54"
+  "previewCandidate": "sle-summary-candidate-f3c3742263d5"
 }

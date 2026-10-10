@@ -31,6 +31,7 @@ export function assessCandidate(base, input) {
   if (automatic || input.assessorKind === 'system') assert(automatic && hash(input) === hash(automaticAssessmentWorksheet(base, { assessedAt: input.assessedAt })), 'Automatic worksheet must reproduce the supported rules and exact base');
   assert(Array.isArray(input.assessments) && input.assessments.length && new Set(input.assessments.map(item => item.assessmentId)).size === input.assessments.length, 'Appraisal rows must be nonempty and unique');
   const candidate = structuredClone(base), revision = hash(input).slice(0, 12);
+  delete candidate.scientificSummary;
   candidate.formatVersion = '0.3.0'; candidate.manifest.schemaVersion = '0.3.0';
   candidate.id = `${base.diseaseId}-appraised-candidate-${revision}`; candidate.revisionId = `${candidate.id}-r1`;
   candidate.status = 'candidate'; candidate.changeSetRevision = `appraisal-${hash(input)}`;

@@ -2,7 +2,7 @@ import { ArrowRight, BookOpen, CornerUpLeft, ExternalLink } from 'lucide-react';
 import { useLayoutEffect, useRef } from 'react';
 import type { Claim, Entity, Relationship, ReleaseBundle } from '../../data/types';
 import { classPresentation, humanize } from './FlowElements';
-import { therapeuticLabel, appraisalFieldLabel, metricLabel, appraisalAttribution } from '../../lib/assessment';
+import { therapeuticLabel, appraisalFieldLabel, metricLabel, appraisalAttribution, appraisalRationale } from '../../lib/assessment';
 
 export type Selection = { kind: 'entity' | 'relationship' | 'therapy'; id: string } | null;
 
@@ -12,7 +12,7 @@ export function ClaimCard({ claim, release, category }: { claim: Claim; release:
     <article className="evidence-claim">
       <div className="evidence-claim__eyebrow"><span>{category}</span><span>{humanize(claim.verification)}</span></div>
       <p className="evidence-claim__text">{claim.text}</p>
-      <p className="evidence-claim__context">{claim.reviewDisposition && <span>Review: {humanize(claim.reviewDisposition.decision)} · Source checked {claim.sourceCheckedAt}<br /></span>}Context: {context?.label ?? 'Context unavailable'} · {humanize(claim.causalInterpretation)}</p>
+      <p className="evidence-claim__context">{claim.sourceCheckedAt && <span>Source checked {claim.sourceCheckedAt}{claim.reviewDisposition && claim.reviewDisposition.decision !== 'pending_domain_review' && ` · Review: ${humanize(claim.reviewDisposition.decision)}`}<br /></span>}Context: {context?.label ?? 'Context unavailable'} · {humanize(claim.causalInterpretation)}</p>
       {claim.limitations.length > 0 && <div className="evidence-limitations"><h4>Limits of this claim</h4><ul>{claim.limitations.map(limit => <li key={limit}>{limit}</li>)}</ul></div>}
       {claim.evidenceItemIds.map(id => {
         const evidence = release.evidenceItems.find(item => item.id === id);
@@ -48,7 +48,7 @@ export default function EvidenceInspector({ release, contextId, assessmentIds, s
       <div className="evidence-inspector__endpoints">{[...therapy.directTargetIds, ...therapy.indirectTargetIds].map(id => <button key={id} type="button" onClick={() => onSelect({ kind: 'entity', id })}>{therapy.directTargetIds.includes(id) ? 'Direct' : 'Indirect'}: {release.entities.find(item => item.id === id)?.label}</button>)}</div>
       <div className="evidence-limitations"><h4>Intervention limits</h4><ul>{therapy.limitations?.map(limit => <li key={limit}>{limit}</li>)}</ul></div>
       <div className="evidence-inspector__claims"><h3>Claims & provenance</h3>{categories.map(category => <div key={category.label}>{category.ids.map(id => { const claim = release.claims.find(item => item.id === id); return claim && <ClaimCard key={id} claim={claim} release={release} category={category.label} />; })}{category.ids.length === 0 && <p className="evidence-empty">No {category.label.toLowerCase()} recorded. This does not establish absence of evidence.</p>}</div>)}</div>
-      <p className="evidence-inspector__notice">{['approved', 'published'].includes(release.status) ? 'Reviewed scientific release.' : 'Source checked · Human domain review pending.'} Treatment records describe evidence and are not recommendations.</p>
+      {['approved', 'published'].includes(release.status) && <p className="evidence-inspector__notice">Reviewed scientific release. Treatment records describe evidence and are not recommendations.</p>}
     </aside>;
   }
   const entity = selection?.kind === 'entity' ? release.entities.find(item => item.id === selection.id) : undefined;
@@ -82,12 +82,12 @@ export default function EvidenceInspector({ release, contextId, assessmentIds, s
           <div><dt>Evidence confidence</dt><dd>{metricLabel(assessment, 'evidenceConfidence')}</dd></div>
           <div><dt>Therapeutic leverage</dt><dd>{therapeuticLabel(assessment)}</dd></div>
         </dl>
-        {assessment?.appraisalProvenance && <p className="evidence-appraisal-status"><strong>Provisional · uncalibrated · review pending.</strong><br />{appraisalAttribution(assessment)}</p>}
-        {(assessment?.mechanisticWeight != null || assessment?.evidenceConfidence != null) && <p className="evidence-empty">Model: {scoringModel?.label} ({scoringModel?.revisionId}). Calibration: {scoringModel?.calibrated ? 'Accepted' : 'Pending'}. Appraisal review: {assessment?.reviewerDecision ?? 'Pending'}.</p>}
+        {assessment?.appraisalProvenance && <p className="evidence-appraisal-status"><strong>Provisional · uncalibrated.</strong><br />{appraisalAttribution(assessment)}</p>}
+        {(assessment?.mechanisticWeight != null || assessment?.evidenceConfidence != null) && <p className="evidence-empty">Model: {scoringModel?.label} ({scoringModel?.revisionId}). Calibration: {scoringModel?.calibrated ? 'Accepted' : 'Uncalibrated'}.{assessment?.reviewerDecision && ` Appraisal review: ${assessment.reviewerDecision}.`}</p>}
         {assessment?.therapeuticAppraisal && <details className="evidence-appraisal"><summary>Therapeutic target coverage and limits</summary><p>{assessment.therapeuticAppraisal.rationale}</p>{assessment.therapeuticAppraisal.therapyIds.map(id => { const therapy = release.therapies.find(item => item.id === id); return therapy && <div key={id}><button type="button" onClick={() => onSelect({ kind: 'therapy', id })}>{therapy.name} · {humanize(therapy.developmentStatus)}</button><p>{therapy.indication} · {therapy.jurisdiction} · verified {therapy.lastVerifiedAt}</p><ul>{therapy.limitations?.map(limit => <li key={limit}>{limit}</li>)}</ul></div>; })}</details>}
         {assessment?.weightComponents && <details className="evidence-appraisal"><summary>Weight components and rationale</summary><p>Raw: {assessment.weightRaw ?? 'Not assessed'} · Tier: {assessment.weightTier ?? 'Not assessed'} · Model: {assessment.scoringModelId}</p><ul>{Object.entries(assessment.weightComponents).map(([key, value]) => <li key={key}><strong>{appraisalFieldLabel(key)}: {value.rating ?? 'Not assessed'}/4</strong><p>{value.rationale}</p><small>Claims: {value.claimIds.length ? value.claimIds.map(id => <a key={id} href={`#claim-${id}`}>{id} </a>) : 'None recorded'}</small></li>)}</ul></details>}
         {assessment?.confidenceAppraisal && <details className="evidence-appraisal"><summary>Confidence dimensions and rationale</summary><ul>{Object.entries(assessment.confidenceAppraisal.dimensions).map(([key, value]) => <li key={key}><strong>{humanize(key)}: {value.rating}</strong><p>{value.rationale}</p><small>Claims: {value.claimIds.length ? value.claimIds.map(id => <a key={id} href={`#claim-${id}`}>{id} </a>) : 'None recorded'}</small></li>)}</ul>{assessment.confidenceAppraisal.downgradeRationale && <p>{assessment.confidenceAppraisal.downgradeRationale}</p>}</details>}
-        <div className="evidence-editorial"><span>Editorial status: {humanize(subject.status)}</span><span>{assessment?.rationale ?? 'No assessment available for this context.'}</span></div>
+        <div className="evidence-editorial"><span>Editorial status: {humanize(subject.status)}</span><span>{assessment?.rationale ? appraisalRationale(assessment.rationale) : 'No assessment available for this context.'}</span></div>
         {relationship && <p className="evidence-direction-note">{relationship.directionality === 'symmetric' ? 'Association is symmetric. Endpoint order does not imply causation.' : `Arrow points from ${sourceEntity?.label} to ${targetEntity?.label}. Polarity: ${humanize(relationship.polarity)}.`}</p>}
         <div className="evidence-inspector__claims">
           <h3>Claims & provenance</h3>
@@ -106,7 +106,7 @@ export default function EvidenceInspector({ release, contextId, assessmentIds, s
         })}</div>}
         {relationship && <div className="evidence-inspector__endpoints"><button type="button" onClick={() => onSelect({ kind: 'entity', id: relationship.sourceId })}><CornerUpLeft size={15} aria-hidden="true" />{sourceEntity?.label}</button><button type="button" onClick={() => onSelect({ kind: 'entity', id: relationship.targetId })}><CornerUpLeft size={15} aria-hidden="true" />{targetEntity?.label}</button></div>}
       </>}
-      <div className="evidence-inspector__notice">{release.illustrative ? 'Illustrative fixture · unverified. These records demonstrate the interface and are not scientific evidence or clinical guidance.' : `${['approved', 'published'].includes(release.status) ? 'Reviewed release' : 'Candidate'} ${release.id} · ${['approved', 'published'].includes(release.status) ? 'Domain review recorded' : 'Human domain review pending'} · evidence cutoff ${release.evidenceCutoff}`}</div>
+      <div className="evidence-inspector__notice">{release.illustrative ? 'Illustrative fixture · unverified. These records demonstrate the interface and are not scientific evidence or clinical guidance.' : `${['approved', 'published'].includes(release.status) ? 'Reviewed release' : 'Candidate'} ${release.id} · evidence cutoff ${release.evidenceCutoff}`}</div>
     </aside>
   );
 }

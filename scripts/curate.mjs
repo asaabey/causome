@@ -14,6 +14,7 @@ import { evaluateExtraction, evaluateSearch } from './curation/evaluate.mjs';
 import { seedDisease } from './curation/seed.mjs';
 import { assessmentTemplate, assessCandidate, autoAssessCandidate } from './curation/assessment.mjs';
 import { loadPublishedRelease } from './release-store.mjs';
+import { summaryTemplate, attachSummary, summaryPacket, feedbackTemplate, recordSummaryFeedback } from './curation/summary.mjs';
 
 const root = resolve('knowledge/diseases');
 const help = `Causome curation — candidates only; scientific publication is separate.
@@ -33,6 +34,10 @@ pnpm curate calibration-template --base <bundle.json> --output <calibration.json
 pnpm curate assessment-template --base <bundle.json> --output <appraisals.json>
 pnpm curate assess --base <bundle.json> --input <appraisals.json>
 pnpm curate auto-assess --base <bundle.json>
+pnpm curate summary-template --base <bundle.json> --output <summary-input.json>
+pnpm curate summarize --base <bundle.json> --input <summary-input.json>
+pnpm curate summary-packet --base <bundle.json> [--output <directory>]
+pnpm curate summary-feedback --base <bundle.json> --input <feedback.json>
 pnpm curate calibrate --input <calibration.json> [--output <result.json>]
 pnpm curate evaluate --reference <held-out.json> --predictions <predictions.json> --adjudication <review.json> --output <result.json>
 pnpm curate evaluate-search --reference <search-labels.json> --input <retrieved-ids.json> --output <result.json>
@@ -51,6 +56,26 @@ function parse(argv) {
 }
 const required = (options, key) => { assert(options[key], `Missing --${key}`); return options[key]; };
 const bundleAt = path => { const bundle = readJSON(path), validation = validatePreview(bundle); assert(validation.valid, validation.errors.join('\n')); return bundle; };
+function storeSummaryPacket(candidate, output) {
+  const packet = summaryPacket(candidate), directory = output ?? join('curation/workspace', candidate.diseaseId, 'summary-reviews', packet.packetDigest);
+  writeImmutableJSON(join(directory, 'packet.json'), packet);
+  writeImmutableJSON(join(directory, 'feedback-template.json'), feedbackTemplate(candidate));
+  const path = join(directory, 'review.md');
+  if (existsSync(path)) assert(readFileSync(path, 'utf8') === packet.reviewText, 'Immutable summary review text differs');
+  else writeFileSync(path, packet.reviewText, { flag: 'wx' });
+  console.log(`Summary review packet: ${directory}`); return directory;
+}
+function storeSummaryCandidate(base, input) {
+  if (!input && base.scientificSummary) { storeSummaryPacket(base); return base; }
+  assert(!base.illustrative, 'Scientific summaries cannot be generated for an illustrative fixture');
+  const profile = existsSync(join(root, base.diseaseId, 'disease.json')) ? loadDisease(root, base.diseaseId) : null;
+  input ??= summaryTemplate(base, profile?.summary);
+  const candidate = attachSummary(base, input), directory = join('curation/workspace', base.diseaseId, 'summaries', candidate.id);
+  writeImmutableJSON(join(directory, 'input.json'), input);
+  writeImmutableJSON(join(root, candidate.diseaseId, 'candidates', `${candidate.id}.json`), candidate);
+  storeSummaryPacket(candidate);
+  console.log(`Overall summary candidate: ${candidate.id}; current-literature review pending.`); return candidate;
+}
 function storeAutomaticAppraisal(base, { force = false } = {}) {
   // Preserve explicit editorial work and already generated drafts. Raw snapshots
   // remain immutable; every automatic appraisal gets its own candidate and inputs.
@@ -86,7 +111,7 @@ function storeProposal(report, base, inputs) {
   if (existsSync(reportPath)) assert(readFileSync(reportPath, 'utf8') === markdown, 'Existing review report differs');
   else writeFileSync(reportPath, markdown, { flag: 'wx' });
   if (report.candidate) writeImmutableJSON(join(root, report.diseaseId, 'candidates', `${report.candidate.id}.json`), report.candidate);
-  if (report.candidate) storeAutomaticAppraisal(report.candidate);
+  if (report.candidate) storeSummaryCandidate(storeAutomaticAppraisal(report.candidate));
   return directory;
 }
 
@@ -99,12 +124,28 @@ export async function main(argv = process.argv.slice(2)) {
     diff: ['before', 'after', 'output'], preview: ['disease', 'candidate'], 'calibration-template': ['base', 'output'], calibrate: ['input', 'output'],
     'assessment-template': ['base', 'output'], assess: ['base', 'input'],
     'auto-assess': ['base'],
+    'summary-template': ['base', 'output'], summarize: ['base', 'input'], 'summary-packet': ['base', 'output'], 'summary-feedback': ['base', 'input'],
     evaluate: ['reference', 'predictions', 'adjudication', 'output'], 'evaluate-search': ['reference', 'input', 'output'], 'schedule-ready': ['evaluation', 'search-evaluation', 'manual-review'],
   };
   assert(allowed[command] && Object.keys(options).every(key => allowed[command].includes(key)), `Unknown command or option.\n${help}`);
   switch (command) {
+    case 'summary-template': {
+      const base = bundleAt(required(options, 'base'));
+      assert(!base.illustrative, 'Summary requires a scientific snapshot');
+      const profile = existsSync(join(root, base.diseaseId, 'disease.json')) ? loadDisease(root, base.diseaseId) : null;
+      writeImmutableJSON(required(options, 'output'), summaryTemplate(base, profile?.summary)); console.log(options.output); break;
+    }
+    case 'summarize': {
+      storeSummaryCandidate(bundleAt(required(options, 'base')), readJSON(required(options, 'input'))); break;
+    }
+    case 'summary-packet': { storeSummaryPacket(bundleAt(required(options, 'base')), options.output); break; }
+    case 'summary-feedback': {
+      const base = bundleAt(required(options, 'base')), record = recordSummaryFeedback(base, readJSON(required(options, 'input')));
+      const path = join(root, base.diseaseId, 'summary-reviews', `${record.id}.json`);
+      writeImmutableJSON(path, record); console.log(`${path}\nExternal feedback recorded for this exact snapshot; summary, graph and publication status unchanged.`); break;
+    }
     case 'auto-assess': {
-      storeAutomaticAppraisal(bundleAt(required(options, 'base')), { force: true }); break;
+      storeSummaryCandidate(storeAutomaticAppraisal(bundleAt(required(options, 'base')), { force: true })); break;
     }
     case 'assessment-template': {
       writeImmutableJSON(required(options, 'output'), assessmentTemplate(bundleAt(required(options, 'base')))); console.log(options.output); break;
@@ -142,7 +183,7 @@ export async function main(argv = process.argv.slice(2)) {
       const directory = join('curation/workspace', profile.id, 'imports', `seed-${result.bundle.changeSetRevision}`);
       writeImmutableJSON(join(directory, 'papers.json'), result.papers); writeImmutableJSON(join(directory, 'extraction.json'), result.extraction);
       console.log(`Seeded ${result.bundle.id}; inputs: ${directory}. Public pointer unchanged.`);
-      storeAutomaticAppraisal(result.bundle); break;
+      storeSummaryCandidate(storeAutomaticAppraisal(result.bundle)); break;
     }
     case 'import': {
       const profile = loadDisease(root, required(options, 'disease')), input = readJSON(required(options, 'input'));
@@ -198,6 +239,7 @@ export async function main(argv = process.argv.slice(2)) {
       const profile = loadDisease(root, required(options, 'disease')), id = required(options, 'candidate'); assert(safeSlug(id), 'Invalid candidate ID');
       let candidate = bundleAt(join(root, profile.id, 'candidates', `${id}.json`)); assert(candidate.diseaseId === profile.id && !['approved', 'published'].includes(candidate.status), 'Preview selector requires this disease’s candidate');
       candidate = storeAutomaticAppraisal(candidate);
+      if (!candidate.illustrative) candidate = storeSummaryCandidate(candidate);
       writeJSON(join(root, profile.id, 'disease.json'), { ...profile, previewCandidate: candidate.id }); console.log(`Preview selected ${candidate.id}; public pointer unchanged.`); break;
     }
     case 'calibration-template': {
