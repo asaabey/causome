@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "verifiedAt": "2026-10-09T22:45:46.634Z",
+  "scope": "Local engineering; candidate/synthetic data only",
+  "headCommit": "f8ec9fc8fb319b2e7c26a8679616cc45b59f8464",
+  "uncommitted": true,
+  "sourceManifestDigest": "0e883dac37fb8d7e4750d67895c44c7c19a0df12751fc499f1c55ba6925689b3",
+  "checks": {
+    "unit": {
+      "passed": 71,
+      "failed": 0,
+      "report": "unit-tests.txt"
+    },
+    "astro": {
+      "files": 34,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "ordinaryBuild": {
+      "passed": true,
+      "stressRouteExcluded": true
+    },
+    "browser": {
+      "passed": 34,
+      "failed": 0,
+      "skipped": 4,
+      "viewports": [
+        {
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    "comparisonFollowup": {
+      "passed": 4,
+      "failed": 0
+    },
+    "performance": {
+      "atlasPassed": 2,
+      "stressPassed": 2,
+      "reports": [
+        {
+          "name": "atlas-desktop",
+          "sha256": "87118658cdb53462c360f4144c136d950509135708d4d940afa78ed93393ddf2"
+        },
+        {
+          "name": "atlas-mobile",
+          "sha256": "31bc71b3f898d3fbb7cf80d7068f19fe5e77eaabd488da2f8d7b9c52a22fec31"
+        },
+        {
+          "name": "stress-desktop",
+          "sha256": "43924acc9b93769bf35742f9d3abf3b9e50bbc5ba5541eaf1633fd8cc441aa2b"
+        },
+        {
+          "name": "stress-mobile",
+          "sha256": "70faa287c2d83a0935c9f310bae1000d3a8a19ac7a429a0c664d147044ed4185"
+        }
+      ]
+    },
+    "immutability": {
+      "passed": true,
+      "sleCandidateBytesUnchanged": true,
+      "sleContentDigest": "352acd773aebf033bbdae9de860b26daa36a805c9b9c6830747445b7f379064e"
+    },
+    "publication": {
+      "rejectedAsExpected": true,
+      "reason": "No approved current root"
+    },
+    "launch": {
+      "rejectedAsExpected": true,
+      "reason": "No approved current root"
+    },
+    "previewArchive": {
+      "rejectedAsExpected": true
+    }
+  },
+  "literature": {
+    "provider": "Europe PMC",
+    "diseaseId": "iga-nephropathy",
+    "runId": "scan-391dea64357a486de91d5716",
+    "cachedPapers": 257,
+    "successfulCursor": "2026-10-10",
+    "lastBroadReconciliation": null,
+    "domainReviewed": false
+  },
+  "publicationEnabled": false,
+  "approvedCurrentPointers": [],
+  "activeScheduler": false,
+  "configuredModelBackend": false,
+  "limitations": [
+    "Independent scientific review pending",
+    "Actual calibration pending; scores remain unassessed",
+    "Actual held-out/search evaluations pending",
+    "Human usability and assistive-technology review pending",
+    "Staging recovery and remote publication deferred"
+  ]
+}

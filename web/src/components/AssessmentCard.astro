@@ -1,0 +1,13 @@
+---
+import type {Assessment, ReleaseBundle} from '../data/types';
+import {therapeuticLabel, appraisalFieldLabel} from '../lib/assessment';
+interface Props {assessment:Assessment; release:ReleaseBundle}
+const {assessment,release}=Astro.props;
+const model=release.scoringModels.find(item=>item.id===assessment.scoringModelId);
+---
+<div class="static-assessment"><p>Context: {release.contexts.find(item=>item.id===assessment.contextId)?.label}. Mechanistic weight: {assessment.mechanisticWeight===null?'Not assessed':`${assessment.mechanisticWeight}/100`}. Evidence confidence: {assessment.evidenceConfidence===null?'Not assessed':`${assessment.evidenceConfidence}/4`}. Therapeutic leverage: {therapeuticLabel(assessment)}.</p>
+{assessment.appraisalProvenance&&<p><strong>Provisional · uncalibrated · review pending.</strong> Draft by {assessment.appraisalProvenance.assessorId} ({assessment.appraisalProvenance.assessorKind}), {assessment.appraisalProvenance.assessedAt}.</p>}
+{assessment.therapeuticAppraisal&&<details><summary>Therapeutic target coverage</summary><p>{assessment.therapeuticAppraisal.rationale}</p><ul>{assessment.therapeuticAppraisal.therapyIds.map(id=>{const therapy=release.therapies.find(item=>item.id===id);return therapy&&<li><a href={`#therapy-${id}`}>{therapy.name}</a>: {therapy.indication} · {therapy.jurisdiction} · verified {therapy.lastVerifiedAt}</li>})}</ul></details>}
+{(assessment.mechanisticWeight!==null||assessment.evidenceConfidence!==null)&&<><p>Model: {model?.label} ({model?.revisionId}). Calibration: {model?.calibrated?'Accepted':'Pending'}. Appraisal review: {assessment.reviewerDecision??'Pending'}.</p><p>{assessment.rationale}</p>
+<details><summary>Assessment rationale and evidence</summary><p>Raw weight: {assessment.weightRaw??'Not assessed'}; tier: {assessment.weightTier??'Not assessed'}.</p>{assessment.weightComponents&&<ul>{Object.entries(assessment.weightComponents).map(([key,value])=><li><strong>{appraisalFieldLabel(key)}: {value.rating??'Not assessed'}/4.</strong> {value.rationale}<p>Claims: {value.claimIds.map(id=><a href={`#claim-${id}`}>{id} </a>)}</p></li>)}</ul>}{assessment.confidenceAppraisal&&<ul>{Object.entries(assessment.confidenceAppraisal.dimensions).map(([key,value])=><li><strong>{appraisalFieldLabel(key)}: {value.rating}.</strong> {value.rationale}<p>Claims: {value.claimIds.map(id=><a href={`#claim-${id}`}>{id} </a>)}</p></li>)}</ul>}</details></>}
+</div>

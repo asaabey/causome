@@ -1,0 +1,9 @@
+---
+import { atlas } from '../../../data/atlas';
+import { sitePath } from '../../../data/site';
+import AtlasLayout from '../../../layouts/AtlasLayout.astro';
+import VersionComparison from '../../../components/VersionComparison';
+export function getStaticPaths() { return atlas.map(item => ({ params: { disease: item.profile.id }, props: { item } })); }
+const { item } = Astro.props;
+---
+<AtlasLayout title={`${item.profile.label}: compare versions`}><section class="page-width content-page"><p class="eyebrow">Evidence changes</p><h1>Compare versions</h1><p>{item.profile.label}. Inspect the exact records and evidence behind each change. A candidate comparison does not establish scientific approval.</p><VersionComparison versions={item.versions} currentReleaseId={item.bundle.id} diseaseId={item.profile.id} basePath={sitePath('/')} client:load /></section></AtlasLayout>

@@ -1,10 +1,12 @@
 import Ajv from 'ajv';
-import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
+import schema from '../schemas/release.schema.json' with { type: 'json' };
+import { validateScoring } from './scoring.mjs';
 
-const schema = JSON.parse(readFileSync(new URL('../schemas/release.schema.json', import.meta.url), 'utf8'));
 const validateSchema = new Ajv({ allErrors: true, strict: true }).compile(schema);
-const collections = ['entities', 'relationships', 'claims', 'evidenceItems', 'sources', 'therapies', 'contexts', 'assessments', 'scoringModels', 'mapViews', 'layouts'];
+export const collections = ['entities', 'relationships', 'claims', 'evidenceItems', 'sources', 'therapies', 'contexts', 'assessments', 'scoringModels', 'mapViews', 'layouts'];
+const validDate = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) &&
+  Number.isFinite(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
 
 export function canonicalize(value) {
   if (Array.isArray(value)) return `[${value.map(canonicalize).join(',')}]`;
@@ -27,6 +29,14 @@ export function validatePreview(bundle) {
     return { valid: false, errors: validateSchema.errors.map(error => `Schema ${error.instancePath || '/'}: ${error.message}`) };
   }
   const indexes = Object.fromEntries(collections.map(name => [name, new Map(bundle[name].map(record => [record.id, record]))]));
+  if (bundle.formatVersion !== '0.3.0') {
+    if (bundle.parentReleaseId !== null || bundle.parentContentDigest !== null) errors.push('Legacy root snapshots require null parent lineage');
+    if (bundle.scoringModels.some(item => item.calibrated) || bundle.assessments.some(item => item.mechanisticWeight !== null || item.evidenceConfidence !== null || item.therapeuticLeverage !== null)) errors.push('Legacy root snapshots require unassessed scores');
+    if (bundle.mapViews.some(item => item.groups?.length)) errors.push('Grouped views require format 0.3.0');
+  }
+  if ((bundle.parentReleaseId === null) !== (bundle.parentContentDigest === null) || bundle.parentReleaseId === bundle.id) errors.push('Parent ID and digest must be paired and cannot refer to this release');
+  if (!validDate(bundle.evidenceCutoff) || !Number.isFinite(Date.parse(bundle.createdAt))) errors.push('Invalid release creation date or evidence cutoff');
+  errors.push(...validateScoring(bundle));
   const allIds = new Set();
   for (const name of collections) {
     for (const record of bundle[name]) {
@@ -48,6 +58,21 @@ export function validatePreview(bundle) {
       const claim = indexes.claims.get(id);
       if (claim && claim.subjectId !== entity.id && claim.objectId !== entity.id) {
         errors.push(`${entity.id}: biological role claim ${id} does not involve the entity`);
+      }
+    }
+  }
+  if (bundle.formatVersion === '0.3.0') {
+    const names = new Map(), external = new Map();
+    for (const entity of bundle.entities) {
+      for (const value of [entity.label, ...entity.synonyms]) {
+        const key = value.normalize('NFKC').toLowerCase().replace(/\s+/g, ' ').trim();
+        if (names.has(key) && names.get(key) !== entity.id) errors.push(`${entity.id}: ambiguous normalized identity ${value}`);
+        names.set(key, entity.id);
+      }
+      for (const identifier of entity.externalIds) {
+        const key = `${identifier.namespace.toLowerCase()}:${identifier.value.toLowerCase()}`;
+        if (external.has(key) && external.get(key) !== entity.id) errors.push(`${entity.id}: duplicate canonical external identity ${key}`);
+        external.set(key, entity.id);
       }
     }
   }
@@ -89,6 +114,7 @@ export function validatePreview(bundle) {
     if (!bundle.illustrative) {
       if (!['source_checked', 'reviewed'].includes(claim.verification) || claim.causalInterpretation === 'illustrative') errors.push(`${claim.id}: scientific candidate needs a source check`);
       const review = claim.reviewDisposition;
+      if (!validDate(claim.sourceCheckedAt)) errors.push(`${claim.id}: invalid source-check date`);
       if (claim.sourceCheckedAt > bundle.evidenceCutoff) errors.push(`${claim.id}: source check exceeds evidence cutoff`);
       if (review?.decision === 'pending_domain_review' && (review.reviewerId !== null || review.reviewedAt !== null || claim.verification === 'reviewed')) errors.push(`${claim.id}: pending review cannot carry human approval`);
       if (claim.verification === 'reviewed' && (review?.decision !== 'accepted' || !review.reviewerId || !review.reviewedAt)) errors.push(`${claim.id}: reviewed claim needs a recorded domain-review disposition`);
@@ -101,6 +127,7 @@ export function validatePreview(bundle) {
   }
   for (const evidence of bundle.evidenceItems) {
     reference('sources', evidence.sourceId, evidence.id);
+    if (!validDate(evidence.retrievedAt)) errors.push(`${evidence.id}: invalid retrieval date`);
     if (!bundle.illustrative && evidence.retrievedAt > bundle.evidenceCutoff) errors.push(`${evidence.id}: retrieval exceeds evidence cutoff`);
   }
   if (!bundle.illustrative) {
@@ -181,6 +208,30 @@ export function validatePreview(bundle) {
         errors.push(`${view.id}: relationship ${id} has incompatible selected context or assessment`);
       }
     }
+    const grouped = new Set(), groupIds = new Set();
+    for (const group of view.groups ?? []) {
+      if (groupIds.has(group.id)) errors.push(`${view.id}: duplicate group ID ${group.id}`);
+      groupIds.add(group.id);
+      for (const id of group.entityIds) {
+        if (!view.entityIds.includes(id) || grouped.has(id)) errors.push(`${view.id}: group member ${id} is missing or duplicated`);
+        grouped.add(id);
+      }
+    }
+    const defaultHidden = new Set((view.groups ?? []).filter(group => group.collapsed).flatMap(group => group.entityIds));
+    if (view.entityIds.every(id => defaultHidden.has(id))) errors.push(`${view.id}: grouped overview must leave at least one entity visible`);
+  }
+  if (bundle.formatVersion === '0.3.0') {
+    const referencedClaims = new Set([...bundle.entities.flatMap(item => item.biologicalRoleClaimIds), ...bundle.relationships.flatMap(item => [...item.supportingClaimIds, ...item.qualifyingClaimIds, ...item.contradictingClaimIds]), ...bundle.therapies.flatMap(item => [...item.supportingClaimIds, ...(item.qualifyingClaimIds ?? []), ...(item.contradictingClaimIds ?? [])])]);
+    const referencedEvidence = new Set(bundle.claims.flatMap(item => item.evidenceItemIds));
+    const referencedSources = new Set([...bundle.evidenceItems.map(item => item.sourceId), ...bundle.therapies.flatMap(item => [...item.trialSourceIds, ...(item.verificationSourceIds ?? [])])]);
+    for (const claim of bundle.claims) if (!referencedClaims.has(claim.id)) errors.push(`${claim.id}: orphan claim`);
+    for (const evidence of bundle.evidenceItems) if (!referencedEvidence.has(evidence.id)) errors.push(`${evidence.id}: orphan evidence`);
+    for (const source of bundle.sources) if (!referencedSources.has(source.id)) errors.push(`${source.id}: orphan source`);
+    const support = [...bundle.entities.flatMap(item => item.biologicalRoleClaimIds), ...bundle.relationships.flatMap(item => item.supportingClaimIds), ...bundle.therapies.flatMap(item => item.supportingClaimIds)];
+    for (const id of support) {
+      const evidence = indexes.claims.get(id)?.evidenceItemIds.map(eid => indexes.evidenceItems.get(eid)).filter(Boolean) ?? [];
+      if (evidence.length && evidence.every(item => indexes.sources.get(item.sourceId)?.flags?.some(flag => ['retracted', 'retraction-linked', 'concern-linked', 'expression-of-concern', 'retraction-notice'].includes(flag)))) errors.push(`${id}: flagged literature cannot be the sole supporting evidence`);
+    }
   }
   if (bundle.manifest.contentDigest !== contentDigest(bundle)) errors.push('Manifest content digest does not match the snapshot');
   return { valid: errors.length === 0, errors };
@@ -190,8 +241,9 @@ export function validatePreview(bundle) {
  * A protected publisher must inject an authenticated review verifier. A field in
  * submitted JSON can never confer approval. The local CLI has no such verifier
  * and intentionally cannot approve or publish scientific content.
- * Successor lineage, repository overwrite protection and deployment belong to
- * the protected Milestone 3/4 publisher, not this preview implementation.
+ * The root publisher supplies this verifier after querying repository reviews.
+ * The same authenticated gate applies to roots and successors; the store
+ * additionally validates the exact current parent under a publication lock.
  */
 export async function validatePublication(bundle, trustedWorkflow = {}) {
   const preview = validatePreview(bundle);
@@ -212,6 +264,9 @@ export async function validatePublication(bundle, trustedWorkflow = {}) {
       errors.push(`${claim.id}: unverified claim cannot be published`);
     }
     if (claim.reviewDisposition?.decision === 'pending_domain_review') errors.push(`${claim.id}: pending domain review cannot be published`);
+    if (claim.reviewDisposition?.decision !== 'accepted' || !claim.reviewDisposition?.reviewerId || !validDate(claim.reviewDisposition?.reviewedAt) || claim.reviewDisposition.reviewedAt < claim.sourceCheckedAt) {
+      errors.push(`${claim.id}: publication needs an accepted, dated domain-review disposition`);
+    }
   }
   if (typeof trustedWorkflow.verifyAuthenticatedApproval !== 'function') {
     errors.push('Publication requires a trusted authenticated approval verifier; JSON approval fields are insufficient');

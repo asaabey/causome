@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "id": "iga-nephropathy",
+  "label": "IgA nephropathy",
+  "aliases": [
+    "IgAN"
+  ],
+  "summary": "IgA1 glycosylation, antiglycan antibodies and mesangial signalling, with study-specific limits.",
+  "query": "(TITLE_ABS:\"IgA nephropathy\" OR TITLE_ABS:\"IgA nephritis\")",
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "iga-nephropathy-appraised-candidate-bf0656421814"
+}

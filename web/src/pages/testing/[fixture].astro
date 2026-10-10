@@ -1,0 +1,10 @@
+---
+import AtlasLayout from '../../layouts/AtlasLayout.astro';
+import MechanismMap from '../../components/MechanismMap';
+import {stressFixture} from '../../../../tests/fixtures/stress.mjs';
+import {isPublication} from '../../data/atlas';
+import type {ReleaseBundle} from '../../data/types';
+export function getStaticPaths(){return !isPublication&&process.env.CAUSOME_STRESS==='1'?[{params:{fixture:'stress'},props:{release:stressFixture()}}]:[];}
+const {release}=Astro.props as {release:ReleaseBundle};
+---
+<AtlasLayout title="Synthetic graph benchmark"><section class="page-width content-page"><p class="eyebrow">Internal engineering benchmark</p><h1>200 entities, 400 relationships</h1><p>Synthetic test data. These records are not biological findings or scientific evidence.</p></section><section class="map-section"><MechanismMap release={release} client:load /></section><section id="mechanism-outline" class="page-width content-page"><h2>Complete synthetic entity outline</h2><ul>{release.entities.map(entity=><li id={`entity-${entity.id}`}>{entity.label}</li>)}</ul><p>Fixture: {release.id}. SHA-256: {release.manifest.contentDigest}.</p></section></AtlasLayout>

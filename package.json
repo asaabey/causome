@@ -3,16 +3,35 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.24.0",
-  "engines": { "node": ">=24" },
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
+    "curate": "node scripts/curate.mjs",
+    "restore:site": "node scripts/restore-site.mjs",
+    "build:stress": "CAUSOME_STRESS=1 pnpm build",
+    "test:stress": "CAUSOME_STRESS=1 CAUSOME_PERFORMANCE=1 PLAYWRIGHT_HTML_OUTPUT_DIR=stress-report playwright test stress.spec.ts --output=stress-test-results",
     "dev": "pnpm --filter @causome/web dev",
     "preview": "pnpm --filter @causome/web preview",
     "validate": "node scripts/validate-release.mjs",
     "test": "node --test tests/*.test.mjs",
     "check": "pnpm validate && pnpm --filter @causome/web check",
-    "build": "pnpm validate && pnpm --filter @causome/web build"
+    "build": "pnpm validate && pnpm --filter @causome/web build",
+    "review:template": "node scripts/review-template.mjs",
+    "publish:root": "node scripts/publish-root.mjs",
+    "publish:release": "node scripts/publish-root.mjs",
+    "validate:publication": "node scripts/verify-publication.mjs",
+    "build:publication": "pnpm validate:publication && CAUSOME_BUILD_MODE=publication pnpm --filter @causome/web build",
+    "test:browser": "playwright test",
+    "health": "node scripts/health-check.mjs",
+    "validate:launch": "node scripts/validate-launch.mjs",
+    "archive:site": "node scripts/archive-site.mjs",
+    "test:performance": "CAUSOME_PERFORMANCE=1 PLAYWRIGHT_HTML_OUTPUT_DIR=performance-report playwright test performance.spec.ts --output=performance-test-results"
   },
   "devDependencies": {
-    "ajv": "^8.17.1"
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.64.0",
+    "ajv": "^8.17.1",
+    "tar": "7.5.22"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "id": "sle",
+  "label": "Systemic lupus erythematosus",
+  "aliases": [
+    "SLE",
+    "lupus"
+  ],
+  "summary": "A bounded nucleic-acid, interferon and B-cell circuit with a renal injury branch.",
+  "query": "(TITLE_ABS:\"systemic lupus erythematosus\" OR TITLE_ABS:\"lupus nephritis\")",
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "sle-appraised-candidate-df64ccfede54"
+}

@@ -1,0 +1,8 @@
+---
+import { atlas, isPublication } from '../../data/atlas';
+import { sitePath } from '../../data/site';
+import AtlasLayout from '../../layouts/AtlasLayout.astro';
+---
+<AtlasLayout title="Disease atlas"><section class="page-width content-page"><p class="eyebrow">Explore mechanisms</p><h1>Disease atlas</h1><p>Choose a disease to inspect its own claims, contexts, source evidence and interventions.</p>{!isPublication && <p class="preview-notice">These maps are source-checked candidates. Independent scientific review remains pending.</p>}
+  <ul class="version-list">{atlas.map(item => <li><h2><a href={sitePath(`/diseases/${item.profile.id}/`)}>{item.profile.label}</a></h2><p>{item.profile.summary}</p><span class="pill">{item.published ? 'Reviewed release' : 'Scientific candidate'}</span><p>{item.bundle.entities.length} entities · {item.bundle.relationships.length} relationships · {item.bundle.therapies.length} therapies</p></li>)}</ul>
+</section></AtlasLayout>

@@ -13,4 +13,4 @@ For Milestone 2, curate one bounded SLE circuit from directly verified sources:
 - Use permitted summaries and excerpts; do not redistribute restricted full text.
 - Record reviewer identity, decision, limitations, and date. Abstain when the source does not support the exact interpretation.
 
-Source concepts in IDEA.md and proto-sle.md guide candidate selection only. They do not replace evidence verification. Public scientific review follows publication-approval.md.
+The product requirements in PRD.md guide candidate selection only. They do not replace evidence verification. Public scientific review follows publication-approval.md.

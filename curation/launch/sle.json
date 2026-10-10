@@ -1,0 +1,9 @@
+{
+  "releaseId": null,
+  "contentDigest": null,
+  "screenReader": { "status": "pending", "reviewer": null, "report": null },
+  "walkthrough": { "status": "pending", "reviewer": null, "report": null },
+  "stagingRedeployment": { "status": "pending", "reviewer": null, "report": null },
+  "performance": { "status": "pending", "report": null },
+  "note": "Bind these checks to the reviewed root. Pending entries deliberately prevent production deployment. See curation/launch/PUBLICATION.md."
+}

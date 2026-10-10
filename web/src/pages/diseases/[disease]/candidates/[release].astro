@@ -1,0 +1,7 @@
+---
+import { atlas, isPublication } from '../../../../data/atlas';
+import DiseasePage from '../../../../components/DiseasePage.astro';
+export function getStaticPaths() { return isPublication ? [] : atlas.flatMap(item => item.versions.filter(version => !['approved','published'].includes(version.status)).map(version => ({ params: { disease: item.profile.id, release: version.id }, props: { item, version } }))); }
+const { item, version } = Astro.props;
+---
+<DiseasePage release={version} disease={item.profile} isPublication={false} historical={true} />

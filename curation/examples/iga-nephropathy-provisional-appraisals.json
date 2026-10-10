@@ -1,0 +1,1922 @@
+{
+  "version": 1,
+  "diseaseId": "iga-nephropathy",
+  "baseReleaseId": "iga-nephropathy-candidate-2a8f21ad71cc",
+  "baseContentDigest": "5996371cc127e83d98bdfaded0eca9e165e761e5fd4f94337be162f7ced0df55",
+  "assessorId": "codex",
+  "assessorKind": "agent",
+  "assessedAt": "2026-10-10",
+  "limitations": "Agent-authored preliminary appraisal of the frozen selected reports, not a systematic review. Abstract-only access limits critical quality assessment; independent study groups and dataset families have not been established. Weight concerns this bounded mechanism context, not clinical effectiveness or disease-wide importance. Context-mismatched treatment claims are excluded from mechanistic ratings. No calibration or independent reviewer decision is asserted.",
+  "assessments": [
+    {
+      "assessmentId": "assessment-7af0dd9ea4026d8260db",
+      "rationale": "Provisional appraisal of IL-6 in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Links mesangial cytokine output to glycosylation in separate culture models; the complete feedback circuit is a synthesis. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Links mesangial cytokine output to glycosylation in separate culture models; the complete feedback circuit is a synthesis.",
+          "claimIds": [
+            "claim-iga-il6-cells",
+            "claim-iga-mesangial-il6"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 2,
+          "rationale": "Links mesangial cytokine output to glycosylation in separate culture models; the complete feedback circuit is a synthesis.",
+          "claimIds": [
+            "claim-iga-il6-cells",
+            "claim-iga-mesangial-il6"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "The scoped evidence supports preclinical perturbation only. It does not justify credit for a context-mismatched clinical trial.",
+          "claimIds": [
+            "claim-iga-il6-cells",
+            "claim-iga-mesangial-il6"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-il6-cells",
+            "claim-iga-mesangial-il6"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-il6-cells",
+            "claim-iga-mesangial-il6"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-il6-cells",
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Links mesangial cytokine output to glycosylation in separate culture models; the complete feedback circuit is a synthesis.",
+            "claimIds": [
+              "claim-iga-il6-cells",
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-il6-cells",
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-il6-cells",
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-il6-cells",
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Links mesangial cytokine output to glycosylation in separate culture models; the complete feedback circuit is a synthesis.",
+            "claimIds": [
+              "claim-iga-il6-cells",
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-il6-cells",
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-il6-cells",
+              "claim-iga-mesangial-il6"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-8869b4bdd643e552aa72",
+      "rationale": "Provisional appraisal of IgA1-secreting cell lines in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Connects cytokine exposure to IgA1 production in selected immortalized cell cultures. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Connects cytokine exposure to IgA1 production in selected immortalized cell cultures.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-il6-cells"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 2,
+          "rationale": "Connects cytokine exposure to IgA1 production in selected immortalized cell cultures.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-il6-cells"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "The scoped evidence supports preclinical perturbation only. It does not justify credit for a context-mismatched clinical trial.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-il6-cells"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-il6-cells"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-il6-cells"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-il6-cells"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Connects cytokine exposure to IgA1 production in selected immortalized cell cultures.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-il6-cells"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-il6-cells"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-il6-cells"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-il6-cells"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Connects cytokine exposure to IgA1 production in selected immortalized cell cultures.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-il6-cells"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-il6-cells"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-il6-cells"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-c07dc220a8be5d29d5db",
+      "rationale": "Provisional appraisal of Galactose-deficient IgA1 in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Connects observed cell glycosylation to in-vitro IgG binding/complex formation, without an isolated disease-outcome perturbation. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 1,
+          "rationale": "Connects observed cell glycosylation to in-vitro IgG binding/complex formation, without an isolated disease-outcome perturbation.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-gd-complex"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 2,
+          "rationale": "Connects observed cell glycosylation to in-vitro IgG binding/complex formation, without an isolated disease-outcome perturbation.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-gd-complex"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "No qualifying context-matched target perturbation is established in the appraised set. Zero describes this bounded review, not the entire literature.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-gd-complex"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-gd-complex"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-gd-complex"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-gd-complex"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Connects observed cell glycosylation to in-vitro IgG binding/complex formation, without an isolated disease-outcome perturbation.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-gd-complex"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-gd-complex"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-gd-complex"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-gd-complex"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Connects observed cell glycosylation to in-vitro IgG binding/complex formation, without an isolated disease-outcome perturbation.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-gd-complex"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-gd-complex"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-cells-gd",
+              "claim-iga-gd-complex"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-b5eca36faf75a303e356",
+      "rationale": "Provisional appraisal of Antiglycan IgG in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. One in-vitro binding and complex-formation contribution. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 1,
+          "rationale": "One in-vitro binding and complex-formation contribution.",
+          "claimIds": [
+            "claim-iga-igg-complex"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "One in-vitro binding and complex-formation contribution.",
+          "claimIds": [
+            "claim-iga-igg-complex"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "No qualifying context-matched target perturbation is established in the appraised set. Zero describes this bounded review, not the entire literature.",
+          "claimIds": [
+            "claim-iga-igg-complex"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-igg-complex"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-igg-complex"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "One in-vitro binding and complex-formation contribution.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "One in-vitro binding and complex-formation contribution.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-f8f264f3183c23b4117b",
+      "rationale": "Provisional appraisal of IgA1-containing immune complexes in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Connects composition to mesangial proliferation and ERK branches; complex size and uncomplexed controls qualify the effects. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Connects composition to mesangial proliferation and ERK branches; complex size and uncomplexed controls qualify the effects.",
+          "claimIds": [
+            "claim-iga-gd-complex",
+            "claim-iga-igg-complex",
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-iga-complex-erk",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 3,
+          "rationale": "Connects composition to mesangial proliferation and ERK branches; complex size and uncomplexed controls qualify the effects.",
+          "claimIds": [
+            "claim-iga-gd-complex",
+            "claim-iga-igg-complex",
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-iga-complex-erk",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "The scoped evidence supports preclinical perturbation only. It does not justify credit for a context-mismatched clinical trial.",
+          "claimIds": [
+            "claim-iga-gd-complex",
+            "claim-iga-igg-complex",
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-iga-complex-erk",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-gd-complex",
+            "claim-iga-igg-complex",
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-iga-complex-erk",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-gd-complex",
+            "claim-iga-igg-complex",
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-iga-complex-erk",
+            "claim-6b874a35ea11211276d1"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-gd-complex",
+              "claim-iga-igg-complex",
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-complex-erk",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Connects composition to mesangial proliferation and ERK branches; complex size and uncomplexed controls qualify the effects.",
+            "claimIds": [
+              "claim-iga-gd-complex",
+              "claim-iga-igg-complex",
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-complex-erk",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-gd-complex",
+              "claim-iga-igg-complex",
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-complex-erk",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-gd-complex",
+              "claim-iga-igg-complex",
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-complex-erk",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-gd-complex",
+              "claim-iga-igg-complex",
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-complex-erk",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Connects composition to mesangial proliferation and ERK branches; complex size and uncomplexed controls qualify the effects.",
+            "claimIds": [
+              "claim-iga-gd-complex",
+              "claim-iga-igg-complex",
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-complex-erk",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Qualifying findings constrain the positive link by study system, complex size or pathway dependence; a uniform disease-wide effect is not established.",
+            "claimIds": [
+              "claim-iga-gd-complex",
+              "claim-iga-igg-complex",
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-complex-erk",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-gd-complex",
+              "claim-iga-igg-complex",
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-complex-erk",
+              "claim-6b874a35ea11211276d1"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-84d032e85c6f5c4c6ea2",
+      "rationale": "Provisional appraisal of Mesangial cells in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Connects complex exposure to proliferation and IL-6 secretion in human cultures; not a demonstrated whole-patient feedback loop. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Connects complex exposure to proliferation and IL-6 secretion in human cultures; not a demonstrated whole-patient feedback loop.",
+          "claimIds": [
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-iga-mesangial-il6",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 2,
+          "rationale": "Connects complex exposure to proliferation and IL-6 secretion in human cultures; not a demonstrated whole-patient feedback loop.",
+          "claimIds": [
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-iga-mesangial-il6",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "The scoped evidence supports preclinical perturbation only. It does not justify credit for a context-mismatched clinical trial.",
+          "claimIds": [
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-iga-mesangial-il6",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-iga-mesangial-il6",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-iga-mesangial-il6",
+            "claim-6b874a35ea11211276d1"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-mesangial-il6",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Connects complex exposure to proliferation and IL-6 secretion in human cultures; not a demonstrated whole-patient feedback loop.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-mesangial-il6",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-mesangial-il6",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-mesangial-il6",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-mesangial-il6",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Connects complex exposure to proliferation and IL-6 secretion in human cultures; not a demonstrated whole-patient feedback loop.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-mesangial-il6",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Qualifying findings constrain the positive link by study system, complex size or pathway dependence; a uniform disease-wide effect is not established.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-mesangial-il6",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-iga-mesangial-il6",
+              "claim-6b874a35ea11211276d1"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-fa5b9661bc5ba070de22",
+      "rationale": "Provisional appraisal of MAPK / ERK activation in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Connects complex-stimulated signalling with pathway-sensitive cytokine output and a separate biopsy association. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Connects complex-stimulated signalling with pathway-sensitive cytokine output and a separate biopsy association.",
+          "claimIds": [
+            "claim-iga-complex-erk",
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 2,
+          "rationale": "Connects complex-stimulated signalling with pathway-sensitive cytokine output and a separate biopsy association.",
+          "claimIds": [
+            "claim-iga-complex-erk",
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "The scoped evidence supports preclinical perturbation only. It does not justify credit for a context-mismatched clinical trial.",
+          "claimIds": [
+            "claim-iga-complex-erk",
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-complex-erk",
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-complex-erk",
+            "claim-iga-erk-kidney"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-complex-erk",
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Connects complex-stimulated signalling with pathway-sensitive cytokine output and a separate biopsy association.",
+            "claimIds": [
+              "claim-iga-complex-erk",
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-complex-erk",
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-complex-erk",
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-complex-erk",
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Connects complex-stimulated signalling with pathway-sensitive cytokine output and a separate biopsy association.",
+            "claimIds": [
+              "claim-iga-complex-erk",
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-complex-erk",
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-complex-erk",
+              "claim-iga-erk-kidney"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-44ad466ef5e209f0a58d",
+      "rationale": "Provisional appraisal of Renal inflammation / injury in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. The recorded proteinuria/blood-pressure finding is an association, not an established causal role of the endpoint. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "The recorded proteinuria/blood-pressure finding is an association, not an established causal role of the endpoint.",
+          "claimIds": [
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "The recorded proteinuria/blood-pressure finding is an association, not an established causal role of the endpoint.",
+          "claimIds": [
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "No qualifying context-matched target perturbation is established in the appraised set. Zero describes this bounded review, not the entire literature.",
+          "claimIds": [
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-erk-kidney"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "The recorded proteinuria/blood-pressure finding is an association, not an established causal role of the endpoint.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "The recorded proteinuria/blood-pressure finding is an association, not an established causal role of the endpoint.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-91183dda3725ddf110ab",
+      "rationale": "Provisional appraisal of this relationship in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Patient-derived immortalized cultures show abnormal IgA1 glycosylation; this observation alone is not an isolated causal disease perturbation. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 1,
+          "rationale": "Patient-derived immortalized cultures show abnormal IgA1 glycosylation; this observation alone is not an isolated causal disease perturbation.",
+          "claimIds": [
+            "claim-iga-cells-gd"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "This appraisal addresses one local connection; no broader network centrality is inferred from its citation count.",
+          "claimIds": [
+            "claim-iga-cells-gd"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "No qualifying context-matched target perturbation is established in the appraised set. Zero describes this bounded review, not the entire literature.",
+          "claimIds": [
+            "claim-iga-cells-gd"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-cells-gd"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-cells-gd"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-cells-gd"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Patient-derived immortalized cultures show abnormal IgA1 glycosylation; this observation alone is not an isolated causal disease perturbation.",
+            "claimIds": [
+              "claim-iga-cells-gd"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-cells-gd"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-cells-gd"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-cells-gd"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Patient-derived immortalized cultures show abnormal IgA1 glycosylation; this observation alone is not an isolated causal disease perturbation.",
+            "claimIds": [
+              "claim-iga-cells-gd"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-cells-gd"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-cells-gd"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-259fc7874467ab091d23",
+      "rationale": "Provisional appraisal of this relationship in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Applied IL-6 altered glycosylation in selected human cell cultures, supporting a contextual functional effect. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Applied IL-6 altered glycosylation in selected human cell cultures, supporting a contextual functional effect.",
+          "claimIds": [
+            "claim-iga-il6-cells"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "This appraisal addresses one local connection; no broader network centrality is inferred from its citation count.",
+          "claimIds": [
+            "claim-iga-il6-cells"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "The scoped evidence supports preclinical perturbation only. It does not justify credit for a context-mismatched clinical trial.",
+          "claimIds": [
+            "claim-iga-il6-cells"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-il6-cells"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-il6-cells"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-il6-cells"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Applied IL-6 altered glycosylation in selected human cell cultures, supporting a contextual functional effect.",
+            "claimIds": [
+              "claim-iga-il6-cells"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-il6-cells"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-il6-cells"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-il6-cells"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Applied IL-6 altered glycosylation in selected human cell cultures, supporting a contextual functional effect.",
+            "claimIds": [
+              "claim-iga-il6-cells"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-il6-cells"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-il6-cells"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-01634485bad2448909cb",
+      "rationale": "Provisional appraisal of this relationship in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. In-vitro complex formation supports a compositional link, without isolating a clinical disease effect. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 1,
+          "rationale": "In-vitro complex formation supports a compositional link, without isolating a clinical disease effect.",
+          "claimIds": [
+            "claim-iga-gd-complex"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "This appraisal addresses one local connection; no broader network centrality is inferred from its citation count.",
+          "claimIds": [
+            "claim-iga-gd-complex"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "No qualifying context-matched target perturbation is established in the appraised set. Zero describes this bounded review, not the entire literature.",
+          "claimIds": [
+            "claim-iga-gd-complex"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-gd-complex"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-gd-complex"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-gd-complex"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "In-vitro complex formation supports a compositional link, without isolating a clinical disease effect.",
+            "claimIds": [
+              "claim-iga-gd-complex"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-gd-complex"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-gd-complex"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-gd-complex"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "In-vitro complex formation supports a compositional link, without isolating a clinical disease effect.",
+            "claimIds": [
+              "claim-iga-gd-complex"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-gd-complex"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-gd-complex"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-40ece44e8a59dddf7d1e",
+      "rationale": "Provisional appraisal of this relationship in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. In-vitro glycan-specific IgG binding supports a compositional link, without isolating a clinical disease effect. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 1,
+          "rationale": "In-vitro glycan-specific IgG binding supports a compositional link, without isolating a clinical disease effect.",
+          "claimIds": [
+            "claim-iga-igg-complex"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "This appraisal addresses one local connection; no broader network centrality is inferred from its citation count.",
+          "claimIds": [
+            "claim-iga-igg-complex"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "No qualifying context-matched target perturbation is established in the appraised set. Zero describes this bounded review, not the entire literature.",
+          "claimIds": [
+            "claim-iga-igg-complex"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-igg-complex"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-igg-complex"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "In-vitro glycan-specific IgG binding supports a compositional link, without isolating a clinical disease effect.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "In-vitro glycan-specific IgG binding supports a compositional link, without isolating a clinical disease effect.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-igg-complex"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-8544ff9a9a2133fbebd9",
+      "rationale": "Provisional appraisal of this relationship in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Large-complex exposure stimulated cultured mesangial proliferation; smaller fractions and uncomplexed IgA1 qualify attribution. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Large-complex exposure stimulated cultured mesangial proliferation; smaller fractions and uncomplexed IgA1 qualify attribution.",
+          "claimIds": [
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "This appraisal addresses one local connection; no broader network centrality is inferred from its citation count.",
+          "claimIds": [
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "The scoped evidence supports preclinical perturbation only. It does not justify credit for a context-mismatched clinical trial.",
+          "claimIds": [
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-6b874a35ea11211276d1"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-complex-mesangial",
+            "claim-iga-size-qualification",
+            "claim-6b874a35ea11211276d1"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Large-complex exposure stimulated cultured mesangial proliferation; smaller fractions and uncomplexed IgA1 qualify attribution.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Large-complex exposure stimulated cultured mesangial proliferation; smaller fractions and uncomplexed IgA1 qualify attribution.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Qualifying findings constrain the positive link by study system, complex size or pathway dependence; a uniform disease-wide effect is not established.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-6b874a35ea11211276d1"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-complex-mesangial",
+              "claim-iga-size-qualification",
+              "claim-6b874a35ea11211276d1"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-591d5bb81d5502b7ab4f",
+      "rationale": "Provisional appraisal of this relationship in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Complex exposure activated ERK in selected human mesangial cultures. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Complex exposure activated ERK in selected human mesangial cultures.",
+          "claimIds": [
+            "claim-iga-complex-erk"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "This appraisal addresses one local connection; no broader network centrality is inferred from its citation count.",
+          "claimIds": [
+            "claim-iga-complex-erk"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "The scoped evidence supports preclinical perturbation only. It does not justify credit for a context-mismatched clinical trial.",
+          "claimIds": [
+            "claim-iga-complex-erk"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-complex-erk"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-complex-erk"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-complex-erk"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Complex exposure activated ERK in selected human mesangial cultures.",
+            "claimIds": [
+              "claim-iga-complex-erk"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-complex-erk"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-complex-erk"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-complex-erk"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Complex exposure activated ERK in selected human mesangial cultures.",
+            "claimIds": [
+              "claim-iga-complex-erk"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-complex-erk"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-complex-erk"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-e283b93c4ca93638e229",
+      "rationale": "Provisional appraisal of this relationship in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. IgA1-stimulated cultures released IL-6 and pathway blockade reduced secretion, supporting a preclinical functional effect. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "IgA1-stimulated cultures released IL-6 and pathway blockade reduced secretion, supporting a preclinical functional effect.",
+          "claimIds": [
+            "claim-iga-mesangial-il6"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "This appraisal addresses one local connection; no broader network centrality is inferred from its citation count.",
+          "claimIds": [
+            "claim-iga-mesangial-il6"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "The scoped evidence supports preclinical perturbation only. It does not justify credit for a context-mismatched clinical trial.",
+          "claimIds": [
+            "claim-iga-mesangial-il6"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-mesangial-il6"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-mesangial-il6"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "IgA1-stimulated cultures released IL-6 and pathway blockade reduced secretion, supporting a preclinical functional effect.",
+            "claimIds": [
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "IgA1-stimulated cultures released IL-6 and pathway blockade reduced secretion, supporting a preclinical functional effect.",
+            "claimIds": [
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-mesangial-il6"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-mesangial-il6"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-c00bf2865bb41c7c9cea",
+      "rationale": "Provisional appraisal of this relationship in IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems. Biopsy ERK staining correlated with proteinuria and blood pressure; causal direction and treatment benefit are not established. Coverage is limited to the cited systems; independent domain review remains pending.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "Biopsy ERK staining correlated with proteinuria and blood pressure; causal direction and treatment benefit are not established.",
+          "claimIds": [
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "This associative endpoint link does not establish a supported causal network role.",
+          "claimIds": [
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "No qualifying context-matched target perturbation is established in the appraised set. Zero describes this bounded review, not the entire literature.",
+          "claimIds": [
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Only selected cultures, a rare variant, a mouse model or a narrow observational phenotype are covered; broad disease coverage is not established.",
+          "claimIds": [
+            "claim-iga-erk-kidney"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Independent corroboration has not been established in these appraised records. Repeated claims or reports do not demonstrate independent groups and datasets.",
+          "claimIds": [
+            "claim-iga-erk-kidney"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "Human-derived cultures, observations and rare genetics support different inferences; none here establishes broadly replicated human clinical causation.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "Biopsy ERK staining correlated with proteinuria and blood pressure; causal direction and treatment benefit are not established.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Most scoped sources were inspected as abstracts or selected excerpts. Complete methods and risk-of-bias appraisal are unavailable in this frozen evidence set, limiting confidence.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Research-group and non-overlapping dataset independence have not been established; empty independence labels do not assert two independent studies.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Independent replication is not established by the appraised records; multiple connected claims are not independent replications.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Biopsy ERK staining correlated with proteinuria and blood pressure; causal direction and treatment benefit are not established.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "The selected bounded claim is recorded with its contextual limits; consistency across the broader literature is not established.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No unresolved material same-context contradiction is identified in these appraised records. Qualifiers remain visible; this is not a systematic search for negative results.",
+            "claimIds": [
+              "claim-iga-erk-kidney"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    }
+  ]
+}

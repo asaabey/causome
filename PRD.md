@@ -6,7 +6,7 @@ Product requirements and build manifest
 - Version: 0.3
 - Date: 2026-10-09
 - Initial disease: Systemic lupus erythematosus (SLE)
-- Source concepts: `IDEA.md` and `proto-sle.md`
+- Product contract: this document; current implementation and remaining gates are recorded in `PROGRESS.md`.
 
 ## 1. Product summary
 
@@ -127,7 +127,7 @@ The MVP is complete at Milestone 3 in Section 20. It is a usable, evidence-linke
 
 The first release contains 15–25 named entities, 20–40 reviewed relationships, and 3–5 evidence-linked therapies, including approved and experimental examples with explicitly verified status and indication. These are scope budgets, not quotas to fill with weak evidence; reduce the set with a documented domain-review rationale if necessary. The initial map covers the principal reviewed circuit, a feedback loop, and one organ-injury branch rather than attempting exhaustive SLE coverage.
 
-Scores are optional for MVP. Ship all numerical assessments as `null` with “Not assessed” labels unless Section 8.5 calibration has already passed. Unassessed nodes use equal baseline sizing and neutral rings; position, labels, and named biological relationships communicate the mechanism. Overview membership does not assert a scored `core` status.
+Scores are optional for MVP. Public releases ship numerical assessments as `null` with “Not assessed” labels unless Section 8.5 calibration has already passed. Internal local candidates may contain explicitly provisional agent or human editorial appraisals with assessor/date, exact base/input digests, claim-linked component rationales and validated confidence ceilings. These drafts remain uncalibrated, require fresh appraisal after evidence reconciliation, and cannot be published as assessed values. Unassessed nodes use equal baseline sizing and neutral rings; position, labels, and named biological relationships communicate the mechanism. Overview membership does not assert a scored `core` status.
 
 ### 5.3 Explicit MVP non-goals
 
@@ -742,7 +742,7 @@ The graph-library choice requires a focused implementation spike in Milestone 1.
 /sources/
 ```
 
-Milestone 4 adds `/diseases/sle/changes/`, `/diseases/sle/versions/`, `/diseases/sle/versions/{release-id}/`, and `/methodology/scoring/`. Until then, the disease page shows its release ID, evidence cutoff, initial release note, and unassessed-score explanation.
+Milestone 4 implements generic `/diseases/{disease-id}/compare/`, `/diseases/{disease-id}/history/`, `/diseases/{disease-id}/releases/{release-id}/`, and `/methodology/#scoring`. Internal candidate snapshots use a separate `/candidates/{candidate-id}/` route. Until then, the disease page shows its release ID, evidence cutoff, initial release note, and unassessed-score explanation.
 
 ### 11.4 Static-site limitations accepted for MVP
 
@@ -759,8 +759,6 @@ This is the target structure across all milestones. Milestone 1 creates only `we
 causome/
 ├── AGENTS.md
 ├── PRD.md
-├── IDEA.md
-├── proto-sle.md
 │
 ├── .codex/
 │   └── skills/
@@ -1132,7 +1130,7 @@ Done when:
 
 ### 20.2 Milestone 2: Curated SLE experience
 
-Status: Reviewable source-checked candidate implemented on 2026-10-10: 21 entities, 27 relationships, and three therapies, with focused map views, claim-level provenance, study systems, qualifying evidence, negative trial outcomes, and a complete static outline. All scores remain unassessed. Human domain review of the proposed maintaining circuit and source interpretations is pending; no reviewed or published release is claimed. See curation/reviews/sle-curated-candidate-001.md for the initial note and claim ledger.
+Status: Reviewable source-checked candidate implemented on 2026-10-10: 21 entities, 27 relationships, and three therapies, with focused map views, claim-level provenance, study systems, qualifying evidence, negative trial outcomes, and a complete static outline. The original candidate retains unassessed scores. Newer local SLE and IgA snapshots include explicit provisional appraisals and categorical therapeutic target coverage; calibration and independent appraisal review remain pending. Human domain review of the proposed maintaining circuit and source interpretations is pending; no reviewed or published release is claimed. See curation/reviews/sle-curated-candidate-001.md for the initial note and claim ledger.
 
 Build:
 
@@ -1141,7 +1139,7 @@ Build:
 - Populate claim-level supporting, qualifying, and contradicting evidence where identified. Empty evidence categories are explicitly labelled rather than fabricated.
 - Add 3–5 therapy records with linked targets, mechanism, indication, status, verification date, and limitations.
 - Add the map legend, useful overview layout, readable labels, inspector, and static textual mechanism outline.
-- Keep numerical scores unassessed unless their calibration and approval already exist.
+- Keep public numerical scores unassessed unless calibration and approval already exist. Local provisional candidates follow the explicit provenance and review restrictions in Section 8.
 
 Done when:
 
@@ -1151,6 +1149,10 @@ Done when:
 - A domain reviewer can inspect the complete map, evidence, and initial release note before approval.
 
 ### 20.3 Milestone 3: Publish the MVP
+
+Status: Local engineering implemented on 2026-10-10; GitHub and public launch deferred by the user. Implemented exact-commit GitHub approval verification, immutable root storage and current-pointer routing, separate preview/public builds, browser accessibility checks, health checks, artifact archiving and a gated Pages workflow. Reviewer policy remains disabled, domain approval and a public root are pending, and live deployment, manual screen-reader/walkthrough checks, reviewed-artifact performance and staging redeployment remain launch gates. See curation/launch/PUBLICATION.md. This is not MVP completion.
+
+Current work prioritizes the local product; GitHub setup and deployment are deferred. The atlas supports name/synonym and therapy-brand search, evidence navigation across routes, a selected-evidence shortcut, explicit incoming/outgoing/symmetric connection labels, and selection-based inspector scroll reset.
 
 Build:
 
@@ -1170,6 +1172,8 @@ This is the MVP launch boundary. Historical browsing, calibrated scores, grouped
 
 ### 20.4 Milestone 4: Evidence depth and release history
 
+Status: Local engineering implemented on 2026-10-10: version comparison, immutable successors, grouped views, contextual rubric/calibration validation, archived-artifact restoration and the 200-entity/400-relationship benchmark. Real calibration, an independently approved successor, the usability pilot and hosting rollback remain acceptance gates. See PROGRESS.md; engineering checks do not establish those scientific/human outcomes.
+
 Build:
 
 - Calibrate and approve the scoring rubric under Section 8.5, then add contextual weight/confidence tiers and their explanations.
@@ -1187,6 +1191,8 @@ Done when:
 
 ### 20.5 Milestone 5: Living literature workflow
 
+Status: Local manual workflow implemented on 2026-10-10: live retrieval, persistent-identifier deduplication, overlap and known-source refresh, source flags, bounded manual/model extraction, immutable reconciliation packets, held-out/search evaluators and scheduling-readiness checks. Real manual-scan review and reviewer-labelled evaluations are pending; no model service or weekly scheduler is configured. See CURATION.md and PROGRESS.md.
+
 Build in order:
 
 1. Manual literature search/retrieval command with overlap windows, deduplication, source tracking, and a retrieval report.
@@ -1202,6 +1208,8 @@ Done when:
 - Human-approved proposals use the Milestone 4 successor-release workflow.
 
 ### 20.6 Milestone 6: Additional diseases and comparison
+
+Status: Generic registry/routes, source-checked IgA nephropathy example and canonical-identity comparison implemented locally on 2026-10-10. SLE and IgA evidence/assessments remain independent; both maps await independent human domain review. See PROGRESS.md. This is a reviewable prototype, not completion of the two-reviewed-map acceptance criterion.
 
 Build:
 

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "diseaseId": "iga-nephropathy",
+  "baseReleaseId": "iga-nephropathy-candidate-001",
+  "baseContentDigest": "8bb999c7f3f115851618fdd10ffb8c2a1086b0de51e2573341c842124f4a81a0",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "manual-source-check-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "iga-uncomplexed-qualification",
+      "subject": "entity-iga-complexes",
+      "object": "entity-mesangial",
+      "predicate": "stimulates",
+      "text": "Uncomplexed IgA1 did not significantly alter proliferation in the reported mesangial-cell culture assay, limiting attribution of the complex effect to IgA1 alone.",
+      "quote": "uncomplexed IgA1 did not affect MC proliferation significantly",
+      "quoteLocation": "PubMed abstract",
+      "studySystem": "Serum fractions from IgAN patients added to cultured mesangial cells",
+      "limitations": [
+        "This culture comparison does not establish the effects of uncomplexed IgA1 in vivo or in every mesangial context."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "codex-source-check",
+        "checkedAt": "2026-10-10"
+      },
+      "contextId": "context-iga-overview",
+      "paperKey": "med-15673298",
+      "paperDigest": "760ef05ccd4ff1ff4bb4bbd3eff9d1816acbb0b92fa217a06f0880afccb4f2c7",
+      "distinctFindingRationale": "The uncomplexed-IgA1 control is a separate finding from the large-complex stimulation and smaller-complex inhibition already entered from this study."
+    }
+  ]
+}

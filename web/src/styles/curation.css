@@ -1,0 +1,30 @@
+.curation-steps { padding: 0; list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 2rem 0; }
+.curation-steps li { border-top: 2px solid #1b655b; padding-top: .7rem; }
+.curation-steps strong, .curation-steps span { display: block; }
+.curation-steps span { font-size: .88rem; margin-top: .5rem; }
+.curation-workbench label { display: block; font-weight: 600; font-size: .9rem; margin: .7rem 0; }
+.curation-workbench input, .curation-workbench select, .curation-workbench textarea { display: block; width: 100%; min-height: 44px; margin-top: .4rem; padding: .6rem; font: inherit; color: #20382e; border: 1px solid #8a9b8e; border-radius: 4px; background: #fff; }
+.curation-workbench textarea { min-height: 90px; resize: vertical; }
+.curation-workbench button { min-height: 44px; padding: .6rem .8rem; font: inherit; border: 1px solid #8a9b8e; color: #183d32; background: #f3f7f1; border-radius: 4px; cursor: pointer; }
+.curation-workbench button:disabled { cursor: default; opacity: .6; }
+.curation-workbench :focus-visible { outline: 3px solid #17665a; outline-offset: 2px; }
+.curation-grid { display: grid; grid-template-columns: minmax(220px, .7fr) minmax(0, 1.5fr); gap: 2rem; }
+.curation-binding { margin: 1.4rem 0; padding: 1rem; background: #eaf0e8; border-radius: 5px; }
+.curation-workbench code, .curation-passage { overflow-wrap: anywhere; }
+.curation-queue { list-style: none; padding: 0; max-height: 640px; overflow: auto; }
+.curation-queue li { margin-bottom: .5rem; }
+.curation-queue button { text-align: left; width: 100%; }
+.curation-queue button[aria-pressed=true] { border: 2px solid #17665a; background: #e8f0e6; }
+.curation-queue strong, .curation-queue small, .curation-queue span, .curation-draft small { display: block; margin-bottom: .5rem; }
+.curation-queue span { font-size: .8rem; }
+.curation-source { border-left: 3px solid #17665a; padding: 0 1rem; }
+.curation-fields { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+.curation-workbench .curation-check { display: flex; gap: .6rem; align-items: center; min-height: 44px; }
+.curation-workbench .curation-check input { width: 22px; min-height: 22px; margin: 0; }
+.curation-message { color: #164d3e; min-height: 2rem; }
+.curation-draft { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #b7c4b7; }
+.curation-draft > button { margin: .5rem .5rem .5rem 0; }
+.content-page pre { white-space: pre-wrap; overflow-wrap: anywhere; padding: 1rem; background: #eaf0e8; font-size: .85rem; }
+@media(max-width:700px) { .curation-grid, .curation-fields { grid-template-columns: 1fr; } .curation-steps { grid-template-columns: 1fr 1fr; } .curation-queue { max-height: 300px; } }
+.curation-workbench, .curation-grid > section, .curation-fields > label { min-width: 0; overflow-wrap: anywhere; }
+.curation-workbench input, .curation-workbench select, .curation-workbench textarea { max-width: 100%; }

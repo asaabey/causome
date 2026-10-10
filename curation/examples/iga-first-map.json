@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "id": "iga-nephropathy-candidate-001",
+  "evidenceCutoff": "2026-10-10",
+  "context": {
+    "id": "context-iga-overview",
+    "label": "IgAN glycosylation and mesangial signalling; individual studies retain their experimental systems",
+    "organism": "Human cells and human biopsy observations",
+    "phenotype": "IgA nephropathy; selected proteinuria and signalling findings",
+    "tissue": "Circulating cell-derived cultures / glomerular mesangium",
+    "stage": "Mechanistic synthesis; not a complete disease model"
+  },
+  "entities": [
+    {
+      "id": "entity-il6",
+      "label": "IL-6",
+      "entityClass": "cytokine",
+      "description": "A cytokine; its effects here are assessed in IgA1-secreting cultures.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-iga-cells",
+      "label": "IgA1-secreting cell lines",
+      "entityClass": "cell",
+      "description": "Immortalized IgA1-producing cells used in the cited experiments; not a claim about every plasma cell.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-gd-iga1",
+      "label": "Galactose-deficient IgA1",
+      "entityClass": "antibody",
+      "description": "IgA1 with deficient galactose in hinge-region O-glycans.",
+      "synonyms": [
+        "Gd-IgA1"
+      ],
+      "externalIds": []
+    },
+    {
+      "id": "entity-antiglycan-igg",
+      "label": "Antiglycan IgG",
+      "entityClass": "antibody",
+      "description": "IgG recognizing the glycan epitopes examined in these studies.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-iga-complexes",
+      "label": "IgA1-containing immune complexes",
+      "entityClass": "immune_complex",
+      "description": "Complexes containing IgA1; composition and molecular mass affect their measured activity.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-mesangial",
+      "label": "Mesangial cells",
+      "entityClass": "cell",
+      "description": "Glomerular cells studied in culture and biopsy tissue.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-erk",
+      "label": "MAPK / ERK activation",
+      "entityClass": "process",
+      "description": "A contextual signalling process, with culture perturbations and biopsy associations.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-kidney",
+      "label": "Renal inflammation / injury",
+      "entityClass": "clinical_outcome",
+      "description": "Renal injury outcomes; evidence and causal interpretation are specific to each linked study.",
+      "synonyms": [],
+      "externalIds": []
+    }
+  ],
+  "publications": [
+    {
+      "id": "18172551",
+      "source": "MED",
+      "title": "IgA1-secreting cell lines from patients with IgA nephropathy produce aberrantly glycosylated IgA1",
+      "authorString": "Suzuki et al.",
+      "journalInfo": {
+        "journal": {
+          "title": "Journal of Clinical Investigation"
+        }
+      },
+      "abstractText": "galactose-deficient O-linked glycans",
+      "inspectedScope": "PubMed abstract; selected citation excerpt cached",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "19478457",
+      "source": "MED",
+      "title": "Aberrantly glycosylated IgA1 in IgA nephropathy patients is recognized by IgG antibodies with restricted heterogeneity",
+      "authorString": "Suzuki et al.",
+      "journalInfo": {
+        "journal": {
+          "title": "Journal of Clinical Investigation"
+        }
+      },
+      "abstractText": "formed complexes with galactose-deficient IgA1",
+      "inspectedScope": "PubMed abstract; selected citation excerpt cached",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "15673298",
+      "source": "MED",
+      "title": "IgA1-containing immune complexes in IgA nephropathy differentially affect proliferation of mesangial cells",
+      "authorString": "Novak et al.",
+      "journalInfo": {
+        "journal": {
+          "title": "Kidney International"
+        }
+      },
+      "abstractText": "stimulated proliferation; fractions with smaller complexes were inhibitory; uncomplexed IgA1 did not affect MC proliferation significantly.",
+      "inspectedScope": "PubMed abstract; selected citation excerpt cached",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "22951891",
+      "source": "MED",
+      "title": "The IgA1 immune complex-mediated activation of the MAPK/ERK kinase pathway in mesangial cells is associated with glomerular damage in IgA nephropathy",
+      "authorString": "Tamouza et al.",
+      "journalInfo": {
+        "journal": {
+          "title": "Kidney International"
+        }
+      },
+      "abstractText": "ERK activation through mesangial IgA1 receptor",
+      "inspectedScope": "PubMed abstract; selected citation excerpt cached",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "24398680",
+      "source": "MED",
+      "title": "Cytokines alter IgA1 O-glycosylation by dysregulating C1GalT1 and ST6GalNAc-II enzymes",
+      "authorString": "Suzuki et al.",
+      "journalInfo": {
+        "journal": {
+          "title": "Journal of Biological Chemistry"
+        }
+      },
+      "abstractText": "IL-6 and IL-4 accentuated galactose deficiency",
+      "inspectedScope": "PubMed abstract; selected citation excerpt cached",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "iga-cells-gd",
+      "pmid": "18172551",
+      "subject": "entity-iga-cells",
+      "object": "entity-gd-iga1",
+      "predicate": "produces",
+      "text": "Patient-derived immortalized IgA1-secreting cells produced IgA1 with galactose-deficient O-glycans.",
+      "quote": "galactose-deficient O-linked glycans",
+      "quoteLocation": "PubMed abstract",
+      "studySystem": "EBV-immortalized IgA1-producing cells derived from human peripheral blood",
+      "limitations": [
+        "Immortalized cultures; does not identify the dominant in-vivo source or establish sufficiency for disease."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "codex-source-check",
+        "checkedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "iga-il6-cells",
+      "pmid": "24398680",
+      "subject": "entity-il6",
+      "object": "entity-iga-cells",
+      "predicate": "stimulates",
+      "text": "IL-6 accentuated IgA1 galactose deficiency in IgA1-secreting cultures, with a stronger response in patient-derived cells.",
+      "quote": "IL-6 and IL-4 accentuated galactose deficiency",
+      "quoteLocation": "PubMed abstract",
+      "studySystem": "Patient-derived and healthy-control IgA1-secreting cultures",
+      "limitations": [
+        "Culture glycosylation response; does not establish clinical benefit from IL-6 inhibition."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "codex-source-check",
+        "checkedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "iga-gd-complex",
+      "pmid": "19478457",
+      "subject": "entity-gd-iga1",
+      "object": "entity-iga-complexes",
+      "predicate": "forms",
+      "text": "Galactose-deficient IgA1 formed immune complexes with patient-derived glycan-specific IgG in vitro.",
+      "quote": "formed complexes with galactose-deficient IgA1",
+      "quoteLocation": "PubMed abstract",
+      "studySystem": "Immortalized human IgG-secreting cells and biochemical binding assays",
+      "limitations": [
+        "Formation requires the matching antibody; this edge alone does not establish renal injury."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "codex-source-check",
+        "checkedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "iga-igg-complex",
+      "pmid": "19478457",
+      "subject": "entity-antiglycan-igg",
+      "object": "entity-iga-complexes",
+      "predicate": "forms",
+      "text": "Patient-derived glycan-specific IgG bound galactose-deficient IgA1 and formed complexes in vitro.",
+      "quote": "formed complexes with galactose-deficient IgA1",
+      "quoteLocation": "PubMed abstract",
+      "studySystem": "Immortalized human IgG-secreting cells and biochemical binding assays",
+      "limitations": [
+        "Antibody specificity and assay context matter; serum associations are not proof of clinical causation."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "codex-source-check",
+        "checkedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "iga-complex-mesangial",
+      "pmid": "15673298",
+      "subject": "entity-iga-complexes",
+      "object": "entity-mesangial",
+      "predicate": "stimulates",
+      "text": "Large IgA1-containing serum-complex fractions stimulated proliferation of cultured mesangial cells.",
+      "quote": "stimulated proliferation",
+      "quoteLocation": "PubMed abstract",
+      "studySystem": "Serum fractions from IgAN patients added to cultured mesangial cells",
+      "limitations": [
+        "In-vitro proliferation; activity depends on complex composition and molecular mass."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "codex-source-check",
+        "checkedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "iga-size-qualification",
+      "pmid": "15673298",
+      "subject": "entity-iga-complexes",
+      "object": "entity-mesangial",
+      "predicate": "stimulates",
+      "text": "Smaller complex fractions inhibited proliferation, qualifying a uniformly stimulatory interpretation.",
+      "quote": "smaller complexes were inhibitory",
+      "quoteLocation": "PubMed abstract",
+      "studySystem": "Serum fractions from IgAN patients added to cultured mesangial cells",
+      "limitations": [
+        "Size-dependent culture effects do not establish the net in-vivo effect of every complex."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "codex-source-check",
+        "checkedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "iga-complex-erk",
+      "pmid": "22951891",
+      "subject": "entity-iga-complexes",
+      "object": "entity-erk",
+      "predicate": "activates",
+      "text": "Patient-derived large IgA1 complexes activated ERK signalling in cultured human mesangial cells.",
+      "quote": "ERK activation through mesangial IgA1 receptor",
+      "quoteLocation": "PubMed abstract",
+      "studySystem": "Human mesangial cultures and renal-biopsy observations",
+      "limitations": [
+        "The route involves CD71 and additional signalling; the diagram omits intermediate steps."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "codex-source-check",
+        "checkedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "iga-mesangial-il6",
+      "pmid": "22951891",
+      "subject": "entity-mesangial",
+      "object": "entity-il6",
+      "predicate": "produces",
+      "text": "IgA1-stimulated human mesangial cultures secreted IL-6; pathway blockade reduced secretion.",
+      "quote": "ERK activation through mesangial IgA1 receptor",
+      "quoteLocation": "PubMed Figure 6 legend and abstract",
+      "studySystem": "Human mesangial cell cultures with signalling inhibitors",
+      "limitations": [
+        "Culture perturbations; linking this branch to IgA1-producing cells is a cross-study hypothesis."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "codex-source-check",
+        "checkedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "iga-erk-kidney",
+      "pmid": "22951891",
+      "subject": "entity-erk",
+      "object": "entity-kidney",
+      "predicate": "is_associated_with",
+      "text": "Biopsy mesangial ERK activation was associated with higher proteinuria and elevated blood pressure.",
+      "quote": "ERK activation through mesangial IgA1 receptor",
+      "quoteLocation": "PubMed abstract",
+      "studySystem": "Human IgAN renal biopsies with clinical measurements",
+      "limitations": [
+        "Biopsy association does not prove that ERK activation caused renal injury."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "codex-source-check",
+        "checkedAt": "2026-10-10"
+      }
+    }
+  ],
+  "viewLabel": "IgA1 complexes & mesangial signalling",
+  "releaseNote": "Initial bounded source-checked IgAN candidate using five primary reports. Cell-culture mechanisms and biopsy associations remain distinct. The cross-study cytokine feedback is a hypothesis; this is not comprehensive literature or therapy coverage. Independent human domain review is pending. All scores are unassessed.",
+  "groups": [
+    {
+      "id": "group-iga-production",
+      "label": "Cytokine & IgA1 production branch",
+      "entityIds": [
+        "entity-il6",
+        "entity-iga-cells"
+      ],
+      "collapsed": true
+    }
+  ],
+  "positions": [
+    {
+      "entityId": "entity-gd-iga1",
+      "x": 50,
+      "y": 50
+    },
+    {
+      "entityId": "entity-antiglycan-igg",
+      "x": 420,
+      "y": 50
+    },
+    {
+      "entityId": "entity-iga-complexes",
+      "x": 250,
+      "y": 300
+    },
+    {
+      "entityId": "entity-mesangial",
+      "x": 600,
+      "y": 300
+    },
+    {
+      "entityId": "entity-erk",
+      "x": 600,
+      "y": 550
+    },
+    {
+      "entityId": "entity-kidney",
+      "x": 250,
+      "y": 550
+    },
+    {
+      "entityId": "entity-il6",
+      "x": 950,
+      "y": 300
+    },
+    {
+      "entityId": "entity-iga-cells",
+      "x": 950,
+      "y": 50
+    }
+  ]
+}

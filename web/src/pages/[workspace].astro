@@ -1,0 +1,18 @@
+---
+import AtlasLayout from '../layouts/AtlasLayout.astro';
+import CurationWorkbench from '../components/CurationWorkbench';
+import { curationDiseases } from '../data/curation';
+import { diseaseProfiles, isPublication } from '../data/atlas';
+import '../styles/curation.css';
+export function getStaticPaths() { return isPublication ? [] : [{ params: { workspace: 'curation' } }]; }
+---
+<AtlasLayout title="Curation workspace"><article class="page-width content-page"><p class="eyebrow">Internal curator workspace</p><h1>From sources to a reviewable map.</h1><p class="hero-description">Inspect sources, preserve context and uncertainty, and stage findings against an exact base. Candidates remain separate from reviewed releases.</p>
+<ol class="curation-steps"><li><strong>Retrieve</strong><span>Scan indexed and updated literature, with known-record refresh and correction flags.</span></li><li><strong>Inspect</strong><span>Check the source passage, study system and limits. Abstain when evidence is insufficient.</span></li><li><strong>Reconcile</strong><span>Export findings and sources. Validate the proposal and inspect the complete version diff.</span></li><li><strong>Review</strong><span>Independent reviewers assess the named candidate. Publication requires authenticated approval.</span></li></ol>
+<CurationWorkbench diseases={curationDiseases} client:load />
+<h2>Start another disease</h2><p>A disease profile defines its search query and scope. The first map is authored from its own inspected studies. Biological identities can be shared while claims and assessments keep their disease context.</p>
+<pre>{`pnpm curate init --id disease-slug --label "Disease name" --summary "Bounded scope" --query 'TITLE_ABS:"disease name"'
+pnpm curate seed --disease disease-slug --input first-map.json
+pnpm curate preview --disease disease-slug --candidate candidate-id
+pnpm curate scan --disease disease-slug --from YYYY-MM-DD --to YYYY-MM-DD
+pnpm curate reconcile --base base.json --papers disease-slug-papers.json --extraction disease-slug-extraction.json --cutoff YYYY-MM-DD`}</pre>
+<p>Registered profiles: {diseaseProfiles.map(item => item.label).join(', ')}. The curation guide in the repository provides templates, model-adapter setup, evaluation gates and source-access policy.</p></article></AtlasLayout>

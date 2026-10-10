@@ -15,4 +15,4 @@ Changes to scientific or view content invalidate approval. Adding a source, chan
 
 Public numerical scores require a separately recorded, approved calibration under PRD Section 8.5. Missing assessments remain null and are labelled “Not assessed”. Keep canonical entity identity separate from disease-context assessments.
 
-The Milestone 1 publisher is deliberately unavailable. Completing an authenticated approval verifier and publication workflow is required before a public scientific release can be produced.
+The disease-independent root/successor publisher verifies live GitHub review events and the required CI check from a clean default-branch checkout. Scientific proposals cannot change trusted policy, publisher, workflows or frontend files. Changed records require new revision IDs; successors bind the exact current parent. Reviewers may be limited to qualified `diseaseIds`. The reviewer policy is still disabled and empty, so the current candidate cannot be published. See [the Milestone 3 launch procedure](../launch/PUBLICATION.md) for setup, exact approval binding, immutable finalization, acceptance checks and deployment.

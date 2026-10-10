@@ -1,0 +1,13 @@
+
+> causome@ test:performance /Users/asaabey/Documents/projects/app-ideas/causome
+> CAUSOME_PERFORMANCE=1 PLAYWRIGHT_HTML_OUTPUT_DIR=performance-report playwright test performance.spec.ts --output=performance-test-results
+
+
+Running 2 tests using 1 worker
+
+desktop performance medians: {"lcpMs":480,"interactiveMs":2486.7999999523163,"inspectorMs":97.25}
+  ✓  1 [desktop] › tests/browser/performance.spec.ts:7:1 › launch map meets cold-load and inspector response budgets (17.5s)
+mobile performance medians: {"lcpMs":472,"interactiveMs":2470.2000000476837,"inspectorMs":93.14999997615814}
+  ✓  2 [mobile] › tests/browser/performance.spec.ts:7:1 › launch map meets cold-load and inspector response budgets (17.3s)
+
+  2 passed (35.9s)

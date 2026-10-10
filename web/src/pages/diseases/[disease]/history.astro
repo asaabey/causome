@@ -1,0 +1,14 @@
+---
+import { atlas, isPublication } from '../../../data/atlas';
+import { sitePath } from '../../../data/site';
+import AtlasLayout from '../../../layouts/AtlasLayout.astro';
+export function getStaticPaths() { return atlas.map(item => ({ params: { disease: item.profile.id }, props: { item } })); }
+const { item } = Astro.props;
+---
+<AtlasLayout title={`${item.profile.label}: release history`}>
+  <section class="page-width content-page"><p class="eyebrow">Versioned evidence</p><h1>Release history</h1><p>{item.profile.label}. Each version embeds its claims, contexts, sources, assessments and layout.</p>
+    {!isPublication && <p class="preview-notice">Candidate previews are listed separately from scientific releases. A candidate is not an approved historical release.</p>}
+    <ul class="version-list">{item.versions.map(version => <li><span class="pill">{['approved','published'].includes(version.status) ? 'Reviewed release' : 'Candidate · review pending'}</span><h2><a href={sitePath(`/diseases/${item.profile.id}/${['approved','published'].includes(version.status) ? 'releases' : 'candidates'}/${version.id}/`)}>{version.id}</a></h2><p>{version.releaseNote}</p><p>Evidence cutoff {version.evidenceCutoff} · Parent {version.parentReleaseId ?? 'none'}</p><p class="release-digest">SHA-256: <code>{version.manifest.contentDigest}</code></p></li>)}</ul>
+    <a class="button-link" href={sitePath(`/diseases/${item.profile.id}/compare/`)}>Compare versions</a>
+  </section>
+</AtlasLayout>

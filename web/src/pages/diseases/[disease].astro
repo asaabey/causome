@@ -1,0 +1,7 @@
+---
+import { atlas } from '../../data/atlas';
+import DiseasePage from '../../components/DiseasePage.astro';
+export function getStaticPaths() { return atlas.map(item => ({ params: { disease: item.profile.id }, props: { item } })); }
+const { item } = Astro.props;
+---
+<DiseasePage release={item.bundle} disease={item.profile} isPublication={item.published} />

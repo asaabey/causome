@@ -12,19 +12,44 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
         with:
           persist-credentials: false
-      - uses: actions/setup-node@v7
+          fetch-depth: 0
+      - uses: actions/setup-node@v7.1.0
         with:
           node-version: 24
           package-manager-cache: false
-      - uses: pnpm/action-setup@v6
+      - uses: pnpm/action-setup@v6.1.0
       - name: Install pinned dependencies
         run: pnpm install --frozen-lockfile
+      - name: Select the exact proposed candidate preview
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: node scripts/select-preview.mjs
       - name: Validate snapshot and types
         run: pnpm check
       - name: Test data and graph geometry
         run: pnpm test
+      - name: Preserve immutable releases
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -n "$BASE_SHA" ] && [ "$BASE_SHA" != "0000000000000000000000000000000000000000" ]; then
+            node scripts/check-immutability.mjs "$BASE_SHA"
+          fi
       - name: Build static preview
         run: pnpm build
+      - name: Install pinned browser
+        run: pnpm exec playwright install --with-deps chromium
+      - name: Verify accessibility and keyboard behavior
+        run: pnpm test:browser
+      - name: Archive browser verification
+        if: always()
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: browser-verification
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 30

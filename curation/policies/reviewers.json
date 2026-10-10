@@ -3,5 +3,5 @@
   "authorizedDomainReviewers": [],
   "minimumIndependentApprovals": 1,
   "allowAuthorApproval": false,
-  "note": "Configure verified domain reviewers and an authenticated approval verifier before Milestone 3. This file does not authorize publication."
+  "note": "Publication remains disabled. Configure independently verified domain reviewers as objects with GitHub numeric id and login through protected maintainer review. The root publisher verifies live GitHub approval events; see curation/launch/PUBLICATION.md."
 }

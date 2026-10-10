@@ -1,0 +1,7 @@
+---
+import { atlas } from '../data/atlas';
+import { sitePath } from '../data/site';
+import AtlasLayout from '../layouts/AtlasLayout.astro';
+import DiseaseComparison from '../components/DiseaseComparison';
+---
+<AtlasLayout title="Compare disease mechanisms"><section class="page-width content-page"><p class="eyebrow">Shared biology, separate evidence</p><h1>Compare diseases</h1><p>Compare canonical mediator identities and relationship structure. Shared biology does not imply shared causal importance, evidence confidence or treatment response.</p><DiseaseComparison diseases={atlas.map(item => ({ id: item.profile.id, label: item.profile.label, bundle: item.bundle }))} basePath={sitePath('/')} client:load /></section></AtlasLayout>

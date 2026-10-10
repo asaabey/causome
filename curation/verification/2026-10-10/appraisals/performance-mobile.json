@@ -1,0 +1,125 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "browser": "156.0.8078.4",
+  "runner": {
+    "playwright": "1.64.0",
+    "node": "v24.16.0",
+    "platform": "darwin",
+    "arch": "arm64"
+  },
+  "fixture": {
+    "mode": "preview",
+    "releaseId": "sle-appraised-candidate-df64ccfede54",
+    "contentDigest": "d9d9d4ac4a3adf5b921bbddfe782d9db20705b0e27e04e32b530a9ce46f396b2",
+    "diseaseId": "sle",
+    "parentReleaseId": null,
+    "evidenceCutoff": "2026-10-10",
+    "entityCount": 21,
+    "relationshipCount": 27
+  },
+  "network": {
+    "downloadMbps": 1.6,
+    "latencyMs": 150,
+    "cpuSlowdown": 4,
+    "coldCache": true
+  },
+  "bundles": [
+    {
+      "name": "CurationWorkbench.BPe_EZu0.js",
+      "bytes": 13275
+    },
+    {
+      "name": "DiseaseComparison.gEaWOImJ.js",
+      "bytes": 2871
+    },
+    {
+      "name": "MechanismMap.DpfZc734.js",
+      "bytes": 218542
+    },
+    {
+      "name": "VersionComparison.d0HWkCdv.js",
+      "bytes": 2496
+    },
+    {
+      "name": "_disease_.COp_Ie3n.css",
+      "bytes": 32748
+    },
+    {
+      "name": "_disease_.DQG-Si55.css",
+      "bytes": 11678
+    },
+    {
+      "name": "client.ZxaFizIP.js",
+      "bytes": 211366
+    },
+    {
+      "name": "comparison.2va9aNxt.js",
+      "bytes": 1984
+    },
+    {
+      "name": "index.DpbGOhQu.js",
+      "bytes": 8332
+    },
+    {
+      "name": "index.L9_0-KR3.js",
+      "bytes": 4209
+    },
+    {
+      "name": "jsx-runtime.D_zvdyIk.js",
+      "bytes": 725
+    }
+  ],
+  "lockfileDigest": "e4635f06883354195fec12bc185cbc4627f3a69ccedf95293482c9b94c1d07ee",
+  "loads": [
+    {
+      "lcpMs": 476,
+      "interactiveMs": 2483.1999999284744
+    },
+    {
+      "lcpMs": 472,
+      "interactiveMs": 2485.0999999046326
+    },
+    {
+      "lcpMs": 472,
+      "interactiveMs": 2470.2000000476837
+    },
+    {
+      "lcpMs": 476,
+      "interactiveMs": 2462.600000023842
+    },
+    {
+      "lcpMs": 472,
+      "interactiveMs": 2465.2999999523163
+    }
+  ],
+  "inspectorResponseMs": [
+    95.10000002384186,
+    91.89999997615814,
+    92.90000009536743,
+    90.5,
+    90.09999990463257,
+    96.10000002384186,
+    95.19999992847443,
+    91.40000009536743,
+    94.5,
+    97.29999995231628,
+    90.80000007152557,
+    91.5,
+    93.10000002384186,
+    105.39999997615814,
+    92.39999997615814,
+    93.19999992847443,
+    98,
+    95.89999997615814,
+    97.09999990463257,
+    91.80000007152557
+  ],
+  "medians": {
+    "lcpMs": 472,
+    "interactiveMs": 2470.2000000476837,
+    "inspectorMs": 93.14999997615814
+  }
+}

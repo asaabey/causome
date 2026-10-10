@@ -1,0 +1,125 @@
+{
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "browser": "156.0.8078.4",
+  "runner": {
+    "playwright": "1.64.0",
+    "node": "v24.16.0",
+    "platform": "darwin",
+    "arch": "arm64"
+  },
+  "fixture": {
+    "mode": "preview",
+    "releaseId": "sle-curated-candidate-001",
+    "contentDigest": "352acd773aebf033bbdae9de860b26daa36a805c9b9c6830747445b7f379064e",
+    "diseaseId": "sle",
+    "parentReleaseId": null,
+    "evidenceCutoff": "2026-10-10",
+    "entityCount": 21,
+    "relationshipCount": 27
+  },
+  "network": {
+    "downloadMbps": 1.6,
+    "latencyMs": 150,
+    "cpuSlowdown": 4,
+    "coldCache": true
+  },
+  "bundles": [
+    {
+      "name": "CurationWorkbench.MGRAlcAu.js",
+      "bytes": 12084
+    },
+    {
+      "name": "DiseaseComparison.C2PpcfRG.js",
+      "bytes": 2871
+    },
+    {
+      "name": "MechanismMap.2f9-yh1Y.js",
+      "bytes": 216670
+    },
+    {
+      "name": "VersionComparison.CuZNTYLs.js",
+      "bytes": 2477
+    },
+    {
+      "name": "_disease_.DQG-Si55.css",
+      "bytes": 11678
+    },
+    {
+      "name": "_disease_.DQcIvTCV.css",
+      "bytes": 32507
+    },
+    {
+      "name": "client.ZxaFizIP.js",
+      "bytes": 211366
+    },
+    {
+      "name": "comparison.CjGFxn1N.js",
+      "bytes": 1886
+    },
+    {
+      "name": "index.DpbGOhQu.js",
+      "bytes": 8332
+    },
+    {
+      "name": "index.L9_0-KR3.js",
+      "bytes": 4209
+    },
+    {
+      "name": "jsx-runtime.D_zvdyIk.js",
+      "bytes": 725
+    }
+  ],
+  "lockfileDigest": "e4635f06883354195fec12bc185cbc4627f3a69ccedf95293482c9b94c1d07ee",
+  "loads": [
+    {
+      "lcpMs": 460,
+      "interactiveMs": 2262
+    },
+    {
+      "lcpMs": 436,
+      "interactiveMs": 2232.5
+    },
+    {
+      "lcpMs": 436,
+      "interactiveMs": 2226.100000023842
+    },
+    {
+      "lcpMs": 436,
+      "interactiveMs": 2208.600000023842
+    },
+    {
+      "lcpMs": 436,
+      "interactiveMs": 2220.2000000476837
+    }
+  ],
+  "inspectorResponseMs": [
+    41.800000071525574,
+    40.699999928474426,
+    40.10000002384186,
+    40.200000047683716,
+    48.39999997615814,
+    47,
+    43.799999952316284,
+    44.699999928474426,
+    42,
+    39.299999952316284,
+    44.299999952316284,
+    43.200000047683716,
+    40.5,
+    40.10000002384186,
+    39,
+    42.200000047683716,
+    44.10000002384186,
+    45.10000002384186,
+    39.799999952316284,
+    45.89999997615814
+  ],
+  "medians": {
+    "lcpMs": 436,
+    "interactiveMs": 2226.100000023842,
+    "inspectorMs": 42.10000002384186
+  }
+}

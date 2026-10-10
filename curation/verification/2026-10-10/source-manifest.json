@@ -1,0 +1,346 @@
+[
+  {
+    "path": "curation/examples/iga-first-map.json",
+    "sha256": "98e7298d1615bc24885bb2bda7a3dfc14c08f4adee86f39f95b2a028171d7e35"
+  },
+  {
+    "path": "curation/examples/iga-qualification-extraction.json",
+    "sha256": "84a94f7cf4d9de667a8ed6f5aa338f553e639e7d5a64ed4378e046236623a5a9"
+  },
+  {
+    "path": "curation/examples/iga-source-snapshots.json",
+    "sha256": "58c78b9c6c865f77f627ecab75e9a7ffeaf835ea4014bf58bf675cecde5950d5"
+  },
+  {
+    "path": "curation/prompts/extract-v1.md",
+    "sha256": "6da0557717dfc03357d12e28ea25475f5b494d33a64068d44bfc21ae0bf491a3"
+  },
+  {
+    "path": "package.json",
+    "sha256": "2d958feac05c62996f8132e6cf9aec47b790853490cfcfa1b5ca650f939e4706"
+  },
+  {
+    "path": "playwright.config.ts",
+    "sha256": "66eb72614d6f6fbf46f08c098c694e4dde1eb8b255dfcac9550184cf52ccb7e2"
+  },
+  {
+    "path": "pnpm-lock.yaml",
+    "sha256": "e4635f06883354195fec12bc185cbc4627f3a69ccedf95293482c9b94c1d07ee"
+  },
+  {
+    "path": "schemas/release.schema.json",
+    "sha256": "6cbf6f06084c34635954bf2db6edd4ab6bcef03aacaf1c13f02fbe9998302fa8"
+  },
+  {
+    "path": "scripts/archive-site.mjs",
+    "sha256": "fb6e50d996358816d91ea5f988e6f8eb01f5f46d354007336d2ec7c5831b959d"
+  },
+  {
+    "path": "scripts/check-immutability.mjs",
+    "sha256": "f4352e2f50d513af708e23ec1d261b8d86b753ab17fdd4ca4a99e191e41d1f9d"
+  },
+  {
+    "path": "scripts/curate.mjs",
+    "sha256": "7ef2a61fbf51d51a427c96e2d72ca64183a9c9497ab4f04036d6fd1c6629aff0"
+  },
+  {
+    "path": "scripts/curation/adapters/http.mjs",
+    "sha256": "4273d03c0947509599b6902288ff56a1ced19721d4dc068055d88751de10c075"
+  },
+  {
+    "path": "scripts/curation/diseases.mjs",
+    "sha256": "908e432f2b648bf03130fe8cbcfc18276298fdcf491682c8eddee7247d98217a"
+  },
+  {
+    "path": "scripts/curation/evaluate.mjs",
+    "sha256": "f772ce76538f27f72f384596317430194ba4f58db294a355b707712642f162ea"
+  },
+  {
+    "path": "scripts/curation/io.mjs",
+    "sha256": "8de2c97a240aca1e4da85f38b216aad196c3c8eac23c1be4c4add718496df150"
+  },
+  {
+    "path": "scripts/curation/literature.mjs",
+    "sha256": "b90fcd76c3320aca64dd66c39000ad2261968e6e23f3bdef29f1276e8881fac9"
+  },
+  {
+    "path": "scripts/curation/reconcile.mjs",
+    "sha256": "e1f068a6b01f50f8e2db14e78222b4981944ebaef62566800579bb732bb77845"
+  },
+  {
+    "path": "scripts/curation/scan.mjs",
+    "sha256": "51657f39a00f754225f1eae05df044915bd4551109ce74a9ad3d363a547726e7"
+  },
+  {
+    "path": "scripts/curation/seed.mjs",
+    "sha256": "b27b6c144cc89b251d66720b7e6181ff96b20055d334c3d2df12bdb1974f5c0d"
+  },
+  {
+    "path": "scripts/github-approval.mjs",
+    "sha256": "fd80f4cde0a0d44e4d9be5f6ffef946579391e2c97b74c90e4c739974d676925"
+  },
+  {
+    "path": "scripts/health-check.mjs",
+    "sha256": "79282d3156c7c0b721d71bd85437e8302eae969676fcdad7dde2d6b4b3f4f607"
+  },
+  {
+    "path": "scripts/publish-root.mjs",
+    "sha256": "999135aebb6af1a7c52629a21fd95fc2d6eca519d62f9abbdcd76ecff309ba3f"
+  },
+  {
+    "path": "scripts/release-store.mjs",
+    "sha256": "3c1009650df90d3c7f5cb5ac2c8492f34f85773a5c2085bdb2a7cdb0e2e23d52"
+  },
+  {
+    "path": "scripts/restore-site.mjs",
+    "sha256": "7610a629c0dc0a3c07c4e29412007bc4d9c677e2f240b59794340e530b792960"
+  },
+  {
+    "path": "scripts/review-template.mjs",
+    "sha256": "a62ac8c7f775647236e49c4ae4765dfd03db087d6aa990a073d1c3cabcc55a31"
+  },
+  {
+    "path": "scripts/scoring.mjs",
+    "sha256": "c79974978f6f7380708ad637b4dfd6fc6e444b81d853ac0693dbc5045eb244a9"
+  },
+  {
+    "path": "scripts/select-preview.mjs",
+    "sha256": "e80c746eb93180e50c9465cab2631265841ee52650b7caa1194fd154302ec71f"
+  },
+  {
+    "path": "scripts/site-artifact.mjs",
+    "sha256": "4489e1c420c5b8c593f8a839e02c6872bfee35d1a4302ba8dcbf974d1beb7a2a"
+  },
+  {
+    "path": "scripts/validate-launch.mjs",
+    "sha256": "6e7e05b5e255e895e7dd003747252b08852af58b787f48289d8973929fe77314"
+  },
+  {
+    "path": "scripts/validate-release.mjs",
+    "sha256": "8164a67a8a12b6ace9641a6bf2f86c5d232220b56b4c77e5454dcabe8275fcda"
+  },
+  {
+    "path": "scripts/validation.mjs",
+    "sha256": "4ade9d8199eddd8eacd547bcb3f5685a4e145428a162f282414f1e6de0050c39"
+  },
+  {
+    "path": "scripts/verify-publication.mjs",
+    "sha256": "94f2616dfec97721bc5fbabd598da22de58a6f69de4de6023becf3601ce91dbb"
+  },
+  {
+    "path": "tests/artifact.test.mjs",
+    "sha256": "cd8734c2f7e99c9757e405c86af8e6134d582bc573544df659aeda26646493a3"
+  },
+  {
+    "path": "tests/browser/curation.spec.ts",
+    "sha256": "ff4c917a1dea7ccfea1b232a9f62218a706c6ccc94fd4f6c011cf2562e7110e7"
+  },
+  {
+    "path": "tests/browser/exploration.spec.ts",
+    "sha256": "c3591e59616881b15915ec188209067d18abdcef46650e399ae4628932ade151"
+  },
+  {
+    "path": "tests/browser/fixture.ts",
+    "sha256": "e929c80cae67daf7dd846bc85e551c09986200b9d7e78e7f15a4dcfe7e411184"
+  },
+  {
+    "path": "tests/browser/launch.spec.ts",
+    "sha256": "a8da5de7cf70cd349ad0e75177a7c94754fddc033c223bdfdbdd3ebe477a3cb9"
+  },
+  {
+    "path": "tests/browser/performance.spec.ts",
+    "sha256": "edc382ed43c2e20f0c2b1ade3d240ed0127940d71573ec3c57682d08089f6fb1"
+  },
+  {
+    "path": "tests/browser/stress.spec.ts",
+    "sha256": "19543fd290ba0d4aaf566f2ae736b4afb2a56066fbd80b26897125b96b07bd15"
+  },
+  {
+    "path": "tests/comparison.test.mjs",
+    "sha256": "32257e58192fea7486efef02e6c954cf1f72ac54015ed8ab890bb917b9a9912e"
+  },
+  {
+    "path": "tests/curated-candidate.test.mjs",
+    "sha256": "799f5196a7dd6fa67c272b8363ab3bb88f446bd43b379e74e278bd1ada788516"
+  },
+  {
+    "path": "tests/curation.test.mjs",
+    "sha256": "03bc51eb9b12a0d2b69ae5e8730ad4bdf2906fb799f8d6519d1298f9880a1219"
+  },
+  {
+    "path": "tests/fixtures/stress.mjs",
+    "sha256": "8d8e79f3465e562c491f8a60e6026970f7baaaef42a3a1c9dcbaa8d4f66caee7"
+  },
+  {
+    "path": "tests/graph-geometry.test.mjs",
+    "sha256": "25bec6139c00ce91730a33938fe7e1fd98754d03f3e3d039b03996c55affd4fa"
+  },
+  {
+    "path": "tests/health.test.mjs",
+    "sha256": "c85b33854781a9da2d2650ef0d6c6790c5b93a7849106c14aee3644ecea6faaf"
+  },
+  {
+    "path": "tests/lineage.test.mjs",
+    "sha256": "2db6efed0f97ea31d167c3ef297f7c539589c3b2e7e2c8a44e5cffa538f8efc9"
+  },
+  {
+    "path": "tests/public-build.test.mjs",
+    "sha256": "ee4c363572e601ddc8b236329b897010d6c4a001e2da65883a4257573f52734c"
+  },
+  {
+    "path": "tests/publication.test.mjs",
+    "sha256": "4d171473dd36c9e7135410205d31a711ff3d268cc49d5f2d0c91298718b4fe42"
+  },
+  {
+    "path": "tests/scoring.test.mjs",
+    "sha256": "b6027ed2467c6b9473776698b321f7fef88c0a034e52ec9888914182af20f4f9"
+  },
+  {
+    "path": "tests/validation.test.mjs",
+    "sha256": "f7ea026fb8da2a02aaa8b232a7ad2afd0879445f6ecf8fd151e368e783184a30"
+  },
+  {
+    "path": "web/src/components/AssessmentCard.astro",
+    "sha256": "a72b911b9d00791931aec5a40f11a8d4814db2521ce73bcbf89f678f4ae44501"
+  },
+  {
+    "path": "web/src/components/CurationWorkbench.tsx",
+    "sha256": "c55d2b69ad8980c11c36408339c2f3325b42929e9c52fb05d08867056f2753b8"
+  },
+  {
+    "path": "web/src/components/DiseaseComparison.tsx",
+    "sha256": "61ec19eb4056fa71978c90bf392cd1c2ccc64d3fb32e442f528b1a9cc483fc18"
+  },
+  {
+    "path": "web/src/components/DiseasePage.astro",
+    "sha256": "ff5f7c85c850cc74b4161eac74b0699dfaa52e985bf6e58b0232ed5ba7fb9abe"
+  },
+  {
+    "path": "web/src/components/MechanismMap.tsx",
+    "sha256": "a63838e1a8fb889cde15a088145da64df24a297cd1bfb694f203fb25272d3f98"
+  },
+  {
+    "path": "web/src/components/VersionComparison.tsx",
+    "sha256": "90d2df8c66f373685c3560d5457653b51a199a961460765f9b6cae9c2c62fbf6"
+  },
+  {
+    "path": "web/src/components/graph/EvidenceInspector.tsx",
+    "sha256": "58d60c80a37b460efbd5e690654e63af92c07b9e12180ae1fc31d1cb14987459"
+  },
+  {
+    "path": "web/src/components/graph/FlowElements.tsx",
+    "sha256": "0cfb2890ca53ab9f974ce8e01da1effc1613881dae156eec80caba02d56f2c17"
+  },
+  {
+    "path": "web/src/components/graph/MechanismSearch.tsx",
+    "sha256": "66c3b09e98bd0d86618ab25f9c2072f7db5c19c203c7ad1ea6f52b4c4a1e58e9"
+  },
+  {
+    "path": "web/src/components/graph/graph.css",
+    "sha256": "ce5f9f84208ab573335aee482ed36c6d9b1614ffcbd69404cf6101ba3464156b"
+  },
+  {
+    "path": "web/src/data/atlas.ts",
+    "sha256": "24d8b50462fea965459179b687a0e28ec66bfaf1c80afea508b11b6a7cfe5877"
+  },
+  {
+    "path": "web/src/data/curation.ts",
+    "sha256": "7cf685704d0c37cacf17332bde4f4289cd5e67fb9ef138efc52771c1898832f5"
+  },
+  {
+    "path": "web/src/data/fixture.ts",
+    "sha256": "774182341a7e7f997c0e0992bb50b88c7c96d0809077737617bb54a065139e2b"
+  },
+  {
+    "path": "web/src/data/release.ts",
+    "sha256": "ebe98067a0d0874de4923f1e4a8bd8b6cce53760bded83a968a0f216a19ca78e"
+  },
+  {
+    "path": "web/src/data/site.ts",
+    "sha256": "e7a33da8c9c6ec1a0c4acdfc16351ab08ce1ba2d3ab41a8f7c615b6f4a217fcd"
+  },
+  {
+    "path": "web/src/data/types.ts",
+    "sha256": "626b96708f0d85caf104df461cb0217c392d9b9e38e32806de3bb9a7f5da1d11"
+  },
+  {
+    "path": "web/src/env.d.ts",
+    "sha256": "9c9283a414423d9223e5ea86941b142443b8af7a007f77612dc2c098de2d2500"
+  },
+  {
+    "path": "web/src/layouts/AtlasLayout.astro",
+    "sha256": "a6c5778de783a02e1b30fe75271a2cc65693d5b4b2e3c1cf2aa0ac8ee66dd57f"
+  },
+  {
+    "path": "web/src/lib/comparison.ts",
+    "sha256": "73db316ce3e849beed7aef97faf8999d6f28a8fa9ca0174ff6517a20610679a9"
+  },
+  {
+    "path": "web/src/lib/graph/geometry.ts",
+    "sha256": "fe32c176a7c8e8eb690c9155bf4d1c582f4ec6e748995e465b06604718b30728"
+  },
+  {
+    "path": "web/src/pages/[workspace].astro",
+    "sha256": "aa1ff97408359f767295e468b8eb3e862e0cf1295af980d0e1d2be108adab2df"
+  },
+  {
+    "path": "web/src/pages/compare.astro",
+    "sha256": "091ababab3e223185c1bc82946e1e1b769f8d8e40431c8aeb9b68ec7c7c91c04"
+  },
+  {
+    "path": "web/src/pages/diseases/[disease].astro",
+    "sha256": "8a474ee71cd4a441ee5240183762e9dba3ecec155c9b8717887e7425c66506b1"
+  },
+  {
+    "path": "web/src/pages/diseases/[disease]/candidates/[release].astro",
+    "sha256": "afde25f226c9d6408383d81decbe06f228d68a04247af109f568dc73cdfb7a98"
+  },
+  {
+    "path": "web/src/pages/diseases/[disease]/compare.astro",
+    "sha256": "936738cb9d0cc893b1d8ad268135918c096fa631cc62b2750ad699d61375661b"
+  },
+  {
+    "path": "web/src/pages/diseases/[disease]/history.astro",
+    "sha256": "40c62cc8aacd839fe9324c96fd57ef5c541787b56a9d4af50a2a6c68681f67e0"
+  },
+  {
+    "path": "web/src/pages/diseases/[disease]/releases/[release].astro",
+    "sha256": "119358245762bde7deec0a353dba91d6677a0116ebef9dd7d20ab26529014416"
+  },
+  {
+    "path": "web/src/pages/diseases/index.astro",
+    "sha256": "a9882d567268023f3bdf707a3e95383389c9b4cc8368881533e1761a25b4110b"
+  },
+  {
+    "path": "web/src/pages/index.astro",
+    "sha256": "3f9260a8c969a13376c0da3244d0feed07c5ee7431754287343f6a391f43cf33"
+  },
+  {
+    "path": "web/src/pages/methodology.astro",
+    "sha256": "1acd78e06178b1b33eeed25c5977acd4d4d92417a8570e707b1add66dc6cd698"
+  },
+  {
+    "path": "web/src/pages/release.json.ts",
+    "sha256": "2065fefd40db42c4b0ccc515c50a15ec7cd61ff6760cb0e0691cdacee0eb8fd6"
+  },
+  {
+    "path": "web/src/pages/sources.astro",
+    "sha256": "df07a6a538509d09c52a9942b475666d981c089cb72593d9d1b205429bdadaca"
+  },
+  {
+    "path": "web/src/pages/testing/[fixture].astro",
+    "sha256": "d29465c0832bbd84faa07d6439ec2e45bc47c49b370ac7bbcae6973b8f4574d3"
+  },
+  {
+    "path": "web/src/styles/comparison.css",
+    "sha256": "a937d9df1c7dd48989e026ec1b7548898a413a7f753faf67397e46c2c5bd397c"
+  },
+  {
+    "path": "web/src/styles/curation.css",
+    "sha256": "df108f2976b5f5dc60b98930ce2f7cd00f93efdfc3f93cc1a359e543ed233ad5"
+  },
+  {
+    "path": "web/src/styles/global.css",
+    "sha256": "4d3e56b0ab531c56a3e6ad0ca6987c37d103528f5d98a2697787060a54683482"
+  }
+]

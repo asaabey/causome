@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-10-10T02:38:13.549Z",
+  "mode": "unreviewed-local-preview",
+  "tests": {
+    "unitIntegration": 76,
+    "focusedAppraisalRecheck": 5,
+    "browser": 38,
+    "performance": 2
+  },
+  "astro": {
+    "files": 35,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0,
+    "routes": 18
+  },
+  "health": {
+    "baseURL": "http://127.0.0.1:4322",
+    "passed": true
+  },
+  "releases": [
+    {
+      "diseaseId": "sle",
+      "releaseId": "sle-appraised-candidate-df64ccfede54",
+      "contentDigest": "d9d9d4ac4a3adf5b921bbddfe782d9db20705b0e27e04e32b530a9ce46f396b2",
+      "assessmentCount": 48,
+      "provisionalCount": 48,
+      "unassessedWeightCount": 0,
+      "unassessedConfidenceCount": 0,
+      "categoryCount": 48,
+      "acceptedReviewCount": 0
+    },
+    {
+      "diseaseId": "iga-nephropathy",
+      "releaseId": "iga-nephropathy-appraised-candidate-bf0656421814",
+      "contentDigest": "33faad932802923425cc2ccd575b2685541223176aeb75ad54e2d1615ece40e8",
+      "assessmentCount": 16,
+      "provisionalCount": 16,
+      "unassessedWeightCount": 0,
+      "unassessedConfidenceCount": 0,
+      "categoryCount": 16,
+      "acceptedReviewCount": 0
+    }
+  ],
+  "performance": {
+    "desktop": {
+      "lcpMs": 480,
+      "interactiveMs": 2486.7999999523163,
+      "inspectorMs": 97.25
+    },
+    "mobile": {
+      "lcpMs": 472,
+      "interactiveMs": 2470.2000000476837,
+      "inspectorMs": 93.14999997615814
+    }
+  },
+  "publicApprovalClaimed": false,
+  "calibrationClaimed": false
+}

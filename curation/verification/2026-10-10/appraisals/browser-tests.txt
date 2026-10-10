@@ -1,0 +1,52 @@
+
+> causome@ test:browser /Users/asaabey/Documents/projects/app-ideas/causome
+> playwright test
+
+
+Running 42 tests using 1 worker
+
+  ✓   1 [desktop] › tests/browser/assessment.spec.ts:5:1 › current node and edge ratings show provenance, components and categorical therapy scope (1.8s)
+  ✓   2 [desktop] › tests/browser/assessment.spec.ts:31:1 › current appraisals are exposed in the curator and original history remains unassessed (1.1s)
+  ✓   3 [desktop] › tests/browser/curation.spec.ts:7:1 › curator can export an abstention bound to its base and matching sources (3.3s)
+  ✓   4 [desktop] › tests/browser/curation.spec.ts:30:1 › group expansion and search reveal the canonical entity while preserving the complete outline (466ms)
+  ✓   5 [desktop] › tests/browser/curation.spec.ts:43:1 › cross-disease comparisons preserve independent context and evidence links (570ms)
+  ✓   6 [desktop] › tests/browser/curation.spec.ts:51:1 › a source-checked finding exports a valid proposal and an advancing evidence cutoff (3.1s)
+  ✓   7 [desktop] › tests/browser/curation.spec.ts:84:1 › version comparison defaults to the selected candidate and links each changed claim to frozen evidence (530ms)
+  ✓   8 [desktop] › tests/browser/curation.spec.ts:92:1 › a persisted finding with a stale source hash blocks export until it is reinspected (1.3s)
+  ✓   9 [desktop] › tests/browser/exploration.spec.ts:10:1 › search finds synonyms with keyboard access and recovers from no matches (1.8s)
+  ✓  10 [desktop] › tests/browser/exploration.spec.ts:38:1 › therapy brand search leads to its target across routes and shows evidence on mobile (892ms)
+  ✓  11 [desktop] › tests/browser/exploration.spec.ts:63:1 › connected relationships preserve incoming arrows and symmetric association labels (1.6s)
+  ✓  12 [desktop] › tests/browser/exploration.spec.ts:86:1 › map selection has an evidence shortcut and changing routes clears it (780ms)
+  ✓  13 [desktop] › tests/browser/launch.spec.ts:6:3 › / has usable navigation, no horizontal overflow and no serious accessibility findings (355ms)
+  ✓  14 [desktop] › tests/browser/launch.spec.ts:6:3 › /diseases/sle/ has usable navigation, no horizontal overflow and no serious accessibility findings (2.8s)
+  ✓  15 [desktop] › tests/browser/launch.spec.ts:6:3 › /methodology/ has usable navigation, no horizontal overflow and no serious accessibility findings (399ms)
+  ✓  16 [desktop] › tests/browser/launch.spec.ts:6:3 › /sources/ has usable navigation, no horizontal overflow and no serious accessibility findings (592ms)
+  ✓  17 [desktop] › tests/browser/launch.spec.ts:18:1 › keyboard can select every node and relationship, read evidence and exit the graph (9.6s)
+  ✓  18 [desktop] › tests/browser/launch.spec.ts:50:1 › reduced motion, visible focus and graph controls work on both viewports (554ms)
+  ✓  19 [desktop] › tests/browser/launch.spec.ts:66:1 › all scientific content and citations remain readable without JavaScript (333ms)
+  -  20 [desktop] › tests/browser/performance.spec.ts:7:1 › launch map meets cold-load and inspector response budgets
+  -  21 [desktop] › tests/browser/stress.spec.ts:6:1 › grouped 200-node/400-edge fixture meets cold-load and expanded inspector budgets
+  ✓  22 [mobile] › tests/browser/assessment.spec.ts:5:1 › current node and edge ratings show provenance, components and categorical therapy scope (1.2s)
+  ✓  23 [mobile] › tests/browser/assessment.spec.ts:31:1 › current appraisals are exposed in the curator and original history remains unassessed (1.0s)
+  ✓  24 [mobile] › tests/browser/curation.spec.ts:7:1 › curator can export an abstention bound to its base and matching sources (3.2s)
+  ✓  25 [mobile] › tests/browser/curation.spec.ts:30:1 › group expansion and search reveal the canonical entity while preserving the complete outline (463ms)
+  ✓  26 [mobile] › tests/browser/curation.spec.ts:43:1 › cross-disease comparisons preserve independent context and evidence links (559ms)
+  ✓  27 [mobile] › tests/browser/curation.spec.ts:51:1 › a source-checked finding exports a valid proposal and an advancing evidence cutoff (3.0s)
+  ✓  28 [mobile] › tests/browser/curation.spec.ts:84:1 › version comparison defaults to the selected candidate and links each changed claim to frozen evidence (528ms)
+  ✓  29 [mobile] › tests/browser/curation.spec.ts:92:1 › a persisted finding with a stale source hash blocks export until it is reinspected (1.3s)
+  ✓  30 [mobile] › tests/browser/exploration.spec.ts:10:1 › search finds synonyms with keyboard access and recovers from no matches (2.2s)
+  ✓  31 [mobile] › tests/browser/exploration.spec.ts:38:1 › therapy brand search leads to its target across routes and shows evidence on mobile (982ms)
+  ✓  32 [mobile] › tests/browser/exploration.spec.ts:63:1 › connected relationships preserve incoming arrows and symmetric association labels (1.7s)
+  ✓  33 [mobile] › tests/browser/exploration.spec.ts:86:1 › map selection has an evidence shortcut and changing routes clears it (770ms)
+  ✓  34 [mobile] › tests/browser/launch.spec.ts:6:3 › / has usable navigation, no horizontal overflow and no serious accessibility findings (360ms)
+  ✓  35 [mobile] › tests/browser/launch.spec.ts:6:3 › /diseases/sle/ has usable navigation, no horizontal overflow and no serious accessibility findings (2.9s)
+  ✓  36 [mobile] › tests/browser/launch.spec.ts:6:3 › /methodology/ has usable navigation, no horizontal overflow and no serious accessibility findings (363ms)
+  ✓  37 [mobile] › tests/browser/launch.spec.ts:6:3 › /sources/ has usable navigation, no horizontal overflow and no serious accessibility findings (586ms)
+  ✓  38 [mobile] › tests/browser/launch.spec.ts:18:1 › keyboard can select every node and relationship, read evidence and exit the graph (9.3s)
+  ✓  39 [mobile] › tests/browser/launch.spec.ts:50:1 › reduced motion, visible focus and graph controls work on both viewports (591ms)
+  ✓  40 [mobile] › tests/browser/launch.spec.ts:66:1 › all scientific content and citations remain readable without JavaScript (359ms)
+  -  41 [mobile] › tests/browser/performance.spec.ts:7:1 › launch map meets cold-load and inspector response budgets
+  -  42 [mobile] › tests/browser/stress.spec.ts:6:1 › grouped 200-node/400-edge fixture meets cold-load and expanded inspector budgets
+
+  4 skipped
+  38 passed (1.1m)

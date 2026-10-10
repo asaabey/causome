@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "id": "replace-with-disease-candidate-001",
+  "evidenceCutoff": "YYYY-MM-DD",
+  "diseaseDescription": "Replace with the bounded scientific scope and limitations to freeze with the map.",
+  "diseaseAliases": [],
+  "context": { "id": "context-replace-with-disease", "label": "Replace with the exact study context", "organism": "human", "phenotype": null, "tissue": null, "stage": null },
+  "entities": [],
+  "publications": [],
+  "findings": [],
+  "positions": [],
+  "groups": [],
+  "releaseNote": "Initial candidate. Record actual source checks; independent domain review is pending."
+}

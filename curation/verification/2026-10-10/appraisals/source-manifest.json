@@ -1,0 +1,346 @@
+[
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "40978122095103fe7e6d8bbd90c7547b39e69693597d6425079cfba107d0aac1"
+  },
+  {
+    "path": "PRD.md",
+    "sha256": "b92776e49a749b2d775e036bd94b5afe6f2891f8260597438c0fc4bdda312a44"
+  },
+  {
+    "path": "PROGRESS.md",
+    "sha256": "7b56b083265c40bed39e22dba1f4eef95ffdfc0a575d2cfc16b938feef70e6b5"
+  },
+  {
+    "path": "README.md",
+    "sha256": "a26642916a26fd9f49765bbcd6026c3383a13a2db0558a741f7c82bd493226d5"
+  },
+  {
+    "path": "curation/README.md",
+    "sha256": "9aeaefb5145f989ce4ede94ca1cb7a46b509122b6988690fa39f717496f7d485"
+  },
+  {
+    "path": "curation/examples/iga-first-map.json",
+    "sha256": "98e7298d1615bc24885bb2bda7a3dfc14c08f4adee86f39f95b2a028171d7e35"
+  },
+  {
+    "path": "curation/examples/iga-nephropathy-provisional-appraisals.json",
+    "sha256": "5ecae63b22a1137b3dde1c52d0c59722ca3082ed64b6ece3c15c848dc7ec92e8"
+  },
+  {
+    "path": "curation/examples/iga-qualification-extraction.json",
+    "sha256": "84a94f7cf4d9de667a8ed6f5aa338f553e639e7d5a64ed4378e046236623a5a9"
+  },
+  {
+    "path": "curation/examples/iga-source-snapshots.json",
+    "sha256": "58c78b9c6c865f77f627ecab75e9a7ffeaf835ea4014bf58bf675cecde5950d5"
+  },
+  {
+    "path": "curation/examples/sle-provisional-appraisals.json",
+    "sha256": "2fb19f3fa01ac768e21744c0c09802bb7a87b730e1332b319d7c1ddceb79dbff"
+  },
+  {
+    "path": "knowledge/diseases/iga-nephropathy/candidates/iga-nephropathy-appraised-candidate-bf0656421814.json",
+    "sha256": "4f597f4d18f6660a09e247af75efe9411b4244141313e76105a2c7bcb4c3a427"
+  },
+  {
+    "path": "knowledge/diseases/iga-nephropathy/candidates/iga-nephropathy-candidate-001.json",
+    "sha256": "bb3eba8d22736dc382f80c26f3cb20f40bd5a96e7234f6c37e81dd06559253ac"
+  },
+  {
+    "path": "knowledge/diseases/iga-nephropathy/candidates/iga-nephropathy-candidate-2a8f21ad71cc.json",
+    "sha256": "5eeaa0bb13b36e6c666e84f6e9eb18fd16cd6e21aaedb7556c7895df71ff7b00"
+  },
+  {
+    "path": "knowledge/diseases/iga-nephropathy/candidates/iga-nephropathy-candidate-b81ba67f55bc.json",
+    "sha256": "0a15833bb3af37a25f1ab65cfbe0ec99ec535f502669e8cf7dac635e8fb9fc54"
+  },
+  {
+    "path": "knowledge/diseases/iga-nephropathy/disease.json",
+    "sha256": "fed345b03ae2c41e611fdbefcc0d763d3449fe529e00b3a2ad748323452d0f53"
+  },
+  {
+    "path": "knowledge/diseases/sle/candidates/sle-appraised-candidate-df64ccfede54.json",
+    "sha256": "fc8e1639a27a510d04c6f3e6df31e605afd1e6f05de428f2a64b93933dc42364"
+  },
+  {
+    "path": "knowledge/diseases/sle/candidates/sle-curated-candidate-001.json",
+    "sha256": "1adc7f4019b575944cf596108323e9c2f1a61921732afa01b3bec931a2348a0c"
+  },
+  {
+    "path": "knowledge/diseases/sle/disease.json",
+    "sha256": "cb230af3199d72c4c445d0c9ef4ec2a5ec54ae31628d43e0d3fc2a49beb727d0"
+  },
+  {
+    "path": "knowledge/diseases/sle/releases/sle-illustrative-001.json",
+    "sha256": "666d77c0e29004b101e18bb12734c54046f5f8a5a6e3cb671d8d66d09ab07459"
+  },
+  {
+    "path": "package.json",
+    "sha256": "2d958feac05c62996f8132e6cf9aec47b790853490cfcfa1b5ca650f939e4706"
+  },
+  {
+    "path": "playwright.config.ts",
+    "sha256": "f9500689cf45bc7fe22ed820a9318ec64b00ba99ad3b8df04b045a4387de5ffa"
+  },
+  {
+    "path": "pnpm-lock.yaml",
+    "sha256": "e4635f06883354195fec12bc185cbc4627f3a69ccedf95293482c9b94c1d07ee"
+  },
+  {
+    "path": "schemas/release.schema.json",
+    "sha256": "9948059a54aaf875dcfbade21f4021d4f3c9565d96b1edcddbea1366c45257e1"
+  },
+  {
+    "path": "scripts/archive-site.mjs",
+    "sha256": "fb6e50d996358816d91ea5f988e6f8eb01f5f46d354007336d2ec7c5831b959d"
+  },
+  {
+    "path": "scripts/check-immutability.mjs",
+    "sha256": "f4352e2f50d513af708e23ec1d261b8d86b753ab17fdd4ca4a99e191e41d1f9d"
+  },
+  {
+    "path": "scripts/curate.mjs",
+    "sha256": "d94cdf0074d547f90cea131fe308d45c0f8487104f56f0250b0f6ea4787790b7"
+  },
+  {
+    "path": "scripts/curation/adapters/http.mjs",
+    "sha256": "4273d03c0947509599b6902288ff56a1ced19721d4dc068055d88751de10c075"
+  },
+  {
+    "path": "scripts/curation/assessment.mjs",
+    "sha256": "3c5c6f2f860ab591173de11ec33aababebf3a9d36bc558b2e32c824c146bd2a5"
+  },
+  {
+    "path": "scripts/curation/diseases.mjs",
+    "sha256": "908e432f2b648bf03130fe8cbcfc18276298fdcf491682c8eddee7247d98217a"
+  },
+  {
+    "path": "scripts/curation/evaluate.mjs",
+    "sha256": "f772ce76538f27f72f384596317430194ba4f58db294a355b707712642f162ea"
+  },
+  {
+    "path": "scripts/curation/io.mjs",
+    "sha256": "8de2c97a240aca1e4da85f38b216aad196c3c8eac23c1be4c4add718496df150"
+  },
+  {
+    "path": "scripts/curation/literature.mjs",
+    "sha256": "b90fcd76c3320aca64dd66c39000ad2261968e6e23f3bdef29f1276e8881fac9"
+  },
+  {
+    "path": "scripts/curation/reconcile.mjs",
+    "sha256": "3a8536440297d7783e3686d97dc7fb3d0752c1a3001ffa4d20b0d0ab4033f5d9"
+  },
+  {
+    "path": "scripts/curation/scan.mjs",
+    "sha256": "51657f39a00f754225f1eae05df044915bd4551109ce74a9ad3d363a547726e7"
+  },
+  {
+    "path": "scripts/curation/seed.mjs",
+    "sha256": "b27b6c144cc89b251d66720b7e6181ff96b20055d334c3d2df12bdb1974f5c0d"
+  },
+  {
+    "path": "scripts/github-approval.mjs",
+    "sha256": "fd80f4cde0a0d44e4d9be5f6ffef946579391e2c97b74c90e4c739974d676925"
+  },
+  {
+    "path": "scripts/health-check.mjs",
+    "sha256": "79282d3156c7c0b721d71bd85437e8302eae969676fcdad7dde2d6b4b3f4f607"
+  },
+  {
+    "path": "scripts/publish-root.mjs",
+    "sha256": "999135aebb6af1a7c52629a21fd95fc2d6eca519d62f9abbdcd76ecff309ba3f"
+  },
+  {
+    "path": "scripts/release-store.mjs",
+    "sha256": "3c1009650df90d3c7f5cb5ac2c8492f34f85773a5c2085bdb2a7cdb0e2e23d52"
+  },
+  {
+    "path": "scripts/restore-site.mjs",
+    "sha256": "7610a629c0dc0a3c07c4e29412007bc4d9c677e2f240b59794340e530b792960"
+  },
+  {
+    "path": "scripts/review-template.mjs",
+    "sha256": "a62ac8c7f775647236e49c4ae4765dfd03db087d6aa990a073d1c3cabcc55a31"
+  },
+  {
+    "path": "scripts/scoring.mjs",
+    "sha256": "d8478677f2fb74bef78d7024480541ed79e446745428206ad5f8ead15fa6b6d2"
+  },
+  {
+    "path": "scripts/select-preview.mjs",
+    "sha256": "e80c746eb93180e50c9465cab2631265841ee52650b7caa1194fd154302ec71f"
+  },
+  {
+    "path": "scripts/site-artifact.mjs",
+    "sha256": "4489e1c420c5b8c593f8a839e02c6872bfee35d1a4302ba8dcbf974d1beb7a2a"
+  },
+  {
+    "path": "scripts/validate-launch.mjs",
+    "sha256": "6e7e05b5e255e895e7dd003747252b08852af58b787f48289d8973929fe77314"
+  },
+  {
+    "path": "scripts/validate-release.mjs",
+    "sha256": "8164a67a8a12b6ace9641a6bf2f86c5d232220b56b4c77e5454dcabe8275fcda"
+  },
+  {
+    "path": "scripts/validation.mjs",
+    "sha256": "4ade9d8199eddd8eacd547bcb3f5685a4e145428a162f282414f1e6de0050c39"
+  },
+  {
+    "path": "scripts/verify-publication.mjs",
+    "sha256": "94f2616dfec97721bc5fbabd598da22de58a6f69de4de6023becf3601ce91dbb"
+  },
+  {
+    "path": "web/astro.config.mjs",
+    "sha256": "362f3d96c540ea3b62b24494804247d7cf0dfda70750a07ae1fe57a186ff1586"
+  },
+  {
+    "path": "web/src/components/AssessmentCard.astro",
+    "sha256": "33696d84cf50994a477e9db2d93ba08393cea075e5eb885fb8b152bc1e11ac2b"
+  },
+  {
+    "path": "web/src/components/CurationWorkbench.tsx",
+    "sha256": "3e3dca9b10bc9e962a5afcbbc87b44169b6c126ee865a95b9c7b2a51991c9398"
+  },
+  {
+    "path": "web/src/components/DiseaseComparison.tsx",
+    "sha256": "61ec19eb4056fa71978c90bf392cd1c2ccc64d3fb32e442f528b1a9cc483fc18"
+  },
+  {
+    "path": "web/src/components/DiseasePage.astro",
+    "sha256": "acdf7a8626695dabc934fc7e8a5cd1054c44ce343f09161c8f7e92226fea4300"
+  },
+  {
+    "path": "web/src/components/MechanismMap.tsx",
+    "sha256": "8398027b821a034c59608f8e058a2dc0f675ed06ebb1596721fbcbefcc197ea4"
+  },
+  {
+    "path": "web/src/components/VersionComparison.tsx",
+    "sha256": "f883012a92135a1bf262b890332b3fd42b4cc6f8baa90e8be1cc5e878794cc56"
+  },
+  {
+    "path": "web/src/components/graph/EvidenceInspector.tsx",
+    "sha256": "29e676493e47582ebe29140200842a0c2dc4d64d44947cadde2abe9e282c813b"
+  },
+  {
+    "path": "web/src/components/graph/FlowElements.tsx",
+    "sha256": "18c6f429dbf489c21ad036134d40381ed75d1754d6831ca1e1101cbd8f57eb79"
+  },
+  {
+    "path": "web/src/components/graph/MechanismSearch.tsx",
+    "sha256": "66c3b09e98bd0d86618ab25f9c2072f7db5c19c203c7ad1ea6f52b4c4a1e58e9"
+  },
+  {
+    "path": "web/src/components/graph/graph.css",
+    "sha256": "4616e0b8f56fe9391cc09bffb74f8cbed9a133d7d3d9abcbb9513a966b72e4c7"
+  },
+  {
+    "path": "web/src/data/atlas.ts",
+    "sha256": "24d8b50462fea965459179b687a0e28ec66bfaf1c80afea508b11b6a7cfe5877"
+  },
+  {
+    "path": "web/src/data/curation.ts",
+    "sha256": "7cf685704d0c37cacf17332bde4f4289cd5e67fb9ef138efc52771c1898832f5"
+  },
+  {
+    "path": "web/src/data/fixture.ts",
+    "sha256": "774182341a7e7f997c0e0992bb50b88c7c96d0809077737617bb54a065139e2b"
+  },
+  {
+    "path": "web/src/data/release.ts",
+    "sha256": "ebe98067a0d0874de4923f1e4a8bd8b6cce53760bded83a968a0f216a19ca78e"
+  },
+  {
+    "path": "web/src/data/site.ts",
+    "sha256": "e7a33da8c9c6ec1a0c4acdfc16351ab08ce1ba2d3ab41a8f7c615b6f4a217fcd"
+  },
+  {
+    "path": "web/src/data/types.ts",
+    "sha256": "958b90f909ef1758a330833f68600c4e1ecfbf3a0bba2d4de6f6d40ab31ee97e"
+  },
+  {
+    "path": "web/src/env.d.ts",
+    "sha256": "9c9283a414423d9223e5ea86941b142443b8af7a007f77612dc2c098de2d2500"
+  },
+  {
+    "path": "web/src/layouts/AtlasLayout.astro",
+    "sha256": "a6c5778de783a02e1b30fe75271a2cc65693d5b4b2e3c1cf2aa0ac8ee66dd57f"
+  },
+  {
+    "path": "web/src/lib/assessment.ts",
+    "sha256": "b39298283aa343bb08a81f7f552963a532db7a0c01df5598ef0524a66fd16513"
+  },
+  {
+    "path": "web/src/lib/comparison.ts",
+    "sha256": "73db316ce3e849beed7aef97faf8999d6f28a8fa9ca0174ff6517a20610679a9"
+  },
+  {
+    "path": "web/src/lib/graph/geometry.ts",
+    "sha256": "fe32c176a7c8e8eb690c9155bf4d1c582f4ec6e748995e465b06604718b30728"
+  },
+  {
+    "path": "web/src/pages/[workspace].astro",
+    "sha256": "aa1ff97408359f767295e468b8eb3e862e0cf1295af980d0e1d2be108adab2df"
+  },
+  {
+    "path": "web/src/pages/compare.astro",
+    "sha256": "091ababab3e223185c1bc82946e1e1b769f8d8e40431c8aeb9b68ec7c7c91c04"
+  },
+  {
+    "path": "web/src/pages/diseases/[disease].astro",
+    "sha256": "8a474ee71cd4a441ee5240183762e9dba3ecec155c9b8717887e7425c66506b1"
+  },
+  {
+    "path": "web/src/pages/diseases/[disease]/candidates/[release].astro",
+    "sha256": "afde25f226c9d6408383d81decbe06f228d68a04247af109f568dc73cdfb7a98"
+  },
+  {
+    "path": "web/src/pages/diseases/[disease]/compare.astro",
+    "sha256": "936738cb9d0cc893b1d8ad268135918c096fa631cc62b2750ad699d61375661b"
+  },
+  {
+    "path": "web/src/pages/diseases/[disease]/history.astro",
+    "sha256": "40c62cc8aacd839fe9324c96fd57ef5c541787b56a9d4af50a2a6c68681f67e0"
+  },
+  {
+    "path": "web/src/pages/diseases/[disease]/releases/[release].astro",
+    "sha256": "119358245762bde7deec0a353dba91d6677a0116ebef9dd7d20ab26529014416"
+  },
+  {
+    "path": "web/src/pages/diseases/index.astro",
+    "sha256": "a9882d567268023f3bdf707a3e95383389c9b4cc8368881533e1761a25b4110b"
+  },
+  {
+    "path": "web/src/pages/index.astro",
+    "sha256": "3f9260a8c969a13376c0da3244d0feed07c5ee7431754287343f6a391f43cf33"
+  },
+  {
+    "path": "web/src/pages/methodology.astro",
+    "sha256": "11ed17a8bb9b7c3a0fe406f14ab113eb33de553e187674f969cf4a0c2e03d883"
+  },
+  {
+    "path": "web/src/pages/release.json.ts",
+    "sha256": "2065fefd40db42c4b0ccc515c50a15ec7cd61ff6760cb0e0691cdacee0eb8fd6"
+  },
+  {
+    "path": "web/src/pages/sources.astro",
+    "sha256": "df07a6a538509d09c52a9942b475666d981c089cb72593d9d1b205429bdadaca"
+  },
+  {
+    "path": "web/src/pages/testing/[fixture].astro",
+    "sha256": "d29465c0832bbd84faa07d6439ec2e45bc47c49b370ac7bbcae6973b8f4574d3"
+  },
+  {
+    "path": "web/src/styles/comparison.css",
+    "sha256": "a937d9df1c7dd48989e026ec1b7548898a413a7f753faf67397e46c2c5bd397c"
+  },
+  {
+    "path": "web/src/styles/curation.css",
+    "sha256": "df108f2976b5f5dc60b98930ce2f7cd00f93efdfc3f93cc1a359e543ed233ad5"
+  },
+  {
+    "path": "web/src/styles/global.css",
+    "sha256": "4d3e56b0ab531c56a3e6ad0ca6987c37d103528f5d98a2697787060a54683482"
+  }
+]

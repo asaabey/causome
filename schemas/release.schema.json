@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://causome.local/schemas/release.schema.json",
-  "title": "Causome root snapshots and scientific candidates (scores unassessed)",
-  "description": "Preview schema for a self-contained root graph. Successor releases and scored assessments are deferred. Scientific publication also requires trusted workflow validation.",
+  "title": "Causome self-contained disease releases",
+  "description": "Versioned roots and successors. Public assessed metrics require calibrated and independently reviewed appraisals. Local candidates may carry explicitly provisional, evidence-linked editorial drafts.",
   "type": "object",
   "properties": {
     "id": {
@@ -16,7 +16,8 @@
     "formatVersion": {
       "enum": [
         "0.1.0",
-        "0.2.0"
+        "0.2.0",
+        "0.3.0"
       ]
     },
     "diseaseId": {
@@ -40,10 +41,18 @@
       "type": "boolean"
     },
     "parentReleaseId": {
-      "type": "null"
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
     },
     "parentContentDigest": {
-      "type": "null"
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-f0-9]{64}$"
     },
     "createdAt": {
       "type": "string",
@@ -136,7 +145,8 @@
         "schemaVersion": {
           "enum": [
             "0.1.0",
-            "0.2.0"
+            "0.2.0",
+            "0.3.0"
           ]
         },
         "contentDigest": {
@@ -160,6 +170,18 @@
     "releaseNote": {
       "type": "string",
       "minLength": 1
+    },
+    "diseaseDescription": {
+      "type": "string",
+      "minLength": 1
+    },
+    "diseaseAliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
     }
   },
   "required": [
@@ -232,7 +254,12 @@
             "immune_complex",
             "receptor",
             "substrate",
-            "genetic_variant"
+            "genetic_variant",
+            "protein",
+            "gene",
+            "metabolite",
+            "pathogen",
+            "tissue"
           ]
         },
         "description": {
@@ -676,6 +703,39 @@
         "accessScope": {
           "type": "string",
           "minLength": 1
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "retracted",
+              "retraction-linked",
+              "correction",
+              "correction-linked",
+              "expression-of-concern",
+              "concern-linked",
+              "preprint",
+              "secondary-or-commentary",
+              "retraction-notice"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "datasetFamilyId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "researchGroupId": {
+          "type": "string",
+          "minLength": 1
         }
       },
       "required": [
@@ -788,13 +848,22 @@
           "type": "object",
           "properties": {
             "mechanisticWeight": {
-              "const": "unassessed"
+              "enum": [
+                "unassessed",
+                "assessed"
+              ]
             },
             "evidenceConfidence": {
-              "const": "unassessed"
+              "enum": [
+                "unassessed",
+                "assessed"
+              ]
             },
             "therapeuticLeverage": {
-              "const": "unassessed"
+              "enum": [
+                "unassessed",
+                "categorical"
+              ]
             }
           },
           "required": [
@@ -805,10 +874,20 @@
           "additionalProperties": false
         },
         "mechanisticWeight": {
-          "type": "null"
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
         },
         "evidenceConfidence": {
-          "type": "null"
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 4
         },
         "therapeuticLeverage": {
           "type": "null"
@@ -842,10 +921,123 @@
           "minLength": 1
         },
         "reviewerDecision": {
-          "type": "null"
+          "enum": [
+            null,
+            "accepted"
+          ]
         },
         "reviewedAt": {
-          "type": "null"
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewerId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "weightComponents": {
+          "type": "object"
+        },
+        "confidenceAppraisal": {
+          "type": "object"
+        },
+        "weightRaw": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "weightTier": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 4
+        },
+        "appraisalProvenance": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "const": "provisional"
+            },
+            "assessorId": {
+              "type": "string",
+              "minLength": 1
+            },
+            "assessorKind": {
+              "enum": [
+                "agent",
+                "human"
+              ]
+            },
+            "assessedAt": {
+              "type": "string"
+            },
+            "inputDigest": {
+              "type": "string"
+            },
+            "baseReleaseId": {
+              "type": "string"
+            },
+            "baseContentDigest": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "assessorId",
+            "assessorKind",
+            "assessedAt",
+            "inputDigest",
+            "baseReleaseId",
+            "baseContentDigest"
+          ],
+          "additionalProperties": false
+        },
+        "therapeuticAppraisal": {
+          "type": "object",
+          "properties": {
+            "category": {
+              "enum": [
+                "approved_direct_target",
+                "experimental_direct_target",
+                "withdrawn_direct_target",
+                "unverified_direct_target",
+                "indirect_intervention",
+                "no_linked_intervention"
+              ]
+            },
+            "scope": {
+              "enum": [
+                "entity",
+                "relationship_endpoints"
+              ]
+            },
+            "therapyIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "category",
+            "scope",
+            "therapyIds",
+            "rationale"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [
@@ -893,11 +1085,20 @@
           "minLength": 1
         },
         "calibrated": {
-          "const": false
+          "type": "boolean"
         },
         "description": {
           "type": "string",
           "minLength": 1
+        },
+        "rubric": {
+          "type": "object"
+        },
+        "calibration": {
+          "type": "object"
+        },
+        "provisional": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -1022,6 +1223,41 @@
         "layoutId": {
           "type": "string",
           "minLength": 1
+        },
+        "groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "entityIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true,
+                "minItems": 1
+              },
+              "collapsed": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "entityIds",
+              "collapsed"
+            ],
+            "additionalProperties": false
+          }
         }
       },
       "required": [
@@ -1289,7 +1525,10 @@
       "then": {
         "properties": {
           "formatVersion": {
-            "const": "0.2.0"
+            "enum": [
+              "0.2.0",
+              "0.3.0"
+            ]
           },
           "releaseNote": {
             "type": "string",
@@ -1323,6 +1562,84 @@
         "required": [
           "releaseNote"
         ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "formatVersion": {
+            "enum": [
+              "0.1.0",
+              "0.2.0"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "parentReleaseId": {
+            "type": "null"
+          },
+          "parentContentDigest": {
+            "type": "null"
+          },
+          "scoringModels": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                {
+                  "$ref": "#/$defs/scoringModel"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "calibrated": {
+                      "const": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "assessments": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                {
+                  "$ref": "#/$defs/assessment"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "mechanisticWeight": {
+                      "type": "null"
+                    },
+                    "evidenceConfidence": {
+                      "type": "null"
+                    },
+                    "therapeuticLeverage": {
+                      "type": "null"
+                    },
+                    "metricStatus": {
+                      "type": "object",
+                      "properties": {
+                        "mechanisticWeight": {
+                          "const": "unassessed"
+                        },
+                        "evidenceConfidence": {
+                          "const": "unassessed"
+                        },
+                        "therapeuticLeverage": {
+                          "const": "unassessed"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     }
   ]

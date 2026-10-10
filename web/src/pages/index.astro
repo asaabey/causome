@@ -1,22 +1,24 @@
 ---
+import { sitePath } from '../data/site';
 import AtlasLayout from '../layouts/AtlasLayout.astro';
-import release from '../data/release';
+import { atlas, primaryDisease, isPublication } from '../data/atlas';
+const release = primaryDisease.bundle;
 ---
 <AtlasLayout title="Living disease atlas">
   <section class="landing-hero page-width">
     <p class="eyebrow">The living disease atlas</p>
     <h1>Follow the mechanism.<br /><em>Inspect the evidence.</em></h1>
     <p class="hero-description">Disease is a network of interacting processes. Causome brings those connections into view, with the claims, context, and uncertainty behind every link.</p>
-    <a class="button-link" href="/diseases/sle/">Explore the SLE map <span aria-hidden="true">↗</span></a>
-    <p class="quiet-note">Milestone 2 · Source checked; human domain review pending</p>
+    <a class="button-link" href={sitePath(`/diseases/${primaryDisease.profile.id}/`)}>Explore the {primaryDisease.profile.aliases[0] ?? primaryDisease.profile.label} map <span aria-hidden="true">↗</span></a>
+    <p class="quiet-note">{isPublication ? `Reviewed root release · ${release.id}` : 'Source checked; human domain review pending'}</p>
   </section>
   <section class="page-width atlas-list" aria-labelledby="atlas-heading">
-    <div class="section-heading"><h2 id="atlas-heading">Inside the atlas</h2><span>01 / Disease map</span></div>
-    <a class="disease-card" href="/diseases/sle/">
-      <div><p class="eyebrow">Autoimmune disease · SLE</p><h3>Systemic lupus<br />erythematosus</h3><p>A bounded nucleic-acid, interferon and B-cell circuit with primary evidence and linked interventions.</p></div>
+    <div class="section-heading"><h2 id="atlas-heading">Inside the atlas</h2><span>{atlas.length} / Disease maps</span></div>
+    {atlas.map(item => <a class="disease-card" href={sitePath(`/diseases/${item.profile.id}/`)}>
+      <div><p class="eyebrow">Disease mechanisms · {item.profile.aliases[0] ?? item.profile.id}</p><h3>{item.profile.label}</h3><p>{item.profile.summary}</p></div>
       <div class="card-circuit" aria-hidden="true"><svg viewBox="0 0 300 190"><path d="M55 65 148 32 245 85 159 155 55 65M148 32 159 155" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="55" cy="65" r="17"/><circle cx="148" cy="32" r="11"/><circle cx="245" cy="85" r="20"/><circle cx="159" cy="155" r="14"/></svg></div>
-      <div class="card-meta"><span>{release.entities.length} entities · {release.relationships.length} relationships</span><span class="pill">Scientific candidate</span><span class="card-arrow" aria-hidden="true">↗</span></div>
-    </a>
+      <div class="card-meta"><span>{item.bundle.entities.length} entities · {item.bundle.relationships.length} relationships</span><span class="pill">{item.published ? 'Reviewed release' : 'Scientific candidate'}</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+    </a>)}
   </section>
   <section class="page-width principles" aria-label="Atlas principles">
     <article><span class="principle-number">01</span><h3>Named mechanisms</h3><p>Explore specific mediators and processes through their relationships.</p></article>

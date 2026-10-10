@@ -1,5 +1,8 @@
 ---
+import { sitePath } from '../data/site';
 import '../styles/global.css';
+import '../styles/comparison.css';
+import { isPublication } from '../data/release';
 
 interface Props {
   title: string;
@@ -16,28 +19,30 @@ const path = Astro.url.pathname;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#f6f5ef" />
-    <meta name="robots" content="noindex, nofollow" />
+    {!isPublication && <meta name="robots" content="noindex, nofollow" />}
     <title>{title} · Causome</title>
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href={sitePath("/favicon.svg")} type="image/svg+xml" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="/" aria-label="Causome home">
+      <a class="brand" href={sitePath("/")} aria-label="Causome home">
         <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><path d="M9 9 25 11 17 26Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="9" cy="9" r="4" fill="currentColor"/><circle cx="25" cy="11" r="3" fill="currentColor"/><circle cx="17" cy="26" r="4" fill="currentColor"/></svg>
         <span>Causome<span class="brand-caption">Living disease atlas</span></span>
       </a>
       <nav aria-label="Main navigation">
-        <a href="/diseases/sle/" aria-current={path.startsWith('/diseases/') ? 'page' : undefined}>Disease atlas</a>
-        <a href="/methodology/" aria-current={path.startsWith('/methodology/') ? 'page' : undefined}>Methodology</a>
-        <a href="/sources/" aria-current={path.startsWith('/sources/') ? 'page' : undefined}>Sources</a>
+        <a href={sitePath("/diseases/")} aria-current={path.startsWith(sitePath('/diseases/')) ? 'page' : undefined}>Disease atlas</a>
+        <a href={sitePath("/compare/")} aria-current={path.startsWith(sitePath('/compare/')) ? 'page' : undefined}>Compare</a>
+        <a href={sitePath("/methodology/")} aria-current={path.startsWith(sitePath('/methodology/')) ? 'page' : undefined}>Methodology</a>
+        <a href={sitePath("/sources/")} aria-current={path.startsWith(sitePath('/sources/')) ? 'page' : undefined}>Sources</a>
+        {!isPublication && <a href={sitePath("/curation/")} aria-current={path.startsWith(sitePath('/curation/')) ? 'page' : undefined}>Curation</a>}
       </nav>
-      <span class="header-status"><span></span> Development preview</span>
+      <span class="header-status"><span></span> {isPublication ? 'Reviewed release' : 'Development preview'}</span>
     </header>
     <main id="main-content"><slot /></main>
     <footer class="site-footer">
-      <div><a class="footer-brand" href="/">Causome</a><p>A clearer view of the mechanisms that connect.</p></div>
-      <p class="footer-note">Scientific candidate. Human domain review pending.<br />For exploration and development; not medical advice.</p>
+      <div><a class="footer-brand" href={sitePath("/")}>Causome</a><p>A clearer view of the mechanisms that connect.</p></div>
+      <p class="footer-note">{isPublication ? 'Reviewed scientific release.' : 'Scientific candidate. Human domain review pending.'}<br />For exploration and development; not medical advice.</p>
     </footer>
   </body>
 </html>
