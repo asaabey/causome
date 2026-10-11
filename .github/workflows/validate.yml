@@ -38,6 +38,10 @@ jobs:
           if [ -n "$BASE_SHA" ] && [ "$BASE_SHA" != "0000000000000000000000000000000000000000" ]; then
             node scripts/check-immutability.mjs "$BASE_SHA"
           fi
+      - name: Prepare committed source fixtures for browser exports
+        env:
+          CAUSOME_BROWSER_FIXTURES: '1'
+        run: node scripts/prepare-browser-fixtures.mjs
       - name: Build static preview
         run: pnpm build
       - name: Install pinned browser

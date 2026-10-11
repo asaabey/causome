@@ -58,6 +58,6 @@ test('summary edits export as a new author-bound candidate and remain visible wi
   await context.close();
   if (test.info().project.name === 'desktop') {
     await region.getByRole('button', { name: 'Edit summary draft' }).click();
-    await region.screenshot({ path: '/private/tmp/causome-summary-workbench.png' });
+    await region.screenshot({ path: test.info().outputPath('summary-workbench.png') });
   }
 });

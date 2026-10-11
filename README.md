@@ -53,6 +53,8 @@ pnpm build
 
 Validation covers every registered candidate, schema/reference closure, direction, source checks, disease context, calibrated scoring, lineage and scientific/view digests. The stress fixture uses synthetic 200-entity/400-relationship data, is generated only by `build:stress`, and is excluded from ordinary and public builds. Restore the normal build after benchmarking. Browser suites cover desktop 1366×768 and mobile 390×844, accessibility, keyboard exploration, curator exports, comparisons, expansion and JavaScript-free evidence. Performance reports record the pinned runner, fixture, bundle sizes and measured budgets.
 
+Fresh-checkout browser tests need source input fixtures before building: run `CAUSOME_BROWSER_FIXTURES=1 node scripts/prepare-browser-fixtures.mjs`, then `pnpm build` and `pnpm test:browser`. CI performs this preparation automatically. It loads the committed IgA example passages into the ignored test workspace without changing scientific snapshots or search cursors.
+
 ## Releases and milestones
 
 See [the milestone record](PROGRESS.md) for completed local engineering, evidence of verification and remaining acceptance gates. Format `0.3.0` adds grouped views, successors, source flags and calibrated contextual appraisals while preserving legacy unassessed snapshots. No actual domain approval, calibration, held-out evaluation or pilot result has been invented.

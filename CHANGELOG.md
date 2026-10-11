@@ -53,6 +53,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Clean GitHub builds now install pinned Node.js type definitions explicitly; browser verification prepares committed source fixtures instead of depending on an ignored local literature cache and saves screenshots in portable test-output directories.
+
 - Persist the chosen curation disease in the page URL so its saved draft is restored after reload even when additional diseases change the default workspace.
 
 - Preserve source-to-target direction in connected-relationship labels, distinguish symmetric associations, use the active route's context, and reset the inspector scroll position on selection.
