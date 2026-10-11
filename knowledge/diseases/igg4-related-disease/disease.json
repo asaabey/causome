@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "id": "igg4-related-disease",
+  "label": "IgG4-related disease",
+  "summary": "Bounded cross-organ immune-mechanism map of IgG4-related disease: B cells/plasmablasts, T-cell responses and fibrosis-related findings. Selected human primary reports, not comprehensive organ-specific coverage; excludes mimics, diagnostic criteria, epidemiology and treatment efficacy.",
+  "query": "(TITLE_ABS:\"IgG4-related disease\" OR TITLE_ABS:\"IgG4 related disease\") AND (TITLE_ABS:plasmablast OR TITLE_ABS:cytotoxic OR TITLE_ABS:fibrosis OR TITLE_ABS:\"T follicular helper\")",
+  "aliases": [
+    "IgG4-RD",
+    "IgG4 related disease",
+    "immunoglobulin G4-related disease"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "igg4-related-disease-appraised-candidate-90d22ffa6cee"
+}

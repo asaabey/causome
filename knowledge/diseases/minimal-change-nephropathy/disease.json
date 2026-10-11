@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "id": "minimal-change-nephropathy",
+  "label": "Minimal change nephropathy",
+  "summary": "A bounded podocyte-injury circuit of primary minimal change nephropathy: circulating factors and T-cell activity, foot-process effacement and nephrotic syndrome. Excludes secondary causes and other glomerulopathies.",
+  "query": "(TITLE_ABS:\"minimal change disease\" OR TITLE_ABS:\"minimal change nephropathy\")",
+  "aliases": [
+    "minimal change disease",
+    "MCD",
+    "MCN",
+    "nil disease"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": null
+}
