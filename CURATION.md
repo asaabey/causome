@@ -15,7 +15,7 @@ Choose a task:
 | Task | Route |
 | --- | --- |
 | New disease | Follow the new-disease runbook below, then sections 1–5 for the detailed contracts. |
-| Update an existing disease | Identify the exact base candidate ID/digest, retrieve sources in section 2, extract/reconcile in sections 3–4, then run the validation route below. Never overwrite the base. |
+| Update existing diseases | Follow the monthly update runbook below, starting with each existing map and reviewing only new, changed or unresolved evidence. Never overwrite the base. |
 | Validate a supplied candidate | Run the validation route below and produce the handoff report. Do not change scientific assertions to make checks pass without reporting the change. |
 
 ### New-disease runbook
@@ -38,6 +38,78 @@ pnpm curate preview --disease <slug> --candidate <candidate-id>
 pnpm check
 pnpm build
 ```
+
+### Monthly update runbook
+
+Use a monthly maintenance cycle for every registered disease with an existing map. The same process can run weekly when needed. A cycle checks every disease for new evidence; it only changes maps for which relevant evidence changes the knowledge. A new disease still follows the first-map runbook above. This runbook does not install a scheduler or start a literature scan.
+
+The starting point is the existing graph JSON, not a fresh review of the disease. Keep unchanged papers, claims and mechanisms as the baseline. Retrieve new arrivals and metadata changes, screen their relevance, and assess their contribution against that baseline. Older papers need renewed inspection when a correction, retraction, changed source or new finding challenges the claims they support. An older publication newly indexed by the provider also counts as newly discovered evidence.
+
+1. **Open a dated cycle and bind the bases.** Run `pnpm curate update-all --plan` to inspect the selected candidate paths, IDs/content digests, evidence cutoffs and successful cursors. Use the locally selected candidate as the base for local product updates. Diseases without a map need initial curation, not an incremental update. After retrieval, keep the scientific processing/disposition report as `handoff.md` in the printed maintenance cycle directory; preserve the script's retrieval reports.
+2. **Retrieve the delta for each disease.** Run `pnpm curate update-all --to <cycle-date>` using the script instructions below. An existing successful cursor supplies the overlapping date window automatically. On the first maintenance scan, the script starts from the base evidence cutoff; a manually seeded map did not establish a search cursor. Save the printed run IDs and packet paths. A failed search leaves that disease incomplete and its successful cursor unchanged; the script continues the other diseases and exits nonzero when a disease is incomplete. Do not describe a failed search as “no new evidence.”
+3. **Build the work queue, retaining unfinished work.** Use `report.json`'s `changes` to select new and updated records from the source snapshots. Add unresolved records from earlier cycles; the latest scan alone is not a complete backlog. Compare new-to-cache records with the existing map's source identifiers: a cache refresh can rediscover an already-curated paper. Review unchanged, already-processed papers only when an unresolved issue or new evidence makes them relevant. Screen titles/abstracts first, then inspect the primary source for records that could affect a mechanism, evidence strength, disease context or therapy. Provider flags are triage inputs, not a relevance verdict.
+4. **Decide what each relevant paper changes.** Compare its findings with existing entities, relationships, claims, study contexts and therapies. Record one of: supports an existing assertion; qualifies/refines it; contradicts/supersedes it; adds a mechanism; changes therapy evidence/status; duplicate; irrelevant/non-contributory; or deferred because evidence/access is insufficient. Keep negative findings and study-specific limits. A new citation need not create a new node or raise a score. For changed or flagged sources already cited by the map, identify the affected claims and inspect those sources explicitly.
+5. **Apply only meaningful map changes.** Use section 3 extraction and section 4 reconciliation against the exact bound base, with a papers file containing the selected records. Therapy/context/removal changes use the full-candidate proposal route. Keep the previous snapshot immutable. The existing CLI currently regenerates automatic appraisals after evidence reconciliation; it does not yet limit recalculation to affected assessments. Inspect the affected scientific paths and any resulting score changes. If nothing relevant changes, retain the current graph and summary and record “checked through <cycle-date>; no map change” in the maintenance report. Do not manufacture a new graph just to advance its evidence cutoff.
+6. **Check the changed explanation.** When the graph changes, revise its one- or two-paragraph summary to reflect what was learned and what remains uncertain. Run candidate/registry validation, inspect the version diff, and use section 7's external summary check against the new snapshot. Then select the final candidate locally and rebuild. Do not reopen every historical source for this step: start with the changed findings and their affected assertions. If the overall explanation is unchanged, record that explicitly; feedback from an older graph remains historical because packets bind exact snapshot digests.
+7. **Close the cycle with a small change report.** For each disease record the searched-through date, base/final IDs and digests, new/updated record counts, relevant/deferred counts, unresolved notices and outcome: unchanged, updated or incomplete. Include a short “what changed and why” paragraph and the final scientific summary where changed. Keep a paper-level disposition list with identifier/key, source-content hash, decision, reason, affected claim/entity IDs, cycle date and proposal path. Carry deferred or unprocessed records into the next cycle. Retrieval completion and scientific processing completion are separate facts.
+
+Example single-disease retrieval, repeated for each existing disease with its own base:
+
+```sh
+# First maintenance scan when there is no successful cursor:
+pnpm curate scan --disease <slug> --from <base-evidence-cutoff> --to <cycle-date>
+
+# Subsequent cycles use the recorded successful cursor and overlap:
+pnpm curate scan --disease <slug> --to <cycle-date>
+pnpm curate status --disease <slug>
+
+# After screening and extracting the selected delta against the existing graph:
+pnpm curate reconcile --base <existing-candidate.json> --papers <selected-papers.json> --extraction <new-findings.json> --cutoff <cycle-date>
+```
+
+Use this compact report structure; counts and verdicts must come from actual work:
+
+| Disease | Searched through | New / updated records | Relevant / deferred | Outcome | Map/summary impact |
+| --- | --- | --- | --- | --- | --- |
+| `<slug>` | `<date or incomplete>` | `<counts>` | `<counts>` | `<unchanged / updated / incomplete>` | `<short explanation and candidate link>` |
+
+### Run the all-disease update script
+
+The script is [scripts/curation/update.mjs](scripts/curation/update.mjs), exposed through the existing curation CLI. Run it from the repository root:
+
+```sh
+# Inspect existing bases/cursors; no network requests or files are written:
+pnpm curate update-all --plan
+
+# Retrieve changes through today for every disease with a selected map:
+pnpm curate update-all
+
+# Use an explicit cycle date, or retry just one disease:
+pnpm curate update-all --to YYYY-MM-DD
+pnpm curate update-all --disease sle --to YYYY-MM-DD
+```
+
+Each live run creates a separate directory at `curation/workspace/maintenance/<date>/<cycle-id>/`. Its `report.json` and `report.md` summarize every disease. Successful disease subdirectories contain:
+
+- `update.json`: exact base path/ID/digest, scan ID/window, new/updated counts, changed source snapshots and existing claim IDs affected by changes to cited sources.
+- `papers.json`: only this scan's new or updated records for screening/extraction, rather than the entire literature cache.
+- `baseline-refreshes.json`: first-time metadata refreshes for already-curated, unflagged sources, kept separate from newly discovered evidence. Check these for material differences if the existing source metadata is insufficient; they do not require a fresh scientific review solely because they were absent from the scan cache.
+
+Retrieval outcomes are `evidence_to_screen`, `no_retrieval_changes`, `incomplete` or `needs_initial_map`. Planning uses `planned`. These describe retrieval, not scientific processing or map validity. A retry creates a new cycle directory and preserves previous reports. Original scan reports/raw responses remain under each disease's `scans/<scan-id>/` directory. A repeated identical scan may return the same delta again; deduplicate it using source identifiers and the recorded dispositions.
+
+Continue with the existing extraction and reconciliation commands, using the **base path** and **papers path printed for that disease**:
+
+```sh
+pnpm curate extract --base <printed-base-path> --papers <printed-papers-path> --output <extraction.json>
+# Populate the findings and record actual source checks as in section 3.
+pnpm curate reconcile --base <printed-base-path> --papers <printed-papers-path> --extraction <extraction.json> --cutoff <cycle-date>
+```
+
+Skip extraction when the packet is empty and there is no unresolved backlog. The script performs retrieval and prepares update packets; it does not infer findings, edit maps, select candidates, rebuild the site or configure a schedule. Graph updates and summary checking follow steps 4–7 above.
+
+**Implementation boundary:** all-disease update packets, incremental retrieval, successful cursors, identifier deduplication, source-change/notice detection, immutable reconciliation, automatic appraisals, version diffs and summary review are implemented. The current browser queue still combines all cached/imported sources. There is no durable paper-disposition ledger, reviewed-through checkpoint or automatic “new/unprocessed only” browser queue yet. The script's packet contains the current scan delta, not unresolved work from previous cycles. Maintain the cycle/disposition reports explicitly and carry their unfinished items forward. A successful scan cursor only means retrieval completed; it must never be treated as a completed scientific review.
+
+The default 30-day overlap and 90-day broad reconciliation protect against late indexing, source updates and query changes. Re-fetching metadata is not a requirement to reread unchanged papers. Broad searches should still be screened against the baseline and disposition list. Changing disease scope or query may require a targeted catch-up search beyond the ordinary monthly window; record that coverage separately.
 
 ### Validation route
 

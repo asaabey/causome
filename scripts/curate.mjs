@@ -9,6 +9,7 @@ import { assert, hash, readJSON, safeSlug, validDate, writeImmutableJSON, writeJ
 import { initializeDisease, listDiseases, loadDisease } from './curation/diseases.mjs';
 import { europePMC, normalizePaper } from './curation/literature.mjs';
 import { scanDisease } from './curation/scan.mjs';
+import { updateDiseases } from './curation/update.mjs';
 import { reconcileExtraction, releaseDiff, validateExtraction, validateRevisionChanges } from './curation/reconcile.mjs';
 import { evaluateExtraction, evaluateSearch } from './curation/evaluate.mjs';
 import { seedDisease } from './curation/seed.mjs';
@@ -24,6 +25,7 @@ pnpm curate status --disease <slug>
 pnpm curate init --id <slug> --label <name> --summary <scope> --query <Europe-PMC-query>
 pnpm curate seed --disease <slug> --input <first-map.json>
 pnpm curate scan --disease <slug> [--from YYYY-MM-DD] [--to YYYY-MM-DD] [--reconcile] [--trigger manual|scheduled]
+pnpm curate update-all [--to YYYY-MM-DD] [--disease <slug>] [--plan]
 pnpm curate import --disease <slug> --input <publication-metadata.json>
 pnpm curate extract --base <bundle.json> --papers <papers.json> --output <extraction.json> [--paper-keys key1,key2] [--adapter <adapter.mjs>]
 pnpm curate reconcile --base <bundle.json> --papers <papers.json> --extraction <extraction.json> --cutoff YYYY-MM-DD
@@ -49,7 +51,7 @@ function parse(argv) {
   for (let index = 0; index < args.length; index++) {
     const key = args[index];
     assert(/^--[a-z-]+$/.test(key) && !Object.hasOwn(options, key.slice(2)), `Invalid or duplicate option ${key}`);
-    if (key === '--reconcile') options.reconcile = true;
+    if (key === '--reconcile' || key === '--plan') options[key.slice(2)] = true;
     else { assert(args[index + 1] && !args[index + 1].startsWith('--'), `Missing value for ${key}`); options[key.slice(2)] = args[++index]; }
   }
   return { command, options };
@@ -119,7 +121,7 @@ export async function main(argv = process.argv.slice(2)) {
   const { command, options } = parse(argv);
   if (command === 'help' || command === '--help') { console.log(help); return; }
   const allowed = {
-    list: [], status: ['disease'], init: ['id', 'label', 'summary', 'query'], seed: ['disease', 'input'], scan: ['disease', 'from', 'to', 'reconcile', 'trigger'], import: ['disease', 'input'],
+    list: [], status: ['disease'], init: ['id', 'label', 'summary', 'query'], seed: ['disease', 'input'], scan: ['disease', 'from', 'to', 'reconcile', 'trigger'], 'update-all': ['to', 'disease', 'plan'], import: ['disease', 'input'],
     extract: ['base', 'papers', 'output', 'adapter', 'paper-keys'], reconcile: ['base', 'papers', 'extraction', 'cutoff'], propose: ['base', 'candidate'],
     diff: ['before', 'after', 'output'], preview: ['disease', 'candidate'], 'calibration-template': ['base', 'output'], calibrate: ['input', 'output'],
     'assessment-template': ['base', 'output'], assess: ['base', 'input'],
@@ -129,6 +131,12 @@ export async function main(argv = process.argv.slice(2)) {
   };
   assert(allowed[command] && Object.keys(options).every(key => allowed[command].includes(key)), `Unknown command or option.\n${help}`);
   switch (command) {
+    case 'update-all': {
+      const report = await updateDiseases({ root, ...options });
+      console.log(JSON.stringify(report, null, 2));
+      if (!report.complete) process.exitCode = 1;
+      break;
+    }
     case 'summary-template': {
       const base = bundleAt(required(options, 'base'));
       assert(!base.illustrative, 'Summary requires a scientific snapshot');

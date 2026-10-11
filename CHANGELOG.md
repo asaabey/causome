@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `curate update-all` with a no-network planning mode, per-disease failure isolation, existing-map bindings, incremental source packets, separate baseline refreshes and affected-claim lists; the monthly runbook includes runnable script commands and backlog limitations.
+
+- Monthly incremental disease-maintenance runbook: existing-map bases, delta screening, unresolved backlog, source-notice handling, explicit no-change outcomes and concise per-disease impact reports, with the missing queue/disposition tooling identified.
+
 - Bold, linked mediator mentions in scientific summaries on the curator and disease pages, including snapshot-specific evidence links and common name variants; portable review text remains unchanged.
 
 - Overall scientific-summary review: embedded one- or two-paragraph graph-bound summaries, default extractive drafts, five agent-authored local summaries, portable current-literature review prompts/packets, browser copy/edit/export and immutable external-feedback receipts. Changed snapshots require a new review; feedback cannot grant publication approval.
