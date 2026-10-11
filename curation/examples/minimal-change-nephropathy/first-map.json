@@ -1,0 +1,2749 @@
+{
+  "version": 1,
+  "id": "minimal-change-nephropathy-candidate-001",
+  "evidenceCutoff": "2026-10-11",
+  "diseaseDescription": "Bounded human minimal change nephropathy observations: nephrin-reactive antibodies, immune-cell and urinary IL-8 associations, foot-process effacement and nephrotic presentation. Not a complete causal circuit or comprehensive literature synthesis. Secondary causes and FSGS are not modeled; the effacement case has an infection-associated course.",
+  "diseaseAliases": [
+    "minimal change disease",
+    "MCD",
+    "MCN",
+    "nil disease"
+  ],
+  "context": {
+    "id": "context-mcn-overview",
+    "label": "Selected human MCD observations; study-specific systems and limitations retained",
+    "organism": "Human",
+    "phenotype": "Minimal change nephropathy with nephrotic presentation or relapse",
+    "tissue": "Peripheral blood / urine / kidney glomerulus",
+    "stage": "Selected active-disease observations; not a complete causal model"
+  },
+  "entities": [
+    {
+      "id": "entity-anti-nephrin",
+      "label": "Anti-nephrin autoantibodies",
+      "entityClass": "antibody",
+      "description": "Nephrin-reactive circulating antibodies detected in a subset of patients with MCD.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-nephrin",
+      "label": "Nephrin",
+      "entityClass": "protein",
+      "description": "The slit-diaphragm protein examined in the cited antibody assays.",
+      "synonyms": [
+        "NPHS1"
+      ],
+      "externalIds": []
+    },
+    {
+      "id": "entity-podocyte",
+      "label": "Podocytes",
+      "entityClass": "cell",
+      "description": "Glomerular epithelial cells with punctate IgG staining in the cited biopsy observations.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-b_cells",
+      "label": "B cells",
+      "entityClass": "cell",
+      "description": "B-cell compartment including plasmablasts measured in the prospective MCD study.",
+      "synonyms": [
+        "B lymphocytes"
+      ],
+      "externalIds": []
+    },
+    {
+      "id": "entity-effacement",
+      "label": "Foot-process effacement",
+      "entityClass": "process",
+      "description": "Diffuse podocyte foot-process effacement observed in the cited MCD biopsy.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-nephrotic",
+      "label": "Nephrotic syndrome",
+      "entityClass": "clinical_outcome",
+      "description": "Nephrotic presentation in the cited MCD reports; this map does not assert one universal cause.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-proteinuria",
+      "label": "Proteinuria",
+      "entityClass": "clinical_outcome",
+      "description": "Nephrotic-range urinary protein excretion in the cited adult case.",
+      "synonyms": [],
+      "externalIds": []
+    },
+    {
+      "id": "entity-il8",
+      "label": "IL-8",
+      "entityClass": "cytokine",
+      "description": "Urinary cytokine associated with relapse in the cited pediatric study.",
+      "synonyms": [
+        "CXCL8"
+      ],
+      "externalIds": []
+    },
+    {
+      "id": "entity-cd4",
+      "label": "CD4 T cells",
+      "entityClass": "cell",
+      "description": "Peripheral CD4 T cells assessed by flow cytometry at MCD onset.",
+      "synonyms": [],
+      "externalIds": []
+    }
+  ],
+  "publications": [
+    {
+      "id": "34732507",
+      "source": "MED",
+      "pmid": "34732507",
+      "pmcid": "PMC8763186",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8763186"
+        ]
+      },
+      "doi": "10.1681/asn.2021060794",
+      "title": "Discovery of Autoantibodies Targeting Nephrin in Minimal Change Disease Supports a Novel Autoimmune Etiology.",
+      "authorString": "Watts AJB, Keller KH, Lerner G, Rosales I, Collins AB, Sekulic M, Waikar SS, Waikar SS, Chandraker A, Riella LV, Alexander MP, Troost JP, Chen J, Fermin D, Yee JL, Sampson MG, Beck LH, Henderson JM, Greka A, Rennke HG, Weins A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Watts AJB",
+            "lastName": "Watts",
+            "firstName": "Andrew J B",
+            "initials": "AJB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0367-5436"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                },
+                {
+                  "affiliation": "Renal Division, Department of Medicine, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Keller KH",
+            "lastName": "Keller",
+            "firstName": "Keith H",
+            "initials": "KH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1546-7522"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lerner G",
+            "lastName": "Lerner",
+            "firstName": "Gabriel",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Boston Medical Center and Boston University, Boston, Massachusetts."
+                },
+                {
+                  "affiliation": "Section of Nephrology, Department of Medicine, Boston Medical Center and Boston University, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rosales I",
+            "lastName": "Rosales",
+            "firstName": "Ivy",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Massachusetts General Hospital, and Harvard Medical School, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Collins AB",
+            "lastName": "Collins",
+            "firstName": "A Bernard",
+            "initials": "AB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Massachusetts General Hospital, and Harvard Medical School, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sekulic M",
+            "lastName": "Sekulic",
+            "firstName": "Miroslav",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7938-1816"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                },
+                {
+                  "affiliation": "Department of Pathology and Cell Biology, Columbia University College of Physicians and Surgeons, New York, New York."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waikar SS",
+            "lastName": "Waikar",
+            "firstName": "Sushrut S",
+            "initials": "SS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4004-326"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Department of Medicine, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                },
+                {
+                  "affiliation": "Section of Nephrology, Department of Medicine, Boston Medical Center and Boston University, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waikar SS",
+            "lastName": "Waikar",
+            "firstName": "Sushrut S",
+            "initials": "SS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4004-326X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Department of Medicine, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                },
+                {
+                  "affiliation": "Section of Nephrology, Department of Medicine, Boston Medical Center and Boston University, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chandraker A",
+            "lastName": "Chandraker",
+            "firstName": "Anil",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Department of Medicine, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Riella LV",
+            "lastName": "Riella",
+            "firstName": "Leonardo V",
+            "initials": "LV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7636-3196"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology, Massachusetts General Hospital, and Harvard Medical School, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alexander MP",
+            "lastName": "Alexander",
+            "firstName": "Mariam P",
+            "initials": "MP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9072-9871"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, Minnesota."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Troost JP",
+            "lastName": "Troost",
+            "firstName": "Jonathan P",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology, Department of Pediatrics, University of Michigan, Ann Arbor, Michigan."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen J",
+            "lastName": "Chen",
+            "firstName": "Junbo",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Boston Medical Center and Boston University, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fermin D",
+            "lastName": "Fermin",
+            "firstName": "Damian",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0548-3967"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Medicine, Department of Pediatrics, University of Michigan School of Medicine, Ann Arbor, Michigan."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yee JL",
+            "lastName": "Yee",
+            "firstName": "Jennifer L",
+            "initials": "JL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Medicine, Department of Pediatrics, University of Michigan School of Medicine, Ann Arbor, Michigan."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sampson MG",
+            "lastName": "Sampson",
+            "firstName": "Matthew G",
+            "initials": "MG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine/Pediatric Nephrology, Boston Children's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                },
+                {
+                  "affiliation": "Kidney Disease Initiative, Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beck LH Jr",
+            "lastName": "Beck",
+            "firstName": "Laurence H",
+            "initials": "LH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1482-4089"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section of Nephrology, Department of Medicine, Boston Medical Center and Boston University, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Henderson JM",
+            "lastName": "Henderson",
+            "firstName": "Joel M",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9178-1708"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Boston Medical Center and Boston University, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Greka A",
+            "lastName": "Greka",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Department of Medicine, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                },
+                {
+                  "affiliation": "Kidney Disease Initiative, Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rennke HG",
+            "lastName": "Rennke",
+            "firstName": "Helmut G",
+            "initials": "HG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weins A",
+            "lastName": "Weins",
+            "firstName": "Astrid",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                },
+                {
+                  "affiliation": "Renal Division, Department of Medicine, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4004-326"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9072-9871"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0548-3967"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1546-7522"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7636-3196"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7938-1816"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9178-1708"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0367-5436"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1482-4089"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4004-326X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data",
+          "recommended_reviews"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "33",
+        "journalIssueId": 3285090,
+        "dateOfPublication": "2022 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2022,
+        "journal": {
+          "medlineAbbreviation": "J Am Soc Nephrol",
+          "title": "Journal of the American Society of Nephrology : JASN",
+          "essn": "1533-3450",
+          "issn": "1046-6673",
+          "isoabbreviation": "J Am Soc Nephrol",
+          "nlmid": "9013836"
+        },
+        "printPublicationDate": "2022-01-01"
+      },
+      "pubYear": "2022",
+      "pageInfo": "238-252",
+      "abstractText": "<h4>Background</h4>Failure of the glomerular filtration barrier, primarily by loss of slit diaphragm architecture, underlies nephrotic syndrome in minimal change disease. The etiology remains unknown. The efficacy of B cell-targeted therapies in some patients, together with the known proteinuric effect of anti-nephrin antibodies in rodent models, prompted us to hypothesize that nephrin autoantibodies may be present in patients with minimal change disease.<h4>Methods</h4>We evaluated sera from patients with minimal change disease, enrolled in the Nephrotic Syndrome Study Network (NEPTUNE) cohort and from our own institutions, for circulating nephrin autoantibodies by indirect ELISA and by immunoprecipitation of full-length nephrin from human glomerular extract or a recombinant purified extracellular domain of human nephrin. We also evaluated renal biopsies from our institutions for podocyte-associated punctate IgG colocalizing with nephrin by immunofluorescence.<h4>Results</h4>In two independent patient cohorts, we identified circulating nephrin autoantibodies during active disease that were significantly reduced or absent during treatment response in a subset of patients with minimal change disease. We correlated the presence of these autoantibodies with podocyte-associated punctate IgG in renal biopsies from our institutions. We also identified a patient with steroid-dependent childhood minimal change disease that progressed to end stage kidney disease; she developed a massive post-transplant recurrence of proteinuria that was associated with high pretransplant circulating nephrin autoantibodies.<h4>Conclusions</h4>Our discovery of nephrin autoantibodies in a subset of adults and children with minimal change disease aligns with published animal studies and provides further support for an autoimmune etiology. We propose a new molecular classification of nephrin autoantibody minimal change disease to serve as a framework for instigation of precision therapeutics for these patients.",
+      "affiliation": "Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School, Boston, Massachusetts.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "T32 DK007053",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "T32 DK007527",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "T32HL007627",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "U54 DK083912",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "U54-DK-083912",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "DK007053-45S1",
+            "orderIn": 0
+          },
+          {
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "grantId": "T32 HL007627",
+            "orderIn": 0
+          },
+          {
+            "agency": "Harvard Medical School",
+            "orderIn": 0
+          },
+          {
+            "agency": "Nephcure Foundation",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "T32DK007527",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "R01 DK119380",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Center for Advancing Translational Sciences",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute of Diabetes and Digestive and Kidney Diseases",
+            "orderIn": 0
+          },
+          {
+            "agency": "University of Michigan",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Nephrosis, Lipoid",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ET",
+                  "qualifierName": "etiology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Membrane Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Autoantibodies",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cohort Studies"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child, Preschool"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Podocytes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Autoantibodies",
+          "Pathology",
+          "Proteinuria",
+          "Podocyte",
+          "immunology",
+          "Nephrin",
+          "Glomerular Disease",
+          "Idiopathic Nephrotic Syndrome",
+          "Glomerular Filtration Barrier"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "nephrin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Membrane Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Autoantibodies",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1681/ASN.2021060794"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8763186"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8763186?pdf=render"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1681/asn.2021060794"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35064049",
+            "reference": "J Am Soc Nephrol. 2022 Mar;33(3):654. doi: 10.1681/ASN.2021121540.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "35064050",
+            "reference": "J Am Soc Nephrol. 2022 Mar;33(3):653-654. doi: 10.1681/ASN.2021111469.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 324,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2022-02-17",
+      "dateOfCreation": "2021-11-04",
+      "dateOfRevision": "2026-04-13",
+      "electronicPublicationDate": "2021-11-03",
+      "firstPublicationDate": "2021-11-03",
+      "firstIndexDate": "2021-11-26",
+      "fullTextReceivedDate": "2025-02-03",
+      "embargoDate": "2023-01-01",
+      "hasEvaluations": "N",
+      "inspectedScope": "Europe PMC full abstract and bibliographic metadata inspected by an agent on 2026-10-11; no full-text methods inspection"
+    },
+    {
+      "id": "41736774",
+      "source": "MED",
+      "pmid": "41736774",
+      "pmcid": "PMC12926970",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12926970"
+        ]
+      },
+      "doi": "10.1016/j.ekir.2026.103794",
+      "title": "Effect of Steroids on Anti-nephrin Autoantibodies and B cells in Minimal Change Disease.",
+      "authorString": "Hengel FE, Beldi-Ferchiou A, Sakhi H, Liaukouskaya N, Dehde S, Karras A, Esteve E, Oniszczuk J, Le Gouvello S, Herrera-Marcos L, Joher N, Daugas E, Zaidan M, El Karoui K, Knebelmann B, Dao M, Moktefi A, Sahali D, Huber TB, Ollero M, Tomas NM, Audard V.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hengel FE",
+            "lastName": "Hengel",
+            "firstName": "Felicitas E",
+            "initials": "FE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III Department of Medicine, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                },
+                {
+                  "affiliation": "Hamburg Center for Translational Immunology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beldi-Ferchiou A",
+            "lastName": "Beldi-Ferchiou",
+            "firstName": "Asma",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut National de la Santé et de la Recherche Médicale (INSERM) U955, Institut Mondor de Recherche Biomédicale, Universite Paris Est Créteil, Créteil, France."
+                },
+                {
+                  "affiliation": "Department of Biological Immunology and Hematology, Assistance Publique-Hôpitaux de Paris, Henri Mondor University Hospital, Créteil, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sakhi H",
+            "lastName": "Sakhi",
+            "firstName": "Hamza",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut National de la Santé et de la Recherche Médicale (INSERM) U955, Institut Mondor de Recherche Biomédicale, Universite Paris Est Créteil, Créteil, France."
+                },
+                {
+                  "affiliation": "Nephrology and Renal Transplantation Department, Assistance Publique-Hôpitaux de Paris, National Rare Disease Center Idiopathic Nephrotic Syndrome, Henri Mondor University Hospital, Créteil, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liaukouskaya N",
+            "lastName": "Liaukouskaya",
+            "firstName": "Nastassia",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III Department of Medicine, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                },
+                {
+                  "affiliation": "Hamburg Center for Translational Immunology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dehde S",
+            "lastName": "Dehde",
+            "firstName": "Silke",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III Department of Medicine, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                },
+                {
+                  "affiliation": "Hamburg Center for Translational Immunology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Karras A",
+            "lastName": "Karras",
+            "firstName": "Alexandre",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nephrology Department, Assistance Publique-Hôpitaux de Paris, Hôpital Européen Georges Pompidou, Paris Cité University, Paris, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Esteve E",
+            "lastName": "Esteve",
+            "firstName": "Emmanuel",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nephrology Department, Assistance Publique-Hôpitaux de Paris, Tenon Hospital, Sorbonne University, INSERM U1115 CORAKID, Paris, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oniszczuk J",
+            "lastName": "Oniszczuk",
+            "firstName": "Julie",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut National de la Santé et de la Recherche Médicale (INSERM) U955, Institut Mondor de Recherche Biomédicale, Universite Paris Est Créteil, Créteil, France."
+                },
+                {
+                  "affiliation": "Nephrology and Renal Transplantation Department, Assistance Publique-Hôpitaux de Paris, National Rare Disease Center Idiopathic Nephrotic Syndrome, Henri Mondor University Hospital, Créteil, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Le Gouvello S",
+            "lastName": "Le Gouvello",
+            "firstName": "Sabine",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut National de la Santé et de la Recherche Médicale (INSERM) U955, Institut Mondor de Recherche Biomédicale, Universite Paris Est Créteil, Créteil, France."
+                },
+                {
+                  "affiliation": "Department of Biological Immunology and Hematology, Assistance Publique-Hôpitaux de Paris, Henri Mondor University Hospital, Créteil, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Herrera-Marcos L",
+            "lastName": "Herrera-Marcos",
+            "firstName": "Luis",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut National de la Santé et de la Recherche Médicale (INSERM) U955, Institut Mondor de Recherche Biomédicale, Universite Paris Est Créteil, Créteil, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Joher N",
+            "lastName": "Joher",
+            "firstName": "Nizar",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut National de la Santé et de la Recherche Médicale (INSERM) U955, Institut Mondor de Recherche Biomédicale, Universite Paris Est Créteil, Créteil, France."
+                },
+                {
+                  "affiliation": "Nephrology and Renal Transplantation Department, Assistance Publique-Hôpitaux de Paris, National Rare Disease Center Idiopathic Nephrotic Syndrome, Henri Mondor University Hospital, Créteil, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Daugas E",
+            "lastName": "Daugas",
+            "firstName": "Eric",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nephrology Department, Assistance Publique-Hôpitaux de Paris, Bichat Hospital, Paris Cité University, INSERM U1149, Paris, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zaidan M",
+            "lastName": "Zaidan",
+            "firstName": "Mohamad",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nephrology Department, Assistance Publique-Hôpitaux de Paris, Kremlin Bicêtre Hospital, Saclay University, Paris, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "El Karoui K",
+            "lastName": "El Karoui",
+            "firstName": "Khalil",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nephrology Department, Assistance Publique-Hôpitaux de Paris, Tenon Hospital, Sorbonne University, INSERM U1115 CORAKID, Paris, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Knebelmann B",
+            "lastName": "Knebelmann",
+            "firstName": "Bertrand",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nephrology Department, Assistance Publique-Hôpitaux de Paris, Necker Hospital, Paris Cité University, Paris, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dao M",
+            "lastName": "Dao",
+            "firstName": "Myriam",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nephrology Department, Assistance Publique-Hôpitaux de Paris, Necker Hospital, Paris Cité University, Paris, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moktefi A",
+            "lastName": "Moktefi",
+            "firstName": "Anissa",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut National de la Santé et de la Recherche Médicale (INSERM) U955, Institut Mondor de Recherche Biomédicale, Universite Paris Est Créteil, Créteil, France."
+                },
+                {
+                  "affiliation": "Pathology Department, Assistance Publique-Hôpitaux de Paris, Henri Mondor University Hospital, Créteil, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sahali D",
+            "lastName": "Sahali",
+            "firstName": "Dil",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut National de la Santé et de la Recherche Médicale (INSERM) U955, Institut Mondor de Recherche Biomédicale, Universite Paris Est Créteil, Créteil, France."
+                },
+                {
+                  "affiliation": "Nephrology and Renal Transplantation Department, Assistance Publique-Hôpitaux de Paris, National Rare Disease Center Idiopathic Nephrotic Syndrome, Henri Mondor University Hospital, Créteil, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huber TB",
+            "lastName": "Huber",
+            "firstName": "Tobias B",
+            "initials": "TB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III Department of Medicine, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                },
+                {
+                  "affiliation": "Hamburg Center for Translational Immunology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ollero M",
+            "lastName": "Ollero",
+            "firstName": "Mario",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut National de la Santé et de la Recherche Médicale (INSERM) U955, Institut Mondor de Recherche Biomédicale, Universite Paris Est Créteil, Créteil, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tomas NM",
+            "lastName": "Tomas",
+            "firstName": "Nicola M",
+            "initials": "NM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III Department of Medicine, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                },
+                {
+                  "affiliation": "Hamburg Center for Translational Immunology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Audard V",
+            "lastName": "Audard",
+            "firstName": "Vincent",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut National de la Santé et de la Recherche Médicale (INSERM) U955, Institut Mondor de Recherche Biomédicale, Universite Paris Est Créteil, Créteil, France."
+                },
+                {
+                  "affiliation": "Nephrology and Renal Transplantation Department, Assistance Publique-Hôpitaux de Paris, National Rare Disease Center Idiopathic Nephrotic Syndrome, Henri Mondor University Hospital, Créteil, France."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "11",
+        "journalIssueId": 4127703,
+        "dateOfPublication": "2026 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2026,
+        "journal": {
+          "medlineAbbreviation": "Kidney Int Rep",
+          "title": "Kidney international reports",
+          "essn": "2468-0249",
+          "issn": "2468-0249",
+          "isoabbreviation": "Kidney Int Rep",
+          "nlmid": "101684752"
+        },
+        "printPublicationDate": "2026-04-01"
+      },
+      "pubYear": "2026",
+      "pageInfo": "103794",
+      "abstractText": "<h4>Introduction</h4>The identification of autoantibodies against nephrin, a key signaling protein of the podocyte slit diaphragm, and their pathogenic role in patients with minimal change disease (MCD) has substantially changed our understanding of primary podocytopathies. However, details on underlying immune pathophysiological mechanisms such as the relation of anti-nephrin autoantibodies with immune cell subsets and therapy response remain to be determined.<h4>Methods</h4>In this prospective study, we evaluated blood samples from adults with newly diagnosed, biopsy-proven MCD for circulating anti-nephrin antibodies using immunoprecipitation (IP) and B-cell subpopulations by fluorescence-activated cell sorting. Samples were collected at diagnosis (t<sub>0</sub>) and after 8 weeks of steroid therapy (t<sub>1</sub>).<h4>Results</h4>We detected anti-nephrin antibodies in 12 of 17 (70.6%) therapy-naïve patients with MCD at t<sub>0</sub>. All 12 patients (100%) positive for anti-nephrin antibodies achieved complete remission with no anti-nephrin antibodies detectable after 8 weeks of steroid treatment (t<sub>1</sub>). Two of 5 anti-nephrin negative patients (40%) did not reach clinical remission at t<sub>1</sub>. Anti-nephrin positive patients exhibited a larger fraction of plasmablasts than anti-nephrin negative patients at t<sub>0</sub>, albeit not statistically significant. Plasmablasts, naïve B cells, and transitional B cells significantly decreased, whereas marginal zone-like B cells increased within 8 weeks of steroid treatment in anti-nephrin positive patients (t<sub>1</sub>).<h4>Conclusion</h4>Our study shows, for the first time, a therapeutically relevant short-term effect of steroids on the B-cell compartment and anti-nephrin antibody levels, explaining the high clinical response rate in patients with anti-nephrin-associated MCD.",
+      "affiliation": "III Department of Medicine, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Steroids",
+          "Nephrotic syndrome",
+          "Minimal Change Disease",
+          "Plasmablasts",
+          "Anti-nephrin Antibodies"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.ekir.2026.103794"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12926970"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12926970?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "eudract",
+          "nct"
+        ]
+      },
+      "dateOfCompletion": "2026-02-25",
+      "dateOfCreation": "2026-02-25",
+      "dateOfRevision": "2026-08-13",
+      "electronicPublicationDate": "2026-01-23",
+      "firstPublicationDate": "2026-01-23",
+      "firstIndexDate": "2026-02-25",
+      "fullTextReceivedDate": "2026-02-24",
+      "hasEvaluations": "N",
+      "inspectedScope": "Europe PMC full abstract and bibliographic metadata inspected by an agent on 2026-10-11; no full-text methods inspection"
+    },
+    {
+      "id": "41644841",
+      "source": "MED",
+      "pmid": "41644841",
+      "pmcid": "PMC12876488",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12876488"
+        ]
+      },
+      "doi": "10.1007/s13730-025-01087-x",
+      "title": "A case report of spontaneous remission and relapse in minimal change disease: a heterogeneous disease entity.",
+      "authorString": "Ono K, Ayuzawa N, Kawakami T, Kishimoto M, Komagata Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ono K",
+            "lastName": "Ono",
+            "firstName": "Keisuke",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2651-1509"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Rheumatology, Kyorin University School of Medicine, 6-20-2 Shinkawa Mitaka, Tokyo, 181-8611, Japan. onoxkeisuke@gmail.com."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ayuzawa N",
+            "lastName": "Ayuzawa",
+            "firstName": "Nobuhiro",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Rheumatology, Kyorin University School of Medicine, 6-20-2 Shinkawa Mitaka, Tokyo, 181-8611, Japan."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kawakami T",
+            "lastName": "Kawakami",
+            "firstName": "Takahisa",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Rheumatology, Kyorin University School of Medicine, 6-20-2 Shinkawa Mitaka, Tokyo, 181-8611, Japan."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kishimoto M",
+            "lastName": "Kishimoto",
+            "firstName": "Mitsumasa",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Rheumatology, Kyorin University School of Medicine, 6-20-2 Shinkawa Mitaka, Tokyo, 181-8611, Japan."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Komagata Y",
+            "lastName": "Komagata",
+            "firstName": "Yoshinori",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Rheumatology, Kyorin University School of Medicine, 6-20-2 Shinkawa Mitaka, Tokyo, 181-8611, Japan."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2651-1509"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "15",
+        "journalIssueId": 4109490,
+        "dateOfPublication": "2026 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2026,
+        "journal": {
+          "medlineAbbreviation": "CEN Case Rep",
+          "title": "CEN case reports",
+          "essn": "2192-4449",
+          "issn": "2192-4449",
+          "isoabbreviation": "CEN Case Rep",
+          "nlmid": "101636244"
+        },
+        "printPublicationDate": "2026-02-01"
+      },
+      "pubYear": "2026",
+      "pageInfo": "48",
+      "abstractText": "Minimal change disease (MCD) is a common cause of nephrotic syndrome and typically responds well to glucocorticoid therapy. Although spontaneous remission is considered rare, its true frequency may be underestimated, possibly due to the early initiation of treatment in most cases. We report a case of a 45-year-old male who developed nephrotic syndrome following an influenza infection. A kidney biopsy revealed findings consistent with minimal change disease, including diffuse foot process effacement, and proteinuria resolved spontaneously without immunosuppressive therapy. The patient remained in remission for approximately four and a half months until he developed a non-influenza upper respiratory infection, which was followed by a relapse of nephrotic syndrome. Subsequently, glucocorticoid therapy was initiated, resulting in a prompt remission. This case highlights the potential for spontaneous remission in MCD, particularly in the context of infection, and underscores the immunological heterogeneity of the disease. We also review previously reported adult cases of infection-associated spontaneous remission of MCD.",
+      "affiliation": "Department of Nephrology and Rheumatology, Kyorin University School of Medicine, 6-20-2 Shinkawa Mitaka, Tokyo, 181-8611, Japan. onoxkeisuke@gmail.com.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article",
+          "Case Reports",
+          "case-report"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Kidney",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Respiratory Tract Infections",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CO",
+                  "qualifierName": "complications"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Nephrosis, Lipoid",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CO",
+                  "qualifierName": "complications"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DI",
+                  "qualifierName": "diagnosis"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DT",
+                  "qualifierName": "drug therapy"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Nephrotic Syndrome",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DT",
+                  "qualifierName": "drug therapy"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ET",
+                  "qualifierName": "etiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Proteinuria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ET",
+                  "qualifierName": "etiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Recurrence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Glucocorticoids",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "TU",
+                  "qualifierName": "therapeutic use"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biopsy"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Remission, Spontaneous"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Influenza, Human",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CO",
+                  "qualifierName": "complications"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "CD80",
+          "Minimal Change Disease",
+          "Spontaneous Remission",
+          "B7-1."
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Glucocorticoids",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1007/s13730-025-01087-x"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12876488"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12876488?pdf=render"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1007/s13730-025-01087-x"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-07-07",
+      "dateOfCreation": "2026-02-05",
+      "dateOfRevision": "2026-09-14",
+      "electronicPublicationDate": "2026-02-06",
+      "firstPublicationDate": "2026-02-06",
+      "firstIndexDate": "2026-02-10",
+      "fullTextReceivedDate": "2026-08-18",
+      "hasEvaluations": "N",
+      "inspectedScope": "Europe PMC full abstract and bibliographic metadata inspected by an agent on 2026-10-11; no full-text methods inspection"
+    },
+    {
+      "id": "42534885",
+      "source": "MED",
+      "pmid": "42534885",
+      "pmcid": "PMC13422130",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13422130"
+        ]
+      },
+      "doi": "10.7759/cureus.111816",
+      "title": "Albuminuria Not Attributable to Diabetic or Hypertensive Kidney Disease: Adult-Onset Minimal Change Disease Presenting With Nephrotic Syndrome in a Woman With Prediabetes and Hypertension.",
+      "authorString": "Shawket Al-Shakrchy H, Zwain Z.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shawket Al-Shakrchy H",
+            "lastName": "Shawket Al-Shakrchy",
+            "firstName": "Haider",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Renal Transplantation, Najaf Nephrology Center, Al-Sader Teaching Hospital, Najaf, IRQ."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zwain Z",
+            "lastName": "Zwain",
+            "firstName": "Zeid",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0949-0758"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Diabetes and Endocrinology, Faiha Specialized Diabetes, Endocrine, and Metabolism Center (FDEMC), University of Basrah, Basrah, IRQ."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0949-0758"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "18",
+        "journalIssueId": 4206252,
+        "dateOfPublication": "2026 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2026,
+        "journal": {
+          "medlineAbbreviation": "Cureus",
+          "title": "Cureus",
+          "essn": "2168-8184",
+          "issn": "2168-8184",
+          "isoabbreviation": "Cureus",
+          "nlmid": "101596737"
+        },
+        "printPublicationDate": "2026-06-01"
+      },
+      "pubYear": "2026",
+      "pageInfo": "e111816",
+      "abstractText": "A 45-year-old woman with long-standing hypertension and premature menopause presented with progressive bilateral pitting leg edema. Initial evaluation showed albuminuria, microscopic hematuria and pyuria, severe mixed dyslipidemia, and prediabetes. Despite optimization of blood pressure and cardiometabolic therapy, edema progressed to the thighs, and urinary protein excretion increased. Renal ultrasonography showed increased parenchymal echogenicity, with scarring of the lower half of the left kidney. Subsequent evaluation revealed hypoalbuminemia and nephrotic-range proteinuria of 8.64 g/day. Autoimmune and viral hepatitis screening was negative, and a right renal biopsy confirmed minimal change disease (MCD)/podocytopathy. Treatment with prednisolone 60 mg/day and diuretic therapy led to rapid clinical remission, with complete resolution of edema and reduction of 24-hour urinary protein to 190 mg/day by May 2025 and 55 mg/day by July 2025. The course was complicated by steroid-induced Cushingoid features and worsening glycemia, requiring temporary addition of glimepiride. By March 2026, the patient remained clinically well with excellent lipid and glycemic control. This case highlights the importance of early nephrology referral and kidney biopsy in adults with progressive albuminuria and edema, even when cardiometabolic comorbidities such as hypertension, prediabetes, and severe dyslipidemia coexist.",
+      "affiliation": "Department of Renal Transplantation, Najaf Nephrology Center, Al-Sader Teaching Hospital, Najaf, IRQ.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article",
+          "Case Reports",
+          "case-report"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Hypertension",
+          "Proteinuria",
+          "Nephrotic syndrome",
+          "Dyslipidemia",
+          "Albuminuria",
+          "Prediabetes",
+          "Minimal Change Disease",
+          "Steroid-induced Diabetes",
+          "Podocytopathy",
+          "Adult Nephrotic Syndrome"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.7759/cureus.111816"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13422130"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13422130?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-07-31",
+      "dateOfCreation": "2026-07-31",
+      "dateOfRevision": "2026-08-13",
+      "electronicPublicationDate": "2026-06-30",
+      "firstPublicationDate": "2026-06-30",
+      "firstIndexDate": "2026-08-02",
+      "fullTextReceivedDate": "2026-09-04",
+      "hasEvaluations": "N",
+      "inspectedScope": "Europe PMC full abstract and bibliographic metadata inspected by an agent on 2026-10-11; no full-text methods inspection"
+    },
+    {
+      "id": "12840601",
+      "source": "MED",
+      "pmid": "12840601",
+      "doi": "10.1159/000072065",
+      "title": "Interleukin-8 and tumor necrosis factor-alpha are increased in minimal change disease but do not alter albumin permeability.",
+      "authorString": "Cho MH, Lee HS, Choe BH, Kwon SH, Chung KY, Koo JH, Ko CW.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cho MH",
+            "lastName": "Cho",
+            "firstName": "Min Hyun",
+            "initials": "MH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, Kyungpook National University Hospital, Taegu, South Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee HS",
+            "lastName": "Lee",
+            "firstName": "Hwan Seok",
+            "initials": "HS"
+          },
+          {
+            "fullName": "Choe BH",
+            "lastName": "Choe",
+            "firstName": "Byung Ho",
+            "initials": "BH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9899-9120"
+            }
+          },
+          {
+            "fullName": "Kwon SH",
+            "lastName": "Kwon",
+            "firstName": "Soon Hak",
+            "initials": "SH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0783-2243"
+            }
+          },
+          {
+            "fullName": "Chung KY",
+            "lastName": "Chung",
+            "firstName": "Ki Young",
+            "initials": "KY"
+          },
+          {
+            "fullName": "Koo JH",
+            "lastName": "Koo",
+            "firstName": "Ja Hoon",
+            "initials": "JH"
+          },
+          {
+            "fullName": "Ko CW",
+            "lastName": "Ko",
+            "firstName": "Cheol Woo",
+            "initials": "CW"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9899-9120"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0783-2243"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "23",
+        "journalIssueId": 1139776,
+        "dateOfPublication": "2003 Jul-Aug",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2003,
+        "journal": {
+          "medlineAbbreviation": "Am J Nephrol",
+          "title": "American journal of nephrology",
+          "essn": "1421-9670",
+          "issn": "0250-8095",
+          "isoabbreviation": "Am J Nephrol",
+          "nlmid": "8109361"
+        },
+        "printPublicationDate": "2003-07-01"
+      },
+      "pubYear": "2003",
+      "pageInfo": "260-266",
+      "abstractText": "<h4>Aims</h4>Minimal change disease (MCD) is the most common primary nephrotic syndrome in children. Some suggested that interleukin-8 (IL-8) and tumor necrosis factor-alpha (TNF-alpha) are involved in the pathogenesis of MCD. This study was done to see changes of plasma and urinary IL-8, TNF-alpha, and their effects on determination of permeability of glomerular basement membrane (BM) contributed by heparan sulfate proteoglycan (HSPG).<h4>Methods</h4>Study patients consisted of 19 biopsy-proven MCD children aged 2-15 years old. Both plasma, urinary IL-8 and TNF-alpha were measured. Employing the Millicell system, IL-8 and TNF-alpha were screened for the permeability factors. We examined whether IL-8 and TNF-alpha regulated BM HSPG gene expression and HS synthesis in the glomerular epithelial cells (GECs).<h4>Results</h4>Urinary IL-8 during relapse was significantly increased when compared with that of during remission or controls (13,996 +/- 2,811 vs. 2,941 +/- 373, 5,331 +/- 640 ng/mg.cr) (p < 0.05). Urinary TNF-alpha during relapse was also significantly increased (364.4 +/- 51.2 vs. 155.3 +/- 20.8, 36.0 +/- 4.5 ng/mg.cr) (p < 0.05). Plasma IL-8 during relapse was significantly increased compared to that during remission(1.19 +/- 0.62 vs. 0.51 +/- 0.42 ng/ml) (p < 0.05). However, the negative results were obtained in the permeability assay using the Millicell system. No difference was seen in BM HSPG gene expression and HS synthesis in the GECs.<h4>Conclusion</h4>Therefore, it seems that both IL-8 and TNF-alpha may not play a disease-specific role in the pathogenesis of MCD.",
+      "affiliation": "Department of Pediatrics, Kyungpook National University Hospital, Taegu, South Korea.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Kidney Glomerulus",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PP",
+                  "qualifierName": "physiopathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Epithelium",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Basement Membrane",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PP",
+                  "qualifierName": "physiopathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Nephrosis, Lipoid",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Recurrence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Tumor Necrosis Factor-alpha",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Albumins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Interleukin-8",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Permeability"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adolescent"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child, Preschool"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Heparan Sulfate Proteoglycans",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Heparan Sulfate",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Albumins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Tumor Necrosis Factor-alpha",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Interleukin-8",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Heparan Sulfate Proteoglycans",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Heparan Sulfate",
+            "registryNumber": "9050-30-0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.karger.com/Article/Pdf/72065"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1159/000072065"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 25,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2003-11-17",
+      "dateOfCreation": "2003-07-04",
+      "dateOfRevision": "2026-01-28",
+      "electronicPublicationDate": "2003-07-01",
+      "firstPublicationDate": "2003-07-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N",
+      "inspectedScope": "Europe PMC full abstract and bibliographic metadata inspected by an agent on 2026-10-11; no full-text methods inspection"
+    },
+    {
+      "id": "17389786",
+      "source": "MED",
+      "pmid": "17389786",
+      "doi": "10.1159/000101371",
+      "title": "Coincident activation of Th2 T cells with onset of the disease and differential expression of GRO-gamma in peripheral blood leukocytes in minimal change disease.",
+      "authorString": "Adrogue HE, Borillo J, Torres L, Kale A, Zhou C, Feig D, Merszei J, Johnson R, Lou YH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Adrogue HE",
+            "lastName": "Adrogue",
+            "firstName": "Horacio E",
+            "initials": "HE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, Baylor College of Medicine and the Methodist Hospital, Houston, Tex., USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borillo J",
+            "lastName": "Borillo",
+            "firstName": "Jason",
+            "initials": "J"
+          },
+          {
+            "fullName": "Torres L",
+            "lastName": "Torres",
+            "firstName": "Lisa",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5124-0395"
+            }
+          },
+          {
+            "fullName": "Kale A",
+            "lastName": "Kale",
+            "firstName": "Arundhati",
+            "initials": "A"
+          },
+          {
+            "fullName": "Zhou C",
+            "lastName": "Zhou",
+            "firstName": "Cindy",
+            "initials": "C"
+          },
+          {
+            "fullName": "Feig D",
+            "lastName": "Feig",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0017-6335"
+            }
+          },
+          {
+            "fullName": "Merszei J",
+            "lastName": "Merszei",
+            "firstName": "Justin",
+            "initials": "J"
+          },
+          {
+            "fullName": "Johnson R",
+            "lastName": "Johnson",
+            "firstName": "Richard",
+            "initials": "R"
+          },
+          {
+            "fullName": "Lou YH",
+            "lastName": "Lou",
+            "firstName": "Ya-Huan",
+            "initials": "YH"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5124-0395"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0017-6335"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "27",
+        "journalIssueId": 1398186,
+        "dateOfPublication": "2007 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2007,
+        "journal": {
+          "medlineAbbreviation": "Am J Nephrol",
+          "title": "American journal of nephrology",
+          "essn": "1421-9670",
+          "issn": "0250-8095",
+          "isoabbreviation": "Am J Nephrol",
+          "nlmid": "8109361"
+        },
+        "printPublicationDate": "2007-01-01"
+      },
+      "pubYear": "2007",
+      "pageInfo": "253-261",
+      "abstractText": "<h4>Background</h4>Involvement of Th2 T cells/NFkappaB in minimal change disease (MCD) has been postulated. A promising but unconfirmed glomerular permeability factor (GPF) from MCD T cells has been described. We explored whether GPF was the consequence of Th2 cell activation.<h4>Methods</h4>Peripheral blood leukocytes (PBL) from 16 MCD patients and 7 normal controls were analyzed and the results were statistically compared.<h4>Results</h4>Flow cytometry demonstrated a significant expansion of CD4+ T cell population and dramatically increased CD69+ cells among CD4+ T cells in MCD, suggesting coincident activation of T cells with onset of the disease. RT-PCR on RNA from either freshly isolated PBL or post in vitroactivation showed high-level expression of the Th2 cytokine interleukin-4 in all MCD patients. Importantly, both antibody microarray assay on sera and RT-PCR on mRNA of PBL revealed expression of a CXC chemokine GRO-gamma (growth-related oncogene) in all MCD patients as compared with one of 7 controls.<h4>Conclusions</h4>Our results reveal an association between onset of MCD and activation of Th2 cells. The GRO family has been implicated in the function of endothelial cells, and its expression is under NFkappaB regulation. Thus, GRO-gamma is a promising candidate for Th2-associated GPF in MCD.",
+      "affiliation": "Department of Medicine, Baylor College of Medicine and the Methodist Hospital, Houston, Tex., USA.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "BLRD VA",
+            "acronym": "BX",
+            "grantId": "I01 BX002586",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "DK00627-S",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "R01-DK06027",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Th2 Cells",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Nephrosis, Lipoid",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Lectins, C-Type"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Chemokines, CXC",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Antigens, CD",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Antigens, Differentiation, T-Lymphocyte",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cytokines",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "CD4 Lymphocyte Count"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Case-Control Studies"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Lymphocyte Activation",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Permeability"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child, Preschool"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Glomerular Basement Membrane",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "CD4 Antigens",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "CD69 Antigens"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Antigens, Differentiation, T-Lymphocyte",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Antigens, CD",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Cytokines",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Lectins, C-Type",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Chemokines, CXC",
+            "registryNumber": "0"
+          },
+          {
+            "name": "CXCL3 protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "CD4 Antigens",
+            "registryNumber": "0"
+          },
+          {
+            "name": "CD69 Antigens",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1159/000101371"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 12,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2007-06-27",
+      "dateOfCreation": "2007-03-29",
+      "dateOfRevision": "2026-01-28",
+      "electronicPublicationDate": "2007-03-27",
+      "firstPublicationDate": "2007-03-27",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N",
+      "inspectedScope": "Europe PMC full abstract and bibliographic metadata inspected by an agent on 2026-10-11; no full-text methods inspection"
+    }
+  ],
+  "findings": [
+    {
+      "id": "mcn-nephrin-binding",
+      "pmid": "34732507",
+      "subject": "entity-anti-nephrin",
+      "object": "entity-nephrin",
+      "predicate": "is_associated_with",
+      "causalInterpretation": "association",
+      "text": "Circulating nephrin autoantibodies were identified in a subset of adults and children with active MCD using nephrin-specific assays.",
+      "quote": "In two independent patient cohorts, we identified circulating nephrin autoantibodies during active disease that were significantly reduced or absent during treatment response in a subset of patients with minimal change disease.",
+      "quoteLocation": "Europe PMC abstract; Results or case presentation",
+      "studySystem": "Human MCD cohorts; serum antibody assays and renal biopsy immunofluorescence",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-only agent inspection; independent domain review pending.",
+        "Subset-specific observation, not proof of antibody-mediated injury in every patient."
+      ],
+      "sourceCheck": {
+        "checkedBy": "pi-agent-source-check",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcn-podocyte-igg",
+      "pmid": "34732507",
+      "subject": "entity-anti-nephrin",
+      "object": "entity-podocyte",
+      "predicate": "is_associated_with",
+      "causalInterpretation": "association",
+      "text": "Circulating nephrin autoantibodies correlated with podocyte-associated punctate IgG in institutional renal biopsies.",
+      "quote": "We correlated the presence of these autoantibodies with podocyte-associated punctate IgG in renal biopsies from our institutions.",
+      "quoteLocation": "Europe PMC abstract; Results or case presentation",
+      "studySystem": "Human MCD cohorts; serum antibody assays and renal biopsy immunofluorescence",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-only agent inspection; independent domain review pending.",
+        "Colocalization and correlation do not establish causal sufficiency."
+      ],
+      "sourceCheck": {
+        "checkedBy": "pi-agent-source-check",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcn-b-cell-antibody",
+      "pmid": "41736774",
+      "subject": "entity-b_cells",
+      "object": "entity-anti-nephrin",
+      "predicate": "is_associated_with",
+      "causalInterpretation": "association",
+      "text": "Anti-nephrin-positive patients had a larger plasmablast fraction at diagnosis, but the between-group difference was not statistically significant.",
+      "quote": "Anti-nephrin positive patients exhibited a larger fraction of plasmablasts than anti-nephrin negative patients at t 0 , albeit not statistically significant.",
+      "quoteLocation": "Europe PMC abstract; Results or case presentation",
+      "studySystem": "Prospective blood sampling of 17 adults with biopsy-proven MCD before and after steroid therapy",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-only agent inspection; independent domain review pending.",
+        "Small cohort; a nonsignificant difference does not demonstrate antibody production by a particular B-cell subset."
+      ],
+      "sourceCheck": {
+        "checkedBy": "pi-agent-source-check",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcn-effacement",
+      "pmid": "41644841",
+      "subject": "entity-effacement",
+      "object": "entity-nephrotic",
+      "predicate": "is_associated_with",
+      "causalInterpretation": "association",
+      "text": "An adult with nephrotic syndrome had biopsy findings consistent with MCD, including diffuse foot-process effacement, followed by spontaneous proteinuria resolution.",
+      "quote": "A kidney biopsy revealed findings consistent with minimal change disease, including diffuse foot process effacement, and proteinuria resolved spontaneously without immunosuppressive therapy.",
+      "quoteLocation": "Europe PMC abstract; Results or case presentation",
+      "studySystem": "Single adult MCD case; kidney biopsy and clinical measurements",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-only agent inspection; independent domain review pending.",
+        "Single infection-associated case; temporal observations do not establish direction or generality."
+      ],
+      "sourceCheck": {
+        "checkedBy": "pi-agent-source-check",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcn-proteinuria",
+      "pmid": "42534885",
+      "subject": "entity-proteinuria",
+      "object": "entity-nephrotic",
+      "predicate": "is_associated_with",
+      "causalInterpretation": "association",
+      "text": "An adult with biopsy-confirmed MCD presented with nephrotic-range proteinuria of 8.64 g/day and hypoalbuminemia.",
+      "quote": "Subsequent evaluation revealed hypoalbuminemia and nephrotic-range proteinuria of 8.64 g/day.",
+      "quoteLocation": "Europe PMC abstract; Results or case presentation",
+      "studySystem": "Single adult MCD case; kidney biopsy and clinical measurements",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-only agent inspection; independent domain review pending.",
+        "Single adult case with hypertension and prediabetes; no population-wide estimate."
+      ],
+      "sourceCheck": {
+        "checkedBy": "pi-agent-source-check",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcn-il8-relapse",
+      "pmid": "12840601",
+      "subject": "entity-il8",
+      "object": "entity-nephrotic",
+      "predicate": "is_associated_with",
+      "causalInterpretation": "association",
+      "text": "Urinary IL-8 was increased during relapse compared with remission or controls in children with biopsy-proven MCD.",
+      "quote": "Urinary IL-8 during relapse was significantly increased when compared with that of during remission or controls",
+      "quoteLocation": "Europe PMC abstract; Results or case presentation",
+      "studySystem": "19 children with biopsy-proven MCD; urinary cytokine measurements and permeability assays",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-only agent inspection; independent domain review pending.",
+        "Cached abstract is truncated at the results p-value; no numerical significance threshold is inferred."
+      ],
+      "sourceCheck": {
+        "checkedBy": "pi-agent-source-check",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcn-il8-qualification",
+      "pmid": "12840601",
+      "subject": "entity-il8",
+      "object": "entity-nephrotic",
+      "predicate": "is_associated_with",
+      "causalInterpretation": "association",
+      "text": "The authors concluded that IL-8 and TNF-alpha may not play a disease-specific pathogenic role, qualifying a causal reading of the urinary IL-8 association.",
+      "quote": "Therefore, it seems that both IL-8 and TNF-alpha may not play a disease-specific role in the pathogenesis of MCD.",
+      "quoteLocation": "Europe PMC abstract; Results or case presentation",
+      "studySystem": "19 children with biopsy-proven MCD; urinary cytokine measurements and permeability assays",
+      "evidenceType": "human_observational",
+      "category": "qualifying",
+      "limitations": [
+        "Abstract-only agent inspection; independent domain review pending.",
+        "Full assay results are unavailable in the truncated abstract; no detailed negative mechanism is asserted."
+      ],
+      "sourceCheck": {
+        "checkedBy": "pi-agent-source-check",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcn-cd4-activation",
+      "pmid": "17389786",
+      "subject": "entity-cd4",
+      "object": "entity-nephrotic",
+      "predicate": "is_associated_with",
+      "causalInterpretation": "association",
+      "text": "Peripheral CD4 T-cell expansion and increased CD69 activation coincided with MCD onset.",
+      "quote": "Flow cytometry demonstrated a significant expansion of CD4+ T cell population and dramatically increased CD69+ cells among CD4+ T cells in MCD, suggesting coincident activation of T cells with onset of the disease.",
+      "quoteLocation": "Europe PMC abstract; Results or case presentation",
+      "studySystem": "Peripheral blood leukocytes from 16 MCD patients and 7 controls",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-only agent inspection; independent domain review pending.",
+        "Association only; bulk leukocyte expression does not establish a cell-specific permeability-factor pathway."
+      ],
+      "sourceCheck": {
+        "checkedBy": "pi-agent-source-check",
+        "checkedAt": "2026-10-11"
+      }
+    }
+  ],
+  "positions": [
+    {
+      "entityId": "entity-anti-nephrin",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "entityId": "entity-nephrin",
+      "x": 380,
+      "y": 0
+    },
+    {
+      "entityId": "entity-podocyte",
+      "x": 760,
+      "y": 0
+    },
+    {
+      "entityId": "entity-b_cells",
+      "x": 0,
+      "y": 260
+    },
+    {
+      "entityId": "entity-effacement",
+      "x": 380,
+      "y": 260
+    },
+    {
+      "entityId": "entity-nephrotic",
+      "x": 760,
+      "y": 260
+    },
+    {
+      "entityId": "entity-proteinuria",
+      "x": 0,
+      "y": 520
+    },
+    {
+      "entityId": "entity-il8",
+      "x": 380,
+      "y": 520
+    },
+    {
+      "entityId": "entity-cd4",
+      "x": 760,
+      "y": 520
+    }
+  ],
+  "viewLabel": "Immune associations and nephrotic presentation",
+  "releaseNote": "Initial bounded candidate from six retrieved primary reports. Eight abstract-checked claims, including an IL-8 qualification. All relationships are associative. Therapies, independent scientific review and calibration remain pending."
+}
