@@ -1,0 +1,2857 @@
+{
+  "version": 1,
+  "sourceKind": "manual-import",
+  "checkedAt": "2026-10-12",
+  "records": [
+    {
+      "id": "38804512",
+      "source": "MED",
+      "pmid": "38804512",
+      "doi": "10.1056/nejmoa2314471",
+      "title": "Autoantibodies Targeting Nephrin in Podocytopathies.",
+      "authorString": "Hengel FE, Dehde S, Lassé M, Zahner G, Seifert L, Schnarre A, Kretz O, Demir F, Pinnschmidt HO, Grahammer F, Lucas R, Mehner LM, Zimmermann T, Billing AM, Oh J, Mitrotti A, Pontrelli P, Debiec H, Dossier C, Colucci M, Emma F, Smoyer WE, Weins A, Schaefer F, Alachkar N, Diemert A, Hogan J, Hoxha E, Wiech T, Rinschen MM, Ronco P, Vivarelli M, Gesualdo L, Tomas NM, Huber TB, International Society of Glomerular Disease.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hengel FE",
+            "lastName": "Hengel",
+            "firstName": "Felicitas E",
+            "initials": "FE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4899-414X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dehde S",
+            "lastName": "Dehde",
+            "firstName": "Silke",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lassé M",
+            "lastName": "Lassé",
+            "firstName": "Moritz",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5735-9549"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zahner G",
+            "lastName": "Zahner",
+            "firstName": "Gunther",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seifert L",
+            "lastName": "Seifert",
+            "firstName": "Larissa",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schnarre A",
+            "lastName": "Schnarre",
+            "firstName": "Annabel",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kretz O",
+            "lastName": "Kretz",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Demir F",
+            "lastName": "Demir",
+            "firstName": "Fatih",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pinnschmidt HO",
+            "lastName": "Pinnschmidt",
+            "firstName": "Hans O",
+            "initials": "HO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grahammer F",
+            "lastName": "Grahammer",
+            "firstName": "Florian",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lucas R",
+            "lastName": "Lucas",
+            "firstName": "Renke",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mehner LM",
+            "lastName": "Mehner",
+            "firstName": "Lea Maxima",
+            "initials": "LM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zimmermann T",
+            "lastName": "Zimmermann",
+            "firstName": "Tom",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Billing AM",
+            "lastName": "Billing",
+            "firstName": "Anja M",
+            "initials": "AM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oh J",
+            "lastName": "Oh",
+            "firstName": "Jun",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mitrotti A",
+            "lastName": "Mitrotti",
+            "firstName": "Adele",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pontrelli P",
+            "lastName": "Pontrelli",
+            "firstName": "Paola",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Debiec H",
+            "lastName": "Debiec",
+            "firstName": "Hanna",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dossier C",
+            "lastName": "Dossier",
+            "firstName": "Claire",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Colucci M",
+            "lastName": "Colucci",
+            "firstName": "Manuela",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0969-7521"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Emma F",
+            "lastName": "Emma",
+            "firstName": "Francesco",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smoyer WE",
+            "lastName": "Smoyer",
+            "firstName": "William E",
+            "initials": "WE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weins A",
+            "lastName": "Weins",
+            "firstName": "Astrid",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schaefer F",
+            "lastName": "Schaefer",
+            "firstName": "Franz",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alachkar N",
+            "lastName": "Alachkar",
+            "firstName": "Nada",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Diemert A",
+            "lastName": "Diemert",
+            "firstName": "Anke",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hogan J",
+            "lastName": "Hogan",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoxha E",
+            "lastName": "Hoxha",
+            "firstName": "Elion",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wiech T",
+            "lastName": "Wiech",
+            "firstName": "Thorsten",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4053-1474"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rinschen MM",
+            "lastName": "Rinschen",
+            "firstName": "Markus M",
+            "initials": "MM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ronco P",
+            "lastName": "Ronco",
+            "firstName": "Pierre",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vivarelli M",
+            "lastName": "Vivarelli",
+            "firstName": "Marina",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gesualdo L",
+            "lastName": "Gesualdo",
+            "firstName": "Loreto",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tomas NM",
+            "lastName": "Tomas",
+            "firstName": "Nicola M",
+            "initials": "NM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huber TB",
+            "lastName": "Huber",
+            "firstName": "Tobias B",
+            "initials": "TB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.)."
+                }
+              ]
+            }
+          },
+          {
+            "collectiveName": "International Society of Glomerular Disease"
+          }
+        ]
+      },
+      "investigatorList": {
+        "investigator": [
+          {
+            "fullName": "Hengel FE",
+            "lastName": "Hengel",
+            "firstName": "Felicitas E",
+            "initials": "FE"
+          },
+          {
+            "fullName": "Dehde S",
+            "lastName": "Dehde",
+            "firstName": "Silke",
+            "initials": "S"
+          },
+          {
+            "fullName": "Lassé M",
+            "lastName": "Lassé",
+            "firstName": "Moritz",
+            "initials": "M"
+          },
+          {
+            "fullName": "Zahner G",
+            "lastName": "Zahner",
+            "firstName": "Gunther",
+            "initials": "G"
+          },
+          {
+            "fullName": "Seifert L",
+            "lastName": "Seifert",
+            "firstName": "Larissa",
+            "initials": "L"
+          },
+          {
+            "fullName": "Schnarre A",
+            "lastName": "Schnarre",
+            "firstName": "Annabel",
+            "initials": "A"
+          },
+          {
+            "fullName": "Kretz O",
+            "lastName": "Kretz",
+            "firstName": "Oliver",
+            "initials": "O"
+          },
+          {
+            "fullName": "Demir F",
+            "lastName": "Demir",
+            "firstName": "Fatih",
+            "initials": "F"
+          },
+          {
+            "fullName": "Pinnschmidt HO",
+            "lastName": "Pinnschmidt",
+            "firstName": "Hans O",
+            "initials": "HO"
+          },
+          {
+            "fullName": "Grahammer F",
+            "lastName": "Grahammer",
+            "firstName": "Florian",
+            "initials": "F"
+          },
+          {
+            "fullName": "Lucas R",
+            "lastName": "Lucas",
+            "firstName": "Renke",
+            "initials": "R"
+          },
+          {
+            "fullName": "Mehner LM",
+            "lastName": "Mehner",
+            "firstName": "Lea Maxima",
+            "initials": "LM"
+          },
+          {
+            "fullName": "Zimmermann T",
+            "lastName": "Zimmermann",
+            "firstName": "Tom",
+            "initials": "T"
+          },
+          {
+            "fullName": "Billing AM",
+            "lastName": "Billing",
+            "firstName": "Anja M",
+            "initials": "AM"
+          },
+          {
+            "fullName": "Oh J",
+            "lastName": "Oh",
+            "firstName": "Jun",
+            "initials": "J"
+          },
+          {
+            "fullName": "Mitrotti A",
+            "lastName": "Mitrotti",
+            "firstName": "Adele",
+            "initials": "A"
+          },
+          {
+            "fullName": "Pontrelli P",
+            "lastName": "Pontrelli",
+            "firstName": "Paola",
+            "initials": "P"
+          },
+          {
+            "fullName": "Debiec H",
+            "lastName": "Debiec",
+            "firstName": "Hanna",
+            "initials": "H"
+          },
+          {
+            "fullName": "Dossier C",
+            "lastName": "Dossier",
+            "firstName": "Claire",
+            "initials": "C"
+          },
+          {
+            "fullName": "Colucci M",
+            "lastName": "Colucci",
+            "firstName": "Manuela",
+            "initials": "M"
+          },
+          {
+            "fullName": "Emma F",
+            "lastName": "Emma",
+            "firstName": "Francesco",
+            "initials": "F"
+          },
+          {
+            "fullName": "Smoyer WE",
+            "lastName": "Smoyer",
+            "firstName": "William E",
+            "initials": "WE"
+          },
+          {
+            "fullName": "Weins A",
+            "lastName": "Weins",
+            "firstName": "Astrid",
+            "initials": "A"
+          },
+          {
+            "fullName": "Schaefer F",
+            "lastName": "Schaefer",
+            "firstName": "Franz",
+            "initials": "F"
+          },
+          {
+            "fullName": "Alachkar N",
+            "lastName": "Alachkar",
+            "firstName": "Nada",
+            "initials": "N"
+          },
+          {
+            "fullName": "Diemert A",
+            "lastName": "Diemert",
+            "firstName": "Anke",
+            "initials": "A"
+          },
+          {
+            "fullName": "Hogan J",
+            "lastName": "Hogan",
+            "firstName": "Julien",
+            "initials": "J"
+          },
+          {
+            "fullName": "Hoxha E",
+            "lastName": "Hoxha",
+            "firstName": "Elion",
+            "initials": "E"
+          },
+          {
+            "fullName": "Wiech T",
+            "lastName": "Wiech",
+            "firstName": "Thorsten",
+            "initials": "T"
+          },
+          {
+            "fullName": "Rinschen MM",
+            "lastName": "Rinschen",
+            "firstName": "Markus M",
+            "initials": "MM"
+          },
+          {
+            "fullName": "Ronco P",
+            "lastName": "Ronco",
+            "firstName": "Pierre",
+            "initials": "P"
+          },
+          {
+            "fullName": "Vivarelli M",
+            "lastName": "Vivarelli",
+            "firstName": "Marina",
+            "initials": "M"
+          },
+          {
+            "fullName": "Gesualdo L",
+            "lastName": "Gesualdo",
+            "firstName": "Loreto",
+            "initials": "L"
+          },
+          {
+            "fullName": "Tomas NM",
+            "lastName": "Tomas",
+            "firstName": "Nicola M",
+            "initials": "NM"
+          },
+          {
+            "fullName": "Huber TB",
+            "lastName": "Huber",
+            "firstName": "Tobias B",
+            "initials": "TB"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5735-9549"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5744-0205"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7037-7773"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9252-1342"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0969-7521"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1846-675X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4053-1474"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4899-414X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5",
+        "volume": "391",
+        "journalIssueId": 3806100,
+        "dateOfPublication": "2024 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2024,
+        "journal": {
+          "medlineAbbreviation": "N Engl J Med",
+          "title": "The New England journal of medicine",
+          "essn": "1533-4406",
+          "issn": "0028-4793",
+          "isoabbreviation": "N Engl J Med",
+          "nlmid": "0255562"
+        },
+        "printPublicationDate": "2024-08-01"
+      },
+      "pubYear": "2024",
+      "pageInfo": "422-433",
+      "abstractText": "<h4>Background</h4>Minimal change disease and primary focal segmental glomerulosclerosis in adults, along with idiopathic nephrotic syndrome in children, are immune-mediated podocytopathies that lead to nephrotic syndrome. Autoantibodies targeting nephrin have been found in patients with minimal change disease, but their clinical and pathophysiological roles are unclear.<h4>Methods</h4>We conducted a multicenter study to analyze antinephrin autoantibodies in adults with glomerular diseases, including minimal change disease, focal segmental glomerulosclerosis, membranous nephropathy, IgA nephropathy, antineutrophil cytoplasmic antibody-associated glomerulonephritis, and lupus nephritis, as well as in children with idiopathic nephrotic syndrome and in controls. We also created an experimental mouse model through active immunization with recombinant murine nephrin.<h4>Results</h4>The study included 539 patients (357 adults and 182 children) and 117 controls. Among the adults, antinephrin autoantibodies were found in 46 of the 105 patients (44%) with minimal change disease, 7 of 74 (9%) with primary focal segmental glomerulosclerosis, and only in rare cases among the patients with other conditions. Of the 182 children with idiopathic nephrotic syndrome, 94 (52%) had detectable antinephrin autoantibodies. In the subgroup of patients with active minimal change disease or idiopathic nephrotic syndrome who were not receiving immunosuppressive treatment, the prevalence of antinephrin autoantibodies was as high as 69% and 90%, respectively. At study inclusion and during follow-up, antinephrin autoantibody levels were correlated with disease activity. Experimental immunization induced a nephrotic syndrome, a minimal change disease-like phenotype, IgG localization to the podocyte slit diaphragm, nephrin phosphorylation, and severe cytoskeletal changes in mice.<h4>Conclusions</h4>In this study, circulating antinephrin autoantibodies were common in patients with minimal change disease or idiopathic nephrotic syndrome and appeared to be markers of disease activity. Their binding at the slit diaphragm induced podocyte dysfunction and nephrotic syndrome, which highlights their pathophysiological significance. (Funded by Deutsche Forschungsgemeinschaft and others.).",
+      "affiliation": "From the III. Department of Medicine (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., E.H., M.M.R., N.M.T., T.B.H.) and the Departments of Medical Biometry and Epidemiology (H.O.P.), Pathology (T.Z., T.W.), Pediatric Nephrology (J.O.), and Obstetrics and Fetal Medicine (A.D.), Hamburg Center for Kidney Health (F.E.H., S.D., M.L., G.Z., L.S., A.S., O.K., F.G., R.L., L.M.M., J.O., E.H., M.M.R., N.M.T., T.B.H.), and the Hamburg Center for Translational Immunology (N.M.T., T.B.H.), University Medical Center Hamburg-Eppendorf, Hamburg, and the Center for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg (F.S.) - all in Germany; the Department of Biomedicine, Aarhus University, Aarhus, Denmark (F.D., A.M.B., M.M.R.); the Department of Precision and Regenerative Medicine and Ionian Area, Nephrology, Dialysis, and Transplantation Unit, University of Bari Aldo Moro, Bari (A.M., P.P., L.G.), and the Division of Nephrology, Bambino Gesù Children's Hospital, IRCCS, Rome (M.C., F.E., M.V.) - both in Italy; INSERM, Unité Mixte de Recherche S 1155, Sorbonne Université (H.D., P.R.), and the Pediatric Nephrology Department, Robert Debré Hospital, Assistance Publique-Hôpitaux de Paris (C.D., J.H.), Paris, and the Division of Nephrology, Centre Hospitalier du Mans, Le Mans (P.R.) - all in France; the Center for Clinical and Translational Research, Abigail Wexner Research Institute at Nationwide Children's Hospital, and the Department of Pediatrics, Ohio State University College of Medicine - both in Columbus (W.E.S.); the Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School - both in Boston (A.W.); and the Department of Medicine, Johns Hopkins University School of Medicine, Baltimore (N.A.).",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Else Kröner-Fresenius-Stiftung",
+            "grantId": "2019_KollegSE.04",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "Emmy Noether Program TO1013",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "HU 1016/ 12-1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "Collaborative Research Center 1192",
+            "orderIn": 0
+          },
+          {
+            "agency": "Novo Nordisk Fonden",
+            "grantId": "NNF19OC0056043",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "HU 1016/8-2",
+            "orderIn": 0
+          },
+          {
+            "agency": "Bundesministerium für Bildung und Forschung",
+            "grantId": "NephrESA-031L0191E",
+            "orderIn": 0
+          },
+          {
+            "agency": "Eva Luise und Horst Köhler Stiftung",
+            "grantId": "2019_KollegSE.04",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "KR 1984/4-1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Bundesministerium für Bildung und Forschung",
+            "grantId": "STOP-FSGS- 01GM2202A",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "HU 1016/11-1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Bundesministerium für Bildung und Forschung",
+            "grantId": "UPTAKE- 01EK2105D",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Society for Pediatric Nephrology",
+            "grantId": "research grant 2018",
+            "orderIn": 0
+          },
+          {
+            "agency": "Else Kröner-Fresenius-Stiftung",
+            "grantId": "2021_EKFK.15",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mice"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Glomerulonephritis, IGA",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Lupus Nephritis",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Nephrosis, Lipoid",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Nephrotic Syndrome",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Disease Models, Animal"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Membrane Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Autoantibodies",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biopsy"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child, Preschool"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Podocytes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Glomerulosclerosis, Focal Segmental",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "nephrin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Membrane Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Autoantibodies",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1056/NEJMoa2314471"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39383467",
+            "reference": "N Engl J Med. 2024 Oct 10;391(14):1365. doi: 10.1056/NEJMc2410840.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "39383468",
+            "reference": "N Engl J Med. 2024 Oct 10;391(14):1365-1366. doi: 10.1056/NEJMc2410840.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "39383469",
+            "reference": "N Engl J Med. 2024 Oct 10;391(14):1366. doi: 10.1056/NEJMc2410840.",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "39383470",
+            "reference": "N Engl J Med. 2024 Oct 10;391(14):1367-1368. doi: 10.1056/NEJMc2410840.",
+            "type": "Comment in",
+            "orderIn": 4
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 228,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2024-07-31",
+      "dateOfCreation": "2024-05-28",
+      "dateOfRevision": "2025-07-01",
+      "electronicPublicationDate": "2024-05-25",
+      "firstPublicationDate": "2024-05-25",
+      "firstIndexDate": "2024-05-28",
+      "hasEvaluations": "N",
+      "inspectedScope": "Europe PMC abstract and bibliographic metadata inspected by an agent (Claude Opus 5.5) on 2026-10-12 (UTC); no full-text methods inspection"
+    },
+    {
+      "id": "40147632",
+      "source": "MED",
+      "pmid": "40147632",
+      "doi": "10.1016/j.kint.2025.02.028",
+      "title": "Anti-nephrin antibodies in adult Chinese patients with minimal change disease and primary focal segmental glomerulosclerosis.",
+      "authorString": "Shu Y, Huang J, Jiang L, Zhang YM, Wang F, Wang X, Meng LQ, Cheng XY, Liu G, Wang SX, Zhao MH, Ronco P, Cui Z.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shu Y",
+            "lastName": "Shu",
+            "firstName": "Yue",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huang J",
+            "lastName": "Huang",
+            "firstName": "Jing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jiang L",
+            "lastName": "Jiang",
+            "firstName": "Lei",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang YM",
+            "lastName": "Zhang",
+            "firstName": "Yi-Miao",
+            "initials": "YM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang F",
+            "lastName": "Wang",
+            "firstName": "Fang",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang X",
+            "lastName": "Wang",
+            "firstName": "Xin",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meng LQ",
+            "lastName": "Meng",
+            "firstName": "Li-Qiang",
+            "initials": "LQ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cheng XY",
+            "lastName": "Cheng",
+            "firstName": "Xu-Yang",
+            "initials": "XY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu G",
+            "lastName": "Liu",
+            "firstName": "Gang",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang SX",
+            "lastName": "Wang",
+            "firstName": "Su-Xia",
+            "initials": "SX",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Electron Microscopy, Pathological Center, Peking University First Hospital, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao MH",
+            "lastName": "Zhao",
+            "firstName": "Ming-Hui",
+            "initials": "MH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ronco P",
+            "lastName": "Ronco",
+            "firstName": "Pierre",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sorbonne Université, and Institut National de la Santé et de la Recherche Médicale (Inserm), Unité Mixte de Recherche S1155, Paris, France; Department of Nephrology, Centre Hospitalier du Mans, Le Mans, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cui Z",
+            "lastName": "Cui",
+            "firstName": "Zhao",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China. Electronic address: cuizhao@bjmu.edu.cn."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7631-6464"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "108",
+        "journalIssueId": 4001346,
+        "dateOfPublication": "2025 Sep",
+        "monthOfPublication": 9,
+        "yearOfPublication": 2025,
+        "journal": {
+          "medlineAbbreviation": "Kidney Int",
+          "title": "Kidney international",
+          "essn": "1523-1755",
+          "issn": "0085-2538",
+          "nlmid": "0323470",
+          "isoabbreviation": "Kidney Int"
+        },
+        "printPublicationDate": "2025-09-01"
+      },
+      "pubYear": "2025",
+      "pageInfo": "433-444",
+      "abstractText": "<h4>Introduction</h4>Anti-nephrin autoantibodies have been discovered in patients with minimal change disease (MCD) and primary focal segmental glomerulosclerosis (FSGS), especially in those with active nephrotic syndrome.<h4>Methods</h4>Here, we investigated the prevalence and clinical significance of anti-nephrin antibodies in 596 adult Chinese patients (436 with MCD and 160 with primary FSGS) diagnosed by kidney biopsy.<h4>Results</h4>Anti-nephrin IgG and IgM were detected using ELISA, with validation through antigen-inhibition ELISA and Western blotting. Clinical data at biopsy and during the follow-up period were analyzed. Anti-nephrin antibodies were detected in 43% of all patients, with 30% testing positive for anti-nephrin IgG, 26% for anti-nephrin IgM, and 13.1% for both antibodies. The prevalence of anti-nephrin antibodies was higher in patients with nephrotic-range proteinuria who were not receiving steroids or immunosuppressants (51.1%). Patients with positive anti-nephrin antibodies exhibited more severe nephrotic syndrome, higher rates of relapse, and a shorter relapse-free period compared to those negative for these antibodies. Clinical features were similar between those with IgG and IgM. Notably, patients with both anti-nephrin IgG and IgM had the most severe proteinuria and the highest relapse frequency, suggesting a dose-dependent effect. Longitudinal analysis revealed that anti-nephrin antibodies significantly decreased during clinical remission, while they reappeared preceding proteinuria relapse.<h4>Conclusions</h4>Our study shows that anti-nephrin antibodies, including IgG and IgM, are detectable in adult patients with MCD and primary FSGS and are associated with active nephrotic syndrome and frequent relapse. These antibodies may serve as valuable biomarkers and potential therapeutic targets.",
+      "affiliation": "Renal Division, Peking University First Hospital; Institute of Nephrology, Peking University; Key Laboratory of Renal Disease, Ministry of Health of China; Key Laboratory of CKD Prevention and Treatment, Ministry of Education of China, Beijing, China; Research Units of Diagnosis and Treatment of Immune-mediated Kidney Diseases, Chinese Academy of Medical Sciences, Beijing, China.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "82325009",
+            "orderIn": 0
+          },
+          {
+            "agency": "Peking University",
+            "grantId": "2023IR19",
+            "orderIn": 0
+          },
+          {
+            "agency": "Peking University First Hospital",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "82090021",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Kidney",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Nephrosis, Lipoid",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DI",
+                  "qualifierName": "diagnosis"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DT",
+                  "qualifierName": "drug therapy"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Proteinuria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Recurrence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Immunoglobulin G",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Immunoglobulin M",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Membrane Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Immunosuppressive Agents",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "TU",
+                  "qualifierName": "therapeutic use"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Autoantibodies",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biopsy"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Enzyme-Linked Immunosorbent Assay"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adolescent"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "China",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "EP",
+                  "qualifierName": "epidemiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Glomerulosclerosis, Focal Segmental",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DI",
+                  "qualifierName": "diagnosis"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DT",
+                  "qualifierName": "drug therapy"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Young Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biomarkers",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "East Asian People"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "IgG",
+          "IgM",
+          "Nephrin",
+          "Minimal Change Disease",
+          "Focal Segmental Glomerulosclerosis"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Membrane Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Autoantibodies",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Immunoglobulin G",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Immunoglobulin M",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Immunosuppressive Agents",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Biomarkers",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.kint.2025.02.028"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 27,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2025-08-22",
+      "dateOfCreation": "2025-03-27",
+      "dateOfRevision": "2026-09-23",
+      "electronicPublicationDate": "2025-03-25",
+      "firstPublicationDate": "2025-03-25",
+      "firstIndexDate": "2025-04-01",
+      "hasEvaluations": "N",
+      "inspectedScope": "Europe PMC abstract and bibliographic metadata inspected by an agent (Claude Opus 5.5) on 2026-10-12 (UTC); no full-text methods inspection"
+    },
+    {
+      "id": "42015820",
+      "source": "MED",
+      "pmid": "42015820",
+      "pmcid": "PMC13103983",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13103983"
+        ]
+      },
+      "doi": "10.1080/07853890.2026.2661115",
+      "title": "Association between anti-nephrin autoantibodies and disease activity in minimal change disease.",
+      "authorString": "Guo M, Yan L, Zhao J, Liu X, Zhang H, Li M, Zhang K, Cui J, Wang Y, Chen X, Dong Z, Li Q.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Guo M",
+            "lastName": "Guo",
+            "firstName": "Ming",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, State Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yan L",
+            "lastName": "Yan",
+            "firstName": "Lei",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Henan Provincial People's Hospital, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao J",
+            "lastName": "Zhao",
+            "firstName": "Jiagen",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Beijing Scinovo Laboratories Ltd, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu X",
+            "lastName": "Liu",
+            "firstName": "Xiaoxiao",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, State Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang H",
+            "lastName": "Zhang",
+            "firstName": "Haiyu",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Outpatient Department of Haidian Second Retired Cadre Recuperation Center, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li M",
+            "lastName": "Li",
+            "firstName": "Mengfei",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, State Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang K",
+            "lastName": "Zhang",
+            "firstName": "Keyi",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, State Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cui J",
+            "lastName": "Cui",
+            "firstName": "Jing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, State Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yong",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, State Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen X",
+            "lastName": "Chen",
+            "firstName": "Xiangmei",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8774-6021"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, State Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dong Z",
+            "lastName": "Dong",
+            "firstName": "Zheyi",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, State Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li Q",
+            "lastName": "Li",
+            "firstName": "Qinggang",
+            "initials": "Q",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8788-6670"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, State Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8774-6021"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8788-6670"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "58",
+        "journalIssueId": 4076777,
+        "dateOfPublication": "2026 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2026,
+        "journal": {
+          "medlineAbbreviation": "Ann Med",
+          "title": "Annals of medicine",
+          "essn": "1365-2060",
+          "issn": "0785-3890",
+          "isoabbreviation": "Ann Med",
+          "nlmid": "8906388"
+        },
+        "printPublicationDate": "2026-12-01"
+      },
+      "pubYear": "2026",
+      "pageInfo": "2661115",
+      "abstractText": "<h4>Background</h4>Minimal change disease (MCD) is a podocytopathy linked to immune-mediated mechanisms, with emerging evidence suggesting the presence of anti-nephrin autoantibodies in a subset of patients. Given that Th2-type immune responses can promote IgG subclass switching to IgG4, this study aimed to characterize the distribution of these autoantibodies across disease stages, their correlation with clinical parameters, and to investigate their IgG subclass distribution and potential Th2 immune skewing.<h4>Methods</h4>This bi-centric study included 60 patients with MCD (including pediatric cases), 125 with other glomerular diseases, and 40 healthy controls. An affinity capture-elution ELISA was used to quantify serum anti-nephrin autoantibodies, evaluate their correlation with disease activity, and characterize their IgG subclass distribution. In addition, serum Th1/Th2 cytokine profiles were measured using Olink proteomics technology to assess Th2 immune skewing.<h4>Results</h4>Among 60 biopsy-confirmed MCD patients, circulating anti-nephrin autoantibodies were detected in 50% of cases. Notably, 70% of patients in the active phase tested positive for anti-nephrin autoantibodies, exhibiting significantly elevated antibody levels compared to those in partial or complete remission. Anti-nephrin levels positively correlated with proteinuria, and inversely with serum albumin and estimated glomerular filtration rate. Furthermore, patients positive for anti-nephrin autoantibodies had higher proteinuria, more severe dyslipidemia, and worse renal function compared to autoantibody-negative patients. Moreover, anti-nephrin antibody-positive MCD patients displayed a predominant IgG4 subclass alongside elevated serum IL-4 and IL-13 levels and an increased IL-4/IFN-γ ratio, supporting a Th2-skewed immune status.<h4>Conclusion</h4>Anti-nephrin autoantibodies are associated with disease activity in MCD, exhibit an IgG4-predominant subclass, and are accompanied by a Th2-skewed cytokine profile. These findings suggest their potential as a noninvasive biomarker, warranting further prospective studies to validate their clinical utility.",
+      "affiliation": "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, State Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing, China.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Th2 Cells",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Nephrosis, Lipoid",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Proteinuria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Immunoglobulin G",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Membrane Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Autoantibodies",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "IM",
+                  "qualifierName": "immunology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cytokines",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Glomerular Filtration Rate"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adolescent"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child, Preschool"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Young Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biomarkers",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Autoimmunity",
+          "Minimal Change Disease",
+          "Anti-Nephrin Autoantibodies"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "nephrin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Membrane Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Autoantibodies",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Immunoglobulin G",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Cytokines",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Biomarkers",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1080/07853890.2026.2661115"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13103983"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13103983?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-07-15",
+      "dateOfCreation": "2026-04-22",
+      "dateOfRevision": "2026-09-02",
+      "electronicPublicationDate": "2026-04-22",
+      "firstPublicationDate": "2026-04-22",
+      "firstIndexDate": "2026-04-22",
+      "fullTextReceivedDate": "2026-04-24",
+      "hasEvaluations": "N",
+      "inspectedScope": "Europe PMC abstract and bibliographic metadata inspected by an agent (Claude Opus 5.5) on 2026-10-12 (UTC); no full-text methods inspection"
+    },
+    {
+      "id": "17429054",
+      "source": "MED",
+      "pmid": "17429054",
+      "doi": "10.1681/asn.2006070710",
+      "title": "Overexpression of interleukin-13 induces minimal-change-like nephropathy in rats.",
+      "authorString": "Lai KW, Wei CL, Tan LK, Tan PH, Chiang GS, Lee CG, Jordan SC, Yap HK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lai KW",
+            "lastName": "Lai",
+            "firstName": "Kin-Wai",
+            "initials": "KW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, Yong Loo Lin School of Medicine, National University of Singapore, Singapore."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wei CL",
+            "lastName": "Wei",
+            "firstName": "Chang-Li",
+            "initials": "CL"
+          },
+          {
+            "fullName": "Tan LK",
+            "lastName": "Tan",
+            "firstName": "Li-Kiang",
+            "initials": "LK"
+          },
+          {
+            "fullName": "Tan PH",
+            "lastName": "Tan",
+            "firstName": "Puay-Hoon",
+            "initials": "PH"
+          },
+          {
+            "fullName": "Chiang GS",
+            "lastName": "Chiang",
+            "firstName": "Gilbert S C",
+            "initials": "GS"
+          },
+          {
+            "fullName": "Lee CG",
+            "lastName": "Lee",
+            "firstName": "Caroline G L",
+            "initials": "CG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4323-3635"
+            }
+          },
+          {
+            "fullName": "Jordan SC",
+            "lastName": "Jordan",
+            "firstName": "Stanley C",
+            "initials": "SC"
+          },
+          {
+            "fullName": "Yap HK",
+            "lastName": "Yap",
+            "firstName": "Hui-Kim",
+            "initials": "HK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6008-382X"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6008-382X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4323-3635"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5",
+        "volume": "18",
+        "journalIssueId": 1391370,
+        "dateOfPublication": "2007 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2007,
+        "journal": {
+          "medlineAbbreviation": "J Am Soc Nephrol",
+          "title": "Journal of the American Society of Nephrology : JASN",
+          "essn": "1533-3450",
+          "issn": "1046-6673",
+          "isoabbreviation": "J Am Soc Nephrol",
+          "nlmid": "9013836"
+        },
+        "printPublicationDate": "2007-05-01"
+      },
+      "pubYear": "2007",
+      "pageInfo": "1476-1485",
+      "abstractText": "IL-13 has been implicated in the pathogenesis of minimal-change nephrotic syndrome. This study aimed to investigate the role of IL-13 on the development of proteinuria and expression of podocyte-related genes that are associated with nephrotic syndrome. IL-13 was overexpressed in Wistar rats through transfection of a mammalian expression vector cloned with the rat IL-13 gene, into the quadriceps by in vivo electroporation. Serum IL-13, albumin, cholesterol, and creatinine and urine albumin were measured serially. Kidneys were harvested after day 70 for histology and electron microscopy. Glomerular gene expression of nephrin, podocin, dystroglycan, B7-1, and IL-13 receptor subunits were examined using real-time PCR with hybridization probes and expressed as an index against beta-actin. Protein expression of these molecules was determined by immunofluorescence staining. The IL-13-transfected rats (n = 41) showed significant albuminuria, hypoalbuminemia, and hypercholesterolemia when compared with control rats (n = 17). No significant histologic changes were seen in glomeruli of IL-13-transfected rats. However, electron microscopy showed up to 80% of podocyte foot process fusion. Glomerular gene expression was significantly upregulated for B7-1, IL-4Ralpha, and IL-13Ralpha2 but downregulated for nephrin, podocin, and dystroglycan. Immunofluorescence staining intensity was reduced for nephrin, podocin, and dystroglycan but increased for B7-1 and IL-4Ralpha in IL-13-transfected rats compared with controls. In conclusion, these results suggest that IL-13 overexpression in the rat could lead to podocyte injury with downregulation of nephrin, podocin, and dystroglycan and a concurrent upregulation of B7-1 in the glomeruli, inducing a minimal change-like nephropathy that is characterized by increased proteinuria, hypoalbuminemia, hypercholesterolemia, and fusion of podocyte foot processes.",
+      "affiliation": "Department of Pediatrics, Yong Loo Lin School of Medicine, National University of Singapore, Singapore.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Kidney",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals, Genetically Modified"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Rats"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Rats, Wistar"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Nephrosis, Lipoid",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Intracellular Signaling Peptides and Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Dystroglycans",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Membrane Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Interleukin-13",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Electroporation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression Regulation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Interleukin-4 Receptor alpha Subunit",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Interleukin-13 Receptor alpha2 Subunit",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "B7-1 Antigen",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "nephrin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "NPHS2 protein",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Membrane Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Intracellular Signaling Peptides and Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Dystroglycans",
+            "registryNumber": "146888-27-9"
+          },
+          {
+            "name": "Interleukin-13",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Il4r protein, rat",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Interleukin-4 Receptor alpha Subunit",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Interleukin-13 Receptor alpha2 Subunit",
+            "registryNumber": "0"
+          },
+          {
+            "name": "B7-1 Antigen",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Unpaywall",
+            "url": "http://scholarbank.nus.edu.sg/handle/10635/25651"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1681/ASN.2006070710"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 153,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2007-08-07",
+      "dateOfCreation": "2007-04-13",
+      "dateOfRevision": "2022-03-30",
+      "electronicPublicationDate": "2007-04-11",
+      "firstPublicationDate": "2007-04-11",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N",
+      "inspectedScope": "Europe PMC abstract and bibliographic metadata inspected by an agent (Claude Opus 5.5) on 2026-10-12 (UTC); no full-text methods inspection"
+    },
+    {
+      "id": "39820038",
+      "source": "MED",
+      "pmid": "39820038",
+      "pmcid": "PMC11870725",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11870725"
+        ]
+      },
+      "doi": "10.1172/jci186769",
+      "title": "Passive transfer of patient-derived anti-nephrin autoantibodies causes a podocytopathy with minimal change lesions.",
+      "authorString": "Hengel FE, Dehde S, Kretz O, Engesser J, Zimmermann T, Huber TB, Tomas NM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hengel FE",
+            "lastName": "Hengel",
+            "firstName": "Felicitas E",
+            "initials": "FE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4899-414X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III. Department of Medicine."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health (HCKH), and."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dehde S",
+            "lastName": "Dehde",
+            "firstName": "Silke",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III. Department of Medicine."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health (HCKH), and."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kretz O",
+            "lastName": "Kretz",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III. Department of Medicine."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health (HCKH), and."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Engesser J",
+            "lastName": "Engesser",
+            "firstName": "Jonas",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III. Department of Medicine."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health (HCKH), and."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zimmermann T",
+            "lastName": "Zimmermann",
+            "firstName": "Tom",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huber TB",
+            "lastName": "Huber",
+            "firstName": "Tobias B",
+            "initials": "TB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III. Department of Medicine."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health (HCKH), and."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tomas NM",
+            "lastName": "Tomas",
+            "firstName": "Nicola M",
+            "initials": "NM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III. Department of Medicine."
+                },
+                {
+                  "affiliation": "Hamburg Center for Kidney Health (HCKH), and."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4899-414X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5",
+        "volume": "135",
+        "journalIssueId": 3907773,
+        "dateOfPublication": "2025 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2025,
+        "journal": {
+          "medlineAbbreviation": "J Clin Invest",
+          "title": "The Journal of clinical investigation",
+          "essn": "1558-8238",
+          "issn": "0021-9738",
+          "isoabbreviation": "J Clin Invest",
+          "nlmid": "7802877"
+        },
+        "printPublicationDate": "2025-01-01"
+      },
+      "pubYear": "2025",
+      "pageInfo": "e186769",
+      "affiliation": "III. Department of Medicine.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "letter",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "SFB 1192",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Autoimmune diseases",
+          "Autoimmunity",
+          "Nephrology"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1172/JCI186769"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11870725"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11870725?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 21,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-01-17",
+      "dateOfRevision": "2025-03-03",
+      "electronicPublicationDate": "2025-01-16",
+      "firstPublicationDate": "2025-01-16",
+      "firstIndexDate": "2025-01-18",
+      "fullTextReceivedDate": "2025-11-28",
+      "hasEvaluations": "N",
+      "abstractText": "To the editor: Autoantibodies against nephrin, a key podocyte signaling protein forming the slit diaphragm between podocyte foot processes, were recently identified in a major portion of patients with podocytopathies ( 1 , 2 ). Anti-nephrin autoantibodies strongly correlate with disease activity in these patients, and nephrin-immunized mice develop anti-nephrin antibodies, alterations in nephrin phosphorylation, podocyte ultrastructure, and nephrotic syndrome, suggesting pathogenicity of these autoantibodies ( 1 ). However, a pathogenic role of human anti-nephrin autoantibodies in the development of a podocytopathy has not been demonstrated. A 71-year-old female developed a rapid-onset nephrotic syndrome and was diagnosed with minimal change disease (MCD) by kidney biopsy ( Figure 1, A and B and Supplemental Material; supplemental material available online with this article; https://doi.org/10.1172/JCI186769DS1 ). We found high circulating anti-nephrin autoantibody levels ( 1 ) at the time of exacerbating nephrotic syndrome and low autoantibody levels at the time of partial remission ( Figure 1A , red line), illustrating the strong association of anti-nephrin autoantibodies with disease activity in patients with anti-nephrin–associated podocytopathy. Using immunoprecipitation (IP) and subsequent Western blotting, we detected low crossreactivity of patient anti-nephrin autoantibodies with mouse, rat, and guinea pig nephrin, and higher reactivity with rabbit and pig nephrin ( Figure 1C and Supplemental Figure 1A ). Based on this, we chose rabbits for the transfer of human IgG purified from the plasma exchange (PLEX) fluid of the described patient or from control serum. Purified patient IgG, but not control IgG, precipitated recombinant human nephrin as well as nephrin from human and rabbit glomerular extracts ( Supplemental Figure 1B ). In line with this, the patient serum, PLEX fluid, and purified IgG contained high levels of anti-nephrin autoantibodies, as measured by quantitative IP/ELISA assay ( Supplemental Figure 1C ) ( 1 ). Next, we transferred control and anti-nephrin IgG to one New Zealand White rabbit each. Animals were monitored daily and sacrificed at day 5. The anti-nephrin rabbit, but not the control rabbit, had detectable circulating anti-nephrin IgG ( Supplemental Figure 2A ). Notably, the anti-nephrin rabbit, but not the control rabbit, developed increasing proteinuria over the observation period of five days ( Figure 1D ). Neither the rabbit receiving anti-nephrin IgG nor the control rabbit exhibited major changes by periodic acid-Schiff (PAS) staining, such as global or segmental sclerosis, cellular proliferation or infiltration, matrix increase, or necrosis, and capillary walls were delicate ( Figure 1E , left, and Supplemental Figure 2B ). Further morphological workup revealed moderate podocyte foot process effacement in the absence of electron-dense deposits in the anti-nephrin rabbit by electron microscopy ( Figure 1E , right) and sparse positivity for human IgG located at the glomerular filtration barrier by immunofluorescence ( Figure 1F , left, and Supplemental Figure 2C , left), while these changes were absent in the control rabbit. Importantly, we did not find complement consumption in the sera of the injected rabbits ( Supplemental Figure 2D ), which, together with the absence of homologous rabbit IgG and complement deposition ( Figure 1F and Supplemental Figure 2C , middle and right), argues against the development of serum sickness as a cause of disease in the injected rabbits. As anti-nephrin autoantibodies were previously shown to induce nephrin phosphorylation in patients and mouse models ( 1 , 3 ), we investigated target antigen phosphorylation in the injected rabbits. Nephrin tyrosine phosphorylation strongly increased in response to human anti-nephrin autoantibodies ( Figure 1, G and H ), demonstrating specific and direct anti-nephrin antibody–mediated effects and disease-associated phosphorylation changes of nephrin in the animal injected with human anti-nephrin IgG. Finally, we precipitated IgG bound in rabbit glomeruli and applied IP followed by Western blotting for nephrin, revealing that bound antibodies were specific for nephrin ( Figure 1I ). In summary, these experiments demonstrate that patient-derived IgG containing anti-nephrin autoantibodies induces the development of a podocytopathy with minimal changes upon transfer to another species with sufficient antigen crossreactivity. We acknowledge, as a limitation of our study, that, due to the generally low levels of anti-nephrin autoantibodies in affected patients, we were not able to purify the nephrin-specific IgG fraction for passive transfer. However, the specificity for nephrin of glomerular bound IgG in the anti-nephrin rabbit, in combination with the induction of nephrin phosphorylation in this rabbit, strongly suggests anti-nephrin autoantibodies as a causative factor in the development of minimal change disease. In conclusion, our discovery allows for a pathogenesis-based disease classification and strengthens the use of B cell–targeted therapies. It further provides a rationale to develop therapies targeting pathogenic autoantibodies and autoreactive B cells for patients with an anti-nephrin–associated podocytopathy ( 4 ). Supplementary Material Supplemental data Unedited blot and gel images Supporting data values",
+      "inspectedScope": "Research letter without abstract: full PMC body text (PMC11870725, CC BY 4.0) inspected by an agent (Claude Opus 5.5) on 2026-10-12 (UTC) and stored in the abstract field; supplementary figures not inspected"
+    }
+  ]
+}

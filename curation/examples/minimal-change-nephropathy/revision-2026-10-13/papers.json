@@ -1,0 +1,182 @@
+[
+  {
+    "key": "doi-5a6802f69e8a23c5ae1d",
+    "identifiers": [
+      "DOI:10.1056/nejmoa2314471",
+      "MED:38804512",
+      "PMID:38804512"
+    ],
+    "title": "Autoantibodies Targeting Nephrin in Podocytopathies.",
+    "authors": "Hengel FE, Dehde S, Lassé M, Zahner G, Seifert L, Schnarre A, Kretz O, Demir F, Pinnschmidt HO, Grahammer F, Lucas R, Mehner LM, Zimmermann T, Billing AM, Oh J, Mitrotti A, Pontrelli P, Debiec H, Dossier C, Colucci M, Emma F, Smoyer WE, Weins A, Schaefer F, Alachkar N, Diemert A, Hogan J, Hoxha E, Wiech T, Rinschen MM, Ronco P, Vivarelli M, Gesualdo L, Tomas NM, Huber TB, International Society of Glomerular Disease.",
+    "publishedAt": "2024-05-25",
+    "journal": "The New England journal of medicine",
+    "abstract": "Background Minimal change disease and primary focal segmental glomerulosclerosis in adults, along with idiopathic nephrotic syndrome in children, are immune-mediated podocytopathies that lead to nephrotic syndrome. Autoantibodies targeting nephrin have been found in patients with minimal change disease, but their clinical and pathophysiological roles are unclear. Methods We conducted a multicenter study to analyze antinephrin autoantibodies in adults with glomerular diseases, including minimal change disease, focal segmental glomerulosclerosis, membranous nephropathy, IgA nephropathy, antineutrophil cytoplasmic antibody-associated glomerulonephritis, and lupus nephritis, as well as in children with idiopathic nephrotic syndrome and in controls. We also created an experimental mouse model through active immunization with recombinant murine nephrin. Results The study included 539 patients (357 adults and 182 children) and 117 controls. Among the adults, antinephrin autoantibodies were found in 46 of the 105 patients (44%) with minimal change disease, 7 of 74 (9%) with primary focal segmental glomerulosclerosis, and only in rare cases among the patients with other conditions. Of the 182 children with idiopathic nephrotic syndrome, 94 (52%) had detectable antinephrin autoantibodies. In the subgroup of patients with active minimal change disease or idiopathic nephrotic syndrome who were not receiving immunosuppressive treatment, the prevalence of antinephrin autoantibodies was as high as 69% and 90%, respectively. At study inclusion and during follow-up, antinephrin autoantibody levels were correlated with disease activity. Experimental immunization induced a nephrotic syndrome, a minimal change disease-like phenotype, IgG localization to the podocyte slit diaphragm, nephrin phosphorylation, and severe cytoskeletal changes in mice. Conclusions In this study, circulating antinephrin autoantibodies were common in patients with minimal change disease or idiopathic nephrotic syndrome and appeared to be markers of disease activity. Their binding at the slit diaphragm induced podocyte dysfunction and nephrotic syndrome, which highlights their pathophysiological significance. (Funded by Deutsche Forschungsgemeinschaft and others.).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38804512/",
+    "doi": "10.1056/nejmoa2314471",
+    "pmid": "38804512",
+    "pmcid": null,
+    "accessScope": "Europe PMC abstract and bibliographic metadata inspected by an agent (Claude Opus 5.5) on 2026-10-12 (UTC); no full-text methods inspection",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "39383467",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "39383468",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "39383469",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "39383470",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-12",
+    "lastCheckedAt": "2026-10-12",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-11560631b622a2fc22de",
+    "identifiers": [
+      "DOI:10.1016/j.kint.2025.02.028",
+      "MED:40147632",
+      "PMID:40147632"
+    ],
+    "title": "Anti-nephrin antibodies in adult Chinese patients with minimal change disease and primary focal segmental glomerulosclerosis.",
+    "authors": "Shu Y, Huang J, Jiang L, Zhang YM, Wang F, Wang X, Meng LQ, Cheng XY, Liu G, Wang SX, Zhao MH, Ronco P, Cui Z.",
+    "publishedAt": "2025-03-25",
+    "journal": "Kidney international",
+    "abstract": "Introduction Anti-nephrin autoantibodies have been discovered in patients with minimal change disease (MCD) and primary focal segmental glomerulosclerosis (FSGS), especially in those with active nephrotic syndrome. Methods Here, we investigated the prevalence and clinical significance of anti-nephrin antibodies in 596 adult Chinese patients (436 with MCD and 160 with primary FSGS) diagnosed by kidney biopsy. Results Anti-nephrin IgG and IgM were detected using ELISA, with validation through antigen-inhibition ELISA and Western blotting. Clinical data at biopsy and during the follow-up period were analyzed. Anti-nephrin antibodies were detected in 43% of all patients, with 30% testing positive for anti-nephrin IgG, 26% for anti-nephrin IgM, and 13.1% for both antibodies. The prevalence of anti-nephrin antibodies was higher in patients with nephrotic-range proteinuria who were not receiving steroids or immunosuppressants (51.1%). Patients with positive anti-nephrin antibodies exhibited more severe nephrotic syndrome, higher rates of relapse, and a shorter relapse-free period compared to those negative for these antibodies. Clinical features were similar between those with IgG and IgM. Notably, patients with both anti-nephrin IgG and IgM had the most severe proteinuria and the highest relapse frequency, suggesting a dose-dependent effect. Longitudinal analysis revealed that anti-nephrin antibodies significantly decreased during clinical remission, while they reappeared preceding proteinuria relapse. Conclusions Our study shows that anti-nephrin antibodies, including IgG and IgM, are detectable in adult patients with MCD and primary FSGS and are associated with active nephrotic syndrome and frequent relapse. These antibodies may serve as valuable biomarkers and potential therapeutic targets.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40147632/",
+    "doi": "10.1016/j.kint.2025.02.028",
+    "pmid": "40147632",
+    "pmcid": null,
+    "accessScope": "Europe PMC abstract and bibliographic metadata inspected by an agent (Claude Opus 5.5) on 2026-10-12 (UTC); no full-text methods inspection",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-12",
+    "lastCheckedAt": "2026-10-12",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-ee88c9ad91c2022ea1ed",
+    "identifiers": [
+      "DOI:10.1080/07853890.2026.2661115",
+      "MED:42015820",
+      "PMCID:PMC13103983",
+      "PMID:42015820"
+    ],
+    "title": "Association between anti-nephrin autoantibodies and disease activity in minimal change disease.",
+    "authors": "Guo M, Yan L, Zhao J, Liu X, Zhang H, Li M, Zhang K, Cui J, Wang Y, Chen X, Dong Z, Li Q.",
+    "publishedAt": "2026-04-22",
+    "journal": "Annals of medicine",
+    "abstract": "Background Minimal change disease (MCD) is a podocytopathy linked to immune-mediated mechanisms, with emerging evidence suggesting the presence of anti-nephrin autoantibodies in a subset of patients. Given that Th2-type immune responses can promote IgG subclass switching to IgG4, this study aimed to characterize the distribution of these autoantibodies across disease stages, their correlation with clinical parameters, and to investigate their IgG subclass distribution and potential Th2 immune skewing. Methods This bi-centric study included 60 patients with MCD (including pediatric cases), 125 with other glomerular diseases, and 40 healthy controls. An affinity capture-elution ELISA was used to quantify serum anti-nephrin autoantibodies, evaluate their correlation with disease activity, and characterize their IgG subclass distribution. In addition, serum Th1/Th2 cytokine profiles were measured using Olink proteomics technology to assess Th2 immune skewing. Results Among 60 biopsy-confirmed MCD patients, circulating anti-nephrin autoantibodies were detected in 50% of cases. Notably, 70% of patients in the active phase tested positive for anti-nephrin autoantibodies, exhibiting significantly elevated antibody levels compared to those in partial or complete remission. Anti-nephrin levels positively correlated with proteinuria, and inversely with serum albumin and estimated glomerular filtration rate. Furthermore, patients positive for anti-nephrin autoantibodies had higher proteinuria, more severe dyslipidemia, and worse renal function compared to autoantibody-negative patients. Moreover, anti-nephrin antibody-positive MCD patients displayed a predominant IgG4 subclass alongside elevated serum IL-4 and IL-13 levels and an increased IL-4/IFN-γ ratio, supporting a Th2-skewed immune status. Conclusion Anti-nephrin autoantibodies are associated with disease activity in MCD, exhibit an IgG4-predominant subclass, and are accompanied by a Th2-skewed cytokine profile. These findings suggest their potential as a noninvasive biomarker, warranting further prospective studies to validate their clinical utility.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42015820/",
+    "doi": "10.1080/07853890.2026.2661115",
+    "pmid": "42015820",
+    "pmcid": "PMC13103983",
+    "accessScope": "Europe PMC abstract and bibliographic metadata inspected by an agent (Claude Opus 5.5) on 2026-10-12 (UTC); no full-text methods inspection",
+    "openAccess": true,
+    "license": "cc by-nc",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-12",
+    "lastCheckedAt": "2026-10-12",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-55181ac8c70a69bdf39d",
+    "identifiers": [
+      "DOI:10.1681/asn.2006070710",
+      "MED:17429054",
+      "PMID:17429054"
+    ],
+    "title": "Overexpression of interleukin-13 induces minimal-change-like nephropathy in rats.",
+    "authors": "Lai KW, Wei CL, Tan LK, Tan PH, Chiang GS, Lee CG, Jordan SC, Yap HK.",
+    "publishedAt": "2007-04-11",
+    "journal": "Journal of the American Society of Nephrology : JASN",
+    "abstract": "IL-13 has been implicated in the pathogenesis of minimal-change nephrotic syndrome. This study aimed to investigate the role of IL-13 on the development of proteinuria and expression of podocyte-related genes that are associated with nephrotic syndrome. IL-13 was overexpressed in Wistar rats through transfection of a mammalian expression vector cloned with the rat IL-13 gene, into the quadriceps by in vivo electroporation. Serum IL-13, albumin, cholesterol, and creatinine and urine albumin were measured serially. Kidneys were harvested after day 70 for histology and electron microscopy. Glomerular gene expression of nephrin, podocin, dystroglycan, B7-1, and IL-13 receptor subunits were examined using real-time PCR with hybridization probes and expressed as an index against beta-actin. Protein expression of these molecules was determined by immunofluorescence staining. The IL-13-transfected rats (n = 41) showed significant albuminuria, hypoalbuminemia, and hypercholesterolemia when compared with control rats (n = 17). No significant histologic changes were seen in glomeruli of IL-13-transfected rats. However, electron microscopy showed up to 80% of podocyte foot process fusion. Glomerular gene expression was significantly upregulated for B7-1, IL-4Ralpha, and IL-13Ralpha2 but downregulated for nephrin, podocin, and dystroglycan. Immunofluorescence staining intensity was reduced for nephrin, podocin, and dystroglycan but increased for B7-1 and IL-4Ralpha in IL-13-transfected rats compared with controls. In conclusion, these results suggest that IL-13 overexpression in the rat could lead to podocyte injury with downregulation of nephrin, podocin, and dystroglycan and a concurrent upregulation of B7-1 in the glomeruli, inducing a minimal change-like nephropathy that is characterized by increased proteinuria, hypoalbuminemia, hypercholesterolemia, and fusion of podocyte foot processes.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17429054/",
+    "doi": "10.1681/asn.2006070710",
+    "pmid": "17429054",
+    "pmcid": null,
+    "accessScope": "Europe PMC abstract and bibliographic metadata inspected by an agent (Claude Opus 5.5) on 2026-10-12 (UTC); no full-text methods inspection",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-12",
+    "lastCheckedAt": "2026-10-12",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-b22376afc91dc1fa8e19",
+    "identifiers": [
+      "DOI:10.1172/jci186769",
+      "MED:39820038",
+      "PMCID:PMC11870725",
+      "PMID:39820038"
+    ],
+    "title": "Passive transfer of patient-derived anti-nephrin autoantibodies causes a podocytopathy with minimal change lesions.",
+    "authors": "Hengel FE, Dehde S, Kretz O, Engesser J, Zimmermann T, Huber TB, Tomas NM.",
+    "publishedAt": "2025-01-16",
+    "journal": "The Journal of clinical investigation",
+    "abstract": "To the editor: Autoantibodies against nephrin, a key podocyte signaling protein forming the slit diaphragm between podocyte foot processes, were recently identified in a major portion of patients with podocytopathies ( 1 , 2 ). Anti-nephrin autoantibodies strongly correlate with disease activity in these patients, and nephrin-immunized mice develop anti-nephrin antibodies, alterations in nephrin phosphorylation, podocyte ultrastructure, and nephrotic syndrome, suggesting pathogenicity of these autoantibodies ( 1 ). However, a pathogenic role of human anti-nephrin autoantibodies in the development of a podocytopathy has not been demonstrated. A 71-year-old female developed a rapid-onset nephrotic syndrome and was diagnosed with minimal change disease (MCD) by kidney biopsy ( Figure 1, A and B and Supplemental Material; supplemental material available online with this article; https://doi.org/10.1172/JCI186769DS1 ). We found high circulating anti-nephrin autoantibody levels ( 1 ) at the time of exacerbating nephrotic syndrome and low autoantibody levels at the time of partial remission ( Figure 1A , red line), illustrating the strong association of anti-nephrin autoantibodies with disease activity in patients with anti-nephrin–associated podocytopathy. Using immunoprecipitation (IP) and subsequent Western blotting, we detected low crossreactivity of patient anti-nephrin autoantibodies with mouse, rat, and guinea pig nephrin, and higher reactivity with rabbit and pig nephrin ( Figure 1C and Supplemental Figure 1A ). Based on this, we chose rabbits for the transfer of human IgG purified from the plasma exchange (PLEX) fluid of the described patient or from control serum. Purified patient IgG, but not control IgG, precipitated recombinant human nephrin as well as nephrin from human and rabbit glomerular extracts ( Supplemental Figure 1B ). In line with this, the patient serum, PLEX fluid, and purified IgG contained high levels of anti-nephrin autoantibodies, as measured by quantitative IP/ELISA assay ( Supplemental Figure 1C ) ( 1 ). Next, we transferred control and anti-nephrin IgG to one New Zealand White rabbit each. Animals were monitored daily and sacrificed at day 5. The anti-nephrin rabbit, but not the control rabbit, had detectable circulating anti-nephrin IgG ( Supplemental Figure 2A ). Notably, the anti-nephrin rabbit, but not the control rabbit, developed increasing proteinuria over the observation period of five days ( Figure 1D ). Neither the rabbit receiving anti-nephrin IgG nor the control rabbit exhibited major changes by periodic acid-Schiff (PAS) staining, such as global or segmental sclerosis, cellular proliferation or infiltration, matrix increase, or necrosis, and capillary walls were delicate ( Figure 1E , left, and Supplemental Figure 2B ). Further morphological workup revealed moderate podocyte foot process effacement in the absence of electron-dense deposits in the anti-nephrin rabbit by electron microscopy ( Figure 1E , right) and sparse positivity for human IgG located at the glomerular filtration barrier by immunofluorescence ( Figure 1F , left, and Supplemental Figure 2C , left), while these changes were absent in the control rabbit. Importantly, we did not find complement consumption in the sera of the injected rabbits ( Supplemental Figure 2D ), which, together with the absence of homologous rabbit IgG and complement deposition ( Figure 1F and Supplemental Figure 2C , middle and right), argues against the development of serum sickness as a cause of disease in the injected rabbits. As anti-nephrin autoantibodies were previously shown to induce nephrin phosphorylation in patients and mouse models ( 1 , 3 ), we investigated target antigen phosphorylation in the injected rabbits. Nephrin tyrosine phosphorylation strongly increased in response to human anti-nephrin autoantibodies ( Figure 1, G and H ), demonstrating specific and direct anti-nephrin antibody–mediated effects and disease-associated phosphorylation changes of nephrin in the animal injected with human anti-nephrin IgG. Finally, we precipitated IgG bound in rabbit glomeruli and applied IP followed by Western blotting for nephrin, revealing that bound antibodies were specific for nephrin ( Figure 1I ). In summary, these experiments demonstrate that patient-derived IgG containing anti-nephrin autoantibodies induces the development of a podocytopathy with minimal changes upon transfer to another species with sufficient antigen crossreactivity. We acknowledge, as a limitation of our study, that, due to the generally low levels of anti-nephrin autoantibodies in affected patients, we were not able to purify the nephrin-specific IgG fraction for passive transfer. However, the specificity for nephrin of glomerular bound IgG in the anti-nephrin rabbit, in combination with the induction of nephrin phosphorylation in this rabbit, strongly suggests anti-nephrin autoantibodies as a causative factor in the development of minimal change disease. In conclusion, our discovery allows for a pathogenesis-based disease classification and strengthens the use of B cell–targeted therapies. It further provides a rationale to develop therapies targeting pathogenic autoantibodies and autoreactive B cells for patients with an anti-nephrin–associated podocytopathy ( 4 ). Supplementary Material Supplemental data Unedited blot and gel images Supporting data values",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39820038/",
+    "doi": "10.1172/jci186769",
+    "pmid": "39820038",
+    "pmcid": "PMC11870725",
+    "accessScope": "Research letter without abstract: full PMC body text (PMC11870725, CC BY 4.0) inspected by an agent (Claude Opus 5.5) on 2026-10-12 (UTC) and stored in the abstract field; supplementary figures not inspected",
+    "openAccess": true,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-12",
+    "lastCheckedAt": "2026-10-12",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-1154b03b5ce603e244dd",
+    "identifiers": [
+      "DOI:10.1016/j.ekir.2026.103794",
+      "MED:41736774",
+      "PMCID:PMC12926970",
+      "PMID:41736774"
+    ],
+    "title": "Effect of Steroids on Anti-nephrin Autoantibodies and B cells in Minimal Change Disease.",
+    "authors": "Hengel FE, Beldi-Ferchiou A, Sakhi H, Liaukouskaya N, Dehde S, Karras A, Esteve E, Oniszczuk J, Le Gouvello S, Herrera-Marcos L, Joher N, Daugas E, Zaidan M, El Karoui K, Knebelmann B, Dao M, Moktefi A, Sahali D, Huber TB, Ollero M, Tomas NM, Audard V.",
+    "publishedAt": "2026-01-23",
+    "journal": "Kidney international reports",
+    "abstract": "Introduction The identification of autoantibodies against nephrin, a key signaling protein of the podocyte slit diaphragm, and their pathogenic role in patients with minimal change disease (MCD) has substantially changed our understanding of primary podocytopathies. However, details on underlying immune pathophysiological mechanisms such as the relation of anti-nephrin autoantibodies with immune cell subsets and therapy response remain to be determined. Methods In this prospective study, we evaluated blood samples from adults with newly diagnosed, biopsy-proven MCD for circulating anti-nephrin antibodies using immunoprecipitation (IP) and B-cell subpopulations by fluorescence-activated cell sorting. Samples were collected at diagnosis (t 0 ) and after 8 weeks of steroid therapy (t 1 ). Results We detected anti-nephrin antibodies in 12 of 17 (70.6%) therapy-naïve patients with MCD at t 0 . All 12 patients (100%) positive for anti-nephrin antibodies achieved complete remission with no anti-nephrin antibodies detectable after 8 weeks of steroid treatment (t 1 ). Two of 5 anti-nephrin negative patients (40%) did not reach clinical remission at t 1 . Anti-nephrin positive patients exhibited a larger fraction of plasmablasts than anti-nephrin negative patients at t 0 , albeit not statistically significant. Plasmablasts, naïve B cells, and transitional B cells significantly decreased, whereas marginal zone-like B cells increased within 8 weeks of steroid treatment in anti-nephrin positive patients (t 1 ). Conclusion Our study shows, for the first time, a therapeutically relevant short-term effect of steroids on the B-cell compartment and anti-nephrin antibody levels, explaining the high clinical response rate in patients with anti-nephrin-associated MCD.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41736774/",
+    "doi": "10.1016/j.ekir.2026.103794",
+    "pmid": "41736774",
+    "pmcid": "PMC12926970",
+    "accessScope": "Abstract and bibliographic metadata",
+    "openAccess": true,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-11",
+    "lastCheckedAt": "2026-10-11",
+    "reviewedAt": null
+  }
+]

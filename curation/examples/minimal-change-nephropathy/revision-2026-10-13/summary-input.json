@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "diseaseId": "minimal-change-nephropathy",
+  "baseReleaseId": "minimal-change-nephropathy-appraised-candidate-1f40e4edb5bb",
+  "baseContentDigest": "8e6c704115ea22335bb135400f34bdf950b567c7245bf25c9dd4ac79ea28996f",
+  "scope": "A bounded immune-mediated podocytopathy map of primary minimal change nephropathy: anti-nephrin autoantibodies with humoral and Th2 associations, T-cell and cytokine (IL-8, IL-13) observations, experimental antibody and IL-13 models, foot-process effacement and nephrotic syndrome. Excludes secondary causes, genetics, other glomerulopathies and treatment efficacy; CD80, CTLA-4 and ANGPTL4 evidence is not yet curated.",
+  "authoredBy": {
+    "id": "claude-opus-5-5-curation-agent",
+    "kind": "agent"
+  },
+  "authoredAt": "2026-10-12",
+  "paragraphs": [
+    {
+      "text": "Within this bounded map, primary minimal change disease (MCD) is represented as an immune-associated podocytopathy in which diffuse podocyte foot-process effacement accompanies nephrotic-range proteinuria, with heterogeneous upstream pathogenesis. The best-supported mechanism in the map involves circulating autoantibodies against nephrin, a structural and signalling protein of the podocyte slit diaphragm. In a multicentre cohort, anti-nephrin antibodies were detected in 44% of adults with MCD and 69% of those with active untreated disease; independent cohorts using different assays found comparable subset-level positivity. Antibody levels tracked disease activity and proteinuria, fell during remission, reappeared before relapse, and correlated with podocyte-associated punctate IgG in biopsies. Experimentally, nephrin immunization in mice induced an MCD-like nephrotic syndrome with slit-diaphragm IgG, nephrin phosphorylation and severe podocyte cytoskeletal changes, and passive transfer of patient IgG to a rabbit caused proteinuria, foot-process effacement without deposits and increased nephrin tyrosine phosphorylation. Together these support a pathogenic antibody-mediated mechanism in a subset of patients, in which antibody binding at the slit diaphragm alters nephrin signalling and podocyte architecture, leading to effacement and albumin leakage. Anti-nephrin-positive patients also showed a non-significant trend toward more plasmablasts, an IgG4-predominant subclass and a Th2-skewed serum cytokine profile, linking humoral and Th2 findings without establishing their sequence.",
+      "claimIds": [
+        "claim-mcn-effacement",
+        "claim-mcn-proteinuria",
+        "claim-mcn-nephrin-binding",
+        "claim-a9c66d9c4dbf14e9c985",
+        "claim-752c0fa90752124ee5ac",
+        "claim-8629a80bf0b22765dbe0",
+        "claim-38f8b449b4f161ab7cc3",
+        "claim-mcn-podocyte-igg",
+        "claim-a199c497ee3d5f9a738f",
+        "claim-8d53c27ed61b9dd11dbf",
+        "claim-b8a151e40af92a23da1d",
+        "claim-mcn-b-cell-antibody",
+        "claim-291f597fce434705af39"
+      ]
+    },
+    {
+      "text": "Substantial uncertainty remains. Antibody prevalence is cohort- and assay-dependent, the initiating immune events are undefined, and the mechanism of antibody-negative disease is unresolved. The intracellular sequence from antibody binding through phosphorylation and cytoskeletal change to effacement has not been established, and the passive-transfer evidence rests on IgG from one patient given to one rabbit. Peripheral CD4 T-cell expansion with CD69 activation at onset remains a human association, not an established initiating cause or a universal T-cell-derived permeability factor. IL-13 overexpression in rats produced foot-process fusion, nephrin downregulation and B7-1 upregulation, showing experimental sufficiency rather than human necessity. Urinary IL-8 rose during relapse, but the same study concluded that IL-8 and TNF-alpha may not play a disease-specific pathogenic role; that negative finding is limited to its tested conditions and does not exclude context-dependent cytokine effects. Multiple immune pathways may therefore converge on podocyte dysfunction, and no single upstream defect is established as necessary or sufficient for all primary MCD. Spontaneous remission and relapse in an individual case illustrate clinical variability without identifying a mechanism. Concurrent antibody clearance and steroid-induced remission do not show that antibody reduction alone explains treatment benefit; treatment efficacy is not synthesized here. Most evidence was inspected at abstract level and awaits independent domain review.",
+      "claimIds": [
+        "claim-a9c66d9c4dbf14e9c985",
+        "claim-8d53c27ed61b9dd11dbf",
+        "claim-mcn-cd4-activation",
+        "claim-4c7839f11e1d778cd2e0",
+        "claim-1b2df1569d0306d35c74",
+        "claim-mcn-il8-relapse",
+        "claim-mcn-il8-qualification",
+        "claim-mcn-effacement",
+        "claim-0e1ac86fd026f4605e38"
+      ]
+    }
+  ]
+}
