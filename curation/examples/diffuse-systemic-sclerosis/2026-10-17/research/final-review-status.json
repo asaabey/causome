@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-17",
+  "candidateId": "diffuse-systemic-sclerosis-summary-candidate-f7786448c91d",
+  "candidateDigest": "70bced4cbe985957ffdc3d459614c80efb68d9a63bcd97d922b0a7a6b05c7727",
+  "packet": "summary-reviews/c91ddcc48d5161de1302c9304e3ab57cd73ff71c7886e5807e92dd5ebc258d87",
+  "tool": "Consensus MCP search + fetch",
+  "queries": "Exact discovery and final targeted queries are retained in research/consensus-*.json. An overlong summary-review query returned no papers and was replaced by three targeted queries.",
+  "outcome": "Literature discovery performed; independent overall review verdict NOT RUN / pending scientific review. Available search/fetch tools returned papers and records, not an independent assessment of the packet. No external consistency verdict or feedback receipt invented.",
+  "followUp": [
+    {
+      "doi": "10.1136/rmdopen-2022-002477",
+      "finding": "Fetched EUSTAR observational record found no statistically significant skin or FVC effectiveness; primary report appraisal and addition as trial-generalization qualification deferred."
+    },
+    {
+      "doi": "10.1093/rheumatology/kead343",
+      "finding": "Fetched Japanese inpatient record associated early ACEi with improved SRC composite outcome; primary report appraisal deferred."
+    }
+  ],
+  "limitations": [
+    "No independent domain reviewer or calibration",
+    "No exhaustive literature screen",
+    "Mixed-subset SSc studies retain their context",
+    "Consensus records are discovery, not primary full-text inspection"
+  ]
+}

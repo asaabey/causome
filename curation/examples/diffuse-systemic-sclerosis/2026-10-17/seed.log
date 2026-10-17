@@ -1,0 +1,6 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs seed --disease diffuse-systemic-sclerosis --input curation/workspace/diffuse-systemic-sclerosis/first-map.json
+
+Schema /relationships/44/supportingClaimIds: must NOT have fewer than 1 items
+ ELIFECYCLE  Command failed with exit code 1.

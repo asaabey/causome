@@ -1,0 +1,6 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs scan --disease diffuse-systemic-sclerosis --from 2020-01-01 --to 2026-10-17
+
+Search exceeds 5000 records; narrow the query/window. Cursor was not advanced.
+ ELIFECYCLE  Command failed with exit code 1.

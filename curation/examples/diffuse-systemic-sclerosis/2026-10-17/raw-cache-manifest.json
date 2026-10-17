@@ -1,0 +1,98 @@
+[
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/il13-erratum-fulltext.xml",
+    "bytes": 8073,
+    "sha256": "9b7cc4517c656b659dd5fc7d4d304f52a48928727b0831ae651ffa76881b9791",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/il6-fulltext.html",
+    "bytes": 173991,
+    "sha256": "eb48f76253bb276f1d16921863dd66824be7a2eafaf2913ba83cfa82546a3c93",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/sls2-fulltext.xml",
+    "bytes": 138460,
+    "sha256": "d6413139bd96238cf80ca910b396617cd39bee5c7ef04c2184947cd61fc1aff3",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/actemra-label.pdf",
+    "bytes": 2762120,
+    "sha256": "4c58cfaed8a9205990e259096d4d17ba2e46b5835ddbee4b123b264f437e0c1a",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/autoab-fulltext.xml",
+    "bytes": 112940,
+    "sha256": "d30648f8264230357e6b2012ad86975c85c7c1226e496106d7df8eb3953d80d6",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/renalhist-fulltext.html",
+    "bytes": 249039,
+    "sha256": "a73591e4bcf9cc8005a84bdb1094e99ec0dcfb0534761b4d20cfea59f773f9ac",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/tgfb-fulltext.html",
+    "bytes": 228844,
+    "sha256": "0fd8f21f5c86552804e5c84fb6d837c090d0cc03eec246c0b05cf7edc1b03ca1",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/eular-guideline.pdf",
+    "bytes": 2087260,
+    "sha256": "c6e0d21cd1669b216141fdcc4af74c9e25f10d9b942c1b57c5aca79cce014b79",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/immune-fulltext.xml",
+    "bytes": 155721,
+    "sha256": "644681230b9668cd39f4fcc465f087834d69ad5429317b90a215e864a5e9502a",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/hsct-fulltext.html",
+    "bytes": 227420,
+    "sha256": "f933498677dc2987d534a1753f12b20fa7e443996f5f4976a66365bc3f22ecfb",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/press-fulltext.html",
+    "bytes": 228298,
+    "sha256": "eee9b4dec9ec9ed4ca4871d9492efdeef792be819459d9056ca6dd9bd58ef895",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/vascularniche-fulltext.xml",
+    "bytes": 166934,
+    "sha256": "5006385f7e9ae92cfcddd52eb070d324937936642c42d63812518fd1dc35b61b",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/pdc-fulltext.html",
+    "bytes": 244997,
+    "sha256": "ce4fcb2cf1dbe3489cdc39ab26fd852ac58eccfbae22e6ad68e59155a31f4cba",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/cxcl4-fulltext.xml",
+    "bytes": 168191,
+    "sha256": "f823993a854eabde2de3f95783b3d7fcce2d107e1f54055157dbed373681cb83",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/il13signal-fulltext.xml",
+    "bytes": 95524,
+    "sha256": "7bb8200c18df5156df9823f430e353c5c3c4f94ecdbab1cc93edc31e15ac2781",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  },
+  {
+    "path": "curation/workspace/diffuse-systemic-sclerosis/research/ofev-label.html",
+    "bytes": 259217,
+    "sha256": "2c7d415566c847dc5230cc856f11412541464c4744b08fad0fff346ae4d29f46",
+    "status": "workspace-only raw cache; durable metadata, selected extracted source text and normalized imports retained"
+  }
+]

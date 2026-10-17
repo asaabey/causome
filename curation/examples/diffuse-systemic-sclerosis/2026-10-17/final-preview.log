@@ -1,0 +1,6 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs preview --disease diffuse-systemic-sclerosis --candidate diffuse-systemic-sclerosis-summary-candidate-f7786448c91d
+
+Summary review packet: curation/workspace/diffuse-systemic-sclerosis/summary-reviews/c91ddcc48d5161de1302c9304e3ab57cd73ff71c7886e5807e92dd5ebc258d87
+Preview selected diffuse-systemic-sclerosis-summary-candidate-f7786448c91d; public pointer unchanged.

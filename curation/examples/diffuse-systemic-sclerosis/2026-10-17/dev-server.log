@@ -1,0 +1,30 @@
+
+> causome@ dev /Users/asanga/Documents/Projects/causome
+> pnpm --filter @causome/web dev
+
+
+> @causome/web@0.1.0 dev /Users/asanga/Documents/Projects/causome/web
+> astro dev
+
+14:39:32 [types] Generated 0ms
+14:39:32 [content] Syncing content
+14:39:32 [content] Astro config changed
+14:39:32 [content] Clearing content store
+14:39:32 [content] Synced content
+14:39:32 [vite] Re-optimizing dependencies because vite config has changed
+
+ astro  v5.18.2 ready in 62 ms
+
+┃ Local    http://127.0.0.1:4328/
+
+14:39:32 watching for file changes...
+
+ update  ▶ New version of Astro available: 7.4.0
+  Run pnpm dlx @astrojs/upgrade to update
+
+14:39:39 [200] /diseases/diffuse-systemic-sclerosis/ 76ms
+14:40:22 [200] /diseases/diffuse-systemic-sclerosis/ 10ms
+/Users/asanga/Documents/Projects/causome/web:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @causome/web@0.1.0 dev: `astro dev`
+Command failed with signal "SIGINT"
+ ELIFECYCLE  Command failed with exit code 130.

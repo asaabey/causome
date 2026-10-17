@@ -1,0 +1,13 @@
+
+> causome@ preview /Users/asanga/Documents/Projects/causome
+> pnpm --filter @causome/web preview
+
+
+> @causome/web@0.1.0 preview /Users/asanga/Documents/Projects/causome/web
+> astro preview
+
+
+ astro  v5.18.2 ready in 4 ms
+
+┃ Local    http://127.0.0.1:4328/
+

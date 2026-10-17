@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-ata": "Anti-topoisomerase I",
+    "entity-ara": "Anti-RNAP III",
+    "entity-ssc-ic": "SSc immune complexes",
+    "entity-pdc": "pDCs",
+    "entity-cxcl4": "CXCL4",
+    "entity-ifn": "Type I interferon",
+    "entity-ecm": "Collagen / ECM",
+    "entity-lung-fibroblasts": "Lung fibroblasts",
+    "entity-renal-vasculopathy": "Renal vasculopathy",
+    "entity-src": "Renal crisis",
+    "entity-raas": "Renin\u2013angiotensin",
+    "entity-dcssc-global-outcome": "Global dcSSc outcome"
+  }
+}

@@ -14,7 +14,7 @@ Existing maps (2026-10-17): atypical haemolytic uraemic syndrome (local candidat
 | 2 | Anti-GBM disease | `anti-gbm-disease` | Renal / autoimmune | [Local candidate; scientific review pending](examples/anti-gbm-disease/initial-2026-10-17/handoff/report.md) |
 | 3 | Primary FSGS with APOL1 branch | `primary-fsgs` | Renal / podocytopathy | Local candidate added 2026-10-17; scientific review pending |
 | 4 | Sjögren disease | `sjogren-disease` | Rheumatology | [Local candidate selected 2026-10-17; scientific review pending](examples/sjogren-disease/2026-10-17/handoff/report.md) |
-| 5 | Diffuse cutaneous systemic sclerosis | `diffuse-systemic-sclerosis` | Rheumatology | Not started |
+| 5 | Diffuse cutaneous systemic sclerosis | `diffuse-systemic-sclerosis` | Rheumatology | [Local candidate selected 2026-10-17; scientific review pending](examples/diffuse-systemic-sclerosis/2026-10-17/handoff/report.md) |
 | 6 | Rheumatoid arthritis | `rheumatoid-arthritis` | Rheumatology | Not started |
 | 7 | Mixed connective tissue disease | `mixed-connective-tissue-disease` | Rheumatology | Not started |
 
@@ -72,6 +72,8 @@ Local candidate added 2026-10-17. [Handoff and unresolved review gaps](examples/
 - **Draft query:** `(TITLE_ABS:"Sjögren" OR TITLE_ABS:"Sjogren" OR TITLE_ABS:"Sjögren's syndrome")`
 
 ## 5. Diffuse cutaneous systemic sclerosis
+
+- **Status:** Local candidate selected 2026-10-17 (31 entities, 44 relationships, 6 selected therapies); independent scientific review and calibration pending. [Handoff and evidence gaps](examples/diffuse-systemic-sclerosis/2026-10-17/handoff/report.md).
 
 - **Slug:** `diffuse-systemic-sclerosis`
 - **Aliases:** dcSSc, diffuse scleroderma

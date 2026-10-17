@@ -1,0 +1,7 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs propose --base knowledge/diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-summary-candidate-4b2fbcfedc84.json --candidate curation/workspace/diffuse-systemic-sclerosis/notices-candidate.json
+
+Summary review packet: curation/workspace/diffuse-systemic-sclerosis/summary-reviews/16895fbeb916e14e5d2a5624faa2e01056e416ffe35b12be15034f007d973ad7
+Overall summary candidate: diffuse-systemic-sclerosis-summary-candidate-a16fa175cddb; current-literature review pending.
+curation/workspace/diffuse-systemic-sclerosis/proposals/proposal-abbf1d27b60b1b7359e106a8

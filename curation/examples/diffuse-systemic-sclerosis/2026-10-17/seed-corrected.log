@@ -1,0 +1,10 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs seed --disease diffuse-systemic-sclerosis --input curation/workspace/diffuse-systemic-sclerosis/first-map.json
+
+Seeded diffuse-systemic-sclerosis-candidate-20261017-001; inputs: curation/workspace/diffuse-systemic-sclerosis/imports/seed-seed-227c95ce692a. Public pointer unchanged.
+Automatic provisional appraisals: diffuse-systemic-sclerosis-appraised-candidate-4fe500950262
+Inputs and results: curation/workspace/diffuse-systemic-sclerosis/appraisals/diffuse-systemic-sclerosis-appraised-candidate-4fe500950262
+Select with curate preview --disease diffuse-systemic-sclerosis --candidate diffuse-systemic-sclerosis-appraised-candidate-4fe500950262
+Summary review packet: curation/workspace/diffuse-systemic-sclerosis/summary-reviews/64d08cf4a97a149d80a87b1336ccb6caec84698404a5c23da23e59ee276a3c94
+Overall summary candidate: diffuse-systemic-sclerosis-summary-candidate-a0f086479565; current-literature review pending.

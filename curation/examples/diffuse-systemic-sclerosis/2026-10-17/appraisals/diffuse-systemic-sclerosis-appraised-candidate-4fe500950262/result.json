@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "diffuse-systemic-sclerosis-candidate-20261017-001",
+  "baseContentDigest": "2b3c4e3d1c2dbbd3f0bd316c1c52cbdd961e3e83736d895d2717b7aa1578c139",
+  "candidateId": "diffuse-systemic-sclerosis-appraised-candidate-4fe500950262",
+  "contentDigest": "b9a72a3295bc2a1a8d1bd0e4a6eac6d62f8457305b5516f6ad40a9f984464c93",
+  "inputDigest": "4fe500950262fdadb72d76909f0fc22b3ea746abf183d9eb0bb0b894519f80b0",
+  "assessmentCount": 74,
+  "weightCount": 74,
+  "confidenceCount": 74,
+  "therapyCoverageCount": 74,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

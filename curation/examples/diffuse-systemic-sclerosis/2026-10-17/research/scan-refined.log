@@ -1,0 +1,22 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs scan --disease diffuse-systemic-sclerosis --from 2020-01-01 --to 2026-10-17
+
+{
+  "runId": "scan-07c638fdb847dc96404f3f83",
+  "diseaseId": "diffuse-systemic-sclerosis",
+  "window": {
+    "from": "2020-01-01",
+    "to": "2026-10-17",
+    "reconcile": false
+  },
+  "retrievedCount": 854,
+  "uniqueCount": 854,
+  "changes": 854,
+  "flaggedRecords": 158,
+  "repeated": false,
+  "report": "curation/workspace/diffuse-systemic-sclerosis/scans/scan-07c638fdb847dc96404f3f83/report.md",
+  "papers": "curation/workspace/diffuse-systemic-sclerosis/scans/scan-07c638fdb847dc96404f3f83/papers.json",
+  "publicationChanged": false,
+  "reviewRequired": true
+}

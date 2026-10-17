@@ -1,0 +1,1116 @@
+{
+  "version": 1,
+  "diseaseId": "diffuse-systemic-sclerosis",
+  "baseReleaseId": "diffuse-systemic-sclerosis-candidate-20261017-001",
+  "baseContentDigest": "2b3c4e3d1c2dbbd3f0bd316c1c52cbdd961e3e83736d895d2717b7aa1578c139",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "manual-source-check-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "dcssc-ata-ild",
+      "subject": "entity-ata",
+      "object": "entity-ild",
+      "predicate": "is_associated_with",
+      "text": "In early dcSSc, ATA positivity was associated with more prevalent ILD than ARA positivity (69.6% versus 44.3%).",
+      "quote": "higher prevalence of ILD (69.6%vs 44.3% ARA+, p = 0.0029)",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "PRESS: 233 early dcSSc participants (≤2 years), 12 US centres; dual-positive participants excluded",
+      "limitations": [
+        "Observational subgroup comparison; neither necessary nor sufficient for ILD."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-74ea17ae9ad8d6825122",
+      "paperDigest": "71597e25199ab95ddf8011abd2c79d21ad4d491af0c65f3abc8f4da18731fa7e"
+    },
+    {
+      "id": "dcssc-ara-skin",
+      "subject": "entity-ara",
+      "object": "entity-skin-fibrosis",
+      "predicate": "is_associated_with",
+      "text": "ARA-positive early dcSSc participants had higher baseline skin scores than ATA-positive participants.",
+      "quote": "ARA+ participants had higher baseline mRSS (25.0 vs 17.9 ATA+",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "PRESS: 233 early dcSSc participants (≤2 years), 12 US centres; dual-positive participants excluded",
+      "limitations": [
+        "Association does not demonstrate antibody-mediated skin injury."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-74ea17ae9ad8d6825122",
+      "paperDigest": "71597e25199ab95ddf8011abd2c79d21ad4d491af0c65f3abc8f4da18731fa7e"
+    },
+    {
+      "id": "dcssc-ara-src",
+      "subject": "entity-ara",
+      "object": "entity-src",
+      "predicate": "is_associated_with",
+      "text": "ARA-positive early dcSSc participants had higher SRC prevalence than ATA-positive participants (14.4% versus 0%).",
+      "quote": "higher prevalence of SRC (14.4%vs 0.0% ATA+, p = 0.0024)",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "PRESS: 233 early dcSSc participants (≤2 years), 12 US centres; dual-positive participants excluded",
+      "limitations": [
+        "Phenotypic association; not proof of direct renal pathogenicity."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-74ea17ae9ad8d6825122",
+      "paperDigest": "71597e25199ab95ddf8011abd2c79d21ad4d491af0c65f3abc8f4da18731fa7e"
+    },
+    {
+      "id": "dcssc-ata-ic",
+      "subject": "entity-ata",
+      "object": "entity-ssc-ic",
+      "predicate": "forms",
+      "text": "The experimental SSc-IC preparations included material isolated from ATA-positive sera.",
+      "quote": "ICs were purified from the sera of SSc patients bearing different autoantibody specificities",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Preparation-level membership; does not isolate an antibody-specific causal effect."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-ara-ic",
+      "subject": "entity-ara",
+      "object": "entity-ssc-ic",
+      "predicate": "forms",
+      "text": "The experimental SSc-IC preparations included material isolated from ARA-positive sera.",
+      "quote": "antibodies against DNA topoisomerase I, centromeric proteins, RNA polymerase, and Th/To",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Mixed cargo and very small specificity groups; ARA effects differ from ATA."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-ic-endothelium",
+      "subject": "entity-ssc-ic",
+      "object": "entity-endothelial",
+      "predicate": "activates",
+      "text": "SSc immune-complex preparations induced inflammatory signalling in healthy endothelial cultures.",
+      "quote": "All SSc-ICs activated p38MAPK and Akt",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Culture activation does not establish the initiating event or endothelial death in patients."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-endo-il6",
+      "subject": "entity-endothelial",
+      "object": "entity-il6",
+      "predicate": "produces",
+      "text": "IC-stimulated endothelial cultures increased IL-6 secretion.",
+      "quote": "All SSc stimulated IL-6 secretion",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "In-vitro secretion, not a quantitative estimate of the in-vivo source."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-endo-et1",
+      "subject": "entity-endothelial",
+      "object": "entity-et1",
+      "predicate": "produces",
+      "text": "ATA-containing IC preparations increased endothelial endothelin-1 expression.",
+      "quote": "all SSc-ICs but ACA-ICs and ARA-ICs upregulated et-1",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "ET-1 mRNA response is not equivalent to measured vasoconstriction."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-endo-et1-null",
+      "subject": "entity-endothelial",
+      "object": "entity-et1",
+      "predicate": "produces",
+      "text": "ARA and ACA IC preparations did not upregulate ET-1, qualifying generalization across antibody groups.",
+      "quote": "all SSc-ICs but ACA-ICs and ARA-ICs upregulated et-1",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Negative group-specific result; does not exclude other endothelial effects."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-endo-tgfb",
+      "subject": "entity-endothelial",
+      "object": "entity-tgfb",
+      "predicate": "produces",
+      "text": "ATA IC exposure increased endothelial TGF-beta1 secretion.",
+      "quote": "All SSc-ICs but ARA-ICs evoked a significant upregulation of TGF-β1 secretion",
+      "quoteLocation": "Full text Results: TGF-β1 secretion and colIα1 mRNA expression in endothelial cells",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Selected full-text result; not a property of all specificities."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-endo-tgfb-null",
+      "subject": "entity-endothelial",
+      "object": "entity-tgfb",
+      "predicate": "produces",
+      "text": "ARA ICs did not significantly increase endothelial TGF-beta1 secretion.",
+      "quote": "All SSc-ICs but ARA-ICs evoked a significant upregulation of TGF-β1 secretion",
+      "quoteLocation": "Full text Results: TGF-β1 secretion and colIα1 mRNA expression in endothelial cells",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Small ARA sample, retained as a qualification."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-endo-fibro",
+      "subject": "entity-endothelial",
+      "object": "entity-fibroblasts",
+      "predicate": "stimulates",
+      "text": "Medium from SSc-IC-stimulated endothelial cells induced a profibrotic phenotype in skin fibroblasts.",
+      "quote": "Endothelial activation induced by SSc-ICs ultimately led to a pro-fibrotic phenotype in healthy skin fibroblasts.",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Conditioned-medium experiment; not evidence of an obligatory complete in-vivo circuit."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-fibro-tgfb",
+      "subject": "entity-fibroblasts",
+      "object": "entity-tgfb",
+      "predicate": "produces",
+      "text": "Endothelial conditioned medium increased TGF-beta1 secretion by fibroblasts.",
+      "quote": "Supernatants from HUVECs treated with all SSc-ICs induced a significant increase in TGF-β1 secretion",
+      "quoteLocation": "Full text Results: fibroblasts stimulated with endothelial supernatants",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Cell culture only."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-fibro-ecm",
+      "subject": "entity-fibroblasts",
+      "object": "entity-ecm",
+      "predicate": "produces",
+      "text": "ATA-conditioned endothelial medium increased fibroblast COL1A1 expression.",
+      "quote": "A significant upregulation of colIα1 was observed with ATA-ICs and ACA-ICs.",
+      "quoteLocation": "Full text Results: fibroblasts stimulated with endothelial supernatants",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Transcript outcome; does not alone prove matrix deposition in patients."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-fibro-ecm-null",
+      "subject": "entity-fibroblasts",
+      "object": "entity-ecm",
+      "predicate": "produces",
+      "text": "ARA-conditioned medium did not significantly change fibroblast COL1A1 expression.",
+      "quote": "ARA-ICs, anti-Th/To-ICs, and NHS-ICs did not elicit a significant modulation of colIα1 expression.",
+      "quoteLocation": "Full text Results: fibroblasts stimulated with endothelial supernatants",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Specific assay and small groups; do not interpret ARA as nonfibrotic in patients."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-tgfb-ecm",
+      "subject": "entity-tgfb",
+      "object": "entity-ecm",
+      "predicate": "stimulates",
+      "text": "TGF-beta1 stimulation increased COL1A1 expression in cultured skin fibroblasts.",
+      "quote": "TGF-β stimulation resulted in a significant rise of colIα1 levels in fibroblasts",
+      "quoteLocation": "Full text Results: fibroblasts stimulated with endothelial supernatants",
+      "studySystem": "PEG-precipitated serum ICs from 12 SSc patients (4 ATA, 4 ACA, 2 ARA, 2 Th/To); healthy HUVECs and skin fibroblast cultures",
+      "limitations": [
+        "Expression is not a clinical fibrosis endpoint."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-ab1844b37d160fb64fab",
+      "paperDigest": "4c700070ea1d1deb8400b30f2e0757cfe24a9fcf8ed736aa1a8979353cdaab39"
+    },
+    {
+      "id": "dcssc-pdc-cxcl4",
+      "subject": "entity-pdc",
+      "object": "entity-cxcl4",
+      "predicate": "produces",
+      "text": "Activated pDCs from the SSc study secreted CXCL4.",
+      "quote": "leading to secretion of interferon-α (IFN-α) and CXCL4",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "SSc skin and blood pDC observations and functional pDC stimulation experiments; mouse depletion results not transferred to humans",
+      "limitations": [
+        "Mixed-subset SSc study; no assertion that all dcSSc patients share this pathway."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-1220f1f3e115712228ff",
+      "paperDigest": "303000b5e0d1ce2000c9324fc18996855af2f145c9fbb2b380071447481d0812"
+    },
+    {
+      "id": "dcssc-pdc-ifn",
+      "subject": "entity-pdc",
+      "object": "entity-ifn",
+      "predicate": "produces",
+      "text": "Activated pDCs from the SSc study secreted IFN-alpha.",
+      "quote": "leading to secretion of interferon-α (IFN-α) and CXCL4",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "SSc skin and blood pDC observations and functional pDC stimulation experiments; mouse depletion results not transferred to humans",
+      "limitations": [
+        "Cellular production; does not imply IFN blockade is an established therapy."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-1220f1f3e115712228ff",
+      "paperDigest": "303000b5e0d1ce2000c9324fc18996855af2f145c9fbb2b380071447481d0812"
+    },
+    {
+      "id": "dcssc-cxcl4-complex",
+      "subject": "entity-cxcl4",
+      "object": "entity-cxcl4-dna",
+      "predicate": "forms",
+      "text": "CXCL4 organized DNA into complexes that amplify innate sensing.",
+      "quote": "CXCL4 organizes \"self\" and microbial DNA into liquid crystalline immune complexes",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Biophysical DNA-complex experiments, pDC assays and SSc blood/skin observations",
+      "limitations": [
+        "Mixed-subset observations; DNA is a required component."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-c130df49ade57e56107b",
+      "paperDigest": "9cf1b0e7e3d59e77deb1c9e82f08ad1918d21770adcb18e16f2911ba09ee98af"
+    },
+    {
+      "id": "dcssc-complex-pdc",
+      "subject": "entity-cxcl4-dna",
+      "object": "entity-pdc",
+      "predicate": "activates",
+      "text": "CXCL4–DNA complexes amplified TLR9-mediated pDC activation in experiments.",
+      "quote": "amplify TLR9-mediated plasmacytoid dendritic cell (pDC)-hyperactivation and interferon-α production",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "DNA-complex and pDC functional assays",
+      "limitations": [
+        "TLR9-dependent activity; not dependent on CXCR3 in this system."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-c130df49ade57e56107b",
+      "paperDigest": "9cf1b0e7e3d59e77deb1c9e82f08ad1918d21770adcb18e16f2911ba09ee98af"
+    },
+    {
+      "id": "dcssc-complex-ifn",
+      "subject": "entity-cxcl4-dna",
+      "object": "entity-ifn",
+      "predicate": "is_associated_with",
+      "text": "Blood CXCL4–DNA complexes correlated with IFN-I activity in SSc.",
+      "quote": "CXCL4-DNA complexes are present in vivo and correlate with type I interferon",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Human SSc blood samples",
+      "limitations": [
+        "Association is distinct from the functional assay and does not prove a universal clinical loop."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-c130df49ade57e56107b",
+      "paperDigest": "9cf1b0e7e3d59e77deb1c9e82f08ad1918d21770adcb18e16f2911ba09ee98af"
+    },
+    {
+      "id": "dcssc-cd8-il13",
+      "subject": "entity-cd8",
+      "object": "entity-il13",
+      "predicate": "produces",
+      "text": "Activated effector CD8 T cells from SSc patients produced increased IL-13.",
+      "quote": "High levels of the profibrotic type 2 cytokine interleukin-13 (IL-13) were produced",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Peripheral T-cell activation assays in dcSSc/lcSSc and control cohorts",
+      "limitations": [
+        "Peripheral activation assay; tissue contribution and antigen specificity unresolved."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-bac5afa2c82a812c6b0b",
+      "paperDigest": "ee45d883fe80ef889bf8c0197b7d8dc01482ba7a0353cbd8d1ed34b55b954253"
+    },
+    {
+      "id": "dcssc-il13-skin",
+      "subject": "entity-il13",
+      "object": "entity-skin-fibrosis",
+      "predicate": "is_associated_with",
+      "text": "Excess effector-CD8 IL-13 production correlated with skin fibrosis and was more pronounced in dcSSc.",
+      "quote": "This abnormality correlated with the extent of fibrosis and was more pronounced in dcSSc",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Human SSc cytokine assays and clinical fibrosis measures",
+      "limitations": [
+        "Correlation does not establish IL-13 as the sole skin fibrosis driver."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-bac5afa2c82a812c6b0b",
+      "paperDigest": "ee45d883fe80ef889bf8c0197b7d8dc01482ba7a0353cbd8d1ed34b55b954253"
+    },
+    {
+      "id": "dcssc-il13-stat6",
+      "subject": "entity-il13",
+      "object": "entity-stat6",
+      "predicate": "activates",
+      "text": "IL-13-induced collagen expression in dermal cultures depended on STAT6.",
+      "quote": "This is dependent on STAT6 as targeting this blocked induction.",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Isolated dermal fibroblasts; recombinant IL-13, STAT6 siRNA/inhibitor",
+      "limitations": [
+        "A compressed signalling edge; no clinical efficacy inference."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-cd82c4f43549ac67f756",
+      "paperDigest": "5f9b6c059ecec6224650d56553f94070a8d8da4467b9421a3952efbbd8e7e9a5"
+    },
+    {
+      "id": "dcssc-stat6-ecm",
+      "subject": "entity-stat6",
+      "object": "entity-ecm",
+      "predicate": "contributes_to",
+      "text": "STAT6 perturbation blocked IL-13-induced collagen expression.",
+      "quote": "Results showed that IL-13 increased collagen expression and that this is independent from TGF-β1. This is dependent on STAT6 as targeting this blocked induction.",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Dermal fibroblast knockdown and inhibition assays",
+      "limitations": [
+        "This IL-13 route was TGF-beta1-independent, so it must not be drawn as obligatorily passing through TGF-beta."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-cd82c4f43549ac67f756",
+      "paperDigest": "5f9b6c059ecec6224650d56553f94070a8d8da4467b9421a3952efbbd8e7e9a5"
+    },
+    {
+      "id": "dcssc-il6-stat3",
+      "subject": "entity-il6",
+      "object": "entity-stat3",
+      "predicate": "activates",
+      "text": "IL-6 trans-signalling-induced collagen expression in healthy dermal fibroblasts depended on STAT3.",
+      "quote": "IL-6 trans signaling is important and that the effect is dependent on STAT3",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Healthy human dermal fibroblasts in vitro",
+      "limitations": [
+        "Trans-signalling requires soluble receptor; not an unrestricted effect of IL-6 alone."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-303a69681e45876d3998",
+      "paperDigest": "25bde48dbc31ce4fc907af0713db3525512d21c3242d3f3e7d41c7566b101392"
+    },
+    {
+      "id": "dcssc-stat3-tgfb",
+      "subject": "entity-stat3",
+      "object": "entity-tgfb",
+      "predicate": "contributes_to",
+      "text": "STAT3-dependent IL-6 trans-signalling indirectly enhanced TGF-beta signalling through Gremlin-1.",
+      "quote": "the effect is indirect and mediated through enhanced TGF-β signaling",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Healthy human dermal fibroblasts; IL-6 trans-signalling",
+      "limitations": [
+        "Gremlin-1 is an omitted intermediate; a compressed mechanism, not a direct STAT3–TGF-beta interaction."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-303a69681e45876d3998",
+      "paperDigest": "25bde48dbc31ce4fc907af0713db3525512d21c3242d3f3e7d41c7566b101392"
+    },
+    {
+      "id": "dcssc-tgfb-smad",
+      "subject": "entity-tgfb",
+      "object": "entity-smad3",
+      "predicate": "activates",
+      "text": "The IL-6 trans-signalling culture mechanism involved enhanced TGF-beta signalling and SMAD3.",
+      "quote": "enhanced TGF-β signaling and the classic downstream cellular mediator Smad3",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Healthy dermal fibroblast experiments",
+      "limitations": [
+        "Context-specific downstream mechanism; not proof every fibrotic pathway requires SMAD3."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-303a69681e45876d3998",
+      "paperDigest": "25bde48dbc31ce4fc907af0713db3525512d21c3242d3f3e7d41c7566b101392"
+    },
+    {
+      "id": "dcssc-smad-ecm",
+      "subject": "entity-smad3",
+      "object": "entity-ecm",
+      "predicate": "contributes_to",
+      "text": "SMAD3-mediated TGF-beta signalling contributed to IL-6 trans-signalling-induced collagen in cultures.",
+      "quote": "the effect is indirect and mediated through enhanced TGF-β signaling and the classic downstream cellular mediator Smad3",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Healthy dermal fibroblasts",
+      "limitations": [
+        "Intermediate Gremlin-1 retained in prose; not a whole-disease sufficiency claim."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-303a69681e45876d3998",
+      "paperDigest": "25bde48dbc31ce4fc907af0713db3525512d21c3242d3f3e7d41c7566b101392"
+    },
+    {
+      "id": "dcssc-mac-pdgf",
+      "subject": "entity-macrophages",
+      "object": "entity-pdgf",
+      "predicate": "is_associated_with",
+      "text": "Macrophage PDGF expression and spatial proximity to receptor-high fibroblasts supported a proposed signalling niche.",
+      "quote": "Spatial transcriptomic analyses showed monocyte-derived MRC1+ macrophages express PDGF near PDGFRhiTHY1hi fibroblasts.",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Early untreated dcSSc skin multiome/spatial transcriptomics; ligand-receptor inference with external culture datasets",
+      "limitations": [
+        "Transcript and spatial inference do not prove secretion, direction or necessity in patients."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-64bc80174690103efc6e",
+      "paperDigest": "79db53c99f4038fd076c0a6f8b682adcd4faa7d505c95ee3bea29ba2353d82b9"
+    },
+    {
+      "id": "dcssc-mac-tgfb",
+      "subject": "entity-macrophages",
+      "object": "entity-tgfb",
+      "predicate": "is_associated_with",
+      "text": "Early dcSSc macrophage clusters expressed profibrotic factors including TGFB.",
+      "quote": "macrophage clusters express profibrotic factors, including TGFB, PDGF, FGF, and IL6.",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Early untreated dcSSc skin multiome/spatial transcriptomics; ligand-receptor inference with external culture datasets",
+      "limitations": [
+        "Selected full-text observation; ligand-receptor inference remains provisional."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-64bc80174690103efc6e",
+      "paperDigest": "79db53c99f4038fd076c0a6f8b682adcd4faa7d505c95ee3bea29ba2353d82b9"
+    },
+    {
+      "id": "dcssc-pdgf-fibro",
+      "subject": "entity-pdgf",
+      "object": "entity-fibroblasts",
+      "predicate": "activates",
+      "text": "Reanalysis of PDGF-exposed SSc dermal fibroblasts supported PDGF-driven activation.",
+      "quote": "PDGF-driven fibroblast activation that aligns with early untreated fibroblasts in patient skin",
+      "quoteLocation": "Full text Results: spatial, transcriptomic and functional evidence",
+      "studySystem": "External SSc fibroblast culture dataset reanalysed alongside early skin multiomics",
+      "limitations": [
+        "Culture response and tissue inference are separate; independent dataset reuse is not independent clinical replication."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-64bc80174690103efc6e",
+      "paperDigest": "79db53c99f4038fd076c0a6f8b682adcd4faa7d505c95ee3bea29ba2353d82b9"
+    },
+    {
+      "id": "dcssc-fibro-myofibro",
+      "subject": "entity-fibroblasts",
+      "object": "entity-myofibroblasts",
+      "predicate": "differentiates_into",
+      "text": "Dermal cultures exhibited growth-factor-associated myofibroblast differentiation that nintedanib reduced.",
+      "quote": "myofibroblast differentiation and collagen release of dermal fibroblasts",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Dermal cultures from SSc patients and healthy controls",
+      "limitations": [
+        "Culture phenotype; mouse antifibrotic findings do not establish human skin efficacy."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-4583bc4cf8c36337d0a5",
+      "paperDigest": "305650328f3324202b890cbe389b4f73562083b30654523dcfc489d03016c010"
+    },
+    {
+      "id": "dcssc-tgfb-myofibro",
+      "subject": "entity-tgfb",
+      "object": "entity-myofibroblasts",
+      "predicate": "is_associated_with",
+      "text": "TGF-beta blockade in an uncontrolled early dcSSc trial was accompanied by reduced dermal myofibroblast infiltration.",
+      "quote": "Dermal myofibroblast infiltration also declined in patient skin after fresolimumab",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "15 early dcSSc patients in an open-label fresolimumab trial",
+      "limitations": [
+        "No placebo arm; temporal biomarker changes support involvement but do not establish clinical efficacy."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-1930c0605c9166ceb48b",
+      "paperDigest": "50eb07b27705e754a3089d8caf1f58f30045934aba4d9b4578497a2600b74d6b"
+    },
+    {
+      "id": "dcssc-myofibro-skin",
+      "subject": "entity-myofibroblasts",
+      "object": "entity-skin-fibrosis",
+      "predicate": "is_associated_with",
+      "text": "Myofibroblast reduction and skin-score improvement occurred after fresolimumab in the same uncontrolled study.",
+      "quote": "Dermal myofibroblast infiltration also declined in patient skin after fresolimumab",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "15 early dcSSc patients, serial skin biopsies and modified Rodnan scores",
+      "limitations": [
+        "Co-occurrence is not a mediation analysis; spontaneous skin improvement and small sample limit inference."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-1930c0605c9166ceb48b",
+      "paperDigest": "50eb07b27705e754a3089d8caf1f58f30045934aba4d9b4578497a2600b74d6b"
+    },
+    {
+      "id": "dcssc-ecm-skin",
+      "subject": "entity-ecm",
+      "object": "entity-skin-fibrosis",
+      "predicate": "is_associated_with",
+      "text": "TGF-beta-regulated matrix-related gene expression changes tracked skin-score changes in the fresolimumab study.",
+      "quote": "Parallel improvement in the MRSS indicates that fresolimumab rapidly reverses markers of skin fibrosis.",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Open-label early dcSSc biomarker study",
+      "limitations": [
+        "Bounded biomarker/clinical association; matrix gene changes do not prove removal of established collagen."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-1930c0605c9166ceb48b",
+      "paperDigest": "50eb07b27705e754a3089d8caf1f58f30045934aba4d9b4578497a2600b74d6b"
+    },
+    {
+      "id": "dcssc-pdgf-lung",
+      "subject": "entity-pdgf",
+      "object": "entity-lung-fibroblasts",
+      "predicate": "stimulates",
+      "text": "PDGF stimulated proliferation of cultured lung fibroblasts from SSc-ILD patients.",
+      "quote": "The proliferation rate of LF stimulated with PDGF",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Lung fibroblasts isolated from five SSc-ILD patients and three control subjects",
+      "limitations": [
+        "Small culture study; not an estimate of clinical disease contribution."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "med-31573469",
+      "paperDigest": "f1729c47dba7eb50abd2d6b4596f0e78c92efcf87d4ae9141c8afcea2c6065a5"
+    },
+    {
+      "id": "dcssc-lung-myofibro",
+      "subject": "entity-lung-fibroblasts",
+      "object": "entity-myofibroblasts",
+      "predicate": "differentiates_into",
+      "text": "PDGF-induced normal lung fibroblast differentiation into myofibroblasts was blocked by nintedanib.",
+      "quote": "nintedanib blocked PDGF-induced differentiation of normal LF to myofibroblasts",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "SSc-ILD and control lung cultures; differentiation observation specifically normal LF",
+      "limitations": [
+        "Do not transfer the normal-cell differentiation assay to every diseased lung fibroblast."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "med-31573469",
+      "paperDigest": "f1729c47dba7eb50abd2d6b4596f0e78c92efcf87d4ae9141c8afcea2c6065a5"
+    },
+    {
+      "id": "dcssc-lung-ecm",
+      "subject": "entity-lung-fibroblasts",
+      "object": "entity-ecm",
+      "predicate": "produces",
+      "text": "Nintedanib reduced collagen and fibronectin production in lung-fibroblast experiments.",
+      "quote": "reduced production of collagen and fibronectin",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Lung fibroblasts from SSc-ILD and control lungs",
+      "limitations": [
+        "Production in cultures is distinct from reversal of established lung fibrosis."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "med-31573469",
+      "paperDigest": "f1729c47dba7eb50abd2d6b4596f0e78c92efcf87d4ae9141c8afcea2c6065a5"
+    },
+    {
+      "id": "dcssc-ecm-ild",
+      "subject": "entity-ecm",
+      "object": "entity-ild",
+      "predicate": "is_associated_with",
+      "text": "SENSCIS enrolled SSc-ILD patients with at least 10% lung fibrosis on HRCT.",
+      "quote": "fibrosis affecting at least 10% of the lungs",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "576 treated SSc-ILD participants, 51.9% diffuse cutaneous",
+      "limitations": [
+        "Eligibility linkage; not a new mechanistic causal finding or universal fibrosis threshold."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-c81dec45c9f50fd639da",
+      "paperDigest": "67203190f934ae603bd19f65eb03aeead33297563d200ecc93252f7f427b83ec"
+    },
+    {
+      "id": "dcssc-ild-fvc",
+      "subject": "entity-ild",
+      "object": "entity-fvc-decline",
+      "predicate": "is_associated_with",
+      "text": "SSc-ILD participants experienced FVC decline, slower with nintedanib than placebo in the primary SENSCIS analysis.",
+      "quote": "-52.4 ml per year in the nintedanib group and -93.3 ml per year in the placebo group",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "SENSCIS randomized SSc-ILD trial; mixed cutaneous subsets",
+      "limitations": [
+        "Association edge describes the phenotype/outcome; drug efficacy is represented separately."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-c81dec45c9f50fd639da",
+      "paperDigest": "67203190f934ae603bd19f65eb03aeead33297563d200ecc93252f7f427b83ec"
+    },
+    {
+      "id": "dcssc-renal-src",
+      "subject": "entity-renal-vasculopathy",
+      "object": "entity-src",
+      "predicate": "is_associated_with",
+      "text": "SRC biopsies showed arterial intimal thickening and arteriolar fibrinoid necrosis associated with poor renal outcome.",
+      "quote": "acute changes of mucoid intimal thickening in arteries and fibrinoid necrosis in arterioles were associated with a poorer renal outcome",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "110 SRC cases at a single centre, 78% diffuse cutaneous; 58 biopsies; 1990–2005",
+      "limitations": [
+        "Biopsy association; does not establish the vascular initiation sequence."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-07ad3431c89e9eaee4dc",
+      "paperDigest": "81bfe4e126f267e2cf6c74a96801e401e576f869a1980453a2612e62ef454851"
+    },
+    {
+      "id": "dcssc-renal-aki",
+      "subject": "entity-renal-vasculopathy",
+      "object": "entity-aki",
+      "predicate": "is_associated_with",
+      "text": "Acute biopsy vascular changes in SRC were associated with poorer renal outcomes.",
+      "quote": "acute changes of mucoid intimal thickening in arteries and fibrinoid necrosis in arterioles were associated with a poorer renal outcome",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "110 SRC cases at a single centre, 78% diffuse cutaneous; 58 biopsies; 1990–2005",
+      "limitations": [
+        "Selected biopsies; direction and confounding cannot be resolved from this series."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-07ad3431c89e9eaee4dc",
+      "paperDigest": "81bfe4e126f267e2cf6c74a96801e401e576f869a1980453a2612e62ef454851"
+    },
+    {
+      "id": "dcssc-src-aki",
+      "subject": "entity-src",
+      "object": "entity-aki",
+      "predicate": "is_associated_with",
+      "text": "SRC was associated with acute renal failure and temporary or permanent dialysis.",
+      "quote": "causing acute renal failure, and usually hypertension",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "110 SRC cases at a single centre, 78% diffuse cutaneous; 58 biopsies; 1990–2005",
+      "limitations": [
+        "Clinical phenotype; the association does not identify a molecular cause."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-07ad3431c89e9eaee4dc",
+      "paperDigest": "81bfe4e126f267e2cf6c74a96801e401e576f869a1980453a2612e62ef454851"
+    },
+    {
+      "id": "dcssc-src-htn",
+      "subject": "entity-src",
+      "object": "entity-hypertension",
+      "predicate": "is_associated_with",
+      "text": "SRC usually presented with hypertension; lower presenting pressure was associated with poor renal outcome.",
+      "quote": "Poor renal outcome was associated with lower blood pressure at presentation",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "110 SRC cases at a single centre, 78% diffuse cutaneous; 58 biopsies; 1990–2005",
+      "limitations": [
+        "Normotensive SRC remains possible; severe hypertension is not required in every case."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-07ad3431c89e9eaee4dc",
+      "paperDigest": "81bfe4e126f267e2cf6c74a96801e401e576f869a1980453a2612e62ef454851"
+    },
+    {
+      "id": "dcssc-raas-htn",
+      "subject": "entity-raas",
+      "object": "entity-hypertension",
+      "predicate": "contributes_to",
+      "text": "Successful captopril blood-pressure control in four SRC patients supported an angiotensin-dependent component.",
+      "quote": "Captopril controlled blood pressure successfully and easily in 4 consecutive patients",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "Uncontrolled four-patient SRC series",
+      "limitations": [
+        "Pharmacological inference; no direct proof that RAAS initiates the full renal-crisis pathway."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "hypothesis",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-9fbd55d1169487e01cc0",
+      "paperDigest": "0f21e4c9be95520e32a0783c5e373fd7cfa4a844de56777250f2fc908ec764ef"
+    },
+    {
+      "id": "dcssc-renal-raas",
+      "subject": "entity-renal-vasculopathy",
+      "object": "entity-raas",
+      "predicate": "is_associated_with",
+      "text": "Reduced renal plasma flow and elevated renin activity were common in a physiological SSc cohort.",
+      "quote": "The frequent finding of elevated PRA and reduced PAH values reflects clinically the high frequency of renovascular disease",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "57 SSc patients with physiological testing and 10-year follow-up",
+      "limitations": [
+        "Mixed-subset cohort; not a direct renal-ischaemia-to-renin experiment."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-06361b0c478211c69f1f",
+      "paperDigest": "074e3a068850f178a2ec42aa5a9284f7c9bb671552bd115a63c0c0250007e43e"
+    },
+    {
+      "id": "dcssc-renin-not-predictive",
+      "subject": "entity-renal-vasculopathy",
+      "object": "entity-raas",
+      "predicate": "is_associated_with",
+      "text": "Isolated reduced plasma flow or elevated renin did not predict SRC.",
+      "quote": "Isolated decreases in PAH and elevations in PRA, however, did not predict renal crisis.",
+      "quoteLocation": "Primary-report abstract",
+      "studySystem": "57 SSc patients with physiological testing and 10-year follow-up",
+      "limitations": [
+        "Retained negative finding; no baseline-renin prediction claim."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not independent human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-dcssc-overview",
+      "paperKey": "doi-06361b0c478211c69f1f",
+      "paperDigest": "074e3a068850f178a2ec42aa5a9284f7c9bb671552bd115a63c0c0250007e43e"
+    }
+  ]
+}

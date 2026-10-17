@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "diseaseId": "diffuse-systemic-sclerosis",
+  "baseReleaseId": "diffuse-systemic-sclerosis-summary-candidate-a16fa175cddb",
+  "baseContentDigest": "09d332ff4fa37bdbcea1add026eff8270baa8705870d0eb21aea9bd06a164cd9",
+  "scope": "Diffuse cutaneous systemic sclerosis: immune activation, vascular signalling, fibroblast and matrix responses, skin fibrosis, SSc-ILD and renal crisis. Cross-study synthesis retains culture, observation and trial populations; mixed-subset SSc studies are not diffuse-only evidence. Selected therapies; excludes limited cutaneous phenotype, morphea, overlap syndromes and comprehensive organ/therapy coverage.",
+  "authoredBy": {
+    "id": "codex-curation-agent",
+    "kind": "agent"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "Diffuse cutaneous systemic sclerosis combines immune dysregulation, vascular abnormalities and fibrosis, with heterogeneous organ involvement. In early diffuse disease, anti-topoisomerase I antibodies mark greater interstitial lung disease prevalence, while anti-RNA polymerase III antibodies mark more extensive skin involvement and renal crisis; these associations do not prove antibody causation. Patient immune-complex preparations activated endothelial cultures and altered IL-6, TGF-beta and endothelin responses, with important differences among antibody groups. A complementary innate route links plasmacytoid dendritic cells, CXCL4–DNA complexes and interferon amplification. Effector CD8 T-cell IL-13 production correlates with skin fibrosis. Dermal culture experiments connect IL-6 trans-signalling through STAT3 and TGF-beta/SMAD3 to collagen expression, while IL-13/STAT6 can act independently of TGF-beta1. Early untreated skin studies suggest a macrophage–PDGF/TGF-beta–fibroblast vascular niche, although much of that interaction is inferred from spatial and transcriptomic data. Fibroblast and myofibroblast responses converge on matrix production in skin and lung. Renal crisis represents a vascular and kidney-injury branch, often with hypertension; renin abnormalities alone do not predict it.",
+      "claimIds": [
+        "claim-dcssc-ata-ild",
+        "claim-dcssc-ara-skin",
+        "claim-dcssc-ara-src",
+        "claim-dcssc-ic-endothelium",
+        "claim-dcssc-endo-il6",
+        "claim-dcssc-endo-et1",
+        "claim-dcssc-endo-tgfb",
+        "claim-dcssc-pdc-cxcl4",
+        "claim-dcssc-complex-pdc",
+        "claim-dcssc-complex-ifn",
+        "claim-dcssc-cd8-il13",
+        "claim-dcssc-il13-skin",
+        "claim-dcssc-stat6-ecm",
+        "claim-dcssc-il6-stat3",
+        "claim-dcssc-stat3-tgfb",
+        "claim-dcssc-smad-ecm",
+        "claim-dcssc-mac-pdgf",
+        "claim-dcssc-mac-tgfb",
+        "claim-dcssc-pdgf-fibro",
+        "claim-dcssc-lung-ecm",
+        "claim-dcssc-renal-src",
+        "claim-dcssc-src-aki",
+        "claim-dcssc-src-htn",
+        "claim-dcssc-renin-not-predictive"
+      ]
+    },
+    {
+      "text": "This is a cross-study explanation, not a demonstrated universal causal circuit. Cell-culture activity and uncontrolled TGF-beta-blockade biomarkers cannot establish clinical benefit, and skin findings cannot automatically be transferred to lung or kidney. Nintedanib slowed FVC decline in the primary SENSCIS analysis, with missing-data sensitivity and gastrointestinal tolerability limits; skin benefit was not demonstrated. Tocilizumab missed its primary skin endpoint but showed secondary lung-function preservation in selected early inflammatory diffuse disease. Both have verified US adult SSc-ILD indications for slowing pulmonary-function decline. SLS II did not demonstrate mycophenolate superiority over cyclophosphamide; within-arm improvement is not proof of equivalence. ACE inhibitors are guideline-supported at established renal crisis, distinct from prophylaxis, and autologous transplantation has benefits and treatment-related mortality in carefully selected severe diffuse disease. The latter treatments are recorded without claiming SSc-specific regulatory approval. Most sources have abstract-level access; study independence is incompletely established. The IL-13 correction concerns attribution, while the tocilizumab trial has linked corrections requiring further appraisal; current prescribing information independently confirms its indication and overall FVC estimate. Independent scientific review and score calibration remain pending.",
+      "claimIds": [
+        "claim-dcssc-endo-et1-null",
+        "claim-dcssc-endo-tgfb-null",
+        "claim-dcssc-fibro-ecm-null",
+        "claim-dcssc-tgfb-myofibro",
+        "claim-dcssc-myofibro-skin",
+        "claim-dcssc-therapy-nint-fvc",
+        "claim-dcssc-therapy-nint-sensitivity",
+        "claim-dcssc-therapy-nint-skin-null",
+        "claim-dcssc-therapy-toci-fvc",
+        "claim-dcssc-therapy-toci-skin-null",
+        "claim-dcssc-therapy-mmf-fvc",
+        "claim-dcssc-therapy-mmf-comparison",
+        "claim-dcssc-therapy-cyc-toxicity",
+        "claim-dcssc-therapy-ace-src",
+        "claim-dcssc-therapy-hsct-global",
+        "claim-dcssc-therapy-hsct-harm"
+      ]
+    }
+  ]
+}

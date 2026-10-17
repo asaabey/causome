@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "diseaseId": "diffuse-systemic-sclerosis",
+  "baseReleaseId": "diffuse-systemic-sclerosis-appraised-candidate-4fe500950262",
+  "baseContentDigest": "b9a72a3295bc2a1a8d1bd0e4a6eac6d62f8457305b5516f6ad40a9f984464c93",
+  "scope": "Diffuse cutaneous systemic sclerosis: autoimmunity, endothelial injury, fibroblast activation and skin fibrosis, with interstitial lung disease and renal crisis branches. Mixed-subset SSc studies retain their context; excludes limited cutaneous disease, morphea and overlap syndromes.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "TGF-beta1 stimulation increased COL1A1 expression in cultured skin fibroblasts. ATA IC exposure increased endothelial TGF-beta1 secretion. ATA-conditioned endothelial medium increased fibroblast COL1A1 expression.",
+      "claimIds": [
+        "claim-dcssc-tgfb-ecm",
+        "claim-dcssc-endo-tgfb",
+        "claim-dcssc-fibro-ecm"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Expression is not a clinical fibrosis endpoint. Selected full-text result; not a property of all specificities. Treatment efficacy has not been synthesized in this summary.",
+      "claimIds": [
+        "claim-dcssc-tgfb-ecm",
+        "claim-dcssc-endo-tgfb",
+        "claim-dcssc-fibro-ecm"
+      ]
+    }
+  ]
+}

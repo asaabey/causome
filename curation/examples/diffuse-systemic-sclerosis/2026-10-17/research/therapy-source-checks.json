@@ -1,0 +1,161 @@
+{
+  "checkedAt": "2026-10-17",
+  "checker": "Codex agent",
+  "urls": [
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da1c9f37-779e-4682-816f-93d0faa4cfc9",
+    "https://www.gene.com/download/pdf/actemra_prescribing.pdf",
+    "https://ddd.uab.cat/pub/artpub/2025/309028/309028.pdf"
+  ],
+  "receipts": [
+    {
+      "claimId": "claim-dcssc-therapy-nint-fvc",
+      "sourceId": "source-doi-c81dec45c9f50fd639da",
+      "quote": "difference, 41.0 ml per year",
+      "limitations": [
+        "576 treated; 51.9% diffuse cutaneous; lung-function slowing is not fibrosis reversal."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-nint-sensitivity",
+      "sourceId": "source-doi-c81dec45c9f50fd639da",
+      "quote": "ranging from 0.06 to 0.10",
+      "limitations": [
+        "Sensitivity to handling missing data; no mortality benefit asserted."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-nint-skin-null",
+      "sourceId": "source-doi-c81dec45c9f50fd639da",
+      "quote": "P = 0.58",
+      "limitations": [
+        "Secondary outcome, no human skin efficacy inferred from preclinical antifibrotic activity."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-nint-target",
+      "sourceId": "source-med-31573469",
+      "quote": "Nintedanib inhibited LF proliferation and migration",
+      "limitations": [
+        "Fibroblasts are an indirect cellular target; direct targets are kinases, not PDGF ligand."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-toci-fvc",
+      "sourceId": "source-doi-f75348042f80c140f762",
+      "quote": "difference in LSM of 4·2",
+      "limitations": [
+        "Primary skin endpoint failed; selected early inflammatory dcSSc; two linked correction notices could not be fully inspected. Current US label independently confirms SSc-ILD indication."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-toci-skin-null",
+      "sourceId": "source-doi-f75348042f80c140f762",
+      "quote": "The primary skin fibrosis endpoint was not met.",
+      "limitations": [
+        "No demonstrated primary skin benefit; original trial correction details remain pending."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-toci-mechanism",
+      "sourceId": "source-dcssc-actemra-label",
+      "quote": "IL-6 receptor antagonist",
+      "limitations": [
+        "IL-6 is an indirect mapped target; receptor is not separately represented."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-mmf-fvc",
+      "sourceId": "source-doi-73ddf0f17f742a2ae895",
+      "quote": "2·19 in the mycophenolate mofetil group",
+      "limitations": [
+        "Within-arm improvement; no placebo arm; does not prove superiority or equivalence to cyclophosphamide."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-cyc-fvc",
+      "sourceId": "source-doi-73ddf0f17f742a2ae895",
+      "quote": "2·88 in the cyclophosphamide group",
+      "limitations": [
+        "Within-arm improvement; toxicity and withdrawal differed; no assertion of equal efficacy."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-mmf-comparison",
+      "sourceId": "source-doi-73ddf0f17f742a2ae895",
+      "quote": "the trial was negative for the primary endpoint",
+      "limitations": [
+        "142 randomized, 126 in primary analysis; negative superiority result is not equivalence."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-cyc-toxicity",
+      "sourceId": "source-doi-73ddf0f17f742a2ae895",
+      "quote": "Leucopenia (30 patients vs four patients)",
+      "limitations": [
+        "Harms qualify therapeutic use; this is not an endpoint-specific efficacy contradiction."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-ace-src",
+      "sourceId": "source-doi-d670c4f950e627a1bddc",
+      "quote": "1-year survival, 15% without and 76% with ACE inhibitors",
+      "limitations": [
+        "Nonrandomized historical comparison; secular confounding; use at established SRC is distinct from prophylaxis."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-ace-pressure",
+      "sourceId": "source-doi-9fbd55d1169487e01cc0",
+      "quote": "Captopril controlled blood pressure successfully and easily in 4 consecutive patients",
+      "limitations": [
+        "Small uncontrolled series; inhibition of the renin–angiotensin pathway is mapped, ACE itself is not a separate node."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-hsct-global",
+      "sourceId": "source-doi-fc533ed94b035950972b",
+      "quote": "67% of 1404 pairwise comparisons favored transplantation",
+      "limitations": [
+        "75 selected severe scleroderma participants; comparator is cyclophosphamide, not all current treatments."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "claimId": "claim-dcssc-therapy-hsct-harm",
+      "sourceId": "source-doi-fc533ed94b035950972b",
+      "quote": "Treatment-related mortality in the transplantation group was 3% at 54 months and 6% at 72 months",
+      "limitations": [
+        "Treatment selection and cardiopulmonary screening are essential; not generalizable to advanced cardiorespiratory involvement."
+      ],
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17"
+    }
+  ]
+}

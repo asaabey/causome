@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "diffuse-systemic-sclerosis",
+  "candidateId": "diffuse-systemic-sclerosis-summary-candidate-f7786448c91d",
+  "contentDigest": "70bced4cbe985957ffdc3d459614c80efb68d9a63bcd97d922b0a7a6b05c7727",
+  "summaryRevisionId": "summary-f7786448c91d",
+  "summaryDigest": "ab58c039781b51af5d8f4e425a35f0d0a2ab75224e99262af708b97d8d5ab017",
+  "packetDigest": "c91ddcc48d5161de1302c9304e3ab57cd73ff71c7886e5807e92dd5ebc258d87",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

@@ -1,0 +1,5 @@
+
+> causome@ validate /Users/asanga/Documents/Projects/causome
+> node scripts/validate-release.mjs
+
+Validated 111 disease candidates and their registry profiles.

@@ -1,0 +1,2697 @@
+[
+  {
+    "collection": "release",
+    "id": "release-metadata",
+    "kind": "changed",
+    "fields": [
+      "id",
+      "revisionId",
+      "changeSetRevision",
+      "releaseNote",
+      "manifest"
+    ],
+    "before": {
+      "id": "diffuse-systemic-sclerosis-candidate-20261017-001",
+      "revisionId": "diffuse-systemic-sclerosis-candidate-20261017-001-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "diffuse-systemic-sclerosis",
+      "title": "Diffuse cutaneous systemic sclerosis",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Diffuse cutaneous systemic sclerosis: autoimmunity, endothelial injury, fibroblast activation and skin fibrosis, with interstitial lung disease and renal crisis branches. Mixed-subset SSc studies retain their context; excludes limited cutaneous disease, morphea and overlap syndromes.",
+      "diseaseAliases": [
+        "dcSSc",
+        "diffuse scleroderma",
+        "diffuse cutaneous SSc"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-17T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-17",
+      "changeSetRevision": "seed-227c95ce692a",
+      "releaseNote": "Consolidated local dcSSc candidate. Antibody associations, culture mechanisms, inferred vascular niches and renal phenotypes remain distinguished. Null findings are retained; no universal circuit, independent review or calibrated scores asserted.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "2b3c4e3d1c2dbbd3f0bd316c1c52cbdd961e3e83736d895d2717b7aa1578c139"
+      }
+    },
+    "after": {
+      "id": "diffuse-systemic-sclerosis-therapy-candidate-20261017-001",
+      "revisionId": "diffuse-systemic-sclerosis-therapy-candidate-20261017-001-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "diffuse-systemic-sclerosis",
+      "title": "Diffuse cutaneous systemic sclerosis",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Diffuse cutaneous systemic sclerosis: autoimmunity, endothelial injury, fibroblast activation and skin fibrosis, with interstitial lung disease and renal crisis branches. Mixed-subset SSc studies retain their context; excludes limited cutaneous disease, morphea and overlap syndromes.",
+      "diseaseAliases": [
+        "dcSSc",
+        "diffuse scleroderma",
+        "diffuse cutaneous SSc"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-17T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-17",
+      "changeSetRevision": "dcssc-therapies-20261017",
+      "releaseNote": "Consolidated dcSSc map with six selected therapies. US SSc-ILD approvals are distinguished from guideline-supported uses without verified SSc-specific approval. Tocilizumab trial corrections remain partly unresolved; negative endpoints and selected-population limits retained. Scientific review pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "00d5667b249a1243184c78d2bcbaefdc92490d1a67d0998a59dae8a13c728c50"
+      }
+    }
+  },
+  {
+    "collection": "entities",
+    "id": "entity-dcssc-global-outcome",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "label",
+      "entityClass",
+      "description",
+      "synonyms",
+      "externalIds",
+      "biologicalRoleClaimIds"
+    ],
+    "before": null,
+    "after": {
+      "id": "entity-dcssc-global-outcome",
+      "revisionId": "entity-dcssc-global-outcome-therapy-v1",
+      "status": "candidate",
+      "label": "Severe dcSSc global outcome",
+      "entityClass": "clinical_outcome",
+      "description": "SCOT hierarchical composite of death, organ-failure-free survival, FVC, disability and skin score; not equivalent to isolated skin efficacy.",
+      "synonyms": [
+        "SCOT global rank composite"
+      ],
+      "externalIds": [],
+      "biologicalRoleClaimIds": [
+        "claim-dcssc-therapy-hsct-global"
+      ]
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-ace-pressure",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-ace-pressure",
+      "revisionId": "claim-dcssc-therapy-ace-pressure-therapy-v1",
+      "status": "candidate",
+      "text": "Captopril controlled blood pressure in a four-patient SRC case series.",
+      "subjectId": "therapy-dcssc-ace-inhibitors",
+      "objectId": "entity-raas",
+      "predicate": "inhibits",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-ace-pressure"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Small uncontrolled series; inhibition of the renin–angiotensin pathway is mapped, ACE itself is not a separate node."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-ace-src",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-ace-src",
+      "revisionId": "claim-dcssc-therapy-ace-src-therapy-v1",
+      "status": "candidate",
+      "text": "The historical SRC cohort had higher one-year survival in the ACE-inhibitor era (76% versus 15%).",
+      "subjectId": "therapy-dcssc-ace-inhibitors",
+      "objectId": "entity-src",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-ace-src"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Nonrandomized historical comparison; secular confounding; use at established SRC is distinct from prophylaxis."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-cyc-fvc",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-cyc-fvc",
+      "revisionId": "claim-dcssc-therapy-cyc-fvc-therapy-v1",
+      "status": "candidate",
+      "text": "In SLS II, cyclophosphamide recipients had improved FVC percent predicted from baseline to 24 months (+2.88 points).",
+      "subjectId": "therapy-dcssc-cyclophosphamide",
+      "objectId": "entity-fvc-decline",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-cyc-fvc"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Within-arm improvement; toxicity and withdrawal differed; no assertion of equal efficacy."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-cyc-toxicity",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-cyc-toxicity",
+      "revisionId": "claim-dcssc-therapy-cyc-toxicity-therapy-v1",
+      "status": "candidate",
+      "text": "Cyclophosphamide caused more leukopenia and premature treatment withdrawal than MMF in SLS II.",
+      "subjectId": "therapy-dcssc-cyclophosphamide",
+      "objectId": "entity-fvc-decline",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-cyc-toxicity"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Harms qualify therapeutic use; this is not an endpoint-specific efficacy contradiction."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-hsct-global",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-hsct-global",
+      "revisionId": "claim-dcssc-therapy-hsct-global-therapy-v1",
+      "status": "candidate",
+      "text": "SCOT favoured myeloablative autologous HSCT over monthly cyclophosphamide on the 54-month global rank composite (P=0.01).",
+      "subjectId": "therapy-dcssc-hsct",
+      "objectId": "entity-dcssc-global-outcome",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-hsct-global"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "75 selected severe scleroderma participants; comparator is cyclophosphamide, not all current treatments."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-hsct-harm",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-hsct-harm",
+      "revisionId": "claim-dcssc-therapy-hsct-harm-therapy-v1",
+      "status": "candidate",
+      "text": "SCOT transplant treatment-related mortality was 3% at 54 months and 6% at 72 months, versus 0% with cyclophosphamide.",
+      "subjectId": "therapy-dcssc-hsct",
+      "objectId": "entity-dcssc-global-outcome",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-hsct-harm"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Treatment selection and cardiopulmonary screening are essential; not generalizable to advanced cardiorespiratory involvement."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-mmf-comparison",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-mmf-comparison",
+      "revisionId": "claim-dcssc-therapy-mmf-comparison-therapy-v1",
+      "status": "candidate",
+      "text": "SLS II did not confirm the hypothesised MMF superiority over cyclophosphamide (primary analysis P=0.24).",
+      "subjectId": "therapy-dcssc-mycophenolate",
+      "objectId": "entity-fvc-decline",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-mmf-comparison"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "142 randomized, 126 in primary analysis; negative superiority result is not equivalence."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-mmf-fvc",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-mmf-fvc",
+      "revisionId": "claim-dcssc-therapy-mmf-fvc-therapy-v1",
+      "status": "candidate",
+      "text": "In SLS II, MMF recipients had improved FVC percent predicted from baseline to 24 months (+2.19 points).",
+      "subjectId": "therapy-dcssc-mycophenolate",
+      "objectId": "entity-fvc-decline",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-mmf-fvc"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Within-arm improvement; no placebo arm; does not prove superiority or equivalence to cyclophosphamide."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-nint-fvc",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-nint-fvc",
+      "revisionId": "claim-dcssc-therapy-nint-fvc-therapy-v1",
+      "status": "candidate",
+      "text": "SENSCIS primary analysis found slower annual FVC decline with nintedanib (difference 41.0 mL/year, 95% CI 2.9–79.0).",
+      "subjectId": "therapy-dcssc-nintedanib",
+      "objectId": "entity-fvc-decline",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-nint-fvc"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "576 treated; 51.9% diffuse cutaneous; lung-function slowing is not fibrosis reversal."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-nint-sensitivity",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-nint-sensitivity",
+      "revisionId": "claim-dcssc-therapy-nint-sensitivity-therapy-v1",
+      "status": "candidate",
+      "text": "SENSCIS multiple-imputation sensitivity analyses gave P values of 0.06–0.10, qualifying the positive primary result.",
+      "subjectId": "therapy-dcssc-nintedanib",
+      "objectId": "entity-fvc-decline",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-nint-sensitivity"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Sensitivity to handling missing data; no mortality benefit asserted."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-nint-skin-null",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-nint-skin-null",
+      "revisionId": "claim-dcssc-therapy-nint-skin-null-therapy-v1",
+      "status": "candidate",
+      "text": "SENSCIS did not show a significant skin-score benefit (difference -0.21, 95% CI -0.94 to 0.53).",
+      "subjectId": "therapy-dcssc-nintedanib",
+      "objectId": "entity-skin-fibrosis",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-nint-skin-null"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Secondary outcome, no human skin efficacy inferred from preclinical antifibrotic activity."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-nint-target",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-nint-target",
+      "revisionId": "claim-dcssc-therapy-nint-target-therapy-v1",
+      "status": "candidate",
+      "text": "Nintedanib inhibited proliferation and migration of SSc-ILD lung fibroblasts in culture.",
+      "subjectId": "therapy-dcssc-nintedanib",
+      "objectId": "entity-lung-fibroblasts",
+      "predicate": "inhibits",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-nint-target"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Fibroblasts are an indirect cellular target; direct targets are kinases, not PDGF ligand."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-toci-fvc",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-toci-fvc",
+      "revisionId": "claim-dcssc-therapy-toci-fvc-therapy-v1",
+      "status": "candidate",
+      "text": "focuSSced secondary FVC findings favoured tocilizumab (4.2 percentage-point difference, nominal analysis).",
+      "subjectId": "therapy-dcssc-tocilizumab",
+      "objectId": "entity-fvc-decline",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-toci-fvc"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Primary skin endpoint failed; selected early inflammatory dcSSc; two linked correction notices could not be fully inspected. Current US label independently confirms SSc-ILD indication."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-toci-mechanism",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-toci-mechanism",
+      "revisionId": "claim-dcssc-therapy-toci-mechanism-therapy-v1",
+      "status": "candidate",
+      "text": "Tocilizumab inhibits IL-6 signalling by binding IL-6 receptors.",
+      "subjectId": "therapy-dcssc-tocilizumab",
+      "objectId": "entity-il6",
+      "predicate": "inhibits",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-toci-mechanism"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "IL-6 is an indirect mapped target; receptor is not separately represented."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-dcssc-therapy-toci-skin-null",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-dcssc-therapy-toci-skin-null",
+      "revisionId": "claim-dcssc-therapy-toci-skin-null-therapy-v1",
+      "status": "candidate",
+      "text": "focuSSced did not meet the primary skin fibrosis endpoint (adjusted difference -1.73, 95% CI -3.78 to 0.32; P=0.10).",
+      "subjectId": "therapy-dcssc-tocilizumab",
+      "objectId": "entity-skin-fibrosis",
+      "predicate": "efficacy_on",
+      "contextId": "context-dcssc-therapy",
+      "evidenceItemIds": [
+        "evidence-dcssc-therapy-toci-skin-null"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "No demonstrated primary skin benefit; original trial correction details remain pending."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-ace-pressure",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-ace-pressure",
+      "revisionId": "evidence-dcssc-therapy-ace-pressure-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-9fbd55d1169487e01cc0",
+      "summary": "Captopril controlled blood pressure in a four-patient SRC case series.",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Four SRC patients",
+      "evidenceType": "human_observational"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-ace-src",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-ace-src",
+      "revisionId": "evidence-dcssc-therapy-ace-src-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-d670c4f950e627a1bddc",
+      "summary": "The historical SRC cohort had higher one-year survival in the ACE-inhibitor era (76% versus 15%).",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "108 SRC cases 1972–1987",
+      "evidenceType": "human_observational"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-cyc-fvc",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-cyc-fvc",
+      "revisionId": "evidence-dcssc-therapy-cyc-fvc-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-73ddf0f17f742a2ae895",
+      "summary": "In SLS II, cyclophosphamide recipients had improved FVC percent predicted from baseline to 24 months (+2.88 points).",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "SLS II mixed-subset SSc-ILD trial",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-cyc-toxicity",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-cyc-toxicity",
+      "revisionId": "evidence-dcssc-therapy-cyc-toxicity-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-73ddf0f17f742a2ae895",
+      "summary": "Cyclophosphamide caused more leukopenia and premature treatment withdrawal than MMF in SLS II.",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "SLS II safety comparison",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-hsct-global",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-hsct-global",
+      "revisionId": "evidence-dcssc-therapy-hsct-global-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-fc533ed94b035950972b",
+      "summary": "SCOT favoured myeloablative autologous HSCT over monthly cyclophosphamide on the 54-month global rank composite (P=0.01).",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "SCOT randomized severe dcSSc trial",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-hsct-harm",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-hsct-harm",
+      "revisionId": "evidence-dcssc-therapy-hsct-harm-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-fc533ed94b035950972b",
+      "summary": "SCOT transplant treatment-related mortality was 3% at 54 months and 6% at 72 months, versus 0% with cyclophosphamide.",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "SCOT randomized severe dcSSc trial",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-mmf-comparison",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-mmf-comparison",
+      "revisionId": "evidence-dcssc-therapy-mmf-comparison-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-73ddf0f17f742a2ae895",
+      "summary": "SLS II did not confirm the hypothesised MMF superiority over cyclophosphamide (primary analysis P=0.24).",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "SLS II head-to-head comparison",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-mmf-fvc",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-mmf-fvc",
+      "revisionId": "evidence-dcssc-therapy-mmf-fvc-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-73ddf0f17f742a2ae895",
+      "summary": "In SLS II, MMF recipients had improved FVC percent predicted from baseline to 24 months (+2.19 points).",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "SLS II mixed-subset SSc-ILD randomized trial",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-nint-fvc",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-nint-fvc",
+      "revisionId": "evidence-dcssc-therapy-nint-fvc-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-c81dec45c9f50fd639da",
+      "summary": "SENSCIS primary analysis found slower annual FVC decline with nintedanib (difference 41.0 mL/year, 95% CI 2.9–79.0).",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "SENSCIS mixed-subset SSc-ILD randomized trial",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-nint-sensitivity",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-nint-sensitivity",
+      "revisionId": "evidence-dcssc-therapy-nint-sensitivity-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-c81dec45c9f50fd639da",
+      "summary": "SENSCIS multiple-imputation sensitivity analyses gave P values of 0.06–0.10, qualifying the positive primary result.",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "SENSCIS missing-data sensitivity analyses",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-nint-skin-null",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-nint-skin-null",
+      "revisionId": "evidence-dcssc-therapy-nint-skin-null-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-c81dec45c9f50fd639da",
+      "summary": "SENSCIS did not show a significant skin-score benefit (difference -0.21, 95% CI -0.94 to 0.53).",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "SENSCIS mixed-subset SSc-ILD trial",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-nint-target",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-nint-target",
+      "revisionId": "evidence-dcssc-therapy-nint-target-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-med-31573469",
+      "summary": "Nintedanib inhibited proliferation and migration of SSc-ILD lung fibroblasts in culture.",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Five SSc-ILD and three control lung-fibroblast donors",
+      "evidenceType": "human_in_vitro"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-toci-fvc",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-toci-fvc",
+      "revisionId": "evidence-dcssc-therapy-toci-fvc-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-f75348042f80c140f762",
+      "summary": "focuSSced secondary FVC findings favoured tocilizumab (4.2 percentage-point difference, nominal analysis).",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "210 early dcSSc participants in focuSSced",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-toci-mechanism",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-toci-mechanism",
+      "revisionId": "evidence-dcssc-therapy-toci-mechanism-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-dcssc-actemra-label",
+      "summary": "Tocilizumab inhibits IL-6 signalling by binding IL-6 receptors.",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "US label section 12.1",
+      "evidenceType": "human_in_vitro"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-dcssc-therapy-toci-skin-null",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-dcssc-therapy-toci-skin-null",
+      "revisionId": "evidence-dcssc-therapy-toci-skin-null-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-f75348042f80c140f762",
+      "summary": "focuSSced did not meet the primary skin fibrosis endpoint (adjusted difference -1.73, 95% CI -3.78 to 0.32; P=0.10).",
+      "location": "Primary abstract; regulatory mechanism/status claims bind the inspected label sections",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "focuSSced early dcSSc trial",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-dcssc-actemra-label",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-dcssc-actemra-label",
+      "revisionId": "source-dcssc-actemra-label-therapy-v1",
+      "status": "candidate",
+      "title": "ACTEMRA US prescribing information, revised December 2025",
+      "url": "https://www.gene.com/download/pdf/actemra_prescribing.pdf",
+      "kind": "regulatory",
+      "studyId": "ACTEMRA US prescribing information, revised December 2025",
+      "citation": "ACTEMRA US prescribing information, revised December 2025",
+      "accessScope": "Manufacturer prescribing PDF sections 1.3, 12.1 and 14.5 inspected 2026-10-17",
+      "identifiers": [],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-dcssc-eular",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-dcssc-eular",
+      "revisionId": "source-dcssc-eular-therapy-v1",
+      "status": "candidate",
+      "title": "EULAR recommendations for systemic sclerosis: 2023 update (2025 publication)",
+      "url": "https://ddd.uab.cat/pub/artpub/2025/309028/309028.pdf",
+      "kind": "publication",
+      "studyId": "EULAR recommendations for systemic sclerosis: 2023 update (2025 publication)",
+      "citation": "EULAR recommendations for systemic sclerosis: 2023 update (2025 publication)",
+      "accessScope": "Original guideline PDF Table 1 and renal, ILD and HSCT recommendations inspected; guidance source, not primary mechanistic evidence",
+      "identifiers": [],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-dcssc-ofev-label",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-dcssc-ofev-label",
+      "revisionId": "source-dcssc-ofev-label-therapy-v1",
+      "status": "candidate",
+      "title": "OFEV US prescribing information, revised May 2025",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da1c9f37-779e-4682-816f-93d0faa4cfc9",
+      "kind": "regulatory",
+      "studyId": "OFEV US prescribing information, revised May 2025",
+      "citation": "OFEV US prescribing information, revised May 2025",
+      "accessScope": "DailyMed label sections 1.3, 12.1 and 14.3 inspected 2026-10-17",
+      "identifiers": [],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-73ddf0f17f742a2ae895",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-doi-73ddf0f17f742a2ae895",
+      "revisionId": "source-doi-73ddf0f17f742a2ae895-therapy-v1",
+      "status": "candidate",
+      "title": "Mycophenolate mofetil versus oral cyclophosphamide in scleroderma-related interstitial lung disease (SLS II): a randomised controlled, double-blind, parallel group trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27469583/",
+      "kind": "trial",
+      "studyId": "PMID:27469583",
+      "citation": "Tashkin DP, Roth MD, Clements PJ, Furst DE, Khanna D, Kleerup EC, Goldin J, Arriola E, Volkmann ER, Kafaja S, Silver R, Steen V, Strange C, Wise R, Wigley F, Mayes M, Riley DJ, Hussain S, Assassi S, Hsu VM, Patel B, Phillips K, Martinez F, Golden J, Connolly MK, Varga J, Dematte J, Hinchcliff ME, Fischer A, Swigris J, Meehan R, Theodore A, Simms R, Volkov S, Schraufnagel DE, Scholand MB, Frech T, Molitor JA, Highland K, Read CA, Fritzler MJ, Kim GHJ, Tseng CH, Elashoff RM, Sclerodema Lung Study II Investigators.. Mycophenolate mofetil versus oral cyclophosphamide in scleroderma-related interstitial lung disease (SLS II): a randomised controlled, double-blind, parallel group trial.. The Lancet. Respiratory medicine. 2016-07-25",
+      "accessScope": "Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; selected full-text methods/results inspected; cached XML and text retained",
+      "identifiers": [
+        "DOI:10.1016/s2213-2600(16)30152-7",
+        "MED:27469583",
+        "PMCID:PMC5014629",
+        "PMID:27469583"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-9fbd55d1169487e01cc0",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "kind"
+    ],
+    "before": {
+      "id": "source-doi-9fbd55d1169487e01cc0",
+      "revisionId": "source-doi-9fbd55d1169487e01cc0-227c95ce692a",
+      "status": "candidate",
+      "title": "Clinical course of patients with scleroderma renal crisis treated with captopril.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7022235/",
+      "kind": "publication",
+      "studyId": "PMID:7022235",
+      "citation": "Zawada ET, Clements PJ, Furst DA, Bloomer HA, Paulus HE, Maxwell MH.. Clinical course of patients with scleroderma renal crisis treated with captopril.. Nephron. 1981-01-01",
+      "accessScope": "Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established",
+      "identifiers": [
+        "DOI:10.1159/000182028",
+        "MED:7022235",
+        "PMID:7022235"
+      ],
+      "flags": []
+    },
+    "after": {
+      "id": "source-doi-9fbd55d1169487e01cc0",
+      "revisionId": "source-doi-9fbd55d1169487e01cc0-227c95ce692a-therapy-v1-therapy-v1",
+      "status": "candidate",
+      "title": "Clinical course of patients with scleroderma renal crisis treated with captopril.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7022235/",
+      "kind": "trial",
+      "studyId": "PMID:7022235",
+      "citation": "Zawada ET, Clements PJ, Furst DA, Bloomer HA, Paulus HE, Maxwell MH.. Clinical course of patients with scleroderma renal crisis treated with captopril.. Nephron. 1981-01-01",
+      "accessScope": "Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established",
+      "identifiers": [
+        "DOI:10.1159/000182028",
+        "MED:7022235",
+        "PMID:7022235"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-c81dec45c9f50fd639da",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "kind"
+    ],
+    "before": {
+      "id": "source-doi-c81dec45c9f50fd639da",
+      "revisionId": "source-doi-c81dec45c9f50fd639da-227c95ce692a",
+      "status": "candidate",
+      "title": "Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31112379/",
+      "kind": "publication",
+      "studyId": "PMID:31112379",
+      "citation": "Distler O, Highland KB, Gahlemann M, Azuma A, Fischer A, Mayes MD, Raghu G, Sauter W, Girard M, Alves M, Clerisme-Beaty E, Stowasser S, Tetzlaff K, Kuwana M, Maher TM, SENSCIS Trial Investigators.. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease.. The New England journal of medicine. 2019-05-20",
+      "accessScope": "Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established",
+      "identifiers": [
+        "DOI:10.1056/nejmoa1903076",
+        "MED:31112379",
+        "PMID:31112379"
+      ],
+      "flags": []
+    },
+    "after": {
+      "id": "source-doi-c81dec45c9f50fd639da",
+      "revisionId": "source-doi-c81dec45c9f50fd639da-227c95ce692a-therapy-v1",
+      "status": "candidate",
+      "title": "Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31112379/",
+      "kind": "trial",
+      "studyId": "PMID:31112379",
+      "citation": "Distler O, Highland KB, Gahlemann M, Azuma A, Fischer A, Mayes MD, Raghu G, Sauter W, Girard M, Alves M, Clerisme-Beaty E, Stowasser S, Tetzlaff K, Kuwana M, Maher TM, SENSCIS Trial Investigators.. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease.. The New England journal of medicine. 2019-05-20",
+      "accessScope": "Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established",
+      "identifiers": [
+        "DOI:10.1056/nejmoa1903076",
+        "MED:31112379",
+        "PMID:31112379"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-d670c4f950e627a1bddc",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-doi-d670c4f950e627a1bddc",
+      "revisionId": "source-doi-d670c4f950e627a1bddc-therapy-v1",
+      "status": "candidate",
+      "title": "Outcome of renal crisis in systemic sclerosis: relation to availability of angiotensin converting enzyme (ACE) inhibitors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2382917/",
+      "kind": "trial",
+      "studyId": "PMID:2382917",
+      "citation": "Steen VD, Costantino JP, Shapiro AP, Medsger TA.. Outcome of renal crisis in systemic sclerosis: relation to availability of angiotensin converting enzyme (ACE) inhibitors.. Annals of internal medicine. 1990-09-01",
+      "accessScope": "Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established",
+      "identifiers": [
+        "DOI:10.7326/0003-4819-113-5-352",
+        "MED:2382917",
+        "PMID:2382917"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-f75348042f80c140f762",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-doi-f75348042f80c140f762",
+      "revisionId": "source-doi-f75348042f80c140f762-therapy-v1",
+      "status": "candidate",
+      "title": "Tocilizumab in systemic sclerosis: a randomised, double-blind, placebo-controlled, phase 3 trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32866440/",
+      "kind": "trial",
+      "studyId": "PMID:32866440",
+      "citation": "Khanna D, Lin CJF, Furst DE, Goldin J, Kim G, Kuwana M, Allanore Y, Matucci-Cerinic M, Distler O, Shima Y, van Laar JM, Spotswood H, Wagner B, Siegel J, Jahreis A, Denton CP, focuSSced investigators.. Tocilizumab in systemic sclerosis: a randomised, double-blind, placebo-controlled, phase 3 trial.. The Lancet. Respiratory medicine. 2020-08-28",
+      "accessScope": "Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established",
+      "identifiers": [
+        "DOI:10.1016/s2213-2600(20)30318-0",
+        "MED:32866440",
+        "PMID:32866440"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-fc533ed94b035950972b",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-doi-fc533ed94b035950972b",
+      "revisionId": "source-doi-fc533ed94b035950972b-therapy-v1",
+      "status": "candidate",
+      "title": "Myeloablative Autologous Stem-Cell Transplantation for Severe Scleroderma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29298160/",
+      "kind": "trial",
+      "studyId": "PMID:29298160",
+      "citation": "Sullivan KM, Goldmuntz EA, Keyes-Elstein L, McSweeney PA, Pinckney A, Welch B, Mayes MD, Nash RA, Crofford LJ, Eggleston B, Castina S, Griffith LM, Goldstein JS, Wallace D, Craciunescu O, Khanna D, Folz RJ, Goldin J, St Clair EW, Seibold JR, Phillips K, Mineishi S, Simms RW, Ballen K, Wener MH, Georges GE, Heimfeld S, Hosing C, Forman S, Kafaja S, Silver RM, Griffing L, Storek J, LeClercq S, Brasington R, Csuka ME, Bredeson C, Keever-Taylor C, Domsic RT, Kahaleh MB, Medsger T, Furst DE, SCOT Study Investigators.. Myeloablative Autologous Stem-Cell Transplantation for Severe Scleroderma.. The New England journal of medicine. 2018-01-01",
+      "accessScope": "Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established",
+      "identifiers": [
+        "DOI:10.1056/nejmoa1703327",
+        "MED:29298160",
+        "PMCID:PMC5846574",
+        "PMID:29298160"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-med-31573469",
+    "kind": "changed",
+    "fields": [
+      "revisionId"
+    ],
+    "before": {
+      "id": "source-med-31573469",
+      "revisionId": "source-med-31573469-227c95ce692a",
+      "status": "candidate",
+      "title": "Antifibrotic efficacy of nintedanib in a cellular model of systemic sclerosis-associated interstitial lung disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31573469/",
+      "kind": "publication",
+      "studyId": "PMID:31573469",
+      "citation": "Atanelishvili I, Akter T, Noguchi A, Vuyiv O, Wollin L, Silver RM, Bogatkevich GS.. Antifibrotic efficacy of nintedanib in a cellular model of systemic sclerosis-associated interstitial lung disease.. Clinical and experimental rheumatology. 2019-07-01",
+      "accessScope": "Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established",
+      "identifiers": [
+        "MED:31573469",
+        "PMID:31573469"
+      ],
+      "flags": []
+    },
+    "after": {
+      "id": "source-med-31573469",
+      "revisionId": "source-med-31573469-227c95ce692a-therapy-v1",
+      "status": "candidate",
+      "title": "Antifibrotic efficacy of nintedanib in a cellular model of systemic sclerosis-associated interstitial lung disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31573469/",
+      "kind": "publication",
+      "studyId": "PMID:31573469",
+      "citation": "Atanelishvili I, Akter T, Noguchi A, Vuyiv O, Wollin L, Silver RM, Bogatkevich GS.. Antifibrotic efficacy of nintedanib in a cellular model of systemic sclerosis-associated interstitial lung disease.. Clinical and experimental rheumatology. 2019-07-01",
+      "accessScope": "Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established",
+      "identifiers": [
+        "MED:31573469",
+        "PMID:31573469"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-dcssc-ace-inhibitors",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-dcssc-ace-inhibitors",
+      "revisionId": "therapy-dcssc-ace-inhibitors-therapy-v1",
+      "status": "candidate",
+      "name": "ACE inhibitors (captopril representative)",
+      "modality": "Small-molecule therapy",
+      "directTargetIds": [],
+      "indirectTargetIds": [
+        "entity-raas"
+      ],
+      "mechanismOfAction": "Inhibits angiotensin-converting enzyme and reduces angiotensin signalling; RAAS is an indirect pathway target.",
+      "indicationContextId": "context-dcssc-therapy",
+      "developmentStatus": "unverified",
+      "trialSourceIds": [
+        "source-doi-d670c4f950e627a1bddc",
+        "source-doi-9fbd55d1169487e01cc0"
+      ],
+      "supportingClaimIds": [
+        "claim-dcssc-therapy-ace-src",
+        "claim-dcssc-therapy-ace-pressure"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "EULAR: use immediately at diagnosis of SRC. This record does not endorse prophylactic use.",
+      "jurisdiction": "United States approvals where explicitly verified; EULAR guidance separately labelled",
+      "trialPhase": "Completed clinical study; population and endpoints restricted as described",
+      "verificationSourceIds": [
+        "source-dcssc-eular"
+      ],
+      "limitations": [
+        "Guideline-supported use. The schema has no off-label category: unverified denotes no SSc-specific regulatory approval verified here, not experimental clinical practice.",
+        "Renal recovery is variable; survival evidence is primarily historical observational."
+      ]
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-dcssc-cyclophosphamide",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-dcssc-cyclophosphamide",
+      "revisionId": "therapy-dcssc-cyclophosphamide-therapy-v1",
+      "status": "candidate",
+      "name": "Cyclophosphamide",
+      "modality": "Small-molecule therapy",
+      "directTargetIds": [],
+      "indirectTargetIds": [
+        "entity-fvc-decline"
+      ],
+      "mechanismOfAction": "Broad immunosuppression; clinical lung-function effects are indirect, not direct target binding.",
+      "indicationContextId": "context-dcssc-therapy",
+      "developmentStatus": "unverified",
+      "trialSourceIds": [
+        "source-doi-73ddf0f17f742a2ae895"
+      ],
+      "supportingClaimIds": [
+        "claim-dcssc-therapy-cyc-fvc"
+      ],
+      "qualifyingClaimIds": [
+        "claim-dcssc-therapy-cyc-toxicity"
+      ],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "Guideline-supported SSc-ILD; toxicity constrains treatment. No SSc-specific approval asserted.",
+      "jurisdiction": "United States approvals where explicitly verified; EULAR guidance separately labelled",
+      "trialPhase": "Completed clinical study; population and endpoints restricted as described",
+      "verificationSourceIds": [
+        "source-dcssc-eular"
+      ],
+      "limitations": [
+        "Guideline-supported use. The schema has no off-label category: unverified denotes no SSc-specific regulatory approval verified here, not experimental clinical practice.",
+        "Not a preferred treatment recommendation or universal disease reversal claim."
+      ]
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-dcssc-hsct",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-dcssc-hsct",
+      "revisionId": "therapy-dcssc-hsct-therapy-v1",
+      "status": "candidate",
+      "name": "Autologous haematopoietic stem-cell transplantation",
+      "modality": "Myeloablative immunosuppression and autologous stem-cell rescue",
+      "directTargetIds": [],
+      "indirectTargetIds": [
+        "entity-dcssc-global-outcome"
+      ],
+      "mechanismOfAction": "High-intensity immunosuppression followed by stem-cell rescue; global disease outcome is an indirect clinical effect, not a molecular target.",
+      "indicationContextId": "context-dcssc-therapy",
+      "developmentStatus": "unverified",
+      "trialSourceIds": [
+        "source-doi-fc533ed94b035950972b"
+      ],
+      "supportingClaimIds": [
+        "claim-dcssc-therapy-hsct-global"
+      ],
+      "qualifyingClaimIds": [
+        "claim-dcssc-therapy-hsct-harm"
+      ],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "EULAR: selected early severe dcSSc with poor prognosis, without advanced cardiorespiratory involvement.",
+      "jurisdiction": "United States approvals where explicitly verified; EULAR guidance separately labelled",
+      "trialPhase": "Completed clinical study; population and endpoints restricted as described",
+      "verificationSourceIds": [
+        "source-dcssc-eular"
+      ],
+      "limitations": [
+        "Procedure status is not equivalent to a drug indication; no regulatory approval claimed.",
+        "Treatment-related mortality and strict specialist selection apply."
+      ]
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-dcssc-mycophenolate",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-dcssc-mycophenolate",
+      "revisionId": "therapy-dcssc-mycophenolate-therapy-v1",
+      "status": "candidate",
+      "name": "Mycophenolate mofetil",
+      "modality": "Small-molecule therapy",
+      "directTargetIds": [],
+      "indirectTargetIds": [
+        "entity-fvc-decline"
+      ],
+      "mechanismOfAction": "Immunosuppressive treatment; the mapped clinical lung-function outcome is an indirect effect, not a direct molecular target.",
+      "indicationContextId": "context-dcssc-therapy",
+      "developmentStatus": "unverified",
+      "trialSourceIds": [
+        "source-doi-73ddf0f17f742a2ae895"
+      ],
+      "supportingClaimIds": [
+        "claim-dcssc-therapy-mmf-fvc"
+      ],
+      "qualifyingClaimIds": [
+        "claim-dcssc-therapy-mmf-comparison"
+      ],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "Guideline-supported SSc-ILD use; trial duration and tolerability apply. No SSc-specific approval asserted.",
+      "jurisdiction": "United States approvals where explicitly verified; EULAR guidance separately labelled",
+      "trialPhase": "Completed clinical study; population and endpoints restricted as described",
+      "verificationSourceIds": [
+        "source-dcssc-eular"
+      ],
+      "limitations": [
+        "Guideline-supported use. The schema has no off-label category: unverified denotes no SSc-specific regulatory approval verified here, not experimental clinical practice.",
+        "Direct IMPDH target and immune-cell mechanisms are not separately curated."
+      ]
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-dcssc-nintedanib",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-dcssc-nintedanib",
+      "revisionId": "therapy-dcssc-nintedanib-therapy-v1",
+      "status": "candidate",
+      "name": "Nintedanib",
+      "modality": "Small-molecule therapy",
+      "directTargetIds": [],
+      "indirectTargetIds": [
+        "entity-lung-fibroblasts"
+      ],
+      "mechanismOfAction": "Inhibits receptor tyrosine kinases including PDGFR, FGFR and VEGFR; mapped fibroblast effects are indirect.",
+      "indicationContextId": "context-dcssc-therapy",
+      "developmentStatus": "approved",
+      "trialSourceIds": [
+        "source-doi-c81dec45c9f50fd639da"
+      ],
+      "supportingClaimIds": [
+        "claim-dcssc-therapy-nint-fvc",
+        "claim-dcssc-therapy-nint-target"
+      ],
+      "qualifyingClaimIds": [
+        "claim-dcssc-therapy-nint-sensitivity",
+        "claim-dcssc-therapy-nint-skin-null"
+      ],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "US: slowing pulmonary-function decline in adults with SSc-ILD. No skin indication asserted.",
+      "jurisdiction": "United States approvals where explicitly verified; EULAR guidance separately labelled",
+      "trialPhase": "Completed clinical study; population and endpoints restricted as described",
+      "verificationSourceIds": [
+        "source-dcssc-ofev-label"
+      ],
+      "limitations": [
+        "Diarrhoea was frequent; not a fibrosis cure or proven skin treatment."
+      ]
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-dcssc-tocilizumab",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-dcssc-tocilizumab",
+      "revisionId": "therapy-dcssc-tocilizumab-therapy-v1",
+      "status": "candidate",
+      "name": "Tocilizumab",
+      "modality": "Monoclonal antibody",
+      "directTargetIds": [],
+      "indirectTargetIds": [
+        "entity-il6"
+      ],
+      "mechanismOfAction": "IL-6 receptor blockade inhibits downstream IL-6 signalling; IL-6 ligand is an indirect target.",
+      "indicationContextId": "context-dcssc-therapy",
+      "developmentStatus": "approved",
+      "trialSourceIds": [
+        "source-doi-f75348042f80c140f762"
+      ],
+      "supportingClaimIds": [
+        "claim-dcssc-therapy-toci-fvc",
+        "claim-dcssc-therapy-toci-mechanism"
+      ],
+      "qualifyingClaimIds": [
+        "claim-dcssc-therapy-toci-skin-null"
+      ],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "US: slowing pulmonary-function decline in adults with SSc-ILD; subcutaneous use. No general dcSSc skin approval asserted.",
+      "jurisdiction": "United States approvals where explicitly verified; EULAR guidance separately labelled",
+      "trialPhase": "Completed clinical study; population and endpoints restricted as described",
+      "verificationSourceIds": [
+        "source-dcssc-actemra-label"
+      ],
+      "limitations": [
+        "Trial secondary lung result; primary skin endpoint negative; original correction notices remain incompletely resolved."
+      ]
+    }
+  },
+  {
+    "collection": "contexts",
+    "id": "context-dcssc-therapy",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "diseaseId",
+      "label",
+      "organism",
+      "tissue",
+      "phenotype",
+      "stage"
+    ],
+    "before": null,
+    "after": {
+      "id": "context-dcssc-therapy",
+      "revisionId": "context-dcssc-therapy-therapy-v1",
+      "status": "candidate",
+      "diseaseId": "diffuse-systemic-sclerosis",
+      "label": "Selected SSc-ILD, severe dcSSc and SRC treatment studies; eligibility and outcomes remain separate",
+      "organism": "Human",
+      "tissue": "Lung, skin and kidney; trial-specific populations",
+      "phenotype": "Mixed-subset SSc-ILD, selected severe dcSSc or established SRC",
+      "stage": "Trial eligibility and organ indication apply separately"
+    }
+  },
+  {
+    "collection": "assessments",
+    "id": "assessment-dcssc-global",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "subjectId",
+      "contextId",
+      "scoringModelId",
+      "metricStatus",
+      "mechanisticWeight",
+      "evidenceConfidence",
+      "therapeuticLeverage",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "rationale",
+      "reviewerDecision",
+      "reviewedAt"
+    ],
+    "before": null,
+    "after": {
+      "id": "assessment-dcssc-global",
+      "revisionId": "assessment-dcssc-global-therapy-v1",
+      "status": "candidate",
+      "subjectId": "entity-dcssc-global-outcome",
+      "contextId": "context-dcssc-overview",
+      "scoringModelId": "scoring-diffuse-systemic-sclerosis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-dcssc-therapy-hsct-global"
+      ],
+      "qualifyingClaimIds": [
+        "claim-dcssc-therapy-hsct-harm"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    }
+  },
+  {
+    "collection": "mapViews",
+    "id": "view-diffuse-systemic-sclerosis-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "entityIds",
+      "assessmentIds"
+    ],
+    "before": {
+      "id": "view-diffuse-systemic-sclerosis-overview",
+      "revisionId": "view-diffuse-systemic-sclerosis-overview-227c95ce692a",
+      "status": "candidate",
+      "label": "Diffuse SSc: immune, vascular and fibrosis overview",
+      "contextId": "context-dcssc-overview",
+      "entityIds": [
+        "entity-ata",
+        "entity-ara",
+        "entity-ssc-ic",
+        "entity-pdc",
+        "entity-cxcl4",
+        "entity-cxcl4-dna",
+        "entity-ifn",
+        "entity-cd8",
+        "entity-il13",
+        "entity-stat6",
+        "entity-macrophages",
+        "entity-pdgf",
+        "entity-endothelial",
+        "entity-et1",
+        "entity-il6",
+        "entity-stat3",
+        "entity-tgfb",
+        "entity-smad3",
+        "entity-fibroblasts",
+        "entity-myofibroblasts",
+        "entity-ecm",
+        "entity-skin-fibrosis",
+        "entity-lung-fibroblasts",
+        "entity-ild",
+        "entity-fvc-decline",
+        "entity-renal-vasculopathy",
+        "entity-src",
+        "entity-aki",
+        "entity-hypertension",
+        "entity-raas"
+      ],
+      "relationshipIds": [
+        "relationship-ad51587f01e6070e9e5b",
+        "relationship-515c42a9eff74cbe3584",
+        "relationship-fbd2fe43d8d72995ef29",
+        "relationship-c96e9b6d540378b652a9",
+        "relationship-d5fd59e9fda96af10dd9",
+        "relationship-79120b9fc8eb83ab8de7",
+        "relationship-401a1386037a54580722",
+        "relationship-4949d4c0e8125f242ffb",
+        "relationship-3f7e71335f0365bcfbe4",
+        "relationship-7a453e4484fcd563ce28",
+        "relationship-9e7830eb3e11036203a0",
+        "relationship-20873b54acb17763590d",
+        "relationship-7b211e30de408e80097b",
+        "relationship-c8c1f4533bb6742aca33",
+        "relationship-21eb5580e4a9bb0fe851",
+        "relationship-036058e7100f2a297294",
+        "relationship-60c9cb92ad519bd15039",
+        "relationship-06677cb5a5743a1bad13",
+        "relationship-cb90087137076a8df855",
+        "relationship-7c6fc4df430b5edfd812",
+        "relationship-11b004ab211b28db8acd",
+        "relationship-b012fc73fa651660ffcf",
+        "relationship-3257f3cecb5b01198898",
+        "relationship-a6c960c876e33054d803",
+        "relationship-8d294abfb10d1c7e40d1",
+        "relationship-d37be5e371909f3d2485",
+        "relationship-94842a3cb5d4045125e4",
+        "relationship-55f99b9a16ea7e276532",
+        "relationship-ccf8c74fd36fcce061a1",
+        "relationship-59ec75bb12588415bdf4",
+        "relationship-4ad2052527290aaf81ea",
+        "relationship-8a06e3714f48841015ed",
+        "relationship-4b339e5348ae68bd9d49",
+        "relationship-10946cdfa8bd17d07163",
+        "relationship-a78877b31554c1de80bd",
+        "relationship-a4304a5f75478606e3ff",
+        "relationship-6d1906fa115d6ccbb23d",
+        "relationship-c7011e9eb31cdb5077fb",
+        "relationship-a83645a08b85e197cd99",
+        "relationship-a4d726202d067acadb09",
+        "relationship-a9646127ae72e0cb690d",
+        "relationship-4b4901f5a54437efbf05",
+        "relationship-0692f99617f73f7932ce",
+        "relationship-6bc39cb4345a597528ff"
+      ],
+      "assessmentIds": [
+        "assessment-3f502d3e4eb1c8cdf313",
+        "assessment-45acd1221de070125d12",
+        "assessment-63fd6b90fc5402737fdb",
+        "assessment-b0739a17ee71ce1db565",
+        "assessment-2dfa52c7414a30439aa5",
+        "assessment-0303c11e463e32ae5f88",
+        "assessment-5772097c5b6d451a72e4",
+        "assessment-dcd238ea6c00722307f8",
+        "assessment-95a305a1d5b47b9b22fa",
+        "assessment-dbbd7b551e73d0f8e987",
+        "assessment-4547f5e86e69234a5c15",
+        "assessment-2d5e9cfd5069714e4648",
+        "assessment-0c142dff5cd9a75e4a00",
+        "assessment-e2471a39c594a4bd02aa",
+        "assessment-10c37bcf32ef54f7e415",
+        "assessment-ff09e61d7bc1929b7cd5",
+        "assessment-f06bf8a0190add9dcd6e",
+        "assessment-1f6fec07c6e3c45d1e00",
+        "assessment-681377e9bdd6406cec54",
+        "assessment-374fbec6ff8066fb369a",
+        "assessment-0e498859de90d03ba5a7",
+        "assessment-d2ec753b1328e1f9f496",
+        "assessment-78fd76f20861ed5bfcfc",
+        "assessment-9732f87d868fc1d43693",
+        "assessment-a92ca9aee1705c682529",
+        "assessment-6cf511415411f0e34b35",
+        "assessment-1e2def102ccd0b2ffc54",
+        "assessment-6e1f0ca486c0d92dd163",
+        "assessment-5b149561e05bf9677085",
+        "assessment-dc3f832464ed1d68269a",
+        "assessment-e992b72ce504817ea100",
+        "assessment-195d8fdb72b4a41645df",
+        "assessment-c52eb8315a24a05fce37",
+        "assessment-fed5245cf24e9990ef4a",
+        "assessment-d638261bb240358c6461",
+        "assessment-fb30a51f79a646ace141",
+        "assessment-6c580a90b1981a0cdd37",
+        "assessment-cde651dc8e1024987f2a",
+        "assessment-7dd27a24d5f20e76f500",
+        "assessment-e46fb7eefb1f5f8bae01",
+        "assessment-bd03e30708b2cb778e49",
+        "assessment-372ae5cd3c9eacb2951a",
+        "assessment-8e86563b46e64cd40070",
+        "assessment-9d518ed4b617341c5ef2",
+        "assessment-ec994e04e6f21f3fde11",
+        "assessment-ffe60e951e15ff72e180",
+        "assessment-fd1fb45ab3c71f7ff5b6",
+        "assessment-815830960cde92e4e9a4",
+        "assessment-e0fa66fb88b71efb483d",
+        "assessment-737a05968fd4ed7d0444",
+        "assessment-df6478034abfbca02a6d",
+        "assessment-8a785c6c0b9c0998ee74",
+        "assessment-61142e113a1bb3562616",
+        "assessment-9ba5440358cd0f074c75",
+        "assessment-1fc2a96626562aa38072",
+        "assessment-ab425b0f267ead224181",
+        "assessment-23756d4f06d5ce30de66",
+        "assessment-bccc777a11041e8639fc",
+        "assessment-9a7acf129815ce423f09",
+        "assessment-1b710d1244db1bb61149",
+        "assessment-9f9ea502a8a5d4180992",
+        "assessment-97a5bd73f3df0b7a4a68",
+        "assessment-1464476ff65845302885",
+        "assessment-3dae24c4c4b6fe234f86",
+        "assessment-8d08f4825114f0f9ca46",
+        "assessment-cca316544025e7fba0cb",
+        "assessment-88671c0fb586f60fd0fd",
+        "assessment-5cb2dd0d738b776436e1",
+        "assessment-a78f502c62bf2661213c",
+        "assessment-f8659a37c5ed51d82ccb",
+        "assessment-7bc66f1775141c7b3091",
+        "assessment-3c87f344f74650e5e23e",
+        "assessment-05512f36441a4a91645f",
+        "assessment-09b37933b5c016507c7f"
+      ],
+      "layoutId": "layout-diffuse-systemic-sclerosis-overview"
+    },
+    "after": {
+      "id": "view-diffuse-systemic-sclerosis-overview",
+      "revisionId": "view-diffuse-systemic-sclerosis-overview-227c95ce692a-therapy-v1",
+      "status": "candidate",
+      "label": "Diffuse SSc: immune, vascular and fibrosis overview",
+      "contextId": "context-dcssc-overview",
+      "entityIds": [
+        "entity-ata",
+        "entity-ara",
+        "entity-ssc-ic",
+        "entity-pdc",
+        "entity-cxcl4",
+        "entity-cxcl4-dna",
+        "entity-ifn",
+        "entity-cd8",
+        "entity-il13",
+        "entity-stat6",
+        "entity-macrophages",
+        "entity-pdgf",
+        "entity-endothelial",
+        "entity-et1",
+        "entity-il6",
+        "entity-stat3",
+        "entity-tgfb",
+        "entity-smad3",
+        "entity-fibroblasts",
+        "entity-myofibroblasts",
+        "entity-ecm",
+        "entity-skin-fibrosis",
+        "entity-lung-fibroblasts",
+        "entity-ild",
+        "entity-fvc-decline",
+        "entity-renal-vasculopathy",
+        "entity-src",
+        "entity-aki",
+        "entity-hypertension",
+        "entity-raas",
+        "entity-dcssc-global-outcome"
+      ],
+      "relationshipIds": [
+        "relationship-ad51587f01e6070e9e5b",
+        "relationship-515c42a9eff74cbe3584",
+        "relationship-fbd2fe43d8d72995ef29",
+        "relationship-c96e9b6d540378b652a9",
+        "relationship-d5fd59e9fda96af10dd9",
+        "relationship-79120b9fc8eb83ab8de7",
+        "relationship-401a1386037a54580722",
+        "relationship-4949d4c0e8125f242ffb",
+        "relationship-3f7e71335f0365bcfbe4",
+        "relationship-7a453e4484fcd563ce28",
+        "relationship-9e7830eb3e11036203a0",
+        "relationship-20873b54acb17763590d",
+        "relationship-7b211e30de408e80097b",
+        "relationship-c8c1f4533bb6742aca33",
+        "relationship-21eb5580e4a9bb0fe851",
+        "relationship-036058e7100f2a297294",
+        "relationship-60c9cb92ad519bd15039",
+        "relationship-06677cb5a5743a1bad13",
+        "relationship-cb90087137076a8df855",
+        "relationship-7c6fc4df430b5edfd812",
+        "relationship-11b004ab211b28db8acd",
+        "relationship-b012fc73fa651660ffcf",
+        "relationship-3257f3cecb5b01198898",
+        "relationship-a6c960c876e33054d803",
+        "relationship-8d294abfb10d1c7e40d1",
+        "relationship-d37be5e371909f3d2485",
+        "relationship-94842a3cb5d4045125e4",
+        "relationship-55f99b9a16ea7e276532",
+        "relationship-ccf8c74fd36fcce061a1",
+        "relationship-59ec75bb12588415bdf4",
+        "relationship-4ad2052527290aaf81ea",
+        "relationship-8a06e3714f48841015ed",
+        "relationship-4b339e5348ae68bd9d49",
+        "relationship-10946cdfa8bd17d07163",
+        "relationship-a78877b31554c1de80bd",
+        "relationship-a4304a5f75478606e3ff",
+        "relationship-6d1906fa115d6ccbb23d",
+        "relationship-c7011e9eb31cdb5077fb",
+        "relationship-a83645a08b85e197cd99",
+        "relationship-a4d726202d067acadb09",
+        "relationship-a9646127ae72e0cb690d",
+        "relationship-4b4901f5a54437efbf05",
+        "relationship-0692f99617f73f7932ce",
+        "relationship-6bc39cb4345a597528ff"
+      ],
+      "assessmentIds": [
+        "assessment-3f502d3e4eb1c8cdf313",
+        "assessment-45acd1221de070125d12",
+        "assessment-63fd6b90fc5402737fdb",
+        "assessment-b0739a17ee71ce1db565",
+        "assessment-2dfa52c7414a30439aa5",
+        "assessment-0303c11e463e32ae5f88",
+        "assessment-5772097c5b6d451a72e4",
+        "assessment-dcd238ea6c00722307f8",
+        "assessment-95a305a1d5b47b9b22fa",
+        "assessment-dbbd7b551e73d0f8e987",
+        "assessment-4547f5e86e69234a5c15",
+        "assessment-2d5e9cfd5069714e4648",
+        "assessment-0c142dff5cd9a75e4a00",
+        "assessment-e2471a39c594a4bd02aa",
+        "assessment-10c37bcf32ef54f7e415",
+        "assessment-ff09e61d7bc1929b7cd5",
+        "assessment-f06bf8a0190add9dcd6e",
+        "assessment-1f6fec07c6e3c45d1e00",
+        "assessment-681377e9bdd6406cec54",
+        "assessment-374fbec6ff8066fb369a",
+        "assessment-0e498859de90d03ba5a7",
+        "assessment-d2ec753b1328e1f9f496",
+        "assessment-78fd76f20861ed5bfcfc",
+        "assessment-9732f87d868fc1d43693",
+        "assessment-a92ca9aee1705c682529",
+        "assessment-6cf511415411f0e34b35",
+        "assessment-1e2def102ccd0b2ffc54",
+        "assessment-6e1f0ca486c0d92dd163",
+        "assessment-5b149561e05bf9677085",
+        "assessment-dc3f832464ed1d68269a",
+        "assessment-e992b72ce504817ea100",
+        "assessment-195d8fdb72b4a41645df",
+        "assessment-c52eb8315a24a05fce37",
+        "assessment-fed5245cf24e9990ef4a",
+        "assessment-d638261bb240358c6461",
+        "assessment-fb30a51f79a646ace141",
+        "assessment-6c580a90b1981a0cdd37",
+        "assessment-cde651dc8e1024987f2a",
+        "assessment-7dd27a24d5f20e76f500",
+        "assessment-e46fb7eefb1f5f8bae01",
+        "assessment-bd03e30708b2cb778e49",
+        "assessment-372ae5cd3c9eacb2951a",
+        "assessment-8e86563b46e64cd40070",
+        "assessment-9d518ed4b617341c5ef2",
+        "assessment-ec994e04e6f21f3fde11",
+        "assessment-ffe60e951e15ff72e180",
+        "assessment-fd1fb45ab3c71f7ff5b6",
+        "assessment-815830960cde92e4e9a4",
+        "assessment-e0fa66fb88b71efb483d",
+        "assessment-737a05968fd4ed7d0444",
+        "assessment-df6478034abfbca02a6d",
+        "assessment-8a785c6c0b9c0998ee74",
+        "assessment-61142e113a1bb3562616",
+        "assessment-9ba5440358cd0f074c75",
+        "assessment-1fc2a96626562aa38072",
+        "assessment-ab425b0f267ead224181",
+        "assessment-23756d4f06d5ce30de66",
+        "assessment-bccc777a11041e8639fc",
+        "assessment-9a7acf129815ce423f09",
+        "assessment-1b710d1244db1bb61149",
+        "assessment-9f9ea502a8a5d4180992",
+        "assessment-97a5bd73f3df0b7a4a68",
+        "assessment-1464476ff65845302885",
+        "assessment-3dae24c4c4b6fe234f86",
+        "assessment-8d08f4825114f0f9ca46",
+        "assessment-cca316544025e7fba0cb",
+        "assessment-88671c0fb586f60fd0fd",
+        "assessment-5cb2dd0d738b776436e1",
+        "assessment-a78f502c62bf2661213c",
+        "assessment-f8659a37c5ed51d82ccb",
+        "assessment-7bc66f1775141c7b3091",
+        "assessment-3c87f344f74650e5e23e",
+        "assessment-05512f36441a4a91645f",
+        "assessment-09b37933b5c016507c7f",
+        "assessment-dcssc-global"
+      ],
+      "layoutId": "layout-diffuse-systemic-sclerosis-overview"
+    }
+  },
+  {
+    "collection": "layouts",
+    "id": "layout-diffuse-systemic-sclerosis-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "positions"
+    ],
+    "before": {
+      "id": "layout-diffuse-systemic-sclerosis-overview",
+      "revisionId": "layout-diffuse-systemic-sclerosis-overview-227c95ce692a",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-pdc",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-cxcl4",
+          "x": 390,
+          "y": 0
+        },
+        {
+          "entityId": "entity-cxcl4-dna",
+          "x": 780,
+          "y": 0
+        },
+        {
+          "entityId": "entity-ifn",
+          "x": 1170,
+          "y": 0
+        },
+        {
+          "entityId": "entity-cd8",
+          "x": 0,
+          "y": 210
+        },
+        {
+          "entityId": "entity-il13",
+          "x": 390,
+          "y": 210
+        },
+        {
+          "entityId": "entity-stat6",
+          "x": 780,
+          "y": 210
+        },
+        {
+          "entityId": "entity-ata",
+          "x": 0,
+          "y": 420
+        },
+        {
+          "entityId": "entity-ssc-ic",
+          "x": 390,
+          "y": 420
+        },
+        {
+          "entityId": "entity-endothelial",
+          "x": 780,
+          "y": 420
+        },
+        {
+          "entityId": "entity-et1",
+          "x": 1170,
+          "y": 420
+        },
+        {
+          "entityId": "entity-ara",
+          "x": 0,
+          "y": 630
+        },
+        {
+          "entityId": "entity-macrophages",
+          "x": 390,
+          "y": 630
+        },
+        {
+          "entityId": "entity-pdgf",
+          "x": 780,
+          "y": 630
+        },
+        {
+          "entityId": "entity-fibroblasts",
+          "x": 1170,
+          "y": 630
+        },
+        {
+          "entityId": "entity-il6",
+          "x": 0,
+          "y": 840
+        },
+        {
+          "entityId": "entity-stat3",
+          "x": 390,
+          "y": 840
+        },
+        {
+          "entityId": "entity-tgfb",
+          "x": 780,
+          "y": 840
+        },
+        {
+          "entityId": "entity-smad3",
+          "x": 1170,
+          "y": 840
+        },
+        {
+          "entityId": "entity-lung-fibroblasts",
+          "x": 0,
+          "y": 1050
+        },
+        {
+          "entityId": "entity-myofibroblasts",
+          "x": 390,
+          "y": 1050
+        },
+        {
+          "entityId": "entity-ecm",
+          "x": 780,
+          "y": 1050
+        },
+        {
+          "entityId": "entity-skin-fibrosis",
+          "x": 1170,
+          "y": 1050
+        },
+        {
+          "entityId": "entity-ild",
+          "x": 0,
+          "y": 1260
+        },
+        {
+          "entityId": "entity-fvc-decline",
+          "x": 390,
+          "y": 1260
+        },
+        {
+          "entityId": "entity-renal-vasculopathy",
+          "x": 780,
+          "y": 1260
+        },
+        {
+          "entityId": "entity-raas",
+          "x": 1170,
+          "y": 1260
+        },
+        {
+          "entityId": "entity-src",
+          "x": 0,
+          "y": 1470
+        },
+        {
+          "entityId": "entity-aki",
+          "x": 390,
+          "y": 1470
+        },
+        {
+          "entityId": "entity-hypertension",
+          "x": 780,
+          "y": 1470
+        }
+      ]
+    },
+    "after": {
+      "id": "layout-diffuse-systemic-sclerosis-overview",
+      "revisionId": "layout-diffuse-systemic-sclerosis-overview-227c95ce692a-therapy-v1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-pdc",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-cxcl4",
+          "x": 390,
+          "y": 0
+        },
+        {
+          "entityId": "entity-cxcl4-dna",
+          "x": 780,
+          "y": 0
+        },
+        {
+          "entityId": "entity-ifn",
+          "x": 1170,
+          "y": 0
+        },
+        {
+          "entityId": "entity-cd8",
+          "x": 0,
+          "y": 210
+        },
+        {
+          "entityId": "entity-il13",
+          "x": 390,
+          "y": 210
+        },
+        {
+          "entityId": "entity-stat6",
+          "x": 780,
+          "y": 210
+        },
+        {
+          "entityId": "entity-ata",
+          "x": 0,
+          "y": 420
+        },
+        {
+          "entityId": "entity-ssc-ic",
+          "x": 390,
+          "y": 420
+        },
+        {
+          "entityId": "entity-endothelial",
+          "x": 780,
+          "y": 420
+        },
+        {
+          "entityId": "entity-et1",
+          "x": 1170,
+          "y": 420
+        },
+        {
+          "entityId": "entity-ara",
+          "x": 0,
+          "y": 630
+        },
+        {
+          "entityId": "entity-macrophages",
+          "x": 390,
+          "y": 630
+        },
+        {
+          "entityId": "entity-pdgf",
+          "x": 780,
+          "y": 630
+        },
+        {
+          "entityId": "entity-fibroblasts",
+          "x": 1170,
+          "y": 630
+        },
+        {
+          "entityId": "entity-il6",
+          "x": 0,
+          "y": 840
+        },
+        {
+          "entityId": "entity-stat3",
+          "x": 390,
+          "y": 840
+        },
+        {
+          "entityId": "entity-tgfb",
+          "x": 780,
+          "y": 840
+        },
+        {
+          "entityId": "entity-smad3",
+          "x": 1170,
+          "y": 840
+        },
+        {
+          "entityId": "entity-lung-fibroblasts",
+          "x": 0,
+          "y": 1050
+        },
+        {
+          "entityId": "entity-myofibroblasts",
+          "x": 390,
+          "y": 1050
+        },
+        {
+          "entityId": "entity-ecm",
+          "x": 780,
+          "y": 1050
+        },
+        {
+          "entityId": "entity-skin-fibrosis",
+          "x": 1170,
+          "y": 1050
+        },
+        {
+          "entityId": "entity-ild",
+          "x": 0,
+          "y": 1260
+        },
+        {
+          "entityId": "entity-fvc-decline",
+          "x": 390,
+          "y": 1260
+        },
+        {
+          "entityId": "entity-renal-vasculopathy",
+          "x": 780,
+          "y": 1260
+        },
+        {
+          "entityId": "entity-raas",
+          "x": 1170,
+          "y": 1260
+        },
+        {
+          "entityId": "entity-src",
+          "x": 0,
+          "y": 1470
+        },
+        {
+          "entityId": "entity-aki",
+          "x": 390,
+          "y": 1470
+        },
+        {
+          "entityId": "entity-hypertension",
+          "x": 780,
+          "y": 1470
+        },
+        {
+          "entityId": "entity-dcssc-global-outcome",
+          "x": 1550,
+          "y": 1460
+        }
+      ]
+    }
+  }
+]

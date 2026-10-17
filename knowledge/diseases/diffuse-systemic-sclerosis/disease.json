@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "id": "diffuse-systemic-sclerosis",
+  "label": "Diffuse cutaneous systemic sclerosis",
+  "summary": "Diffuse cutaneous systemic sclerosis: autoimmunity, endothelial injury, fibroblast activation and skin fibrosis, with interstitial lung disease and renal crisis branches. Mixed-subset SSc studies retain their context; excludes limited cutaneous disease, morphea and overlap syndromes.",
+  "query": "(TITLE_ABS:\"diffuse cutaneous systemic sclerosis\" OR TITLE_ABS:dcSSc OR TITLE_ABS:\"scleroderma renal crisis\") AND (TITLE_ABS:mechanism* OR TITLE_ABS:fibrosis OR TITLE_ABS:fibroblast* OR TITLE_ABS:endothelial OR TITLE_ABS:autoantibod* OR TITLE_ABS:interleukin OR TITLE_ABS:\"TGF\" OR TITLE_ABS:nintedanib OR TITLE_ABS:tocilizumab OR TITLE_ABS:mycophenolate OR TITLE_ABS:cyclophosphamide OR TITLE_ABS:transplantation OR TITLE_ABS:\"RNA polymerase\" OR TITLE_ABS:topoisomerase)",
+  "aliases": [
+    "dcSSc",
+    "diffuse scleroderma",
+    "diffuse cutaneous SSc"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "diffuse-systemic-sclerosis-summary-candidate-f7786448c91d"
+}

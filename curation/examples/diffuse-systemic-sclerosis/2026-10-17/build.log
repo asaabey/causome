@@ -1,0 +1,249 @@
+
+> causome@ build /Users/asanga/Documents/Projects/causome
+> pnpm validate && pnpm --filter @causome/web build
+
+
+> causome@ validate /Users/asanga/Documents/Projects/causome
+> node scripts/validate-release.mjs
+
+Validated 114 disease candidates and their registry profiles.
+
+> @causome/web@0.1.0 build /Users/asanga/Documents/Projects/causome/web
+> astro check && astro build
+
+14:39:41 [content] Syncing content
+14:39:41 [content] Synced content
+14:39:41 [types] Generated 15ms
+14:39:41 [check] Getting diagnostics for Astro files in /Users/asanga/Documents/Projects/causome/web...
+Result (42 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+14:39:43 [content] Syncing content
+14:39:43 [content] Synced content
+14:39:43 [types] Generated 10ms
+14:39:43 [build] output: "static"
+14:39:43 [build] mode: "static"
+14:39:43 [build] directory: /Users/asanga/Documents/Projects/causome/web/dist/
+14:39:43 [build] Collecting build info...
+14:39:43 [build] ✓ Completed in 18ms.
+14:39:43 [build] Building static entrypoints...
+14:39:44 [vite] ✓ built in 346ms
+14:39:44 [build] ✓ Completed in 357ms.
+
+ building client (vite) 
+14:39:44 [vite] transforming...
+14:39:44 [vite] ✓ 1767 modules transformed.
+14:39:44 [vite] rendering chunks...
+14:39:44 [vite] computing gzip size...
+14:39:44 [vite] dist/_astro/jsx-runtime.D_zvdyIk.js          0.73 kB │ gzip:  0.46 kB
+14:39:44 [vite] dist/_astro/comparison.2va9aNxt.js           1.98 kB │ gzip:  0.91 kB
+14:39:44 [vite] dist/_astro/VersionComparison.DVllwjp0.js    2.54 kB │ gzip:  0.99 kB
+14:39:44 [vite] dist/_astro/DiseaseComparison.DY8RNtCx.js    2.87 kB │ gzip:  1.22 kB
+14:39:44 [vite] dist/_astro/index.cUDuR-aO.js                4.21 kB │ gzip:  1.57 kB
+14:39:44 [vite] dist/_astro/index.u48wIPjY.js                8.83 kB │ gzip:  3.39 kB
+14:39:44 [vite] dist/_astro/CurationWorkbench.BZHp0skL.js   30.88 kB │ gzip: 10.27 kB
+14:39:44 [vite] dist/_astro/client.CAN4sTzB.js             211.37 kB │ gzip: 66.06 kB
+14:39:44 [vite] dist/_astro/MechanismMap.CMSPVhx0.js       234.56 kB │ gzip: 76.00 kB
+14:39:44 [vite] ✓ built in 657ms
+
+ generating static routes 
+14:39:45 ▶ src/pages/[workspace].astro
+14:39:45   └─ /curation/index.html (+551ms) 
+14:39:45 ▶ src/pages/compare.astro
+14:39:45   └─ /compare/index.html (+74ms) 
+14:39:46 ▶ src/pages/diseases/[disease]/candidates/[release].astro
+14:39:46   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-appraised-candidate-2285020a4592/index.html (+15ms) 
+14:39:46   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-appraised-candidate-238031bf4b8a/index.html (+10ms) 
+14:39:46   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-candidate-001/index.html (+5ms) 
+14:39:46   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-summary-candidate-12053b461b79/index.html (+17ms) 
+14:39:46   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-summary-candidate-3c24e9e72405/index.html (+5ms) 
+14:39:46   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-summary-candidate-eb8e14a28e3c/index.html (+8ms) 
+14:39:46   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-with-egpa-candidate-001/index.html (+4ms) 
+14:39:46   ├─ /diseases/anti-gbm-disease/candidates/anti-gbm-disease-appraised-candidate-4728a2195b1d/index.html (+8ms) 
+14:39:46   ├─ /diseases/anti-gbm-disease/candidates/anti-gbm-disease-appraised-candidate-e9119d4b30d6/index.html (+8ms) 
+14:39:46   ├─ /diseases/anti-gbm-disease/candidates/anti-gbm-disease-candidate-20261017-01/index.html (+3ms) 
+14:39:46   ├─ /diseases/anti-gbm-disease/candidates/anti-gbm-disease-candidate-contexts-20261017-02/index.html (+3ms) 
+14:39:46   ├─ /diseases/anti-gbm-disease/candidates/anti-gbm-disease-summary-candidate-23b7c3250603/index.html (+24ms) 
+14:39:46   ├─ /diseases/anti-gbm-disease/candidates/anti-gbm-disease-summary-candidate-7dc8ff039609/index.html (+11ms) 
+14:39:46   ├─ /diseases/anti-gbm-disease/candidates/anti-gbm-disease-summary-candidate-824d30740aae/index.html (+8ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-appraised-candidate-6927e55c23f4/index.html (+6ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-appraised-candidate-d9e7449b5ac5/index.html (+13ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-appraised-candidate-dfb2884386f7/index.html (+6ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-candidate-20261017-01/index.html (+3ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-candidate-contexts-20261017-02/index.html (+3ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-consolidated-candidate-20261017-03/index.html (+6ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-summary-candidate-531cea347028/index.html (+13ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-summary-candidate-89b9ec28207f/index.html (+19ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-summary-candidate-cd695231f272/index.html (+6ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-summary-candidate-d4ea04ecbc70/index.html (+13ms) 
+14:39:46   ├─ /diseases/atypical-hus/candidates/atypical-hus-summary-candidate-d7ca7f3430a3/index.html (+5ms) 
+14:39:46   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-appraised-candidate-80e1ca3d8ba0/index.html (+4ms) 
+14:39:46   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-candidate-001/index.html (+2ms) 
+14:39:46   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-779fb35eb11c/index.html (+6ms) 
+14:39:46   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-bc0c86a1bbcb/index.html (+4ms) 
+14:39:46   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-appraised-candidate-c7fdac3e8a2c/index.html (+7ms) 
+14:39:46   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-3495bfd77080/index.html (+11ms) 
+14:39:46   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-489eb5491465/index.html (+8ms) 
+14:39:46   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-67b26c1308bd/index.html (+7ms) 
+14:39:46   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-candidate-002/index.html (+3ms) 
+14:39:46   ├─ /diseases/calciphylaxis/candidates/calciphylaxis-appraised-candidate-cc06694e21cc/index.html (+10ms) 
+14:39:46   ├─ /diseases/calciphylaxis/candidates/calciphylaxis-appraised-candidate-e54e61b388a6/index.html (+9ms) 
+14:39:46   ├─ /diseases/calciphylaxis/candidates/calciphylaxis-candidate-001/index.html (+4ms) 
+14:39:46   ├─ /diseases/calciphylaxis/candidates/calciphylaxis-candidate-002/index.html (+5ms) 
+14:39:46   ├─ /diseases/calciphylaxis/candidates/calciphylaxis-summary-candidate-9b1e60179c27/index.html (+26ms) 
+14:39:46   ├─ /diseases/crest-syndrome/candidates/crest-syndrome-appraised-candidate-30d2fc09b9ce/index.html (+10ms) 
+14:39:46   ├─ /diseases/crest-syndrome/candidates/crest-syndrome-candidate-001/index.html (+5ms) 
+14:39:46   ├─ /diseases/crest-syndrome/candidates/crest-syndrome-summary-candidate-b57a0717c4a3/index.html (+24ms) 
+14:39:46   ├─ /diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-appraised-candidate-4fe500950262/index.html (+12ms) 
+14:39:46   ├─ /diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-appraised-candidate-9ffacfbd27e3/index.html (+12ms) 
+14:39:46   ├─ /diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-candidate-20261017-001/index.html (+5ms) 
+14:39:46   ├─ /diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-notices-candidate-20261017-001/index.html (+12ms) 
+14:39:46   ├─ /diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-summary-candidate-4b2fbcfedc84/index.html (+61ms) 
+14:39:46   ├─ /diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-summary-candidate-a0f086479565/index.html (+12ms) 
+14:39:46   ├─ /diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-summary-candidate-a16fa175cddb/index.html (+13ms) 
+14:39:46   ├─ /diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-summary-candidate-a3dc66504f57/index.html (+13ms) 
+14:39:46   ├─ /diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-summary-candidate-f7786448c91d/index.html (+13ms) 
+14:39:46   ├─ /diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-therapy-candidate-20261017-001/index.html (+5ms) 
+14:39:46   ├─ /diseases/iga-nephropathy/candidates/iga-nephropathy-appraised-candidate-bf0656421814/index.html (+3ms) 
+14:39:46   ├─ /diseases/iga-nephropathy/candidates/iga-nephropathy-candidate-001/index.html (+1ms) 
+14:39:46   ├─ /diseases/iga-nephropathy/candidates/iga-nephropathy-candidate-2a8f21ad71cc/index.html (+2ms) 
+14:39:46   ├─ /diseases/iga-nephropathy/candidates/iga-nephropathy-candidate-b81ba67f55bc/index.html (+1ms) 
+14:39:46   ├─ /diseases/iga-nephropathy/candidates/iga-nephropathy-summary-candidate-5bcf0968db75/index.html (+6ms) 
+14:39:46   ├─ /diseases/igg4-related-disease/candidates/igg4-related-disease-appraised-candidate-90d22ffa6cee/index.html (+5ms) 
+14:39:46   ├─ /diseases/igg4-related-disease/candidates/igg4-related-disease-candidate-001/index.html (+2ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-appraised-candidate-3db1004942c1/index.html (+10ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-appraised-candidate-a3f88eef204e/index.html (+9ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-appraised-candidate-e0783dfd7daf/index.html (+7ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-candidate-002/index.html (+4ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-candidate-7ce925c46588/index.html (+4ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-candidate-b69c087e5f07/index.html (+4ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-candidate-b758cd68c916/index.html (+8ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-1baa289a09b0/index.html (+29ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-517ce885ff07/index.html (+10ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-72068b9c347e/index.html (+8ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-7d249c509f63/index.html (+8ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-7f864b439dbc/index.html (+10ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-a6d97ad77a83/index.html (+11ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-ab9e5d35de09/index.html (+8ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-d855e941088c/index.html (+10ms) 
+14:39:46   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-candidate-001/index.html (+4ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-appraised-candidate-52490a4350bd/index.html (+3ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-candidate-001/index.html (+2ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-22a34a3088c7/index.html (+6ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-appraised-candidate-1f40e4edb5bb/index.html (+5ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-candidate-5855e3a9d51f/index.html (+3ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-candidate-afc4c3d77c4c/index.html (+2ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-32b357e83600/index.html (+3ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-7b1e8b5874d6/index.html (+6ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-bc5dfdb78dfb/index.html (+5ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-candidate-ea826765a33b/index.html (+5ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-08ba4223dd93/index.html (+6ms) 
+14:39:46   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-a97aa8990ba3/index.html (+5ms) 
+14:39:46   ├─ /diseases/pre-eclampsia/candidates/pre-eclampsia-appraised-candidate-41278c06c087/index.html (+10ms) 
+14:39:46   ├─ /diseases/pre-eclampsia/candidates/pre-eclampsia-candidate-001/index.html (+4ms) 
+14:39:46   ├─ /diseases/pre-eclampsia/candidates/pre-eclampsia-summary-candidate-980515be46a7/index.html (+30ms) 
+14:39:46   ├─ /diseases/primary-fsgs/candidates/primary-fsgs-appraised-candidate-0d151104a597/index.html (+6ms) 
+14:39:46   ├─ /diseases/primary-fsgs/candidates/primary-fsgs-appraised-candidate-0db3483728fb/index.html (+5ms) 
+14:39:46   ├─ /diseases/primary-fsgs/candidates/primary-fsgs-appraised-candidate-eabc22a3643a/index.html (+6ms) 
+14:39:46   ├─ /diseases/primary-fsgs/candidates/primary-fsgs-candidate-001/index.html (+2ms) 
+14:39:46   ├─ /diseases/primary-fsgs/candidates/primary-fsgs-candidate-contexts-002/index.html (+2ms) 
+14:39:46   ├─ /diseases/primary-fsgs/candidates/primary-fsgs-candidate-therapies-003/index.html (+2ms) 
+14:39:46   ├─ /diseases/primary-fsgs/candidates/primary-fsgs-summary-candidate-3bc448f62ae7/index.html (+12ms) 
+14:39:46   ├─ /diseases/primary-fsgs/candidates/primary-fsgs-summary-candidate-4ac0d3788313/index.html (+25ms) 
+14:39:46   ├─ /diseases/primary-fsgs/candidates/primary-fsgs-summary-candidate-96cc690f2e0c/index.html (+6ms) 
+14:39:46   ├─ /diseases/primary-fsgs/candidates/primary-fsgs-summary-candidate-c0afb63eed8a/index.html (+7ms) 
+14:39:46   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-appraised-candidate-2a6c9349c445/index.html (+7ms) 
+14:39:46   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-appraised-candidate-65b4ba6c34f8/index.html (+7ms) 
+14:39:46   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-appraised-candidate-a67de9da4a52/index.html (+6ms) 
+14:39:46   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-candidate-20261017-001/index.html (+3ms) 
+14:39:46   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-null-qualified-candidate-20261017-001/index.html (+4ms) 
+14:39:46   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-summary-candidate-32a3820313d7/index.html (+17ms) 
+14:39:47   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-summary-candidate-6a97832a99ae/index.html (+8ms) 
+14:39:47   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-summary-candidate-8c51542f9f64/index.html (+7ms) 
+14:39:47   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-summary-candidate-b62d8ddf75f2/index.html (+8ms) 
+14:39:47   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-summary-candidate-ce8daa265d37/index.html (+7ms) 
+14:39:47   ├─ /diseases/sjogren-disease/candidates/sjogren-disease-therapy-candidate-20261017-001/index.html (+3ms) 
+14:39:47   ├─ /diseases/sle/candidates/sle-curated-candidate-001/index.html (+5ms) 
+14:39:47   ├─ /diseases/sle/candidates/sle-appraised-candidate-df64ccfede54/index.html (+8ms) 
+14:39:47   └─ /diseases/sle/candidates/sle-summary-candidate-f3c3742263d5/index.html (+14ms) 
+14:39:47 ▶ src/pages/diseases/[disease]/compare.astro
+14:39:47   ├─ /diseases/anca-associated-vasculitis/compare/index.html (+18ms) 
+14:39:47   ├─ /diseases/anti-gbm-disease/compare/index.html (+21ms) 
+14:39:47   ├─ /diseases/atypical-hus/compare/index.html (+39ms) 
+14:39:47   ├─ /diseases/c3-glomerulonephritis/compare/index.html (+38ms) 
+14:39:47   ├─ /diseases/calciphylaxis/compare/index.html (+21ms) 
+14:39:47   ├─ /diseases/crest-syndrome/compare/index.html (+15ms) 
+14:39:47   ├─ /diseases/diffuse-systemic-sclerosis/compare/index.html (+53ms) 
+14:39:47   ├─ /diseases/iga-nephropathy/compare/index.html (+5ms) 
+14:39:47   ├─ /diseases/igg4-related-disease/compare/index.html (+11ms) 
+14:39:47   ├─ /diseases/membranous-nephropathy/compare/index.html (+79ms) 
+14:39:47   ├─ /diseases/minimal-change-nephropathy/compare/index.html (+27ms) 
+14:39:47   ├─ /diseases/pre-eclampsia/compare/index.html (+17ms) 
+14:39:47   ├─ /diseases/primary-fsgs/compare/index.html (+24ms) 
+14:39:47   ├─ /diseases/sjogren-disease/compare/index.html (+46ms) 
+14:39:47   └─ /diseases/sle/compare/index.html (+12ms) 
+14:39:47 ▶ src/pages/diseases/[disease]/history.astro
+14:39:47   ├─ /diseases/anca-associated-vasculitis/history/index.html (+1ms) 
+14:39:47   ├─ /diseases/anti-gbm-disease/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/atypical-hus/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/c3-glomerulonephritis/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/calciphylaxis/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/crest-syndrome/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/diffuse-systemic-sclerosis/history/index.html (+1ms) 
+14:39:47   ├─ /diseases/iga-nephropathy/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/igg4-related-disease/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/membranous-nephropathy/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/minimal-change-nephropathy/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/pre-eclampsia/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/primary-fsgs/history/index.html (+0ms) 
+14:39:47   ├─ /diseases/sjogren-disease/history/index.html (+0ms) 
+14:39:47   └─ /diseases/sle/history/index.html (+0ms) 
+14:39:47 ▶ src/pages/diseases/[disease]/releases/[release].astro
+14:39:47 λ src/pages/diseases/[disease]/summary-review.md.ts
+14:39:47   ├─ /diseases/anca-associated-vasculitis/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/anti-gbm-disease/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/atypical-hus/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/c3-glomerulonephritis/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/calciphylaxis/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/crest-syndrome/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/diffuse-systemic-sclerosis/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/iga-nephropathy/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/membranous-nephropathy/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/minimal-change-nephropathy/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/pre-eclampsia/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/primary-fsgs/summary-review.md/ (+0ms) 
+14:39:47   ├─ /diseases/sjogren-disease/summary-review.md/ (+0ms) 
+14:39:47   └─ /diseases/sle/summary-review.md/ (+0ms) 
+14:39:47 ▶ src/pages/diseases/[disease].astro
+14:39:47   ├─ /diseases/anca-associated-vasculitis/index.html (+18ms) 
+14:39:47   ├─ /diseases/anti-gbm-disease/index.html (+29ms) 
+14:39:47   ├─ /diseases/atypical-hus/index.html (+28ms) 
+14:39:47   ├─ /diseases/c3-glomerulonephritis/index.html (+15ms) 
+14:39:47   ├─ /diseases/calciphylaxis/index.html (+27ms) 
+14:39:47   ├─ /diseases/crest-syndrome/index.html (+25ms) 
+14:39:47   ├─ /diseases/diffuse-systemic-sclerosis/index.html (+61ms) 
+14:39:47   ├─ /diseases/iga-nephropathy/index.html (+8ms) 
+14:39:47   ├─ /diseases/igg4-related-disease/index.html (+5ms) 
+14:39:47   ├─ /diseases/membranous-nephropathy/index.html (+30ms) 
+14:39:47   ├─ /diseases/minimal-change-nephropathy/index.html (+8ms) 
+14:39:47   ├─ /diseases/pre-eclampsia/index.html (+30ms) 
+14:39:47   ├─ /diseases/primary-fsgs/index.html (+12ms) 
+14:39:47   ├─ /diseases/sjogren-disease/index.html (+18ms) 
+14:39:47   └─ /diseases/sle/index.html (+13ms) 
+14:39:47 ▶ src/pages/diseases/index.astro
+14:39:47   └─ /diseases/index.html (+0ms) 
+14:39:47 ▶ src/pages/index.astro
+14:39:47   └─ /index.html (+0ms) 
+14:39:47 ▶ src/pages/methodology.astro
+14:39:47   └─ /methodology/index.html (+0ms) 
+14:39:47 λ src/pages/release.json.ts
+14:39:47   └─ /release.json (+0ms) 
+14:39:47 ▶ src/pages/sources.astro
+14:39:47   └─ /sources/index.html (+4ms) 
+14:39:47 ▶ src/pages/testing/[fixture].astro
+14:39:47 ✓ Completed in 3.13s.
+
+14:39:47 [build] 165 page(s) built in 4.19s
+14:39:47 [build] Complete!

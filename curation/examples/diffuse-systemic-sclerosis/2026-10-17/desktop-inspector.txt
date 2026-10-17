@@ -1,0 +1,96 @@
+THERAPEUTIC INTERVENTION
+
+APPROVED · SMALL-MOLECULE THERAPY
+
+Nintedanib
+
+Inhibits receptor tyrosine kinases including PDGFR, FGFR and VEGFR; mapped fibroblast effects are indirect.
+
+INDICATION & STATUS
+
+US: slowing pulmonary-function decline in adults with SSc-ILD. No skin indication asserted.
+
+United States approvals where explicitly verified; EULAR guidance separately labelled · Completed clinical study; population and endpoints restricted as described
+Last verified: 2026-10-17 · Editorial: candidate
+Indirect: Lung fibroblasts
+Intervention limits
+Diarrhoea was frequent; not a fibrosis cure or proven skin treatment.
+Claims & provenance
+Supporting claim
+SOURCE CHECKED
+
+SENSCIS primary analysis found slower annual FVC decline with nintedanib (difference 41.0 mL/year, 95% CI 2.9–79.0).
+
+Source checked 2026-10-17
+Context: Selected SSc-ILD, severe dcSSc and SRC treatment studies; eligibility and outcomes remain separate · interventional
+
+Limits of this claim
+576 treated; 51.9% diffuse cutaneous; lung-function slowing is not fibrosis reversal.
+Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease.
+(opens in a new tab)
+
+SENSCIS primary analysis found slower annual FVC decline with nintedanib (difference 41.0 mL/year, 95% CI 2.9–79.0).
+
+Study system: SENSCIS mixed-subset SSc-ILD randomized trial · randomized trial
+
+trial · Primary abstract; regulatory mechanism/status claims bind the inspected label sections · Checked 2026-10-17
+Study: PMID:31112379 · Read: Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established
+Supporting claim
+SOURCE CHECKED
+
+Nintedanib inhibited proliferation and migration of SSc-ILD lung fibroblasts in culture.
+
+Source checked 2026-10-17
+Context: Selected SSc-ILD, severe dcSSc and SRC treatment studies; eligibility and outcomes remain separate · mechanistic
+
+Limits of this claim
+Fibroblasts are an indirect cellular target; direct targets are kinases, not PDGF ligand.
+Antifibrotic efficacy of nintedanib in a cellular model of systemic sclerosis-associated interstitial lung disease.
+(opens in a new tab)
+
+Nintedanib inhibited proliferation and migration of SSc-ILD lung fibroblasts in culture.
+
+Study system: Five SSc-ILD and three control lung-fibroblast donors · human in vitro
+
+publication · Primary abstract; regulatory mechanism/status claims bind the inspected label sections · Checked 2026-10-17
+Study: PMID:31573469 · Read: Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established
+Qualifying claim
+SOURCE CHECKED
+
+SENSCIS multiple-imputation sensitivity analyses gave P values of 0.06–0.10, qualifying the positive primary result.
+
+Source checked 2026-10-17
+Context: Selected SSc-ILD, severe dcSSc and SRC treatment studies; eligibility and outcomes remain separate · interventional
+
+Limits of this claim
+Sensitivity to handling missing data; no mortality benefit asserted.
+Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease.
+(opens in a new tab)
+
+SENSCIS multiple-imputation sensitivity analyses gave P values of 0.06–0.10, qualifying the positive primary result.
+
+Study system: SENSCIS missing-data sensitivity analyses · randomized trial
+
+trial · Primary abstract; regulatory mechanism/status claims bind the inspected label sections · Checked 2026-10-17
+Study: PMID:31112379 · Read: Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established
+Qualifying claim
+SOURCE CHECKED
+
+SENSCIS did not show a significant skin-score benefit (difference -0.21, 95% CI -0.94 to 0.53).
+
+Source checked 2026-10-17
+Context: Selected SSc-ILD, severe dcSSc and SRC treatment studies; eligibility and outcomes remain separate · interventional
+
+Limits of this claim
+Secondary outcome, no human skin efficacy inferred from preclinical antifibrotic activity.
+Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease.
+(opens in a new tab)
+
+SENSCIS did not show a significant skin-score benefit (difference -0.21, 95% CI -0.94 to 0.53).
+
+Study system: SENSCIS mixed-subset SSc-ILD trial · randomized trial
+
+trial · Primary abstract; regulatory mechanism/status claims bind the inspected label sections · Checked 2026-10-17
+Study: PMID:31112379 · Read: Primary report abstract and Europe PMC publication/notice metadata inspected by Codex agent 2026-10-17; full-text entailment not established
+
+No contradicting claim recorded. This does not establish absence of evidence.

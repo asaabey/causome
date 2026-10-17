@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "diseaseId": "diffuse-systemic-sclerosis",
+  "baseReleaseId": "diffuse-systemic-sclerosis-appraised-candidate-9ffacfbd27e3",
+  "baseContentDigest": "258786c7fcfc3738a143c0cf0e157c4c68e344f17da13b3003490a64ef659f08",
+  "scope": "Diffuse cutaneous systemic sclerosis: autoimmunity, endothelial injury, fibroblast activation and skin fibrosis, with interstitial lung disease and renal crisis branches. Mixed-subset SSc studies retain their context; excludes limited cutaneous disease, morphea and overlap syndromes.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "TGF-beta1 stimulation increased COL1A1 expression in cultured skin fibroblasts. ATA IC exposure increased endothelial TGF-beta1 secretion. ATA-conditioned endothelial medium increased fibroblast COL1A1 expression.",
+      "claimIds": [
+        "claim-dcssc-tgfb-ecm",
+        "claim-dcssc-endo-tgfb",
+        "claim-dcssc-fibro-ecm"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Expression is not a clinical fibrosis endpoint. Selected full-text result; not a property of all specificities. SENSCIS primary analysis found slower annual FVC decline with nintedanib (difference 41.0 mL/year, 95% CI 2.9–79.0). Drug targeting and approval do not establish every proposed mechanism or benefit in every phenotype.",
+      "claimIds": [
+        "claim-dcssc-tgfb-ecm",
+        "claim-dcssc-endo-tgfb",
+        "claim-dcssc-fibro-ecm",
+        "claim-dcssc-therapy-nint-fvc"
+      ]
+    }
+  ]
+}

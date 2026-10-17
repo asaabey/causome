@@ -1,0 +1,690 @@
+[
+  {
+    "path": "appraisals/diffuse-systemic-sclerosis-appraised-candidate-4fe500950262/input.json",
+    "sha256": "948f70c323a1d09a8f3d10ab775d5e53cbc4f4d05c9a33c9b393acc87f9114e3"
+  },
+  {
+    "path": "appraisals/diffuse-systemic-sclerosis-appraised-candidate-4fe500950262/result.json",
+    "sha256": "868e069eff163c0ac4b59583d889b2a7c983cd55616678b344f125d38462d012"
+  },
+  {
+    "path": "appraisals/diffuse-systemic-sclerosis-appraised-candidate-9ffacfbd27e3/input.json",
+    "sha256": "b30cb78ef108c6df132123d27a14f674ab5260e1f8894289bccf4b221338be0a"
+  },
+  {
+    "path": "appraisals/diffuse-systemic-sclerosis-appraised-candidate-9ffacfbd27e3/result.json",
+    "sha256": "43d866c669b15688bb96760f477ca423603eb6a8c800158d75c31f94954dcf05"
+  },
+  {
+    "path": "author.py",
+    "sha256": "fd72caedad566a68b4e1f9364692ceb37427687ad1af3183975285fb8cf0b9ff"
+  },
+  {
+    "path": "browser-built.log",
+    "sha256": "0cff74e1df51789a2896fbac357958a665c8ae8ca55978ca921a70d819a79b66"
+  },
+  {
+    "path": "browser-check.mjs",
+    "sha256": "ab62e67cc1d4f3b5743927f8e57e5e9f0c45efb6b568225d037020a29b8914ab"
+  },
+  {
+    "path": "browser-diagnose.mjs",
+    "sha256": "2f061bb1c910b72f5450cc01fbb4258f7d9561658f43893ba4b02277891f63dc"
+  },
+  {
+    "path": "browser-final.log",
+    "sha256": "fdac29ecf5cd79a98847a79e53131edbf2cfaffc4005337ade19903e2126dcf2"
+  },
+  {
+    "path": "browser-results.json",
+    "sha256": "bdec75fae974947372a81efd2d8c361ea18635b50090d0b4beee65d84e5e9bc4"
+  },
+  {
+    "path": "browser.log",
+    "sha256": "3d5405692fb0d00e0861ea82df6704ba4e20c94ffc70a95375808ddc037ff19a"
+  },
+  {
+    "path": "build.log",
+    "sha256": "5e877926c6409a8e1421031fa61512f5ddff4f12e9b1cea6d092351d5d03ead5"
+  },
+  {
+    "path": "candidate-validation.log",
+    "sha256": "dd83fd68de1aa9fe3b20ac1f5f9c83087cfdcd6a2a1e79c2569d28994f6fdeaf"
+  },
+  {
+    "path": "check.log",
+    "sha256": "5d5b985883f1f35584f48165913cffcdc5fc8c10d2acbfad0ce51b73bcf2addd"
+  },
+  {
+    "path": "desktop-inspector.txt",
+    "sha256": "abddf786222b74631192addde65562578c41b1d8b1c8492d5a592e711abb5d27"
+  },
+  {
+    "path": "desktop.png",
+    "sha256": "b396ff339a21951edb647832af8137892164f0576f725117854eb2ea6d64bfc7"
+  },
+  {
+    "path": "dev-server.log",
+    "sha256": "37c3320b07200e279fcefa35acf753387b1b074550e9c164d5e5359c49ae87f7"
+  },
+  {
+    "path": "diagnostic.png",
+    "sha256": "fb5609dc876c008bc817e41f9b7f53c28281103451791d8686e20f89ae0b07f3"
+  },
+  {
+    "path": "final-candidate-validation.log",
+    "sha256": "027fa5d28f7a39ef7943563e36d7e8b6e478cf69df3a3687b70fe209b79ecfbe"
+  },
+  {
+    "path": "final-preview.log",
+    "sha256": "097782f8c0e575c7fbfb8cb6fc09f12cc22d18f729ed9f459508ec68ca6171a1"
+  },
+  {
+    "path": "final-registry-validation.log",
+    "sha256": "8e1123a2be0fb390339f6cecc78d0dfa19fe99c4e01680ec281aeec49ca9192e"
+  },
+  {
+    "path": "first-map.json",
+    "sha256": "45e83282069466ed0e578a6ed32cd4642fc096851983743e156959f7f82496c4"
+  },
+  {
+    "path": "handoff/report.md",
+    "sha256": "26a52693e76510cb2b1b7ca0541410891dca971e4291858ed0992d617f33defb"
+  },
+  {
+    "path": "handoff-create.py",
+    "sha256": "fcf0a23a9d823b82d84c286685745c3342efd3eddc821e31fcb5224af7530e0f"
+  },
+  {
+    "path": "imports/seed-seed-227c95ce692a/extraction.json",
+    "sha256": "2982c4302a2ae82489e5a6844cd8322c37baf756faaf4cc4ff9230dddb497d9a"
+  },
+  {
+    "path": "imports/seed-seed-227c95ce692a/papers.json",
+    "sha256": "728134dd7f9b326d2f4ba64bfd34df34c72b815fcd7b7746a1d46c024ea914f6"
+  },
+  {
+    "path": "mobile-inspector.txt",
+    "sha256": "abddf786222b74631192addde65562578c41b1d8b1c8492d5a592e711abb5d27"
+  },
+  {
+    "path": "mobile.png",
+    "sha256": "0a32b16f920d288da2d64561a8b826ede3f3af5111971f0d79473cbe5883971f"
+  },
+  {
+    "path": "notices-candidate.json",
+    "sha256": "3c3ed821b7d2ce79a8ecba6eacf5e7ca58672b46bb03687a5ab6f3e233c428c7"
+  },
+  {
+    "path": "notices.mjs",
+    "sha256": "7a01b55abe6d8882e1de566e4cff7156386efdcfc1ade78bb2aa41957576ee2f"
+  },
+  {
+    "path": "preview-server.log",
+    "sha256": "198a844e6a0cb7593cbc2b341de7c53fd402b3863eac498ac79d16c7924631b6"
+  },
+  {
+    "path": "preview.log",
+    "sha256": "6310bf2bd75184a5b597a769fabbc980a99373c864923e0038e91232fc2f2ed2"
+  },
+  {
+    "path": "proposals/proposal-0c650926a906c21bba6f82e6/changes.json",
+    "sha256": "75dc6d169ef85b4f5afb768479aeacf9ca27c26159dbcc0ce9ca636d1bccb177"
+  },
+  {
+    "path": "proposals/proposal-0c650926a906c21bba6f82e6/proposal.json",
+    "sha256": "42e827f498fdeed98548596932c416ac630fa48c28f1ad4b34e4797ecbd70712"
+  },
+  {
+    "path": "proposals/proposal-0c650926a906c21bba6f82e6/review.md",
+    "sha256": "0986b300fbf362cd39a692fa0d1d1f6fa66ad940ace1d0f4aaad4c4777d4c099"
+  },
+  {
+    "path": "proposals/proposal-abbf1d27b60b1b7359e106a8/changes.json",
+    "sha256": "29a5a4ca8e8c73f4512e4243062dd9ce6a157f40a2cf5e6f82c21fec52114333"
+  },
+  {
+    "path": "proposals/proposal-abbf1d27b60b1b7359e106a8/proposal.json",
+    "sha256": "5b397e08792281e87f16527a8f0ed9644bb4cdb9f4b39e87a83777f5af0fe5b7"
+  },
+  {
+    "path": "proposals/proposal-abbf1d27b60b1b7359e106a8/review.md",
+    "sha256": "719e978eeb6339f893640a17dc21d51c1b90252685512daa729cf0cfe63e80c7"
+  },
+  {
+    "path": "propose-notices.log",
+    "sha256": "3ac51e0c9f6caa61105f50afca60d1d9b3d9e128c752821080babd5c17e9f58f"
+  },
+  {
+    "path": "propose.log",
+    "sha256": "9f4fe583b5db3bc46936fd33abd1ffba7f73ac51965fdff8f10a2e54282e7aa6"
+  },
+  {
+    "path": "raw-cache-manifest.json",
+    "sha256": "a60ca75c53b0ccb1d424df48e86c9f06baa64c55729c880773b8e591142b90f0"
+  },
+  {
+    "path": "registry-validation.log",
+    "sha256": "74cb72085802d6718cf9ee41b6c3f51ef571d48a4192347db3ae6615ff921480"
+  },
+  {
+    "path": "research/actemra-label.txt",
+    "sha256": "904c1789f29d5c178665020814b5b5ed517742f40d9b23cdbc0220460832cbe7"
+  },
+  {
+    "path": "research/autoab-fulltext.txt",
+    "sha256": "d9cc21f8bf84de5b81831ad9d89138ce821e0db60b46fc64e9cfb80650e0c968"
+  },
+  {
+    "path": "research/autoab-inspected.txt",
+    "sha256": "2d5c9c7ebf1d5f86ee434c0f384c2a793445e21f75e0f5636845fa8c2cd8ae29"
+  },
+  {
+    "path": "research/autoab-metadata.json",
+    "sha256": "efa6b7a0fab7bc82ffac169e8c623f196fced25e637ecc887b70c3f029f50ee7"
+  },
+  {
+    "path": "research/captopril-inspected.txt",
+    "sha256": "59335617f1e6a0f90b67a5312f844ed11b389a1a27aa14fc8931eb0b030b4e79"
+  },
+  {
+    "path": "research/captopril-metadata.json",
+    "sha256": "4a6bb18c02859ced25ec8589c2f44222ab95264eaf9b8331fcdf53aef8aea6b5"
+  },
+  {
+    "path": "research/consensus-0.json",
+    "sha256": "ef966f8abd28073e2273394b4bcc62a5480e6c14f03111e70f11647281f1e5b1"
+  },
+  {
+    "path": "research/consensus-1.json",
+    "sha256": "3ffac163609198b5c4569df17095d4fdbf4f06518b758d7f7d9205ad8a08ce99"
+  },
+  {
+    "path": "research/consensus-2.json",
+    "sha256": "712edaebfb26d901352d752d7b874aeb1f48922215362639f68ff62956d59a70"
+  },
+  {
+    "path": "research/consensus-3.json",
+    "sha256": "dd3219cd172f60b541741de51c94030c58d318a187de53c1b78255adc176bba4"
+  },
+  {
+    "path": "research/consensus-final-target0.json",
+    "sha256": "f495347a8e657634d9c512db1298aecc2e05ba09affe24026c004e8a3a6c335b"
+  },
+  {
+    "path": "research/consensus-final-target1.json",
+    "sha256": "e51cf5f95b393f8facc8298540ee7652dada5901d5ae16e0fb0c126fc7817547"
+  },
+  {
+    "path": "research/consensus-final-target2.json",
+    "sha256": "37fada5b859e9fb8d03445c820b76bff827eeb967b4d38a5808c9e2234e1aede"
+  },
+  {
+    "path": "research/consensus-more0.json",
+    "sha256": "f86b61cb6bac50df96a85880da7687f04da2f5d2eb6ade07d856e12258c863f9"
+  },
+  {
+    "path": "research/consensus-more1.json",
+    "sha256": "dc7e4235fa118da25edd2cd50f7ddbff7d91242901788470d4780ba9221c289f"
+  },
+  {
+    "path": "research/consensus-more2.json",
+    "sha256": "be3e2d49332eef52ab4115058e0f5c4b6dc52900521404479205272429ca6141"
+  },
+  {
+    "path": "research/consensus-more3.json",
+    "sha256": "e4c1672d8b155246e534724109c452f8b01e38ed13df22b12f13711f3cb3205b"
+  },
+  {
+    "path": "research/consensus-summary-check.json",
+    "sha256": "1c9c6553bdcdf6131e9ea31dea859f607d64cd35ce5ecc566824b539970af6ff"
+  },
+  {
+    "path": "research/consensus-therapy0.json",
+    "sha256": "ec3e62eb9568c98ca28adb8b3237e26c6364ceb8b57954f0900964ed71412c94"
+  },
+  {
+    "path": "research/consensus-therapy1.json",
+    "sha256": "d735448a49f5ef53f79ba7606269f69ac72a6ce8d937579184e325a1f91e9dd8"
+  },
+  {
+    "path": "research/consensus-therapy2.json",
+    "sha256": "88e40ea21b4e80b9caf689b2e772c4512601a33435ac0bda95dd76b8fcbeb4f8"
+  },
+  {
+    "path": "research/cxcl4-fulltext.txt",
+    "sha256": "ccff80a0b4e6e048475bc2ac06d08d1a67f393a1736c029e18db885d8de9087d"
+  },
+  {
+    "path": "research/cxcl4-inspected.txt",
+    "sha256": "d368c2750cc0227c8056598e09a5a8c35e7623b6b53e3ad330de127bb5e9a12a"
+  },
+  {
+    "path": "research/cxcl4-metadata.json",
+    "sha256": "d2a78f0e710eb6b5ad86f1b8ed12b5161e24b77984ea4bce168f2b9e3aef97c0"
+  },
+  {
+    "path": "research/eular-guideline.txt",
+    "sha256": "161c44ac1ba29c0a8329cb5276de759cbffe23fd39705919c9bd12e8c5700aed"
+  },
+  {
+    "path": "research/fetch-0789e8b1485a5fdc81c3ba7032633d2c.json",
+    "sha256": "ded8e9459886f08e0c3b6793bd448671163d734a9ef6a40bc1a73e4615d014d6"
+  },
+  {
+    "path": "research/fetch-19b3366bb6845bccab12db0237432285.json",
+    "sha256": "33cd94e5d37c2b1e7665c95e8a6b3ace13f4da4aea93a756bcf327868c0e31a2"
+  },
+  {
+    "path": "research/fetch-25c04786e7e050d88215640e026ea0f3.json",
+    "sha256": "9288ed1d4edbe97caa973752e7faf6ae3b10c4eede666745e3c421b2900c15d6"
+  },
+  {
+    "path": "research/fetch-32a8bf7cafe558cf9c3b114c47fcd3d4.json",
+    "sha256": "4f788532d36c2ecc7cdb6a07dda1a5ddea1253651f50fdb589ffdc7b68d9dd2a"
+  },
+  {
+    "path": "research/fetch-7371aa366c2459568cbc9791f5784b27.json",
+    "sha256": "18de15faa316864e3a5e8fed61be838320b05667d11972ef477137a1e763ad38"
+  },
+  {
+    "path": "research/fetch-7b1d32be7d6254a2bfe8b923f4a7b1ba.json",
+    "sha256": "d8b67880218f8f5cd523a038a9dd7b2abb3842dcddf53061a985b8a4eb9ad3fd"
+  },
+  {
+    "path": "research/fetch-7d8b338036da5c238c4d88a42a905925.json",
+    "sha256": "082aecae1e4c9e70697a02d1f3bd4090612ca18a30bbd56f9f6b2a13628d52ad"
+  },
+  {
+    "path": "research/fetch-80f5ae2df3cd5655933fb3c4497d5f3a.json",
+    "sha256": "2f18337cc5fff37747526ddb57be321be44a0d1a3abfd1225b08d4c5ae6ec9df"
+  },
+  {
+    "path": "research/fetch-8800a4906a3057e18400838b6cc574f5.json",
+    "sha256": "b9cec47171a4c15b28fc5ebfe2d341349d75153a85b6449b898b941bbb1a249c"
+  },
+  {
+    "path": "research/fetch-88eecec5786053618aefcd23e4363449.json",
+    "sha256": "ae810ea0bd9ec5e9a9ce1b2a7a9cb2816221199e2d655e4a7cad34b239f51213"
+  },
+  {
+    "path": "research/fetch-8b901d3a76155fdda06fab82713f7ab3.json",
+    "sha256": "5ff5afdabbe94dd418a75c7121a859ddaeeef726fcbead44a3e9fcc5feb13de5"
+  },
+  {
+    "path": "research/fetch-9effb703bee355d1a11d9dcf9ae2d537.json",
+    "sha256": "5f6e1dc60235bfae94c108b3745f59781685aa13bd1f79f6cb65eb4424a38d2d"
+  },
+  {
+    "path": "research/fetch-9f21c49f3d245a1db0af66d2b5a8b3ca.json",
+    "sha256": "4fbc27cf15d9cf02d2abcfc2175b6ddbb17ba3882d67cf75d306ce128dcfd6cd"
+  },
+  {
+    "path": "research/fetch-a1e3108a8c9a5937ab0e809de575ea85.json",
+    "sha256": "45c354b100a140cba4b46665e9c659716ff48e4900b620bf2c1503ca39336031"
+  },
+  {
+    "path": "research/fetch-b64d41de97e853dfb3041f90370eb42e.json",
+    "sha256": "ac183b5bd80ab55556495e6f6df942a3ee385a6c999ff1be7f43dd66a10ba08f"
+  },
+  {
+    "path": "research/fetch-bded166342da5fc29a1c7532f905c3dd.json",
+    "sha256": "d21bc8bc570222182cc137fdb098f3e2732400a48c8be0b534f7e74aa04a0a1e"
+  },
+  {
+    "path": "research/fetch-cdd42ef4bfda52128b7490465d68709b.json",
+    "sha256": "a10942ea8d11ee2c0d32440ae37676bb0fd2c6f8a4a1ffd5267581436c5c94e0"
+  },
+  {
+    "path": "research/fetch-d325ee9c6ea15d6ca92a55a8d5adf784.json",
+    "sha256": "71d9b6314aaa2988d2c1250be70c94f123fdde31ba9d584cb3e721bf1c54b49e"
+  },
+  {
+    "path": "research/fetch-f5b8ca43ef2455179b0ec0ce15e0214f.json",
+    "sha256": "f09ea23e1187b9257354882d17d85b806e4544018d52f59e60acb590d21c5165"
+  },
+  {
+    "path": "research/fetch-fc618630c45750f2b783356d16035ea5.json",
+    "sha256": "d614099b927c91b6aae5d6525cb36d0ec1633aa0f81389db141fae8f010df021"
+  },
+  {
+    "path": "research/final-review-status.json",
+    "sha256": "bd2ccabc308c41f60926dd6e89617355d172e6fc059165c66ef10331838bc9e9"
+  },
+  {
+    "path": "research/hsct-inspected.txt",
+    "sha256": "164360027692e94145e779570a8760246775ff59fd756f9c763be23663f56e3b"
+  },
+  {
+    "path": "research/hsct-metadata.json",
+    "sha256": "bc045bb19a34079559906910fe8232f5060b75ce8a53096a6d8eb0af969efff3"
+  },
+  {
+    "path": "research/il13-erratum-metadata.json",
+    "sha256": "8d56402c4bdeb480d3d31dc113d46070d4465849cf7f800c3b11b464eaaf9f79"
+  },
+  {
+    "path": "research/il13-inspected.txt",
+    "sha256": "fdc1dfff1dd5a808cced45854eb4ac7c490830c7d40c21abb891caf2cc8c952e"
+  },
+  {
+    "path": "research/il13-metadata.json",
+    "sha256": "8e75373e45175fe79f2489147a11910b628ba770f19fc45219b793429aee5416"
+  },
+  {
+    "path": "research/il13signal-fulltext.txt",
+    "sha256": "88f0d9effd66056947938b4f756bb9e6a21c9b64fb630aa8c7fc80d8db8b708e"
+  },
+  {
+    "path": "research/il13signal-inspected.txt",
+    "sha256": "6d708a136565838155ffcbf82d5c662b51d2078d29deb3feab186eaf72774139"
+  },
+  {
+    "path": "research/il13signal-metadata.json",
+    "sha256": "2a88fce9adc6b5517e0d9d1cb89f4da7468cd241d911bd1ae115fc621d4135f5"
+  },
+  {
+    "path": "research/il6-inspected.txt",
+    "sha256": "492f4a687327a4d749cab769ed53e261b7146fb7fefaf5d747b00f53fed365c6"
+  },
+  {
+    "path": "research/il6-metadata.json",
+    "sha256": "560e13da66e583b63a36817b4fc7fe76b2aecb2811d6685232f5568b482e4537"
+  },
+  {
+    "path": "research/il6clinical-inspected.txt",
+    "sha256": "b965e6a31e56c0c55b68301ed925c0dc7cabad09ee24002b6411688ec4606b1e"
+  },
+  {
+    "path": "research/il6clinical-metadata.json",
+    "sha256": "905a284819c4ac8b34e503552293a59b29392c5ac4fadc37d7c59374f501b426"
+  },
+  {
+    "path": "research/immune-fulltext.txt",
+    "sha256": "4dc4b8565e5c675bbbf6f420ea80ca4f76f8914a610e98bbf43dd5e1c7499540"
+  },
+  {
+    "path": "research/immune-inspected.txt",
+    "sha256": "d8a0a4a8ab9e9ae6d87526e51357d64b8d647a460f86b61ba1eab4a7abeabcb6"
+  },
+  {
+    "path": "research/immune-metadata.json",
+    "sha256": "998a55b93327c2ad52366c4a72ad8adafdc310b91196159f6ca8028fa53c3c31"
+  },
+  {
+    "path": "research/lungcells-inspected.txt",
+    "sha256": "862d96d65bde13f69c9d219a79e82bd197e2870319924edac84525040a743541"
+  },
+  {
+    "path": "research/lungcells-metadata.json",
+    "sha256": "ea08bf40b15e458b1f5546f19263f941385c7c4caf7c2c3ce6692a08f14976a9"
+  },
+  {
+    "path": "research/nintpreclinical-inspected.txt",
+    "sha256": "97dea656c8de88a091cb3182ee16a07bce8cb78f8e2ab522b745da20bd299c77"
+  },
+  {
+    "path": "research/nintpreclinical-metadata.json",
+    "sha256": "026b649210b41b349c68b75214f1b9fe0bc111b1120cf072bc5c6622d6bffdce"
+  },
+  {
+    "path": "research/pdc-inspected.txt",
+    "sha256": "3d6eff3bb9c575a3ffdaffd5a3a31e17e824a3fe7d4dfc24448154ed4cf38b7d"
+  },
+  {
+    "path": "research/pdc-metadata.json",
+    "sha256": "7933ea4a1e79c2f478a96512f274f7a6c55a6f70c5d2a07f2083416edd55be59"
+  },
+  {
+    "path": "research/press-inspected.txt",
+    "sha256": "1053343e05558a4e67dc829479e4f1a88b90c9b8928925a54326f56da1a7fcc5"
+  },
+  {
+    "path": "research/press-metadata.json",
+    "sha256": "dc8d90c384aca6528df0221cf7844c6aea7f5e33aca5414e63f0f58fd163c98b"
+  },
+  {
+    "path": "research/primary-records.json",
+    "sha256": "ce1276da41508c108cb49c7ecd06754f508a758ee747db7d4e70d9871423f8b7"
+  },
+  {
+    "path": "research/renal-inspected.txt",
+    "sha256": "51bf11d138dc33adb0386ee0ba1a69cbff8712d0a4b36fdd4a770b5e95667a2c"
+  },
+  {
+    "path": "research/renal-metadata.json",
+    "sha256": "3a3f6621eeed363f5e45a375992e33f3ae6480dd36d81d9a8c8e17359d154bfb"
+  },
+  {
+    "path": "research/renalace-inspected.txt",
+    "sha256": "447cf0f4fcd2bcab6413a2134825f02a5ecca62cda33f28081ccf498fd08ecbe"
+  },
+  {
+    "path": "research/renalace-metadata.json",
+    "sha256": "8117a389b0d74ce120def24d5606020e93638d73f3ed28b02e6268d5e48ec9ed"
+  },
+  {
+    "path": "research/renalhist-inspected.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "research/renalhist-metadata.json",
+    "sha256": "44e2637a204e1e3927c2078339885d7362dd407963ffecefe711f2ba8005ef7c"
+  },
+  {
+    "path": "research/renalphys-inspected.txt",
+    "sha256": "683d297d89c6675213e80e7bb661e0ec3ab9995638bf58d3af277958845ad2f9"
+  },
+  {
+    "path": "research/renalphys-metadata.json",
+    "sha256": "86cdf4718b0bb4fda95a1dd936c18a47a6262440a06822b9134e08316884cff6"
+  },
+  {
+    "path": "research/scan-dispositions.json",
+    "sha256": "6f2372f5e79c904b558acbb686c9ceef26708c4b6d756d1ac765656e337bcad7"
+  },
+  {
+    "path": "research/scan-refined.log",
+    "sha256": "49b86a2c09a9a01b17dd14e53338e351ea9eafa4ab8cd66edbfc93e1a7f59bfa"
+  },
+  {
+    "path": "research/scan.log",
+    "sha256": "19e9b33d7348c706853234761875b84bb555bbff7ce72bb24f04b9161f23175b"
+  },
+  {
+    "path": "research/senscis-inspected.txt",
+    "sha256": "4c114a73c6c187a81dcbfffe8315e800adae5c1439168340a1f3a9a21ad9cc06"
+  },
+  {
+    "path": "research/senscis-metadata.json",
+    "sha256": "6830dbe45550e7113207858fd6c8878a9f493e50fdd29989ce42629bd7a9c899"
+  },
+  {
+    "path": "research/sls2-fulltext.txt",
+    "sha256": "931bf30643078201ddd6ff2eca48bf83f5aa8f978d1e54c006ae278b62ffe772"
+  },
+  {
+    "path": "research/sls2-inspected.txt",
+    "sha256": "edd95f92565a1166452c6ed47fbf5aa6fdcb11625fe967b96d2d6623ebd8eb22"
+  },
+  {
+    "path": "research/sls2-metadata.json",
+    "sha256": "897c7b8d9b575921da992d058c56776ae897ffa9f75088a2d190aa92b3207c56"
+  },
+  {
+    "path": "research/source-checks.json",
+    "sha256": "bd913b1e672d16b8395ad7c42af71d38bde88b43e10960904851d9e6eba97c1b"
+  },
+  {
+    "path": "research/tgfb-inspected.txt",
+    "sha256": "e6172808b43f72bae9314616ca022113ac5156d467ef289e355f7b216237d553"
+  },
+  {
+    "path": "research/tgfb-metadata.json",
+    "sha256": "fc7c31161d32b6fe541ff8bc2d64ddbc6e27195113dd92ec593d49fbad18c2a5"
+  },
+  {
+    "path": "research/therapy-source-checks.json",
+    "sha256": "75b396163b64994e472c7956efac226d80fe7c0c9dcb16eb306617aabec6d473"
+  },
+  {
+    "path": "research/toci-erratum1-metadata.json",
+    "sha256": "d4ee25f88cce77e994cac7afeeb979eb1f1b5547385e4c86776180d9d96b21f5"
+  },
+  {
+    "path": "research/toci-erratum2-metadata.json",
+    "sha256": "58fd80695a3e73b64e626016f9e063c1908fa37860965aed2ab16e0b681fd960"
+  },
+  {
+    "path": "research/tocilizumab-inspected.txt",
+    "sha256": "0da1c055391c631db0990147b1b1335f72102fff5140adc0835c2cec4173b97c"
+  },
+  {
+    "path": "research/tocilizumab-metadata.json",
+    "sha256": "c784df0e1f07ecd0326f795b5c927cfe55ad8284b2cafbf4d3ada29760f84709"
+  },
+  {
+    "path": "research/vascularniche-fulltext.txt",
+    "sha256": "0cb949cc4e52bd410cae29b7bb2aa7c091350cd1a154a901bb8294d44c17c0f9"
+  },
+  {
+    "path": "research/vascularniche-inspected.txt",
+    "sha256": "674c83f6ff96e2e3c58068ecf3939d3409a40b79f0271c1246602623652f5e2f"
+  },
+  {
+    "path": "research/vascularniche-metadata.json",
+    "sha256": "4d6d02c95dda0ff8fe8cbaa229322cf68cb718b42f6d6b53c9990bbb97817990"
+  },
+  {
+    "path": "scan-reports/report.json",
+    "sha256": "feaba05147313d37e4892dadc2a367a907c1339278cab2750c9cb9066f75f810"
+  },
+  {
+    "path": "scan-reports/report.md",
+    "sha256": "6c5a7be047b7e48c464501b1182708adebadca3bca3f2100b7cc56f65c6b0bee"
+  },
+  {
+    "path": "scan-reports/responses.json",
+    "sha256": "6b6e2624f71dbf63c34e19407cf02f1123bacfeeff8222f77ad21d228be1ddf6"
+  },
+  {
+    "path": "seed-corrected.log",
+    "sha256": "a243bf43c0dd3eec001919b88346f718414cecf1c90f0a5773848b7e40f785e9"
+  },
+  {
+    "path": "seed.log",
+    "sha256": "4be1da4a47beec3867ca1342869fb059362bd90c018dc27d212ab571d1edf731"
+  },
+  {
+    "path": "short-labels-test.log",
+    "sha256": "92498e62eb7e1640c895400f6ba5ee128271d40c3e8e1ef60e950eaacdfb79fb"
+  },
+  {
+    "path": "state.json",
+    "sha256": "5e99735df8eefd50e89df8a7955004db0c66f6620497cc6b953439a51369d5b5"
+  },
+  {
+    "path": "summaries/diffuse-systemic-sclerosis-summary-candidate-4b2fbcfedc84/input.json",
+    "sha256": "feba378210236aa6bb7f86e74fb95df4eb9a01729df541f664d1595f987a0d9b"
+  },
+  {
+    "path": "summaries/diffuse-systemic-sclerosis-summary-candidate-a0f086479565/input.json",
+    "sha256": "ace86e57a1e0a50d14222a7197de5a203e252b407e164091607a21df1fdd1ec1"
+  },
+  {
+    "path": "summaries/diffuse-systemic-sclerosis-summary-candidate-a16fa175cddb/input.json",
+    "sha256": "cf473f878caee15483af4fcbd5c9ddccaec522ef106451afe2c73ec8ff8947d2"
+  },
+  {
+    "path": "summaries/diffuse-systemic-sclerosis-summary-candidate-a3dc66504f57/input.json",
+    "sha256": "01f6cbecdc071a2d37bc369419cdad524a15522a2d6c9ee982345603e5936c3d"
+  },
+  {
+    "path": "summaries/diffuse-systemic-sclerosis-summary-candidate-f7786448c91d/input.json",
+    "sha256": "f6659ac60c2e5b2e79abd170ebd49da6de644e8d5509f5c38723eede77e4084b"
+  },
+  {
+    "path": "summarize-final.log",
+    "sha256": "4678ad5d993454e869e5db187373411a188e509e011125865b5904e7b2c99f62"
+  },
+  {
+    "path": "summarize.log",
+    "sha256": "2363f33079e4fb98432e0a518ac29e2733deb3c87dd41d366c2b41fbd253e8e0"
+  },
+  {
+    "path": "summary-final-input.json",
+    "sha256": "271d38688d9cff9083c57fda764f0e7a06f9b01b677db770bfe60beb956c5bf5"
+  },
+  {
+    "path": "summary-input.json",
+    "sha256": "c61103b36e0063b2891687e091d65cd4836c1c888eb7bc761bceaa09df1b0cca"
+  },
+  {
+    "path": "summary-reviews/16895fbeb916e14e5d2a5624faa2e01056e416ffe35b12be15034f007d973ad7/feedback-template.json",
+    "sha256": "e2e6c2f5a5ad3d80dcfd155691dedb31c5adca2f5e652228ef6c892a548a0975"
+  },
+  {
+    "path": "summary-reviews/16895fbeb916e14e5d2a5624faa2e01056e416ffe35b12be15034f007d973ad7/packet.json",
+    "sha256": "335457caf427a6ae3596d9538e4d4ea2551fe9660b71e1160751c7ca708ebf86"
+  },
+  {
+    "path": "summary-reviews/16895fbeb916e14e5d2a5624faa2e01056e416ffe35b12be15034f007d973ad7/review.md",
+    "sha256": "28965f3d5a607f57436ccde944873a3949d63505aac23589a204645395be2c50"
+  },
+  {
+    "path": "summary-reviews/4e1d6a68504b92e4ecb80ee2474f130b41646b0d873568d1054cb030a5d4a7bc/feedback-template.json",
+    "sha256": "85bb4d93bc90453647250c37e333085a8aa55cd5d58252a250ce36b7b7553966"
+  },
+  {
+    "path": "summary-reviews/4e1d6a68504b92e4ecb80ee2474f130b41646b0d873568d1054cb030a5d4a7bc/packet.json",
+    "sha256": "2a567a7945a71c81bdeb10825b411cd7833c6ff7ac1cb7451872b42dd7654bc7"
+  },
+  {
+    "path": "summary-reviews/4e1d6a68504b92e4ecb80ee2474f130b41646b0d873568d1054cb030a5d4a7bc/review.md",
+    "sha256": "478c48c9c36b12caf728ad130c24f3b1b1355887d85bf3d8e922c92e62414e4d"
+  },
+  {
+    "path": "summary-reviews/64d08cf4a97a149d80a87b1336ccb6caec84698404a5c23da23e59ee276a3c94/feedback-template.json",
+    "sha256": "e90d9fad0e7fb59290f4c67fb8954c4d12e577978f2bb30d33a7500ed67fe452"
+  },
+  {
+    "path": "summary-reviews/64d08cf4a97a149d80a87b1336ccb6caec84698404a5c23da23e59ee276a3c94/packet.json",
+    "sha256": "0f5269ae46f25fdd67be9ff54aae978c934cea6fffefe01cd834d5a08b20cf85"
+  },
+  {
+    "path": "summary-reviews/64d08cf4a97a149d80a87b1336ccb6caec84698404a5c23da23e59ee276a3c94/review.md",
+    "sha256": "c439299a38521210493f4a851c2d7b358b3cf84854e84b31101fb660c7b4e2ea"
+  },
+  {
+    "path": "summary-reviews/7a31c61c202cb4a3874f25a1dbb1a533b39e3c0c9160233999cb26d807b6ed5d/feedback-template.json",
+    "sha256": "81043b24903432a1ef0b84af4b645ebf7ccd33230959e254f9add1a0385ace17"
+  },
+  {
+    "path": "summary-reviews/7a31c61c202cb4a3874f25a1dbb1a533b39e3c0c9160233999cb26d807b6ed5d/packet.json",
+    "sha256": "beecd999ddd3f4c7f778ca824426a87ab284721aaa7e1030ec1a9e93a424a18b"
+  },
+  {
+    "path": "summary-reviews/7a31c61c202cb4a3874f25a1dbb1a533b39e3c0c9160233999cb26d807b6ed5d/review.md",
+    "sha256": "287b8a5b6416805e15cb79b52c0a665596e46044718b43129bb045b550612abc"
+  },
+  {
+    "path": "summary-reviews/c91ddcc48d5161de1302c9304e3ab57cd73ff71c7886e5807e92dd5ebc258d87/feedback-template.json",
+    "sha256": "170fd7671d2f2e0e3995df42a10dc411258881491cf7513db5cce1b087b242b3"
+  },
+  {
+    "path": "summary-reviews/c91ddcc48d5161de1302c9304e3ab57cd73ff71c7886e5807e92dd5ebc258d87/packet.json",
+    "sha256": "9cd4ea149a4928c8fef03aac7964adc6286b65cd7d434f2e1e27cb58ad86e06a"
+  },
+  {
+    "path": "summary-reviews/c91ddcc48d5161de1302c9304e3ab57cd73ff71c7886e5807e92dd5ebc258d87/review.md",
+    "sha256": "14a1391123fe53e76d2c44a1c040a8e398064df96f7d22002630d8428ad68dbc"
+  },
+  {
+    "path": "therapies.mjs",
+    "sha256": "7196dd9b0e076c3b8e6a4d818671f0c5965e9feef871577463bc2912f29a4531"
+  },
+  {
+    "path": "therapy-candidate.json",
+    "sha256": "94edc0c80f8dc18ab80ea402b97387f225efb5938c723a546a75cf4f506c6fef"
+  }
+]
