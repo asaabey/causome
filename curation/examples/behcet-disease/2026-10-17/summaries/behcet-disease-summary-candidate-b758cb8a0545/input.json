@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "diseaseId": "behcet-disease",
+  "baseReleaseId": "behcet-disease-appraised-candidate-6bf3c0ec562b",
+  "baseContentDigest": "2f1b123f97d1b7a0ae257ff61e0e19b805c8970f1477c9182146efe3fabe06b6",
+  "scope": "Bounded human Behçet disease overview: HLA/ERAP1 and cytokine-locus susceptibility, T-cell and neutrophil activation, NET/coagulation and endothelial injury, plus mucocutaneous, ocular, vascular, neurologic, joint and intestinal branches. Primary-report associations, culture mechanisms and intervention populations remain distinct. Excludes monogenic mimics, diagnostic criteria and comprehensive treatment guidance.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "Circulating NET markers were higher in active than inactive disease and healthy donors. A selected vascular cohort included 23 Behçet patients with nonpulmonary aneurysms. Lesional IL-17A expression was associated with extensive perivascular recruitment of NET-forming neutrophils.",
+      "claimIds": [
+        "claim-behcet-nets-disease",
+        "claim-behcet-disease-aneurysms",
+        "claim-behcet-il17-neutrophils"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism. Selected clinical cohort; no population prevalence or molecular cause established. In the 207-person phase 3 trial, apremilast reduced oral-ulcer burden over 12 weeks versus placebo; major-organ involvement was excluded. Drug targeting and approval do not establish every proposed mechanism or benefit in every phenotype.",
+      "claimIds": [
+        "claim-behcet-nets-disease",
+        "claim-behcet-disease-aneurysms",
+        "claim-behcet-il17-neutrophils",
+        "claim-behcet-ap-trial"
+      ]
+    }
+  ]
+}

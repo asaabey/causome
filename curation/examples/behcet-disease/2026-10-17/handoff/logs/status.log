@@ -1,0 +1,30 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs status --disease behcet-disease
+
+{
+  "diseaseId": "behcet-disease",
+  "previewCandidate": "behcet-disease-summary-candidate-d266780f35d0",
+  "successfulCursor": "2026-10-17",
+  "lastBroadReconciliation": null,
+  "cachedPapers": 3881,
+  "latestAttempt": {
+    "version": 1,
+    "id": "attempt-5e86f055-75dc-4122-ba62-72a07b46b38b",
+    "diseaseId": "behcet-disease",
+    "trigger": "manual",
+    "provider": "europe-pmc-core-v1",
+    "startedAt": "2026-10-17T09:06:29.508Z",
+    "requestedThrough": "2026-10-17",
+    "finishedAt": "2026-10-17T09:07:43.033Z",
+    "status": "succeeded",
+    "runId": "scan-00d9cf32b4b76ef6d5be3581"
+  },
+  "scheduledWindow": {
+    "attempts": 0,
+    "successes": 0,
+    "rate": null,
+    "minimumWindowComplete": false
+  },
+  "publicationChanged": false
+}

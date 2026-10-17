@@ -1,0 +1,655 @@
+{
+  "date": "2026-10-17",
+  "checkedBy": "Codex agent",
+  "description": "Deterministic quotation matching after actual agent passage inspection; not independent semantic verification",
+  "receipts": [
+    {
+      "claimId": "claim-behcet-hla-risk",
+      "pmid": "20622878",
+      "matched": true,
+      "quote": "confirmed the known association of Behçet's disease with HLA-B*51",
+      "location": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-il10-risk",
+      "pmid": "20622878",
+      "matched": true,
+      "quote": "identified an association at IL10",
+      "location": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-il23r-risk",
+      "pmid": "20622878",
+      "matched": true,
+      "quote": "and the IL23R-IL12RB2 locus",
+      "location": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-il10-expression",
+      "pmid": "20622878",
+      "matched": true,
+      "quote": "was associated with diminished mRNA expression and low protein production",
+      "location": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-erap1-risk",
+      "pmid": "23291587",
+      "matched": true,
+      "quote": "two SNPs in ERAP1, encoding ERAP1 p.Asp575Asn and p.Arg725Gln alterations, recessively conferred disease risk",
+      "location": "Primary-report abstract, main text; Europe PMC MED:23291587",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-erap1-hla",
+      "pmid": "23291587",
+      "matched": true,
+      "quote": "evidence for interaction between HLA-B*51 and ERAP1",
+      "location": "Primary-report abstract, main text; Europe PMC MED:23291587",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-il23-uveitis",
+      "pmid": "18579762",
+      "matched": true,
+      "quote": "IL-23p19 mRNA, IL-23, IL-17, and IFN-gamma was markedly elevated",
+      "location": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-il17-uveitis",
+      "pmid": "18579762",
+      "matched": true,
+      "quote": "IL-23p19 mRNA, IL-23, IL-17, and IFN-gamma was markedly elevated",
+      "location": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-ifng-uveitis",
+      "pmid": "18579762",
+      "matched": true,
+      "quote": "IL-23p19 mRNA, IL-23, IL-17, and IFN-gamma was markedly elevated",
+      "location": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-il23-il17",
+      "pmid": "18579762",
+      "matched": true,
+      "quote": "IL-23 could upregulate IL-17 production by polyclonally stimulated PBMCs",
+      "location": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-ifng-il17",
+      "pmid": "18579762",
+      "matched": true,
+      "quote": "gamma downregulated IL-17 production",
+      "location": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-il21-th17",
+      "pmid": "21724243",
+      "matched": true,
+      "quote": "stimulation of CD4(+) T cells with IL-21 increased T(H)17",
+      "location": "Primary-report abstract, Results; Europe PMC MED:21724243",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-il21-treg",
+      "pmid": "21724243",
+      "matched": true,
+      "quote": "decreased the frequency of Treg cells",
+      "location": "Primary-report abstract, Results; Europe PMC MED:21724243",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-th17-il17",
+      "pmid": "18579762",
+      "matched": true,
+      "quote": "primarily produced by CD45RO(+) memory T cells",
+      "location": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-th17-disease",
+      "pmid": "21724243",
+      "matched": true,
+      "quote": "correlate with BD activity",
+      "location": "Primary-report abstract, Results; Europe PMC MED:21724243",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-treg-disease",
+      "pmid": "21724243",
+      "matched": true,
+      "quote": "decrease in the frequency of CD4(+) forkhead box P3(+) regulatory T cells",
+      "location": "Primary-report abstract, Results; Europe PMC MED:21724243",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-il17-cns",
+      "pmid": "21724243",
+      "matched": true,
+      "quote": "IL-21- and IL-17A-producing T cells within the cerebrospinal fluid",
+      "location": "Primary-report abstract, Results; Europe PMC MED:21724243",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-neutrophils-nets",
+      "pmid": "31147357",
+      "matched": true,
+      "quote": "Purified neutrophils from patients with BD exhibited spontaneous NETosis",
+      "location": "Primary-report abstract, Results; Europe PMC MED:31147357",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-nets-thrombin",
+      "pmid": "31147357",
+      "matched": true,
+      "quote": "DNAse treatment significantly decreased thrombin generation in BD plasma but not in HD plasma",
+      "location": "Primary-report abstract, Results; Europe PMC MED:31147357",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-nets-thrombosis",
+      "pmid": "31147357",
+      "matched": true,
+      "quote": "NETs production in areas of vasculitic inflammation and thrombosis",
+      "location": "Primary-report abstract, Results; Europe PMC MED:31147357",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-nets-disease",
+      "pmid": "31147357",
+      "matched": true,
+      "quote": "Patients with active BD had elevated serum cfDNA levels and MPO-DNA complexes",
+      "location": "Primary-report abstract, Results; Europe PMC MED:31147357",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-neutrophils-ros",
+      "pmid": "36862398",
+      "matched": true,
+      "quote": "ROS production, and NETosis were up-regulated in BD patient neutrophils",
+      "location": "Primary-report abstract, Results; Europe PMC MED:36862398",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-neutrophils-skin",
+      "pmid": "36862398",
+      "matched": true,
+      "quote": "Skin lesions of BD patients showed increased infiltration of neutrophils that colocalized with PDE4",
+      "location": "Primary-report abstract, Results; Europe PMC MED:36862398",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-apremilast-neutrophils",
+      "pmid": "36862398",
+      "matched": true,
+      "quote": "apremilast strongly inhibited neutrophil surface activation markers",
+      "location": "Primary-report abstract, Results; Europe PMC MED:36862398",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-apremilast-nets",
+      "pmid": "36862398",
+      "matched": true,
+      "quote": "ROS production, NETosis, and genes and pathways related to innate immunity",
+      "location": "Primary-report abstract, Results; Europe PMC MED:36862398",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-apremilast-pde4",
+      "pmid": "36862398",
+      "matched": true,
+      "quote": "selectively inhibits phosphodiesterase 4 (PDE4)",
+      "location": "Primary-report abstract, Results; Europe PMC MED:36862398",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-nets-endothelium",
+      "pmid": "42109254",
+      "matched": true,
+      "quote": "NETs promoted senescence, SASP, and PMN chemotaxis in VECs",
+      "location": "Primary-report abstract, Results; Europe PMC MED:42109254",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-nets-histone",
+      "pmid": "42109254",
+      "matched": true,
+      "quote": "NETs contained more histone 3.1 (H3.1)",
+      "location": "Primary-report abstract, Results; Europe PMC MED:42109254",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-histone-tlr4",
+      "pmid": "42109254",
+      "matched": true,
+      "quote": "H3.1 induced senescence, SASP, and PMN chemotaxis in VECs via Toll-like receptor 4 signaling",
+      "location": "Primary-report abstract, Results; Europe PMC MED:42109254",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-histone-senescence",
+      "pmid": "42109254",
+      "matched": true,
+      "quote": "H3.1 induced senescence, SASP",
+      "location": "Primary-report abstract, Results; Europe PMC MED:42109254",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-senescence-neutrophils",
+      "pmid": "42109254",
+      "matched": true,
+      "quote": "NETs promoted senescence, SASP, and PMN chemotaxis in VECs",
+      "location": "Primary-report abstract, Results; Europe PMC MED:42109254",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-disease-oral",
+      "pmid": "20622878",
+      "matched": true,
+      "quote": "orogenital mucosa",
+      "location": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-disease-genital",
+      "pmid": "20622878",
+      "matched": true,
+      "quote": "orogenital mucosa",
+      "location": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-disease-skin",
+      "pmid": "20622878",
+      "matched": true,
+      "quote": "eyes and skin",
+      "location": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-disease-eye",
+      "pmid": "20622878",
+      "matched": true,
+      "quote": "eyes and skin",
+      "location": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-disease-cns",
+      "pmid": "12544711",
+      "matched": true,
+      "quote": "central nervous system involvement and major vessel disease are exceptions",
+      "location": "Primary-report abstract, main text; Europe PMC MED:12544711",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-uveitis-vision",
+      "pmid": "12544711",
+      "matched": true,
+      "quote": "Both the onset of eye disease and its greatest damage",
+      "location": "Primary-report abstract, main text; Europe PMC MED:12544711",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-cns-mortality",
+      "pmid": "12544711",
+      "matched": true,
+      "quote": "mainly due to major vessel disease and neurologic involvement",
+      "location": "Primary-report abstract, main text; Europe PMC MED:12544711",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-disease-aneurysms",
+      "pmid": "21944910",
+      "matched": true,
+      "quote": "nonpulmonary aneurysms (n = 23)",
+      "location": "Primary-report abstract, Results; Europe PMC MED:21944910",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-disease-thrombosis",
+      "pmid": "31147357",
+      "matched": true,
+      "quote": "Thrombosis is a frequent and life-threatening complication",
+      "location": "Primary-report abstract, Results; Europe PMC MED:31147357",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-apremilast-ulcers",
+      "pmid": "31722152",
+      "matched": true,
+      "quote": "apremilast resulted in a greater reduction in the number of oral ulcers than placebo",
+      "location": "Primary-report abstract, Results; Europe PMC MED:31722152",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-il17-uveitis-trial",
+      "pmid": "23290985",
+      "matched": true,
+      "quote": "The primary efficacy end points of the 3 studies were not met",
+      "location": "Primary-report abstract, Results; Europe PMC MED:23290985",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-plk1-tnf",
+      "pmid": "38676954",
+      "matched": true,
+      "quote": "PLK1 promotes the secretion of TNF-α from PBMCs",
+      "location": "Primary-report abstract, main text; Europe PMC MED:38676954",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-tnf-ifi16",
+      "pmid": "38676954",
+      "matched": true,
+      "quote": "which causes overexpression of IFI16",
+      "location": "Primary-report abstract, main text; Europe PMC MED:38676954",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-ifi16-sting",
+      "pmid": "38676954",
+      "matched": true,
+      "quote": "activation of the IFI16-STING-TBK1 pathway",
+      "location": "Primary-report abstract, main text; Europe PMC MED:38676954",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-sting-apoptosis",
+      "pmid": "38676954",
+      "matched": true,
+      "quote": "induces apoptosis of IECs via the STING-TBK1 pathway",
+      "location": "Primary-report abstract, main text; Europe PMC MED:38676954",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-ifi16-ulcer",
+      "pmid": "38676954",
+      "matched": true,
+      "quote": "expressions of IFI16, TNF-α, cleaved caspase 3",
+      "location": "Primary-report abstract, main text; Europe PMC MED:38676954",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-tnf-ulcer",
+      "pmid": "38676954",
+      "matched": true,
+      "quote": "in the intestinal ulcer tissue of BS patients were significantly higher",
+      "location": "Primary-report abstract, main text; Europe PMC MED:38676954",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-hla-joint",
+      "pmid": "42159075",
+      "matched": true,
+      "quote": "HLA-B51 was associated with joint and ocular involvement",
+      "location": "Primary-report abstract, Results; Europe PMC MED:42159075",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-hla-eye",
+      "pmid": "42159075",
+      "matched": true,
+      "quote": "HLA-B51 was associated with joint and ocular involvement",
+      "location": "Primary-report abstract, Results; Europe PMC MED:42159075",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-disease-gut",
+      "pmid": "38676954",
+      "matched": true,
+      "quote": "intestinal ulcer tissue of BS patients",
+      "location": "Primary-report abstract, main text; Europe PMC MED:38676954",
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      }
+    },
+    {
+      "claimId": "claim-behcet-ap-licensed",
+      "sourceId": "source-behcet-otezla-label",
+      "quote": "OTEZLA/OTEZLA XR is indicated for the treatment of adult patients with oral ulcers associated with Behçet's Disease.",
+      "location": "Section 1.3",
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Adult oral-ulcer indication; does not establish protection against ocular, vascular, intestinal or CNS disease."
+      ],
+      "matched": true
+    },
+    {
+      "claimId": "claim-behcet-ap-target",
+      "sourceId": "source-behcet-otezla-label",
+      "quote": "Apremilast is an oral small molecule inhibitor of phosphodiesterase 4 (PDE4)",
+      "location": "Section 12.1",
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Target engagement is distinct from organ-specific efficacy."
+      ],
+      "matched": true
+    },
+    {
+      "claimId": "claim-behcet-ap-trial",
+      "sourceId": "source-doi-571821a021626260b864",
+      "quote": "apremilast resulted in a greater reduction in the number of oral ulcers than placebo",
+      "location": "Primary-report abstract, Results/Conclusions",
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "No inference of vascular/CNS protection; diarrhea, nausea and headache were reported."
+      ],
+      "matched": true
+    },
+    {
+      "claimId": "claim-behcet-inf-target",
+      "sourceId": "source-behcet-remicade-label",
+      "quote": "Infliximab neutralizes the biological activity of TNFα",
+      "location": "Section 12.1",
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Mechanism does not itself establish Behçet clinical benefit; no Behçet indication in inspected US label."
+      ],
+      "matched": true
+    },
+    {
+      "claimId": "claim-behcet-inf-trial",
+      "sourceId": "source-behcet-infliximab-trial",
+      "quote": "Complete response was achieved by 22 out of 27 (81%) and 14 out of 25 (56%) patients",
+      "location": "Primary-report abstract, Results",
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Small mixed vascular/CNS trial; no separate powered organ estimates, no global cure or long-term prevention claim. Serious adverse events: 15% versus 12%."
+      ],
+      "matched": true
+    },
+    {
+      "claimId": "claim-behcet-tc17-il17",
+      "sourceId": "source-behcet-34254298",
+      "quote": "T cells were the predominant source of IL-17A",
+      "location": "Primary-report abstract, Results",
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17",
+      "matched": true
+    },
+    {
+      "claimId": "claim-behcet-il17-neutrophils",
+      "sourceId": "source-behcet-34254298",
+      "quote": "IL-17A expression was associated with extensive recruitment of neutrophils",
+      "location": "Primary-report abstract, Results",
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17",
+      "matched": true
+    },
+    {
+      "claimId": "claim-behcet-infliximab-bio",
+      "sourceId": "source-behcet-39432564",
+      "quote": "mean difference of 0.13 in BDAI",
+      "location": "Primary-report abstract, Results",
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-17",
+      "matched": true
+    }
+  ]
+}

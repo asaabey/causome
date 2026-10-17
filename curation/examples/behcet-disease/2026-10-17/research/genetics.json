@@ -1,0 +1,1928 @@
+{
+  "version": "6.9",
+  "hitCount": 3,
+  "request": {
+    "queryString": "EXT_ID:20622878 OR EXT_ID:23291587 OR DOI:10.1038/ng.3786",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 30,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "28166214",
+        "source": "MED",
+        "pmid": "28166214",
+        "pmcid": "PMC5369770",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5369770"
+          ]
+        },
+        "doi": "10.1038/ng.3786",
+        "title": "Dense genotyping of immune-related loci implicates host responses to microbial exposure in Beh\u00e7et's disease susceptibility.",
+        "authorString": "Takeuchi M, Mizuki N, Meguro A, Ombrello MJ, Kirino Y, Satorius C, Le J, Blake M, Erer B, Kawagoe T, Ustek D, Tugal-Tutkun I, Seyahi E, Ozyazgan Y, Sousa I, Davatchi F, Francisco V, Shahram F, Abdollahi BS, Nadji A, Shafiee NM, Ghaderibarmi F, Ohno S, Ueda A, Ishigatsubo Y, Gadina M, Oliveira SA, G\u00fcl A, Kastner DL, Remmers EF.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Takeuchi M",
+              "lastName": "Takeuchi",
+              "firstName": "Masaki",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Inflammatory Disease Section, National Human Genome Research Institute, US National Institutes of Health, Bethesda, Maryland, USA."
+                  },
+                  {
+                    "affiliation": "Department of Ophthalmology and Visual Science, Yokohama City University Graduate School of Medicine, Yokohama, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mizuki N",
+              "lastName": "Mizuki",
+              "firstName": "Nobuhisa",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology and Visual Science, Yokohama City University Graduate School of Medicine, Yokohama, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meguro A",
+              "lastName": "Meguro",
+              "firstName": "Akira",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology and Visual Science, Yokohama City University Graduate School of Medicine, Yokohama, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ombrello MJ",
+              "lastName": "Ombrello",
+              "firstName": "Michael J",
+              "initials": "MJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3322-4089"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Translational Genetics and Genomics Unit, National Institute of Arthritis and Musculoskeletal and Skin Diseases, US National Institutes of Health, Bethesda, Maryland, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kirino Y",
+              "lastName": "Kirino",
+              "firstName": "Yohei",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9488-661X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Stem Cell and Immune Regulation, Yokohama City University Graduate School of Medicine, Yokohama, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Satorius C",
+              "lastName": "Satorius",
+              "firstName": "Colleen",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Inflammatory Disease Section, National Human Genome Research Institute, US National Institutes of Health, Bethesda, Maryland, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Le J",
+              "lastName": "Le",
+              "firstName": "Julie",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Inflammatory Disease Section, National Human Genome Research Institute, US National Institutes of Health, Bethesda, Maryland, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Blake M",
+              "lastName": "Blake",
+              "firstName": "Mary",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Translational Immunology Section, National Institute of Arthritis and Musculoskeletal and Skin Diseases, US National Institutes of Health, Bethesda, Maryland, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Erer B",
+              "lastName": "Erer",
+              "firstName": "Burak",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Inflammatory Disease Section, National Human Genome Research Institute, US National Institutes of Health, Bethesda, Maryland, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kawagoe T",
+              "lastName": "Kawagoe",
+              "firstName": "Tatsukata",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology and Visual Science, Yokohama City University Graduate School of Medicine, Yokohama, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ustek D",
+              "lastName": "Ustek",
+              "firstName": "Duran",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics, Institute for Experimental Medicine, Istanbul University, Istanbul, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tugal-Tutkun I",
+              "lastName": "Tugal-Tutkun",
+              "firstName": "Ilknur",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology, Istanbul Faculty of Medicine, Istanbul University, Istanbul, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Seyahi E",
+              "lastName": "Seyahi",
+              "firstName": "Emire",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine, Division of Rheumatology, Cerrahpas\u015f a Faculty of Medicine, Istanbul University, Istanbul, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ozyazgan Y",
+              "lastName": "Ozyazgan",
+              "firstName": "Yilmaz",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology, Cerrahpa\u015fa Faculty of Medicine, Istanbul University, Istanbul, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sousa I",
+              "lastName": "Sousa",
+              "firstName": "In\u00eas",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Instituto de Medicina Molecular, Faculdade de Medicina, Universidade de Lisboa, Lisboa, Portugal."
+                  },
+                  {
+                    "affiliation": "Instituto Gulbenkian de Ci\u00eancia, Oeiras, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Davatchi F",
+              "lastName": "Davatchi",
+              "firstName": "Fereydoun",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Research Center, Tehran University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Francisco V",
+              "lastName": "Francisco",
+              "firstName": "V\u00e2nia",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Instituto de Medicina Molecular, Faculdade de Medicina, Universidade de Lisboa, Lisboa, Portugal."
+                  },
+                  {
+                    "affiliation": "Instituto Gulbenkian de Ci\u00eancia, Oeiras, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shahram F",
+              "lastName": "Shahram",
+              "firstName": "Farhad",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1830-6203"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Research Center, Tehran University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abdollahi BS",
+              "lastName": "Abdollahi",
+              "firstName": "Bahar Sadeghi",
+              "initials": "BS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Research Center, Tehran University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nadji A",
+              "lastName": "Nadji",
+              "firstName": "Abdolhadi",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Research Center, Tehran University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shafiee NM",
+              "lastName": "Shafiee",
+              "firstName": "Niloofar Mojarad",
+              "initials": "NM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Research Center, Tehran University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ghaderibarmi F",
+              "lastName": "Ghaderibarmi",
+              "firstName": "Fahmida",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Research Center, Tehran University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ohno S",
+              "lastName": "Ohno",
+              "firstName": "Shigeaki",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology, Hokkaido University Graduate School of Medicine, Sapporo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ueda A",
+              "lastName": "Ueda",
+              "firstName": "Atsuhisa",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Stem Cell and Immune Regulation, Yokohama City University Graduate School of Medicine, Yokohama, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ishigatsubo Y",
+              "lastName": "Ishigatsubo",
+              "firstName": "Yoshiaki",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Stem Cell and Immune Regulation, Yokohama City University Graduate School of Medicine, Yokohama, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gadina M",
+              "lastName": "Gadina",
+              "firstName": "Massimo",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Translational Immunology Section, National Institute of Arthritis and Musculoskeletal and Skin Diseases, US National Institutes of Health, Bethesda, Maryland, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Oliveira SA",
+              "lastName": "Oliveira",
+              "firstName": "Sofia A",
+              "initials": "SA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Instituto de Medicina Molecular, Faculdade de Medicina, Universidade de Lisboa, Lisboa, Portugal."
+                  },
+                  {
+                    "affiliation": "Instituto Gulbenkian de Ci\u00eancia, Oeiras, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "G\u00fcl A",
+              "lastName": "G\u00fcl",
+              "firstName": "Ahmet",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8219-3720"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine, Division of Rheumatology, Istanbul Faculty of Medicine, Istanbul University, Istanbul, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kastner DL",
+              "lastName": "Kastner",
+              "firstName": "Daniel L",
+              "initials": "DL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Inflammatory Disease Section, National Human Genome Research Institute, US National Institutes of Health, Bethesda, Maryland, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Remmers EF",
+              "lastName": "Remmers",
+              "firstName": "Elaine F",
+              "initials": "EF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9522-1249"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Inflammatory Disease Section, National Human Genome Research Institute, US National Institutes of Health, Bethesda, Maryland, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8219-3720"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9488-661X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9522-1249"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1830-6203"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3322-4089"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "49",
+          "journalIssueId": 2532028,
+          "dateOfPublication": "2017 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Nat Genet",
+            "title": "Nature genetics",
+            "essn": "1546-1718",
+            "issn": "1061-4036",
+            "isoabbreviation": "Nat Genet",
+            "nlmid": "9216904"
+          },
+          "printPublicationDate": "2017-03-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "438-443",
+        "abstractText": "We analyzed 1,900 Turkish Beh\u00e7et's disease cases and 1,779 controls genotyped with the Immunochip. The most significantly associated SNP was rs1050502, a tag SNP for HLA-B*51. In the Turkish discovery set, we identified three new risk loci, IL1A-IL1B, IRF8, and CEBPB-PTPN1, with genome-wide significance (P < 5 \u00d7 10<sup>-8</sup>) by direct genotyping and ADO-EGR2 by imputation. We replicated the ADO-EGR2, IRF8, and CEBPB-PTPN1 loci by genotyping 969 Iranian cases and 826 controls. Imputed data in 608 Japanese cases and 737 controls further replicated ADO-EGR2 and IRF8, and meta-analysis additionally identified RIPK2 and LACC1. The disease-associated allele of rs4402765, the lead marker at IL1A-IL1B, was associated with both decreased IL-1\u03b1 and increased IL-1\u03b2 production. ABO non-secretor genotypes for two ancestry-specific FUT2 SNPs showed strong disease association (P = 5.89 \u00d7 10<sup>-15</sup>). Our findings extend the list of susceptibility genes shared with Crohn's disease and leprosy and implicate mucosal factors and the innate immune response to microbial exposure in Beh\u00e7et's disease susceptibility.",
+        "affiliation": "Inflammatory Disease Section, National Human Genome Research Institute, US National Institutes of Health, Bethesda, Maryland, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z01 AR041083",
+              "orderIn": 0
+            },
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z99 HG999999",
+              "orderIn": 0
+            },
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z99 AR999999",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Predisposition to Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Case-Control Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genotype"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polymorphism, Single Nucleotide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alleles"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Iran"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Turkey"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genome-Wide Association Study",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Loci",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/ng.3786"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5369770"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5369770?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 122,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "OMIM"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS843536",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refsnp"
+          ]
+        },
+        "dateOfCompletion": "2017-09-05",
+        "dateOfCreation": "2017-02-07",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2017-02-06",
+        "firstPublicationDate": "2017-02-06",
+        "firstIndexDate": "2017-02-07",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23291587",
+        "source": "MED",
+        "pmid": "23291587",
+        "pmcid": "PMC3810947",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3810947"
+          ]
+        },
+        "doi": "10.1038/ng.2520",
+        "title": "Genome-wide association analysis identifies new susceptibility loci for Beh\u00e7et's disease and epistasis between HLA-B*51 and ERAP1.",
+        "authorString": "Kirino Y, Bertsias G, Ishigatsubo Y, Mizuki N, Tugal-Tutkun I, Seyahi E, Ozyazgan Y, Sacli FS, Erer B, Inoko H, Emrence Z, Cakar A, Abaci N, Ustek D, Satorius C, Ueda A, Takeno M, Kim Y, Wood GM, Ombrello MJ, Meguro A, G\u00fcl A, Remmers EF, Kastner DL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kirino Y",
+              "lastName": "Kirino",
+              "firstName": "Yohei",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9488-661X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Inflammatory Disease Section, Medical Genetics Branch, National Human Genome Research Institute, US National Institutes of Health, Bethesda, Maryland, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bertsias G",
+              "lastName": "Bertsias",
+              "firstName": "George",
+              "initials": "G"
+            },
+            {
+              "fullName": "Ishigatsubo Y",
+              "lastName": "Ishigatsubo",
+              "firstName": "Yoshiaki",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Mizuki N",
+              "lastName": "Mizuki",
+              "firstName": "Nobuhisa",
+              "initials": "N"
+            },
+            {
+              "fullName": "Tugal-Tutkun I",
+              "lastName": "Tugal-Tutkun",
+              "firstName": "Ilknur",
+              "initials": "I"
+            },
+            {
+              "fullName": "Seyahi E",
+              "lastName": "Seyahi",
+              "firstName": "Emire",
+              "initials": "E"
+            },
+            {
+              "fullName": "Ozyazgan Y",
+              "lastName": "Ozyazgan",
+              "firstName": "Yilmaz",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Sacli FS",
+              "lastName": "Sacli",
+              "firstName": "F Sevgi",
+              "initials": "FS"
+            },
+            {
+              "fullName": "Erer B",
+              "lastName": "Erer",
+              "firstName": "Burak",
+              "initials": "B"
+            },
+            {
+              "fullName": "Inoko H",
+              "lastName": "Inoko",
+              "firstName": "Hidetoshi",
+              "initials": "H"
+            },
+            {
+              "fullName": "Emrence Z",
+              "lastName": "Emrence",
+              "firstName": "Zeliha",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Cakar A",
+              "lastName": "Cakar",
+              "firstName": "Atilla",
+              "initials": "A"
+            },
+            {
+              "fullName": "Abaci N",
+              "lastName": "Abaci",
+              "firstName": "Neslihan",
+              "initials": "N"
+            },
+            {
+              "fullName": "Ustek D",
+              "lastName": "Ustek",
+              "firstName": "Duran",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0060-2859"
+              }
+            },
+            {
+              "fullName": "Satorius C",
+              "lastName": "Satorius",
+              "firstName": "Colleen",
+              "initials": "C"
+            },
+            {
+              "fullName": "Ueda A",
+              "lastName": "Ueda",
+              "firstName": "Atsuhisa",
+              "initials": "A"
+            },
+            {
+              "fullName": "Takeno M",
+              "lastName": "Takeno",
+              "firstName": "Mitsuhiro",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9212-7046"
+              }
+            },
+            {
+              "fullName": "Kim Y",
+              "lastName": "Kim",
+              "firstName": "Yoonhee",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Wood GM",
+              "lastName": "Wood",
+              "firstName": "Geryl M",
+              "initials": "GM"
+            },
+            {
+              "fullName": "Ombrello MJ",
+              "lastName": "Ombrello",
+              "firstName": "Michael J",
+              "initials": "MJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3322-4089"
+              }
+            },
+            {
+              "fullName": "Meguro A",
+              "lastName": "Meguro",
+              "firstName": "Akira",
+              "initials": "A"
+            },
+            {
+              "fullName": "G\u00fcl A",
+              "lastName": "G\u00fcl",
+              "firstName": "Ahmet",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8219-3720"
+              }
+            },
+            {
+              "fullName": "Remmers EF",
+              "lastName": "Remmers",
+              "firstName": "Elaine F",
+              "initials": "EF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9522-1249"
+              }
+            },
+            {
+              "fullName": "Kastner DL",
+              "lastName": "Kastner",
+              "firstName": "Daniel L",
+              "initials": "DL"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8219-3720"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0060-2859"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9212-7046"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9488-661X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9522-1249"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3322-4089"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "45",
+          "journalIssueId": 2004625,
+          "dateOfPublication": "2013 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Nat Genet",
+            "title": "Nature genetics",
+            "essn": "1546-1718",
+            "issn": "1061-4036",
+            "isoabbreviation": "Nat Genet",
+            "nlmid": "9216904"
+          },
+          "printPublicationDate": "2013-02-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "202-207",
+        "abstractText": "Individuals with Beh\u00e7et's disease suffer from episodic inflammation often affecting the orogenital mucosa, skin and eyes. To discover new susceptibility loci for Beh\u00e7et's disease, we performed a genome-wide association study (GWAS) of 779,465 SNPs with imputed genotypes in 1,209 Turkish individuals with Beh\u00e7et's disease and 1,278 controls. We identified new associations at CCR1, STAT4 and KLRC4. Additionally, two SNPs in ERAP1, encoding ERAP1 p.Asp575Asn and p.Arg725Gln alterations, recessively conferred disease risk. These findings were replicated in 1,468 independent Turkish and/or 1,352 Japanese samples (combined meta-analysis P < 2 \u00d7 10(-9)). We also found evidence for interaction between HLA-B*51 and ERAP1 (P = 9 \u00d7 10(-4)). The CCR1 and STAT4 variants were associated with gene expression differences. Three risk loci shared with ankylosing spondylitis and psoriasis (the MHC class I region, ERAP1 and IL23R and the MHC class I-ERAP1 interaction), as well as two loci shared with inflammatory bowel disease (IL23R and IL10) implicate shared pathogenic pathways in the spondyloarthritides and Beh\u00e7et's disease.",
+        "affiliation": "Inflammatory Disease Section, Medical Genetics Branch, National Human Genome Research Institute, US National Institutes of Health, Bethesda, Maryland, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Research Support, N.I.H., Intramural",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z99 AR999999",
+              "orderIn": 0
+            },
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z99 HG999999",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Predisposition to Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aminopeptidases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Minor Histocompatibility Antigens"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Analysis of Variance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Statistics, Nonparametric"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Epistasis, Genetic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genotype"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polymorphism, Single Nucleotide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Turkey"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Japan"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "STAT4 Transcription Factor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, CCR1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genome-Wide Association Study"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NK Cell Lectin-Like Receptor Subfamily C",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "HLA-B51 Antigen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Minor Histocompatibility Antigens",
+              "registryNumber": "0"
+            },
+            {
+              "name": "STAT4 Transcription Factor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "STAT4 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Aminopeptidases",
+              "registryNumber": "EC 3.4.11.-"
+            },
+            {
+              "name": "CCR1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, CCR1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NK Cell Lectin-Like Receptor Subfamily C",
+              "registryNumber": "0"
+            },
+            {
+              "name": "KLRC4 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ERAP1 protein, human",
+              "registryNumber": "EC 3.4.11.-"
+            },
+            {
+              "name": "HLA-B51 Antigen",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/ng.2520"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3810947"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3810947?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 419,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "OMIM",
+            "UNIPROT"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS474675",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "refsnp"
+          ]
+        },
+        "dateOfCompletion": "2013-03-26",
+        "dateOfCreation": "2013-01-08",
+        "dateOfRevision": "2026-01-28",
+        "electronicPublicationDate": "2013-01-06",
+        "firstPublicationDate": "2013-01-06",
+        "firstIndexDate": "2013-01-09",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "20622878",
+        "source": "MED",
+        "pmid": "20622878",
+        "pmcid": "PMC2923807",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC2923807"
+          ]
+        },
+        "doi": "10.1038/ng.625",
+        "title": "Genome-wide association study identifies variants in the MHC class I, IL10, and IL23R-IL12RB2 regions associated with Beh\u00e7et's disease.",
+        "authorString": "Remmers EF, Cosan F, Kirino Y, Ombrello MJ, Abaci N, Satorius C, Le JM, Yang B, Korman BD, Cakiris A, Aglar O, Emrence Z, Azakli H, Ustek D, Tugal-Tutkun I, Akman-Demir G, Chen W, Amos CI, Dizon MB, Kose AA, Azizlerli G, Erer B, Brand OJ, Kaklamani VG, Kaklamanis P, Ben-Chetrit E, Stanford M, Fortune F, Ghabra M, Ollier WE, Cho YH, Bang D, O'Shea J, Wallace GR, Gadina M, Kastner DL, G\u00fcl A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Remmers EF",
+              "lastName": "Remmers",
+              "firstName": "Elaine F",
+              "initials": "EF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9522-1249"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Institute of Arthritis and Musculoskeletal and Skin Diseases, Bethesda, MD, USA. remmerse@mail.nih.gov"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cosan F",
+              "lastName": "Cosan",
+              "firstName": "Fulya",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5630-8640"
+              }
+            },
+            {
+              "fullName": "Kirino Y",
+              "lastName": "Kirino",
+              "firstName": "Yohei",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9488-661X"
+              }
+            },
+            {
+              "fullName": "Ombrello MJ",
+              "lastName": "Ombrello",
+              "firstName": "Michael J",
+              "initials": "MJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3322-4089"
+              }
+            },
+            {
+              "fullName": "Abaci N",
+              "lastName": "Abaci",
+              "firstName": "Neslihan",
+              "initials": "N"
+            },
+            {
+              "fullName": "Satorius C",
+              "lastName": "Satorius",
+              "firstName": "Colleen",
+              "initials": "C"
+            },
+            {
+              "fullName": "Le JM",
+              "lastName": "Le",
+              "firstName": "Julie M",
+              "initials": "JM"
+            },
+            {
+              "fullName": "Yang B",
+              "lastName": "Yang",
+              "firstName": "Barbara",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5018-095X"
+              }
+            },
+            {
+              "fullName": "Korman BD",
+              "lastName": "Korman",
+              "firstName": "Benjamin D",
+              "initials": "BD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4873-2628"
+              }
+            },
+            {
+              "fullName": "Cakiris A",
+              "lastName": "Cakiris",
+              "firstName": "Aris",
+              "initials": "A"
+            },
+            {
+              "fullName": "Aglar O",
+              "lastName": "Aglar",
+              "firstName": "Oznur",
+              "initials": "O"
+            },
+            {
+              "fullName": "Emrence Z",
+              "lastName": "Emrence",
+              "firstName": "Zeliha",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Azakli H",
+              "lastName": "Azakli",
+              "firstName": "Hulya",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6073-0724"
+              }
+            },
+            {
+              "fullName": "Ustek D",
+              "lastName": "Ustek",
+              "firstName": "Duran",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0060-2859"
+              }
+            },
+            {
+              "fullName": "Tugal-Tutkun I",
+              "lastName": "Tugal-Tutkun",
+              "firstName": "Ilknur",
+              "initials": "I"
+            },
+            {
+              "fullName": "Akman-Demir G",
+              "lastName": "Akman-Demir",
+              "firstName": "Gulsen",
+              "initials": "G"
+            },
+            {
+              "fullName": "Chen W",
+              "lastName": "Chen",
+              "firstName": "Wei",
+              "initials": "W"
+            },
+            {
+              "fullName": "Amos CI",
+              "lastName": "Amos",
+              "firstName": "Christopher I",
+              "initials": "CI"
+            },
+            {
+              "fullName": "Dizon MB",
+              "lastName": "Dizon",
+              "firstName": "Michael B",
+              "initials": "MB"
+            },
+            {
+              "fullName": "Kose AA",
+              "lastName": "Kose",
+              "firstName": "Afet Akdag",
+              "initials": "AA"
+            },
+            {
+              "fullName": "Azizlerli G",
+              "lastName": "Azizlerli",
+              "firstName": "Gulsevim",
+              "initials": "G"
+            },
+            {
+              "fullName": "Erer B",
+              "lastName": "Erer",
+              "firstName": "Burak",
+              "initials": "B"
+            },
+            {
+              "fullName": "Brand OJ",
+              "lastName": "Brand",
+              "firstName": "Oliver J",
+              "initials": "OJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3959-9490"
+              }
+            },
+            {
+              "fullName": "Kaklamani VG",
+              "lastName": "Kaklamani",
+              "firstName": "Virginia G",
+              "initials": "VG"
+            },
+            {
+              "fullName": "Kaklamanis P",
+              "lastName": "Kaklamanis",
+              "firstName": "Phaedon",
+              "initials": "P"
+            },
+            {
+              "fullName": "Ben-Chetrit E",
+              "lastName": "Ben-Chetrit",
+              "firstName": "Eldad",
+              "initials": "E"
+            },
+            {
+              "fullName": "Stanford M",
+              "lastName": "Stanford",
+              "firstName": "Miles",
+              "initials": "M"
+            },
+            {
+              "fullName": "Fortune F",
+              "lastName": "Fortune",
+              "firstName": "Farida",
+              "initials": "F"
+            },
+            {
+              "fullName": "Ghabra M",
+              "lastName": "Ghabra",
+              "firstName": "Marwen",
+              "initials": "M"
+            },
+            {
+              "fullName": "Ollier WE",
+              "lastName": "Ollier",
+              "firstName": "William E R",
+              "initials": "WE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6502-6584"
+              }
+            },
+            {
+              "fullName": "Cho YH",
+              "lastName": "Cho",
+              "firstName": "Young-Hun",
+              "initials": "YH"
+            },
+            {
+              "fullName": "Bang D",
+              "lastName": "Bang",
+              "firstName": "Dongsik",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6476-4259"
+              }
+            },
+            {
+              "fullName": "O'Shea J",
+              "lastName": "O'Shea",
+              "firstName": "John",
+              "initials": "J"
+            },
+            {
+              "fullName": "Wallace GR",
+              "lastName": "Wallace",
+              "firstName": "Graham R",
+              "initials": "GR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2054-0509"
+              }
+            },
+            {
+              "fullName": "Gadina M",
+              "lastName": "Gadina",
+              "firstName": "Massimo",
+              "initials": "M"
+            },
+            {
+              "fullName": "Kastner DL",
+              "lastName": "Kastner",
+              "firstName": "Daniel L",
+              "initials": "DL"
+            },
+            {
+              "fullName": "G\u00fcl A",
+              "lastName": "G\u00fcl",
+              "firstName": "Ahmet",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8219-3720"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5018-095X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6073-0724"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6502-6584"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8219-3720"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0060-2859"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3959-9490"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4873-2628"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5630-8640"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6476-4259"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9488-661X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9522-1249"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2054-0509"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3322-4089"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "42",
+          "journalIssueId": 1749583,
+          "dateOfPublication": "2010 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "Nat Genet",
+            "title": "Nature genetics",
+            "essn": "1546-1718",
+            "issn": "1061-4036",
+            "isoabbreviation": "Nat Genet",
+            "nlmid": "9216904"
+          },
+          "printPublicationDate": "2010-08-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "698-702",
+        "abstractText": "Beh\u00e7et's disease is a genetically complex disease of unknown etiology characterized by recurrent inflammatory attacks affecting the orogenital mucosa, eyes and skin. We performed a genome-wide association study with 311,459 SNPs in 1,215 individuals with Beh\u00e7et's disease (cases) and 1,278 healthy controls from Turkey. We confirmed the known association of Beh\u00e7et's disease with HLA-B*51 and identified a second, independent association within the MHC Class I region. We also identified an association at IL10 (rs1518111, P = 1.88 x 10(-8)). Using a meta-analysis with an additional five cohorts from Turkey, the Middle East, Europe and Asia, comprising a total of 2,430 cases and 2,660 controls, we identified associations at IL10 (rs1518111, P = 3.54 x 10(-18), odds ratio = 1.45, 95% CI 1.34-1.58) and the IL23R-IL12RB2 locus (rs924080, P = 6.69 x 10(-9), OR = 1.28, 95% CI 1.18-1.39). The disease-associated IL10 variant (the rs1518111 A allele) was associated with diminished mRNA expression and low protein production.",
+        "affiliation": "National Institute of Arthritis and Musculoskeletal and Skin Diseases, Bethesda, MD, USA. remmerse@mail.nih.gov",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, N.I.H., Intramural",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIEHS NIH HHS",
+              "acronym": "ES",
+              "grantId": "R01 ES009912",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "PC30CA016772",
+              "orderIn": 0
+            },
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z99 HG999999",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAMS NIH HHS",
+              "acronym": "AR",
+              "grantId": "AR44422",
+              "orderIn": 0
+            },
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z01 AR041106",
+              "orderIn": 0
+            },
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z99 AR999999",
+              "orderIn": 0
+            },
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "ZIC AR041181",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "P01 CA034936",
+              "orderIn": 0
+            },
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z01 AR041083",
+              "orderIn": 0
+            },
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z01 AR041139",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interleukin-10",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "HLA-B Antigens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Case-Control Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genes, MHC Class I",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polymorphism, Single Nucleotide"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alleles"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Asia"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle East"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Turkey"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Europe"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Genome-Wide Association Study"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "HLA-B Antigens",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interleukin-10",
+              "registryNumber": "130068-27-8"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/ng.625"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2923807"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2923807?pdf=render"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "20622879",
+              "reference": "Nat Genet. 2010 Aug;42(8):703-6. doi: 10.1038/ng.624.",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 498,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL",
+            "OMIM"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS214962",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refsnp",
+            "dbgap"
+          ]
+        },
+        "dateOfCompletion": "2010-08-13",
+        "dateOfCreation": "2010-07-13",
+        "dateOfRevision": "2025-05-29",
+        "electronicPublicationDate": "2010-07-11",
+        "firstPublicationDate": "2010-07-11",
+        "firstIndexDate": "2010-08-25",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

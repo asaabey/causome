@@ -1,0 +1,3891 @@
+# Behçet’s disease: literature scan
+
+Run: scan-00d9cf32b4b76ef6d5be3581
+
+Window: 2000-01-01 through 2026-10-17. Provider: europe-pmc-core-v1.
+
+Retrieved 3888 results; 3881 unique records. 3881 new or updated records.
+
+- doi-a837cf4ff5c55af11a2b: new; secondary-or-commentary
+- doi-528028e7a6b0a5392558: new; preprint
+- doi-a53e3614e56f2ad39c64: new; secondary-or-commentary
+- doi-b1a030d8bdd206abcb71: new
+- doi-d827e79744b3e575df65: new
+- doi-fb7ed9012158bf5ea012: new; secondary-or-commentary
+- doi-43f613173564b3117207: new; secondary-or-commentary
+- doi-a17ac762f550dc0ad5e5: new; secondary-or-commentary
+- doi-e1a560692a0217a6ba2d: new; secondary-or-commentary
+- doi-92898084ae2bea141039: new; secondary-or-commentary
+- doi-a4dc4ef7943522b53974: new
+- doi-cc77c23a429accd603d5: new
+- doi-199d353c3e78d7c200bb: new
+- doi-fe9236ba49be9cadeb3a: new
+- doi-83a50c5e4aa3cf96abac: new
+- doi-ac69901712c4f338bdaf: new; secondary-or-commentary
+- doi-99efe5e0177f5b1aae19: new
+- doi-a4d101447e1d8fdf3d58: new
+- doi-bdae04e8178a618d4c36: new
+- doi-35059dcd244fb0e35d57: new; preprint
+- doi-de31e567008583c851bf: new
+- doi-6b22070c136f292053b1: new
+- doi-0957c78d95913b742b87: new
+- doi-b104a8df9fabf27d1c3c: new
+- doi-0a95548fc2bcaf648f2a: new
+- doi-3ff7bc61debe89d48ac7: new
+- doi-097b46e0e0c6ddfbfab1: new
+- doi-6801a7548acc14dfb9af: new
+- doi-38a80e74ffc93b3d0536: new
+- doi-c01973d6a15703790268: new; secondary-or-commentary
+- med-29262080: new
+- doi-466fc555365befd9e18e: new
+- doi-dbb0257c04a1caa4e9f2: new
+- doi-a927703b1631e52367ba: new; secondary-or-commentary
+- doi-c4c57a4d8089b96115e5: new
+- doi-732f08ffe20a43aecc99: new
+- doi-fbf86108f7c6fe80acc5: new
+- doi-a6d34a1b9318eb1fb2d0: new; secondary-or-commentary
+- doi-a717a50565e00c0af848: new
+- doi-c7da6f1af1751024fef6: new
+- doi-b6f44f3c6c26aed6b5cb: new; secondary-or-commentary
+- doi-f44556524461b102c9be: new
+- doi-450ba6fceb50ae3b050a: new; preprint
+- doi-855702043913b78ef16d: new; secondary-or-commentary
+- doi-b66cdf1387c82f233820: new; secondary-or-commentary
+- doi-794117b1136545fb6aa8: new; secondary-or-commentary
+- doi-3ccf83af512c92e48934: new
+- doi-d7d454674ce549050a18: new; secondary-or-commentary
+- doi-17e694440d530cdf2223: new
+- doi-51246f15a126bd6bf50d: new
+- doi-56dc1d9e4e88c0d628b9: new; secondary-or-commentary
+- doi-56ca8e31983d153bd11e: new; secondary-or-commentary
+- doi-6134196f8230c58af5e3: new
+- doi-28cc68d8ac6db3d5e1dc: new
+- doi-5fc6e7237038d3eb42eb: new
+- doi-378a99888079a0ffa4ca: new; secondary-or-commentary
+- doi-85a6344dc40838626206: new
+- doi-0c61dff19fbb35821b17: new; secondary-or-commentary
+- doi-870009fd103ea08e3b32: new
+- doi-38491dc06da32e695d0f: new
+- doi-e91bf143f63051348153: new
+- doi-fdbffd5f65a9c60d0516: new
+- doi-46903d69cd5b2e0242ee: new; secondary-or-commentary
+- doi-f89d7516d61bccd0cc2e: new; secondary-or-commentary
+- doi-98a147d23308f1156ae6: new; secondary-or-commentary
+- doi-96e8e4b6e8237e8df286: new
+- doi-07e7480fa6e0058a9a3f: new
+- doi-4d1f472c3e8d77cd4161: new
+- doi-ffcbedf5f7ac7eee0516: new
+- doi-979ba0183726c033f191: new
+- doi-954c102eb3420f15985d: new
+- doi-8321a1096fc8cb808da7: new
+- doi-6f4948585689859c2b5e: new; secondary-or-commentary
+- doi-7385bc696b47f590e622: new; secondary-or-commentary
+- doi-70a41952eea030db8c0b: new
+- doi-caab904de7ef14581ffa: new; secondary-or-commentary
+- doi-23805cf77963e25e169b: new
+- doi-a8499818a8f97d1d34b3: new
+- doi-55e071618fb2b2fe7af4: new
+- doi-df164f40328cf43daf84: new
+- doi-c9707fa01176626a3bb5: new; secondary-or-commentary
+- doi-3687c0e1f32a7c62d1f2: new
+- doi-7c7bbd376b91c6a638d2: new
+- doi-82458d7c75b801d12135: new
+- doi-d9c633ac94c559883ce4: new
+- doi-4ee209d9b5454be27ce0: new
+- doi-c007fbfa24e046872670: new
+- doi-2dbf4935899be77d7dbd: new; secondary-or-commentary
+- doi-2ecdc514a88bd672033f: new
+- doi-ec2e70ec5cc326d38f5b: new; secondary-or-commentary
+- doi-8f0f2fcbdac18882bfef: new
+- doi-a30a805612495aba9bba: new; secondary-or-commentary
+- doi-1dcb1a7a58ee9246c0a6: new
+- doi-2509ca6ad3a1867b6930: new
+- doi-db375347fe1949331abf: new
+- doi-f03da43ac1b7210d40d4: new; secondary-or-commentary
+- doi-e4ade4d8771a6fd47284: new
+- doi-772f488c1baeccdff66a: new
+- doi-75e4338b7c4cf5ffbe88: new; secondary-or-commentary
+- doi-23fb667c08989d43d8f7: new
+- doi-470900d8988152f9201d: new
+- doi-dcad12d0f8367a86360b: new; secondary-or-commentary
+- doi-daf894dc684862f1c36d: new
+- doi-ba1572528ac3c49b6620: new; secondary-or-commentary
+- doi-e37c0f53aac45c4f0123: new
+- doi-f91de7d5124dfa89df3a: new
+- doi-4ede5285f0906949eca7: new
+- doi-d33e724060b0ded8769d: new; secondary-or-commentary
+- doi-fdbf7a6baf0b36169742: new
+- doi-f13e68d972ba09d5dfcc: new
+- doi-8025ef15a2e3c0acd528: new
+- doi-fec230924cf7fe8b28b3: new; secondary-or-commentary
+- doi-2088f3c8225bd550e2c6: new; secondary-or-commentary
+- doi-85ebfdbaa4de2c7f3874: new
+- doi-907ad2ac5e43e3de4d59: new
+- doi-4f006aa1e80fdb65844f: new
+- doi-9b576d9006d46762682f: new
+- doi-ab2de689ca2d11da23a0: new
+- doi-fc217c9a4e6bdc562727: new; secondary-or-commentary
+- doi-d414868dfce589ec969c: new
+- doi-3cb40976c68e6b6e1936: new
+- doi-be6d793e0e5ecb727c70: new
+- doi-efed0e6788ef9e774b06: new
+- doi-21b569af62e1d0f8e3f9: new
+- doi-5bb18147218adc7acb7f: new
+- doi-8848929565f050db210e: new
+- doi-ac8e62018e6a24c0e73f: new
+- doi-3fff34e6a3894070262f: new
+- doi-c8b24303b7d90c4515da: new; secondary-or-commentary
+- doi-8ba4bec1956f9cefbd54: new
+- doi-f43cd22592ab8f64af1c: new
+- doi-e46f4d82b2d8d8a84cba: new; secondary-or-commentary
+- doi-21a28d729bdd161bbdb9: new
+- doi-8c981c7a500c5bfa1611: new
+- doi-47e66fc287f9c2229afb: new
+- doi-4819fe123b0a854491f3: new; secondary-or-commentary
+- med-39090018: new; secondary-or-commentary
+- doi-8450e1b59b2f73d7f481: new
+- doi-f045849c3b2110853d38: new
+- doi-c88ef0a27e56b3111a3d: new
+- doi-df1cc04d6148498e27ef: new
+- doi-6df8950c3b049c6fb67c: new
+- doi-92260ad60d896f766245: new
+- doi-188d549c4ff0b3f132e8: new; secondary-or-commentary
+- doi-956ea7437996e361e54a: new; secondary-or-commentary
+- doi-6ee0238e2c67cb7169f6: new; secondary-or-commentary
+- doi-08ddcb94b7f1cb069866: new; preprint, secondary-or-commentary
+- doi-2689f88e0b7f66193f78: new; secondary-or-commentary
+- doi-8622c4849c3d780fbc9f: new
+- doi-cc23f2ebb80b202b90ad: new; secondary-or-commentary
+- doi-16f549e2a2f5a3ea6eaf: new
+- doi-8d67f64a717e3bbd333d: new; secondary-or-commentary
+- doi-6db6ae1f6925b94b6871: new
+- doi-8a89d15ac64eab3d8885: new
+- doi-4264fc1fff2324838cd3: new
+- doi-525f305b0572b12d1ca7: new
+- doi-e5ab89f2d7ec02d03678: new
+- doi-43cbd0494bc20e657dba: new
+- doi-a05845c05a9d1e2d99fe: new
+- doi-d44ee79f6daeefa368fa: new
+- doi-82b03dc5c45a9f2ed28f: new
+- doi-f847a320b7c771097ea5: new
+- doi-c8aebbe7a7575b335bbb: new
+- doi-252a889ad6b37225a586: new
+- doi-f5dc4d08708466d47bf4: new
+- doi-e73cbf276d1525b64ffb: new
+- doi-0750aaa93c54a89e06c2: new
+- doi-0fb6ee09937652af181b: new
+- doi-11876d204a3c6353b879: new; secondary-or-commentary
+- doi-6bea3b772be167360814: new
+- doi-da9f13f990e335a4b675: new
+- doi-69bef179a2938172e175: new; secondary-or-commentary
+- doi-7ae0363f209e2ab23a9b: new; secondary-or-commentary
+- doi-df528dc64c8ca571cbb2: new
+- doi-05906e884ac0d6fcb9c2: new
+- doi-4e6e6c6cf146333cf9f7: new
+- doi-57b2af3fc96e097611ef: new; preprint
+- doi-0a2f91857076b06f9aa0: new; secondary-or-commentary
+- doi-0482ece6969aa30a5999: new; secondary-or-commentary
+- doi-0636568dc3197b289264: new; secondary-or-commentary
+- doi-60f225bc8bf7633ecdbd: new
+- doi-6e1a5d40648abedfb41b: new
+- doi-174c7d16c6dbbd0e8ed2: new
+- doi-d743a9f80a103ec62bdc: new; preprint
+- doi-43903fdff43069da221d: new
+- doi-fe674441e4223dde0156: new
+- doi-909d07705987c2f3e143: new; secondary-or-commentary
+- doi-7b269363a84ea6f589fc: new; preprint
+- doi-5d0101ecdd0dae02ade1: new; preprint
+- doi-594f18bbcfd35d7c3a2e: new
+- doi-936c7cd319b693e0b198: new; secondary-or-commentary
+- doi-b4e7ab929259c8b4949a: new
+- doi-8998c2882a68c557b84a: new
+- doi-e9a4a0ccc2810176b469: new
+- doi-8075d40a3dbf9ea8d8c3: new; secondary-or-commentary
+- doi-b04aa24d65321d30aa60: new
+- doi-dfa129aa74c30e7fa32d: new
+- doi-420f086c5ac2bbb59fb8: new; secondary-or-commentary
+- doi-e9275480a4a75de02ce3: new
+- doi-0885a8dfe55abcbb47c1: new; secondary-or-commentary
+- doi-049474feff5c905b7e8a: new
+- doi-2d2e81a28e32635c4a8e: new
+- doi-0533404f8a9eb716c9a0: new; secondary-or-commentary
+- doi-3941f39b32ecfa3cba34: new; secondary-or-commentary
+- doi-74aea29e75c4c965a4de: new; secondary-or-commentary
+- doi-0640d27916735bc94710: new
+- doi-86dc24c7a24451e1fc2c: new
+- doi-47ead733a893f9da7d6f: new
+- doi-78cc535a5ef5b2ec3dc3: new; secondary-or-commentary
+- doi-509c4802d0e526cf5888: new; secondary-or-commentary
+- doi-0f01e5c4e9e35c0cc964: new; secondary-or-commentary
+- doi-bca9fffa73187ad2fb7f: new
+- doi-3e79755df246000e8a3c: new
+- doi-943d1f8d789257019680: new; secondary-or-commentary
+- doi-32a4524d30dfdccb460b: new
+- doi-840160b05c1377250bd4: new
+- doi-4d7a79a425f596e360f6: new
+- doi-b912dca9ea0d696cde7b: new
+- doi-af03096d12263d111318: new
+- doi-126ba77fdada4aa2d82a: new
+- doi-5276d97712f45d9ee50c: new
+- doi-0a91022612b153c7d41e: new; secondary-or-commentary
+- doi-f4ee405141c2179293d6: new
+- doi-4398d90dff1b391ca920: new
+- doi-98d64face353281a6ac4: new
+- doi-753c31ca40c0cb5c7dbf: new
+- doi-7a82535b0ba505c3446b: new
+- doi-a8e84e5f94f08ff787b8: new
+- doi-1e7cb9aafab3586128b8: new; secondary-or-commentary
+- doi-30f5917b2ceef71446c0: new
+- doi-f135dbd2b9d6f73e39bf: new; preprint
+- doi-be4a7a3e1ef4e5ec9dca: new
+- doi-111357d86a8735a68ea3: new
+- doi-ecc3dbc8d76698800f0a: new
+- doi-d67bf242c40f2832d0a3: new
+- doi-1ad3e62e00688e0e675f: new
+- doi-3f9b555b96d5351b4632: new
+- doi-2a7a318b63e1f4dbe47d: new
+- doi-58a8a9db72d120a4716c: new
+- doi-8969791ddb14539451de: new; secondary-or-commentary
+- doi-5b135163ac5d273fb06a: new
+- doi-8c4c03198af15de0cb4c: new; secondary-or-commentary
+- agr-ind608694848: new
+- doi-f81a3a2fda1473ded675: new
+- doi-0781b1e307430fedbbb3: new
+- doi-bb66e82aade7a22bab08: new; secondary-or-commentary
+- doi-d7f46ce9292f31f6fa4f: new
+- doi-f336b1f64dd181929703: new
+- doi-030ac2d30f3be0f0d14a: new
+- doi-45f3fff2b6f4cf25a35c: new
+- doi-522e6366a72f3f2baef9: new
+- doi-a89e05ec8df77c4fd3ac: new
+- doi-7490281d2d96a518b823: new; secondary-or-commentary
+- doi-5ec4f29825ef37884806: new
+- doi-72273f955259366f8804: new; secondary-or-commentary
+- doi-18081f28b10bbf1927ea: new
+- med-29489227: new
+- doi-4b77b00cc1d667a5cc80: new; secondary-or-commentary
+- doi-b98a4f994180b8526e77: new; secondary-or-commentary
+- doi-e58bb3ff9a97ffeab1dc: new
+- doi-5f9df3df8f51e52f3380: new
+- doi-0b0943a52fe710871f7a: new
+- doi-0f03dfdfd9b8f2c854d4: new
+- doi-edc6c6ccf672e89b6c36: new
+- doi-c24264a715a47d2bc4eb: new
+- doi-c2c857ca589b73541068: new
+- doi-2dcbe1be75f14b3a1993: new
+- doi-4b5b4bf2c7d11738d72d: new
+- doi-59d63ccd824448323f78: new
+- doi-0835dc91e292bff67dcf: new
+- doi-7712b4a21cb947aac724: new
+- doi-6230ffa4b90c64ab654b: new; secondary-or-commentary
+- doi-063a53900d932e44e91e: new
+- doi-3482f6692cb720867412: new
+- doi-2935718b3b2554393caf: new
+- doi-c394f4d7ab13c101d19e: new
+- doi-bc2787717567ff443b6e: new; secondary-or-commentary
+- doi-f473a43b9ef6fcc76048: new
+- doi-be36d5822bc8e798d10b: new; preprint
+- doi-de6301c573ca2b68ba9d: new
+- doi-7f092f5330f3d4f92b1e: new
+- med-34283444: new
+- med-40698712: new
+- doi-b1d9ec7aebe3f758a9b6: new
+- doi-e6152ee5185e820734b1: new
+- doi-5257eb78131270dd21c8: new
+- doi-b4efc4e3ff28830ddbb3: new
+- doi-5a328adc904244cec24e: new
+- doi-0938ee0d079fb08a8f15: new
+- doi-c03aaa4832c8c894de64: new
+- doi-08ae305a7b5c4b9add2d: new
+- doi-f9d80a4bec6908853fc7: new; preprint
+- doi-777ce67187a237fc592c: new
+- doi-45265091c810b25bdbab: new
+- pmc-pmc8524163: new
+- doi-f07e73498894705661a6: new
+- doi-678b7a8d899b5d372a4a: new
+- doi-5e9d4dc155b59db884c8: new
+- doi-7c6397fb5bed0d5e3fd8: new; secondary-or-commentary
+- doi-2710dbc802ee0cca003d: new; secondary-or-commentary
+- doi-a122166fe9d7bfb43391: new
+- doi-297cd580740978517212: new; secondary-or-commentary
+- doi-9f1b9de8a4b0dc1edd03: new; secondary-or-commentary
+- doi-955a9e64ecb61bdd70c9: new
+- doi-d53d4082e8b7cf2e1d07: new
+- doi-1344fd69b9ee68543628: new
+- doi-41067f84f7c430a1a428: new
+- doi-7854c810ae82306dcd69: new
+- doi-6e6ef796f1d97209d0c7: new
+- doi-046ffe1caa3c2dd14ad0: new
+- doi-413edcd42155f26846cc: new; preprint
+- doi-0bb520b6c1689984bdef: new
+- doi-dc982900c386b0c207c5: new
+- doi-c01e2bc6d16c5cf5ad99: new
+- doi-68894c46aef239e0aa6c: new
+- doi-a810afe59ba707ac5a8e: new
+- doi-0e180485043888f420ed: new
+- doi-33b2fa53776a0a3a29e7: new
+- doi-90c442a1a6bd3e2eef4a: new
+- med-38223970: new; secondary-or-commentary
+- doi-e99e14f8ef86e00eeae7: new
+- doi-5bd2c63972921a462e1e: new; secondary-or-commentary
+- doi-4e55d80eb571997bca71: new
+- doi-528d42fd199bff5c868c: new; secondary-or-commentary
+- doi-55389d812459a4e90eca: new
+- doi-e5b7c043c45a0f3c523e: new
+- doi-324a4b613da2f074434c: new
+- doi-2a1edd06fb7602c930de: new
+- doi-c6f9e166513f0d8c7ece: new
+- doi-1f7bfe189075721eb679: new
+- doi-4da39938e3c94b45c2a2: new
+- doi-355b797ca2c61f5c7b27: new; preprint
+- med-39439333: new
+- doi-b34b660100dc93d39713: new
+- doi-254cb3215f6ed3c53e68: new; secondary-or-commentary
+- doi-04aa7d6124bc78363739: updated; correction, correction-linked
+- doi-b56bcc4fb761e9cb4f1e: new
+- doi-eeb527134c8fa0caf676: new
+- doi-be755fe841291bc0e852: new
+- doi-628dc168bc8e0b689f45: new
+- doi-8a2239d3458251b29dc5: new; secondary-or-commentary
+- doi-cf7bcf5c13e6bd04bcd8: new; preprint
+- doi-64bf39e6c7199aae2f69: new
+- doi-2224f531c7bb2d45cc04: new; secondary-or-commentary
+- doi-9840ca65f9fca05c3e68: new; secondary-or-commentary
+- doi-153981af78b92e925cd9: new; secondary-or-commentary
+- doi-0da20a168bc02def41c6: new
+- doi-b3b45428e8240a48545b: new
+- doi-e0574f14bd5aea949316: new
+- med-37708541: new
+- doi-6e2984b8a7fa7102b876: new
+- doi-ebf4293c330602b52659: new
+- doi-76c44f6432b4e0ef3f7a: new
+- doi-0a5dfb2074ab4befdf2f: new
+- doi-29ddedaa76e09db7da40: new
+- doi-e277310a61ad9e49d75a: new
+- doi-cff314dbe51d87f89456: new; secondary-or-commentary
+- doi-a2c04c3c421b36cfedef: new
+- doi-7a2ff3f45b391911f7cf: new
+- doi-ac088bb240a25b0ddfe2: new
+- doi-1c72e1fd4d160cf1a00c: new
+- doi-edc5cb1f0a14a564500d: new
+- doi-cf53cacdbbd68447df28: new
+- doi-8f52c237333b0420b539: new; secondary-or-commentary
+- doi-218e989ea73b15f776d3: new
+- doi-6e6b0749561b1816873b: new; secondary-or-commentary
+- doi-a8be214b02e10b414544: new
+- doi-5d262c14e8ba17ae8980: new; secondary-or-commentary
+- doi-c348e060a53f023f8d7a: new; secondary-or-commentary
+- doi-46cf599caef0b2f7b658: new
+- doi-ee0464c9599be82b8111: new
+- doi-3f58ae7aac06d1211063: new
+- doi-cb92c64e560861f6af97: new
+- doi-ad6de674e6a2ee9cc046: new; preprint, secondary-or-commentary
+- doi-ea69bba2883936289952: new; secondary-or-commentary
+- doi-ce3b357f8083d6314a68: new; secondary-or-commentary
+- doi-e09a1f4bf31506a6984a: new
+- doi-e48286130a77de9e1bd0: new
+- doi-2fa5c30ba0fb9995aa5f: new; secondary-or-commentary
+- doi-1d65493d3b3154cb1cbf: new
+- doi-4cf2e45ac12a262dd795: new
+- doi-56ae109d725582ad0206: new
+- doi-0fe3e4b83e581bb6eb57: new
+- doi-7c42c45db474cf705d39: new
+- doi-5eb31ed6488df389a328: new; secondary-or-commentary
+- doi-1b1377fe695c7cd0f2a8: new; secondary-or-commentary
+- doi-dab38551fd3e5a83427f: new
+- doi-7c2f6c2b78d8ead66c9e: new
+- doi-b1e21a6b6a304d43a12b: new
+- doi-8cc0c8f7091b581a8499: new; secondary-or-commentary
+- doi-c38d2f39edba1e4ca39e: new
+- doi-80548332b7c955331d05: new; preprint
+- doi-28e9afac29af58c9749b: new; secondary-or-commentary
+- doi-f356b8ceb3a4ef24cc5f: new; secondary-or-commentary
+- doi-3b197fad1f819c319cb7: new; secondary-or-commentary
+- doi-80cd2abec076f588e84d: new; secondary-or-commentary
+- doi-13414d4aef40ad78d2d1: new
+- doi-f3659ff949eb5d4789b7: new
+- doi-ee89f0dd114abda8a68d: new; preprint
+- doi-5893e1000bbda92431a9: new
+- doi-71bcd8dc4a87659e2db4: new
+- doi-7bd539bc98e5c7d3f04a: new; secondary-or-commentary
+- doi-d15602bc5972890c3b7f: new
+- doi-b5806b48c77dfcf1450e: new
+- doi-93e8860b134c6b7932f6: new
+- doi-fc1d1a2b41d8721edb27: new
+- doi-06a91f796f53ef40698a: new; preprint
+- doi-43a4547d61d20835a061: new
+- doi-0c3819a4340d2fb74653: new
+- doi-aea95a079452f960fa66: new
+- doi-23426d00f1063453e92c: new
+- doi-e2cd06d19a4f897f6d8c: new
+- doi-397bdfc5bab4c170c596: new
+- doi-46e9bcd2b3f5954089a8: new
+- doi-90b6d04674c2051495ee: new
+- doi-5325c1d04032ef176d4c: new
+- doi-763aeccca8af0c8ea7c7: new
+- doi-886f27a10ce42e347335: new; secondary-or-commentary
+- doi-b551bce27423f6545826: new
+- doi-e10329cdecd90f47ca8b: new; secondary-or-commentary
+- doi-c843c183b02dce9cc7a8: new; secondary-or-commentary
+- doi-31263238e36aad021c9c: new
+- doi-8bfacb913d84e7553830: new
+- doi-74dd1556f8a894281523: new; secondary-or-commentary
+- doi-f49f95e0b8f678af9ec4: new
+- doi-badb257be25193f77624: new
+- doi-fe490a964c21bc31887b: new
+- doi-53c860211e7ba2a64341: new
+- doi-98e785d523f3677a6d98: new
+- doi-01557ebf2e6ecaa6cf23: new
+- doi-7978121f3fe556dd0f29: new
+- doi-f5bfba885f01a3f39b97: new; secondary-or-commentary
+- doi-fe230886648c3fd294ba: new; secondary-or-commentary
+- doi-a6db9fa72033afdfdea2: new
+- doi-0ec19c8fafaac027b636: new
+- doi-d3d5f6f006c91d7726a7: new
+- doi-a0d3d2177c6c150deec6: new; secondary-or-commentary
+- doi-94cefd9226a4c7a51526: new; secondary-or-commentary
+- doi-5e5ace086602f43f8863: new
+- doi-13a57c40904cda3ba50a: new; secondary-or-commentary
+- doi-85b48550b4fc7ad975a7: new
+- doi-70dbb976e0f104a56d2d: new
+- doi-3897f3f732959cb68dae: new
+- doi-55d925b05251731ad5a5: new
+- doi-e485f3c5024cd75507a4: new
+- doi-d0bc7042786be0e00e52: new
+- doi-0fe63cc6e9ddaab68d19: new
+- doi-d8e39152a19205a61554: new
+- doi-2094bb7169a11077c899: new
+- doi-51648912a9916b89dde1: new; secondary-or-commentary
+- doi-95af7c36da0fad2d6e6f: new
+- doi-19f949183e9f899bbf0f: new
+- med-32809355: new
+- doi-ec33b5394170ce0a072f: new
+- doi-345cdd66058e44d620c6: new; preprint
+- doi-51b7d5b880433a30d497: new
+- doi-d10ae1c1d3ca49b6f279: new
+- doi-bc036b3586d82ded1267: new; secondary-or-commentary
+- doi-7fca7b43e778bd4c2823: new
+- doi-2c27514dd6c77929affe: new
+- doi-a6e81559914b1e5a891a: new
+- doi-75a094397cd6e397e9ce: new
+- doi-1b28750a5151458122c8: new
+- doi-68f4653c2c9f5443ecd7: new; preprint
+- doi-ad5dd0a46fbc2fc8222c: new
+- doi-3ff5a3a769663c2d0e90: new
+- doi-be65958db2b408214a31: new; secondary-or-commentary
+- doi-a9ecb9cae7ae4e083f45: new; preprint
+- doi-8ed8d7dedf15cd6a25cc: new
+- doi-4616297806440ce83ab6: new
+- doi-0aa510c770b8e758e15a: new
+- doi-f4473613e7890d6358f0: new; secondary-or-commentary
+- doi-46bbac22f63aaca9e68d: new; secondary-or-commentary
+- doi-3ed24f08d6e42477154b: new; secondary-or-commentary
+- doi-9ba93b4088820c9ecf6e: new
+- doi-00e58461a181f25aa1c3: new; secondary-or-commentary
+- doi-04ee2e996bf043024599: new
+- doi-48dffcf1aca156c0536a: new
+- doi-380e0d3b65efa0385191: new
+- doi-fad8b413ca1bf3230f37: new
+- doi-281d5d6fa5c622c344a5: new; secondary-or-commentary
+- doi-fe92b20a654b46abb2c3: new
+- doi-546050b441a58f397499: new
+- doi-0a7c35c97f9c9399843f: new
+- doi-bdac80a7461384d0b1ed: new
+- doi-5a2dbe3edac687a305fe: new
+- doi-e339b15956f3d1565a40: new
+- doi-22e7752fbba52690fdc9: new
+- doi-3e9319c1de1c84e6cf79: new
+- doi-92b4445f39f8e786263d: new
+- doi-d053a37f5adcc3a238b1: new; secondary-or-commentary
+- doi-e2f8b463e8f8e8ab4bfa: new
+- doi-cde85d5dc63f3408a777: new
+- doi-afffd1d815e2151ce090: new; secondary-or-commentary
+- doi-aa6f83fec79f1cb7e244: new; secondary-or-commentary
+- pmc-pmc9539020: new
+- doi-855e1d83313e720b8462: new; secondary-or-commentary
+- doi-ec8b5db32ac7eac75c81: new; secondary-or-commentary
+- doi-00399e5f2b1e5cf8c46e: new; secondary-or-commentary
+- doi-7b17e885b024833981fc: new
+- doi-2db2c0636a07a3a59221: new
+- doi-91b5202fd73fd31b8258: new
+- doi-fc187b2cea0c19995a83: updated; correction-linked
+- doi-3bba1f68e21a635e3dda: new
+- doi-42702b20944dfbead410: new
+- doi-ffab473349e26ccbf882: new
+- doi-ce5a35265ec51d538778: new
+- doi-9fe16418ce8a4c1f32c8: new; secondary-or-commentary
+- doi-0149e777a5e7e8d2e29c: new; secondary-or-commentary
+- doi-60003c192f20f224651e: new
+- doi-1e3d7dd872f75a017b07: new
+- doi-019b468651cc2ad295b2: updated; preprint
+- med-31856939: new; secondary-or-commentary
+- doi-0b036c0379219ad8bf2d: new; secondary-or-commentary
+- doi-b6e36bfa970fbdb9218d: new
+- doi-556210acbbe43903b2ba: new; secondary-or-commentary
+- doi-f6d22d3f1bc611fcd139: new
+- doi-e0cdc59c9c7127a5f8b3: new
+- doi-160f1506b69cde442b5d: new; secondary-or-commentary
+- doi-cf3b659e7b6cfec35e58: new; secondary-or-commentary
+- doi-d9023f594660e09f5f39: new
+- doi-e4d2bc4fbbcc4cd18969: new
+- doi-810c13c1e72977908c55: new; secondary-or-commentary
+- med-35279058: new
+- doi-2956b7cb40e73c2c074b: new; preprint
+- doi-f167ba772f8f7ae0dec6: new
+- doi-ffaf77447503cff0017b: new
+- doi-fd219400f9f59d23c826: new; secondary-or-commentary
+- doi-78e97bf214b405d85069: new
+- doi-5902abccedd6a3fc9391: new; secondary-or-commentary
+- doi-3424794c693f09c517ac: new
+- doi-c45b576c5d8dd2b7b3d6: new
+- doi-20cb2321beb298f47a72: new
+- doi-77e2826cf573f27a082c: new
+- doi-9ef267c24698fbd331de: new; secondary-or-commentary
+- doi-d491321e0f681fcb4276: new
+- doi-b213f7a8c68b2de6764d: new; preprint
+- doi-32835d8804e743b1dc74: new
+- doi-b472d287d8b4520c4c49: new
+- doi-4d9d3732bb575f18eee1: new
+- doi-bac7d2544afe749c9da1: new
+- doi-4c32efb30b13d4528a73: new
+- doi-f104fe0ec7081fbd2158: new
+- doi-874661bd29b5b4881c39: new
+- doi-acef8e0951a9d377ddd8: new; secondary-or-commentary
+- doi-a4d058e8ffa43da95c7c: new
+- doi-08aa3e1ad9138d577f58: new
+- doi-fe9ce947f936cc1ecf61: new; preprint
+- doi-7a036e8478b9645f6e53: new
+- doi-a1aa2590b6981aceb510: new
+- doi-481cd76124e4df21c5ca: new
+- doi-64da1e87c7aaddff9d74: new; secondary-or-commentary
+- doi-923e09dce975a8d964a2: new
+- doi-8e7303eccf2a4bce96fd: new; secondary-or-commentary
+- doi-0978c10db1fc876968bd: new
+- doi-f3e9ce1e879a36f618e3: new; secondary-or-commentary
+- doi-857df6cceb87cdc332ac: new
+- doi-71327e6246a17a46ee1e: new
+- doi-e007562aadc9f53ad09d: new
+- doi-4c10a24277a274844d5c: new
+- doi-a3f921a16e9aebe38e7e: new; secondary-or-commentary
+- doi-c37507dda6c48167934a: new; secondary-or-commentary
+- doi-cfd7f7a053f802c51b4d: new; secondary-or-commentary
+- doi-05de00794e965c564882: new
+- doi-f5fefb690fe0d26793e1: new; secondary-or-commentary
+- doi-dd3482e7c61f8ea1b39f: new
+- doi-0bc00292e607dc63ebe0: new
+- doi-41434f4252a9fac30aff: new
+- doi-7e25e8196c5ad19d604f: new; preprint
+- doi-5a32fb61c094bb67ab44: new
+- doi-61b22fbed2effbdba2d3: new
+- doi-e528bf7dc2904b0a8c12: new
+- doi-ad88d250ba923a0f2268: new
+- doi-161784d2ec2da25a3ea4: new
+- doi-8a2cea4aa8ca9eebafe3: new; secondary-or-commentary
+- doi-d381d9e17f0d46399890: new; secondary-or-commentary
+- doi-ec74c43365a0704c9c18: new
+- doi-391d72e82aa28d53258c: new
+- doi-e234a79ca7dfbaa5418c: new; secondary-or-commentary
+- doi-eeca16a6e1cb3c324dee: new
+- doi-9e05a958c5b52051dd57: new
+- doi-ed0424a733aef54bd7e7: new
+- doi-004c0935c9738124e218: new; secondary-or-commentary
+- doi-448d10e41e45a1c6dad1: new; secondary-or-commentary
+- doi-e2f611b68f8842de578d: new
+- doi-806f36479f65c9abf1dc: new
+- doi-4679fe197bad213efeef: new; secondary-or-commentary
+- doi-dd20c654b16c2ba51159: new
+- doi-87d85501ab7be8de2d85: new
+- doi-3874197b4221bf9bf7db: new
+- doi-bebd071750c06d9d7cd7: new
+- doi-fcc4fcc03deaa11084c1: new; secondary-or-commentary
+- doi-a0cfeeed9f264ababb7e: new
+- doi-02dfd197d79730bc7e73: new
+- doi-866af073b47a001123fc: new
+- doi-3497a711e192c9b91657: new
+- doi-dc8286821954a1e0c5c7: new
+- doi-ad2df3aae30fdf082a0f: new; secondary-or-commentary
+- doi-a0555baad64c3160e620: new; secondary-or-commentary
+- doi-0eed35fca9d6fe492fbe: new
+- doi-ff40810540840d79da09: new
+- doi-6d551c6d0b995fa953fe: new
+- doi-4e6e1f951568494cb02d: new
+- doi-b358b64f39c6c4a3b789: new
+- doi-b446bb9cc555cdc290fd: new
+- doi-72f95518c2106d2fc5a6: new
+- doi-7447e00f0052b1b2a0a1: new
+- doi-3963d6fe68eec9988c7b: new
+- doi-844fcc8c3417c48e711b: new
+- doi-bf8254896409a2a6648f: new
+- doi-6c85c94ae268766490ee: new
+- doi-d72b86d7be322f360131: new
+- doi-95dd0c135d430cdf0cd1: new
+- doi-122b10927f20b56ea632: new; preprint
+- doi-506183a211be16923f56: new; secondary-or-commentary
+- doi-f3f838a5dd3d45a3cc02: new
+- doi-6d0b39367be1ac1cd036: new
+- doi-7cbf1e5d04c1864047ee: new
+- doi-f8ee0c3ad60645028b0b: new; secondary-or-commentary
+- doi-5342add69ee8373882bd: new
+- doi-edeb42c83f6a52c279c0: new; preprint
+- doi-3a174843bf6aee1b97c2: new; secondary-or-commentary
+- doi-d4291e839d4392877160: new; secondary-or-commentary
+- doi-7178d4144efc4789fa56: new; secondary-or-commentary
+- doi-aef353570691018d0f13: new
+- doi-ae94b5c3f874185da9c2: new; preprint
+- doi-b05fa2982b09b612ddc3: new
+- doi-959ee87a26a864b793bb: new; secondary-or-commentary
+- doi-1011f2fad488a7b3677a: new; secondary-or-commentary
+- doi-d4185d92bdd3c257f872: new; secondary-or-commentary
+- doi-f4e8f1d17b97e6179ac3: new
+- doi-58fc67634dc442557bbd: new
+- doi-8a0bfc9d8b934fccf53c: new; secondary-or-commentary
+- doi-2acf2101f1e26446f37c: new
+- doi-17b820ee1ca749c22b96: new
+- doi-a42177fc28d8889b58a2: new
+- doi-738fc208645c54f6ba86: new; secondary-or-commentary
+- doi-2160a1f0b00cb0891934: new
+- med-32644335: new
+- doi-57547e87a97bfdb47898: new; secondary-or-commentary
+- doi-f802e0869bae916b5b4e: new
+- doi-96b7fa53ddd96eeae728: new
+- doi-2c4f4fdc0e7eb03319d2: new
+- doi-0c39385fb5fb44ca1bdc: new; secondary-or-commentary
+- doi-be430596a017ed0725b5: new
+- doi-a46572b8a060f8948be3: new
+- doi-fdc950792f16e8ddbfc8: new
+- doi-b06611165fb600a7c1b2: new; preprint
+- doi-609b116e632d556f41cc: new
+- doi-2510b340a3d149358dc1: new; secondary-or-commentary
+- doi-592a1386dc58c5d4db24: new
+- doi-a74ed899caa481d08af1: new
+- doi-ee42dba2ee29949aae27: new
+- doi-43371d1b121889c0aa79: new; secondary-or-commentary
+- doi-b63f5dc4760d90fc6a99: new
+- doi-2a504ea4dc3f5fbf67bc: new; secondary-or-commentary
+- doi-bc1422d886edc053b694: new; secondary-or-commentary
+- doi-50a55fa093c20fe24344: new
+- doi-3d36ca7991dc1ef5d9a3: new
+- doi-c21b4c233475f2c7906d: new
+- doi-a62c32daab2583b3c962: new; secondary-or-commentary
+- doi-e6e5d2ffe1528b93c61e: new
+- doi-cb044bbc8a3a2260cc1b: new; secondary-or-commentary
+- doi-8035d1f740a3e022dc85: new
+- doi-e8ea1fc12cb6797da2ac: new
+- doi-4b59d77aeafb631e2d17: new; secondary-or-commentary
+- doi-7130fc1a08d0dddd2f60: new
+- doi-f17c677918a0c97d4063: new
+- doi-406a5c3d21b197cbf053: new; secondary-or-commentary
+- doi-0621db9326ff99c16937: new
+- doi-e12b183c46daebfc151d: new; secondary-or-commentary
+- doi-bb764d52425f0037c2e9: new
+- doi-f4c05f1ff5b3716d3fe2: new
+- doi-96e98375b6d01a29dd9d: new; secondary-or-commentary
+- doi-fded8b6b07039f8df5a4: new
+- doi-79ffc8168e57e7946a8b: new
+- doi-0773207316dd1362105c: new; secondary-or-commentary
+- doi-cb2c51f88c0fb03a3f19: new; preprint
+- doi-88338516c09aecf088d4: new
+- doi-929e1fec356af8ec7c2e: new
+- doi-edf8cdd50e425c73af07: new
+- doi-134eadb37f9614e5a40d: new
+- doi-4f04415e71b749bdb554: new
+- doi-fc45875e44b91509217b: new; secondary-or-commentary
+- doi-8937f93da27540a0fda5: new; secondary-or-commentary
+- doi-bef7be84cd25cf4e14f2: new; secondary-or-commentary
+- doi-dff94d5e0145deef3491: new
+- doi-d6344ba353d27aa56c86: new
+- doi-a30135c65cd4731b10e0: new
+- doi-55f366b757da700be7b2: new
+- doi-f7baf4997ea21c0c571a: new
+- pmc-pmc8832444: new
+- doi-e8068d3ab55e2c8ceb8b: new
+- doi-12299ff9c3e6cfd91565: new
+- doi-7ebb29b8400aa561027a: new
+- doi-529750de720f5e367716: new
+- doi-cf248b1d13fb08e8d888: new
+- doi-ff13a906aaf4064ae37e: new
+- doi-1dfa0cc3e0294b3e3a0d: new
+- doi-571821a021626260b864: new
+- doi-e10aa7490106ddb552a1: new; secondary-or-commentary
+- doi-af654359f162a0222d81: new
+- doi-3732c1bef65e68d4f49a: new
+- doi-2067eea2f5acc39954cf: new
+- doi-3fafd0996370ad9cee51: new
+- doi-fc29a56f2cbf22bd37df: new
+- doi-e2cc9bd2b02bba21dc04: new
+- doi-c23d33af619886cfbabb: new
+- doi-5caefc143c2eff554802: new; secondary-or-commentary
+- doi-90d4c1203f634ff204e3: new
+- doi-03dfb7dec4d6424ffaef: new
+- doi-a9b9ad8d42feb0a78581: new
+- doi-ce2ee43e8f54647e55c9: new
+- doi-e785a49cc3aad871ecaf: new
+- doi-0e9ccd34b79672ef0bd5: new
+- doi-c89081f1b7f5bc574d50: new; secondary-or-commentary
+- doi-d8aaef60caa7e4714f64: new
+- doi-4598096baa45dd233d4e: new
+- doi-ce95b96a3f1aad51b3af: new; secondary-or-commentary
+- doi-fcf0efe6fdad3b15bb4e: new; secondary-or-commentary
+- doi-ff02928a768c42132113: new
+- doi-5fd74508e93df016e720: new
+- doi-3e24e24b43640d8ee240: new; secondary-or-commentary
+- doi-915cb61be59f7d881e53: new
+- doi-035ed137e76b1a4ecf76: new
+- doi-732136d8a24cf7690620: new
+- doi-3ac4510d61f083d5e009: new
+- doi-998f0e1093fe56d6078b: new; secondary-or-commentary
+- doi-697c63074894eb51824b: new
+- doi-3dd1e3fb9337ce6aefa8: new
+- doi-1f16458f0fc6d966f271: new; preprint
+- doi-9dc213350753511687de: new
+- doi-41910fdd17dcd9542ecd: new
+- doi-828180a291d4564f63a8: new; secondary-or-commentary
+- doi-a186a1bfec85971502db: new
+- doi-3564c37555f8f99d515b: new
+- doi-6ce3db2ed1fb3029067b: new
+- doi-a966ec12b5946bb300a8: new; secondary-or-commentary
+- doi-e4f42c866c7272b10c31: new; secondary-or-commentary
+- doi-6ae3d568b655f0d92d96: new
+- doi-e75dac685430ab7d18b2: new; secondary-or-commentary
+- doi-8de886d937f4fd5a17a7: new
+- doi-8a9184cca36c913fa96f: new; secondary-or-commentary
+- doi-c98113aaa9f4e9c7d940: new
+- doi-ab7088f7423f1fdbb0dd: new; secondary-or-commentary
+- doi-026de800aea5f5c24622: new; secondary-or-commentary
+- doi-e05751828714498927b5: new
+- doi-8716d4588b205e89cc11: new
+- doi-164eb3ce452d808b6f5d: new; secondary-or-commentary
+- doi-250510c1f1dd540f1192: new; secondary-or-commentary
+- doi-c3acf31fef5f43adfa14: new
+- doi-2a91276d036e4e714676: new; secondary-or-commentary
+- doi-66f18117b0420007a227: new; secondary-or-commentary
+- doi-14bfd669dad53d9fc543: new
+- doi-cfb1ccf785518ab7bfe6: new
+- doi-a4878af74f9ccd5df9c2: new
+- med-36315212: new
+- doi-9f762303613ab8735753: new; secondary-or-commentary
+- doi-42af09267a80c27f6ca8: new
+- doi-d284522d70dad5b43660: new
+- doi-d6255566211425a72164: new
+- doi-fdf80b6ea2bfd6da1528: new
+- doi-c537c0c3ce4b3963faaf: new; secondary-or-commentary
+- doi-f061c52e92d995460116: new
+- doi-791954a9d1a65ea8dbfb: new
+- doi-122bbf6591acef772fdd: updated; correction, correction-linked
+- doi-50883e7fde5535be7f6c: new
+- doi-5e643a1f6039e5377d85: new
+- doi-44f1e0a6ab02e42c9e4b: new
+- doi-27a27bcaecc6b671fcbb: new; secondary-or-commentary
+- doi-c38ccd759c818254dc35: new
+- doi-289a63b30c2e54669c05: new
+- doi-22791fabf5ceb78a43bb: new
+- doi-79c6724206e236d07d0f: new; secondary-or-commentary
+- doi-f482696842a27fa91241: new
+- doi-44de646f5b16796514f6: new
+- doi-24ee6b10de3fe5d32734: new
+- doi-52e0927c5545d2e2d95f: new
+- doi-21dc4bdca88dff3c6a94: new
+- doi-81008d309e57a2c120ab: new
+- doi-accc61a6a9536b4040ba: new
+- doi-b522098d603574c99df4: new; preprint
+- doi-a333161cc4dcac5b3372: new; secondary-or-commentary
+- doi-3448ffb4e6d08a68b3dc: new
+- doi-47125c1b7807584c8cbe: new
+- doi-2eeb832e8e41bc24b739: new
+- doi-90e3eaeb2956c0fc8005: new
+- med-35124918: new
+- doi-88b955f2e91589111e0e: new
+- doi-1474702b44569df6c1b4: new
+- doi-65074d07d1ff1e37c5c1: new; secondary-or-commentary
+- doi-a473dadf5040e9178f61: new
+- doi-e534197696ee3a396bb1: new
+- doi-57c65923261aa0436e86: new
+- doi-6f6d7fd457cae8f8ccb2: new
+- doi-e94d6b21269caa3c801d: new
+- doi-579bbc5d7c4844c02f08: new
+- doi-96cf4d075fc553c1ae8d: new
+- doi-1ba324278f774d2a5e40: new
+- doi-a42c6b1663dbe85791fe: new
+- doi-6a1466e95ba3d959b09b: new
+- doi-9de74b8099065f7c1a28: new
+- doi-604948842a04bcb8e9c8: new
+- doi-92c2798f1ff97100ac37: new; secondary-or-commentary
+- doi-4383e8865e347f926973: new
+- doi-a706ac602864b274dd22: new
+- doi-3844a292e6505543d188: new
+- med-36315211: new
+- doi-8c5fedb337a88ec52d3c: new
+- doi-d4eb7817e6b56d6a7b5a: new
+- doi-d8e8c617f87bac357e54: new; preprint
+- doi-33ad969a6b53ad94e5f7: new
+- doi-b40cc9e5a2f13dd6afc5: new
+- doi-27393da5004b9dfcf009: new
+- doi-cfe9911e5932f4dadb34: new
+- pmc-pmc7607343: new
+- doi-9bdb7baa7342a8ca8003: new; secondary-or-commentary
+- doi-1af3af033ef99c21eb38: new
+- doi-d0837a0b8967725ad485: new
+- doi-b0488bcbe2562e959aee: new
+- doi-24afc6498faf26eec77e: new
+- doi-ab1d7eab6ec6db663791: new
+- doi-c9faa778c81e9a84c225: new
+- doi-e2ab621f36f676686a15: new
+- doi-8f44e328cc3674a865cc: updated; correction-linked
+- doi-499041286f782c43a4e6: new
+- doi-e2b7f47d4931d3d9178d: new
+- doi-c984013c825659946d27: new
+- doi-98010c4db9a1a7732b78: new
+- doi-982affd23d3b485950d3: new
+- pmc-pmc8832427: new
+- doi-e4d604d17d8d1593dcb6: new
+- doi-b8264e750aa2992f3b18: new; secondary-or-commentary
+- doi-3aeac1c34e52128d24b2: new; secondary-or-commentary
+- doi-2b1ebafccde05b09f6aa: new
+- doi-df16ff5c7589548a2356: new; secondary-or-commentary
+- doi-538783ae2be8f8d9fe4c: new; preprint
+- doi-8f3c642d6346a1381beb: new
+- doi-3373f1935bfc70d39d7e: new
+- pmc-pmc9646439: new
+- doi-180648e9080020011b41: new
+- doi-2c7cfa22abd77d4171bc: new
+- doi-cf857d3917d25fe5522a: new
+- doi-e1710123e141208e1c58: new
+- doi-1cac6fc26ed168324d64: new
+- doi-b2672e368476b6e86761: new
+- doi-d913da0a61f35159394e: new
+- doi-270a4a26fc1cfec8b92a: new
+- doi-6cc271fc3293eab2a7b2: new
+- doi-05621e8616b4838ea49b: new; secondary-or-commentary
+- doi-bb77ed543cd390512bcb: new
+- doi-086c134a033bb1f098af: new
+- med-30586267: new
+- doi-3aef3b7dc8b78c1e6f7a: new
+- doi-a0bab0ba6b67d24bf02d: new
+- doi-8ef777e2c0f861d6ba3c: new
+- doi-ea75d6c8e9d5bd74c681: new
+- doi-d9ae05083fabfb7fef98: new
+- doi-0efb6134be6fa9478705: new; secondary-or-commentary
+- doi-55746fb92329b2bc67ee: new
+- doi-f910ee3986089331bde7: new; secondary-or-commentary
+- doi-338436600780d471f386: new
+- doi-3ecc0ad43dd55244d155: new; secondary-or-commentary
+- doi-48ef41a3e520e0ae48f6: new
+- doi-b03c6bfffb417b3cb93a: new
+- doi-0ee1275e611dd5b45638: new
+- doi-1cb31c2046c2e7981769: new; secondary-or-commentary
+- doi-f9e64ead8b74be2521d0: new
+- doi-0cadfdae093880934f78: new
+- doi-7a39146d38e0868f3c43: new
+- doi-81425c35a3a698c7405d: new
+- doi-e65d5dbc8a1ca5221dd9: new; secondary-or-commentary
+- doi-e25e8b5bbc0363cd1fb7: new
+- doi-ac239765ae21c6f828ed: new
+- doi-9a87980fdf243c9b9ace: new
+- doi-0c5d1f36de50d0d01ceb: new
+- doi-c069e489db791598db19: new
+- doi-85db01d38c098a6b5d2b: new
+- doi-a5ede6b79dffa192ec6f: new; secondary-or-commentary
+- doi-2db32a117081fd31134b: new
+- doi-ab0f4b5455f700686291: new
+- doi-c047e053cf109fdbd18e: new; secondary-or-commentary
+- doi-9f78be2f57afa63544ef: new; secondary-or-commentary
+- doi-9120bd4914b4c0604260: new
+- doi-d4ff293e44663e586c5e: new; preprint
+- doi-93b2c78500442cd47946: new
+- doi-fe96f7d0f0b939c2637c: new
+- doi-9d98742b6c72f8fd9aa8: new
+- doi-d8dcae600bdd085cf283: new
+- doi-5df8dc54131be67547da: new
+- doi-82c6b044e8b454232c55: new
+- doi-8f90ac20de8d08d00cb2: new
+- doi-190a1b890c2e98fb4b0d: new
+- doi-f67052d126e6c0602609: new; secondary-or-commentary
+- doi-3d119dc74afeca259b8a: new
+- doi-8df2d3d51b89320bdd5d: new
+- doi-e9f119434ccee35b167d: new; secondary-or-commentary
+- doi-ea76f49204e281b092b4: new
+- doi-61dda45e5645c1e4d2b5: new; retracted
+- doi-9c954432fbc2047f90bb: new
+- doi-1d97ff4123e52112f398: new
+- doi-06d469591edabe266d8d: new
+- doi-f2448b38fed57d0e4097: new; secondary-or-commentary
+- doi-c4c517df1aa98106b729: new
+- doi-b8b10f29a913555331f4: new
+- doi-7ed80e8f6d3eae6b6fed: new
+- doi-7c0c98cf0aae80a7a889: new; secondary-or-commentary
+- pmc-pmc8832414: new
+- doi-a8b6c96283f2e095bd05: new
+- doi-f3ab5c9c5bdb060d45c5: new
+- doi-ad5ccd62bfb2068fe0a2: new; secondary-or-commentary
+- doi-887e671862d06273e6ac: new
+- doi-23d6d57c234c6dd54d24: new
+- doi-46eb4daf376631abd6b5: new
+- doi-86aa877316f505cd0395: new
+- doi-9f33bd893439d1699d80: new
+- med-36436039: new
+- doi-74285cfb40bdc8fc965e: new; preprint
+- doi-9710a893b644d29fd288: new
+- doi-8cbe93e15833a63f1c45: new
+- doi-5c695c22ce2683416b8f: new
+- doi-fa6bd91be99aac6de313: new; secondary-or-commentary
+- doi-441eb5fda15d229269b4: new
+- doi-9a486d9c61bafce4b419: new
+- doi-00d54a4aae7002fb6a41: new
+- doi-ac107254a8b4fa24fde8: new
+- doi-b747d5a80b16b6c4a79c: new; secondary-or-commentary
+- doi-db59294a869f7405ca8e: new; secondary-or-commentary
+- doi-ed58cda514948653215e: new
+- doi-d3f691bff001fa2c3f29: new
+- doi-e7997fc4ca99bba27de3: new
+- doi-ebba52be5b63cadf86b8: new
+- doi-a6985648aca0ad19f063: new
+- doi-14952f97ec1d4ca50e96: new
+- doi-7e52b890fc165e000191: new
+- doi-af91bdc4b5dc188ed4f4: new; secondary-or-commentary
+- doi-9d01ea3fe42adb46e023: new
+- doi-ae926bd31045174f0d35: new
+- doi-a6896a4620bf99011b6f: new
+- doi-e8afcc59269d33885d1a: new
+- doi-78d873488aeb132cf517: new
+- doi-b826b2268643e3c26548: new
+- doi-b85023aa7a121fa9b48e: new
+- doi-3757a62a9c21c4933a50: new
+- doi-6929a440693089d36ccb: new; secondary-or-commentary
+- doi-33e2fad261970129bc1a: new
+- doi-411e57b2754d627e18d2: new
+- doi-0b2bae0cdcea66056d13: new; secondary-or-commentary
+- doi-a2e01915df12657aefb0: new; secondary-or-commentary
+- doi-77cd36a48becc18be77b: new
+- doi-fdc11eb4002a46d6cdf8: new; secondary-or-commentary
+- doi-feef01482f7de5d92cfd: new; secondary-or-commentary
+- doi-78a0547aea6f8c98283e: new
+- doi-2c4fb6141f00e33ae680: new; secondary-or-commentary
+- doi-2b75033419c338392051: new
+- doi-1856da526b876e1bf9cf: new
+- doi-ffc707919186bf83a920: new
+- med-31619852: new
+- doi-49fded7d5e7b8b6c5654: new
+- doi-ed7fc8abcbf476af1763: new
+- doi-93671a9b3bf85066b2f9: new; secondary-or-commentary
+- doi-9413d126fb55fe7dc03f: new; secondary-or-commentary
+- doi-a9a43f08be36f45a59a5: new; secondary-or-commentary
+- doi-78346eb2fa515c52726f: new
+- doi-abdb6529bb46d72a988a: new
+- doi-8789d3e08a33e25aefb8: new
+- doi-e0412847c006296d7a49: new
+- doi-f1dcccc8903a9681e032: new
+- doi-1d7f143ce124b8c704cb: new
+- doi-e98168b7773d1106c704: new
+- doi-1f90a0237d61fb461670: new
+- doi-633e15827f9e9f742501: new
+- doi-8fd111985f4a389d7f54: new
+- doi-f115cf1b864913768824: new
+- doi-6488004684823e2f7892: new
+- doi-eff1652aa69581a97b33: new
+- doi-84fb84d2456c0312a8e8: new
+- doi-265199bfa85db63843b4: new
+- doi-ae700bf5fc2634e98d89: new
+- doi-56c151ce6eafa8d2dfe6: new
+- doi-5d601b5f72811f77c367: new
+- doi-fba42e61b4dcc9d3a6b5: new
+- doi-1d45e5b562962087b3e0: new
+- doi-76f3c6cec8f4c1280f16: new; secondary-or-commentary
+- doi-90f8c2df6c8a42e487fd: new
+- doi-d1f1d724ed3876b261ac: new
+- doi-a5c299170511a5a4739d: new
+- doi-e7eb2ceb536ff941f9c8: new
+- doi-5fea8b8784344021deea: new
+- doi-c2395b5275cebc3855c9: new
+- doi-6aa23220ee7e310a4720: new
+- doi-5daaa0a1c436bd9b335a: new
+- doi-51d98db7f0c96c59296a: new
+- doi-985ac3b3794219c3cef1: new
+- doi-7061d0a6b58af81e5a88: new
+- doi-a9213b56197a5573c6e2: new; secondary-or-commentary
+- doi-7fef84c1d707d977e2e5: new; secondary-or-commentary
+- doi-633c211be908b5e13fff: new
+- doi-697ce1964ba02b2d5e1a: new
+- doi-1a8f0aacf0cda517c522: new; secondary-or-commentary
+- doi-907b19693f46e3fdbbba: new
+- doi-34343a64d3119f562d77: new; preprint
+- doi-e30294b7d0136634b966: new
+- doi-70d03e25b95b289c6d54: new
+- doi-3872f8c46ff7d514a00e: new
+- doi-61fd614276486ab17e1b: new; secondary-or-commentary
+- doi-c4e8f5f56acf9492494e: new
+- doi-244346b62978a6453fd0: new
+- doi-2dda27b32643ddf1e653: new
+- doi-7e12de315ffccabe2551: new
+- doi-558a8091fda827c08648: new
+- med-26487500: new; secondary-or-commentary
+- doi-ac5f91fd6497bef45a44: new; secondary-or-commentary
+- pmc-pmc8524162: new
+- doi-877829f8a67c53b0afb8: new
+- doi-03b1b554d4bd554c0c85: new
+- doi-de40e882bbcc534828cb: new
+- doi-8d6d258db4d9090a9da1: new; secondary-or-commentary
+- doi-9053222be4cb8399098d: new
+- doi-c04ae4764391a1c4b110: new
+- doi-87e99da115eb00fc44b3: new
+- doi-516ca7c6a150d1fc8960: new
+- doi-fd5d4662267975304852: new; secondary-or-commentary
+- doi-63a98b9f0336e6996018: new
+- doi-566ce34370f2060de3d5: new
+- doi-d073ea354a7b306845c7: new; secondary-or-commentary
+- doi-befe0509ff7934d171d3: new
+- doi-b292cba801ce445fe73f: new; secondary-or-commentary
+- doi-7781a8348d2b6741b459: new
+- doi-6f423ef460323c74aedc: new
+- doi-0c078b213d5cd11857ad: new; secondary-or-commentary
+- doi-0133e56f9a7e3f81ae89: new
+- doi-52e312e1296df4a22a14: new; secondary-or-commentary
+- doi-ea738968d3ff37b800bf: new
+- doi-309e57c1af7d6df1765b: new
+- doi-49814adf749a758e145f: new
+- doi-0f9291c5e5e29a04eb45: new
+- doi-919a4dfd7c46d17d8fdd: new
+- doi-c7fd5544f7bf3a9c5b04: new
+- doi-2fbc68009c4e07d2cfcd: new; secondary-or-commentary
+- doi-f89cd00f768260ea11e8: new
+- doi-7095b4fca813b33bc2c8: new
+- doi-1f1e4b2514b9c8e6f758: new
+- doi-ef8f8da76f6ff131ef23: new
+- med-30582516: new; secondary-or-commentary
+- doi-9c51eef6d44e7fd685ba: new
+- doi-65604114034995499516: new; secondary-or-commentary
+- doi-cefd989aae6921344468: new; secondary-or-commentary
+- pmc-pmc6652640: new
+- doi-b102d69887bc8eca4b94: new; secondary-or-commentary
+- doi-7b1da2dcb051c1dcc83c: new; secondary-or-commentary
+- doi-742e163fa439e2b9e79b: new
+- pmc-pmc9539029: new
+- doi-6a83843462b8d3cc8d17: new; preprint
+- doi-6091c35e95e36c0edc16: new
+- doi-9ede59a18ef2098a4682: new
+- doi-d3a191ba99287bbe0229: new; secondary-or-commentary
+- doi-2636ccf4ea71dd572b94: new; secondary-or-commentary
+- doi-560eccc1e5459fed09a1: new
+- doi-7372de29f39f8b95ba81: new
+- doi-11f9210d84be9bb2ecd5: new; secondary-or-commentary
+- doi-6e82eb23eb71368f8dda: new
+- doi-5f5f5b2f815f794c21d3: new
+- doi-77c9b2e50bc2253db2f4: new; secondary-or-commentary
+- doi-f08bd4217801c397a6e9: new
+- doi-ae8ffe8346178efdd0b0: new
+- doi-804bebca828c62c37c2d: new
+- doi-96c1d20e53e83be70a83: new; secondary-or-commentary
+- doi-5947701b701031611cec: new
+- doi-29dd315299c22a2ffa08: new; secondary-or-commentary
+- doi-3ad8cb043a6517b983e9: new
+- doi-dc01e44f9492196a9ce3: new
+- doi-0a08a6f0086fef62cea4: new
+- doi-f54d95d9ab9877b92bb7: new
+- doi-ce0a3db22abce836ab75: new
+- doi-b67c79bb57334ea7906f: new
+- doi-d75b1949db167dda1c04: new
+- doi-b57831fc17ae25a28af6: new
+- doi-21706633f0228fc39da2: new
+- doi-406bfdca78c440c7ffae: new; secondary-or-commentary
+- doi-8b22b1a3e8117265a42b: new; secondary-or-commentary
+- doi-e3ad075a04a4b12e918e: new
+- doi-9b810c0e76a5b3d48de8: new; secondary-or-commentary
+- doi-613cdbd7b2da110494bf: new; secondary-or-commentary
+- doi-94196397e8deba585ea9: new
+- doi-c167a54b4c22658940d6: new
+- doi-ccdad177bd00e96b6f87: new; secondary-or-commentary
+- med-30582503: new
+- doi-687cb7b3e199c91d3a80: new
+- doi-9fbdac19c8a670df5b4e: new; secondary-or-commentary
+- doi-b24e5fdab7716d42654a: new
+- doi-a5754b075ef40e39f7f3: new
+- doi-f29caaef08dd3823f4c7: new
+- doi-a43964f7b31d8b218066: new
+- doi-e8422b7aa319df1ab5cf: new
+- doi-59a5049b6fd4bc998703: new
+- doi-5aa99f1e003ed3b5f0ca: new; secondary-or-commentary
+- doi-98177cc866c6c6d7f32b: new; secondary-or-commentary
+- doi-64b37a81edcb88646905: new
+- doi-d17a9287e3ef98959a3c: new
+- doi-5eeb828cabed0d03a293: new; secondary-or-commentary
+- doi-a6ba22bcc5f611401903: new
+- doi-628138c65ca76e4cc558: new
+- doi-b78c1c68029d658c80ed: new
+- doi-6d804e946f0893d7bfe6: new
+- doi-eb08b0bf345fedea444f: new
+- doi-70c7e580b041da4d56fe: new
+- doi-5bf519efda74727e9a3c: new
+- doi-1edb40359d905662ffe3: new
+- doi-729b7189727acfe1211b: new
+- doi-001b101334696db7968d: new
+- doi-2c3f9e2583827f0f8692: new
+- doi-78bfbdfbe11e619964dd: new
+- doi-b870bb7ce0432ba52b33: new
+- doi-43ec9564fbd3f107002c: new; secondary-or-commentary
+- doi-edd7e89f98e0a90bc7ad: new
+- doi-0b2d2a63a5f39fa51012: new; preprint
+- doi-ac5cc3e421ce276b19e3: new
+- doi-dcdc6e382262ec927f93: new
+- doi-febbd74b4f5f329915de: new
+- doi-ba4d60ce1faf94b93bea: new
+- doi-979963c2417c9789ffd3: new
+- doi-e17f0605899adcc89f79: new
+- doi-fc5fbe79fa6bbdcf672a: new
+- doi-b8a6d8165df58cdc80d2: new
+- doi-6cea1ae807bc3f2e1edf: new
+- doi-02aa431cf3b03d600728: new
+- doi-3fdde7016d03ad8a0373: new
+- doi-7fe79a411bb45d9e6004: new; secondary-or-commentary
+- doi-e062c0fb50cae6e9ab25: new; secondary-or-commentary
+- doi-6fe1b9e5239ae0e41418: new
+- doi-db65aeccc35ee07d6909: new
+- doi-30d333dcbf7ffae1d9f8: new
+- doi-cdf07955834e099349b6: new
+- doi-fdafaceeef955500000d: new
+- pmc-pmc8689781: new
+- doi-9bc09cef79394a53b076: new; secondary-or-commentary
+- doi-f18a3dc4700a6d48357b: new
+- med-31856938: new; secondary-or-commentary
+- doi-2634f7824b5b88aee075: new; secondary-or-commentary
+- doi-14e726c334e235d8a63b: new
+- doi-814a17118864fca06047: new
+- doi-d87e63b1394c10a66593: new
+- doi-468411768d920de2eda2: new
+- doi-eab27647f1ed30a9b797: new; preprint
+- doi-eaa2b38b9e0f76110c3f: new
+- doi-7882a55f126a441a486e: new
+- doi-c8b935b98725905282ab: new
+- doi-0a91dbc9643068d72fc8: new
+- doi-86dd6c75dc886319fbf5: new
+- doi-8424eede1641a949f5ff: new; secondary-or-commentary
+- doi-080aca2d9894ba3f3d51: new
+- doi-9a341cd5d79f52a47c62: new
+- doi-783a0f3d858b3aecb79a: new
+- doi-2c43f705d9f0cf932b7b: new
+- doi-2a8b336a70a5b2a31659: new
+- doi-974955baa0df7b23303f: new; secondary-or-commentary
+- doi-d42ca70dea963cf9e32f: new; secondary-or-commentary
+- doi-2b0b6b5a67e430b264b2: new
+- doi-6d7b0170f30a024042c2: new; preprint
+- med-31856941: new
+- doi-b98e3fd9b197f7d14c61: new
+- doi-492bc6a66dd55b2e6970: new
+- pmc-pmc9539184: new
+- doi-70bca225dbfcdb8c63d1: new
+- med-27791954: new
+- med-32468770: new
+- doi-43e1656e6c7dfcde3b3b: new
+- med-27215119: new
+- doi-67462df54a1f22b5ce38: new
+- doi-49b7c3c407e0b5ac9427: new
+- doi-0b650d1a2f511450e6c2: new; secondary-or-commentary
+- doi-36b6fbf946a30c9659f8: new; secondary-or-commentary
+- doi-8ea397a9e763c64fa9eb: new
+- doi-107a4ba02b3ba0b55905: new
+- doi-89bceb61d3fec30cf440: new
+- doi-a3d44c7bf0c13bdde132: new; secondary-or-commentary
+- doi-4ec25e0bb728da9317c1: new
+- med-31858965: new
+- med-28980900: new; secondary-or-commentary
+- doi-5384ff3534d0a8c4d755: new
+- doi-0e0044c601513877208a: new
+- doi-aed0e436bc288cf15278: new
+- doi-08e520d246eb1f191bb3: new
+- doi-dccb440bcbcaaeb118bb: new; secondary-or-commentary
+- doi-ea3cde83a7afa2132390: new
+- doi-c87c78e897ceab77ccad: new
+- doi-2717ddb8a103511a3388: new; secondary-or-commentary
+- doi-c505e5aedf6163c09a3e: new
+- doi-982d10272511ce21adcc: new; preprint
+- doi-0829dab45b39e913c927: new; secondary-or-commentary
+- doi-ccaa23c7fad2e744ca66: new; secondary-or-commentary
+- doi-0a083a5494d2f7702bda: new
+- doi-01daa25f023d1c1c7a9f: new
+- doi-0949b2dfb65549d9f254: new
+- doi-5539fbca9eda6c17260d: new
+- doi-30c213256b3e5b13b520: new
+- doi-6ac3d0750d691d30bb87: new
+- doi-30e135e2d0564c70c5ce: new
+- doi-3edea4abe9727e1a7263: new; secondary-or-commentary
+- doi-0b62952cb3c607885cbb: new; secondary-or-commentary
+- doi-cabbfccd640ce0ab56ad: new; secondary-or-commentary
+- doi-10e71f2eb0014c128bc1: new; secondary-or-commentary
+- doi-3e6ef41d614939187a93: new
+- doi-8c9fec25bcec8d8c9061: new
+- doi-dd1b8e7b94011c27d54d: new; secondary-or-commentary
+- doi-a40d23802f8db6632734: new
+- doi-427bc712bcc1f4e264c3: new
+- doi-6b89939c714941fa3b08: new
+- doi-ce078d019eb3f81c9f7b: new
+- doi-d8a2983cc35da7dd56ac: new; secondary-or-commentary
+- doi-f7b54c7a02d879820f20: new
+- doi-eef7df7de840da06b821: new
+- doi-58ab00337f112bf0f193: new
+- doi-751bf56a688cd2575976: new
+- doi-c3bbab8adc06bbd14586: new
+- doi-a3a5eb4dd6251e2fb31e: new
+- doi-91a91244191f69ac42aa: new
+- doi-0cf29c92edecfbc3e0ef: new
+- doi-478f31bf0e1754d9a952: new; secondary-or-commentary
+- doi-0df5ddbfa17f890582e2: new
+- doi-05b490fb06e32fbf6b1f: new
+- doi-f42eac827b5216f5e382: new; secondary-or-commentary
+- doi-ce728fe22c6ebf96240e: new
+- med-29148418: new
+- doi-9bc2ea5126f667f39619: new
+- doi-ab3625f43b6c94e4f692: new; secondary-or-commentary
+- doi-5b265ae8eee3399ff22c: new
+- doi-34e282f999a756dc2bdf: new
+- doi-240c65588de6789264fb: new
+- doi-2642879607e7a74458af: new
+- doi-d5e4efbb3c3194a916f3: new
+- doi-f50c9826bcfc4d6f85c9: new
+- doi-45cdcca4b0f15890c113: new; secondary-or-commentary
+- doi-e32d6b3e1b2d3850f32b: new
+- med-26005883: new
+- doi-89aa4565dcd5689e3d88: new
+- doi-5bf09d2cc884512afa91: new
+- doi-d2991740be9c158bfe38: new; secondary-or-commentary
+- doi-71f673a1cc8aadec0251: new
+- doi-d21918a5a3b6a8e0fbd0: new
+- doi-67ff8db860a50527075a: new; secondary-or-commentary
+- doi-0a91a566cd49eb5dbca7: new
+- doi-6db553f8d53b2dc08d2f: new; secondary-or-commentary
+- doi-d997808431dd2a3932da: new
+- doi-8954ad5518ac947ce07a: new
+- doi-ea1e3a44c8783f3be8db: new
+- doi-ceb7bdbe071ad0fdd5c1: new
+- doi-ae7aa0917b48c370b75d: new
+- doi-3e969d65dbe4db269bd6: new
+- doi-cdbca9a1a2df6f1a9536: new; preprint
+- doi-896db2b2fd1247ad5801: new
+- doi-334477306dbfcde516c3: new; secondary-or-commentary
+- doi-b8740cfa2682a44c72e0: new
+- doi-62c59901b00a87dbb915: new
+- doi-5d43b3d52d0e68f94d82: new
+- doi-ff1440c201459f25f6a0: new
+- pmc-pmc8832538: new
+- doi-9eadb254569f8da33844: new
+- doi-3f7b14f04c8749a37aca: new
+- doi-80a98d4306fcaa700fd9: new
+- doi-9e0aa8c1195f57d12414: new
+- doi-8e3c8422e16a824608f2: new
+- doi-1dc2094be8e8dae8473f: new
+- doi-371e30531c96984ea539: new; secondary-or-commentary
+- doi-15a873f8e844cf6af8e2: new; secondary-or-commentary
+- doi-7080d0fdf0a851b021cd: new
+- doi-aa852bc9bc0609849f7e: new
+- doi-957b72bd8898aa90b1b8: new
+- doi-ef136e7cd1f54c5c333c: new; secondary-or-commentary
+- doi-f36e7e50650d648d35a2: new; secondary-or-commentary
+- doi-27f73422b911496c39a1: new; preprint
+- doi-7b55420afa8062fb96d6: new
+- doi-6cf3a8f323f3eeb16444: new
+- doi-2a554538cef898398b93: new
+- doi-044f1252946be9f9cd11: new; secondary-or-commentary
+- doi-798cf2b339b78b40b839: new
+- doi-c67a8078b26cf632ef1b: new
+- doi-c264e666d4805eb914c4: new
+- med-20868565: new
+- doi-494c270466d7dae545eb: new
+- doi-6b0952d1fbc61bcd56f9: new
+- doi-ad63e02aa61333dec7cd: new; secondary-or-commentary
+- doi-750ff0d53ce289839aa7: new; preprint
+- doi-2cf5c3e3bbf00be1327b: new
+- doi-4daa1aea0fdfa2a1d1a3: new
+- doi-9b168905f13254e33419: new; secondary-or-commentary
+- doi-4dc9f2685f0a01537d34: new
+- doi-4de1fc7cad09692f5d0e: new
+- doi-91963eab549d08716484: new
+- doi-75dd386dd80fed6c6467: new
+- doi-91b848cbe113b20c291f: new
+- doi-a282a02f66b95d24b505: new
+- doi-aa9fa4eee5c53795e239: new
+- doi-18c574c6a799eef3bdb5: new
+- doi-dbc15357a1da63a7cf60: new
+- doi-02a27f209cd2602e9540: new
+- doi-78fa7e0dd249d95099ca: new
+- med-23316652: new; secondary-or-commentary
+- doi-706b9ebda1c95503ed05: new
+- doi-ac660cb847f61aae7dd5: new
+- doi-12e54ef4ba270380bc68: new
+- doi-b065b72de73860bc88f2: new; secondary-or-commentary
+- doi-f2d5b022593f7b9d21b4: new
+- doi-be59801f22b2dbfb8747: new; secondary-or-commentary
+- med-33331270: new
+- doi-655bddd01b40d8a85854: new
+- doi-9a446dfb74e73987d981: new
+- doi-fb5916413bebdba28308: new
+- doi-8475bbd82cefdd506483: new
+- doi-10a12af1575b3a46b997: new
+- med-28786255: new
+- med-31143221: new
+- doi-998adc9059486b3b1db7: new
+- doi-76718f35b557a082a15e: new
+- doi-5f7cb3b9f4c99b86346e: new; secondary-or-commentary
+- doi-7d32abb5fa5b85b130ff: new
+- med-29745871: new
+- doi-ca35b0cbdcbc4ca10e02: new
+- doi-df17e016a9cfb9e67b1e: new; secondary-or-commentary
+- doi-53a3725d88f3729738fd: new
+- doi-26cc09b82f286ba4483b: new
+- doi-386f66f9420774fa93e4: new
+- doi-8626c133a8b58a9bf740: new
+- doi-e178522f2dc80451493f: new
+- doi-93ab1dae9e1cadd5d16d: new
+- doi-6d1f9489c2931f895ae1: new
+- doi-6c381fe310a7fd64d899: new
+- med-31856936: new
+- med-28613704: new
+- med-29940741: new
+- med-26693764: new; secondary-or-commentary
+- doi-af5d41418a073a35f14b: new
+- doi-daa376f44bdb28370153: new
+- med-31376249: new; secondary-or-commentary
+- doi-43e672d758f0fdc807e6: new
+- doi-be7b507286c23369d893: new; secondary-or-commentary
+- doi-862f8f3a5e442ba63a0e: new; secondary-or-commentary
+- doi-eae015d7cbcc8a970a75: new
+- doi-183132b96ae3329e7a2d: new
+- doi-e5606e626226ee81605b: new
+- doi-9fd46b04fd0788fcbc16: new
+- doi-5260542f4a3b25647f90: new
+- doi-e9124d9ed8991b20fd58: new
+- doi-8e6a95e5e85ba81381aa: new
+- doi-69224b6b742aa86300c0: new
+- doi-c4220de0b2a1950e1b7e: new; secondary-or-commentary
+- doi-2f229f9f7d65703e1f03: new
+- doi-30b1dd77763523a47f56: new
+- doi-ca58b7aa669223adb682: new
+- doi-21704a90ccc7b22d0ff5: new
+- doi-04ffe12ae9fed9005d48: new
+- med-33124578: new
+- doi-356838d686fbe3ac15b0: new
+- doi-e87505a3b4d9ed21e039: new
+- doi-557e2873b1be83c9ee17: new
+- doi-1d898ac53785d395ddf9: new
+- doi-b3596ba7cc7b713d381a: new
+- doi-debf1979836a9c169a35: new
+- doi-d4f5e4e09736090bb59a: new
+- doi-97f79d1219c5cc05aa9b: new
+- doi-c6bca7f1bb1a7eea5018: new
+- doi-c9b90daeaf3b506208c8: new
+- doi-6bb41b267078e2849832: new
+- doi-1cff89803d99cf2c815e: new
+- doi-fc3af3cd6964de4dbb82: new
+- doi-168612820476099238b7: new
+- doi-fecad49c57b4da76b627: new; secondary-or-commentary
+- doi-256fc62b3eb2bc315527: new
+- doi-5e25460136500787c25d: new; secondary-or-commentary
+- doi-cfca0dbaf3c9547f4774: new
+- doi-d7e0943c8338280fd35e: new
+- doi-70229df5b4516dcc3402: new; secondary-or-commentary
+- doi-5a6bae1244003a1ffe50: new; secondary-or-commentary
+- doi-bce2f995a202f8b7142f: new
+- med-27791948: new
+- doi-e2d846f4d50be2a7c18a: new
+- doi-a2d5489027a4cec6e643: new
+- doi-8847fc11e957620b20b8: new; secondary-or-commentary
+- doi-e824cb619b05c6ed09d0: new
+- doi-5c2e171f4c7461695806: new; secondary-or-commentary
+- doi-b6fc01f3b113136d2e4e: new
+- doi-839ffb390421ad9185aa: new
+- doi-0c5402b5273aa14aa5ef: new
+- doi-bf715cf2063d492486b4: new
+- doi-c33485630ec25bffc426: new
+- doi-db2577e4cde3de246aa2: new
+- doi-3588b83c063745ca9423: new
+- doi-e6f0422988cba31ff065: new
+- med-31729721: new
+- doi-eebbb2706a029bc302bc: new
+- med-33479965: new
+- doi-4c567a42c41eb9ccd5d4: new
+- doi-08524150ce8be7f93bf2: new; secondary-or-commentary
+- doi-3e3a0cb8b2129e16a26e: new; secondary-or-commentary
+- doi-f5b909341140bc39557a: new
+- doi-1968224019eebab1959e: new
+- doi-38e2935da9ea55e94b27: new
+- doi-2338f7230ba3c17a0b54: new; secondary-or-commentary
+- doi-19dc36ea1b7c09582df8: new
+- doi-857d5643d83a7eed1fc3: new
+- doi-e68c17c6a0be08060c4c: new
+- med-32257890: new
+- doi-85defbb49da41a92b4bc: new
+- doi-ba5ed392de74d2acb7f4: new
+- doi-20ca17cf390a297cc780: new
+- doi-9ad235769d862697292a: new
+- doi-34c3fe5eec9a79396f0a: new
+- med-25268669: new; secondary-or-commentary
+- doi-8a5b61c103cf0c86cd1e: new; secondary-or-commentary
+- med-27054359: new
+- doi-bdee17e40b8de41463df: new; secondary-or-commentary
+- doi-cd74199c21d46b527238: new
+- doi-ddc0c31f59bbf7dacb0a: new
+- doi-cc4ff836630066a19752: new
+- med-27752180: new; secondary-or-commentary
+- doi-7032e0b4004ced25f3be: new
+- med-22935165: new
+- doi-26f46f0fe14ec87b332c: new
+- doi-bc69ea9e6cd7ed65957d: new
+- doi-51366fd0a06fda62da6e: new
+- doi-52a182f5711943cd6727: new; secondary-or-commentary
+- med-26571628: new
+- doi-57de69b3339763709400: new; secondary-or-commentary
+- doi-80c14b715c724916f288: new; secondary-or-commentary
+- doi-87822a58c75c5ecfad3e: new; secondary-or-commentary
+- doi-9285ddbbc991ff7467f8: new
+- doi-822bed63bcd7adc0883b: new
+- doi-467e56b73d2d6265588e: new
+- doi-8574d26fb5a15a1e8a3e: new
+- doi-36a18b4ac51566087894: new
+- doi-dd5566a9e9d8dc7643b0: new
+- doi-528e933201f16758cb41: new
+- doi-8ee825fd878877dfd187: new
+- doi-d3b6653259d19af58200: new
+- doi-e24f67306193a5236e1b: new
+- doi-56a7d9c9b5cf48c28180: new
+- med-29998839: new
+- doi-a87b01de57ec3625812c: new
+- doi-d443f6745da6c60fa248: new
+- doi-b0779db6f921a4041a4a: new
+- doi-e5e54b78a1950a50fc42: new
+- doi-54ab666246faa77fcd3b: new
+- med-22579096: new
+- doi-f02e5408dbbf92f9c512: new; secondary-or-commentary
+- doi-5476bc5f7025bc5b272d: new
+- doi-ead8860f0c2001b2e7d3: new
+- doi-cea64b41a182e931e999: new
+- doi-bb98d52c8226aa2c4a48: new
+- doi-29d1c59371a34439b87b: new; secondary-or-commentary
+- med-28406760: new
+- doi-b1f9a2221064603cef64: new
+- doi-f7e29ddbeb50b58b7511: new
+- med-31969224: new
+- doi-bdf7121bb0bcf25b84f9: new
+- doi-988202cfcc5ffdda99e6: new
+- doi-d7de1bc9bdac03aeab9a: new; secondary-or-commentary
+- doi-c9802596b65faaa55114: new
+- doi-7de9a68fcefc3fcce1bc: new
+- doi-ac657cef4e9ad1cf0f3c: new
+- doi-9bf11374622d36ac746b: new
+- doi-3ae30855c683dc3ab472: new
+- doi-9e51cabecf2751bf8b17: new
+- doi-787eda65967f22100acd: new
+- doi-008fc1556eec27f58240: new; secondary-or-commentary
+- doi-91f0b817a5f5d001f828: new
+- med-27156371: new
+- doi-b0ad0d5ddb82ff4b9cea: new
+- doi-3abe2ec3f2445b79a7c1: new; secondary-or-commentary
+- doi-d8976a754b4e99dca428: new; secondary-or-commentary
+- doi-7a662bfadd74765f2986: new; secondary-or-commentary
+- doi-5bf650bcff44d7ad925f: new; secondary-or-commentary
+- doi-8dce7528ad0140e281fb: new
+- doi-3cf0b515ba0c38254c9d: new
+- doi-5ade26822a3a4b3c388c: new
+- doi-0ccc9557b9555d6ce0a2: new
+- doi-0cf4b74466b2ec62ac2f: new
+- doi-757379479386eba9c342: new
+- med-31856937: new
+- doi-a29c7638dad3d42bc0eb: new; preprint
+- doi-9bdc02a240e2cbd1a6b2: new
+- doi-bb2da25f0c1fb9950ab6: new; secondary-or-commentary
+- doi-574f6787a87189a7fcfb: new
+- med-24982733: new
+- doi-94b095adaf160a29d3da: new
+- doi-3701ec7b20f80229873e: new
+- doi-46c94267f5107cce4711: new
+- doi-bf07c5875c103dfbe98a: new
+- doi-0b22e03f14fa111e0c04: new; secondary-or-commentary
+- doi-a4a451ab6fe08cede2eb: new
+- doi-1bace53d35ebd1cf5a00: new
+- doi-870619e21364e3e3f22d: new
+- med-25005576: new; secondary-or-commentary
+- doi-de400379ed4c76214336: new
+- doi-7ef4aea5ebd72850b03a: new
+- doi-aed6852da242a840af3d: new
+- doi-d2cc892c69cf21cf7ade: new
+- doi-c55d205206e81a5f883a: new
+- doi-eeaa6ca61df798867cbd: new; secondary-or-commentary
+- doi-21eeac1db9f221f1ebbe: new
+- doi-f2ae59e7895451bcfd09: new
+- med-22776270: new
+- doi-bda5fd3539e8f2f1a978: new
+- doi-a4b012cc471968ae15e5: new
+- doi-4b1564c28deb35a86bb0: new
+- doi-957bc968370edb163dc6: new
+- doi-f0268d0e6e7618eb869c: new
+- doi-ef50533ce8a8c5f61ca1: new
+- doi-5993b1034f06e9ff9e46: new
+- doi-999baccc75bab2224676: new; secondary-or-commentary
+- med-29026416: new
+- doi-175e72b28b966370a8ee: new; secondary-or-commentary
+- doi-a5cb61c5bb3c97e7067d: new
+- doi-3603e3b3c8be7b9e4c24: new; secondary-or-commentary
+- doi-0675720e1bd13ee4b1a1: new
+- doi-a60271455c5a59712d98: new; secondary-or-commentary
+- doi-18c30d018dc1ff679ed6: new
+- doi-0d9b19ea6d945e2ab902: new
+- doi-7fba6c5138d6e23a63b6: new
+- med-27460734: new
+- doi-cbc85e94cafd27e6d67f: new; secondary-or-commentary
+- doi-1030fa19e194afbb27e8: new
+- doi-cb018fb57f4642d9e441: new
+- doi-15c28c446260598d0f1e: new
+- doi-33d59e48c2a9fecf4e67: new
+- doi-0c857f80d1db85e510af: new
+- doi-18333dc107dc957b0424: new
+- doi-b1f0225bdfd236464100: new
+- doi-25d7b09b67af3330d0c9: new
+- doi-b978db8a8f53da3db4b7: new
+- doi-a8671890410ba407c8f3: new; secondary-or-commentary
+- doi-490e7ec040471fff4278: new; secondary-or-commentary
+- doi-ddba12550dc215e39a56: new
+- doi-6ed449a510cfde480f3f: new; secondary-or-commentary
+- doi-1176639153fda34ae464: new; secondary-or-commentary
+- doi-424141489e68d046dc87: new; secondary-or-commentary
+- med-25005224: new
+- doi-45c6857eb0fcf4d3e72b: new
+- doi-810f50ee8f302dba2fc7: new
+- doi-5863d4ecb4c56143824d: new
+- doi-c92910e349b16fae6180: new
+- doi-e2001b66f8fc42058c2a: new; preprint
+- med-23009740: new; secondary-or-commentary
+- doi-88ab71b9bfc3640cf5f5: new; secondary-or-commentary
+- doi-912191fea3b63688ca46: new
+- doi-a20c8ba905df98351b15: new; secondary-or-commentary
+- doi-71ead4ea5f2d4176ce72: new
+- doi-97ae482e5ab9510ab1f0: new
+- doi-ec46c5639b090e055218: new; secondary-or-commentary
+- doi-8acc588469c997137e55: new
+- doi-9a1ecef82715a0983bf9: new
+- doi-6e0ef15800af1452823c: new; preprint
+- pmc-pmc4191707: new
+- med-25268667: new; secondary-or-commentary
+- doi-1f1e9e154c85493d010e: new
+- doi-37386d2227ef5b254d02: new
+- doi-2144dc80037242ddebd4: new; secondary-or-commentary
+- doi-02990fa8e90f5ee7b817: new
+- med-25937098: new
+- doi-cddb4307859bf7ed478f: new; secondary-or-commentary
+- doi-a27b82486f805e441cd2: new
+- doi-d831a8224aead24f2cbc: new
+- doi-e58ee3f60f5a51826424: new
+- doi-ffd3dfbf4bde594dad76: new
+- doi-1b0fb840da4928fb1822: new; secondary-or-commentary
+- med-27998875: new
+- doi-66e56075f43e9c1ff56d: new; secondary-or-commentary
+- doi-ae380742e45502b287d0: new; secondary-or-commentary
+- doi-2f9c2ee5d4a5217b62c0: new
+- doi-1c08a2b1923d66b2a229: new; secondary-or-commentary
+- doi-fdd0e1bd1f3174e4ca68: new
+- doi-dcef29bafe1c7bb89f83: new
+- doi-72042b8378d571c0add9: new
+- doi-4ce75fbadfceb0267504: new
+- doi-db84c8b3ba79aa95aa5c: new
+- doi-f49d2a060b802b37b86e: new
+- doi-ad680b8099c00abf97a5: new
+- doi-25c24c1a56e697dc358c: new; secondary-or-commentary
+- doi-f3f9a1de17fbad04203b: new
+- med-23552591: new
+- doi-4a0bbfda78806af1369c: new
+- doi-5c4cdbc870db1593d324: new; secondary-or-commentary
+- pmc-pmc8832525: new
+- doi-e9f9cbaeee46fabda755: new
+- doi-7fc5a8b16e212949e93c: new
+- doi-553705cabefe166d22af: new
+- doi-70a921fdae2c3ab4a457: new
+- doi-6a4e82de76b37058e300: new
+- doi-eeb6751c496a3bdfdcf3: new
+- doi-8293770190aa8c8b8cfe: new; secondary-or-commentary
+- doi-4e6fe598a660b1716e6c: new
+- doi-1acc30bff6ea21d10d65: new
+- doi-4e7aec1178e1f62a7d2a: new
+- doi-54f9b4c2aea205c0123f: new; secondary-or-commentary
+- doi-d05384c38c79ba6a72a1: new; preprint
+- doi-e6c91afc711b3768e482: new
+- med-26062391: new
+- doi-e247e21775fe69090eb2: new
+- doi-e2283c18063368f6ffeb: new
+- doi-a1a95f4897546189c447: new; preprint
+- doi-8410319b7f4cd0908a44: new
+- doi-691220aa520d503118f2: new
+- med-26967193: new
+- med-26693769: new
+- doi-836cf3cc6dd7d7170173: new
+- doi-4f8e3e6d25b0ccae5313: new; secondary-or-commentary
+- doi-12861d69b6cc9fe37391: new
+- doi-18a8809ddf44d51cab4d: new
+- doi-e90ed872999d9b9ed4ae: new; secondary-or-commentary
+- doi-d57dfaa925e9f52d19a4: new
+- doi-859e1dd7114f991e25cc: new
+- doi-d3d4dae3d06fb741b2ce: new
+- med-28770703: new
+- med-24064028: new
+- doi-5b45850b8c3046a389f3: new
+- med-30582507: new
+- doi-d916f9cdb88a4a14d71b: new
+- doi-c43bdde538b97070631e: new
+- doi-0dc11ef417567f0a6219: new
+- doi-fbb260417e2701d7792f: new
+- doi-a88ae8d54d101c426c6d: new
+- doi-15aeb4d845821f80eb53: new
+- med-24674728: new
+- doi-ee93369962d1794c2695: new
+- doi-3fb59391443b4df1bf53: new
+- doi-fb7f52f991edf696e62b: new
+- doi-254ccc76a5a8912a24b2: new; secondary-or-commentary
+- doi-22c57d5fabc9a8e5c3be: new
+- doi-c4ddad445324f64571bb: new
+- doi-74621b11d7d83233ce23: new
+- doi-531f6e48192f3afa49cf: new
+- doi-70725975e81ae1eba80e: new
+- doi-0941fb4bb5831d5b6983: new; secondary-or-commentary
+- doi-6d04930b2ccfbf5189f3: new
+- doi-9cf9294ea283b11a6923: new
+- doi-5491658e97935470405f: new
+- doi-b713cd0c23f278f703d7: new
+- med-28289688: new
+- doi-44c4f8b7d33f9acc6df9: new
+- doi-6df2203824825d49c2a5: new
+- doi-379f52ed77b7ef053cb5: new
+- doi-cacf4b7598c08e7efc56: new
+- doi-9ffa771319cce095e4a6: new
+- doi-bce7b485dfeb56fc8667: new
+- doi-4e1258364973491b8a45: new
+- doi-947a49bc2c9f5e47ff10: new
+- doi-e1fac4ab460a562d4b2d: new
+- doi-a97ae171c5c644556c48: new; preprint
+- doi-46b88073fbec25c74d73: new
+- doi-e070e6ea11b7bc3290c6: new; secondary-or-commentary
+- med-29998845: new
+- doi-7c47df78d6ae3c13b2d1: new
+- doi-4cf07fb88bc6ac5b04a0: new
+- med-25268663: new
+- doi-d04c591b7266c1b15894: new
+- doi-64368ce1460c71b3f1d7: new
+- doi-dc0754b268628de3314e: new; secondary-or-commentary
+- doi-fb917396c7dc19015bd1: new
+- doi-68a6570d1bfb18ab523d: new; secondary-or-commentary
+- doi-12d02d0a916d6399441d: new
+- doi-5eac294a055d5f88809e: new; secondary-or-commentary
+- doi-22b29fd883d5eb6f4a34: new
+- doi-ea6b230e2e3aa8b07fd5: new
+- doi-9d94901445bb188d154b: new
+- med-33820892: new; secondary-or-commentary
+- doi-93c9bab61db050733f1f: new
+- doi-05c07fd32396624c17f6: new
+- doi-41c1c91a6c0602710be7: new
+- doi-8f887f1760337a1308a7: new
+- doi-3a80cc6e4d8d165d3b48: new
+- doi-db2fba92c8166af0aca9: new
+- doi-d8c3fabda6fc8d7a2796: new
+- doi-45111731abe88a0de23e: new
+- doi-2e48db53066c907d9f6f: new
+- doi-4643548d214a1fe2516a: new
+- doi-dd5a4b81ac6506bdac27: new
+- doi-bbf9f3525c7a566ae7a0: new; secondary-or-commentary
+- med-21756739: new
+- doi-ace03e5744269ac3a601: new
+- doi-feaa99d042bb3bf0a284: new
+- doi-5154ebedc8c0a6226f9f: new; secondary-or-commentary
+- doi-bbebf5aa2dba3c27f544: new; secondary-or-commentary
+- doi-bb5f89cf4d7d22066cee: new; preprint
+- doi-0e84c40f7a569b895b4e: new
+- doi-2f718d4c2613dd73e54e: new
+- doi-4b2f05d49f15fd35bd17: new
+- doi-22044e03dd60f5022c0c: updated; preprint
+- doi-6dc6111f457e27b93074: new
+- doi-cd3f787336916912b9b8: new
+- doi-0f56aa2d0ef639aa86b4: new; secondary-or-commentary
+- doi-03aafb90c7fd917e04d1: new
+- doi-42c3a5f287e3e27ea5ba: new
+- doi-f0871a87dcb5a81db203: new
+- doi-e3aed909d26bcd984676: new
+- doi-b438002ed30ea8fa0bd0: new
+- doi-aa54dff8aa9ada466366: new; secondary-or-commentary
+- doi-0b18692a018533e0f3d4: new
+- doi-24eef93e0be49bbe7274: new
+- doi-80653ee7dfdc670baa06: new
+- doi-0d96b22882c90552d722: new
+- doi-dfddfe5e33febea31f82: new
+- doi-db38b4f3c5bca295b8a6: new
+- doi-e82c82235700f653d7e3: new
+- doi-fe21c583c399887513d9: new; secondary-or-commentary
+- doi-31c87adf3a382fcc6315: new; secondary-or-commentary
+- doi-fa9c37e54b5fbcf092c7: new; secondary-or-commentary
+- doi-fe2fd1a9edaceac698f4: new
+- med-22876110: new
+- doi-bf22c061880d4f540733: new
+- doi-64abe34651a90a0b1b3a: new
+- doi-9c5cda83292480ad8576: new
+- doi-8998ad734fc6051f08ae: new
+- doi-7e4cd94b9f247b1cf12d: new
+- doi-cf96251be5533ef67d46: new
+- doi-bb1d2682e33c64a1acd2: new
+- doi-406b2d309dc27f886654: new
+- doi-f3c48b2e3c9755a8fe70: new
+- med-26367404: new
+- med-24879172: new
+- doi-e80e9225cfb09b01c93e: new; secondary-or-commentary
+- doi-dcc48b55b77cb75df013: new
+- doi-1f72a9d2281595b68407: new; secondary-or-commentary
+- doi-2b5e60fcd7e590af149d: new
+- doi-66ebafb78b33ee505a46: new
+- doi-0b4fee056087ee2eb18e: new
+- doi-873401b023128f7f191c: new
+- doi-75da8af7689a1c7955a3: new
+- med-23092091: new
+- med-22454745: new
+- doi-a3db6314c321094dfeb6: new
+- doi-bf537ee4e7396d9ce33f: new
+- doi-0ee4c6a6214782b1c70c: new
+- doi-71ef91f86d9332255ed0: new; secondary-or-commentary
+- doi-8cd2b7f72160d8caad2c: new
+- doi-e2b03f31d7a3faabf26c: new
+- doi-c84171c41daae7b18031: new; secondary-or-commentary
+- doi-4ad73e2b55f7bc632481: new
+- doi-4f9ff4d1c834f57b6d66: new; secondary-or-commentary
+- doi-2c3b485875d1f05d6fc9: new
+- doi-5fbb530e35049a2d8ffc: new
+- doi-b835bad758b062257551: new; secondary-or-commentary
+- doi-3c31bdcf8776f508c7b1: new
+- doi-32d89a0bc7b254707dae: new
+- doi-e2df1b38b4a5fd83a2df: new; secondary-or-commentary
+- doi-19f539afe8fe89ac71aa: new
+- doi-295ebebe38e5dfe215b4: new
+- doi-1891ea0ba5d74d7eb4ef: new
+- doi-e74acde860b7d26b0e76: new
+- doi-38c03efc498f5f004b7f: new
+- doi-fd3f1054bebb87af7411: new
+- doi-360801e5ece750250f32: new
+- doi-aba513b8e29c9844de83: new
+- doi-1f4f1f7facedb7e11bd1: new; secondary-or-commentary
+- doi-14f78522f7bd0dd22713: new
+- doi-0260d3a3149ac0964ec8: new
+- doi-abfa2b1de4cddc919ea7: new
+- doi-48cd181fbb80f3928123: new
+- doi-332a68b12e3483ef78da: new
+- doi-214aefa8662f1bdea49e: new
+- doi-786dfc78aab0bcfc6e9b: new
+- doi-ca90ea2b1e7f33f19f6e: new
+- med-26687263: new
+- doi-09f9b6b569c0fbf49746: new
+- med-21756737: new; secondary-or-commentary
+- doi-a4bc56a837634bd4b510: new
+- doi-b5ab36f9e00444edb1ef: new
+- doi-d83dca62b7e177e80728: new
+- doi-81f4e6716f2376bf71f5: new
+- doi-390d0c27c86d51cb46a5: new
+- doi-b5dd69d5fd324ec5ec56: new
+- doi-0ec3be1458511501ccb4: new
+- doi-dcb429d24ee10e506f2a: new
+- doi-263f32cf9595f040c183: new
+- doi-db8b547dcde4506f41fd: new
+- doi-9816c64ce67c58e6b3bc: new
+- doi-b0a1587bdea67d66c207: new
+- doi-05033f4895b93de969d2: new
+- doi-3596e7d16cb5a2084ad9: new
+- doi-a00a73bd8f96cfb44af2: updated
+- doi-c07fe0510e746a3e5b47: new
+- doi-66d8adb56f0e7580eadc: new
+- doi-45fe5580260d1488a1c6: new
+- med-21968241: new; secondary-or-commentary
+- doi-95f9822ddf9697efbfc8: new
+- doi-27278dc45a82a0c70aea: new
+- doi-694c7fa1129f3909ffd6: new; secondary-or-commentary
+- doi-2712bd488620cda9fa2a: new
+- doi-5a89cc1f010b553c3369: new
+- doi-61d7c09c052331e2cc10: new
+- med-21268816: new
+- doi-3de18f822e323a372467: new; secondary-or-commentary
+- doi-2e93f01d0e9cc9f695b9: new
+- doi-a57fe1df9823acd8925e: new
+- doi-c093d57284e04327f5ac: new
+- doi-df1d296c06f3dd0a0c29: new
+- med-30582512: new
+- doi-947d30016a0a47d8dd20: new
+- doi-7a3abc3ce2d8f34a032e: new
+- doi-76484196026bea4449b3: new
+- pmc-pmc7607327: new
+- med-26486489: new; secondary-or-commentary
+- doi-f59ef72bfc2d5811e4f1: new
+- doi-268acfef04bce7c94270: new
+- doi-c37ac2c744f2f94e4db6: new
+- doi-c29cae70f97cd39d4c01: new; secondary-or-commentary
+- doi-d1da394661ea5ed76424: new
+- med-25962416: new
+- doi-e7d8dcb13519111dd06f: new
+- doi-36c56d68c4948f2441a2: new
+- doi-75a55ea3657eb08308d1: new; secondary-or-commentary
+- pmc-pmc6761447: new
+- doi-fc50eae400c318070621: new
+- doi-0ee2673666cd2a7fce19: new; secondary-or-commentary
+- doi-1b96a2cb72368a8fb4b9: new
+- pmc-pmc6761462: new
+- doi-9aa78b85d4f2654b1ee7: new; secondary-or-commentary
+- doi-e99e1e5648f32e4c83c3: new
+- med-27000816: new
+- doi-fcef3e478e78e0e76bbd: new
+- doi-fbfd5fffa5a03ce597e9: new
+- doi-c3db144bc15e76fd1532: new
+- doi-b1bfa53f29c55da57381: new
+- doi-3904ed1c71c107f374be: new; secondary-or-commentary
+- doi-8328f73f566967964f62: new
+- doi-2bb270309477a8e6645f: new; secondary-or-commentary
+- doi-22e058f41f3de65d4c49: new
+- doi-26990e34c38604175ca5: new
+- doi-4e708eb2889e48cbef88: new
+- med-25068444: new
+- doi-49eb5c79403757b62863: new
+- doi-6af555c4627fbae7c919: new
+- doi-e1657604af49d4d4e564: new; secondary-or-commentary
+- doi-4db1a479367cadd76f50: new
+- doi-66bf5d52d3e3d1e0d278: new; secondary-or-commentary
+- doi-782b59c680a5cfb65a9d: new
+- doi-95e7d9e72bdd87cc7a33: new
+- doi-7869ddcad9f83521d79c: new
+- doi-5333a4888f7d25196f53: new; secondary-or-commentary
+- doi-759c444f01be72cd2d4f: new; secondary-or-commentary
+- doi-271b5e4b1ef01226a486: new
+- doi-b3783cee90936f9df28e: new
+- med-21813069: new
+- doi-0219848015e2107e2f1e: new
+- doi-e1c6ef10c3825a4b89b4: new; secondary-or-commentary
+- doi-559f4d4408eef934799f: new
+- doi-01556897641718dbb6bc: new
+- doi-fa7cfc6b773f938f8d89: new
+- doi-9095cd78ad1eaa4e5475: new
+- doi-8f442ca85e206c315cd8: new
+- doi-c76f564382acadadb2a7: new
+- doi-9d3316abb7afb1413589: new; secondary-or-commentary
+- doi-3b99e4f7ff0a3d2afe43: new; secondary-or-commentary
+- doi-1b3dfeb609ac3d044879: new
+- doi-2d20b7d7701ee591e4d6: new; secondary-or-commentary
+- doi-768640f719d212dca3ca: new
+- doi-5a99fbb6b4f4e980d04d: new
+- doi-d8808195aba146cfe6ee: new
+- doi-3e40d5f531ae03fd42c0: new
+- doi-cd4b7ed6db7a2ffd801d: new
+- doi-acfcf3e8b9d2254d5307: new
+- doi-7b6741eff112f11ddf71: new
+- doi-2ad2c5a711cdf0a1e630: new
+- doi-968060a31186b69a8da0: new
+- doi-cb9de24b22e90724e931: new
+- doi-74819bd41485097342c7: new
+- doi-326dfbc5c4f964fd106f: new; secondary-or-commentary
+- med-26159476: new; secondary-or-commentary
+- doi-21c8faffe6080709519d: new; secondary-or-commentary
+- doi-482562a2736fc6bc2a96: new; secondary-or-commentary
+- doi-41c0020fabac8a030aea: new
+- doi-2ae1ecd5a4628b0f58b7: new
+- med-28198796: new
+- doi-08bb191f88dd1104c8d3: new
+- doi-699dac2dad76e35f7098: new
+- doi-511d825af2a054569b98: new
+- doi-d78622cf5a290a97e502: new
+- doi-b23d67d1897a61c8a67d: new
+- doi-8c4d29d5bdb47bbafcd9: new; secondary-or-commentary
+- doi-39f67fe20c4d6e127794: new; secondary-or-commentary
+- doi-cf17441f36200bcd227a: new
+- doi-baf9ce8820cdee7a17ef: new
+- doi-ac3e43147ef37d5bb324: new; secondary-or-commentary
+- doi-fd776686fdfc705ba97c: new
+- med-25487921: new
+- doi-43efb47caf4b97382050: new
+- doi-b59f1da5855a2c7f995d: new
+- doi-bc78f3cccf23ae7968e4: new
+- med-24774036: new
+- doi-8380f651808eb1ddf079: new; secondary-or-commentary
+- doi-83deb50679091e624140: new
+- doi-77562100c7429d0d9c0a: new
+- doi-80a22dcc89882271a5c2: new; secondary-or-commentary
+- doi-172fcc79954cf1d590f2: new
+- doi-6732bc3abd56498c0641: new
+- doi-d56082cc93d84dee9880: new
+- med-19330737: new
+- med-27791958: new; secondary-or-commentary
+- doi-877c14ae1dfb08e7b5d8: new; secondary-or-commentary
+- doi-3830028b9321fba03f23: new
+- doi-9d7fe96e13c219bf5f28: new
+- med-24064012: new
+- doi-56577190fe965123ca34: new
+- doi-0cacff0c3ce3fc770e76: new
+- med-19026121: new
+- doi-fc7093ec5b8b141a69b4: new
+- doi-2f8a34162ac98fef0b29: new
+- med-21176615: new
+- med-25005759: new
+- doi-77efe1217ada2085fc29: new
+- doi-5f2e9948f2639b84ef4f: new
+- doi-a4c9d0705a8e23fe09b5: new; secondary-or-commentary
+- doi-2718c5e0ec887f6a559d: new
+- doi-f21d9a5e9261c208bac5: new
+- med-20062906: new
+- doi-58a16e6541958acb0040: new; secondary-or-commentary
+- doi-894931c0b80dc7d993c7: new
+- doi-1a45f0d57ccafa40ffba: new
+- doi-1ae1bca30a8336587b3b: new; secondary-or-commentary
+- med-25919871: new
+- doi-533d3194f3cdcb00b03a: new
+- doi-4698088ab0044815dd6a: new
+- doi-fc41f75e93e0d0cdcded: new
+- doi-7a2d124b3e8edb7bedbb: new
+- doi-19e7e4abfe317915f223: new
+- doi-e27f64b28f7e5b92be11: new
+- doi-fbf0170f7613f4cdfe78: new
+- doi-39f604b47409b1284aaa: new
+- doi-c6e56a51de55305df840: new; secondary-or-commentary
+- doi-dcf547820336869b188a: new
+- med-27228652: new
+- doi-b501e2dcebe4b3d825a6: new
+- doi-38eb787ba715e8a4650e: new
+- doi-113e9e7416160f43e700: new
+- doi-a8fe0c6cc1ea5b22ad78: new
+- doi-f80670bb168c359e1a5c: new
+- doi-200daa72005ac7ad7875: new
+- doi-e4e46c30a7d119472c99: new
+- doi-b9e43049b2acdb80e8ea: new
+- doi-3bc7db864343eac674db: new; secondary-or-commentary
+- doi-c9ab34f17dc2b6435b8d: new; secondary-or-commentary
+- doi-fe63ed5d656413147ee3: new
+- doi-dd8806ead0dd80da478f: new
+- doi-81fa4f9091d4a50bafd3: new; secondary-or-commentary
+- doi-19817f4647872610b082: new
+- doi-3ce8b9903406b5f94edd: new; secondary-or-commentary
+- doi-f859196cff4048a767b5: new; secondary-or-commentary
+- doi-bc93350a3c230ae4cf86: new
+- doi-c87c69f28cb26d921660: new
+- doi-5056b0305d9e7212856d: new
+- doi-1ef0d2a021e50ecf69ba: new
+- doi-7b28eaddcba49bdb0390: new
+- doi-04daec2f1a9c2090d56f: new; secondary-or-commentary
+- doi-a1aa027525659883c2ac: new
+- doi-590fc0ca6184314e4675: new
+- doi-9469e38ad10d092e0094: new; secondary-or-commentary
+- doi-e01c67987e21ccf4b6af: new
+- doi-0933dc71abe5ec2edcac: new
+- doi-84a571176c0bee76d911: new; secondary-or-commentary
+- doi-99241c8305cfef758b58: new
+- doi-42e7682fb493c7255cce: new
+- doi-68d09d01853e46bb0aad: new; secondary-or-commentary
+- doi-88eede5d5828b4e6131f: new; secondary-or-commentary
+- doi-bab30f2ff82ccb6daefd: new; secondary-or-commentary
+- doi-a89263d113a6f6f88e04: new
+- doi-7f2334da767950269740: new; secondary-or-commentary
+- med-25268666: new
+- doi-9ac03fd8c787025a93c4: new
+- doi-84f2668302fcf3c41438: new
+- doi-23fbe9a882921e1fbab2: new
+- doi-e28f5b2d62cb319742c4: new
+- doi-ea68f63c11eddc0b4256: new
+- doi-6bc8f691347a05b0e032: new
+- doi-1e8d90acd6dbf83d505e: new
+- med-23866699: new
+- doi-f7e3b00ca95418a03964: new
+- doi-f73bbc224b33840d0fb0: new
+- doi-f5e85c109b98881ad0a6: new
+- doi-0132a8166d36a5dba83b: new
+- doi-174ff52ccc4fc402654a: new
+- doi-182f3b8ca9e21d00a38c: new; secondary-or-commentary
+- doi-94f11a6d43bd53e7c129: new; secondary-or-commentary
+- doi-cdcfc79379132c9ca5f9: new; secondary-or-commentary
+- doi-c9658e8030ad27522b4a: new; secondary-or-commentary
+- doi-f4decf10401ba54e8fe1: new
+- med-16317248: new
+- doi-7c47ebf279faee8cc1d7: new; secondary-or-commentary
+- doi-9472b17b4af44f8a4d53: new
+- doi-ed50317462e172f9cef7: new
+- doi-0c4a147a77dbc6f31010: updated; correction, correction-linked
+- doi-444a0d9daa8271b2b61d: new
+- doi-7221acb9b8cf5b2bbaf8: new
+- doi-de159374086e232e3893: new
+- doi-a005340d13737e5684a6: new
+- med-23559861: new
+- med-23690099: new
+- doi-d9e5d23d23f42eae4051: new
+- doi-36af11e5ad3c53f899e1: new; secondary-or-commentary
+- doi-9ecd85f2e18289a40ca2: new
+- med-27750273: new
+- doi-c9c7b493e095ca85f285: new
+- doi-1842cbe00cdb401bc031: new
+- doi-dd748bdac60e22bb4bfe: new
+- doi-8210fd5929d05dbbd7ea: new
+- doi-abc38af00b50ebe53857: new; secondary-or-commentary
+- doi-f009f26e37a8f031d571: new
+- doi-fafbfcf03f477b59dee8: new
+- doi-edba5ec7f822c8e96d1d: new
+- med-24790741: new
+- doi-66c26ee423c747dbc236: new
+- doi-9fab3f0f6f0ed8f83817: new
+- doi-ac3616927bf07de672e6: new
+- doi-2ec43392c19d6525c493: new
+- doi-d6209cdde5d3b497648d: new
+- doi-bb3816353b3c5b92d1bb: new
+- doi-0b9caa2224e4e656b7d5: new; secondary-or-commentary
+- doi-d1614df2b66a3a51291b: new
+- med-20868567: new
+- doi-d1b289b5ed23875567bb: new
+- doi-5bba3c99872c92c5c324: new
+- doi-96ae5c12bcfab4bc58f8: new
+- doi-673819f349f48f378736: new; secondary-or-commentary
+- doi-48909b1959b9eab21d16: new
+- doi-34f3d609021ecb4353d8: new
+- doi-8c48c1ed255172c75a34: new
+- doi-dd7b455a0544273f9fec: new
+- doi-a76fc8d908be5cb7cdb8: new
+- med-36471614: new
+- doi-9b7941ab79076aa5d9a9: new
+- doi-0ceda66049cf3ddf528e: new
+- doi-cde1e90c83481816d6f4: new; secondary-or-commentary
+- doi-91df0578c268ada17971: new; secondary-or-commentary
+- doi-ea60db599aaf9e38993e: new
+- doi-414ab0d3ef832f957517: new; secondary-or-commentary
+- doi-9b80a4d626dce8a404d8: new
+- doi-d05b1703d9d5c292c8d6: new
+- doi-951efa48e06dfd255b84: new
+- doi-6e2c2c085ccfd57fa4d2: new
+- doi-01b9dcdee63023cc8a1b: new
+- doi-735eaa9f1d1f30232878: new; secondary-or-commentary
+- doi-acfddfebaa71e374f120: new
+- doi-048f746cc01d1eeb5a93: new
+- doi-dc40364c99bd651246cf: new; secondary-or-commentary
+- doi-db099d34e859224fe03f: new
+- doi-f0d3b97a6e02070e5f8d: new
+- doi-4fbe139776b1755687ef: new
+- doi-3d779c5250b58fc5d251: new; secondary-or-commentary
+- med-22703971: new
+- doi-e628be1fe2f3fc5dd8e1: new
+- doi-27a0064914dd66d541f0: new
+- doi-2accd1958eec82544b9c: new
+- doi-079a88a2ecaa3129d3ff: new
+- doi-ca5f22b62f0ffca85030: new; secondary-or-commentary
+- doi-3e7abff5a2311dc8edea: new
+- doi-4b8b2109363c4b812422: new; secondary-or-commentary
+- doi-9aad6fdca062e2cb6694: new
+- doi-6fde1711fb6c0614ed0c: new; secondary-or-commentary
+- doi-d75771f64fc741f4f6b2: new; secondary-or-commentary
+- doi-f0327689c94c28453ebe: new
+- doi-a75e04fc3717e94c0e94: new; secondary-or-commentary
+- doi-8aa6918790db5ae14537: new
+- doi-5a1a58929d8af7313346: new
+- doi-7d0a97173fc2e911653e: new
+- doi-c01f42cb1e8d6026284b: new
+- doi-613fb5a6faf22f62ce15: new; secondary-or-commentary
+- med-21968238: new
+- doi-8665464c96bc1e24d2cc: new
+- eth-667141: new
+- doi-cbfdc30c1f4769a74c9c: new
+- med-24476612: new
+- med-26586706: new
+- doi-445165292c298ba118f8: new
+- med-19176110: new; secondary-or-commentary
+- doi-cb16d08e93ea808550d9: new
+- doi-de466064b6a182be6b80: new
+- doi-7a96f94463b4662af8b2: new
+- doi-f1e7491f1b587f2b6efb: new; secondary-or-commentary
+- doi-8868f293ded72c2b6e69: new
+- doi-e4ed7ad00c579e184dc2: new
+- doi-96998d6007cd116ea17c: new
+- doi-026513884fb9a4e4a56c: new; secondary-or-commentary
+- doi-349c7c2921a1dfbc5646: new
+- doi-b69e3ecdf737b6c60aa1: new
+- doi-ca5601d5b619d0fb436d: new
+- doi-cd74e5f47461e1160b10: new
+- doi-ba592d90d12532307f09: new
+- doi-cfc6695edc3e4163d01c: new
+- doi-f7dadb96743b6ca33cf6: new
+- doi-9644baad0605213cf65a: new
+- med-19796551: new
+- doi-c434443b560d46dac34e: new
+- med-19348376: new
+- doi-08249b37c8c09c52c1ac: new
+- doi-ec4297bcbc6473df83d5: new
+- doi-2a0bd57143d04f0d3644: new; secondary-or-commentary
+- doi-bc2a9863c94d5c2b60aa: new
+- doi-6963c28ebdfc01f1f254: new
+- doi-49fdb55668d003d07566: new; secondary-or-commentary
+- doi-510ec7ac36b64a41a8d7: new
+- doi-11b97d926e6250a4e413: new
+- doi-106f34565e660e7c709f: new
+- doi-2ca86e04f79e5f6d140c: new; secondary-or-commentary
+- doi-db2caf91d4f8f409f5f0: new
+- doi-8da2be6c415faa5e0967: new
+- doi-aee2a6d0e658a5c7a710: new; secondary-or-commentary
+- doi-180c8c800e63c6dda763: new
+- doi-f6eb53d749cab3764e36: new
+- doi-de56585636f1a85793bd: new; secondary-or-commentary
+- doi-d68bfa5c33cc1f1e8470: new
+- med-12455183: new
+- doi-7e8c8607fb7f9dbb65bb: new; secondary-or-commentary
+- doi-c4bb7234330312e7cd93: new
+- doi-b33de931041e01aa8396: new; secondary-or-commentary
+- doi-2bc75c4ef1bfd5d22548: new
+- doi-5c23a0fbb0bc85fbbadb: new
+- doi-5015e3a06df59e29b950: new; secondary-or-commentary
+- doi-b6fad192e2e01371b881: new
+- doi-d9b690f132b999fa13a5: new
+- doi-0162fc0c9ca2ffeda09a: new
+- doi-96651dc761e2a976ac16: new
+- doi-6cf313c8459448dbb5c8: new
+- doi-698bfbb47cb3266046bf: new
+- doi-3b8fa4e72a9c3af5ed03: new
+- doi-2a0f38a0176e7d28bdb2: new
+- doi-b281c7655a7604bb143b: new
+- eth-587623: new
+- doi-a08f4ba0efde0d664840: new
+- doi-35a98a71a98583c2831f: new
+- doi-007a37b362c1e49a8879: new
+- doi-ea4e98de1653eb085b1e: new; secondary-or-commentary
+- doi-7d185625f91f60c19611: new
+- doi-41bdc2f38e0ec299e45f: new
+- doi-99f6d725af22925632b7: new; secondary-or-commentary
+- doi-291f66e41d25e19fae1c: new; secondary-or-commentary
+- doi-1ef79b9ba07927533d98: new
+- doi-65a4d95f536aae01c47c: new
+- doi-108528a7902d9e37c70f: new
+- doi-4d18ebd4dbf274a2278d: new
+- doi-296ae6afc0f188bbdbbe: new
+- doi-68f6c0cf731ea5e7906c: new; secondary-or-commentary
+- med-19348183: new; secondary-or-commentary
+- doi-3f469ac1f6e414cad147: new; secondary-or-commentary
+- doi-459f5c97d3c490ad95fa: new
+- doi-44ea5ec35671fe795cf3: new
+- doi-35f276f9d5c0fe4138a5: new
+- doi-0e183c5ba754df29fb8b: new; secondary-or-commentary
+- med-25268665: new
+- doi-5b17809bd310571faba3: new
+- med-20388349: new
+- doi-a7f3db4935d0c48413c2: new
+- doi-fd3651be013ca2e3afb5: new
+- doi-3e2ca9ad48c62d2b52e3: new; secondary-or-commentary
+- doi-12671f44598ead923043: new
+- doi-72ee41f28fb6a029ca9e: updated; correction-linked
+- doi-126ff230f9dc191ac963: new
+- doi-e6cd95b9d6c27058e051: new
+- doi-e8ddab1bb297aa2ed86a: new
+- doi-08346e40ce32fbed6843: new
+- doi-6fcfe60a61e082aed69b: new
+- doi-ea2dffc557fa2f1d256c: new
+- doi-0465bf54c5e492559be5: new
+- doi-f669e669c62ffd314703: new
+- doi-aaeea372a8d20d60dc65: new; secondary-or-commentary
+- doi-9b2dc2df1b7745ea4d2b: new
+- doi-ec52d2db5574b871294b: new
+- doi-ede490197d65a15386fa: new; secondary-or-commentary
+- doi-781ee6f8958232f4d78f: new
+- doi-f469807df88a7ea8ae45: new; secondary-or-commentary
+- med-24480539: new
+- doi-b9f368cbc09cd0e3b16a: new; secondary-or-commentary
+- doi-c2a0dac955cabcfb5e9a: new
+- doi-5622b09a76be50f99a60: new
+- doi-b46441a80503b12247a2: new
+- doi-c098d87cb88b861cdb60: new
+- doi-9b206ea4ee8d5751eef3: new
+- med-20868575: new; secondary-or-commentary
+- doi-8f154568212cc3ae2ade: new
+- doi-4b94d069d8869fdc3380: new; secondary-or-commentary
+- doi-4a980cd37bb55d881a0a: new
+- doi-9988ff0862a3ff760749: new
+- doi-b5fa267d84356251e3a7: new
+- doi-9243229a4917ccfcf51e: new
+- doi-63b4e9f78ef9c6901dec: new
+- doi-2c93c09296d3650467eb: new
+- doi-62bce957777e78d3f8f4: new
+- pat-us2012088749: new
+- doi-ded914f9a58a00113e11: new
+- doi-56486cec49261a682107: new
+- med-25068833: new
+- doi-cda60f8515fa798dd80e: new
+- doi-6c55a73799b3b196c678: new
+- doi-4f57bcc11573ac4b8bec: new
+- doi-0961c1a00c91a304c248: new; secondary-or-commentary
+- doi-ca9f22c9fa8dcd53cb45: new; secondary-or-commentary
+- doi-a05bfc9ea2baf96a1748: new
+- doi-cb672421884cbf10e2a5: new; secondary-or-commentary
+- doi-a99b57f48de8d5e3126f: new
+- doi-f55f3d7a826d358e82f3: new
+- doi-57bf38ceaf9d20bd6b43: new; secondary-or-commentary
+- doi-fb48a268e33de95d9bbe: new
+- med-18552983: new
+- doi-19887223ab7a07cc6faf: new
+- doi-44bd15e6118b16c7c151: new
+- doi-7dae4ab0c2ba27b9f754: new; secondary-or-commentary
+- doi-cd780f70b207d0632972: new
+- doi-d6a1480ae89ac1d1dc3d: new
+- doi-72ae8b03d327649f7f2a: new
+- med-15521244: new
+- doi-5bbda908720691fedc3f: new
+- doi-2a0089ab689a4efb1d28: new; secondary-or-commentary
+- med-17641560: new
+- doi-78ddbf2a092138ffcd9a: new
+- doi-375603c99e0dbeb4e564: new
+- doi-6974f45a9da8de1bac2f: new
+- med-21655356: new
+- doi-ac9a62ae327bcb955cc0: new
+- doi-46dc54286aee0e1923fd: new
+- doi-3f2b5e8b18f2c39084bf: new
+- doi-7340933408e923a8312c: new
+- doi-c41e9d672b14fcaf326f: new
+- doi-272781dc0101a713abd6: new; secondary-or-commentary
+- doi-5541c3c3a3facc75d582: new; secondary-or-commentary
+- doi-3968e71702f1322cdcbb: new
+- doi-60fc32851969d47cd771: new; secondary-or-commentary
+- doi-3f65d5fec6ce12adf247: new
+- doi-7a7e7aa9eed85316df44: new
+- med-21055000: new; secondary-or-commentary
+- med-25369008: new
+- doi-5699abfd8c28b001a090: new
+- doi-a3b75eddc74147a1a4ab: new
+- doi-253a8d8726f9091d2a73: new; secondary-or-commentary
+- doi-bd3d116252d178913d4e: new
+- doi-b716731f7fbdd5b66e8a: new
+- doi-fa415e5d93491756ccc2: new
+- doi-c3fbb2c84ee855da605b: new
+- doi-193245e7f693317ec2df: new; secondary-or-commentary
+- doi-3ef9fbf90d9d6de5e63d: new; secondary-or-commentary
+- doi-06abf33b4e380b04167f: new
+- doi-fd18a6c9a494b316db36: new; secondary-or-commentary
+- doi-23bb11581daa9777e03b: new
+- doi-48339286b5390d78ecd7: new
+- doi-66032faa668b5e2816be: new
+- doi-46628870851bff2270bc: new
+- doi-cb3af957fcb540165d26: new; secondary-or-commentary
+- doi-a232c70bab37ba96c498: new
+- doi-39bec165ca1e36d2bba0: new
+- doi-34aa9c0c867c5df14982: new
+- doi-228eed515dd3d7b581a6: new
+- doi-e7283bf48251b141ee18: new; secondary-or-commentary
+- doi-874834b13a808c045928: new
+- doi-ff1fa6782623dc9ab9d5: new; secondary-or-commentary
+- doi-dea1ef4c767c2d9048e6: new
+- doi-23250c6f03edbe366a71: new
+- doi-da56b7693fc81c050053: new
+- doi-f4c8510eb1ef1e038035: new
+- doi-4795bdc074e7d27d3889: new
+- doi-312a9155674af2b27601: new
+- doi-a82861b03a8874e676bb: new
+- doi-850436dff8e19eb39912: new
+- doi-570345b769b148a27944: new; secondary-or-commentary
+- doi-54b5efbf215ba7c6fa20: new
+- med-16503022: new
+- doi-e7f6cf9f29c517c8b9de: new; secondary-or-commentary
+- doi-eb64e8082f5b8dce77d1: new
+- doi-a21614c0b5aba44686b7: new
+- med-25268664: new; secondary-or-commentary
+- doi-3ed7373be350603fb2e6: new
+- doi-7a993953e92cde515a5a: new
+- doi-41bf76593a27c3df3cd0: new
+- pat-us2011212940: new
+- doi-5e4a8039536e59c41519: new
+- med-20508866: new
+- doi-23c2bd1863a6d5b0484e: new
+- doi-3a076efc20cfdba419e0: new; secondary-or-commentary
+- doi-1ac38fe9ab368ce4875f: new
+- doi-f2de005a640efd7e9c7e: new
+- med-23866701: new
+- doi-8a4319dad8d6092a8870: new
+- doi-bff3b6224bc5ccd53056: new; secondary-or-commentary
+- med-20978571: new
+- doi-a8a4487a6935ca476ca0: new
+- doi-82004830a340a2c3084e: new
+- doi-fd72bf2dde047f705f05: new
+- med-22935263: new
+- doi-29b786bf079fd03d0c16: new
+- med-17644895: new
+- doi-c5311e7d41ee5ca1198b: new
+- doi-2e4fb14dcdf1e6a882b1: new
+- med-17211064: new
+- med-18976033: new
+- doi-95d75d49ab7636990f71: new
+- doi-e5fda0a031fb085ee703: new
+- doi-753697e7e37931b5d30a: new
+- doi-546c61ce1a5ac9163108: new; secondary-or-commentary
+- pat-us2011059945: new
+- doi-a8f0bdb7362cea130a15: new
+- doi-6c5ce31ecf30e76f30f5: new
+- med-20868576: new
+- doi-45277c9890f9eb49a153: new
+- doi-c62538249052504dadb6: new
+- doi-8435b1cfb235bcfc0a89: new
+- doi-bf21e732cf6de6e355ea: new
+- doi-2a3c33f82e2ca70b6cab: new
+- doi-2f68c6b92aedc6174d81: new
+- doi-60ba3ad728a09d1798b5: new
+- doi-7f4eee0bd30ac7ee386a: new
+- doi-fda2fb39c5dcefb2a1b3: new; secondary-or-commentary
+- doi-25ae142df719bd19bb0b: new
+- doi-d4d077ef6deb93013718: new
+- med-22485077: new
+- doi-9fb1429c8720dd075e07: new
+- doi-31633585f028e36d74d7: new; secondary-or-commentary
+- med-22773907: new
+- doi-6eac3e8e7c62386e68be: new; secondary-or-commentary
+- doi-0bc1309f50f5d71b3579: new
+- doi-9080c46319584229992b: new; secondary-or-commentary
+- doi-54a24a063656f8d849b9: new
+- doi-fa9933752a652eb4ca13: new
+- doi-4d425ec8bd1b8ea6531f: new; secondary-or-commentary
+- doi-bed6aa7701763bdf53eb: new; secondary-or-commentary
+- doi-6a600d110b746428a348: new; secondary-or-commentary
+- doi-db3a0209cc9ea5365c70: new
+- doi-0738f4a47d6670a37740: new
+- doi-a8c80e6f257b528be2a7: new
+- med-16078772: new
+- doi-6070edb728bd3c6dac99: new
+- med-23433066: new
+- med-15584355: new
+- med-12415598: new
+- doi-b48bd3e4d12cba8da408: new
+- doi-193468a97455959b1f12: new
+- doi-375014154943986cf077: new
+- doi-f5158f47831e128b679d: new; secondary-or-commentary
+- doi-250cc38b4d0442ed782a: new
+- doi-96080107e153c7eef39e: new
+- doi-3abfff92fc6c77768fa4: new
+- doi-75984939f471259974e5: new
+- med-15971438: new
+- doi-cf1971aaed0b1055b324: new; secondary-or-commentary
+- med-14727460: new; secondary-or-commentary
+- doi-191f8aab1c5abbd87f93: new
+- med-19876442: new
+- doi-314d8f53a672228bd293: new
+- med-28528602: new; secondary-or-commentary
+- pat-mx2010002885: new
+- doi-b9e69244998a69ef3e80: new; secondary-or-commentary
+- doi-ab90615b87759e7ac29c: new
+- med-25876898: new
+- doi-cb94d285e0083182cd98: new
+- doi-d095225e2c047c9d4215: new
+- doi-e1524dec6020d0097065: new; secondary-or-commentary
+- doi-b54fc6f8f80bdda44fef: new
+- doi-7d2ce85b822dd3753116: new
+- doi-4357bc9147003d019453: new
+- doi-e971d988a4eaf36151ec: new
+- doi-89130cb2f8789e42f6a7: new
+- doi-f2caf67b34d29e2fa3e5: new
+- doi-66872e664b489e1b237d: new
+- doi-a8ef54ad61e0943ee731: new
+- doi-2c911b382094c09ecb5b: new
+- doi-d79bf12a515d478224a3: new; secondary-or-commentary
+- med-24568038: new
+- doi-bc07b9d11df7c05311f4: new; secondary-or-commentary
+- doi-f72ae882dfeb71b70a3b: new
+- med-16200858: new
+- doi-35f26022697c86364307: new
+- doi-a8a5680ce25ca3c8e9e2: new
+- pat-ep2380877: new
+- pat-us2011237590: new
+- doi-651bdadc319903d502ba: new
+- pat-wo2010061971: new
+- doi-70f6a0d3e446da5a0ace: new
+- doi-fb1cb0164b61572f9a28: new; secondary-or-commentary
+- doi-e546a4e29588d841f9ff: new
+- doi-ba5bd594cc636a9bec53: new
+- doi-da0d68e0a88b2a73a59c: new
+- doi-869897272d8573d4b883: new
+- doi-766540ce31bfe4cafa87: new
+- doi-f5305f5f1eb921664924: new
+- doi-e13f6a704d18be0e7c64: new; secondary-or-commentary
+- doi-79a48efb0d5d08744cdb: new
+- doi-167eda88943420b3e143: new
+- doi-ec615b604f17f0db5713: new
+- doi-509a42cc95267ba5e863: new
+- doi-4bf788dd06817a435323: new
+- doi-e04962e7ffb6416dc696: new
+- doi-1c9ecc5629adc24da882: new
+- doi-5c7ad28e5e39bbcff29c: new
+- med-15648908: new
+- doi-648b82bee80c28ff9004: new
+- doi-38dffd13d064c867cff3: new
+- pat-mx2009010060: new
+- doi-8a5e63b2f2d47cb0e038: new
+- doi-8e2bcafe039c054301cb: new; secondary-or-commentary
+- doi-681b19bd74521dbc00fc: new
+- med-21268958: new
+- doi-d49f8e800089e12517c0: new
+- med-24811461: new
+- med-25005687: new
+- doi-807c642226b295bb587a: new
+- med-19403013: new
+- doi-075a4b1d63d8b05ae32e: new
+- doi-27380748a66177255ea9: new; secondary-or-commentary
+- doi-bd6e6e754a39baaca934: new; secondary-or-commentary
+- eth-625679: new
+- doi-013e7c4a1dfb8ef10f2c: new
+- doi-6b6e9b71a7a069bb1487: new
+- doi-c16ead1929a8ce95be11: new
+- med-15229938: new; secondary-or-commentary
+- doi-9003519e9023706a471c: new
+- doi-712a6eece7041e3bb232: new
+- doi-2deafabe95cc1adbdd9a: new
+- doi-b206742741e08b3a4b8c: new
+- doi-952a4891cac9a672868c: new
+- doi-78df14c0bf2227cf5a26: new
+- med-19767285: new
+- doi-314ada6f9e29f69300bb: new
+- doi-2fcbe303614a73355a1b: new
+- doi-b2af83622866c1cc473d: new
+- doi-b5e1a2b66fb69d1a187a: new
+- doi-ccc6ffadbd6afd7477fe: new
+- doi-6e405db5c1303aa0c918: new
+- med-24480592: new; secondary-or-commentary
+- doi-5231901c30093190f3e3: new
+- doi-778d58a5757e8950f49e: new
+- doi-a6c6f04801cfbdfc694b: new
+- doi-701ddb9e656c65d49a76: new
+- doi-bd59155691d3e3a582af: new; secondary-or-commentary
+- med-17195532: new
+- doi-2e3b17dd771b5416849e: new
+- doi-da61d888ed17a056b7b0: new
+- doi-2171aee49b982ac90976: new
+- med-12910201: new
+- doi-741e0139d73a4caf2c38: new; secondary-or-commentary
+- doi-2c2bc080ae06175aa44e: new
+- doi-39fd83523fda94c70034: new
+- doi-e323882de3380da462e1: new
+- doi-b128332591bab667747d: new
+- doi-619df62de8c5990e2287: new
+- doi-68c87864ebd83c112bea: new
+- med-12728974: new
+- doi-1055372470a7b625d4b0: new
+- doi-1d87b32b64c45e975b3b: new
+- doi-48b7ff62f0eda1044b9a: new
+- doi-fdc820114b4f2dff3145: new
+- doi-62c27a4ec78f776028b5: new
+- doi-cf32abdf17473246af2c: new
+- doi-66fc0dce191e0d3dae49: new
+- doi-32e723b74eb00f8376f2: new
+- doi-557ee7efeb930f3df3ff: new
+- doi-f022ece6fea444b39f13: new
+- doi-c265f249a46800fd9260: new; secondary-or-commentary
+- doi-a5a8a5ed14d996206906: new
+- doi-8e55bbb9bcb6bb1c30ad: new; secondary-or-commentary
+- doi-b445c2542d3f88f6d0b9: new
+- med-21703154: new
+- doi-3448b25c943fa381ff77: new
+- doi-6e83cfcf765afb0e17ca: new
+- doi-6a1b272d6bf128f4021a: new
+- doi-0861abc67cf1ea4a6042: new
+- doi-5bcc973db76a678f4763: new; secondary-or-commentary
+- doi-66300519d26f052da945: new
+- med-21983375: new
+- doi-80f88061b9a9fe483bdc: new
+- doi-440f5bb18e86d87bcd23: new
+- doi-57361a69380aa7f6b73b: new
+- doi-82c3d930e42ae6e4e18b: new
+- doi-8e37946221aacf6e3575: new; secondary-or-commentary
+- doi-d146e06f7e25fd2ff656: new
+- doi-1ac81592ff64ac7be239: new
+- doi-de9fac0d0145591ec2b1: new; secondary-or-commentary
+- pat-wo2009038759: new
+- pat-ca2699417: new
+- pat-us2009082331: new
+- doi-2f03983f4bdeb81ab877: new
+- med-15253489: new
+- doi-6507fd4d95cc02c5f3cd: new; secondary-or-commentary
+- doi-7ae0bb496057e95332fc: new
+- doi-ce4c385938e4a8e0403b: new; secondary-or-commentary
+- doi-11e9ee80de7d54c2f796: new
+- doi-2c3c133206caff1a28a4: new
+- doi-375070a2a574898f2111: new; secondary-or-commentary
+- doi-25d5f685ae8946aee752: new
+- doi-eab45c67e265410109fe: new
+- med-20180378: new
+- doi-cfdb40dbd47e38bf7dc7: new
+- doi-cf591d486f186a602e50: new
+- doi-3ebab76b89cbc0151c44: new
+- doi-8d6ac6dcf4bc4e67fae2: new
+- doi-9e272dad12075177ff4f: new
+- doi-9a3e6f0a3ea21acf4d94: new
+- doi-bc45612d72e977c0e735: new
+- doi-7a98edb5ae5ab3b7eb13: new
+- doi-2441143c45ce8a314a8f: new; secondary-or-commentary
+- doi-e46575935e087240a2d6: new
+- doi-2348a6406637217d8988: new
+- med-20868577: new
+- doi-8040f5a0be5710e4e948: new
+- doi-1d1ca071db9595c19558: new
+- doi-8ac47e2308d608bb0242: new
+- doi-2b3d63dbc0ddcc0524fd: new
+- doi-2afbcb8e3762cf8af351: new
+- doi-693a60dd5179b5b1c1b5: new
+- med-22169420: new
+- doi-b8e7b7edf7b4e278206f: new
+- med-23558092: new
+- pat-wo2009087900: new
+- doi-a3bce3f390703c7bdf0b: new; secondary-or-commentary
+- doi-01e96608a7d8f309b21f: new
+- med-21154167: new
+- doi-28cc3e73904f1facb84b: new; secondary-or-commentary
+- doi-53c4dea525304b4810cf: new; secondary-or-commentary
+- med-21968240: new
+- doi-d70882fee3649c3fcd72: new
+- med-21427662: new
+- doi-fc4ca9503e580f7100b2: new
+- doi-625c54d2f6c03b100537: new
+- med-19051714: new
+- doi-3fd41d8324898cbad810: new
+- doi-c0ed17cd7d6f93c8fad3: new; secondary-or-commentary
+- doi-74dc11764967be73389f: new
+- doi-1b51adc847675988599d: new
+- doi-b303f46c41f04d27dcc3: new
+- doi-9bd75e5667c377b26805: new
+- med-11828766: new
+- doi-14dc8ec801e2d22210df: new
+- pat-us2007155724: new
+- doi-e35941718a3f44ab1e71: new
+- doi-88b6e56e029018001f4d: new
+- med-21471747: new
+- med-23819339: new
+- doi-8f29a82d80d8c9ea252d: new
+- doi-ce40c433f86258bc1305: new
+- doi-d41f6de54943ed906af1: new; secondary-or-commentary
+- doi-95a1cf7cb4a90d7bb858: new
+- doi-248fa8cb3ccd6add7459: new; secondary-or-commentary
+- doi-4419e6d3dceccf06c369: new; secondary-or-commentary
+- doi-89323ff18dad94707761: new; secondary-or-commentary
+- doi-309908f23d662ff7520c: new
+- doi-59703602420ae2eb827c: new; secondary-or-commentary
+- doi-93bb9a515eb11f9a083f: new
+- doi-e8e508169c835f3a06e4: new
+- doi-27b757d660218bd20d37: new; secondary-or-commentary
+- med-19796538: new
+- doi-103a3bb77df54127f4e5: new
+- doi-e6e2c4ea7f96211afafd: new
+- doi-9c0d60d44a433a28489b: new
+- doi-89bfeaea32351a7a330b: new; secondary-or-commentary
+- doi-6576b567707a99ce7a3c: new; secondary-or-commentary
+- doi-081627b6dd05129d6cb0: new
+- doi-352a505ebe5a93493e78: new
+- med-21813062: new
+- doi-fc6de9fd3c969b9fba4b: new
+- med-17229626: new
+- med-26394190: new
+- med-18618988: new; secondary-or-commentary
+- doi-697d7e5bb60c14007c07: new
+- doi-2f0c9a556a23b525cdf3: new
+- med-17676073: new; secondary-or-commentary
+- med-26344806: new
+- doi-8d8aa3bce0d34eaaf07d: new; secondary-or-commentary
+- doi-fe7a08770fae3a572deb: new
+- med-15515776: new
+- med-20209850: new
+- med-14639865: new
+- doi-5f6ff1257b76d65b1cd6: new
+- pat-us2010297735: new
+- doi-13041c743d0c5218480d: new
+- doi-be661e3d94376785e20a: new
+- doi-0b9e8d19f1ee40666a6c: new; secondary-or-commentary
+- med-19237836: new
+- doi-c0def7bec1ed8a1a812d: new
+- doi-daedf4132d4fbff92277: new
+- doi-cbe5ad7681a1b92da138: new
+- doi-cfd201d2de7270157b4c: new; secondary-or-commentary
+- doi-90cfe336d2b71663fa96: new
+- doi-2ec92986991f83e4b5d4: new
+- doi-27dc8ca87d2360e23d85: new; secondary-or-commentary
+- doi-8029d7922640903b942d: new
+- doi-4454864403a60c0df47b: new
+- doi-bbb630e64c9803f7ef80: new
+- med-11904973: new; secondary-or-commentary
+- doi-8bbe293728fa686fe8c7: new
+- doi-ad1c7c5d53c490794f56: new
+- doi-66286a35f9583663e5a8: new
+- doi-11d14f4a72e0bc11b7ac: new
+- doi-0318ef7fbf72686ba3c2: new
+- doi-57575af3cc2f35e63345: new
+- med-17949560: new
+- doi-b39e4cbd57f7570dd54b: new
+- doi-3879289744eccb2101fd: new
+- doi-e19a39df36720f4eceb3: new
+- doi-1372d13ef916cb4af729: new; secondary-or-commentary
+- doi-66a482b18033ca0da148: new
+- doi-44ce4ed999f79c540e13: new
+- doi-da1217ecfaf93cbe83a5: new
+- med-19026122: new
+- doi-a86b58b855dd4f5dce89: new; secondary-or-commentary
+- doi-904e8a6e80460179c173: new
+- doi-0a2b9cfbb78b1d759b2e: new
+- doi-81b492c031366817a181: new
+- pat-nz578974: new
+- doi-1a239500e05d60c9cdc0: new
+- doi-b692589f896bd404bb61: new; secondary-or-commentary
+- doi-2ee151127fdaa164a8e4: new
+- doi-2b500c6e6579a1eda60d: new
+- med-11246667: new
+- doi-cddee108d3fbc82cb441: new
+- doi-c1ac753eed6a50e7bdcb: new; secondary-or-commentary
+- pat-ep2364976: new
+- pat-us2008027036: new
+- med-11715104: new
+- pat-wo2007109334: new
+- doi-1af049fd393b13c140d6: new
+- doi-f87c3fa0ee62a233d782: new
+- doi-62e0d363a910e443b5c0: new; secondary-or-commentary
+- doi-b23a192fc246f7e04f84: new; secondary-or-commentary
+- doi-33bab60c15a890b36c51: new
+- med-18524110: new; secondary-or-commentary
+- doi-09020948df6e8b9e6599: new
+- pat-us2004265341: new
+- doi-e1718e08b043fbc770d4: new
+- doi-c44c1a31af8e1348acb0: new
+- doi-6c90d66212938327c045: new
+- doi-76195543343bbd8f65b6: new
+- doi-090e564239d238379890: new
+- doi-922c7f1f969137807115: new
+- doi-a29f7bdfab7557252edd: new
+- doi-d153eb5ca9f9ab101c0a: new
+- doi-91171c4e3433f9680a91: new
+- doi-65f3bb4ef640de750c80: new
+- doi-e022428307b20a894f05: new
+- doi-7969e2d114e3c5313141: new
+- med-20868569: new
+- doi-191e358085c8d4ddfa56: new
+- med-17948088: new
+- doi-cf473349a4f915ea4e30: new
+- doi-c1a076222178da8b0683: new
+- med-22937487: new; secondary-or-commentary
+- doi-84fa133443304837197d: new
+- doi-4c0e8144a2c0e1e7361b: new
+- doi-a28c177b61fad4d7f5e8: new
+- med-21968239: new
+- doi-934f1e9f7248d83b6df4: new
+- doi-237d7d5c8ee73dbe768a: new
+- pat-ca2454705: new
+- med-17949548: new; secondary-or-commentary
+- doi-f9a5072f71fd2cc80b3b: new
+- pat-nz570308: new
+- doi-1c3cf30d2cc5decfa449: new
+- doi-755308eb982b293a8d30: new
+- pat-us2008064677: new
+- pat-us2007173487: new
+- pat-wo2007061458: new
+- doi-04a115126e8ac9135ba2: new
+- med-15499722: new
+- doi-df21f93329fa0b21cb7c: new
+- doi-9a66525ac59f69b3a512: new
+- doi-a0e5d6426b4539edcc1b: new; secondary-or-commentary
+- doi-907975522233aacbef71: new
+- doi-aadb7f76561fea1496af: new
+- doi-4e81ae71fbc05c3e5ef7: new
+- doi-ebf778f9cf8704d23858: new
+- med-22800746: new
+- doi-92f8111e853bebc56a74: new
+- med-16432604: new
+- doi-67510e65730c347300d6: new
+- doi-54bbde7c3b8ccb009cea: new; secondary-or-commentary
+- doi-79bb6c395df168b30153: new; secondary-or-commentary
+- med-16273763: new
+- doi-807d868407500b7080d3: new; secondary-or-commentary
+- doi-492add33abd308261d16: new
+- med-10021782: new
+- med-17162301: new
+- doi-f55096e28e3fb0e5dd50: new
+- doi-961302a3497314b99090: new; secondary-or-commentary
+- doi-e3aa7684340738f90105: new
+- doi-5d27758c991aa147567e: new
+- doi-cf0070bfbbe74d56f2ad: new
+- doi-b4f620956baa9f8c4c3d: new; secondary-or-commentary
+- doi-9a6bcd4024b4060bab9d: new
+- doi-d81ba042b0fd0a823d59: new
+- doi-d11e8da8494eabceafb7: new
+- doi-7d8ddaed107124dc0508: new
+- doi-0add3712ab8fffe08f8f: new
+- med-16422220: new
+- med-11361184: new
+- doi-9c97b7921db445005cf5: new
+- doi-8f676b764f6d67ea5ff8: new
+- doi-d2a6b17c63a0267bfff1: new; secondary-or-commentary
+- doi-6c3653475e078486a92c: new
+- med-12580032: new
+- doi-d352c2da378afa09fde8: new
+- doi-f56c1288012f60a0c9dd: new
+- doi-d72ead2a1649ca2cdee4: new
+- med-17583610: new
+- med-11726628: new
+- doi-bad5d3ad8d3c745ebf8a: new
+- med-16986703: new
+- med-17402560: new; secondary-or-commentary
+- med-15989001: new
+- doi-25f12fcf05f937f13257: new; secondary-or-commentary
+- doi-fd01c665c24d86ad7fad: new
+- med-10410270: new
+- doi-c8d1788d3a3ac993addb: new
+- doi-5dfd931858bb0fb929a7: new
+- med-16422366: new
+- doi-5346123e0c8665819713: new
+- doi-9608f652502caab12b33: new; secondary-or-commentary
+- doi-7396d65baffeab4b2159: new
+- doi-73d1d4eb1181af224cb0: new
+- doi-958bc71d7b8bb6569e60: new
+- med-16396710: new
+- med-19026129: new
+- doi-b44b4b0f3dbdf21b59e6: new
+- doi-738c4a62b043759fb0cc: new
+- med-9888451: new
+- doi-1f313eda65abf5c61dcd: new; secondary-or-commentary
+- doi-df79addcec689de52c6b: new
+- doi-692a6874f9fa7898def5: new
+- doi-c64db32e918e611ff95e: new
+- doi-3956a58cf8b9e131e842: new
+- doi-80ac4eee3d5df12abe70: new
+- med-15532777: new; secondary-or-commentary
+- doi-42e7dee330d2b0e0b56f: new
+- med-11128675: new
+- doi-9eaf4dfdc89fcbd62eb2: new; secondary-or-commentary
+- doi-7bc4ae8a7704f84fc625: new
+- med-18386241: new
+- doi-1eb60a45101fb9a5289a: new
+- doi-9d92813c540006cc9d44: new
+- med-15319164: new
+- doi-a67a873e7e70600911da: new; secondary-or-commentary
+- med-23674967: new
+- doi-bd66b4533da89ae8bc0d: new
+- doi-a66cb728ca9470628142: new
+- doi-84483300829fae99fddd: new
+- doi-5beeb4d97c216aa518e7: new; secondary-or-commentary
+- med-21968236: new
+- doi-f4ef362b82aefd884bee: new
+- doi-8c9ed9bd6676aec19922: new
+- doi-8db04d95351015c7dbbb: new
+- med-15521488: new
+- med-17106558: new
+- med-19796533: new
+- eth-667284: new
+- med-25527038: new
+- doi-71a54a2e2f49e284b546: new
+- doi-98b31e017cac112798cf: new
+- doi-130012a2d9638972d608: new
+- doi-6b47a116b9fb31271c2c: new
+- med-11063143: new; secondary-or-commentary
+- doi-9baa4bf0f90eb1124bd9: new; secondary-or-commentary
+- doi-ace89704b160fbb8ec67: new
+- doi-242a1e21be5c773332e8: new; secondary-or-commentary
+- doi-e2c824442a5224796bbe: new; secondary-or-commentary
+- doi-be8323f576e0c7febddd: new
+- doi-ee9e84039556b421a20b: new; secondary-or-commentary
+- doi-9b5816c061593636b71f: new
+- doi-d86e4ca8bf7d571ed221: new
+- doi-fcef1d01a4177ac02bfc: new
+- med-20868571: new
+- med-23649031: new
+- doi-7dfda58c0b73dad45665: new
+- doi-a5b2d229bd870dd8b858: new
+- doi-3a30531e3f2007baf4ae: new
+- doi-0cc3452e0dc1ffd42508: new
+- doi-147626cec3673d1ec1fd: new
+- doi-f2705b7599e48c5f1b7c: new
+- doi-ddd12c7e2b2c11107571: new
+- med-16273765: new
+- med-7661173: new
+- doi-06a17f627efc3d5e59aa: new
+- med-15005013: new
+- med-15383961: new
+- doi-31a5377647fad1676ff5: new
+- doi-3ee4f98be4f859c7479c: new
+- doi-320853ab53bc74a95a0d: new
+- doi-ccd9e14f951e4eb252c0: new
+- doi-79a4d9c1741a62f3992e: new
+- doi-25af237fe013594db1f3: new
+- doi-49656cb2698dd8f51fb4: new; secondary-or-commentary
+- doi-7e0878920756b845c68f: new; secondary-or-commentary
+- doi-ae9b863e2fc173413df2: new
+- doi-19bcd90ac3cc0819f691: new
+- doi-ccf95dda1cf1fcad61ec: new
+- doi-7f0e068ca7a8f1fe66f4: new
+- doi-098c0e164955dacd3d00: new; secondary-or-commentary
+- doi-3ecf5a01d6d0953e6c1a: new
+- med-15711689: new
+- doi-c0c4df0f38e1209989e4: new
+- doi-4eeffcc1870e742623b3: new
+- doi-a927c35b9d5b671c1812: new; secondary-or-commentary
+- doi-f58aa6906eb53c26a841: new
+- doi-666fcf3525e15b23fdb4: new
+- doi-01fbc3f87e39422c6f7d: new
+- doi-d41e522f1c6a09c847a5: new
+- doi-34bab54c4ba7f5be8127: new
+- doi-1a7c556fd7b2c2a5f9c0: new
+- doi-d8235487f0b290ca5ed8: new
+- doi-153039976e6217968da7: new
+- doi-7fae3946368b08f2aca2: new
+- med-17508308: new
+- doi-fbb604c2b87033562e9c: new
+- doi-9b700c52d59e2aaffae6: new
+- med-17075668: new
+- doi-9b74ee7d8ab503b43d06: new
+- doi-4c20c48f384b66f1e589: new
+- doi-5bd4c9f7c225d579753d: new
+- doi-e116cd40be7df8949cd8: new
+- med-11907956: new; secondary-or-commentary
+- doi-c80b5604fb536da09530: new
+- doi-f8b434f4807437987e0b: new
+- med-2057745: new; secondary-or-commentary
+- doi-00c171e48865fd9db59d: new
+- doi-2480fa8fac70cd48af5f: new
+- med-18798414: new
+- doi-e80522c6f1b76aaf9dd5: new
+- doi-85b855b047f363520585: new
+- doi-998f876cff4467705b15: new
+- doi-260a74d252cb1e86d53c: new; secondary-or-commentary
+- med-15675135: new
+- pat-wo03022273: new
+- med-17949558: new
+- pat-ep1427412: new
+- doi-ec5a6c3b4ac5f8ef5ffc: new
+- doi-ab75cd5711fd3b5ed9ac: new
+- doi-368e60c614ac6a364ffa: new
+- doi-1f41d0ac0f8551713e56: new
+- med-8851155: new
+- doi-9c5ef8ec5440fda8900a: new
+- pat-us2003060455: new
+- doi-14f3f71d2cd44654a964: new
+- pat-us7211575: new
+- med-9314623: new
+- doi-fbac506fdc5b811a5ad2: new; secondary-or-commentary
+- doi-c796f816d1729a263704: new
+- doi-8069e8c6f28c17422499: new
+- doi-8e70d019f7335a8ddc27: new
+- doi-0f6fc7b385ccb17d04bf: new
+- med-20868566: new
+- doi-eff100c1e4e9d89a0671: new; secondary-or-commentary
+- doi-754211066d682f3ed5bb: new
+- doi-97d2627a305fcd563c1f: new
+- med-16273772: new
+- doi-8ddc8134407bc93b9406: new; secondary-or-commentary
+- doi-7929bb1e859affdf7dac: new
+- doi-41991f8a40bfe75873ab: new
+- pat-mxpa06011521: new
+- doi-d9dd75c541dfd953f934: new
+- doi-624d52f0d374e41851f7: new
+- med-11687870: new
+- doi-5b00ab0b1ad347902a86: new
+- doi-bdf1269879b8dc9c61ec: new
+- med-7492938: new
+- doi-e3e4d23ec3d42576261b: new
+- doi-8e42d6f35a58fea7a324: new
+- doi-7d53f7271980992c6e62: new
+- doi-6553b9785d8eb44a8bea: new; secondary-or-commentary
+- doi-e6dd0a6bb2fb85064e6c: new
+- doi-ecbf9e02050c9605c960: new
+- doi-19cba21c65d9b52028d9: new; secondary-or-commentary
+- doi-9d1ec174aa259efbe6c9: new
+- doi-478f7e6a158256235e0e: new
+- doi-654f91aedc905d813204: new
+- doi-0e632933245e322639da: new
+- doi-dae75031407f42da12b5: new
+- doi-87543ee3441bce9324ee: new
+- doi-74fa69709fe08f316cfe: new
+- med-12455182: new
+- doi-b0783ca1b2815892e545: new
+- doi-e2e76d1bf18dd126df1b: new; secondary-or-commentary
+- doi-9ff8cedea747bbb75564: new
+- doi-c02a4bda58b1c27ca7c9: new; secondary-or-commentary
+- doi-e58ba029ed1831956ceb: new
+- med-11760411: new
+- med-7611009: new
+- doi-b04701d24352d61e65c0: new
+- pat-cn1579396: new
+- med-12080561: new
+- doi-eac5e064598b1fa525aa: new
+- doi-8e3760de3d63148e741e: new; secondary-or-commentary
+- doi-dde99150b0060ae532f4: new
+- med-19474778: new
+- pat-kr20070008682: new
+- doi-bec67c04ecb760967a7b: new; secondary-or-commentary
+- doi-e30f5d1885fd19ff9857: new
+- doi-d7d186c16c726909c234: new
+- med-12532744: new
+- doi-eceda387ff49e287ec77: new
+- doi-6d01bbe4eaeec3b42c83: new
+- doi-0af3fe76a1e81b2416b4: new
+- doi-0c5adbc05da6e68401f2: new
+- doi-8db1fbf813004ce9e268: new
+- doi-44c939843fdf49783690: new
+- doi-6e8bf7935c479d156cd8: new
+- doi-cbaa3af74a86af5fb1ea: new
+- doi-d2a6a4f59c833a16d5c1: new
+- doi-efdfce0906b6db9f91ba: new
+- doi-cacedf55932b1f24e0cc: new
+- med-16273774: new; secondary-or-commentary
+- doi-9e83f11ab81ef833bdca: new
+- med-12371620: new; secondary-or-commentary
+- doi-0289d1b3cf338bc9b73e: new
+- doi-c87b778d16424485ea81: new
+- doi-7c8dd9cb81b612d19aee: new
+- med-12463467: new; secondary-or-commentary
+- doi-851159d52250708529f3: new
+- doi-9e36c6609414fcb57a0d: new; secondary-or-commentary
+- doi-b1f0e1e900fd47cd1d37: new; secondary-or-commentary
+- med-15779593: new
+- med-8809448: new
+- med-11126682: new; secondary-or-commentary
+- doi-0a49519d8cf3697a3cf5: new; secondary-or-commentary
+- med-15067246: new
+- med-23377424: new
+- doi-6a9a2e3b439b759b1a73: new
+- med-8953895: new
+- med-8146546: new; secondary-or-commentary
+- doi-d1e410989ecb20ffad17: new
+- doi-f1f59c4dad73b5c545e8: new
+- doi-f6d3181365d252e4c6fc: new
+- doi-382f3ef9d4242b0553ad: new
+- doi-f1eee98d1c6cf1c4c866: new
+- doi-d281742c6a234c140132: new
+- doi-fe135df5952114732e45: new
+- doi-4abdc43b48691fc7a6c8: new
+- doi-ec5894cf95ae804f9f52: new
+- doi-99fc2c3aff1e721d3f85: new
+- doi-498b4b5712dbc0197f4a: new
+- doi-29ee3d3791182a91a359: new
+- doi-16c049c577c4769ca79c: new
+- doi-14a160bec619ffe0c89f: new
+- doi-7a2e70cb09ab6f223bb4: new; secondary-or-commentary
+- doi-483465291a5ad1352f35: new
+- doi-5477b935e968e48cd496: new
+- doi-7fc93b8d4369db1c4346: new
+- med-17949562: new
+- doi-0208a1b184d56a429845: new
+- doi-2bf40186d196c2952f8b: new; secondary-or-commentary
+- med-12096532: new
+- med-19796528: new
+- doi-e33fea1a32759fc9484a: new
+- doi-6ff8f9e3991f2d1b5e8a: new
+- doi-8d51d52b6ee015b93c1c: new
+- med-10685825: new
+- doi-091c1007cda46d7f02e0: new
+- doi-3eda12cd87d5c3da6bb7: new
+- doi-99012139a6bd64e75696: new; secondary-or-commentary
+- doi-0be581a9e3fc67733ce9: new
+- med-8731765: new
+- doi-4ad81ff8315a0976923b: new
+- doi-20be6c5232d9e20ac340: new
+- doi-8872c442a2718bb32373: new
+- med-10637674: new; secondary-or-commentary
+- med-8768028: new
+- doi-fa98d55e9d3e750dd18a: new
+- doi-50cac6d736dbe29214e9: new; secondary-or-commentary
+- doi-02a2d7650007a8fded48: new
+- doi-fd8f08602bc265cbbdeb: new
+- doi-9ea334f7fdf610fc1bd5: new
+- doi-91d7759c214d378e6e87: new; secondary-or-commentary
+- doi-0cbbc92baf1a127ab40b: new
+- doi-c21c98cbf46e45f3deb6: new
+- med-8261708: new
+- doi-adff2ab0461ea0378d07: new
+- doi-f7430719bffba51cba07: new
+- doi-0755997d697647980d31: new
+- doi-6bd6d3b82e7cdb3084e5: new
+- doi-7d89db2a94bf19097664: new
+- doi-fe92ca05d690552748ea: new; secondary-or-commentary
+- pat-cn1977040: new
+- pat-us2007254829: new
+- pat-wo2005097973: new
+- doi-5376554d6fa40080d614: new; secondary-or-commentary
+- doi-7435401ee713f1aea61f: new; secondary-or-commentary
+- doi-1ddb5359b557171d5024: new
+- med-10626485: new
+- doi-4b520f51e4a531e19bdd: new; secondary-or-commentary
+- med-15656400: new; secondary-or-commentary
+- med-7643487: new
+- doi-63425b53f1518595c7a0: new
+- doi-a45e9c7abad8e8eaf2d6: new
+- doi-a9896c0299214d60def8: new; secondary-or-commentary
+- med-10078008: new; secondary-or-commentary
+- doi-5cf77d0d3eaedb52cdc9: new; secondary-or-commentary
+- med-7855524: new
+- doi-cf27cbcf4b61fc6ad4ab: new
+- doi-14f16b75e0adda15a306: new
+- doi-a477b7fd694de649e027: new
+- doi-a905514a9232c30ab8ab: new
+- doi-e4b424e7e4896f04beff: new
+- med-17067439: new; secondary-or-commentary
+- doi-c6f06fb59ffb20159185: new
+- doi-b7e13a28ae7232d2423f: new; secondary-or-commentary
+- doi-e243cd42b38a948bf529: new
+- doi-2097746c6140647823c3: new; secondary-or-commentary
+- doi-a1272c751328714f03e1: new
+- doi-60f92a07e8747f7277db: new
+- doi-6c5f5a7e96965d438437: new
+- med-8328343: new
+- doi-13fdb2dcb2bc683c746a: new
+- med-16951782: new
+- doi-9dee5569f22186b9b7d2: new
+- doi-b949638149a9e18ff1c0: new
+- doi-772440f5a7b6e2de8e7c: new
+- doi-2fdcf5a8140c7a9f016c: new
+- doi-7245583f0f7fbf08454f: new
+- med-10756370: new
+- doi-6e46a9e6cc5e9c004f1f: new
+- doi-75365aca49f7721b5978: new; secondary-or-commentary
+- doi-5f291d3f71a1815c7c23: new
+- med-11760400: new
+- doi-084bd203b5e558f51526: new
+- doi-5276a1611c166799fb44: new
+- doi-582b4a01dbcd710d5d68: new; secondary-or-commentary
+- doi-19e2664bd85489ba2b70: new
+- med-7723207: new
+- doi-00223fec27f212748dc3: new
+- doi-94c8b1238397ff1df28e: new
+- doi-fe53a1f616718171e799: new
+- doi-5333bd3e296be4b756a3: new
+- doi-027fb132ea80370fa6d5: new
+- doi-4dd10edd8f1693921cae: new
+- med-10638247: new
+- doi-80b302632e7dac07525b: new
+- doi-494f3b1e9d032ff1ec8b: new; secondary-or-commentary
+- med-10342043: new
+- med-12407301: new; secondary-or-commentary
+- doi-28bae8754880718cb47b: new
+- doi-83ae0299e10ad3501527: new
+- doi-a7b05372af4620757be7: new; secondary-or-commentary
+- med-8213367: new
+- med-11760399: new
+- doi-5b6a239a03e7f93352d1: new; secondary-or-commentary
+- doi-caff4b1e85f4e058b101: new; secondary-or-commentary
+- med-1721456: new
+- med-7810037: new
+- doi-5fb55ab9924e4e99fd0e: new
+- doi-a809df2d06f2364fd89a: new
+- doi-1c76d49f655ee56da31a: new
+- med-8167635: new
+- med-1442354: new
+- med-12180731: new
+- med-9922996: new
+- doi-22ecb6bf5c9e194b897c: new
+- med-27265857: new
+- med-15515789: new
+- doi-de8b470c9d1f8e08798f: new
+- doi-dd56e2d2b1c449fb8f20: new
+- doi-1bbe45d4b2b61e3aa89f: new
+- doi-c9b5930e53a1e81fb1b6: new
+- med-23978963: new
+- doi-8021b88c9d8d1f161664: new
+- doi-a35c2d2a68f3bc501b05: new
+- med-11760395: new
+- doi-f7b0eb426988eb550771: new
+- doi-09603d0e923b4a624f75: new; secondary-or-commentary
+- med-10835887: new
+- med-17067096: new
+- doi-6e241430370967a01977: new
+- doi-44cda0ab0a5b5b8fb442: new
+- doi-943006c48467d747c674: new
+- doi-6fad9924dc8a1ca33f79: new; secondary-or-commentary
+- doi-e91e5b07e5588ff058fa: new
+- doi-f72f3c41f972138d0812: new
+- doi-0e04f97504d1011364a2: new; secondary-or-commentary
+- doi-d1231559522a33be2ebc: new; secondary-or-commentary
+- doi-b6a1a7568fa29d320889: new
+- med-9149201: new
+- med-10394379: new; secondary-or-commentary
+- med-9814003: new; secondary-or-commentary
+- doi-35731a5fd159768100ec: new
+- doi-2b7d558af7d71fb09b59: new
+- doi-2fb47b5311880805f127: new
+- med-10686638: new
+- doi-33a5ba89f6a3851e8c31: new
+- doi-d533bc13f7a0b8d36064: new; secondary-or-commentary
+- doi-a419a981acd1d842643c: new; secondary-or-commentary
+- doi-4c1d0cc8e5787b1fe489: new
+- doi-5bf7026c061ece3a562a: new
+- med-17013480: new
+- med-22266434: new
+- med-10434195: new; secondary-or-commentary
+- med-15515785: new
+- doi-d4f13f5d46d1fef78c4e: new
+- doi-fb57ed3e42d23f4393e0: new
+- doi-53a854c59457e2ac4a2c: new
+- doi-222743847f2e6ef19bfc: new
+- doi-ca980c3cccf96796af09: new; secondary-or-commentary
+- doi-bd157fbccf6e36312105: new
+- doi-3b95d1deb6441e5cca5b: new
+- doi-c2c7ae27450d871348de: new; secondary-or-commentary
+- med-12692989: new
+- doi-07f9df5e42722fe0c039: new
+- doi-7e964513f812e27db9d1: new
+- doi-411416046a70b5a8ecbc: new
+- doi-63ce5c7112edb797084e: new
+- doi-fc8925cd09b289dad39b: new
+- doi-608962453b9cf7c753ce: new
+- doi-4ab2002d294ab7b9cc42: new
+- med-17949553: new
+- doi-c0780c015294a7a46388: new
+- doi-a87015f5afa79a61d67d: new
+- med-11760402: new
+- med-9375883: new
+- doi-893ee87a3ed45cf86e60: new
+- doi-a19e3ba9b2cb1500a7ce: new
+- doi-856ef337bff135403f0b: new
+- med-11045124: new; secondary-or-commentary
+- doi-a978cea91aa4314890e7: new; secondary-or-commentary
+- med-9633221: new
+- doi-4572e897fa172ad21870: new
+- doi-4465a0ba29265716c401: new
+- doi-69f83ef52f78a55effd0: new; secondary-or-commentary
+- doi-08faf7afa2cc62d9639e: new; secondary-or-commentary
+- doi-4012b9835eedcc0455eb: new
+- doi-cc30c01c0d687853db2d: new
+- doi-1600e0c0ec98cc4e3ffc: new; secondary-or-commentary
+- doi-d0c4c03306f8779ae1b7: new
+- med-1283052: new
+- doi-fb38c3f6cc93af27217e: new
+- doi-040650a62a68996a74c6: new
+- med-15338501: new
+- doi-da3b382a74fe3d051bac: new; secondary-or-commentary
+- doi-6395daaaa8010e8d3bfe: new
+- med-24185184: new
+- doi-28b69c3a5cde2b9c69ea: new
+- doi-4ec4c0cd6e05f2bb6e15: new
+- med-17974445: new; secondary-or-commentary
+- doi-9eb54bdc217fddc7d572: new
+- doi-a298f83aa12175586237: new; secondary-or-commentary
+- doi-01f22704241d79472d96: new
+- med-11040545: new; secondary-or-commentary
+- med-10637673: new; secondary-or-commentary
+- med-15515778: new
+- med-17949554: new
+- doi-32c95c47f486c75ba8e2: new
+- doi-6e4daec067d17b1c8b18: new
+- doi-07829d57729520ed6d23: new
+- doi-454ee42e4130f14a64dd: new; secondary-or-commentary
+- doi-6bb3ef6b6c1b4ded0585: new
+- doi-497b3b8c3cdd961c677f: new
+- doi-fb9193a66d0c4faa58f4: new; secondary-or-commentary
+- doi-ab52d2f56a2f26c8d81d: new
+- doi-238eb71e0bbe1b85ddad: new
+- med-12015484: new
+- doi-270d8df6a53ef10d7aa1: new
+- med-9101104: new; secondary-or-commentary
+- doi-049837a55107102df8df: new
+- doi-c23553a89a7f97575e23: new
+- doi-9384049befd3e5149824: new
+- doi-1d6bc4f750fd3ecffcc4: new
+- med-9244909: new
+- doi-e7b4d43b8f2bd01d64c5: new
+- med-3049882: new; secondary-or-commentary
+- doi-b200ace058b9c44f39d0: new; secondary-or-commentary
+- med-9706437: new
+- doi-5b3a41d868c3e5d29bf6: new; secondary-or-commentary
+- doi-a393e1f1b1099872a7c9: new
+- doi-4f5628a830e282ef5957: new
+- doi-e1e41ecaa250dcd71f4b: new
+- med-16151256: new
+- doi-25558262f47ef68a9282: new; secondary-or-commentary
+- doi-3d7ce3e1690e39e42f86: new
+- med-3261815: new
+- doi-d73d3a6c47b7c2b54260: new
+- med-9465618: new
+- doi-226c70d4dcd6a3822efb: new; secondary-or-commentary
+- doi-13f05a51bc6da21abb8d: new
+- doi-80b958bf5fe14353a46d: new
+- med-9284594: new; secondary-or-commentary
+- med-9040975: new
+- doi-ee01f7487e010e096b4d: new
+- doi-8275bd3cc7cd58558032: new; secondary-or-commentary
+- doi-d0d453d34f8ce9b8a5a2: new
+- med-8879863: new
+- med-9133098: new
+- doi-06213caaf3088e567490: new
+- doi-8dfed851d8b5086a36ac: new
+- doi-7e1ecf738532c6ba1e36: new
+- doi-56fce3ab5ac9d14fe30e: new
+- med-11321827: new
+- med-7660379: new
+- med-9508495: new
+- doi-6db7cbe1846840329e43: new
+- med-12015487: new
+- doi-b751ff4945a7393f77c4: new
+- med-9147744: new
+- med-2235010: new
+- med-11965089: new; secondary-or-commentary
+- doi-d9a6e4dba8e11d9a1a56: new
+- doi-9a930d7cc33ea33951bd: new
+- doi-28ee65f688f3b88fbc4e: new
+- med-10544693: new
+- doi-caa1426d66e3bfa3f120: new
+- doi-2ae1cef04bf3867004fb: new; secondary-or-commentary
+- doi-08a49581203ad239a67a: new
+- med-8577084: new
+- doi-30578fbb8475a0d88652: new
+- med-2257701: new
+- doi-dc19b699a92dcac52951: new
+- doi-b0787e3592c34ab17b4c: new
+- doi-7f3059d31c3c53294c1b: new
+- doi-328f69989eafa10a6f21: new
+- doi-81d7d4c71470e9696438: new; secondary-or-commentary
+- med-14978431: new; secondary-or-commentary
+- doi-b685b3692de8ee640908: new; secondary-or-commentary
+- med-11273484: new
+- doi-dc69af489d6813f9c076: new; secondary-or-commentary
+- med-11933537: new
+- doi-cc69358f03907c69fad9: new
+- doi-1cd6ab526103031b6dbe: new
+- doi-5e7a4b6ec72f2fff3c45: new
+- doi-5078b582ab9f2366594c: new; secondary-or-commentary
+- doi-8208eaa3303cd61151c8: new
+- doi-23cc3fcc8fb43ed8679c: new
+- doi-b4e3bd29db5a7193d489: new
+- doi-25af891bac93a94d2ae9: new
+- doi-14c809957ddf081d92a7: new
+- doi-a262a09834fd2ca3cacf: new; secondary-or-commentary
+- med-10637668: new; secondary-or-commentary
+- doi-cc5465924a33cee9ffce: new
+- med-2605975: new
+- doi-33551df2de65efc101f4: new
+- med-1300863: new
+- doi-0c4023e0fe337cafbfa2: new
+- doi-fab344e641c7d5bffde3: new
+- doi-f2526ca0add3f44f85a7: new
+- doi-e213cb51962e075577ae: new
+- med-11246666: new
+- doi-c4a48057b5f8f3b6f7f8: new
+- med-9517770: new
+- med-8594659: new
+- med-15691155: new
+- doi-8ac0b955294e80403de9: new
+- med-9489828: new
+- med-1589128: new; secondary-or-commentary
+- doi-f63362b90d2ce7bb131f: new
+- doi-b2a46c45fd6a7a0fc316: new
+- med-15168986: new; secondary-or-commentary
+- doi-368d3fe9b9358831d054: new
+- med-2669595: new; secondary-or-commentary
+- doi-63725fce5928318ca09b: new
+- doi-d7d49a1677ca1d3756ef: new; secondary-or-commentary
+- med-12015488: new
+- doi-dd6981ab75dff44d649c: new
+- doi-5448be34e311a50ea2a2: new
+- doi-e706a356779e9f66a1b8: new
+- doi-4587bf18b326ea1172f8: new; secondary-or-commentary
+- doi-f78521ef4c806f765c4c: new
+- doi-35b6711a54fafc8ed76b: new
+- med-3502130: new
+- doi-4d48b9935dbe97b33084: new
+- doi-c13571e095bdd6d254ee: new; secondary-or-commentary
+- med-7617972: new
+- doi-7812e38983a914726e50: new
+- pat-us2008306080: new
+- doi-1e6ad89e1e4b363d488b: new
+- doi-710e1159ffc116cb0712: new; secondary-or-commentary
+- doi-9f89ebec21bde1811556: new
+- med-2636238: new
+- med-8741153: new; secondary-or-commentary
+- med-2641112: new
+- eth-642759: new
+- med-3049880: new; secondary-or-commentary
+- med-12023747: new
+- doi-57d6fcabf06c705a6b9a: new
+- med-9409968: new; secondary-or-commentary
+- doi-9b8d3789bcdba6107f27: new
+- doi-2470b52fbfda133a7e95: new
+- doi-377f375e3b49f983770e: new
+- med-7723211: new
+- doi-c9b56aa37dc977a59a58: new
+- doi-aef6f2e645a7293826cc: new
+- doi-56bfd64eac993933ad09: new
+- doi-964199b3945121e9e418: new
+- doi-9605b7545926abbfd7bc: new
+- med-3007826: new
+- doi-d5268d79a7711f7f0488: new
+- doi-38932cd0fe84a799410c: new; secondary-or-commentary
+- doi-b2fe1ff06fbabc526fb5: new
+- med-9125733: new
+- med-10506891: new
+- doi-48e11e79b3c17b278ad4: new; secondary-or-commentary
+- med-8151529: new
+- med-2607080: new
+- med-9818673: new
+- doi-779814716f04adba699c: new
+- doi-b5cd2545f01221576186: new
+- doi-9c3ce7c313742717f1b0: new
+- med-9760800: new
+- doi-0c3b26b8eab074a8b6a6: new
+- doi-b3dc3219641647510cfd: new
+- doi-7664951d67a0c5f9b0b9: new
+- med-10555901: new
+- doi-f16d211b34b45f10fa49: new
+- doi-e426009d2e4d9b92c7a7: new; secondary-or-commentary
+- doi-3fa22ad023e12b02f10e: new; secondary-or-commentary
+- med-15258375: new
+- med-8315882: new
+- doi-51296fd7dea9ece32983: new
+- doi-05e056de9f86e24cfd09: new
+- doi-20d0190f10d2c3267420: new
+- doi-22acb3d907e8b1f9f9c0: new; secondary-or-commentary
+- med-9649665: new
+- doi-67407bff6ff0f50a5a2e: new
+- doi-1cf30c59c7613a7d3c88: new
+- doi-2b90fe0fdebde4728d82: new
+- doi-ccbb8ffeed66614cc8c0: new
+- doi-f607d11af4b2a285527a: new
+- med-7229266: new
+- doi-6bd821d83b28b79214a6: new
+- doi-b5b6f7289562e74b1756: new
+- doi-618831460e14230873a9: new; secondary-or-commentary
+- med-9840614: new
+- doi-86b6ff973d06720be8e0: new
+- doi-c360983ca25e30f6b8bf: new
+- med-1474511: new
+- doi-4f4a7428ae66d5641547: new
+- doi-30c8fc10607e07da20cb: new
+- doi-db503a8e186df2858119: new
+- doi-701028e9688c725e276d: new
+- doi-67cfaf0a19c753879d05: new
+- doi-dd91b374fe73d526f935: new
+- doi-e3244b4f8ecad4f440d8: new; secondary-or-commentary
+- doi-e8b30d32b446238439e4: new
+- med-1543660: new; secondary-or-commentary
+- doi-1d670f3f8fa87f3dd340: new
+- med-9268996: new
+- med-8239471: new
+- doi-c7f1f922e0eeecc157d7: new; secondary-or-commentary
+- doi-624528ab2ab792cdbbca: new
+- doi-ffc761786c3daa02976d: new
+- med-3430854: new
+- med-2648933: new; secondary-or-commentary
+- doi-014589d09c5abef79ea1: new
+- doi-fc29de98c11f8543b88f: new
+- med-8002727: new
+- doi-efdc4d91773abcc7e442: new
+- med-17949551: new
+- doi-59fe6fb42e797bb7a324: new; secondary-or-commentary
+- med-9889639: new
+- doi-35d654bc91bda0801811: new
+- doi-8b16f5ae14f37cd73afc: new
+- doi-de9b60ea33286e944678: new
+- med-8046785: new
+- doi-5abc8601aa7adf6d5ee3: new
+- doi-d77b6a42e22e0c47e39f: new
+- med-3857775: new
+- doi-82fd1e6c4e8a8f10aa1c: new
+- doi-d38e5e06d37a6201c339: new
+- med-2220507: new
+- doi-d0974768d011cf26eed4: new
+- med-7560773: new
+- med-3802341: new
+- med-7738304: new
+- med-10429458: new; secondary-or-commentary
+- med-10743812: new
+- doi-a2a83f51c7c78b07b476: new
+- doi-b8a3f88f3e8788c064a9: new
+- med-3233881: new
+- med-1621252: new
+- doi-6be317267e7db52d079a: new; secondary-or-commentary
+- med-8876396: new
+- med-7754272: new
+- doi-f6fe83b98036a2f40d12: new; secondary-or-commentary
+- doi-2171078c0aedc5f37a64: new; secondary-or-commentary
+- doi-930aeb696fdf6cd4150b: new
+- doi-f6f7639ba582ca4efd05: new
+- doi-870e401a6593d27bd2cd: new
+- doi-184dc0b25a8c396e6a71: new; secondary-or-commentary
+- med-3430858: new
+- doi-9f304ecb8e0ed8f5eeb9: new
+- pat-nz514914: new
+- doi-a3d07b46ca9ed32994e1: new; secondary-or-commentary
+- med-3993471: new
+- med-18409354: new; secondary-or-commentary
+- doi-a8ed7a39dda5b01f77ee: new
+- med-7933600: new; secondary-or-commentary
+- doi-ac6ed4309b316d3fd29d: new
+- med-9639001: new
+- doi-a8b3195e227fed773edd: new
+- doi-7a8c205dbd30273f27ec: new; secondary-or-commentary
+- doi-87e16535f78b392131a3: new
+- med-8031678: new; secondary-or-commentary
+- med-9791653: new
+- doi-839e2a6c0fd5d6c2825f: new; secondary-or-commentary
+- med-2796009: new
+- doi-26c631d4ba0e6dbfe425: new
+- med-8030577: new
+- med-9515117: new; secondary-or-commentary
+- doi-04e829b3d70597bb6a2c: new
+- doi-72518457910f809ca82c: new
+- doi-aa6edb9783ffb02ccdef: new
+- doi-8b951d47ff1f32e0649c: new; secondary-or-commentary
+- doi-a9a882c81064818f2e9a: new
+- doi-83b19039fdb7c6b633fb: new
+- doi-c25e31a4c8bf4e2f5d3d: new
+- doi-f98f475f187c544d34ec: new; secondary-or-commentary
+- doi-41034da1fa800c12c133: new; secondary-or-commentary
+- doi-0a5df81cb8d633cff261: new; secondary-or-commentary
+- doi-28a161fdf66bbe89de94: new
+- med-9409967: new; secondary-or-commentary
+- med-1914335: new
+- doi-ee85a79c750d72c4f5c9: new; secondary-or-commentary
+- doi-f2c5df17f17fe9e2de49: new
+- med-19861804: new
+- med-10637672: new; secondary-or-commentary
+- doi-3fd389dbca16dee28ebc: new
+- doi-7a9b15d20c4c388b9c1d: new
+- doi-76ebe49fc079e186c87c: new
+- med-9827410: new
+- doi-cb573d89c73488d30f81: new
+- med-1845402: new
+- doi-93cc8f075223c08bb74d: new
+- doi-9ea76d080d5ee13b3592: new
+- doi-c3a98901a872380874ca: new
+- doi-2c40f9cca90afa8921c9: new; secondary-or-commentary
+- med-9238435: new
+- doi-f7f4af616dfe9195f0d5: new
+- doi-051a3094d117f7591d1e: new
+- doi-7e24e812a0a1f61424fa: new; secondary-or-commentary
+- doi-12c2bf7e088ca4ab0afb: new
+- doi-1a61fcb66273c1b34d47: new
+- med-9376926: new
+- med-9436359: new
+- doi-d832b10b57f2a5db154a: new
+- doi-89edb616aa3dbfbabbcd: new
+- doi-1e05e3f17f78350749fb: new
+- med-8154388: new
+- med-10214043: new
+- med-2085086: new
+- med-3586405: new
+- med-8676358: new; secondary-or-commentary
+- doi-e43ed00166d56d3e5b56: new
+- doi-a259652d1bf0ebfbf589: new
+- doi-329b04f01fd6949f08b4: new
+- med-2816579: new
+- doi-9ce2bf804982e52bf059: new
+- med-10445087: new
+- doi-b6f4a21ab00127f3b5d2: new
+- doi-fcf3a74d4501d79c2844: new
+- med-8315909: new; secondary-or-commentary
+- med-8809451: new
+- doi-636e4769ceeb730a6146: new
+- doi-5c374544c3eb6983ec49: new
+- doi-2ffaa125debdcf5ac147: new
+- doi-7de74f0d6144358583f3: new
+- doi-359ee7a1a019a5c31029: new
+- doi-cb58f1d8c8ee2e26df5a: new
+- doi-2b06510279dece1b5ffa: new
+- med-12371632: new
+- doi-cb315d431d1c99d7c4bc: new
+- doi-f830d7b87e302c614326: new
+- med-7771731: new
+- doi-dca5305c4afa83efe387: new; secondary-or-commentary
+- med-16273771: new
+- doi-0b827aa002ded8de1797: new; secondary-or-commentary
+- doi-cd5d4d134cf41b99afc3: new
+- med-6460315: new
+- med-1578454: new
+- doi-5b7728383285156dde78: new
+- doi-fdd5ba7a30ad92a103a7: new
+- doi-3c5cc399859b3efa10ab: new
+- doi-0cd7ede59959230aaa95: new
+- med-2603852: new
+- med-2455682: new
+- doi-c74d2145b04b737cf15c: new
+- doi-4d99ecb34824ccbc9f64: new
+- doi-eef100f5248e7f77e91a: new
+- med-3064950: new; secondary-or-commentary
+- doi-2cbbdbf5512ddeef6ee4: new; secondary-or-commentary
+- doi-4480ac8634bb310208f5: new
+- doi-2a59944890d87518b575: new
+- med-15868620: new
+- doi-9e6a532229fdfead5e14: new
+- med-1791376: new; secondary-or-commentary
+- med-1770675: new
+- doi-a9ff21548576aad40d14: new
+- med-2778398: new
+- doi-3f47cfc98ba963b96cc7: new
+- doi-f296450ee6099313f98a: new; secondary-or-commentary
+- med-8869255: new
+- med-1635618: new
+- med-10637670: new; secondary-or-commentary
+- med-7714869: new
+- doi-9d955b48702b29511840: new
+- doi-d3aed4777cfba7a76edc: new
+- doi-ac783074eea2901b8ecf: new
+- doi-fd608784bacb60c0aa36: new
+- doi-d9acd4ce85a1bab57123: new
+- med-2781074: new
+- med-2097265: new
+- doi-4f075db65076d497e546: new
+- doi-bd59ee1fdb7e806765b8: new
+- doi-83b9ad1a9e358263b5bb: new; secondary-or-commentary
+- doi-65c0f27dba83bd25cff4: new
+- doi-c4521b0f4d3bbf777af6: new
+- med-15630732: new
+- med-3193417: new
+- pat-ep1698339: new
+- med-2287569: new
+- doi-48079b2a2585ef185a01: new
+- doi-93f8a09fd35b917881ba: new
+- doi-86b8202d1f1b5f347538: new
+- med-8596152: new
+- doi-e81c4fcb7ca66e51648a: new
+- med-1291173: new
+- doi-92d0c07349850821d56f: new
+- med-3041469: new
+- doi-d8e69d21af8374ac2c74: new
+- med-3103577: new
+- med-8035390: new
+- doi-ffc38513618093c55af0: new
+- doi-48789c8c2bcba78cc34e: new
+- med-1877340: new
+- med-3352351: new
+- med-6820734: new
+- doi-3e605285411947a263a8: new
+- doi-c23f12fe333a0d3314c0: new
+- doi-9b1bf28b354256cfb981: new
+- med-3223682: new
+- med-7985261: new
+- med-2952991: new
+- doi-d908f8db86a19e591329: new
+- doi-d7161613f30a6d20f13d: new
+- med-2928865: new
+- med-10637671: new; secondary-or-commentary
+- med-2488429: new
+- doi-a157c6cef0aa2cd397ea: new; secondary-or-commentary
+- doi-a36977ba70497192a786: new
+- doi-794b45dfc0f1f795948c: new
+- med-8024186: new
+- doi-922ac5742313594b968f: new
+- doi-7c2cd8c9e902a3e92941: new
+- med-2628704: new
+- doi-a4eb78a93b2ce096b042: new
+- med-2120493: new
+- med-2214358: new
+- doi-76518dc6f5701991b013: new
+- doi-0ca5510ae8240c1daba0: new
+- doi-3726f47dbde2b325bf6f: new
+- doi-4d2eb2a32dcfe783650a: new
+- doi-bca6a150b62abdaac1e1: new
+- med-3505145: new
+- doi-0e859e2f029e96894487: new
+- doi-d2c793f964564e4f0f98: new
+- doi-abc88085280fecc3ffe3: new
+- doi-de4aeead7d68b38d7e8b: new
+- doi-56bba2cef26dceb7e4a9: new
+- doi-9314ecb6ccdef5b909a7: new
+- doi-460d29bace6937a231b9: new
+- doi-dc170403a66529bb48a7: new; secondary-or-commentary
+- med-845750: new
+- doi-f390dd51c2069e209c47: new
+- doi-2b55658627a29af3c1d9: new; secondary-or-commentary
+- doi-d58189d5975044af11ff: new
+- med-8948926: new
+- doi-309be793cabdfed5f090: new
+- doi-40fbdce44719bfde634e: new
+- doi-00e40d1f34b07a00bf4c: new
+- med-557880: new
+- med-7933586: new; secondary-or-commentary
+- med-2592797: new
+- doi-0a41f2161507569e2a40: new
+- med-9636948: new; secondary-or-commentary
+- med-9122017: new
+- doi-b281c8993678af557771: new
+- doi-7bc454be1cf5a23a7e08: new; secondary-or-commentary
+- med-4004466: new
+- med-4093928: new
+- doi-b67152b6648488470a6b: new
+- doi-c554760f6439185d4437: new
+- med-8882040: new
+- med-3286358: new; secondary-or-commentary
+- doi-c0d96f47355989fcba1f: new
+- doi-4ca350af2330ebd9160a: new
+- doi-30ef99299cd2ff01a04a: new
+- med-3322154: new
+- med-2618648: new
+- med-2641069: new
+- med-3671865: new
+- doi-8960e019aaf2926d2ad6: new
+- doi-20a8737a4d3c0f7ee934: new
+- med-7298272: new
+- doi-1f77a434908dd6584a8d: new
+- doi-4155cbbd2576468d3082: new
+- doi-bc9327ceb085520cc20d: new
+- doi-462fbf9117e36b777a57: new
+- doi-26ec3cc11c050282603f: new; secondary-or-commentary
+- doi-a64c27f912895fec52fa: new
+- doi-4578b5d5bdfba313b75d: new
+- med-9120366: new; secondary-or-commentary
+- doi-ff4c61e869aeff071ef1: new
+- doi-341af48acb8a804e2bd4: new
+- doi-3004c4af63185bc45fd6: new
+- doi-45d6dda745d9da69959a: new
+- med-12536174: new; secondary-or-commentary
+- med-3171405: new
+- med-2488438: new
+- med-297369: new
+- doi-ead41d143031e424c70e: new
+- med-1034425: new
+- doi-2d2647ea21a1aa4b30f2: new
+- med-3156322: new
+- doi-54c7fdf996b8840d3fbd: new
+- med-1250229: new
+- doi-cc6ec2c3d071d103fb10: new; secondary-or-commentary
+- doi-e6b44fe1f4896f73a5ab: new
+- doi-e1c0c50f33441555432b: new
+- doi-ee3d99dec1d4074872af: new
+- med-3049883: new; secondary-or-commentary
+- med-7907547: new; secondary-or-commentary
+- doi-0281bd46846486d6211e: new
+- doi-ca2f0947a0c2a5d295af: new
+- med-12371633: new
+- med-12371629: new
+- med-3673289: new
+- med-6842475: new
+- doi-b48e5a16e1e711556567: new
+- med-4068975: new
+- doi-4d82a76874a8bf86d922: new
+- med-2603853: new
+- med-2146650: new
+- doi-81872625fc43f08c81a4: new
+- med-7130629: new
+- med-6531567: new
+- med-8308222: new
+- doi-cae484c8d7c225e83100: new
+- doi-614581679ca77cdc3e74: new
+- med-2066958: new
+- med-1475465: new; secondary-or-commentary
+- doi-484073c74c9166a5fcbe: new; secondary-or-commentary
+- med-2265498: new
+- doi-14369eb5625804b5d941: new
+- med-3057608: new; secondary-or-commentary
+- med-1250235: new
+- doi-c6b313167f3996f383dc: new
+- med-3813279: new
+- med-2919592: new
+- doi-cceafa96ddb8b46e205c: new
+- pat-nz535670: new
+- doi-913e89b4f929395bccf0: new
+- doi-8136980aea96575a3ac0: new
+- med-1484598: new
+- doi-f9df9ad1805bb634d23c: new; secondary-or-commentary
+- med-18209403: new
+- med-1296716: new; secondary-or-commentary
+- doi-5ecc27ad4822739dc4c2: new; secondary-or-commentary
+- med-1564966: new
+- med-4474803: new
+- med-11760393: new
+- doi-514e0c39f3f98c9b45ab: new
+- med-8711631: new; secondary-or-commentary
+- med-3291395: new; secondary-or-commentary
+- med-11534910: new; secondary-or-commentary
+- med-3156102: new
+- doi-d6de572eb65f62b5c710: new
+- doi-c3c2fef426143a5f9970: new
+- doi-f24bc287306680c79c3b: new
+- doi-26ef327ad5f152e61ce7: new
+- doi-2e08db6f660479726348: new
+- med-1882769: new
+- med-4840245: new
+- doi-3078f6acc4acb55b8dc2: new; secondary-or-commentary
+- doi-d4fad67f597f57bb0e72: new
+- med-11676161: new
+- med-6322342: new
+- doi-58a5beb4e865d7b0fb48: new
+- doi-806ce6dafb783b7292d5: new; secondary-or-commentary
+- med-2086029: new
+- doi-70bb15f2008fe5416bda: new
+- doi-37d63831ee1bed5f9c58: new
+- med-6527074: new
+- doi-b1307df7592029e27cae: new
+- doi-c30659e1cbb67705252d: new
+- med-3056991: new; secondary-or-commentary
+- med-2100030: new; secondary-or-commentary
+- doi-44fee6dae58f94b1d10e: new
+- med-1052223: new
+- doi-9002b13e7ee589469a43: new; secondary-or-commentary
+- doi-67f25cbcee61433f55e9: new
+- doi-03ae6a6a16ee88e3c7f1: new; secondary-or-commentary
+- doi-0944e0e1aa2520cfe816: new
+- doi-11ba06f618b7eda046b7: new
+- doi-d355f61f1bbcff8caf0d: new
+- doi-c3d502ee437abf48e666: new
+- doi-9341bcad95d7380fb5f7: new
+- med-3128210: new; secondary-or-commentary
+- doi-764b11fdddb34ba4bbdc: new
+- med-1786662: new; secondary-or-commentary
+- doi-c4636217baf32a739b17: new
+- med-7209239: new
+- med-10949726: new
+- med-7133990: new
+- med-2587967: new
+- med-2034606: new
+- doi-debd86d436928d51a5ee: new
+- doi-33137a6f3e801823d584: new
+- doi-fc37b3a64f8d7f30ff33: new
+- med-1300972: new
+- doi-f47a223d8f06a0065426: new
+- doi-5a3f7658c58b7e97cf3b: new
+- med-10812500: new
+- med-7379585: new
+- doi-d1c01f35fd048944443e: new; secondary-or-commentary
+- med-7131413: new
+- med-3725151: new
+- med-2253418: new; secondary-or-commentary
+- med-1271386: new
+- doi-39b5e022fb39e977ae14: new
+- med-1886304: new
+- med-10689942: new
+- med-10637669: new; secondary-or-commentary
+- med-10615534: new; secondary-or-commentary
+- doi-531703faa9690f79e4d0: new
+- med-10565228: new
+- med-6211454: new
+- med-8242030: new
+- doi-e6c11fb30abf9ebe3ace: new
+- med-7093071: new
+- doi-67327ac3f4d13f0e8a70: new; secondary-or-commentary
+- doi-b6d26459e21c5e5a502f: new
+- med-1220522: new
+- med-3171406: new
+- med-6611615: new
+- doi-77d0a0f5179fdfe49d45: new
+- doi-1e4249de95933ade3d79: new
+- med-10228384: new; secondary-or-commentary
+- doi-88f0833cac983ed3e407: new
+- doi-d6eeba3e888295c83236: new; secondary-or-commentary
+- doi-6ad01094689d6c6895f4: new
+- med-9858448: new
+- doi-f6df64c7b13c969a38dc: new
+- doi-a06670f92fb8830e82f2: new
+- med-7485013: new
+- med-6248987: new
+- med-338964: new
+- doi-e4b6c0463193913a735d: new
+- med-9754001: new
+- med-8449698: new
+- med-575784: new
+- doi-05a5e5a8e4ee57196e25: new
+- doi-3e353bcdd230d9dd3dd4: new
+- med-7447254: new
+- doi-67b9b59de85d6630785c: new
+- doi-b964bc3e045f66331257: new
+- doi-a1b342609020c46a59ca: new
+- doi-54d861b74a9b8fece837: new
+- doi-b1d7e58a88e116d14b36: new; secondary-or-commentary
+- doi-98321feef03baeb36359: new
+- med-2072574: new
+- doi-4cfec2cb128273af1de3: new
+- doi-b5a87ca21d6473a4c0e0: new
+- med-6671897: new
+- med-9228133: new
+- doi-2a201e047c4917f5c6cc: new; secondary-or-commentary
+- med-28145372: new
+- doi-f8a187c2b519f9bdb1cd: new
+- doi-26c825ec762729146809: new
+- doi-5c38021b6be8705d6844: new
+- med-7432033: new
+- med-672373: new
+- doi-efe002b9df84d3ea4b66: new
+- doi-8c9b72c8be7280ecc964: new
+- doi-daef24c18c28cdee41d8: new; secondary-or-commentary
+- doi-f3965c58f7b1d3837b3e: new; secondary-or-commentary
+- doi-22b1ad3aedaaaf94a5dd: new; secondary-or-commentary
+- doi-2016f4593c7a0698114c: new
+- doi-05ab50e88403dc2b1195: new
+- doi-d776a44f8f4cd93ba1a0: new; secondary-or-commentary
+- med-501750: new
+- doi-c158f5cdd5c01957a319: new
+- med-829359: new
+- med-671440: new
+- doi-da25046e95e0fd724c43: new
+- doi-284ba55a7657a0e27cd5: new; secondary-or-commentary
+- doi-bc744b23e0a798ca33c2: new; secondary-or-commentary
+- doi-c849a8467f80f9807283: new; secondary-or-commentary
+- doi-0347ee7e093b301df970: new
+- doi-61bcfb7fa339420587d2: new
+- doi-20887af0e733e7a29a0f: new; secondary-or-commentary
+- med-8904250: new; secondary-or-commentary
+- doi-edfc62e55858ee3129b0: new
+- doi-3f07cecbc512450b3485: new
+- doi-a4f3d080737a3cacda46: new
+- med-390423: new; secondary-or-commentary
+- doi-019d778fc8b4a721c1c5: new
+- med-7611008: new
+- doi-253b449ab9d0c29ec366: new
+- med-8587080: new
+- doi-aa89c0c85a77f85163f4: new
+- doi-d6dc5c0bcbcbceeee321: new
+- med-7007190: new; secondary-or-commentary
+- doi-a1a2e84348a1c5c82df2: new
+- med-7815751: new; secondary-or-commentary
+- doi-d11dbd75192f07329b58: new
+- med-3521626: new
+- doi-97222ffaba77b054c543: new
+- doi-f626ab3fc1d36cace7a2: new
+- med-6759802: new
+- med-627747: new
+- med-6320431: new
+- doi-aa1ea03e86cec250d4c5: new; secondary-or-commentary
+- med-4840257: new
+- med-8164212: new
+- med-8234978: new
+- med-1142574: new
+- med-1250232: new
+- med-397657: new; secondary-or-commentary
+- doi-e41f7c4f093ce97d8f7c: new
+- doi-0dd7a0bedccd6aede352: new
+- med-7363185: new
+- med-1307612: new
+- doi-3f3d8c933d46ffcef933: new
+- med-210514: new
+- med-4669824: new
+- med-7156636: new
+- med-13585097: new
+- doi-8ba1aac89e30de620e9d: new
+- med-1823311: new
+- doi-ef10178c256e5ab88fef: new
+- med-905331: new
+- doi-0a0ca7c2bb8a3003f3f0: new
+- med-2043450: new; secondary-or-commentary
+- doi-46b17b327597e1f2b910: new
+- doi-f05e00b5e5a3c478ec8a: new
+- doi-8ae44d0fe1c2547999ff: new
+- doi-ff40957e602f94bed13a: new
+- med-13485973: new
+- med-2769974: new
+- med-2752665: new
+- doi-a848fdb591b8d889a989: new
+- doi-f157a8a305dc7361f290: new
+- doi-39c5f20c162e6ee21da2: new
+- doi-740645456f634639629c: new
+- med-2895465: new
+- med-3360401: new
+- doi-4b875242d58bf0491130: new; secondary-or-commentary
+- doi-3f3b3e3ef9404b7f4c18: new
+- doi-70a6bbacb4b4734410a5: new; secondary-or-commentary
+- med-3617867: new
+- doi-1d08ca81c05fd58c4969: new
+- med-3034067: new
+- med-3312734: new
+- doi-097cb12405687b34df29: new
+- doi-a92dd656dd1120798476: new
+- med-18933274: new
+- med-13802665: new
+- doi-ab41a0ab38ba76828454: new
+- med-3519102: new; secondary-or-commentary
+- doi-b03cb120e0a9b179c9dc: new
+- med-3698358: new
+- med-3084046: new
+- doi-142eb5ef0f94578de78c: new
+- doi-275dadd3854b1a9272cb: new
+- doi-85f94403f501adfd8fed: new
+- med-4010081: new
+- doi-a18921f61204f7d925c1: new
+- med-6507410: new
+- doi-d11b39af99d6517a925d: new
+- med-6087632: new
+- doi-c4c1618646da083bb333: new
+- med-6086997: new
+- med-6320398: new
+- med-6613966: new
+- med-6647083: new
+- med-6222758: new; secondary-or-commentary
+- doi-565d5d5d4144800738f4: new
+- doi-51a575b7e27dc879b6d6: new
+- med-7127901: new
+- med-7320606: new
+- med-7021477: new
+- med-7218257: new
+- doi-89351d0c5ef30b5e6909: new
+- med-7223547: new
+- doi-df62db1d8d814d1baeb6: new
+- doi-e27e28904b0fc06f4d2c: new
+- doi-9a78d2200f076ff5c253: new
+- doi-921abe923ed4dacfb046: new
+- med-1015796: new
+
+Scientific review is required. This scan did not alter a candidate or public release.

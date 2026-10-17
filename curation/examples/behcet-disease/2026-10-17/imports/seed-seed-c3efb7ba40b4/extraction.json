@@ -1,0 +1,978 @@
+{
+  "version": 1,
+  "diseaseId": "behcet-disease",
+  "baseReleaseId": "behcet-disease-candidate-20261017-001",
+  "baseContentDigest": "53e318acbddd99e18b6f4faeadf1ae3597f067580d8205b1fe987257420a480b",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "manual-source-check-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "behcet-hla-risk",
+      "subject": "entity-hla-b51",
+      "object": "entity-behcet",
+      "predicate": "is_associated_with",
+      "text": "HLA-B*51 was associated with Behçet disease susceptibility in the reported GWAS.",
+      "quote": "confirmed the known association of Behçet's disease with HLA-B*51",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "studySystem": "Turkish case-control GWAS with multi-population meta-analysis; overlapping cohorts across genetic publications are not independent replication",
+      "evidenceType": "human_genetic",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-9c51eef6d44e7fd685ba",
+      "paperDigest": "a6b2667a29ec19805a4200541281ef34e2556a504e37eafeb64444ab000195c1"
+    },
+    {
+      "id": "behcet-il10-risk",
+      "subject": "entity-il10-risk",
+      "object": "entity-behcet",
+      "predicate": "is_associated_with",
+      "text": "The IL10 rs1518111 locus was associated with disease susceptibility.",
+      "quote": "identified an association at IL10",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "studySystem": "Turkish case-control GWAS with multi-population meta-analysis; overlapping cohorts across genetic publications are not independent replication",
+      "evidenceType": "human_genetic",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-9c51eef6d44e7fd685ba",
+      "paperDigest": "a6b2667a29ec19805a4200541281ef34e2556a504e37eafeb64444ab000195c1"
+    },
+    {
+      "id": "behcet-il23r-risk",
+      "subject": "entity-il23r-risk",
+      "object": "entity-behcet",
+      "predicate": "is_associated_with",
+      "text": "The IL23R–IL12RB2 locus was associated with susceptibility in the meta-analysis.",
+      "quote": "and the IL23R-IL12RB2 locus",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "studySystem": "Turkish case-control GWAS with multi-population meta-analysis; overlapping cohorts across genetic publications are not independent replication",
+      "evidenceType": "human_genetic",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-9c51eef6d44e7fd685ba",
+      "paperDigest": "a6b2667a29ec19805a4200541281ef34e2556a504e37eafeb64444ab000195c1"
+    },
+    {
+      "id": "behcet-il10-expression",
+      "subject": "entity-il10-risk",
+      "object": "entity-il10",
+      "predicate": "is_associated_with",
+      "text": "The rs1518111 A risk allele was associated with lower IL10 mRNA expression and protein production.",
+      "quote": "was associated with diminished mRNA expression and low protein production",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "studySystem": "Turkish case-control GWAS with multi-population meta-analysis; overlapping cohorts across genetic publications are not independent replication",
+      "evidenceType": "human_genetic",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-9c51eef6d44e7fd685ba",
+      "paperDigest": "a6b2667a29ec19805a4200541281ef34e2556a504e37eafeb64444ab000195c1"
+    },
+    {
+      "id": "behcet-erap1-risk",
+      "subject": "entity-erap1-risk",
+      "object": "entity-behcet",
+      "predicate": "is_associated_with",
+      "text": "Two ERAP1 coding variants recessively conferred disease risk in the reported genetic analysis.",
+      "quote": "two SNPs in ERAP1, encoding ERAP1 p.Asp575Asn and p.Arg725Gln alterations, recessively conferred disease risk",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:23291587",
+      "studySystem": "Turkish GWAS with Turkish/Japanese follow-up; full report inspected for primary-data identity",
+      "evidenceType": "human_genetic",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-2a504ea4dc3f5fbf67bc",
+      "paperDigest": "647b0fbc2fdc9b4d67cef07799cd8a3c495a5c2fe5cc076ce36c7a6f674c0fbf"
+    },
+    {
+      "id": "behcet-erap1-hla",
+      "subject": "entity-erap1-risk",
+      "object": "entity-hla-b51",
+      "predicate": "is_associated_with",
+      "text": "The genetic study found evidence of HLA-B*51–ERAP1 interaction (P=0.0009); this is not proof of a particular pathogenic peptide.",
+      "quote": "evidence for interaction between HLA-B*51 and ERAP1",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:23291587",
+      "studySystem": "Turkish GWAS and replication; statistical epistasis",
+      "evidenceType": "human_genetic",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-2a504ea4dc3f5fbf67bc",
+      "paperDigest": "647b0fbc2fdc9b4d67cef07799cd8a3c495a5c2fe5cc076ce36c7a6f674c0fbf"
+    },
+    {
+      "id": "behcet-il23-uveitis",
+      "subject": "entity-il23",
+      "object": "entity-uveitis",
+      "predicate": "is_associated_with",
+      "text": "IL-23 was elevated in patients with active Behçet uveitis.",
+      "quote": "IL-23p19 mRNA, IL-23, IL-17, and IFN-gamma was markedly elevated",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "studySystem": "Human peripheral blood/PBMC assays in Behçet disease with active uveitis; recombinant cytokine experiments in polyclonally stimulated PBMCs",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-c098d87cb88b861cdb60",
+      "paperDigest": "b6619de2c9e00ab7519930225435e729d3658efde521af5a9dd505bf59b66346"
+    },
+    {
+      "id": "behcet-il17-uveitis",
+      "subject": "entity-il17",
+      "object": "entity-uveitis",
+      "predicate": "is_associated_with",
+      "text": "IL-17A was elevated in patients with active Behçet uveitis.",
+      "quote": "IL-23p19 mRNA, IL-23, IL-17, and IFN-gamma was markedly elevated",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "studySystem": "Human peripheral blood/PBMC assays in Behçet disease with active uveitis; recombinant cytokine experiments in polyclonally stimulated PBMCs",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-c098d87cb88b861cdb60",
+      "paperDigest": "b6619de2c9e00ab7519930225435e729d3658efde521af5a9dd505bf59b66346"
+    },
+    {
+      "id": "behcet-ifng-uveitis",
+      "subject": "entity-ifng",
+      "object": "entity-uveitis",
+      "predicate": "is_associated_with",
+      "text": "IFN-γ was elevated in patients with active Behçet uveitis.",
+      "quote": "IL-23p19 mRNA, IL-23, IL-17, and IFN-gamma was markedly elevated",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "studySystem": "Human peripheral blood/PBMC assays in Behçet disease with active uveitis; recombinant cytokine experiments in polyclonally stimulated PBMCs",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-c098d87cb88b861cdb60",
+      "paperDigest": "b6619de2c9e00ab7519930225435e729d3658efde521af5a9dd505bf59b66346"
+    },
+    {
+      "id": "behcet-il23-il17",
+      "subject": "entity-il23",
+      "object": "entity-il17",
+      "predicate": "stimulates",
+      "text": "Recombinant IL-23 increased IL-17 production in polyclonally stimulated PBMCs.",
+      "quote": "IL-23 could upregulate IL-17 production by polyclonally stimulated PBMCs",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "studySystem": "Human peripheral blood/PBMC assays in Behçet disease with active uveitis; recombinant cytokine experiments in polyclonally stimulated PBMCs",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-c098d87cb88b861cdb60",
+      "paperDigest": "b6619de2c9e00ab7519930225435e729d3658efde521af5a9dd505bf59b66346"
+    },
+    {
+      "id": "behcet-ifng-il17",
+      "subject": "entity-ifng",
+      "object": "entity-il17",
+      "predicate": "inhibits",
+      "text": "IFN-γ downregulated IL-17 production in the reported PBMC assay.",
+      "quote": "gamma downregulated IL-17 production",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "studySystem": "Human peripheral blood/PBMC assays in Behçet disease with active uveitis; recombinant cytokine experiments in polyclonally stimulated PBMCs",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Culture regulation does not negate the positive clinical association of both cytokines with uveitis."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-c098d87cb88b861cdb60",
+      "paperDigest": "b6619de2c9e00ab7519930225435e729d3658efde521af5a9dd505bf59b66346"
+    },
+    {
+      "id": "behcet-il21-th17",
+      "subject": "entity-il21",
+      "object": "entity-th17",
+      "predicate": "stimulates",
+      "text": "IL-21 stimulation increased Th17 differentiation in the reported CD4 T-cell assay.",
+      "quote": "stimulation of CD4(+) T cells with IL-21 increased T(H)17",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:21724243",
+      "studySystem": "45 adults with Behçet disease (25 active untreated, 20 remission), 20 healthy donors; blood/culture and selected CNS specimens",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-2a3c33f82e2ca70b6cab",
+      "paperDigest": "7cc3c25df49ecf8169f9b576632b70665e1482de352cd8aa046149fe040f6892"
+    },
+    {
+      "id": "behcet-il21-treg",
+      "subject": "entity-il21",
+      "object": "entity-treg",
+      "predicate": "inhibits",
+      "text": "IL-21 stimulation decreased the frequency of regulatory T cells in the reported assay.",
+      "quote": "decreased the frequency of Treg cells",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:21724243",
+      "studySystem": "45 adults with Behçet disease (25 active untreated, 20 remission), 20 healthy donors; blood/culture and selected CNS specimens",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-2a3c33f82e2ca70b6cab",
+      "paperDigest": "7cc3c25df49ecf8169f9b576632b70665e1482de352cd8aa046149fe040f6892"
+    },
+    {
+      "id": "behcet-th17-il17",
+      "subject": "entity-th17",
+      "object": "entity-il17",
+      "predicate": "produces",
+      "text": "The increased IL-17 in active uveitis was primarily produced by CD45RO-positive memory T cells.",
+      "quote": "primarily produced by CD45RO(+) memory T cells",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:18579762",
+      "studySystem": "IL-17-producing T cells in peripheral blood; not exclusively a lineage-pure Th17 population",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "IL-17-producing memory T cells are represented by the Th17 node; other IL-17-producing populations are not excluded."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-c098d87cb88b861cdb60",
+      "paperDigest": "b6619de2c9e00ab7519930225435e729d3658efde521af5a9dd505bf59b66346"
+    },
+    {
+      "id": "behcet-th17-disease",
+      "subject": "entity-th17",
+      "object": "entity-behcet",
+      "predicate": "is_associated_with",
+      "text": "Increased Th17 cells and decreased Tregs correlated with Behçet disease activity.",
+      "quote": "correlate with BD activity",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:21724243",
+      "studySystem": "45 adults with Behçet disease (25 active untreated, 20 remission), 20 healthy donors; blood/culture and selected CNS specimens",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-2a3c33f82e2ca70b6cab",
+      "paperDigest": "7cc3c25df49ecf8169f9b576632b70665e1482de352cd8aa046149fe040f6892"
+    },
+    {
+      "id": "behcet-treg-disease",
+      "subject": "entity-treg",
+      "object": "entity-behcet",
+      "predicate": "is_associated_with",
+      "text": "Lower peripheral Treg frequency accompanied active disease in the study.",
+      "quote": "decrease in the frequency of CD4(+) forkhead box P3(+) regulatory T cells",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:21724243",
+      "studySystem": "45 adults with Behçet disease (25 active untreated, 20 remission), 20 healthy donors; blood/culture and selected CNS specimens",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-2a3c33f82e2ca70b6cab",
+      "paperDigest": "7cc3c25df49ecf8169f9b576632b70665e1482de352cd8aa046149fe040f6892"
+    },
+    {
+      "id": "behcet-il17-cns",
+      "subject": "entity-il17",
+      "object": "entity-cns-involvement",
+      "predicate": "is_associated_with",
+      "text": "IL-17A-producing T cells were detected in selected CNS specimens from active neuro-Behçet patients.",
+      "quote": "IL-21- and IL-17A-producing T cells within the cerebrospinal fluid",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:21724243",
+      "studySystem": "45 adults with Behçet disease (25 active untreated, 20 remission), 20 healthy donors; blood/culture and selected CNS specimens",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-2a3c33f82e2ca70b6cab",
+      "paperDigest": "7cc3c25df49ecf8169f9b576632b70665e1482de352cd8aa046149fe040f6892"
+    },
+    {
+      "id": "behcet-neutrophils-nets",
+      "subject": "entity-neutrophils",
+      "object": "entity-nets",
+      "predicate": "produces",
+      "text": "Purified Behçet neutrophils exhibited spontaneous NET formation compared with healthy donors.",
+      "quote": "Purified neutrophils from patients with BD exhibited spontaneous NETosis",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:31147357",
+      "studySystem": "Human Behçet blood, purified neutrophils, ex-vivo plasma thrombin-generation assays and selected vascular biopsies",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-78fa7e0dd249d95099ca",
+      "paperDigest": "72a0c46ed3a2a2ed64297cee287d6041b6e4e2e044a190b3ee5377763a434707"
+    },
+    {
+      "id": "behcet-nets-thrombin",
+      "subject": "entity-nets",
+      "object": "entity-thrombin-generation",
+      "predicate": "contributes_to",
+      "text": "NET-marker levels correlated with thrombin generation; DNase reduced thrombin generation in Behçet plasma.",
+      "quote": "DNAse treatment significantly decreased thrombin generation in BD plasma but not in HD plasma",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:31147357",
+      "studySystem": "Human Behçet blood, purified neutrophils, ex-vivo plasma thrombin-generation assays and selected vascular biopsies",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "DNase is not NET-specific; ex-vivo coagulation perturbation does not demonstrate clinical prevention of thrombosis."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-78fa7e0dd249d95099ca",
+      "paperDigest": "72a0c46ed3a2a2ed64297cee287d6041b6e4e2e044a190b3ee5377763a434707"
+    },
+    {
+      "id": "behcet-nets-thrombosis",
+      "subject": "entity-nets",
+      "object": "entity-thrombosis",
+      "predicate": "is_associated_with",
+      "text": "NETs were found in biopsy areas of vasculitic inflammation and thrombosis.",
+      "quote": "NETs production in areas of vasculitic inflammation and thrombosis",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:31147357",
+      "studySystem": "Human Behçet blood, purified neutrophils, ex-vivo plasma thrombin-generation assays and selected vascular biopsies",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-78fa7e0dd249d95099ca",
+      "paperDigest": "72a0c46ed3a2a2ed64297cee287d6041b6e4e2e044a190b3ee5377763a434707"
+    },
+    {
+      "id": "behcet-nets-disease",
+      "subject": "entity-nets",
+      "object": "entity-behcet",
+      "predicate": "is_associated_with",
+      "text": "Circulating NET markers were higher in active than inactive disease and healthy donors.",
+      "quote": "Patients with active BD had elevated serum cfDNA levels and MPO-DNA complexes",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:31147357",
+      "studySystem": "Human Behçet blood, purified neutrophils, ex-vivo plasma thrombin-generation assays and selected vascular biopsies",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-78fa7e0dd249d95099ca",
+      "paperDigest": "72a0c46ed3a2a2ed64297cee287d6041b6e4e2e044a190b3ee5377763a434707"
+    },
+    {
+      "id": "behcet-neutrophils-ros",
+      "subject": "entity-neutrophils",
+      "object": "entity-ros",
+      "predicate": "produces",
+      "text": "ROS production was increased in patient neutrophils compared with healthy donors.",
+      "quote": "ROS production, and NETosis were up-regulated in BD patient neutrophils",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:36862398",
+      "studySystem": "Behçet and healthy-donor neutrophil assays; skin-lesion immunostaining and pharmacological PDE4 inhibition",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-f07e73498894705661a6",
+      "paperDigest": "d760ca2de35e1468da22ffbc4dcf4152b724a0815d67934592ab0ee30ef3b435"
+    },
+    {
+      "id": "behcet-neutrophils-skin",
+      "subject": "entity-neutrophils",
+      "object": "entity-skin-lesions",
+      "predicate": "is_associated_with",
+      "text": "Behçet skin lesions showed neutrophil infiltration colocalizing with PDE4.",
+      "quote": "Skin lesions of BD patients showed increased infiltration of neutrophils that colocalized with PDE4",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:36862398",
+      "studySystem": "Behçet and healthy-donor neutrophil assays; skin-lesion immunostaining and pharmacological PDE4 inhibition",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-f07e73498894705661a6",
+      "paperDigest": "d760ca2de35e1468da22ffbc4dcf4152b724a0815d67934592ab0ee30ef3b435"
+    },
+    {
+      "id": "behcet-apremilast-neutrophils",
+      "subject": "entity-apremilast",
+      "object": "entity-neutrophils",
+      "predicate": "inhibits",
+      "text": "Apremilast reduced neutrophil activation-marker expression in the reported assays.",
+      "quote": "apremilast strongly inhibited neutrophil surface activation markers",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:36862398",
+      "studySystem": "Behçet and healthy-donor neutrophil assays; skin-lesion immunostaining and pharmacological PDE4 inhibition",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-f07e73498894705661a6",
+      "paperDigest": "d760ca2de35e1468da22ffbc4dcf4152b724a0815d67934592ab0ee30ef3b435"
+    },
+    {
+      "id": "behcet-apremilast-nets",
+      "subject": "entity-apremilast",
+      "object": "entity-nets",
+      "predicate": "inhibits",
+      "text": "Apremilast reduced NET formation in the reported neutrophil assays.",
+      "quote": "ROS production, NETosis, and genes and pathways related to innate immunity",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:36862398",
+      "studySystem": "Behçet and healthy-donor neutrophil assays; skin-lesion immunostaining and pharmacological PDE4 inhibition",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Pharmacological assay; no vascular clinical benefit demonstrated."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-f07e73498894705661a6",
+      "paperDigest": "d760ca2de35e1468da22ffbc4dcf4152b724a0815d67934592ab0ee30ef3b435"
+    },
+    {
+      "id": "behcet-apremilast-pde4",
+      "subject": "entity-apremilast",
+      "object": "entity-pde4",
+      "predicate": "inhibits",
+      "text": "Apremilast is a selective PDE4 inhibitor used in the neutrophil study.",
+      "quote": "selectively inhibits phosphodiesterase 4 (PDE4)",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:36862398",
+      "studySystem": "Behçet and healthy-donor neutrophil assays; skin-lesion immunostaining and pharmacological PDE4 inhibition",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-f07e73498894705661a6",
+      "paperDigest": "d760ca2de35e1468da22ffbc4dcf4152b724a0815d67934592ab0ee30ef3b435"
+    },
+    {
+      "id": "behcet-nets-endothelium",
+      "subject": "entity-nets",
+      "object": "entity-endothelial-senescence",
+      "predicate": "contributes_to",
+      "text": "CD177-positive Behçet neutrophil-derived NETs induced senescence and SASP in cultured vascular endothelial cells.",
+      "quote": "NETs promoted senescence, SASP, and PMN chemotaxis in VECs",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:42109254",
+      "studySystem": "2026 human CD177-positive neutrophil study: peripheral n=38, sequencing n=7; NET-stimulated vascular endothelial cultures",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "New exploratory study; subset-specific cultures, limited sample size and no independent replication established."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-b3b45428e8240a48545b",
+      "paperDigest": "f7fa113da71fac79dd22218a5922b718b8738b21033cdbeb49ad6598fb18a3dd"
+    },
+    {
+      "id": "behcet-nets-histone",
+      "subject": "entity-nets",
+      "object": "entity-histone-h3-1",
+      "predicate": "is_associated_with",
+      "text": "CD177-positive patient neutrophil-derived NETs contained more histone H3.1.",
+      "quote": "NETs contained more histone 3.1 (H3.1)",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:42109254",
+      "studySystem": "2026 human CD177-positive neutrophil study: peripheral n=38, sequencing n=7; NET-stimulated vascular endothelial cultures",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-b3b45428e8240a48545b",
+      "paperDigest": "f7fa113da71fac79dd22218a5922b718b8738b21033cdbeb49ad6598fb18a3dd"
+    },
+    {
+      "id": "behcet-histone-tlr4",
+      "subject": "entity-histone-h3-1",
+      "object": "entity-tlr4",
+      "predicate": "activates",
+      "text": "Histone H3.1 induced the reported endothelial response through TLR4 signalling.",
+      "quote": "H3.1 induced senescence, SASP, and PMN chemotaxis in VECs via Toll-like receptor 4 signaling",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:42109254",
+      "studySystem": "2026 human CD177-positive neutrophil study: peripheral n=38, sequencing n=7; NET-stimulated vascular endothelial cultures",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-b3b45428e8240a48545b",
+      "paperDigest": "f7fa113da71fac79dd22218a5922b718b8738b21033cdbeb49ad6598fb18a3dd"
+    },
+    {
+      "id": "behcet-histone-senescence",
+      "subject": "entity-histone-h3-1",
+      "object": "entity-endothelial-senescence",
+      "predicate": "contributes_to",
+      "text": "H3.1 induced senescence and SASP in cultured vascular endothelial cells.",
+      "quote": "H3.1 induced senescence, SASP",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:42109254",
+      "studySystem": "2026 human CD177-positive neutrophil study: peripheral n=38, sequencing n=7; NET-stimulated vascular endothelial cultures",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-b3b45428e8240a48545b",
+      "paperDigest": "f7fa113da71fac79dd22218a5922b718b8738b21033cdbeb49ad6598fb18a3dd"
+    },
+    {
+      "id": "behcet-senescence-neutrophils",
+      "subject": "entity-endothelial-senescence",
+      "object": "entity-neutrophils",
+      "predicate": "stimulates",
+      "text": "NET-exposed endothelial cells exhibited neutrophil chemotaxis activity in the reported culture system.",
+      "quote": "NETs promoted senescence, SASP, and PMN chemotaxis in VECs",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:42109254",
+      "studySystem": "2026 human CD177-positive neutrophil study: peripheral n=38, sequencing n=7; NET-stimulated vascular endothelial cultures",
+      "evidenceType": "human_in_vitro",
+      "category": "supporting",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Study-local feedback interpretation; no proof of a self-sustaining in-vivo disease loop."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-b3b45428e8240a48545b",
+      "paperDigest": "f7fa113da71fac79dd22218a5922b718b8738b21033cdbeb49ad6598fb18a3dd"
+    },
+    {
+      "id": "behcet-disease-oral",
+      "subject": "entity-behcet",
+      "object": "entity-oral-ulcers",
+      "predicate": "is_associated_with",
+      "text": "Behçet disease has recurrent inflammatory involvement of oral mucosa.",
+      "quote": "orogenital mucosa",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "studySystem": "Primary Behçet GWAS disease phenotype description; not a manifestation-prevalence study",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-9c51eef6d44e7fd685ba",
+      "paperDigest": "a6b2667a29ec19805a4200541281ef34e2556a504e37eafeb64444ab000195c1"
+    },
+    {
+      "id": "behcet-disease-genital",
+      "subject": "entity-behcet",
+      "object": "entity-genital-ulcers",
+      "predicate": "is_associated_with",
+      "text": "Behçet disease has recurrent inflammatory involvement of genital mucosa.",
+      "quote": "orogenital mucosa",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "studySystem": "Primary Behçet GWAS disease phenotype description; not a manifestation-prevalence study",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-9c51eef6d44e7fd685ba",
+      "paperDigest": "a6b2667a29ec19805a4200541281ef34e2556a504e37eafeb64444ab000195c1"
+    },
+    {
+      "id": "behcet-disease-skin",
+      "subject": "entity-behcet",
+      "object": "entity-skin-lesions",
+      "predicate": "is_associated_with",
+      "text": "Behçet disease has recurrent inflammatory involvement of skin.",
+      "quote": "eyes and skin",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "studySystem": "Primary Behçet GWAS disease phenotype description; not a manifestation-prevalence study",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-9c51eef6d44e7fd685ba",
+      "paperDigest": "a6b2667a29ec19805a4200541281ef34e2556a504e37eafeb64444ab000195c1"
+    },
+    {
+      "id": "behcet-disease-eye",
+      "subject": "entity-behcet",
+      "object": "entity-uveitis",
+      "predicate": "is_associated_with",
+      "text": "Behçet disease has recurrent inflammatory involvement of eyes.",
+      "quote": "eyes and skin",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:20622878",
+      "studySystem": "Primary Behçet GWAS disease phenotype description; not a manifestation-prevalence study",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-9c51eef6d44e7fd685ba",
+      "paperDigest": "a6b2667a29ec19805a4200541281ef34e2556a504e37eafeb64444ab000195c1"
+    },
+    {
+      "id": "behcet-disease-cns",
+      "subject": "entity-behcet",
+      "object": "entity-cns-involvement",
+      "predicate": "is_associated_with",
+      "text": "CNS involvement contributed to morbidity and could begin late in the historical cohort.",
+      "quote": "central nervous system involvement and major vessel disease are exceptions",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:12544711",
+      "studySystem": "Historical Turkish cohort: 387 of 428 patients with long-term outcome information",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-0a66e451e6676ef9a7dd",
+      "paperDigest": "59f91636c7a2ccb28197b023f33d1572e9bc2ed28e2d6646ddcecd1d5cd17386"
+    },
+    {
+      "id": "behcet-uveitis-vision",
+      "subject": "entity-uveitis",
+      "object": "entity-visual-impairment",
+      "predicate": "is_associated_with",
+      "text": "Eye disease and its greatest damage generally occurred in the first years in the historical cohort.",
+      "quote": "Both the onset of eye disease and its greatest damage",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:12544711",
+      "studySystem": "Historical 20-year Turkish outcome survey; earlier treatment era",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Observational historical cohort; not current-treated risk estimates or causal quantification."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-0a66e451e6676ef9a7dd",
+      "paperDigest": "59f91636c7a2ccb28197b023f33d1572e9bc2ed28e2d6646ddcecd1d5cd17386"
+    },
+    {
+      "id": "behcet-cns-mortality",
+      "subject": "entity-cns-involvement",
+      "object": "entity-mortality",
+      "predicate": "is_associated_with",
+      "text": "Deaths in the historical cohort were mainly due to major-vessel disease and neurologic involvement.",
+      "quote": "mainly due to major vessel disease and neurologic involvement",
+      "quoteLocation": "Primary-report abstract, main text; Europe PMC MED:12544711",
+      "studySystem": "Historical 20-year Turkish outcome survey",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-0a66e451e6676ef9a7dd",
+      "paperDigest": "59f91636c7a2ccb28197b023f33d1572e9bc2ed28e2d6646ddcecd1d5cd17386"
+    },
+    {
+      "id": "behcet-disease-aneurysms",
+      "subject": "entity-behcet",
+      "object": "entity-arterial-aneurysms",
+      "predicate": "is_associated_with",
+      "text": "A selected vascular cohort included 23 Behçet patients with nonpulmonary aneurysms.",
+      "quote": "nonpulmonary aneurysms (n = 23)",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:21944910",
+      "studySystem": "Selected surgical/vascular cohort, 25 patients, 24 men and one woman",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Selected clinical cohort; no population prevalence or molecular cause established."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-2816b0bb9fc96c826148",
+      "paperDigest": "87a17f164d8702f846dd97e4d008dacc5ed73228298cbbc2636cbc9467e1e8e0"
+    },
+    {
+      "id": "behcet-disease-thrombosis",
+      "subject": "entity-behcet",
+      "object": "entity-thrombosis",
+      "predicate": "is_associated_with",
+      "text": "Thrombosis is a vascular complication represented in the NET study.",
+      "quote": "Thrombosis is a frequent and life-threatening complication",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:31147357",
+      "studySystem": "Human vascular Behçet phenotype context",
+      "evidenceType": "human_observational",
+      "category": "supporting",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-78fa7e0dd249d95099ca",
+      "paperDigest": "72a0c46ed3a2a2ed64297cee287d6041b6e4e2e044a190b3ee5377763a434707"
+    },
+    {
+      "id": "behcet-apremilast-ulcers",
+      "subject": "entity-apremilast",
+      "object": "entity-oral-ulcers",
+      "predicate": "inhibits",
+      "text": "Apremilast reduced oral-ulcer burden versus placebo over 12 weeks in 207 randomized patients without major organ involvement.",
+      "quote": "apremilast resulted in a greater reduction in the number of oral ulcers than placebo",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:31722152",
+      "studySystem": "Phase 3 randomized placebo-controlled trial; active oral ulcers, no major organ involvement",
+      "evidenceType": "randomized_trial",
+      "category": "supporting",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Oral-ulcer population; no inference of vascular/CNS/ocular protection. Diarrhea, nausea and headache were reported."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-571821a021626260b864",
+      "paperDigest": "b8dc3174f8bd6ac96115523aa630c97da2575ae2e121b4be81048afcc2895396"
+    },
+    {
+      "id": "behcet-il17-uveitis-trial",
+      "subject": "entity-il17",
+      "object": "entity-uveitis",
+      "predicate": "is_associated_with",
+      "text": "Subcutaneous IL-17A blockade with secukinumab did not meet the primary efficacy endpoint in SHIELD (118 Behçet uveitis patients), qualifying translation from cytokine elevation to benefit.",
+      "quote": "The primary efficacy end points of the 3 studies were not met",
+      "quoteLocation": "Primary-report abstract, Results; Europe PMC MED:23290985",
+      "studySystem": "SHIELD Behçet uveitis trial; INSURE and ENDURE were non-Behçet populations and are not generalized here",
+      "evidenceType": "randomized_trial",
+      "category": "qualifying",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Regimen- and indication-specific null result; secondary immunosuppressant-use benefit reported; does not disprove all IL-17 biology."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent: primary-source passage and metadata inspection",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-behcet-overview",
+      "paperKey": "doi-14952f97ec1d4ca50e96",
+      "paperDigest": "24c4474a1b7c755a11f320923e5666835742400653a3aef8e94700648e08ad35"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "diseaseId": "behcet-disease",
+  "baseReleaseId": "behcet-disease-summary-candidate-1866a82ff829",
+  "baseContentDigest": "df74921816704dd85e9b33625a0df601ad04ea49245e9ccf8cc503ddc4f9061a",
+  "scope": "Bounded human Behçet disease overview: HLA/ERAP1 and cytokine-locus susceptibility, T-cell and neutrophil activation, NET/coagulation and endothelial injury, plus mucocutaneous, ocular, vascular, neurologic, joint and intestinal branches. Primary-report associations, culture mechanisms and intervention populations remain distinct. Excludes monogenic mimics, diagnostic criteria and comprehensive treatment guidance.",
+  "authoredBy": {
+    "id": "",
+    "kind": "human"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "Circulating NET markers were higher in active than inactive disease and healthy donors. A selected vascular cohort included 23 Behçet patients with nonpulmonary aneurysms. Purified Behçet neutrophils exhibited spontaneous NET formation compared with healthy donors.",
+      "claimIds": [
+        "claim-behcet-nets-disease",
+        "claim-behcet-disease-aneurysms",
+        "claim-behcet-neutrophils-nets"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism. Selected clinical cohort; no population prevalence or molecular cause established. Treatment efficacy has not been synthesized in this summary.",
+      "claimIds": [
+        "claim-behcet-nets-disease",
+        "claim-behcet-disease-aneurysms",
+        "claim-behcet-neutrophils-nets"
+      ]
+    }
+  ]
+}

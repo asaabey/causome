@@ -1,0 +1,385 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE_ABS:\"intestinal Beh\u00e7et\" AND TITLE_ABS:cohort AND FIRST_PDATE:[2015-01-01 TO 2026-10-17]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 20,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39089843",
+        "source": "MED",
+        "pmid": "39089843",
+        "doi": "10.3899/jrheum.2024-0442",
+        "title": "Association Between Proton Pump Inhibitors and the Risk of Intestinal Beh\u00e7et Disease.",
+        "authorString": "Murakami K, Arai J, Ihara S, Hirata Y, Tsuchida Y, Shoda H, Tsuboi M, Kurokawa K, Suzuki N, Kinoshita H, Hayakawa Y, Fujio K, Fujishiro M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Murakami K",
+              "lastName": "Murakami",
+              "firstName": "Keita",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "K. Murakami, MD, S. Ihara, MD, PhD, M. Tsuboi, MD, PhD, K. Kurokawa, MD, PhD, N. Suzuki, MD, PhD, H. Kinoshita, MD, PhD, Y. Hayakawa, MD, PhD, M. Fujishiro, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Arai J",
+              "lastName": "Arai",
+              "firstName": "Junya",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "J. Arai, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo, and Department of Gastroenterology, The Institute of Medical Science, Asahi Life Foundation."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ihara S",
+              "lastName": "Ihara",
+              "firstName": "Sozaburo",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "K. Murakami, MD, S. Ihara, MD, PhD, M. Tsuboi, MD, PhD, K. Kurokawa, MD, PhD, N. Suzuki, MD, PhD, H. Kinoshita, MD, PhD, Y. Hayakawa, MD, PhD, M. Fujishiro, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo; sozaburo.ihara@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hirata Y",
+              "lastName": "Hirata",
+              "firstName": "Yoshihiro",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Y. Hirata, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo, and Division of Advanced Genome Medicine, The Institute of Medical Science, The University of Tokyo."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tsuchida Y",
+              "lastName": "Tsuchida",
+              "firstName": "Yumi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Y. Tsuchida, MD, PhD, H. Shoda, MD, PhD, K. Fujio, MD, PhD, Department of Allergy and Rheumatology, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shoda H",
+              "lastName": "Shoda",
+              "firstName": "Hirofumi",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Y. Tsuchida, MD, PhD, H. Shoda, MD, PhD, K. Fujio, MD, PhD, Department of Allergy and Rheumatology, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tsuboi M",
+              "lastName": "Tsuboi",
+              "firstName": "Mayo",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "K. Murakami, MD, S. Ihara, MD, PhD, M. Tsuboi, MD, PhD, K. Kurokawa, MD, PhD, N. Suzuki, MD, PhD, H. Kinoshita, MD, PhD, Y. Hayakawa, MD, PhD, M. Fujishiro, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kurokawa K",
+              "lastName": "Kurokawa",
+              "firstName": "Ken",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "K. Murakami, MD, S. Ihara, MD, PhD, M. Tsuboi, MD, PhD, K. Kurokawa, MD, PhD, N. Suzuki, MD, PhD, H. Kinoshita, MD, PhD, Y. Hayakawa, MD, PhD, M. Fujishiro, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Suzuki N",
+              "lastName": "Suzuki",
+              "firstName": "Nobumi",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "K. Murakami, MD, S. Ihara, MD, PhD, M. Tsuboi, MD, PhD, K. Kurokawa, MD, PhD, N. Suzuki, MD, PhD, H. Kinoshita, MD, PhD, Y. Hayakawa, MD, PhD, M. Fujishiro, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kinoshita H",
+              "lastName": "Kinoshita",
+              "firstName": "Hiroto",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8179-6017"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "K. Murakami, MD, S. Ihara, MD, PhD, M. Tsuboi, MD, PhD, K. Kurokawa, MD, PhD, N. Suzuki, MD, PhD, H. Kinoshita, MD, PhD, Y. Hayakawa, MD, PhD, M. Fujishiro, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hayakawa Y",
+              "lastName": "Hayakawa",
+              "firstName": "Yoku",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "K. Murakami, MD, S. Ihara, MD, PhD, M. Tsuboi, MD, PhD, K. Kurokawa, MD, PhD, N. Suzuki, MD, PhD, H. Kinoshita, MD, PhD, Y. Hayakawa, MD, PhD, M. Fujishiro, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fujio K",
+              "lastName": "Fujio",
+              "firstName": "Keishi",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Y. Tsuchida, MD, PhD, H. Shoda, MD, PhD, K. Fujio, MD, PhD, Department of Allergy and Rheumatology, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fujishiro M",
+              "lastName": "Fujishiro",
+              "firstName": "Mitsuhiro",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "K. Murakami, MD, S. Ihara, MD, PhD, M. Tsuboi, MD, PhD, K. Kurokawa, MD, PhD, N. Suzuki, MD, PhD, H. Kinoshita, MD, PhD, Y. Hayakawa, MD, PhD, M. Fujishiro, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4905-7046"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8179-6017"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "51",
+          "journalIssueId": 3861973,
+          "dateOfPublication": "2024 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "J Rheumatol",
+            "title": "The Journal of rheumatology",
+            "essn": "1499-2752",
+            "issn": "0315-162X",
+            "isoabbreviation": "J Rheumatol",
+            "nlmid": "7501984"
+          },
+          "printPublicationDate": "2024-12-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "1193-1197",
+        "abstractText": "<h4>Objective</h4>This study aimed to investigate the association between proton pump inhibitor (PPI) use and the incidence of intestinal Beh\u00e7et disease (BD) in patients with BD.<h4>Methods</h4>A retrospective cohort study was conducted at The University of Tokyo Hospital, including patients with BD diagnosed between April 2005 and November 2023. Cox models and Kaplan-Meier analyses were used to evaluate hazard ratios (HRs) and cumulative incidence of intestinal BD, respectively. Secondary analyses were performed to assess the duration and dose-response relationship of PPI use.<h4>Results</h4>Among 194 patients with BD, 25.3% developed intestinal BD during a mean follow-up of 12 years. PPI users had a significantly higher incidence of intestinal BD compared to nonusers (adjusted HR 2.48, 95% CI 1.38-4.47, <i>P</i> = 0.002), with a confirmed duration/dose-dependent relationship. The cumulative incidence of intestinal BD was markedly elevated in PPI users (log-rank <i>P</i> < 0.001). The result was similar to that in the propensity score-matched cohort.<h4>Conclusion</h4>This study demonstrates a significant association between PPI use and increased incidence of intestinal BD in patients with BD. Caution in prescribing PPIs for patients with BD is warranted due to the potential risk of severe complications associated with intestinal BD.",
+        "affiliation": "K. Murakami, MD, S. Ihara, MD, PhD, M. Tsuboi, MD, PhD, K. Kurokawa, MD, PhD, N. Suzuki, MD, PhD, H. Kinoshita, MD, PhD, Y. Hayakawa, MD, PhD, M. Fujishiro, MD, PhD, Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Incidence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proportional Hazards Models"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Retrospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Proton Pump Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Intestinal diseases",
+            "Proton Pump Inhibitors",
+            "Beh\u00e7et Disease"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Proton Pump Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3899/jrheum.2024-0442"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-12-01",
+        "dateOfCreation": "2024-08-01",
+        "dateOfRevision": "2026-08-25",
+        "electronicPublicationDate": "2024-12-01",
+        "firstPublicationDate": "2024-12-01",
+        "firstIndexDate": "2024-08-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

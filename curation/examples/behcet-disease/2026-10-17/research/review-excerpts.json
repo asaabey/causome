@@ -1,0 +1,26 @@
+[
+  {
+    "claimId": "claim-behcet-tc17-il17",
+    "sourceId": "source-behcet-34254298",
+    "quote": "T cells were the predominant source of IL-17A",
+    "location": "Primary-report abstract, Results",
+    "checkedBy": "Codex agent",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "claimId": "claim-behcet-il17-neutrophils",
+    "sourceId": "source-behcet-34254298",
+    "quote": "IL-17A expression was associated with extensive recruitment of neutrophils",
+    "location": "Primary-report abstract, Results",
+    "checkedBy": "Codex agent",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "claimId": "claim-behcet-infliximab-bio",
+    "sourceId": "source-behcet-39432564",
+    "quote": "mean difference of 0.13 in BDAI",
+    "location": "Primary-report abstract, Results",
+    "checkedBy": "Codex agent",
+    "checkedAt": "2026-10-17"
+  }
+]

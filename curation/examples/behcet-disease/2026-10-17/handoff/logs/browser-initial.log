@@ -1,0 +1,376 @@
+{"title":"Behçet’s disease · Causome","headings":["Behçet’s disease","Overall scientific summary","Mechanism map","Behçet disease: susceptibility, immune activation & organ injury","Behçet inflammatory disease","Text outline"],"nodes":38,"edges":52,"cloud":1,"overflow":false,"errors":[]}
+Skip to content
+Causome
+LIVING DISEASE ATLAS
+Disease atlas
+Compare
+Methodology
+Sources
+Curation
+Development preview
+Atlas
+/
+Behçet’s disease
+
+DISEASE MAP · BEHCET DISEASE
+
+Behçet’s disease
+
+Bounded human Behçet disease overview: HLA/ERAP1 and cytokine-locus susceptibility, T-cell and neutrophil activation, NET/coagulation and endothelial injury, plus mucocutaneous, ocular, vascular, neurologic, joint and intestinal branches. Primary-report associations, culture mechanisms and intervention populations remain distinct. Excludes monogenic mimics, diagnostic criteria and comprehensive treatment guidance.
+
+SCIENTIFIC CANDIDATE
+behcet-disease-summary-candidate-d266780f35d0
+EVIDENCE CUTOFF
+2026-10-17
+Release history
+Compare versions
+Overall scientific summary
+
+Behçet disease combines genetic susceptibility with recurrent inflammation affecting mucosa, skin, eyes and, in subsets, vessels, the nervous system, joints or bowel. HLA-B*51 and ERAP1 show a statistical interaction, while IL10 and IL23R–IL12RB2 associations implicate immune regulation without establishing a specific initiating antigen. Human blood and culture studies connect IL-21 with increased Th17 responses and fewer regulatory T cells; IL-23 can increase IL-17 production, and IL-17 and IFN-γ are elevated in active uveitis. In studied skin lesions, CD8/Tc17 cells predominated as the IL-17 source and IL-17 expression correlated with NET-forming neutrophil recruitment. A parallel neutrophil branch converges on extracellular traps (NETs): patient neutrophils form NETs, NET markers associate with vascular involvement, and DNase reduces thrombin generation in patient plasma ex vivo. A 2026 exploratory study links CD177-positive neutrophil-derived NETs and histone H3.1 to endothelial senescence and neutrophil recruitment in culture. In the intestinal subset, a separate PBMC–epithelial co-culture study links PLK1-dependent TNF release to IFI16–STING–TBK1 signalling and epithelial apoptosis. These findings connect selected immune and tissue-injury processes; phenotype links to aneurysms, neurologic injury and visual morbidity remain clinical observations.
+
+The overview combines different patient subsets and experimental systems; it does not establish one causal circuit operating in every patient. Genetic cohorts overlap, most reports were inspected at abstract level, and the newer endothelial and intestinal mechanisms need independent replication. IFN-γ inhibited IL-17 production in one culture assay despite both cytokines being elevated in active uveitis. Subcutaneous secukinumab did not meet the primary endpoint in the Behçet uveitis SHIELD trial, qualifying the inference that IL-17 elevation predicts benefit from blockade. Apremilast reduced oral ulcers in a 207-person placebo-controlled trial and has a verified US adult oral-ulcer indication; that trial excluded major organ involvement and does not establish vascular or neurologic protection. In a separate 52-person severe vascular/CNS trial, infliximab produced more complete responses at week 22 than cyclophosphamide with glucocorticoids in both arms; this is indication-specific evidence, and Behçet is absent from the inspected US infliximab label. BIO-BEHÇET found comparable short-term outcomes for infliximab and IFN-α2a in refractory disease. Microbial triggers, broader immune pathways and treatment options remain incompletely curated. Historical cohort outcomes are not current-treated risk estimates. Independent scientific review and appraisal calibration remain pending.
+
+Download summary and external review prompt
+Review this summary in the curator
+
+Mechanism map
+
+38 entities · 52 relationships · 2 therapies
+
+Read the text outline ↓
+
+Selected Behçet inflammatory disease. Evidence is available in the evidence inspector.
+
+MECHANISM OVERVIEW
+Behçet disease: susceptibility, immune activation & organ injury
+Showing 38/38 entities · 52/52 relationships
+Find a mediator or therapy
+
+Search names and synonyms across every route. Choose a result to read its evidence.
+
+INTERVENTIONS
+Apremilast
+approved
+Infliximab
+experimental
+KEY PLAYERS
+Size = evidence-linked claims in this map, not importance or causal weight
+Cloud
+Grouped
+IL-17A
+NETs
+Neutrophils
+Apremilast
+HLA-B*51
+TNF
+Endothelial senescence
+Histone H3.1
+IFI16
+Th17 cells
+ERAP1 risk variants
+IFN-γ
+IL-21
+IL-23
+IL10 risk allele
+PDE4
+Regulatory T cells
+STING–TBK1 signalling
+CD8 / Tc17 cells
+IL-10
+IL23R–IL12RB2 locus
+Epithelial apoptosis
+PLK1
+ROS
+Thrombin generation
+TLR4 signalling
+Cytokines & mediators
+Proteins, receptors & genes
+Processes
+Cells
+Substrates, tissues & pathogens
+LEADS TO
+Behçet inflammatory disease17
+Uveitis7
+Oral ulcers4
+CNS inflammation / injury3
+Intestinal ulceration3
+Inflammatory skin lesions2
+Vascular thrombosis2
+Arterial aneurysms1
+Disease-associated mortality1
+Genital ulcers1
+Joint involvement1
+Visual impairment1
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+stimulates
+inhibits
+stimulates
+inhibits
+produces
+is associated with
+is associated with
+is associated with
+produces
+contributes to
+is associated with
+is associated with
+produces
+is associated with
+inhibits
+inhibits
+inhibits
+contributes to
+is associated with
+activates
+contributes to
+stimulates ↺
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+inhibits
+stimulates
+stimulates
+activates
+contributes to
+is associated with
+is associated with
+is associated with
+is associated with
+is associated with
+produces
+is associated with
+CLINICAL OUTCOME
+Behçet inflammatory disease
+W 5 · C 1
+GENETIC VARIANT
+HLA-B*51 susceptibility
+W 5 · C 1
+GENETIC VARIANT
+ERAP1 risk variants
+W 5 · C 1
+GENETIC VARIANT
+IL10 risk allele
+W 5 · C 1
+GENETIC VARIANT
+IL23R–IL12RB2 risk locus
+W 5 · C 1
+CYTOKINE
+IL-10
+W 5 · C 1
+CYTOKINE
+IL-21
+W 35 · C 1
+CYTOKINE
+IL-23
+W 35 · C 1
+CYTOKINE
+IL-17A
+W 35 · C 1
+CYTOKINE
+IFN-γ
+W 35 · C 1
+CELL
+Th17 cells
+W 35 · C 1
+CELL
+Regulatory T cells
+W 35 · C 1
+CELL
+Neutrophils
+W 40 · C 1
+PROCESS
+Neutrophil extracellular traps
+W 40 · C 1
+PROCESS
+Reactive oxygen species
+W 30 · C 1
+PROCESS
+Thrombin generation
+W 30 · C 1
+CLINICAL OUTCOME
+Vascular thrombosis
+W 5 · C 1
+PROCESS
+Endothelial senescence / SASP
+W 30 · C 1
+PROTEIN
+Histone H3.1
+W 40 · C 1
+RECEPTOR / SENSOR
+TLR4 signalling
+W 30 · C 1
+PROTEIN
+Phosphodiesterase 4
+W 30 · C 1
+Rx 1
+BIOLOGICAL SUBSTRATE
+Apremilast
+W 50 · C 1
+CLINICAL OUTCOME
+Uveitis
+W 5 · C 1
+CLINICAL OUTCOME
+Oral ulcers
+W 45 · C 1
+CLINICAL OUTCOME
+Genital ulcers
+W 5 · C 1
+CLINICAL OUTCOME
+Inflammatory skin lesions
+W 5 · C 1
+CLINICAL OUTCOME
+CNS inflammation / injury
+W 5 · C 1
+CLINICAL OUTCOME
+Arterial aneurysms
+W 5 · C 1
+CLINICAL OUTCOME
+Visual impairment
+W 5 · C 1
+CLINICAL OUTCOME
+Disease-associated mortality
+W 5 · C 1
+CYTOKINE
+TNF
+W 35 · C 1
+Rx 1
+PROTEIN
+PLK1
+W 30 · C 1
+PROTEIN
+IFI16
+W 35 · C 1
+PROCESS
+STING–TBK1 signalling
+W 30 · C 1
+PROCESS
+Intestinal epithelial apoptosis
+W 30 · C 1
+CLINICAL OUTCOME
+Intestinal ulceration
+W 5 · C 1
+CLINICAL OUTCOME
+Joint involvement
+W 5 · C 1
+CELL
+CD8 / Tc17 cells
+W 15 · C 1
+candidate
+Fit map
+Focus selection
+React Flow
+
+SELECTED
+Behçet inflammatory disease
+
+Read selected evidence
+Arrow: directed relationship
+Dotted line: symmetric association
+Dashed line: indirect or context-dependent
+Provisional · Area: weight tier · Outline: confidence tier (0 dotted, 1 dashed, 2 solid, 3 double, 4 heavy)
+Rx: direct-target therapy count
+↺: cycle-closing connection
+Biological shapes & reading the overview
+Explore the text outline
+Show entities & relationships in this route
+EVIDENCE INSPECTOR
+
+CLINICAL OUTCOME
+
+Behçet inflammatory disease
+
+A disease-phenotype hub connecting susceptibility and observed manifestations; not a molecular mechanism.
+
+BIOLOGICAL CONTEXT
+
+Behçet disease: cross-study human genetic, blood/cell, vascular and organ-phenotype synthesis
+
+Human participants and human-derived cultures; study-specific systems retained in evidence · Adult Behçet disease; active/remission, uveitis, vascular and mucocutaneous subsets are distinct · Blood, cultured leukocytes/endothelium, skin, vascular tissue and CNS specimens · Cross-study overview, not a demonstrated universal causal circuit
+Mechanistic weight
+5/100
+Evidence confidence
+1/4
+Therapeutic leverage
+No intervention curated
+
+Provisional · uncalibrated.
+Automatic · causome-auto-appraisal-v1, 2026-10-17.
+
+Model: Automatic conservative appraisal (model-provisional-6bf3c0ec562b-r1). Calibration: Uncalibrated.
+
+Therapeutic target coverage and limits
+Weight components and rationale
+Confidence dimensions and rationale
+Editorial status: candidate
+Automatic provisional appraisal (causome-auto-appraisal-v1). 15 supporting, 0 qualifying and 0 contradicting claims; 7 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.
+Claims & provenance
+Biological role
+SOURCE CHECKED
+
+HLA-B*51 was associated with Behçet disease susceptibility in the reported GWAS.
+
+Source checked 2026-10-17
+Context: Behçet disease: cross-study human genetic, blood/cell, vascular and organ-phenotype synthesis · association
+
+Limits of this claim
+Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism.
+Genome-wide association study identifies variants in the MHC class I, IL10, and IL23R-IL12RB2 regions associated with Behçet's disease.
+(opens in a new tab)
+
+HLA-B*51 was associated with Behçet disease susceptibility in the reported GWAS.
+
+Study system: Turkish case-control GWAS with multi-population meta-analysis; overlapping cohorts across genetic publications are not independent replication · human genetic
+
+publication · Primary-report abstract, main text; Europe PMC MED:20622878 · Checked 2026-10-17
+Study: PMID:20622878 · Read: Primary-report abstract and Europe PMC bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full text not inspected.
+Biological role
+SOURCE CHECKED
+
+The IL10 rs1518111 locus was associated with disease susceptibility.
+
+Source checked 2026-10-17
+Context: Behçet disease: cross-study human genetic, blood/cell, vascular and organ-phenotype synthesis · association
+
+Limits of this claim
+Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism.
+Genome-wide association study identifies variants in the MHC class I, IL10, and IL23R-IL12RB2 regions associated with Behçet's disease.
+(opens in a new tab)
+
+The IL10 rs1518111 locus was associated with disease susceptibility.
+
+Study system: Turkish case-control GWAS with multi-population meta-analysis; overlapping cohorts across genetic publications are not independent replication · human genetic
+
+publication · Primary-report abstract, main text; Europe PMC MED:20622878 · Checked 2026-10-17
+Study: PMID:20622878 · Read: Primary-report abstract and Europe PMC bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full text not inspected.
+Biological role
+SOURCE CHECKED
+
+The IL23R–IL12RB2 locus was associated with susceptibility in the meta-analysis.
+
+Source checked 2026-10-17
+Context: Behçet disease: cross-study human genetic, blood/cell, vascular and organ-phenotype synthesis · association
+
+Limits of this claim
+Abstract-level inspection; selected study population or assay, not proof of a universal disease mechanism.
+Genome-wide association study identifies variants in the MHC class I, IL10, and IL23R-IL12RB2 regions associated with Behçet's disease.
+(opens in a new tab)
+
+The IL23R–IL12RB2 locus was associated with susceptibility in the meta-analysis.
+
+Study system: Turkish case-control GWAS with multi-population meta-analysis; overlapping cohorts across genetic publications are not independent replication · human genetic
+
+publication · Primary-report abstract, main t

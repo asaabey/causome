@@ -1,0 +1,1371 @@
+{
+  "version": "6.9",
+  "hitCount": 3,
+  "request": {
+    "queryString": "DOI:10.1111/bjd.20643 OR DOI:10.1093/rheumatology/keae585 OR DOI:10.1002/advs.202411524",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 20,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40013981",
+        "source": "MED",
+        "pmid": "40013981",
+        "pmcid": "PMC12021058",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12021058"
+          ]
+        },
+        "doi": "10.1002/advs.202411524",
+        "title": "NETs-CD44-IL-17A Feedback Loop Drives Th17-Mediated Inflammation in Beh\u00e7et's Uveitis.",
+        "authorString": "Wu Y, Ning K, Huang Z, Chen B, Chen J, Wen Y, Bu J, Hong H, Chen Q, Zhang Z, Jia R, Su W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wu Y",
+              "lastName": "Wu",
+              "firstName": "Yi",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-0923-7248"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, 510060, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ning K",
+              "lastName": "Ning",
+              "firstName": "Kang",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5628-8555"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Head and Neck Surgery, Sun Yat-sen University Cancer Center, Guangzhou, 510050, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Oncology in Southern China, Collaborative Innovation Center for Cancer Medicine, Guangzhou, 510050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang Z",
+              "lastName": "Huang",
+              "firstName": "Zhaohao",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, 510060, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen B",
+              "lastName": "Chen",
+              "firstName": "Binyao",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, 510060, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen J",
+              "lastName": "Chen",
+              "firstName": "Junjie",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, 510060, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wen Y",
+              "lastName": "Wen",
+              "firstName": "Yingying",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bengbu Medical University, Bengbu, Anhui, 233030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bu J",
+              "lastName": "Bu",
+              "firstName": "Jian",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, 510080, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hong H",
+              "lastName": "Hong",
+              "firstName": "Han",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, 510080, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen Q",
+              "lastName": "Chen",
+              "firstName": "Qiaorong",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, 510080, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Z",
+              "lastName": "Zhang",
+              "firstName": "Zhuoqi",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, 510080, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jia R",
+              "lastName": "Jia",
+              "firstName": "Renbing",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology, Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200011, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Su W",
+              "lastName": "Su",
+              "firstName": "Wenru",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0506-6362"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, 510060, China."
+                  },
+                  {
+                    "affiliation": "Department of Ophthalmology, Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200011, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0506-6362"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5628-8555"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-0923-7248"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "16",
+          "volume": "12",
+          "journalIssueId": 3932680,
+          "dateOfPublication": "2025 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Adv Sci (Weinh)",
+            "title": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "essn": "2198-3844",
+            "issn": "2198-3844",
+            "isoabbreviation": "Adv Sci (Weinh)",
+            "nlmid": "101664569"
+          },
+          "printPublicationDate": "2025-04-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "e2411524",
+        "abstractText": "Beh\u00e7et's uveitis (BU) is a severe ocular manifestation of Beh\u00e7et's disease, typically accompanied by abnormal neutrophil infiltration and hyperactivation. However, the underlying causes of excessive neutrophil extracellular traps (NETs) production and mechanisms by which NETs contribute to the pathogenesis of BU remain incompletely understood. Neutrophils from BU patients exhibit a higher propensity for NETs release compared to healthy controls. In the experimental autoimmune uveitis (EAU), neutrophils are observed to exert pro-inflammatory effects through NETs. Clearing NETs can inhibit\u00a0T helper 17 (Th17) cell differentiation and significantly alleviate\u00a0EAU symptoms. In vivo and in vitro experiments demonstrate neutralizing IL-17A markedly reducing neutrophil infiltration and NETs formation in EAU. Single-cell RNA sequencing confirms that CD44 plays a key role in mediating interactions between NETs and Th17 cells. Antagonizing CD44 inhibits the proportion of Th17 cells and NETs formation. Multiplex immunofluorescence and cell communication analyses further demonstrate interactions and colocalization between NETs and CD44<sup>high</sup>CD4<sup>+</sup>T cells in EAU. NETs induce Th17 differentiation via upregulating CD44, and in turn, Th17 cells secrete IL-17A to recruit neutrophils and promote NETs formation. Interrupting NETs-CD44-IL-17A feedback loop\u00a0may be a\u00a0potential\u00a0therapeutic target\u00a0for\u00a0BU.",
+        "affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, 510060, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Innovative Research Team of High-level Local Universities in Shanghai",
+              "grantId": "SHSMU-ZDCX20210902",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neutrophils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Uveitis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Inflammation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Interleukin-17",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Feedback, Physiological"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Th17 Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Extracellular Traps",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hyaluronan Receptors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "CD44",
+            "Neutrophil Extracellular Traps",
+            "Positive Feedback Loops",
+            "Il\u201017a",
+            "Beh\u00e7et's Uveitis"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Interleukin-17",
+              "registryNumber": "0"
+            },
+            {
+              "name": "CD44 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "IL17A protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hyaluronan Receptors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1002/advs.202411524"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/advs.202411524"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12021058"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12021058?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 21,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-04-25",
+        "dateOfCreation": "2025-02-27",
+        "dateOfRevision": "2025-04-26",
+        "electronicPublicationDate": "2025-02-27",
+        "firstPublicationDate": "2025-02-27",
+        "firstIndexDate": "2025-02-28",
+        "fullTextReceivedDate": "2025-11-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39432564",
+        "source": "MED",
+        "pmid": "39432564",
+        "doi": "10.1093/rheumatology/keae585",
+        "title": "Infliximab vs interferon-\u03b1 in the treatment of Beh\u00e7et's syndrome: clinical data from the BIO-BEH\u00c7ET'S randomized controlled trial.",
+        "authorString": "Moots RJ, Fortune F, Jackson R, Thornburn T, Morgan A, Carr DF, Murray PI, Wallace GR, Situnayake D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Moots RJ",
+              "lastName": "Moots",
+              "firstName": "Robert J",
+              "initials": "RJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7019-6211"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Academic Rheumatology, Liverpool University Hospitals NHS Foundation Trust, Aintree University Hospital, Liverpool, UK."
+                  },
+                  {
+                    "affiliation": "Faculty of Health, Social Care and Medicine, Edge Hill University, Ormskirk, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fortune F",
+              "lastName": "Fortune",
+              "firstName": "Farida",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5930-1973"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Dentistry, Queen Mary University of London, London, UK."
+                  },
+                  {
+                    "affiliation": "Barts Health NHS Trust, The London Hospital, London, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jackson R",
+              "lastName": "Jackson",
+              "firstName": "Richard",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7814-5088"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Liverpool Clinical Trials Centre, University of Liverpool, Liverpool, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thornburn T",
+              "lastName": "Thornburn",
+              "firstName": "Tony",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7566-7596"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Beh\u00e7et's UK, London, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Morgan A",
+              "lastName": "Morgan",
+              "firstName": "Ann",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1109-624X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Institute of Cardiovascular and Metabolic Medicine, University of Leeds, Leeds, UK; NIHR Leeds Biomedical Research Centre, Leeds Teaching Hospitals NHS Trust, Leeds, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Carr DF",
+              "lastName": "Carr",
+              "firstName": "Daniel F",
+              "initials": "DF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8028-4282"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Systems, Molecular and Integrated Biology, University of Liverpool, Liverpool, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Murray PI",
+              "lastName": "Murray",
+              "firstName": "Philip I",
+              "initials": "PI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8491-3795"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Inflammation and Ageing, University of Birmingham, Birmingham, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wallace GR",
+              "lastName": "Wallace",
+              "firstName": "Graham R",
+              "initials": "GR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2054-0509"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Inflammation and Ageing, University of Birmingham, Birmingham, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Situnayake D",
+              "lastName": "Situnayake",
+              "firstName": "Deva",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0643-0760"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology, Sandwell and West Birmingham Hospitals, Birmingham, UK."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5930-1973"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7019-6211"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7566-7596"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8028-4282"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8491-3795"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0643-0760"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7814-5088"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1109-624X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2054-0509"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "64",
+          "journalIssueId": 3938683,
+          "dateOfPublication": "2025 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Rheumatology (Oxford)",
+            "title": "Rheumatology (Oxford, England)",
+            "essn": "1462-0332",
+            "issn": "1462-0324",
+            "isoabbreviation": "Rheumatology (Oxford)",
+            "nlmid": "100883501"
+          },
+          "printPublicationDate": "2025-05-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "2882-2891",
+        "abstractText": "<h4>Objectives</h4>Whilst biologic therapy is used for Beh\u00e7et's syndrome of all subtypes refractory to first-line immunomodulation, there has been an absence of high-quality evidence and no predictive biomarkers to optimally inform choice. BIO-BEH\u00c7ET'S was a randomized, controlled, head-to-head clinical trial comparing the two most frequently used biologics in active refractory Beh\u00e7et's.<h4>Methods</h4>This was a Bayesian-designed, pragmatic, standard of care, two-arm, parallel head-to-head trial at four UK centres. Patients with active disease were randomized to infliximab or IFN-\u03b12a, and received follow-up with symptom-directed examination at weeks 12 and 24. The primary outcome was the Beh\u00e7et's Disease Activity Index (BDAI) at 12\u2009weeks. Secondary outcomes included BDAI at 24\u2009weeks and significant improvement in individual organ systems, including ocular symptoms, oral and genital ulcers, arthritis pain, quality of life, disease activity and steroid use. Biomarkers were also investigated but are reported elsewhere.<h4>Results</h4>Seventy-nine patients were recruited. Both treatments were equally effective, with a mean difference of 0.13 in BDAI (80% confidence interval: -0.19, 0.46). No significant differences were observed for secondary outcomes, though there were clinically significant within-group reductions for each over time. A modest steroid-sparing effect was observed, with complete cessation of steroids in 20% and 44% of those randomized to infliximab and IFN-\u03b12a, respectively. There was a trend for minor benefit in favour of infliximab in terms of tolerability and persistence.<h4>Conclusion</h4>In this first reported, high-quality, head-to-head trial of two biologics in Beh\u00e7et's, both infliximab and IFN-\u03b12a showed comparable short-term clinical efficacy and safety in refractory active disease of all subtypes.<h4>Trial registration</h4>EudraCT: 2014-005390-36; ISRCTN: ISRCTN49793874.",
+        "affiliation": "Department of Academic Rheumatology, Liverpool University Hospitals NHS Foundation Trust, Aintree University Hospital, Liverpool, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Pragmatic Clinical Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "orderIn": 0
+            },
+            {
+              "agency": "Leeds Biomedical Research Centre",
+              "orderIn": 0
+            },
+            {
+              "agency": "Efficacy and Mechanism Evaluation",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Interferon-alpha",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quality of Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Infliximab",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Interferon",
+            "Infliximab",
+            "Biologic Therapy",
+            "Randomized Controlled Clinical Trial",
+            "Beh\u00e7et\u2019s"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Interferon-alpha",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Infliximab",
+              "registryNumber": "B72HH48FLU"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/rheumatology/keae585"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "eudract"
+          ]
+        },
+        "dateOfCompletion": "2025-05-06",
+        "dateOfCreation": "2024-10-21",
+        "dateOfRevision": "2026-05-14",
+        "firstPublicationDate": "2025-05-01",
+        "firstIndexDate": "2024-10-23",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "34254298",
+        "source": "MED",
+        "pmid": "34254298",
+        "doi": "10.1111/bjd.20643",
+        "title": "Lesional activation of T<sub>c</sub> 17 cells in Beh\u00e7et disease and psoriasis supports HLA class I-mediated autoimmune responses.",
+        "authorString": "Vural S, Kerl K, Ertop Do\u011fan P, Vollmer S, Puchta U, He M, Arakawa Y, Heper AO, Karal-\u00d6ktem A, Hartmann D, Boyvat A, Prinz JC, Arakawa A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Vural S",
+              "lastName": "Vural",
+              "firstName": "S",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6561-196X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig-Maximilian-University Munich, Munich, D-80337, Germany."
+                  },
+                  {
+                    "affiliation": "Department of Dermatology, Ko\u00e7 University School of Medicine, Istanbul, 34010, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kerl K",
+              "lastName": "Kerl",
+              "firstName": "K",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig-Maximilian-University Munich, Munich, D-80337, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ertop Do\u011fan P",
+              "lastName": "Ertop Do\u011fan",
+              "firstName": "P",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4465-0585"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology, Ankara University, Ankara, 06100, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vollmer S",
+              "lastName": "Vollmer",
+              "firstName": "S",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig-Maximilian-University Munich, Munich, D-80337, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Puchta U",
+              "lastName": "Puchta",
+              "firstName": "U",
+              "initials": "U",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig-Maximilian-University Munich, Munich, D-80337, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "He M",
+              "lastName": "He",
+              "firstName": "M",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1891-6506"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig-Maximilian-University Munich, Munich, D-80337, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Arakawa Y",
+              "lastName": "Arakawa",
+              "firstName": "Y",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4249-6393"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig-Maximilian-University Munich, Munich, D-80337, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Heper AO",
+              "lastName": "Heper",
+              "firstName": "A O",
+              "initials": "AO",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7807-0717"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Ankara University, Ankara, 06100, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Karal-\u00d6ktem A",
+              "lastName": "Karal-\u00d6ktem",
+              "firstName": "A",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3810-6188"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology, Ankara University, Ankara, 06100, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hartmann D",
+              "lastName": "Hartmann",
+              "firstName": "D",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1002-8133"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig-Maximilian-University Munich, Munich, D-80337, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Boyvat A",
+              "lastName": "Boyvat",
+              "firstName": "A",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology, Ankara University, Ankara, 06100, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Prinz JC",
+              "lastName": "Prinz",
+              "firstName": "J C",
+              "initials": "JC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8857-5495"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig-Maximilian-University Munich, Munich, D-80337, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Arakawa A",
+              "lastName": "Arakawa",
+              "firstName": "A",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6679-3029"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig-Maximilian-University Munich, Munich, D-80337, Germany."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6561-196X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1002-8133"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1891-6506"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6679-3029"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7807-0717"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8857-5495"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3810-6188"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4249-6393"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4465-0585"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "185",
+          "journalIssueId": 3280987,
+          "dateOfPublication": "2021 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Br J Dermatol",
+            "title": "The British journal of dermatology",
+            "essn": "1365-2133",
+            "issn": "0007-0963",
+            "isoabbreviation": "Br J Dermatol",
+            "nlmid": "0004041"
+          },
+          "printPublicationDate": "2021-12-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "1209-1220",
+        "abstractText": "<h4>Background</h4>Beh\u00e7et disease (BD) presents with lymphocytic and neutrophilic vasculitis of unknown aetiology. HLA-B*51, the endoplasmic reticulum aminopeptidase 1 (ERAP1), and interleukin 23 receptor (IL23R)/IL12R are genetic risk factors. IL-23 regulates IL-17A, which controls the recruitment and activation of neutrophils.<h4>Objectives</h4>To determine pathological changes in BD skin lesions related to the complex genetic predisposition.<h4>Methods</h4>We characterized the expression of IL-17A and IL-23A in various cell types by immunohistological double staining of sections from papulopustular skin lesions of acute attacks of BD and psoriasis vulgaris lesions, another HLA-class I-associated T-cell-mediated autoimmune disease in which excessive T-cell-derived IL-17A production promotes neutrophil activation.<h4>Results</h4>We found that in BD lesions, as in psoriasis, actively expanding CD8<sup>+</sup> T cells were the predominant source of IL-17A. IL-17A<sup>+</sup> CD8<sup>+</sup> T (T<sub>c</sub> 17) cells outnumbered infiltrating IL-17A<sup>+</sup> CD4<sup>+</sup> T cells. Unlike the epidermal localization of CD8<sup>+</sup> T cells in psoriasis, T<sub>c</sub> 17 cells in BD lesions mainly infiltrated the perivascular tissue and the blood vessel walls of dermis and subcutaneous tissue. They co-localised with a marked IL-23A expression by CD11c<sup>+</sup> dendritic cells and CD68<sup>+</sup> macrophages. IL-17A expression was associated with extensive recruitment of neutrophils around blood vessels that formed neutrophil extracellular traps (NETs).<h4>Conclusions</h4>In BD, the genetic predisposition may mediate antigen-specific activation and differentiation of a T<sub>c</sub> 17 response, possibly targeting endothelial (auto)antigens. Neutrophils recruited by IL-17A in this process may enhance tissue damage by extensive NET formation (NETosis). Thus, the IL-23/IL-17 axis presumably controls neutrophilic inflammation in BD vasculitis in the context of a predominant antigen-specific CD8<sup>+</sup> T-cell response.",
+        "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig-Maximilian-University Munich, Munich, D-80337, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Deutsche Forschungsgemeinschaft",
+              "grantId": "PR 241/5\u20101",
+              "orderIn": 0
+            },
+            {
+              "agency": "Deutsche Forschungsgemeinschaft",
+              "grantId": "5\u20102",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "CD8-Positive T-Lymphocytes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Psoriasis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aminopeptidases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Minor Histocompatibility Antigens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Autoimmunity"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Extracellular Traps"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Minor Histocompatibility Antigens",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Aminopeptidases",
+              "registryNumber": "EC 3.4.11.-"
+            },
+            {
+              "name": "ERAP1 protein, human",
+              "registryNumber": "EC 3.4.11.-"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/bjd.20643"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 24,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-03-03",
+        "dateOfCreation": "2021-07-13",
+        "dateOfRevision": "2022-03-03",
+        "electronicPublicationDate": "2021-09-20",
+        "firstPublicationDate": "2021-09-20",
+        "firstIndexDate": "2021-07-14",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "behcet-disease-candidate-20261017-001",
+  "baseContentDigest": "53e318acbddd99e18b6f4faeadf1ae3597f067580d8205b1fe987257420a480b",
+  "candidateId": "behcet-disease-appraised-candidate-c56ccb43a104",
+  "contentDigest": "7d666f85f6636ed17126dbb1142093c18e44db9e3896ed41b25d6146a929c168",
+  "inputDigest": "c56ccb43a1040b40c4719689585c7bf97adead3dabd1497d8ce6e2cad7f3fea9",
+  "assessmentCount": 71,
+  "weightCount": 71,
+  "confidenceCount": 71,
+  "therapyCoverageCount": 71,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

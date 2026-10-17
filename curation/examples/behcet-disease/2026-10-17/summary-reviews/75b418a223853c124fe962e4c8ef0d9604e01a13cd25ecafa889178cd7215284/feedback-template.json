@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "behcet-disease",
+  "candidateId": "behcet-disease-summary-candidate-b4e9d1815063",
+  "contentDigest": "bd25eaf177c306bfeaf3c13185f0ff486e4ffb111ffb38ad587f3787c2101cdc",
+  "summaryRevisionId": "summary-b4e9d1815063",
+  "summaryDigest": "6c6171c8c8143db598bcea73cbec0133e4c14b35277fe1f1b6d1d082c35fa165",
+  "packetDigest": "75b418a223853c124fe962e4c8ef0d9604e01a13cd25ecafa889178cd7215284",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

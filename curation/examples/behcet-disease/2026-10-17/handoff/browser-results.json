@@ -1,0 +1,33 @@
+{
+  "candidate": "behcet-disease-summary-candidate-d266780f35d0",
+  "contentDigest": "41a7d7dd3035a960dd8bdca919760e90a5fd9e267f9b2e7b9b6767056d92e305",
+  "results": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "nodes": 38,
+      "edges": 52,
+      "cloudEntities": 38,
+      "cloudMapCoverage": "38/38",
+      "summaryMatches": true,
+      "therapyInspector": true,
+      "packetStatus": 200,
+      "horizontalOverflow": false,
+      "pageErrors": []
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "nodes": 38,
+      "edges": 52,
+      "cloudEntities": 38,
+      "cloudMapCoverage": "38/38",
+      "summaryMatches": true,
+      "therapyInspector": true,
+      "packetStatus": 200,
+      "horizontalOverflow": false,
+      "pageErrors": []
+    }
+  ],
+  "noJavaScriptSummary": true
+}

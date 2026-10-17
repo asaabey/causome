@@ -1,0 +1,1172 @@
+{
+  "version": "6.9",
+  "hitCount": 3,
+  "request": {
+    "queryString": "DOI:10.1136/annrheumdis-2018-214335 OR DOI:10.1002/art.42486 OR DOI:10.1002/art.70217",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 30,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42109254",
+        "source": "MED",
+        "pmid": "42109254",
+        "doi": "10.1002/art.70217",
+        "title": "CD177&lt;sup&gt;+&lt;/sup&gt; Neutrophils Promote Endothelial Senescence Through Extracellular Traps in Beh\u00e7et Disease.",
+        "authorString": "Wang X, Yu X, Wang X, Sun L, Zhang M, Wang Z, Liu Y, Ao Y, Wu J, Wang W, Liu J, Chen H, Zheng W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xiaoou",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  },
+                  {
+                    "affiliation": "National Clinical Research Center for Dermatologic and Immunologic Diseases, Ministry of Science & Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu X",
+              "lastName": "Yu",
+              "firstName": "Xin",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  },
+                  {
+                    "affiliation": "National Clinical Research Center for Dermatologic and Immunologic Diseases, Ministry of Science & Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xun",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun L",
+              "lastName": "Sun",
+              "firstName": "Luxi",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Respiratory and Critical Care Medicine, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang M",
+              "lastName": "Zhang",
+              "firstName": "Menghao",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  },
+                  {
+                    "affiliation": "National Clinical Research Center for Dermatologic and Immunologic Diseases, Ministry of Science & Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Z",
+              "lastName": "Wang",
+              "firstName": "Zhimian",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  },
+                  {
+                    "affiliation": "National Clinical Research Center for Dermatologic and Immunologic Diseases, Ministry of Science & Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu Y",
+              "lastName": "Liu",
+              "firstName": "Yeling",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  },
+                  {
+                    "affiliation": "National Clinical Research Center for Dermatologic and Immunologic Diseases, Ministry of Science & Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ao Y",
+              "lastName": "Ao",
+              "firstName": "Yiyuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  },
+                  {
+                    "affiliation": "National Clinical Research Center for Dermatologic and Immunologic Diseases, Ministry of Science & Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu J",
+              "lastName": "Wu",
+              "firstName": "Jingwen",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  },
+                  {
+                    "affiliation": "National Clinical Research Center for Dermatologic and Immunologic Diseases, Ministry of Science & Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang W",
+              "lastName": "Wang",
+              "firstName": "Wenze",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu J",
+              "lastName": "Liu",
+              "firstName": "Jinjing",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  },
+                  {
+                    "affiliation": "National Clinical Research Center for Dermatologic and Immunologic Diseases, Ministry of Science & Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen H",
+              "lastName": "Chen",
+              "firstName": "Hua",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0641-2837"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  },
+                  {
+                    "affiliation": "National Clinical Research Center for Dermatologic and Immunologic Diseases, Ministry of Science & Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zheng W",
+              "lastName": "Zheng",
+              "firstName": "Wenjie",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3165-8185"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+                  },
+                  {
+                    "affiliation": "National Clinical Research Center for Dermatologic and Immunologic Diseases, Ministry of Science & Technology, Beijing, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0641-2837"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3165-8185"
+            }
+          ]
+        },
+        "journalInfo": {
+          "journalIssueId": 4188830,
+          "dateOfPublication": "2026 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Arthritis Rheumatol",
+            "title": "Arthritis & rheumatology (Hoboken, N.J.)",
+            "essn": "2326-5205",
+            "issn": "2326-5191",
+            "isoabbreviation": "Arthritis Rheumatol",
+            "nlmid": "101623795"
+          },
+          "printPublicationDate": "2026-05-01"
+        },
+        "pubYear": "2026",
+        "abstractText": "<h4>Objective</h4>To investigate CD177<sup>+</sup>PMN dysregulation on endothelial cells in Beh\u00e7et disease (BD), a chronic systemic vasculitis characterized by polymorphonuclear neutrophil (PMN) activation and endothelial dysfunction.<h4>Methods</h4>We reanalyzed BD PMN RNA-sequencing data and quantified CD177<sup>+</sup>PMN in BD peripheral (n\u00a0=\u00a038) and vascular tissue. We then analyzed BD and healthy control CD177<sup>+</sup>PMN using RNA sequencing (n\u00a0=\u00a07) and measured neutrophil extracellular trap (NET) production, which were used to stimulate vascular endothelial cells (VECs) for RNA-sequencing analysis. Differentially expressed proteins in NETs were determined by mass spectrometry. Senescence, senescence-associated secretory phenotype (SASP), and PMN chemotaxis of VECs treated with BD CD177<sup>+</sup>PMN-derived NETs were assessed.<h4>Results</h4>Transcriptome analysis revealed BD PMN overexpressed CD177. CD177<sup>+</sup>PMN subset was expanded in active and severe systemic BD and accumulated in BD aortic walls. Enhanced NETosis and oxidative phosphorylation in BD CD177<sup>+</sup>PMN were noted in RNA sequencing, which were confirmed in both resting and activated BD CD177<sup>+</sup>PMN. BD CD177<sup>+</sup>PMN-derived NETs promoted senescence, SASP, and PMN chemotaxis in VECs using RNA-sequencing analysis, which were validated by up-regulated IL-6, CXCL8, ICAM-1, p21, SA-\u03b2-gal, and cell proliferation arrest. Mass spectrometry identified that BD CD177<sup>+</sup>PMN-derived NETs contained more histone 3.1 (H3.1). H3.1 induced senescence, SASP, and PMN chemotaxis in VECs via Toll-like receptor 4 signaling, which was attenuated by senolytics.<h4>Conclusion</h4>Increased CD177<sup>+</sup>PMN in patients with BD promotes senescence and SASP in VECs through secreting H3.1-enriched NETs, which recruit PMN and collectively contribute to vasculitis in BD.",
+        "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "CAMS Innovation Fund for Medical Sciences",
+              "grantId": "2022-I2M-1-012",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "32300632",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fundamental Research Funds for the Central Universities",
+              "grantId": "3332025116",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82402117",
+              "orderIn": 0
+            },
+            {
+              "agency": "National High Level Hospital Clinical Research Funding",
+              "grantId": "2025-PUMCH-C-022",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fundamental Research Funds for the Central Universities, Peking Union Medical College",
+              "grantId": "3332025116",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82371822",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82572067",
+              "orderIn": 0
+            },
+            {
+              "agency": "Scientific Research Project of the China Association for Medical Education",
+              "grantId": "HJ-RD-2024-45",
+              "orderIn": 0
+            },
+            {
+              "agency": "Peking Union Medical College Hospital Talent Cultivation Program",
+              "grantId": "UBJ10289",
+              "orderIn": 0
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/art.70217"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2026-05-11",
+        "dateOfRevision": "2026-06-11",
+        "electronicPublicationDate": "2026-05-11",
+        "firstPublicationDate": "2026-05-11",
+        "firstIndexDate": "2026-05-13",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36862398",
+        "source": "MED",
+        "pmid": "36862398",
+        "doi": "10.1002/art.42486",
+        "title": "Reduction of Neutrophil Activation by Phosphodiesterase 4 Blockade in Beh\u00e7et's Disease.",
+        "authorString": "Le Joncour A, R\u00e9gnier P, Maciejewski-Duval A, Charles E, Barete S, Fouret P, Rosenzwajg M, Klatzmann D, Cacoub P, Saadoun D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Le Joncour A",
+              "lastName": "Le Joncour",
+              "firstName": "Alexandre",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7583-0445"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sorbonne Universit\u00e9, INSERM, UMR S 959, Immunology-Immunopathology-Immunotherapy (I3), Laboratoire d'excellence TRANSIMMUNOM, Paris, and Biotherapy (CIC-BTi), H\u00f4pital Piti\u00e9-Salp\u00eatri\u00e8re, Paris, and AP-HP, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re, Department of Internal Medicine and Clinical Immunology, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "R\u00e9gnier P",
+              "lastName": "R\u00e9gnier",
+              "firstName": "Paul",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9713-1132"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sorbonne Universit\u00e9, INSERM, UMR S 959, Immunology-Immunopathology-Immunotherapy (I3), Paris, and Laboratoire d'excellence TRANSIMMUNOM, Paris, and Biotherapy (CIC-BTi), H\u00f4pital Piti\u00e9-Salp\u00eatri\u00e8re, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maciejewski-Duval A",
+              "lastName": "Maciejewski-Duval",
+              "firstName": "Anna",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sorbonne Universit\u00e9, INSERM, UMR S 959, Immunology-Immunopathology-Immunotherapy (I3), Paris, and Laboratoire d'excellence TRANSIMMUNOM, Paris, and Biotherapy (CIC-BTi), H\u00f4pital Piti\u00e9-Salp\u00eatri\u00e8re, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Charles E",
+              "lastName": "Charles",
+              "firstName": "Erwan",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-6123-746X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sorbonne Universit\u00e9, INSERM, UMR S 959, Immunology-Immunopathology-Immunotherapy (I3), Paris, and Laboratoire d'excellence TRANSIMMUNOM, Paris, and Biotherapy (CIC-BTi), H\u00f4pital Piti\u00e9-Salp\u00eatri\u00e8re, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barete S",
+              "lastName": "Barete",
+              "firstName": "St\u00e9phane",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sorbonne Universit\u00e9, INSERM, UMR S 959, Immunology-Immunopathology-Immunotherapy (I3), Paris, and Laboratoire d'excellence TRANSIMMUNOM, Paris, and AP-HP, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re, Department of Internal Medicine and Clinical Immunology, Paris, and AP-HP, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re, Unit of Dermatology, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fouret P",
+              "lastName": "Fouret",
+              "firstName": "Pierre",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "AP-HP, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re, Department of Anatomopathology, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rosenzwajg M",
+              "lastName": "Rosenzwajg",
+              "firstName": "Michelle",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sorbonne Universit\u00e9, INSERM, UMR S 959, Immunology-Immunopathology-Immunotherapy (I3), Paris, and Laboratoire d'excellence TRANSIMMUNOM, Paris, and Biotherapy (CIC-BTi), H\u00f4pital Piti\u00e9-Salp\u00eatri\u00e8re, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Klatzmann D",
+              "lastName": "Klatzmann",
+              "firstName": "David",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0054-3422"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sorbonne Universit\u00e9, INSERM, UMR S 959, Immunology-Immunopathology-Immunotherapy (I3), Paris, and Laboratoire d'excellence TRANSIMMUNOM, Paris, and Biotherapy (CIC-BTi), H\u00f4pital Piti\u00e9-Salp\u00eatri\u00e8re, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cacoub P",
+              "lastName": "Cacoub",
+              "firstName": "Patrice",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6727-4992"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sorbonne Universit\u00e9, INSERM, UMR S 959, Immunology-Immunopathology-Immunotherapy (I3), Laboratoire d'excellence TRANSIMMUNOM, Paris, and Biotherapy (CIC-BTi), H\u00f4pital Piti\u00e9-Salp\u00eatri\u00e8re, Paris, and AP-HP, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re, Department of Internal Medicine and Clinical Immunology, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Saadoun D",
+              "lastName": "Saadoun",
+              "firstName": "David",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sorbonne Universit\u00e9, INSERM, UMR S 959, Immunology-Immunopathology-Immunotherapy (I3), Laboratoire d'excellence TRANSIMMUNOM, Paris, and Biotherapy (CIC-BTi), H\u00f4pital Piti\u00e9-Salp\u00eatri\u00e8re, Paris, and AP-HP, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re, Department of Internal Medicine and Clinical Immunology, Paris, France."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7583-0445"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0054-3422"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6727-4992"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9713-1132"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-6123-746X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "75",
+          "journalIssueId": 3623111,
+          "dateOfPublication": "2023 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Arthritis Rheumatol",
+            "title": "Arthritis & rheumatology (Hoboken, N.J.)",
+            "essn": "2326-5205",
+            "issn": "2326-5191",
+            "isoabbreviation": "Arthritis Rheumatol",
+            "nlmid": "101623795"
+          },
+          "printPublicationDate": "2023-09-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "1628-1637",
+        "abstractText": "<h4>Objective</h4>Beh\u00e7et's disease (BD) is a systemic vasculitis with inflammatory lesions mediated by cytotoxic T cells and neutrophils. Apremilast, an orally available small-molecule drug that selectively inhibits phosphodiesterase 4 (PDE4), has been recently approved for the treatment of BD. We aimed to investigate the effect of PDE4 inhibition on neutrophil activation in BD.<h4>Methods</h4>We studied surface markers and reactive oxygen species (ROS) production by flow cytometry, and neutrophil extracellular traps (NETs) production and molecular signature of neutrophils by transcriptome analysis before and after PDE4 inhibition.<h4>Results</h4>Activation surface markers (CD64, CD66b, CD11b, and CD11c), ROS production, and NETosis were up-regulated in BD patient neutrophils compared to healthy donor neutrophils. Transcriptome analysis revealed 1,021 significantly dysregulated neutrophil genes between BD patients and healthy donors. Among dysregulated genes, we found a substantial enrichment for pathways linked to innate immunity, intracellular signaling, and chemotaxis in BD. Skin lesions of BD patients showed increased infiltration of neutrophils that colocalized with PDE4. Inhibition of PDE4 by apremilast strongly inhibited neutrophil surface activation markers as well as ROS production, NETosis, and genes and pathways related to innate immunity, intracellular signaling, and chemotaxis.<h4>Conclusion</h4>We highlight key biologic effects of apremilast on neutrophils in BD.",
+        "affiliation": "Sorbonne Universit\u00e9, INSERM, UMR S 959, Immunology-Immunopathology-Immunotherapy (I3), Laboratoire d'excellence TRANSIMMUNOM, Paris, and Biotherapy (CIC-BTi), H\u00f4pital Piti\u00e9-Salp\u00eatri\u00e8re, Paris, and AP-HP, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re, Department of Internal Medicine and Clinical Immunology, Paris, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Amgen",
+              "grantId": "20217149",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thalidomide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neutrophil Activation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclic Nucleotide Phosphodiesterases, Type 4"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cyclic nucleotide phosphodiesterases, type 4",
+              "registryNumber": "EC 3.1.4.17"
+            },
+            {
+              "name": "PDE4A protein, human",
+              "registryNumber": "EC 3.1.4.17"
+            },
+            {
+              "name": "apremilast",
+              "registryNumber": "UP7QBP99PN"
+            },
+            {
+              "name": "Thalidomide",
+              "registryNumber": "4Z8R6ORS6L"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/art.42486"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 26,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-08-31",
+        "dateOfCreation": "2023-03-02",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2023-07-04",
+        "firstPublicationDate": "2023-07-04",
+        "firstIndexDate": "2023-03-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31147357",
+        "source": "MED",
+        "pmid": "31147357",
+        "doi": "10.1136/annrheumdis-2018-214335",
+        "title": "Critical role of neutrophil extracellular traps (NETs) in patients with Behcet's disease.",
+        "authorString": "Le Joncour A, Martos R, Loyau S, Lelay N, Dossier A, Cazes A, Fouret P, Domont F, Papo T, Jandrot-Perrus M, Bouton MC, Cacoub P, Ajzenberg N, Saadoun D, Boulaftali Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Le Joncour A",
+              "lastName": "Le Joncour",
+              "firstName": "Alexandre",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine and Clinical Immunology, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re-APHP, Paris, France."
+                  },
+                  {
+                    "affiliation": "INSERM UMR_S 959, Immunologie-Immunopathologie-Immunotherapie, i3, Sorbonne Universit\u00e9, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Martos R",
+              "lastName": "Martos",
+              "firstName": "Raphael",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "LVTS, INSERM 1148, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Loyau S",
+              "lastName": "Loyau",
+              "firstName": "Stephane",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8748-501X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "LVTS, INSERM 1148, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lelay N",
+              "lastName": "Lelay",
+              "firstName": "Nicolas",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "LVTS, INSERM 1148, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dossier A",
+              "lastName": "Dossier",
+              "firstName": "Antoine",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine, Universit\u00e9 Paris Diderot, Sorbonne Paris, H\u00f4pital Bichat- APHP, Paris, \u00cele-de-France, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cazes A",
+              "lastName": "Cazes",
+              "firstName": "Aurelie",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine, Universit\u00e9 Paris Diderot, Sorbonne Paris, H\u00f4pital Bichat- APHP, Paris, \u00cele-de-France, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fouret P",
+              "lastName": "Fouret",
+              "firstName": "Pierre",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomopathology, H\u00f4pital de la Piti\u00e9-Salp\u00eatri\u00e8re-APHP, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Domont F",
+              "lastName": "Domont",
+              "firstName": "Fanny",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine and Clinical Immunology, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re-APHP, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Papo T",
+              "lastName": "Papo",
+              "firstName": "Thomas",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7481-5099"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine, Universit\u00e9 Paris Diderot, Sorbonne Paris, H\u00f4pital Bichat- APHP, Paris, \u00cele-de-France, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jandrot-Perrus M",
+              "lastName": "Jandrot-Perrus",
+              "firstName": "Martine",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8450-9247"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "LVTS, INSERM 1148, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bouton MC",
+              "lastName": "Bouton",
+              "firstName": "Marie-Christine",
+              "initials": "MC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5092-7363"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "LVTS, INSERM 1148, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cacoub P",
+              "lastName": "Cacoub",
+              "firstName": "Patrice",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine and Clinical Immunology, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re-APHP, Paris, France."
+                  },
+                  {
+                    "affiliation": "INSERM UMR_S 959, Immunologie-Immunopathologie-Immunotherapie, i3, Sorbonne Universit\u00e9, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ajzenberg N",
+              "lastName": "Ajzenberg",
+              "firstName": "Nadine",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "LVTS, INSERM 1148, Paris, France."
+                  },
+                  {
+                    "affiliation": "Department of Hematology, Universit\u00e9 Paris Diderot, Sorbonne Paris, H\u00f4pital Bichat- APHP, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Saadoun D",
+              "lastName": "Saadoun",
+              "firstName": "David",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine and Clinical Immunology, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re-APHP, Paris, France."
+                  },
+                  {
+                    "affiliation": "INSERM UMR_S 959, Immunologie-Immunopathologie-Immunotherapie, i3, Sorbonne Universit\u00e9, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Boulaftali Y",
+              "lastName": "Boulaftali",
+              "firstName": "Yacine",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4870-2098"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "LVTS, INSERM 1148, Paris, France yacine.boulaftali@inserm.fr."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5092-7363"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8748-501X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7481-5099"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8450-9247"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4870-2098"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "78",
+          "journalIssueId": 2848303,
+          "dateOfPublication": "2019 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Ann Rheum Dis",
+            "title": "Annals of the rheumatic diseases",
+            "essn": "1468-2060",
+            "issn": "0003-4967",
+            "isoabbreviation": "Ann Rheum Dis",
+            "nlmid": "0372355"
+          },
+          "printPublicationDate": "2019-09-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "1274-1282",
+        "abstractText": "<h4>Objectives</h4>Beh\u00e7et's disease (BD) is a chronic systemic vasculitis. Thrombosis is a frequent and life-threatening complication. The pathogenesis of BD is poorly understood and evidence supporting a role for primed neutrophils in BD-associated thrombotic risk is scant. To respond to inflammatory insults, neutrophils release web-like structures, known as neutrophil extracellular traps (NETs), which are prothrombotic. We evaluated the role of NETs and markers of NETs in BD.<h4>Methods</h4>Blood samples were collected from patients with BD, according to the International Study Group Criteria for Beh\u00e7et's disease, and healthy donors (HD). NET components, including cell-free DNA (CfDNA) and neutrophil enzymes myeloperoxidase (MPO), were assessed in serum or in purified neutrophils from patients with BD and HD.<h4>Results</h4>Patients with active BD had elevated serum cfDNA levels and MPO-DNA complexes compared with patients with inactive BD and to HD. In addition, levels of cfDNA and MPO-DNA complexes were significantly higher in patients with BD with vascular involvement compared with those without vascular symptoms. Purified neutrophils from patients with BD exhibited spontaneous NETosis compared with HD. Thrombin generation in BD plasma was significantly increased and positively correlated with the levels of MPO-DNA complexes and cfDNA. Importantly, DNAse treatment significantly decreased thrombin generation in BD plasma but not in HD plasma. In addition, biopsy materials obtained from patients with BD showed NETs production in areas of vasculitic inflammation and thrombosis.<h4>Conclusions</h4>Our data show that NETs and markers of NETS levels are elevated in patients with BD and contribute to the procoagulant state. Targeting NETs may represent a potential therapeutic target for the reduction or prevention of BD-associated thrombotic risk.",
+        "affiliation": "Department of Internal Medicine and Clinical Immunology, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re-APHP, Paris, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "DHU FIRE",
+              "grantId": "012",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fondation de France",
+              "grantId": "0075823",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neutrophils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Severity of Illness Index"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Extracellular Traps",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomarkers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Neutrophils",
+            "Thrombosis",
+            "Vasculitis",
+            "Neutrophils Extracellular Traps",
+            "Beh\u00e7et\u2019disease"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Biomarkers",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1136/annrheumdis-2018-214335"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 138,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-03-31",
+        "dateOfCreation": "2019-06-01",
+        "dateOfRevision": "2025-02-14",
+        "electronicPublicationDate": "2019-05-30",
+        "firstPublicationDate": "2019-05-30",
+        "firstIndexDate": "2019-06-01",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

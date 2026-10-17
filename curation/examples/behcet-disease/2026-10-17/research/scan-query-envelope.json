@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "diseaseId": "behcet-disease",
+  "queryDigest": "c797131284bf0410461b688ccbc57687b05bbb60eac807322f6d53d874ade24a",
+  "provider": "europe-pmc-core-v1",
+  "window": {
+    "from": "2000-01-01",
+    "to": "2026-10-17",
+    "reconcile": false
+  },
+  "queries": [
+    {
+      "kind": "literature",
+      "query": "((TITLE_ABS:Behcet* OR TITLE_ABS:Behçet*) AND (TITLE_ABS:neutrophil* OR TITLE_ABS:thrombosis OR TITLE_ABS:IL10 OR TITLE_ABS:IL23R OR TITLE_ABS:ERAP1 OR TITLE_ABS:Th17 OR TITLE_ABS:apremilast OR TITLE_ABS:secukinumab OR TITLE_ABS:uveitis)) AND (CREATION_DATE:[2000-01-01 TO 2026-10-17] OR UPDATE_DATE:[2000-01-01 TO 2026-10-17])"
+    },
+    {
+      "kind": "notices",
+      "query": "((TITLE_ABS:Behcet* OR TITLE_ABS:Behçet*) AND (TITLE_ABS:neutrophil* OR TITLE_ABS:thrombosis OR TITLE_ABS:IL10 OR TITLE_ABS:IL23R OR TITLE_ABS:ERAP1 OR TITLE_ABS:Th17 OR TITLE_ABS:apremilast OR TITLE_ABS:secukinumab OR TITLE_ABS:uveitis)) AND (PUB_TYPE:\"Retraction of Publication\" OR PUB_TYPE:\"Retracted Publication\" OR PUB_TYPE:\"Published Erratum\" OR TITLE:\"expression of concern\") AND UPDATE_DATE:[2000-01-01 TO 2026-10-17]"
+    }
+  ]
+}

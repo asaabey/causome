@@ -1,0 +1,2137 @@
+{
+  "version": "6.9",
+  "hitCount": 7,
+  "request": {
+    "queryString": "TITLE_ABS:Behcet AND TITLE_ABS:infliximab AND TITLE_ABS:randomized",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 20,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39182213",
+        "source": "MED",
+        "pmid": "39182213",
+        "doi": "10.1007/s10067-024-07118-9",
+        "title": "Long-term outcomes of infliximab treatment in neuro-Behcet syndrome: A single-center retrospective study.",
+        "authorString": "Rabia KE, Gizem G, Furkan S, Sanja G, Nihan CB, Yavuz P, Zehra CF, Faruk TO.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rabia KE",
+              "lastName": "Rabia",
+              "firstName": "Koc Emine",
+              "initials": "KE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0264-7284"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Medicine, Department of Neurology, Uludag University, Bursa, Turkey. erabiakoc@uludag.edu.tr."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gizem G",
+              "lastName": "Gizem",
+              "firstName": "G\u00fcll\u00fc",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9477-5031"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bursa \u015eevket Y\u0131lmaz Training and Research Hospital, Neurology, Bursa, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Furkan S",
+              "lastName": "Furkan",
+              "firstName": "Saridas",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5945-2317"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Medicine, Department of Neurology, Uludag University, Bursa, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sanja G",
+              "lastName": "Sanja",
+              "firstName": "Gluscevic",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9230-9093"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Centre of Montenegro, Clinic for Neurology, Podgorica, Montenegro."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nihan CB",
+              "lastName": "Nihan",
+              "firstName": "Coskun Belk\u0131s",
+              "initials": "CB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0298-4157"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Medicine, Department of Rheumatology, Uludag University, Bursa, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yavuz P",
+              "lastName": "Yavuz",
+              "firstName": "Pehlivan",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1201-8836"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Medicine, Department of Rheumatology, Uludag University, Bursa, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zehra CF",
+              "lastName": "Zehra",
+              "firstName": "Calikusu Fatma",
+              "initials": "CF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6644-6553"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Medicine, Department of Neurology, Uludag University, Bursa, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Faruk TO",
+              "lastName": "Faruk",
+              "firstName": "Turan Omer",
+              "initials": "TO",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6752-1519"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Medicine, Department of Neurology, Uludag University, Bursa, Turkey."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5945-2317"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9477-5031"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0264-7284"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1201-8836"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6644-6553"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6752-1519"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9230-9093"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0298-4157"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "43",
+          "journalIssueId": 3833013,
+          "dateOfPublication": "2024 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Clin Rheumatol",
+            "title": "Clinical rheumatology",
+            "essn": "1434-9949",
+            "issn": "0770-3198",
+            "nlmid": "8211469",
+            "isoabbreviation": "Clin Rheumatol"
+          },
+          "printPublicationDate": "2024-10-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "3213-3221",
+        "abstractText": "<h4>Introduction</h4>Behcet's syndrome is a rare inflammatory disorder characterized by oral and genital ulcers, skin lesions, and uveitis. It exhibits a higher prevalence along the historic Silk Road. Neuro-Behcet syndrome (NBS) affects the central nervous system and poses significant morbidity and mortality risks. Infliximab, a TNF-alpha antagonist, has shown potential in NBS management, although the current evidence is mainly derived from case series due to the lack of randomized controlled trials.<h4>Objective</h4>This retrospective study aimed to evaluate the disease outcomes during the first and second years following infliximab treatment in NBS patients experiencing attacks despite prior conventional immunosuppressive therapy. The study also sought to investigate the safety profile and adverse effects associated with infliximab.<h4>Methods</h4>Fifty-three NBS patients were examined, with 22 receiving infliximab as either monotherapy or in combination with other therapies. Retrospective analysis was conducted on demographic data, clinical characteristics, and treatment responses. Treatment efficacy was measured using the Expanded Disability Status Scale (EDSS) modified for NBS. The study adhered to the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) checklist guidelines.<h4>Results</h4>Among the study cohort, 60.4% had parenchymal NBS, and 39.6% had nonparenchymal NBS. Treatment with infliximab resulted in remission or disease stabilization in 95% of patients after one year and 68.7% after 2\u00a0years. Relapse rates were 4.5% at 1\u00a0year and 18.7% at 2\u00a0years, with disease progression observed in two cases. Adverse effects were primarily mild to moderate, with no reports of serious adverse events.<h4>Conclusion</h4>Infliximab exhibited efficacy in achieving remission or stabilization in NBS patients, maintaining a favorable safety profile. The timing of infliximab treatment may prevent the accumulation of disability and hinder disease progression. Nonetheless, future prospective studies are necessary to confirm these findings and refine treatment strategies for this complex condition.",
+        "affiliation": "Faculty of Medicine, Department of Neurology, Uludag University, Bursa, Turkey. erabiakoc@uludag.edu.tr.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Retrospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Infliximab",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Behcet Syndrome",
+            "Infliximab",
+            "Anti-tnf Alpha Agents",
+            "Neuro-behcet Syndrome"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Infliximab",
+              "registryNumber": "B72HH48FLU"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s10067-024-07118-9"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-09-30",
+        "dateOfCreation": "2024-08-25",
+        "dateOfRevision": "2024-10-14",
+        "electronicPublicationDate": "2024-08-25",
+        "firstPublicationDate": "2024-08-25",
+        "firstIndexDate": "2024-08-28",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36255985",
+        "source": "MED",
+        "pmid": "36255985",
+        "doi": "10.1097/bor.0000000000000911",
+        "title": "Uveitis in Beh\u00e7et disease - an update.",
+        "authorString": "Tugal-Tutkun I.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tugal-Tutkun I",
+              "lastName": "Tugal-Tutkun",
+              "firstName": "Ilknur",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology, Istanbul Faculty of Medicine, Istanbul University."
+                  },
+                  {
+                    "affiliation": "Bayrampasa Eye Hospital, Eye Protection Foundation, Istanbul, Turkey."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "35",
+          "journalIssueId": 3474344,
+          "dateOfPublication": "2023 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Curr Opin Rheumatol",
+            "title": "Current opinion in rheumatology",
+            "essn": "1531-6963",
+            "issn": "1040-8711",
+            "nlmid": "9000851",
+            "isoabbreviation": "Curr Opin Rheumatol"
+          },
+          "printPublicationDate": "2023-01-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "17-24",
+        "abstractText": "<h4>Purpose of review</h4>Uveitis is a major manifestation of Beh\u00e7et disease (BD) and potentially has a high morbidity. This article reviews recently published data on BD uveitis.<h4>Recent findings</h4>A set of classification criteria and a diagnostic algorithm have been developed for BD uveitis. Recent reports have confirmed male predominance and posterior segment inflammation in the majority of BD uveitis patients. A high uveitis attack severity score, fluorescein angiographic leakage at the posterior pole, and disruption of outer retinal layers on optical coherence tomography (OCT) predict poor visual outcome. OCT-angiography studies have suggested subclinical changes of retinal capillaries in patients with or without ocular involvement. In a randomized controlled trial, interferon-\u03b1 was superior to cyclosporine. Favorable outcomes were reported with earlier initiation, optimization, and withdrawal of infliximab after remission. Adalimumab as first-line was superior to conventional therapy.<h4>Summary</h4>Classification criteria will be used to select a homogeneous group of patients for research and the diagnostic algorithm may help ophthalmologists predict the probability of BD uveitis based on ocular findings. Fluorescein angiography and OCT are the routine imaging modalities. Clinical relevance of OCT-angiography is unclear. Interferon-\u03b1, infliximab, and adalimumab have proven superior efficacy compared to conventional therapy.",
+        "affiliation": "Department of Ophthalmology, Istanbul Faculty of Medicine, Istanbul University.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DG",
+                    "qualifierName": "diagnostic imaging"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Uveitis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interferon-alpha"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tomography, Optical Coherence",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fluorescein Angiography"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adalimumab",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infliximab",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Interferon-alpha",
+              "registryNumber": "0"
+            },
+            {
+              "name": "adalimumab",
+              "registryNumber": "FYS6T7F842"
+            },
+            {
+              "name": "Infliximab",
+              "registryNumber": "B72HH48FLU"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/BOR.0000000000000911"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-12-14",
+        "dateOfCreation": "2022-10-18",
+        "dateOfRevision": "2023-08-29",
+        "electronicPublicationDate": "2022-10-14",
+        "firstPublicationDate": "2022-10-14",
+        "firstIndexDate": "2022-10-19",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30421105",
+        "source": "MED",
+        "pmid": "30421105",
+        "doi": "10.1007/s00296-018-4193-z",
+        "title": "Efficacy and safety of biological therapy compared to synthetic immunomodulatory drugs or placebo in the treatment of Beh\u00e7et's disease associated uveitis: a systematic review.",
+        "authorString": "Urruticoechea-Arana A, Cobo-Ib\u00e1\u00f1ez T, Villaverde-Garc\u00eda V, Santos G\u00f3mez M, Loza E, Vargas-Osorio K, Fari\u00f1as Padr\u00f3n L, Diaz-Gonzalez F, Calvo-R\u00edo V, Blanco R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Urruticoechea-Arana A",
+              "lastName": "Urruticoechea-Arana",
+              "firstName": "Ana",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8290-1846"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Department, Can Misses Hospital, Ibiza, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cobo-Ib\u00e1\u00f1ez T",
+              "lastName": "Cobo-Ib\u00e1\u00f1ez",
+              "firstName": "Tatiana",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Department, University Hospital Infanta Sof\u00eda, Madrid, Spain."
+                  },
+                  {
+                    "affiliation": "Universidad Europea, Madrid, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Villaverde-Garc\u00eda V",
+              "lastName": "Villaverde-Garc\u00eda",
+              "firstName": "Virginia",
+              "initials": "V",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8172-3590"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Department, University Hospital of Mostoles, Madrid, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Santos G\u00f3mez M",
+              "lastName": "Santos G\u00f3mez",
+              "firstName": "Montserrat",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Department, Sierrallana Hospital, Torrelavega, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Loza E",
+              "lastName": "Loza",
+              "firstName": "Est\u00edbaliz",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4607-9178"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Instituto de Salud Musculoesquel\u00e9tica, InMusc, Madrid, Spain. estibaliz.loza@inmusc.eu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vargas-Osorio K",
+              "lastName": "Vargas-Osorio",
+              "firstName": "Kelly",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9178-7237"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Family and Community Medicine, Can Misses Hospital, Ibiza, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fari\u00f1as Padr\u00f3n L",
+              "lastName": "Fari\u00f1as Padr\u00f3n",
+              "firstName": "Leslie",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Family and Community Medicine, Can Misses Hospital, Ibiza, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Diaz-Gonzalez F",
+              "lastName": "Diaz-Gonzalez",
+              "firstName": "Federico",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4139-9295"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Rheumatology Department, University Hospital of the Canary Islands, Tenerife, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Calvo-R\u00edo V",
+              "lastName": "Calvo-R\u00edo",
+              "firstName": "Vanesa",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University Hospital Marques of Valdecilla, Santander, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Blanco R",
+              "lastName": "Blanco",
+              "firstName": "Ricardo",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2344-2285"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University Hospital Marques of Valdecilla, Santander, Spain."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8172-3590"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8290-1846"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2397-2801"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4139-9295"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4607-9178"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9178-7237"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2344-2285"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "39",
+          "journalIssueId": 2770543,
+          "dateOfPublication": "2019 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Rheumatol Int",
+            "title": "Rheumatology international",
+            "essn": "1437-160X",
+            "issn": "0172-8172",
+            "nlmid": "8206885",
+            "isoabbreviation": "Rheumatol Int"
+          },
+          "printPublicationDate": "2019-01-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "47-58",
+        "abstractText": "The aim of this study is to compare the efficacy and safety of biological therapy with cyclosporin A (CsA), azathioprine (AZA), or placebo in uveitis flares and other ocular outcomes in patients with Beh\u00e7et disease. A comprehensive and sensitive search in MEDLINE, EMBASE, and the Cochrane Library was performed. We selected articles including: (1) adult patients with Beh\u00e7et's and uveitis; (2) on biological therapies; (3) placebo or active control with CsA or AZA; (4) analyzing efficacy (number of uveitis flares, macular edema, etc.) and/or safety outcomes. Meta-analyses, systematic reviews, clinical trials, and observational studies with >\u200910 patients were included. The selection, data collection and quality assessment (Oxford scale) was carried out by 2 reviewers independently. Nine articles of moderate quality were included (6 randomized clinical trials and 3 retrospective studies) involving 378 patients. Most of them, apart from the study drugs received systemic corticosteroids and other immunosuppressant drugs. Infliximab was more effective than CsA in reducing short-term uveitis flares and severe complications of retinal vasculitis in the long term. Rituximab was similar to a combination of cytotoxic drugs in improving inflammatory activity. In patients with active uveitis adalimumab was associated with a lower risk of uveitic flare or visual impairment, and in patients with inactive uveitis to a significantly lowered the risk of flare upon corticosteroid withdrawal. Secukinumab and daclizumab were not superior to placebo in reducing uveitis flares, like interferon\u03b1 compared to other drugs. Our results highlight the need for better designed comparative studies on Beh\u00e7et's uveitis.",
+        "affiliation": "Rheumatology Department, Can Misses Hospital, Ibiza, Spain.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "MSD Spain",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Uveitis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunosuppressive Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Products",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Synthetic Drugs",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Uveitis",
+            "Beh\u00e7et\u2019s Disease",
+            "Biologic Therapy",
+            "Systematic Literature Review"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Immunosuppressive Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Biological Products",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Synthetic Drugs",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00296-018-4193-z"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 16,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-12-27",
+        "dateOfCreation": "2018-11-14",
+        "dateOfRevision": "2022-04-08",
+        "electronicPublicationDate": "2018-11-12",
+        "firstPublicationDate": "2018-11-12",
+        "firstIndexDate": "2018-11-13",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "18393375",
+        "source": "MED",
+        "pmid": "18393375",
+        "doi": "10.1002/ibd.20457",
+        "title": "Efficacy of infliximab for induction and maintenance of remission in intestinal Beh\u00e7et's disease.",
+        "authorString": "Naganuma M, Sakuraba A, Hisamatsu T, Ochiai H, Hasegawa H, Ogata H, Iwao Y, Hibi T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Naganuma M",
+              "lastName": "Naganuma",
+              "firstName": "Makoto",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine, School of Medicine, Keio University, Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sakuraba A",
+              "lastName": "Sakuraba",
+              "firstName": "Atsushi",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2519-6129"
+              }
+            },
+            {
+              "fullName": "Hisamatsu T",
+              "lastName": "Hisamatsu",
+              "firstName": "Tadakazu",
+              "initials": "T"
+            },
+            {
+              "fullName": "Ochiai H",
+              "lastName": "Ochiai",
+              "firstName": "Hiroki",
+              "initials": "H"
+            },
+            {
+              "fullName": "Hasegawa H",
+              "lastName": "Hasegawa",
+              "firstName": "Hirotoshi",
+              "initials": "H"
+            },
+            {
+              "fullName": "Ogata H",
+              "lastName": "Ogata",
+              "firstName": "Haruhiko",
+              "initials": "H"
+            },
+            {
+              "fullName": "Iwao Y",
+              "lastName": "Iwao",
+              "firstName": "Yasushi",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Hibi T",
+              "lastName": "Hibi",
+              "firstName": "Toshifumi",
+              "initials": "T"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2519-6129"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "14",
+          "journalIssueId": 1548322,
+          "dateOfPublication": "2008 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2008,
+          "journal": {
+            "medlineAbbreviation": "Inflamm Bowel Dis",
+            "title": "Inflammatory bowel diseases",
+            "essn": "1536-4844",
+            "issn": "1078-0998",
+            "nlmid": "9508162",
+            "isoabbreviation": "Inflamm Bowel Dis"
+          },
+          "printPublicationDate": "2008-09-01"
+        },
+        "pubYear": "2008",
+        "pageInfo": "1259-1264",
+        "abstractText": "<h4>Background</h4>Intestinal Beh\u00e7et disease (BD) is characterized by intestinal inflammation with round and oval ulcers associated with gastrointestinal symptoms. Although several cases have been reported that infliximab is effective for induction of remission, the efficacy of infliximab for maintaining remission is unknown.<h4>Methods</h4>Six cases with fulminant intestinal BD were treated with infliximab. All patients were steroid-dependent and refractory to immunosuppressants; 3 patients were treated with 6-mercaptopurine, 1 patient with azathioprine, 1 patient with cyclosporine A, and 1 patient with methotrexate.<h4>Results</h4>Four patients achieved remission by infliximab and all of these patients maintained remission with scheduled treatments of infliximab, with the longest duration of remission being about 3 years. Another 2 patients with ileal ulceration required surgery; however, 1 patient has maintained remission by scheduled treatment of infliximab for 2 years after surgery.<h4>Conclusions</h4>Infliximab appears to offer an option for fulminant intestinal BD to induce and maintain remission, although a randomized control trial is needed.",
+        "affiliation": "Department of Internal Medicine, School of Medicine, Keio University, Tokyo, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article",
+            "Case Reports"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gastrointestinal Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Colonoscopy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Remission Induction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infliximab"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antibodies, Monoclonal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Gastrointestinal Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Infliximab",
+              "registryNumber": "B72HH48FLU"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://academic.oup.com/ibdjournal/article-pdf/14/9/1259/22786099/0054725-200809000-00013.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "abs",
+              "site": "www.ibdjournal.com",
+              "url": "http://content.wkhealth.com/linkback/openurl?issn=1078-0998&volume=14&issue=9&spage=1259"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ibd.20457"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "19177427",
+              "reference": "Inflamm Bowel Dis. 2009 Dec;15(12):1769-71. doi: 10.1002/ibd.20869",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 58,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2008-11-25",
+        "dateOfCreation": "2008-04-09",
+        "dateOfRevision": "2018-09-13",
+        "firstPublicationDate": "2008-09-01",
+        "firstIndexDate": "2008-12-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "16344613",
+        "source": "MED",
+        "pmid": "16344613",
+        "doi": "10.1097/01.bor.0000197995.27579.9b",
+        "title": "New approaches in the treatment of Adamantiades-Beh\u00e7et's disease.",
+        "authorString": "Pipitone N, Olivieri I, Cantini F, Triolo G, Salvarani C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Pipitone N",
+              "lastName": "Pipitone",
+              "firstName": "Nicol\u00f2",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unit\u00e0 Operativa di Reumatologia, Arcispedale Santa Maria Nuova, Reggio Emilia, Policlinico Universitario, Palermo, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Olivieri I",
+              "lastName": "Olivieri",
+              "firstName": "Ignazio",
+              "initials": "I"
+            },
+            {
+              "fullName": "Cantini F",
+              "lastName": "Cantini",
+              "firstName": "Fabrizio",
+              "initials": "F"
+            },
+            {
+              "fullName": "Triolo G",
+              "lastName": "Triolo",
+              "firstName": "Giovanni",
+              "initials": "G"
+            },
+            {
+              "fullName": "Salvarani C",
+              "lastName": "Salvarani",
+              "firstName": "Carlo",
+              "initials": "C"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "18",
+          "journalIssueId": 1278906,
+          "dateOfPublication": "2006 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2006,
+          "journal": {
+            "medlineAbbreviation": "Curr Opin Rheumatol",
+            "title": "Current opinion in rheumatology",
+            "essn": "1531-6963",
+            "issn": "1040-8711",
+            "nlmid": "9000851",
+            "isoabbreviation": "Curr Opin Rheumatol"
+          },
+          "printPublicationDate": "2006-01-01"
+        },
+        "pubYear": "2006",
+        "pageInfo": "3-9",
+        "abstractText": "<h4>Purpose of review</h4>To update clinicians on the recent advances in the treatment of Adamantiades-Beh\u00e7et's disease.<h4>Recent findings</h4>Interferon-alpha-2a and infliximab have proved able to induce prompt remission in the vast majority of Adamantiades-Beh\u00e7et's patients with DMARD-resistant uveoretinitis. Efficacy of interferon-alpha-2a has also been reported for mucocutaneous lesions, arthritis, and (more anecdotally) for neuro-Beh\u00e7et, while results from small case series suggest that infliximab is beneficial for mucocutaneous lesions and (more anecdotally) for arthritis and gastro-intestinal manifestations. Two cases of neuro-Beh\u00e7et treated with infliximab showed a complete resolution. Finally, in a randomized controlled trial of patients with mucocutaneous, arthritic manifestations, or both, etanercept effectively suppressed mucocutaneous lesions.A different approach is tolerization by oral administration of the 336-351 peptide of the human heat shock protein 60 (thought to have a pathogenic role in Adamantiades-Beh\u00e7et's disease-associated uveitis), linked to recombinant cholera B-toxin B-subunit. Preliminary results have shown that tolerization is safe and effective in preventing relapses of uveitis.<h4>Summary</h4>Biologic agents have proved effective in patients resistant to conventional treatment. However, disease subsets characterized by severe morbidity and mortality such as vasculo-Beh\u00e7et and neuro-Beh\u00e7et still pose major therapeutic challenges. Further studies are needed to devise better treatment strategies for severe Adamantiades-Beh\u00e7et's disease.",
+        "affiliation": "Unit\u00e0 Operativa di Reumatologia, Arcispedale Santa Maria Nuova, Reggio Emilia, Policlinico Universitario, Palermo, Italy.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Behcet Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoglobulin G",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chaperonin 60",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interferon-alpha",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Tumor Necrosis Factor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Recombinant Proteins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunologic Factors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infliximab"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Etanercept"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interferon alpha-2"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Immunoglobulin G",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunologic Factors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interferon-alpha",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Recombinant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Tumor Necrosis Factor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Chaperonin 60",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Infliximab",
+              "registryNumber": "B72HH48FLU"
+            },
+            {
+              "name": "Etanercept",
+              "registryNumber": "OP401G7OJC"
+            },
+            {
+              "name": "Interferon alpha-2",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/01.bor.0000197995.27579.9b"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 44,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-04-04",
+        "dateOfCreation": "2005-12-14",
+        "dateOfRevision": "2019-09-17",
+        "firstPublicationDate": "2006-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24654562",
+        "source": "MED",
+        "pmid": "24654562",
+        "doi": "10.1517/14740338.2014.899579",
+        "title": "Efficacy and safety of etanercept in chronic immune-mediated disease.",
+        "authorString": "Murdaca G, Span\u00f2 F, Contatore M, Guastalla A, Magnani O, Puppo F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Murdaca G",
+              "lastName": "Murdaca",
+              "firstName": "Giuseppe",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6403-6905"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Genova, Department of Internal Medicine, Clinical Immunology Unit , Viale Benedetto XV, n. 6, 16132 Genova , Italy +39 010 353 7924 ; +39 010 555 6950 ; Giuseppe.Murdaca@unige.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Span\u00f2 F",
+              "lastName": "Span\u00f2",
+              "firstName": "Francesca",
+              "initials": "F"
+            },
+            {
+              "fullName": "Contatore M",
+              "lastName": "Contatore",
+              "firstName": "Miriam",
+              "initials": "M"
+            },
+            {
+              "fullName": "Guastalla A",
+              "lastName": "Guastalla",
+              "firstName": "Andrea",
+              "initials": "A"
+            },
+            {
+              "fullName": "Magnani O",
+              "lastName": "Magnani",
+              "firstName": "Ottavia",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3093-0375"
+              }
+            },
+            {
+              "fullName": "Puppo F",
+              "lastName": "Puppo",
+              "firstName": "Francesco",
+              "initials": "F"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6403-6905"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3093-0375"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "13",
+          "journalIssueId": 2150982,
+          "dateOfPublication": "2014 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Expert Opin Drug Saf",
+            "title": "Expert opinion on drug safety",
+            "essn": "1744-764X",
+            "issn": "1474-0338",
+            "nlmid": "101163027",
+            "isoabbreviation": "Expert Opin Drug Saf"
+          },
+          "printPublicationDate": "2014-05-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "649-661",
+        "abstractText": "<h4>Introduction</h4>TNF-\u03b1 inhibitors have demonstrated efficacy in large, randomized controlled clinical trials either as monotherapy or in combination with other anti-inflammatory or disease-modifying antirheumatic drugs in the treatment of chronic inflammatory immune-mediated diseases. Etanercept is a fusion protein that acts as a 'decoy receptor' for TNF-\u03b1.<h4>Areas covered</h4>This paper evaluates the efficacy and safety of etanercept in patients with chronic inflammatory immune-mediated diseases.<h4>Expert opinion</h4>Etanercept was first approved for the treatment of rheumatoid arthritis (RA) and subsequently of chronic plaque psoriasis, psoriatic arthritis, ankylosing spondylitis and juvenile RA. Etanercept as other TNF-\u03b1 inhibitors, particularly infliximab, may be administered off-label to treat other chronic inflammatory immune-mediated diseases such as systemic sclerosis, Behcet disease, systemic lupus erythematosus, polymyositis, dermatomyositis and mixed connective tissue disease. Early etanercept treatment prevents joint damage and helps to avoid long-term disability in arthritis. Etanercept administered at a dose of 50 mg once weekly is effective in inducing an earlier remission of RA, and etanercept 50 mg twice weekly may favor a more rapid improvement of psoriasis and psoriatic arthritis. Etanercept and adalimumab may exert beneficial effects on lipid profile and improve endothelial dysfunction. Appropriate screening tests for latent tuberculosis, hepatitis B virus and hepatitis C virus should be performed before starting etanercept. TNF-\u03b1 inhibitors including etanercept are contraindicated in patients with demyelinating diseases.",
+        "affiliation": "University of Genova, Department of Internal Medicine, Clinical Immunology Unit , Viale Benedetto XV, n. 6, 16132 Genova , Italy +39 010 353 7924 ; +39 010 555 6950 ; Giuseppe.Murdaca@unige.it.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Autoimmune Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chronic Disease"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Necrosis Factor-alpha",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoglobulin G",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Tumor Necrosis Factor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antirheumatic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunosuppressive Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Etanercept"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Immunoglobulin G",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunosuppressive Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antirheumatic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tumor Necrosis Factor-alpha",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Tumor Necrosis Factor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Etanercept",
+              "registryNumber": "OP401G7OJC"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1517/14740338.2014.899579"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 25,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-12-09",
+        "dateOfCreation": "2014-03-25",
+        "dateOfRevision": "2015-11-19",
+        "electronicPublicationDate": "2014-03-22",
+        "firstPublicationDate": "2014-03-22",
+        "firstIndexDate": "2014-03-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "12920692",
+        "source": "MED",
+        "pmid": "12920692",
+        "doi": "10.1053/sarh.2003.50022",
+        "title": "Potential of tumor necrosis factor neutralization strategies in rheumatologic disorders other than rheumatoid arthritis.",
+        "authorString": "Stokes DG, Kremer JM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Stokes DG",
+              "lastName": "Stokes",
+              "firstName": "David G",
+              "initials": "DG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, Thomas Jefferson University, Philadelphia, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kremer JM",
+              "lastName": "Kremer",
+              "firstName": "Joel M",
+              "initials": "JM"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "33",
+          "journalIssueId": 1144455,
+          "dateOfPublication": "2003 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2003,
+          "journal": {
+            "medlineAbbreviation": "Semin Arthritis Rheum",
+            "title": "Seminars in arthritis and rheumatism",
+            "essn": "1532-866X",
+            "issn": "0049-0172",
+            "nlmid": "1306053",
+            "isoabbreviation": "Semin Arthritis Rheum"
+          },
+          "printPublicationDate": "2003-08-01"
+        },
+        "pubYear": "2003",
+        "pageInfo": "1-18",
+        "abstractText": "<h4>Objectives</h4>To consider the potential of tumor necrosis factor (TNF) neutralization in rheumatologic disorders other than rheumatoid arthritis (RA).<h4>Methods</h4>Literature on the safety and efficacy of TNF inhibition in the treatment of non-RA arthropathies and systemic inflammatory diseases from American and European medical journals was reviewed.<h4>Results</h4>Clinical trials, open-label studies, and case studies indicate great promise for TNF inhibitors alone or in combination with other protocols in the treatment of non-RA rheumatologic disorders. In randomized, double-blind, placebo-controlled trials of etanercept and open-label studies of infliximab in patients with psoriatic arthritis, these 2 TNF inhibitors resulted in an approximately 80% to 90% response rate. Double-blind, placebo-controlled, randomized trials also indicate an encouraging degree of efficacy in patients with ankylosing spondylitis. Preliminary evidence from open-label trials and case studies suggests that these TNF inhibitors also may be effective in the treatment of Beh\u00e7et disease, Wegener granulomatosis, and sarcoidosis.<h4>Conclusions</h4>Neutralization of TNF may have an important role in the treatment of rheumatologic disorders other than RA.",
+        "affiliation": "Department of Medicine, Thomas Jefferson University, Philadelphia, PA, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rheumatic Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Necrosis Factor-alpha",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoglobulin G",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Tumor Necrosis Factor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antirheumatic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Clinical Trials as Topic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infliximab"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Etanercept"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antibodies",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoglobulin G",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antirheumatic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tumor Necrosis Factor-alpha",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Tumor Necrosis Factor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Infliximab",
+              "registryNumber": "B72HH48FLU"
+            },
+            {
+              "name": "Etanercept",
+              "registryNumber": "OP401G7OJC"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1053/sarh.2003.50022"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "15260002",
+              "reference": "Semin Arthritis Rheum. 2004 Jun;33(6):422-3. doi: 10.1016/j.semarthrit.2003.12.005",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 26,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2003-12-16",
+        "dateOfCreation": "2003-08-16",
+        "dateOfRevision": "2015-11-19",
+        "firstPublicationDate": "2003-08-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

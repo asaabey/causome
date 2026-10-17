@@ -14,6 +14,7 @@ Read `CURATION.md` in full and follow its **New-disease runbook**, detailed cont
 
 - Use `pnpm curate init` when registration is needed, then refine the profile's aliases and literature query.
 - Run `pnpm curate scan` with an explicit appropriate initial date window and cutoff. Record its actual run ID, query/window, counts and printed snapshot/report paths. Refine an overly broad or incomplete search rather than claiming complete coverage.
+- Use **Consensus MCP** for literature discovery and evidence research as required by `CURATION.md`, including qualifying, null and contradictory findings. Fetch selected paper records before citing search results, inspect primary sources, and preserve actual queries, dates, coverage and findings in the durable handoff. Keep the required `curate scan` workflow. Record Consensus unavailability/failure and any fallback explicitly.
 - Inspect relevant primary reports and exact supporting passages, study systems, limitations and source notices. Retain qualifying, null and contradictory evidence. Search results and successful retrieval are not completed scientific screening.
 - Reuse shared canonical entity identities where scientifically appropriate, while retaining disease-specific claims and evidence. Distinguish human observations, cultures, animal models and intervention populations.
 
@@ -33,7 +34,7 @@ Read `CURATION.md` in full and follow its **New-disease runbook**, detailed cont
 - Validate the final exact candidate with `node scripts/validate-release.mjs <candidate.json>` and run `pnpm validate`.
 - Select the final candidate with `pnpm curate preview --disease <slug> --candidate <final-summary-candidate-id>`. This request authorizes local preview selection; no extra confirmation is needed.
 - Run `pnpm check` and `pnpm build`; inspect the disease page and portable summary review packet. Use port 4322 or an available `CAUSOME_PORT`, preserving other running servers. Apply browser checks appropriate to the change.
-- Follow section 7 for an external current-literature review when an appropriate research tool is available. Record only actual feedback. If it cannot be run, record **not run / pending scientific review** and finish the local handoff. Do not fabricate independent review or block local selection on an unavailable check.
+- Follow section 7 using **Consensus MCP** for the current-literature review of the final summary packet. Record only actual feedback. If it cannot be run, record **not run / pending scientific review** and finish the local handoff. Do not fabricate independent review or block local selection on an unavailable check.
 - Resolve major discovered errors in the graph and summary through new immutable candidates, then validate and select the resulting final snapshot.
 
 ## 5. Preserve and hand off

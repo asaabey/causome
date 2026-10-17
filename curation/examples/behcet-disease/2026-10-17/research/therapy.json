@@ -1,0 +1,276 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:23290985 OR (TITLE:\"Trial of Apremilast\" AND TITLE_ABS:Behcet)",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 30,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "23290985",
+        "source": "MED",
+        "pmid": "23290985",
+        "doi": "10.1016/j.ophtha.2012.09.040",
+        "title": "Secukinumab in the treatment of noninfectious uveitis: results of three randomized, controlled clinical trials.",
+        "authorString": "Dick AD, Tugal-Tutkun I, Foster S, Zierhut M, Melissa Liew SH, Bezlyak V, Androudi S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dick AD",
+              "lastName": "Dick",
+              "firstName": "Andrew D",
+              "initials": "AD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0742-3159"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Clinical Sciences and School of Cellular and Molecular Medicine, University of Bristol, Bristol, United Kingdom. a.dick@bristol.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tugal-Tutkun I",
+              "lastName": "Tugal-Tutkun",
+              "firstName": "Ilknur",
+              "initials": "I"
+            },
+            {
+              "fullName": "Foster S",
+              "lastName": "Foster",
+              "firstName": "Stephen",
+              "initials": "S"
+            },
+            {
+              "fullName": "Zierhut M",
+              "lastName": "Zierhut",
+              "firstName": "Manfred",
+              "initials": "M"
+            },
+            {
+              "fullName": "Melissa Liew SH",
+              "lastName": "Melissa Liew",
+              "firstName": "S H",
+              "initials": "SH"
+            },
+            {
+              "fullName": "Bezlyak V",
+              "lastName": "Bezlyak",
+              "firstName": "Vladimir",
+              "initials": "V"
+            },
+            {
+              "fullName": "Androudi S",
+              "lastName": "Androudi",
+              "firstName": "Sofia",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5303-7793"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0742-3159"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5303-7793"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "recommended_reviews"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "120",
+          "journalIssueId": 2026380,
+          "dateOfPublication": "2013 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Ophthalmology",
+            "title": "Ophthalmology",
+            "essn": "1549-4713",
+            "issn": "0161-6420",
+            "nlmid": "7802443",
+            "isoabbreviation": "Ophthalmology"
+          },
+          "printPublicationDate": "2013-04-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "777-787",
+        "abstractText": "<h4>Purpose</h4>To determine the efficacy and safety of different doses of secukinumab, a fully human monoclonal antibody for targeted interleukin-17A blockade, in patients with noninfectious uveitis.<h4>Design</h4>Three multicenter, randomized, double-masked, placebo-controlled, dose-ranging phase III studies: SHIELD, INSURE, and ENDURE.<h4>Participants</h4>A total of 118 patients with Beh\u00e7et's uveitis (SHIELD study); 31 patients with active, noninfectious, non-Beh\u00e7et's uveitis (INSURE study); and 125 patients with quiescent, noninfectious, non-Beh\u00e7et's uveitis (ENDURE study) were enrolled.<h4>Methods</h4>After an initial subcutaneous (s.c.) loading phase in each treatment arm, patients received s.c. maintenance therapy with secukinumab 300 mg every 2 weeks (q2w), secukinumab 300 mg monthly (q4w), or placebo in the SHIELD study; secukinumab 300 mg q2w, secukinumab 300 mg q4w, secukinumab 150 mg q4w, or placebo in the INSURE study; or secukinumab 300 mg q2w, secukinumab 300 mg q4w, secukinumab 150 mg q4w, or placebo in the ENDURE study.<h4>Main outcome measures</h4>Reduction of uveitis recurrence or vitreous haze score during withdrawal of concomitant immunosuppressive medication (ISM). Other end points included best-corrected visual acuity, ISM use (expressed as a standardized ISM score), and safety outcomes.<h4>Results</h4>After completion or early termination of each trial, there were no statistically significant differences in uveitis recurrence between the secukinumab treatment groups and placebo groups in any study. Secukinumab was associated with a significant reduction in mean total post-baseline ISM score (P = 0.019; 300 mg q4w vs. placebo) in the SHIELD study. Likewise, secukinumab was associated with a greater median reduction in ISM score versus placebo in the INSURE study, although no statistical analysis of the difference was conducted because of the small sample size. Overall, there was no loss in visual acuity reported in any treatment group during follow-up in all 3 studies. According to descriptive safety statistics, the frequencies of ocular and nonocular adverse events seemed to be slightly higher among secukinumab groups versus placebo across the 3 studies.<h4>Conclusions</h4>The primary efficacy end points of the 3 studies were not met. The secondary efficacy data from these studies suggest a beneficial effect of secukinumab in reducing the use of concomitant ISM.",
+        "affiliation": "School of Clinical Sciences and School of Cellular and Molecular Medicine, University of Bristol, Bristol, United Kingdom. a.dick@bristol.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase III",
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Uveitis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Injections, Subcutaneous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Follow-Up Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Visual Acuity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal, Humanized"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antibodies, Monoclonal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "secukinumab",
+              "registryNumber": "DLG4EML025"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ophtha.2012.09.040"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "24246836",
+              "reference": "Ophthalmology. 2013 Dec;120(12):e86. doi: 10.1016/j.ophtha.2013.08.019",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 266,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-05-21",
+        "dateOfCreation": "2013-01-08",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2013-01-03",
+        "firstPublicationDate": "2013-01-03",
+        "firstIndexDate": "2013-01-09",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

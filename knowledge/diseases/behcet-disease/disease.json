@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "behcet-disease",
+  "label": "Behçet’s disease",
+  "summary": "Bounded human Behçet disease overview: HLA/ERAP1 and cytokine-locus susceptibility, T-cell and neutrophil activation, NET/coagulation and endothelial injury, plus mucocutaneous, ocular, vascular, neurologic, joint and intestinal branches. Primary-report associations, culture mechanisms and intervention populations remain distinct. Excludes monogenic mimics, diagnostic criteria and comprehensive treatment guidance.",
+  "query": "(TITLE_ABS:Behcet* OR TITLE_ABS:Behçet*) AND (TITLE_ABS:neutrophil* OR TITLE_ABS:thrombosis OR TITLE_ABS:IL10 OR TITLE_ABS:IL23R OR TITLE_ABS:ERAP1 OR TITLE_ABS:Th17 OR TITLE_ABS:apremilast OR TITLE_ABS:secukinumab OR TITLE_ABS:uveitis)",
+  "aliases": [
+    "Behcet disease",
+    "Behçet disease",
+    "Behcet's disease",
+    "Behçet's disease",
+    "Behçet syndrome",
+    "Behcet syndrome",
+    "Adamantiades-Behçet disease"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "behcet-disease-summary-candidate-d266780f35d0"
+}
