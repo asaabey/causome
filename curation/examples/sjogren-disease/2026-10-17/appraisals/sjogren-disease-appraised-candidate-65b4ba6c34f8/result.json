@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "sjogren-disease-null-qualified-candidate-20261017-001",
+  "baseContentDigest": "c3e1788d17e552fde201efed039d5d3cf93c7c3d55baa166b92f79f25532bbed",
+  "candidateId": "sjogren-disease-appraised-candidate-65b4ba6c34f8",
+  "contentDigest": "2fb55641e159bae6f7fd8ae44be2af19418a45c143e2f0d6ff00d611a26f1f0a",
+  "inputDigest": "65b4ba6c34f834b5e95c6d20c5dc8d827009c9837687fad8d7fad93201c22a31",
+  "assessmentCount": 38,
+  "weightCount": 37,
+  "confidenceCount": 38,
+  "therapyCoverageCount": 38,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

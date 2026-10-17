@@ -13,7 +13,7 @@ Existing maps (2026-10-17): atypical haemolytic uraemic syndrome (local candidat
 | 1 | Atypical haemolytic uraemic syndrome | `atypical-hus` | Renal / complement | [Local candidate; scientific review pending](examples/atypical-hus/revision-consolidated-2026-10-17/handoff/report.md) |
 | 2 | Anti-GBM disease | `anti-gbm-disease` | Renal / autoimmune | [Local candidate; scientific review pending](examples/anti-gbm-disease/initial-2026-10-17/handoff/report.md) |
 | 3 | Primary FSGS with APOL1 branch | `primary-fsgs` | Renal / podocytopathy | Local candidate added 2026-10-17; scientific review pending |
-| 4 | Sjögren disease | `sjogren-disease` | Rheumatology | Not started |
+| 4 | Sjögren disease | `sjogren-disease` | Rheumatology | [Local candidate selected 2026-10-17; scientific review pending](examples/sjogren-disease/2026-10-17/handoff/report.md) |
 | 5 | Diffuse cutaneous systemic sclerosis | `diffuse-systemic-sclerosis` | Rheumatology | Not started |
 | 6 | Rheumatoid arthritis | `rheumatoid-arthritis` | Rheumatology | Not started |
 | 7 | Mixed connective tissue disease | `mixed-connective-tissue-disease` | Rheumatology | Not started |

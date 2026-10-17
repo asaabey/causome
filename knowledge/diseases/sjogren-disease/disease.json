@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "sjogren-disease",
+  "label": "Sjögren disease",
+  "summary": "Bounded primary Sjögren disease: epithelial activation, interferon, BAFF/B-cell activity, autoantibodies, ectopic lymphoid organisation and glandular dysfunction; excludes secondary disease, mimics and symptomatic therapy efficacy.",
+  "query": "(TITLE_ABS:\"Sjögren\" OR TITLE_ABS:\"Sjogren\" OR TITLE_ABS:\"Sjogren's syndrome\" OR TITLE_ABS:\"Sjögren's syndrome\") AND (TITLE_ABS:interferon OR TITLE_ABS:BAFF OR TITLE_ABS:epithelial OR TITLE_ABS:\"germinal centre\" OR TITLE_ABS:\"germinal center\" OR TITLE_ABS:autoantibodies OR TITLE_ABS:ianalumab OR TITLE_ABS:dazodalibep OR TITLE_ABS:nipocalimab OR TITLE_ABS:telitacicept)",
+  "aliases": [
+    "Sjögren's syndrome",
+    "Sjogren syndrome",
+    "Sjogren's syndrome",
+    "primary Sjögren syndrome",
+    "primary Sjogren syndrome",
+    "pSS",
+    "sicca syndrome"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "sjogren-disease-summary-candidate-b62d8ddf75f2"
+}

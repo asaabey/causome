@@ -1,0 +1,6 @@
+Preview valid: sjogren-disease-summary-candidate-b62d8ddf75f2 (17 entities, 21 relationships).
+
+> causome@ validate /Users/asanga/Documents/Projects/causome
+> node scripts/validate-release.mjs
+
+Validated 104 disease candidates and their registry profiles.

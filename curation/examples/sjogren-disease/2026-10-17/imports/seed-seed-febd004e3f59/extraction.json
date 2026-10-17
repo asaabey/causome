@@ -1,0 +1,587 @@
+{
+  "version": 1,
+  "diseaseId": "sjogren-disease",
+  "baseReleaseId": "sjogren-disease-candidate-20261017-001",
+  "baseContentDigest": "53b1f23fe530c6006b237f675e80e8d8531de87198e47386e41dd6b027d8b1cd",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "manual-source-check-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "sjd-ifna-baff",
+      "subject": "entity-ifn",
+      "object": "entity-baff",
+      "predicate": "stimulates",
+      "text": "IFN-alpha induced BAFF secretion in cultured salivary epithelial cells from primary Sjögren patients and controls.",
+      "quote": "Secretion of BAFF protein, undetectable at baseline, was significantly increased after IFN-alpha and IFN-gamma stimulation",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Cultured SGECs from eight primary Sjögren patients and eight controls; 48-hour cytokine stimulation",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "Eight patients and eight controls; culture secretion is not clinical disease causation or treatment benefit. Patient-control differences were not significant."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-2b2466c7015750551324",
+      "paperDigest": "d8d43e3e519a7febf73711139eb6ea87af83fc6773016f4d980961ddc0a35738"
+    },
+    {
+      "id": "sjd-ifng-baff",
+      "subject": "entity-ifng",
+      "object": "entity-baff",
+      "predicate": "stimulates",
+      "text": "IFN-gamma induced BAFF secretion in primary salivary epithelial cultures.",
+      "quote": "Secretion of BAFF protein, undetectable at baseline, was significantly increased after IFN-alpha and IFN-gamma stimulation",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Cultured SGECs from eight primary Sjögren patients and eight controls; 48-hour cytokine stimulation",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "Same culture cohort as IFN-alpha result; not independent replication."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-2b2466c7015750551324",
+      "paperDigest": "d8d43e3e519a7febf73711139eb6ea87af83fc6773016f4d980961ddc0a35738"
+    },
+    {
+      "id": "sjd-epithelium-baff",
+      "subject": "entity-sjd-epithelium",
+      "object": "entity-baff",
+      "predicate": "produces",
+      "text": "Salivary epithelial cells expressed and secreted BAFF after interferon stimulation.",
+      "quote": "capacity of SGECs to express and secrete BAFF after IFN stimulation",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Cultured SGECs from eight primary Sjögren patients and eight controls; 48-hour cytokine stimulation",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "Induced production in culture; basal secretion was undetectable. Exact epithelial origin and stimulation methods inspected in PMC1526588 Results."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-2b2466c7015750551324",
+      "paperDigest": "d8d43e3e519a7febf73711139eb6ea87af83fc6773016f4d980961ddc0a35738"
+    },
+    {
+      "id": "sjd-ifna-baff-null",
+      "subject": "entity-ifn",
+      "object": "entity-baff",
+      "predicate": "stimulates",
+      "text": "BAFF protein secretion after interferon stimulation did not significantly differ between primary Sjögren and control cultures.",
+      "quote": "with no significant difference between pSS and controls",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Cultured SGECs from eight primary Sjögren patients and eight controls; 48-hour cytokine stimulation",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "category": "qualifying",
+      "limitations": [
+        "No significant patient-control difference; different within-group P values do not establish a between-group difference."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-2b2466c7015750551324",
+      "paperDigest": "d8d43e3e519a7febf73711139eb6ea87af83fc6773016f4d980961ddc0a35738"
+    },
+    {
+      "id": "sjd-pdc-ifn",
+      "subject": "entity-pdc",
+      "object": "entity-ifn",
+      "predicate": "produces",
+      "text": "IFN-producing plasmacytoid dendritic cells were detected in primary Sjögren salivary glands.",
+      "quote": "These IFN-producing cells were detected by immunohistochemistry in all patients with pSS, whereas none was observed in controls.",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Human minor salivary-gland expression profiling and immunohistochemistry",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "Tissue detection does not identify the exclusive source of type I IFN or establish temporal initiation."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-0c4e66c1e8a7bfd33583",
+      "paperDigest": "fe5a568e9a7f537e1af083608502589503af01f7566314dcb56b94396bc9fc2b"
+    },
+    {
+      "id": "sjd-ifn-epithelium",
+      "subject": "entity-ifn",
+      "object": "entity-sjd-epithelium",
+      "predicate": "activates",
+      "text": "Interferons modulated IFN-inducible genes in salivary gland epithelial cells in vitro.",
+      "quote": "In vitro activation showed that these genes were effectively modulated by IFNs in salivary gland epithelial cells",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Human salivary gland epithelial-cell experiments",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-level inspection; study methods and controls beyond the inspected material remain unverified. Observations do not establish disease-wide causality."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-0c4e66c1e8a7bfd33583",
+      "paperDigest": "fe5a568e9a7f537e1af083608502589503af01f7566314dcb56b94396bc9fc2b"
+    },
+    {
+      "id": "sjd-baff-bcells",
+      "subject": "entity-baff",
+      "object": "entity-b_cells",
+      "predicate": "promotes_survival_of",
+      "text": "The BAFF-transgenic study identifies BAFF as a regulator of B-lymphocyte proliferation and survival.",
+      "quote": "specifically regulates B lymphocyte proliferation and survival",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "BAFF-transgenic mouse study with accompanying human observations",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "BAFF regulation is stated in the primary report abstract; the proposed autoreactive-cell tolerance checkpoint mechanism remains an interpretation, not a demonstrated complete human circuit."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-b02dc5580d91f83be4e4",
+      "paperDigest": "6defcc14e5250bbc8bbd9f14949d94c70a6de41127991bf587e2884a195afeb5"
+    },
+    {
+      "id": "sjd-baff-saliva",
+      "subject": "entity-baff",
+      "object": "entity-sjd-saliva",
+      "predicate": "contributes_to",
+      "text": "Aged BAFF-transgenic mice developed sialadenitis with decreased saliva production.",
+      "quote": "severe sialadenitis, decreased saliva production, and destruction of submaxillary glands",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Aged BAFF-transgenic mice",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "causal",
+      "category": "supporting",
+      "limitations": [
+        "Engineered BAFF overexpression; not evidence of sufficiency or necessity in primary human Sjögren disease."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-b02dc5580d91f83be4e4",
+      "paperDigest": "6defcc14e5250bbc8bbd9f14949d94c70a6de41127991bf587e2884a195afeb5"
+    },
+    {
+      "id": "sjd-bcells-gc",
+      "subject": "entity-b_cells",
+      "object": "entity-sjd-gc",
+      "predicate": "is_associated_with",
+      "text": "Glandular germinal-centre-like structures contained organised T- and B-cell aggregates with proliferating cells and follicular dendritic-cell networks.",
+      "quote": "T and B cell aggregates with proliferating cells with a network of follicular dendritic cells",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "165 Sjögren minor salivary gland biopsies",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "supporting",
+      "limitations": [
+        "17% had GC-like structures; abstract does not resolve primary versus associated disease for every participant. Morphology does not establish a universal disease stage."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-4a8ed1594d63e8bdf61f",
+      "paperDigest": "e00da3398f731f80fb8a8520cc7a5b25a4d5c5903cbb2a86a0694e4b1b896d2c"
+    },
+    {
+      "id": "sjd-gc-ssa",
+      "subject": "entity-sjd-gc",
+      "object": "entity-sjd-ssa",
+      "predicate": "is_associated_with",
+      "text": "Local anti-Ro/SSA and anti-La/SSB autoantibody production was increased in biopsies with germinal-centre development.",
+      "quote": "local production of anti-Ro/SSA and anti-La/SSB autoantibodies was significantly increased",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "165 Sjögren gland biopsies; local antibody immunohistochemistry",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "supporting",
+      "limitations": [
+        "Subset association, not proof that ectopic GCs are necessary for all serum autoantibodies. Primary-only composition unresolved in abstract."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-4a8ed1594d63e8bdf61f",
+      "paperDigest": "e00da3398f731f80fb8a8520cc7a5b25a4d5c5903cbb2a86a0694e4b1b896d2c"
+    },
+    {
+      "id": "sjd-baff-ssa",
+      "subject": "entity-baff",
+      "object": "entity-sjd-ssa",
+      "predicate": "is_associated_with",
+      "text": "Soluble BAFF correlated with anti-La/SSB antibodies in the inspected primary Sjögren cohort.",
+      "quote": "Soluble levels of BAFF correlated with anti-La/SSB antibodies and disease duration.",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "MSG analysis in 29 subjects including primary Sjögren and nonspecific sialadenitis controls",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-level inspection; study methods and controls beyond the inspected material remain unverified. Observations do not establish disease-wide causality."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-28da7d725483461612f8",
+      "paperDigest": "5d6b9a3b947c3feadb775ef6b0a0097c8d6f2562bf96370578e3314df6ed035e"
+    },
+    {
+      "id": "sjd-baff-gc",
+      "subject": "entity-baff",
+      "object": "entity-sjd-gc",
+      "predicate": "is_associated_with",
+      "text": "BAFF and BAFF-R glandular expression was numerically higher in GC-positive primary Sjögren patients, without a significant difference from GC-negative patients.",
+      "quote": "BAFF and BAFF-R glandular expression levels were higher in pSS-GC(+) patients, without significant differences compared to pSS-GC(-) patients.",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Cross-sectional MSG study in 29 subjects",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "supporting",
+      "limitations": [
+        "Null group comparison; higher serum BAFF occurred in GC-negative patients. This is not evidence that greater BAFF causes GC formation."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-28da7d725483461612f8",
+      "paperDigest": "5d6b9a3b947c3feadb775ef6b0a0097c8d6f2562bf96370578e3314df6ed035e"
+    },
+    {
+      "id": "sjd-baff-gc-null",
+      "subject": "entity-baff",
+      "object": "entity-sjd-gc",
+      "predicate": "is_associated_with",
+      "text": "Serum BAFF was higher in GC-negative than GC-positive patients, qualifying a simple BAFF-to-GC progression model.",
+      "quote": "the pSS-GC(-) group showed higher sBAFF levels than pSS-GC(+) patients",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Same 29-subject cross-sectional study",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "qualifying",
+      "limitations": [
+        "Small mixed control/patient sample; serum and glandular compartments differ."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-28da7d725483461612f8",
+      "paperDigest": "5d6b9a3b947c3feadb775ef6b0a0097c8d6f2562bf96370578e3314df6ed035e"
+    },
+    {
+      "id": "sjd-antibody-complex",
+      "subject": "entity-sjd-ssa",
+      "object": "entity-complexes",
+      "predicate": "forms",
+      "text": "Autoantibodies to RNA-binding proteins combined with dying-cell material formed an interferon-inducing system consistent with RNA-containing immune complexes.",
+      "quote": "Autoantibodies to RNA-binding proteins, combined with material released by necrotic or late apoptotic cells, were potent inducers",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Primary Sjögren sera and apoptotic/necrotic cell material added to normal human PBMCs",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "Does not establish that every anti-SSA/SSB specificity is pathogenic. Complex-mediated interpretation is from the inspected abstract."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-03f72088d54196e0ca39",
+      "paperDigest": "7e710a29b89ebab2135f7ad22a09289c7ec9d246570f224e838b265e460ea4aa"
+    },
+    {
+      "id": "sjd-debris-complex",
+      "subject": "entity-debris",
+      "object": "entity-complexes",
+      "predicate": "contributes_to",
+      "text": "Necrotic or late apoptotic cell material contributed to the patient-serum interferon-inducing immune-complex system.",
+      "quote": "material released by necrotic or late apoptotic cells",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Primary Sjögren sera and dying-cell material in human PBMC culture",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-level inspection; study methods and controls beyond the inspected material remain unverified. Observations do not establish disease-wide causality."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-03f72088d54196e0ca39",
+      "paperDigest": "7e710a29b89ebab2135f7ad22a09289c7ec9d246570f224e838b265e460ea4aa"
+    },
+    {
+      "id": "sjd-complex-pdc",
+      "subject": "entity-complexes",
+      "object": "entity-pdc",
+      "predicate": "activates",
+      "text": "RNA-containing immune complexes activated plasmacytoid dendritic cells through RNA-dependent and Fc-gamma-RIIa-associated processes in culture.",
+      "quote": "RNA-containing immune complexes triggering PDCs by means of RNA and interaction with Fcgamma receptor IIa",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Primary Sjögren serum / human PBMC interferon-induction experiments",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "Culture mechanism; assembled positive feedback with epithelial BAFF and local antibodies remains a cross-study hypothesis."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-03f72088d54196e0ca39",
+      "paperDigest": "7e710a29b89ebab2135f7ad22a09289c7ec9d246570f224e838b265e460ea4aa"
+    },
+    {
+      "id": "sjd-pdc-saliva",
+      "subject": "entity-pdc",
+      "object": "entity-sjd-saliva",
+      "predicate": "contributes_to",
+      "text": "Early pDC depletion impeded secretory dysfunction in female NOD mice.",
+      "quote": "Depletion of pDCs impeded the development of SMG inflammation and secretory dysfunction.",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Female NOD mice; anti-BST2/CD317 from 4 to 7 weeks, assessed at 10 weeks",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "causal",
+      "category": "supporting",
+      "limitations": [
+        "Pre-onset mouse intervention; no evidence that established human secretory loss is reversible by pDC depletion."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-5fa62efdb4cd72369d16",
+      "paperDigest": "f0245fcdb6e144941d8b714e916996bc5cc8456c87af1f1e5776b45638a9c7e3"
+    },
+    {
+      "id": "sjd-cd8-acinar",
+      "subject": "entity-sjd-gzmk-cd8",
+      "object": "entity-sjd-acinar-loss",
+      "predicate": "is_associated_with",
+      "text": "Human Sjögren glands showed both a rise in GZMK-positive CD8 T cells and selective loss of a seromucous acinar population.",
+      "quote": "a selective loss of PRR4⁺CST3⁺WFDC2⁻ seromucous acinar cells and a rise in GZMK⁺CD8⁺ T cells",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Human minor salivary gland single-cell and spatial profiling",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "supporting",
+      "limitations": [
+        "Co-occurrence and spatial localisation do not establish that these cells kill this acinar population in vivo."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-08565140f68cca529caf",
+      "paperDigest": "e36f3a7f23a447ddbd794ae679dc9cab7499871f50352e358878400c5dd3296c"
+    },
+    {
+      "id": "sjd-cd8-gzmk",
+      "subject": "entity-sjd-gzmk-cd8",
+      "object": "entity-sjd-gzmk",
+      "predicate": "produces",
+      "text": "Glandular GZMK-positive CD8 T cells displayed a cytotoxic transcriptional program and degranulated on ex-vivo stimulation.",
+      "quote": "GZMK⁺CD8⁺ T cells, which accumulate with disease severity, displayed a cytotoxic transcriptional program, degranulated upon stimulation ex vivo",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Patient-derived glandular T cells with ex-vivo stimulation",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "GZMK-defined cell identity and degranulation do not prove that GZMK directly causes in-vivo acinar-cell loss."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-08565140f68cca529caf",
+      "paperDigest": "e36f3a7f23a447ddbd794ae679dc9cab7499871f50352e358878400c5dd3296c"
+    },
+    {
+      "id": "sjd-gzmk-ifn",
+      "subject": "entity-sjd-gzmk",
+      "object": "entity-ifn",
+      "predicate": "activates",
+      "text": "Functional assays found that GZMK activates epithelial interferon signalling in vitro.",
+      "quote": "Functional assays demonstrated that GZMK activates interferon signaling in vitro",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Human primary epithelial cells and autologous T-cell co-cultures",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "category": "supporting",
+      "limitations": [
+        "Abstract-level in-vitro evidence; does not prove systemic interferon production or clinical causality."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-08565140f68cca529caf",
+      "paperDigest": "e36f3a7f23a447ddbd794ae679dc9cab7499871f50352e358878400c5dd3296c"
+    },
+    {
+      "id": "sjd-acinar-epithelium",
+      "subject": "entity-sjd-acinar-loss",
+      "object": "entity-sjd-epithelium",
+      "predicate": "is_associated_with",
+      "text": "Selective seromucous acinar-cell loss was part of epithelial remodeling observed in human Sjögren glands.",
+      "quote": "selective loss of PRR4⁺CST3⁺WFDC2⁻ seromucous acinar cells",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Human salivary gland single-cell / spatial study",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "supporting",
+      "limitations": [
+        "Anatomical association; secretory consequences were not quantified by this atomic finding."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-08565140f68cca529caf",
+      "paperDigest": "e36f3a7f23a447ddbd794ae679dc9cab7499871f50352e358878400c5dd3296c"
+    },
+    {
+      "id": "sjd-epithelium-aqp5",
+      "subject": "entity-sjd-epithelium",
+      "object": "entity-sjd-aqp5",
+      "predicate": "is_associated_with",
+      "text": "One small primary Sjögren biopsy study reported AQP5 redistribution from apical toward basal acinar membranes.",
+      "quote": "biopsies from SS patients revealed AQP5 primarily at the basal membranes of the acinus",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Minor salivary biopsies: ten women with primary Sjögren and ten healthy volunteers, with other sicca comparators",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "supporting",
+      "limitations": [
+        "Small immunohistochemistry study; a separate primary study did not reproduce altered distribution."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-f622cbdbc263f56a2d61",
+      "paperDigest": "f4ad58ae62fc4e89b8db3b9e26507a3205e21cb92feeddf5d0eaae6d672e97bc"
+    },
+    {
+      "id": "sjd-epithelium-aqp5-null",
+      "subject": "entity-sjd-epithelium",
+      "object": "entity-sjd-aqp5",
+      "predicate": "is_associated_with",
+      "text": "A separate primary Sjögren study found no difference in AQP5 distribution or density relative to controls.",
+      "quote": "the distribution and density of aquaporin 5 in salivary glands does not differ between patients with PSS and those without",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Human primary Sjögren salivary-gland immunofluorescence and immunoperoxidase study",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "contradicting",
+      "limitations": [
+        "Conflicting human tissue findings; AQP5 mislocalisation is not a settled universal mechanism."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-5399eaa5986b286a1386",
+      "paperDigest": "5cfade095cc2db4255e3dc41dca1957a1badc49902b4767274e7ca3ec6940058"
+    },
+    {
+      "id": "sjd-epithelium-saliva",
+      "subject": "entity-sjd-epithelium",
+      "object": "entity-sjd-saliva",
+      "predicate": "is_associated_with",
+      "text": "The inspected primary report notes that salivary gland dysfunction may occur without glandular destruction.",
+      "quote": "glandular dysfunction also occurs without destruction",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Human Sjögren salivary gland biopsy study; contextual clinical statement",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "supporting",
+      "limitations": [
+        "Abstract contextual statement, not a quantified within-cohort functional analysis; does not establish a causal acinar-loss pathway."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-f622cbdbc263f56a2d61",
+      "paperDigest": "f4ad58ae62fc4e89b8db3b9e26507a3205e21cb92feeddf5d0eaae6d672e97bc"
+    },
+    {
+      "id": "sjd-saliva-sicca",
+      "subject": "entity-sjd-saliva",
+      "object": "entity-sjd-sicca",
+      "predicate": "is_associated_with",
+      "text": "The primary Sjögren trial describes dry eyes and mouth as clinical manifestations of the disease being studied.",
+      "quote": "Sjögren's syndrome is an autoimmune disease characterised by dry eyes and mouth",
+      "quoteLocation": "Primary-report abstract via Europe PMC core record",
+      "studySystem": "Primary Sjögren phase 2b trial; clinical background statement",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "category": "supporting",
+      "limitations": [
+        "Descriptive clinical linkage, not an experimental test of salivary-to-lacrimal causation. Dry-eye mechanisms are an explicit curation gap."
+      ],
+      "sourceCheck": {
+        "checkedBy": "Codex agent source inspection (not human or independent review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-sjd-consolidated",
+      "paperKey": "doi-749a861e936d2ec3a407",
+      "paperDigest": "1d45111d4cbc766a5e080ec3721e6e1f95345eed93ee8f9c124d369596ac34c4"
+    }
+  ]
+}

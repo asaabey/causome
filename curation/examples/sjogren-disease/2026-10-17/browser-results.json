@@ -1,0 +1,24 @@
+[
+  {
+    "label": "desktop",
+    "nodes": 17,
+    "missing": [],
+    "cloudCount": 17,
+    "summaryMatches": true,
+    "packetOK": true,
+    "therapyVisible": true,
+    "noHorizontalOverflow": true,
+    "errors": []
+  },
+  {
+    "label": "mobile",
+    "nodes": 17,
+    "missing": [],
+    "cloudCount": 17,
+    "summaryMatches": true,
+    "packetOK": true,
+    "therapyVisible": true,
+    "noHorizontalOverflow": true,
+    "errors": []
+  }
+]

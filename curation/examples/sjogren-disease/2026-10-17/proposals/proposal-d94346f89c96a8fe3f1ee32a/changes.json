@@ -1,0 +1,1524 @@
+[
+  {
+    "collection": "release",
+    "id": "release-metadata",
+    "kind": "changed",
+    "fields": [
+      "id",
+      "revisionId",
+      "changeSetRevision",
+      "releaseNote",
+      "manifest"
+    ],
+    "before": {
+      "id": "sjogren-disease-candidate-20261017-001",
+      "revisionId": "sjogren-disease-candidate-20261017-001-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "sjogren-disease",
+      "title": "Sjögren disease",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Bounded primary Sjögren disease: epithelial activation, interferon, BAFF/B-cell activity, autoantibodies, ectopic lymphoid organisation and glandular dysfunction; excludes secondary disease, mimics and symptomatic therapy efficacy. Cross-study synthesis; incomplete lacrimal, genetic, stromal and extraglandular coverage. No universal causal loop is asserted.",
+      "diseaseAliases": [
+        "Sjögren's syndrome",
+        "Sjogren syndrome",
+        "Sjogren's syndrome",
+        "primary Sjögren syndrome",
+        "primary Sjogren syndrome",
+        "pSS",
+        "sicca syndrome"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-17T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-17",
+      "changeSetRevision": "seed-febd004e3f59",
+      "releaseNote": "Agent source-checked local candidate; abstract access dominates. Contradictory AQP5 evidence and BAFF null comparisons retained. Scientific domain review and calibration pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "53b1f23fe530c6006b237f675e80e8d8531de87198e47386e41dd6b027d8b1cd"
+      }
+    },
+    "after": {
+      "id": "sjogren-disease-therapy-candidate-20261017-001",
+      "revisionId": "sjogren-disease-therapy-candidate-20261017-001-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "sjogren-disease",
+      "title": "Sjögren disease",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Bounded primary Sjögren disease: epithelial activation, interferon, BAFF/B-cell activity, autoantibodies, ectopic lymphoid organisation and glandular dysfunction; excludes secondary disease, mimics and symptomatic therapy efficacy. Cross-study synthesis; incomplete lacrimal, genetic, stromal and extraglandular coverage. No universal causal loop is asserted.",
+      "diseaseAliases": [
+        "Sjögren's syndrome",
+        "Sjogren syndrome",
+        "Sjogren's syndrome",
+        "primary Sjögren syndrome",
+        "primary Sjogren syndrome",
+        "pSS",
+        "sicca syndrome"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-17T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-17",
+      "changeSetRevision": "sjd-therapy-20261017-001",
+      "releaseNote": "Selected investigational therapies and null rituximab trial; status checked from dated sponsor reports, with primary trial context restrictions. Domain review pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "5f7733b738b3f7cba08e12235193943c3b9f39d4edad147f0f26f997229e8138"
+      }
+    }
+  },
+  {
+    "collection": "entities",
+    "id": "entity-sjd-activity",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "label",
+      "entityClass",
+      "description",
+      "synonyms",
+      "externalIds",
+      "biologicalRoleClaimIds"
+    ],
+    "before": null,
+    "after": {
+      "id": "entity-sjd-activity",
+      "revisionId": "entity-sjd-activity-sjd-therapy-v1",
+      "status": "candidate",
+      "label": "Systemic disease activity",
+      "entityClass": "clinical_outcome",
+      "description": "ESSDAI measured in selected treatment trials; improvement is not equivalent to reversal of gland damage.",
+      "synonyms": [
+        "ESSDAI"
+      ],
+      "externalIds": [],
+      "biologicalRoleClaimIds": [
+        "claim-sjd-ianalumab-activity",
+        "claim-sjd-dazodalibep-activity"
+      ]
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-sjd-dazodalibep-activity",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-sjd-dazodalibep-activity",
+      "revisionId": "claim-sjd-dazodalibep-activity-sjd-therapy-v1",
+      "status": "candidate",
+      "text": "Dazodalibep phase 2 improved day-169 ESSDAI versus placebo in the systemic-activity population (-6.3 versus -4.1; P=0.0167).",
+      "subjectId": "therapy-sjd-dazodalibep",
+      "objectId": "entity-sjd-activity",
+      "predicate": "efficacy_on",
+      "contextId": "context-sjd-trials",
+      "evidenceItemIds": [
+        "evidence-sjd-dazodalibep-activity"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Mixed Sjögren population includes associated RA/SLE (21.6%); not a primary-only effect estimate."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-sjd-dazodalibep-symptoms",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-sjd-dazodalibep-symptoms",
+      "revisionId": "claim-sjd-dazodalibep-symptoms-sjd-therapy-v1",
+      "status": "candidate",
+      "text": "Dazodalibep phase 2 improved the composite ESSPRI in the high-symptom/limited-systemic population (-1.8 versus -0.5; P=0.0002).",
+      "subjectId": "therapy-sjd-dazodalibep",
+      "objectId": "entity-sjd-sicca",
+      "predicate": "efficacy_on",
+      "contextId": "context-sjd-trials",
+      "evidenceItemIds": [
+        "evidence-sjd-dazodalibep-symptoms"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Composite dryness/fatigue/pain index is not a stand-alone dry-eye or dry-mouth efficacy estimate; 10.1% associated RA/SLE."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-sjd-dazodalibep-target",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-sjd-dazodalibep-target",
+      "revisionId": "claim-sjd-dazodalibep-target-sjd-therapy-v1",
+      "status": "candidate",
+      "text": "Dazodalibep antagonizes CD40 ligand and blocks costimulatory signals between T cells, B cells and antigen-presenting cells.",
+      "subjectId": "therapy-sjd-dazodalibep",
+      "objectId": "entity-b_cells",
+      "predicate": "inhibits",
+      "contextId": "context-sjd-trials",
+      "evidenceItemIds": [
+        "evidence-sjd-dazodalibep-target"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Primary trial mechanism description; the mapped B cell is an indirect cellular target, not the direct molecular target."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-sjd-ianalumab-activity",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-sjd-ianalumab-activity",
+      "revisionId": "claim-sjd-ianalumab-activity-sjd-therapy-v1",
+      "status": "candidate",
+      "text": "Ianalumab phase 2b met its model-based dose-response objective for ESSDAI at week 24.",
+      "subjectId": "therapy-sjd-ianalumab",
+      "objectId": "entity-sjd-activity",
+      "predicate": "efficacy_on",
+      "contextId": "context-sjd-trials",
+      "evidenceItemIds": [
+        "evidence-sjd-ianalumab-activity"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "190 randomized; model-based dose response does not establish significance of the individual 300 mg comparison."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-sjd-ianalumab-comparison",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-sjd-ianalumab-comparison",
+      "revisionId": "claim-sjd-ianalumab-comparison-sjd-therapy-v1",
+      "status": "candidate",
+      "text": "The 300 mg placebo-adjusted ESSDAI estimate was -1.92 points (95% CI -4.15 to 0.32; P=0.092), qualifying a simple efficacy claim.",
+      "subjectId": "therapy-sjd-ianalumab",
+      "objectId": "entity-sjd-activity",
+      "predicate": "efficacy_on",
+      "contextId": "context-sjd-trials",
+      "evidenceItemIds": [
+        "evidence-sjd-ianalumab-comparison"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Not statistically significant individual dose comparison; no universal symptom or salivary recovery claim."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-sjd-ianalumab-target",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-sjd-ianalumab-target",
+      "revisionId": "claim-sjd-ianalumab-target-sjd-therapy-v1",
+      "status": "candidate",
+      "text": "Ianalumab is designed to deplete B cells and inhibit their activation and survival by blocking BAFF-R.",
+      "subjectId": "therapy-sjd-ianalumab",
+      "objectId": "entity-b_cells",
+      "predicate": "inhibits",
+      "contextId": "context-sjd-trials",
+      "evidenceItemIds": [
+        "evidence-sjd-ianalumab-target"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Sponsor mechanism statement; target engagement is distinct from demonstrated clinical benefit."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-sjd-rituximab-null",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-sjd-rituximab-null",
+      "revisionId": "claim-sjd-rituximab-null-sjd-therapy-v1",
+      "status": "candidate",
+      "text": "TRACTISS did not show a significant advantage of rituximab for its 48-week fatigue/oral-dryness primary endpoint (39.8% versus 36.8%; adjusted OR 1.13, 95% CI 0.50–2.55).",
+      "subjectId": "therapy-sjd-rituximab",
+      "objectId": "entity-sjd-sicca",
+      "predicate": "efficacy_on",
+      "contextId": "context-sjd-trials",
+      "evidenceItemIds": [
+        "evidence-sjd-rituximab-null"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Anti-Ro-positive symptomatic primary Sjögren population; does not rule out effects in every organ or subgroup."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-sjd-rituximab-saliva",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-sjd-rituximab-saliva",
+      "revisionId": "claim-sjd-rituximab-saliva-sjd-therapy-v1",
+      "status": "candidate",
+      "text": "TRACTISS reported a significant improvement in unstimulated salivary flow despite its negative primary symptom result.",
+      "subjectId": "therapy-sjd-rituximab",
+      "objectId": "entity-sjd-saliva",
+      "predicate": "efficacy_on",
+      "contextId": "context-sjd-trials",
+      "evidenceItemIds": [
+        "evidence-sjd-rituximab-saliva"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Secondary outcome; cannot substitute for the negative primary endpoint or establish global clinical efficacy."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-sjd-dazodalibep-activity",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-sjd-dazodalibep-activity",
+      "revisionId": "evidence-sjd-dazodalibep-activity-sjd-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-60a7f7ce001bba0810d7",
+      "summary": "Dazodalibep phase 2 improved day-169 ESSDAI versus placebo in the systemic-activity population (-6.3 versus -4.1; P=0.0167).",
+      "location": "Primary trial abstract; sponsor status claims use dated official webpage",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Phase 2 Sjögren trial: 74 systemic-activity and 109 symptom-burden participants; 21.6% and 10.1% respectively had associated RA/SLE",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-sjd-dazodalibep-symptoms",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-sjd-dazodalibep-symptoms",
+      "revisionId": "evidence-sjd-dazodalibep-symptoms-sjd-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-60a7f7ce001bba0810d7",
+      "summary": "Dazodalibep phase 2 improved the composite ESSPRI in the high-symptom/limited-systemic population (-1.8 versus -0.5; P=0.0002).",
+      "location": "Primary trial abstract; sponsor status claims use dated official webpage",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Phase 2 Sjögren trial: 74 systemic-activity and 109 symptom-burden participants; 21.6% and 10.1% respectively had associated RA/SLE",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-sjd-dazodalibep-target",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-sjd-dazodalibep-target",
+      "revisionId": "evidence-sjd-dazodalibep-target-sjd-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-60a7f7ce001bba0810d7",
+      "summary": "Dazodalibep antagonizes CD40 ligand and blocks costimulatory signals between T cells, B cells and antigen-presenting cells.",
+      "location": "Primary trial abstract; sponsor status claims use dated official webpage",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Phase 2 Sjögren trial: 74 systemic-activity and 109 symptom-burden participants; 21.6% and 10.1% respectively had associated RA/SLE",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-sjd-ianalumab-activity",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-sjd-ianalumab-activity",
+      "revisionId": "evidence-sjd-ianalumab-activity-sjd-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-749a861e936d2ec3a407",
+      "summary": "Ianalumab phase 2b met its model-based dose-response objective for ESSDAI at week 24.",
+      "location": "Primary trial abstract; sponsor status claims use dated official webpage",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Phase 2b primary Sjögren trial, 190 randomized patients; sponsor development update separate",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-sjd-ianalumab-comparison",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-sjd-ianalumab-comparison",
+      "revisionId": "evidence-sjd-ianalumab-comparison-sjd-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-749a861e936d2ec3a407",
+      "summary": "The 300 mg placebo-adjusted ESSDAI estimate was -1.92 points (95% CI -4.15 to 0.32; P=0.092), qualifying a simple efficacy claim.",
+      "location": "Primary trial abstract; sponsor status claims use dated official webpage",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Phase 2b primary Sjögren trial, 190 randomized patients; sponsor development update separate",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-sjd-ianalumab-target",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-sjd-ianalumab-target",
+      "revisionId": "evidence-sjd-ianalumab-target-sjd-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-sjd-status-ianalumab",
+      "summary": "Ianalumab is designed to deplete B cells and inhibit their activation and survival by blocking BAFF-R.",
+      "location": "Primary trial abstract; sponsor status claims use dated official webpage",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Phase 2b primary Sjögren trial, 190 randomized patients; sponsor development update separate",
+      "evidenceType": "human_observational"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-sjd-rituximab-null",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-sjd-rituximab-null",
+      "revisionId": "evidence-sjd-rituximab-null-sjd-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-b732b2a20a4e343ff1ab",
+      "summary": "TRACTISS did not show a significant advantage of rituximab for its 48-week fatigue/oral-dryness primary endpoint (39.8% versus 36.8%; adjusted OR 1.13, 95% CI 0.50–2.55).",
+      "location": "Primary trial abstract; sponsor status claims use dated official webpage",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "TRACTISS: 133 anti-Ro-positive primary Sjögren patients, 48-week endpoint",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-sjd-rituximab-saliva",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-sjd-rituximab-saliva",
+      "revisionId": "evidence-sjd-rituximab-saliva-sjd-therapy-v1",
+      "status": "candidate",
+      "sourceId": "source-doi-b732b2a20a4e343ff1ab",
+      "summary": "TRACTISS reported a significant improvement in unstimulated salivary flow despite its negative primary symptom result.",
+      "location": "Primary trial abstract; sponsor status claims use dated official webpage",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "TRACTISS: 133 anti-Ro-positive primary Sjögren patients, 48-week endpoint",
+      "evidenceType": "randomized_trial"
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-60a7f7ce001bba0810d7",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-doi-60a7f7ce001bba0810d7",
+      "revisionId": "source-doi-60a7f7ce001bba0810d7-sjd-therapy-v1",
+      "status": "candidate",
+      "title": "CD40 ligand antagonist dazodalibep in Sjögren's disease: a randomized, double-blinded, placebo-controlled, phase 2 trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38839899/",
+      "kind": "trial",
+      "studyId": "PMID:38839899",
+      "citation": "St Clair EW, Baer AN, Ng WF, Noaiseh G, Baldini C, Tarrant TK, Papas A, Devauchelle-Pensec V, Wang L, Xu W, Pham TH, Sikora K, Rees WA, Alevizos I.. CD40 ligand antagonist dazodalibep in Sjögren's disease: a randomized, double-blinded, placebo-controlled, phase 2 trial.. Nature medicine. 2024-06-05",
+      "accessScope": "Primary-report abstract and notice metadata inspected by Codex agent 2026-10-17; no independent review",
+      "identifiers": [
+        "DOI:10.1038/s41591-024-03009-3",
+        "MED:38839899",
+        "PMCID:PMC11186761",
+        "PMID:38839899"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-749a861e936d2ec3a407",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "kind",
+      "accessScope"
+    ],
+    "before": {
+      "id": "source-doi-749a861e936d2ec3a407",
+      "revisionId": "source-doi-749a861e936d2ec3a407-febd004e3f59",
+      "status": "candidate",
+      "title": "Safety and efficacy of subcutaneous ianalumab (VAY736) in patients with primary Sjögren's syndrome: a randomised, double-blind, placebo-controlled, phase 2b dose-finding trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34861168/",
+      "kind": "publication",
+      "studyId": "PMID:34861168",
+      "citation": "Bowman SJ, Fox R, Dörner T, Mariette X, Papas A, Grader-Beck T, Fisher BA, Barcelos F, De Vita S, Schulze-Koops H, Moots RJ, Junge G, Woznicki JN, Sopala MA, Luo WL, Hueber W.. Safety and efficacy of subcutaneous ianalumab (VAY736) in patients with primary Sjögren's syndrome: a randomised, double-blind, placebo-controlled, phase 2b dose-finding trial.. Lancet (London, England). 2021-11-30",
+      "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+      "identifiers": [
+        "DOI:10.1016/s0140-6736(21)02251-0",
+        "MED:34861168",
+        "PMID:34861168"
+      ],
+      "flags": []
+    },
+    "after": {
+      "id": "source-doi-749a861e936d2ec3a407",
+      "revisionId": "source-doi-749a861e936d2ec3a407-sjd-therapy-v1",
+      "status": "candidate",
+      "title": "Safety and efficacy of subcutaneous ianalumab (VAY736) in patients with primary Sjögren's syndrome: a randomised, double-blind, placebo-controlled, phase 2b dose-finding trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34861168/",
+      "kind": "trial",
+      "studyId": "PMID:34861168",
+      "citation": "Bowman SJ, Fox R, Dörner T, Mariette X, Papas A, Grader-Beck T, Fisher BA, Barcelos F, De Vita S, Schulze-Koops H, Moots RJ, Junge G, Woznicki JN, Sopala MA, Luo WL, Hueber W.. Safety and efficacy of subcutaneous ianalumab (VAY736) in patients with primary Sjögren's syndrome: a randomised, double-blind, placebo-controlled, phase 2b dose-finding trial.. Lancet (London, England). 2021-11-30",
+      "accessScope": "Primary-report abstract and notice metadata inspected by Codex agent 2026-10-17; no independent review",
+      "identifiers": [
+        "DOI:10.1016/s0140-6736(21)02251-0",
+        "MED:34861168",
+        "PMID:34861168"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-b732b2a20a4e343ff1ab",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-doi-b732b2a20a4e343ff1ab",
+      "revisionId": "source-doi-b732b2a20a4e343ff1ab-sjd-therapy-v1",
+      "status": "candidate",
+      "title": "Randomized Controlled Trial of Rituximab and Cost-Effectiveness Analysis in Treating Fatigue and Oral Dryness in Primary Sjögren's Syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28296257/",
+      "kind": "trial",
+      "studyId": "PMID:28296257",
+      "citation": "Bowman SJ, Everett CC, O'Dwyer JL, Emery P, Pitzalis C, Ng WF, Pease CT, Price EJ, Sutcliffe N, Gendi NST, Hall FC, Ruddock SP, Fernandez C, Reynolds C, Hulme CT, Davies KA, Edwards CJ, Lanyon PC, Moots RJ, Roussou E, Giles IP, Sharples LD, Bombardieri M.. Randomized Controlled Trial of Rituximab and Cost-Effectiveness Analysis in Treating Fatigue and Oral Dryness in Primary Sjögren's Syndrome.. Arthritis & rheumatology (Hoboken, N.J.). 2017-06-05",
+      "accessScope": "Primary-report abstract and notice metadata inspected by Codex agent 2026-10-17; no independent review",
+      "identifiers": [
+        "DOI:10.1002/art.40093",
+        "MED:28296257",
+        "PMID:28296257"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-sjd-status-dazodalibep",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-sjd-status-dazodalibep",
+      "revisionId": "source-sjd-status-dazodalibep-sjd-therapy-v1",
+      "status": "candidate",
+      "title": "Amgen dazodalibep OASIZ 301 topline report, 22 September 2026",
+      "url": "https://www.amgen.com/newsroom/press-releases/2026/09/amgen-announces-positive-topline-phase-3-results-for-dazodalibep-in-moderatetosevere-systemic-sjgrens-disease",
+      "kind": "trial",
+      "studyId": "OASIZ 301 sponsor update",
+      "citation": "Sponsor trial-development report; accessed 2026-10-17",
+      "accessScope": "Dated sponsor webpage inspected; not an FDA approval record or peer-reviewed phase III report",
+      "identifiers": [],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-sjd-status-ianalumab",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-sjd-status-ianalumab",
+      "revisionId": "source-sjd-status-ianalumab-sjd-therapy-v1",
+      "status": "candidate",
+      "title": "Novartis ianalumab FDA Breakthrough designation, 16 January 2026",
+      "url": "https://www.novartis.com/us-en/news/media-releases/novartis-ianalumab-receives-fda-breakthrough-therapy-designation-sjogrens-disease",
+      "kind": "trial",
+      "studyId": "NEPTUNUS-1/2 sponsor update",
+      "citation": "Sponsor trial-development report; accessed 2026-10-17",
+      "accessScope": "Dated sponsor webpage inspected; not an FDA approval record or peer-reviewed phase III report",
+      "identifiers": [],
+      "flags": []
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-sjd-dazodalibep",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-sjd-dazodalibep",
+      "revisionId": "therapy-sjd-dazodalibep-sjd-therapy-v1",
+      "status": "candidate",
+      "name": "Dazodalibep",
+      "modality": "CD40L antagonist fusion protein",
+      "directTargetIds": [],
+      "indirectTargetIds": [
+        "entity-b_cells"
+      ],
+      "mechanismOfAction": "CD40L antagonism blocks T–B and antigen-presenting-cell costimulation; B cells are indirect targets.",
+      "indicationContextId": "context-sjd-trials",
+      "developmentStatus": "experimental",
+      "trialSourceIds": [
+        "source-doi-60a7f7ce001bba0810d7"
+      ],
+      "supportingClaimIds": [
+        "claim-sjd-dazodalibep-activity",
+        "claim-sjd-dazodalibep-symptoms",
+        "claim-sjd-dazodalibep-target"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "Systemic-activity or high-symptom Sjögren populations; phase 2 includes associated RA/SLE.",
+      "jurisdiction": "United States; experimental Sjögren indication, no approved indication asserted",
+      "trialPhase": "Phase III OASIZ 301 positive sponsor topline report September 2026; detailed phase III data not inspected",
+      "verificationSourceIds": [
+        "source-sjd-status-dazodalibep"
+      ],
+      "limitations": [
+        "Phase III sponsor announcement is not a peer-reviewed complete report; no numerical phase III efficacy estimate added."
+      ]
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-sjd-ianalumab",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-sjd-ianalumab",
+      "revisionId": "therapy-sjd-ianalumab-sjd-therapy-v1",
+      "status": "candidate",
+      "name": "Ianalumab",
+      "modality": "Monoclonal antibody",
+      "directTargetIds": [],
+      "indirectTargetIds": [
+        "entity-b_cells"
+      ],
+      "mechanismOfAction": "BAFF-R blockade and B-cell depletion; the direct molecular receptor is not a separate node in this map.",
+      "indicationContextId": "context-sjd-trials",
+      "developmentStatus": "experimental",
+      "trialSourceIds": [
+        "source-doi-749a861e936d2ec3a407"
+      ],
+      "supportingClaimIds": [
+        "claim-sjd-ianalumab-activity",
+        "claim-sjd-ianalumab-target"
+      ],
+      "qualifyingClaimIds": [
+        "claim-sjd-ianalumab-comparison"
+      ],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "Active primary Sjögren disease meeting trial thresholds; FDA Breakthrough designation is not approval.",
+      "jurisdiction": "United States; experimental Sjögren indication, no approved indication asserted",
+      "trialPhase": "Phase III development; efficacy claims here bind the peer-reviewed phase 2b trial",
+      "verificationSourceIds": [
+        "source-sjd-status-ianalumab"
+      ],
+      "limitations": [
+        "January 2026 sponsor report confirms development and designation; September 2026 Amgen report remains consistent with no approved disease-modifying therapy. No jurisdiction-wide regulatory database audit."
+      ]
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-sjd-rituximab",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-sjd-rituximab",
+      "revisionId": "therapy-sjd-rituximab-sjd-therapy-v1",
+      "status": "candidate",
+      "name": "Rituximab",
+      "modality": "Monoclonal antibody",
+      "directTargetIds": [],
+      "indirectTargetIds": [
+        "entity-b_cells"
+      ],
+      "mechanismOfAction": "Anti-B-cell therapy; TRACTISS efficacy evidence is restricted to its enrolled population.",
+      "indicationContextId": "context-sjd-trials",
+      "developmentStatus": "experimental",
+      "trialSourceIds": [
+        "source-doi-b732b2a20a4e343ff1ab"
+      ],
+      "supportingClaimIds": [
+        "claim-sjd-rituximab-saliva"
+      ],
+      "qualifyingClaimIds": [
+        "claim-sjd-rituximab-null"
+      ],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "Experimental Sjögren indication; no efficacy recommendation or approved Sjögren indication asserted.",
+      "jurisdiction": "United States; experimental Sjögren indication, no approved indication asserted",
+      "trialPhase": "Completed randomized TRACTISS trial; primary endpoint negative",
+      "verificationSourceIds": [
+        "source-sjd-status-dazodalibep"
+      ],
+      "limitations": [
+        "Supporting secondary salivary-flow finding is qualified by negative primary symptoms; not a treatment recommendation."
+      ]
+    }
+  },
+  {
+    "collection": "contexts",
+    "id": "context-sjd-trials",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "diseaseId",
+      "label",
+      "organism",
+      "tissue",
+      "phenotype",
+      "stage"
+    ],
+    "before": null,
+    "after": {
+      "id": "context-sjd-trials",
+      "revisionId": "context-sjd-trials-sjd-therapy-v1",
+      "status": "candidate",
+      "diseaseId": "sjogren-disease",
+      "label": "Selected Sjögren trials; primary-only populations versus mixed connective-tissue disease populations remain explicit",
+      "organism": "Human",
+      "tissue": "Systemic clinical outcomes and salivary function",
+      "phenotype": "Trial-specific primary Sjögren populations; dazodalibep includes associated RA/SLE",
+      "stage": "Active disease meeting each trial eligibility criterion"
+    }
+  },
+  {
+    "collection": "assessments",
+    "id": "assessment-sjd-activity",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "subjectId",
+      "contextId",
+      "scoringModelId",
+      "metricStatus",
+      "mechanisticWeight",
+      "evidenceConfidence",
+      "therapeuticLeverage",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "rationale",
+      "reviewerDecision",
+      "reviewedAt"
+    ],
+    "before": null,
+    "after": {
+      "id": "assessment-sjd-activity",
+      "revisionId": "assessment-sjd-activity-sjd-therapy-v1",
+      "status": "candidate",
+      "subjectId": "entity-sjd-activity",
+      "contextId": "context-sjd-consolidated",
+      "scoringModelId": "scoring-sjogren-disease-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-sjd-ianalumab-activity",
+        "claim-sjd-dazodalibep-activity"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    }
+  },
+  {
+    "collection": "mapViews",
+    "id": "view-sjogren-disease-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "entityIds",
+      "assessmentIds"
+    ],
+    "before": {
+      "id": "view-sjogren-disease-overview",
+      "revisionId": "view-sjogren-disease-overview-febd004e3f59",
+      "status": "candidate",
+      "label": "Consolidated glandular mechanism overview",
+      "contextId": "context-sjd-consolidated",
+      "entityIds": [
+        "entity-pdc",
+        "entity-ifn",
+        "entity-ifng",
+        "entity-sjd-epithelium",
+        "entity-baff",
+        "entity-b_cells",
+        "entity-sjd-gc",
+        "entity-sjd-ssa",
+        "entity-debris",
+        "entity-complexes",
+        "entity-sjd-gzmk-cd8",
+        "entity-sjd-gzmk",
+        "entity-sjd-acinar-loss",
+        "entity-sjd-aqp5",
+        "entity-sjd-saliva",
+        "entity-sjd-sicca"
+      ],
+      "relationshipIds": [
+        "relationship-bbcf256095082e1acfa6",
+        "relationship-6e502f1bbf144ed63b23",
+        "relationship-981d0a633380230581b1",
+        "relationship-21eb5580e4a9bb0fe851",
+        "relationship-9f763e97269762d011a9",
+        "relationship-0ee53b7c7bb4dc794360",
+        "relationship-254700b2e50cd10288f2",
+        "relationship-1d7d65857919488dd7bf",
+        "relationship-08f26c3a2b527d444503",
+        "relationship-a0218a77b9f2cdf6fbc5",
+        "relationship-888ab4fcc8d08f04a694",
+        "relationship-dce76b16a29142ddc599",
+        "relationship-99d813e6353e21937501",
+        "relationship-17befbb996e2dfaffe61",
+        "relationship-b70fcd6290f2711e0989",
+        "relationship-a552a62e0f18b2dd3c80",
+        "relationship-4d6007b52b05d46b4b15",
+        "relationship-18dc4b5a1bf8c1a6544a",
+        "relationship-ee5d0c55120b363e781e",
+        "relationship-d03ec9a45a5b4b4636fc",
+        "relationship-813dfe7384a15270efea",
+        "relationship-8b552afa6d720aec1521"
+      ],
+      "assessmentIds": [
+        "assessment-68104947e6813013ff3c",
+        "assessment-574a7b29779919da954f",
+        "assessment-14a0ba8bf72f94064888",
+        "assessment-a9a5fb53b48f329eb7f5",
+        "assessment-ebdef9b4fa0569680fb7",
+        "assessment-2913f5cdec8a897865ec",
+        "assessment-5bbd9894921bbe9bdacc",
+        "assessment-8f8c18c1134e1b47899c",
+        "assessment-912dbe2467338847b2d7",
+        "assessment-a6d83628c7dc0fb6bc59",
+        "assessment-dd60a20f57a1a8c49d2e",
+        "assessment-128e214bded464862b71",
+        "assessment-790b83dece9919fe4427",
+        "assessment-9981dd41f096a19485d1",
+        "assessment-63bbcea054bb9fea4c75",
+        "assessment-61b41a0eb0c012b10ebc",
+        "assessment-4af15a5ebc5b6d403ba4",
+        "assessment-c965cd8fc954b49bbe78",
+        "assessment-44b95094754fd44e76cd",
+        "assessment-504511848baf49140034",
+        "assessment-0e598d21902b0eb024ea",
+        "assessment-31138ce307679f034682",
+        "assessment-4f92deefafa3503c11fd",
+        "assessment-4d02c0be453bfb91a2bd",
+        "assessment-dead617c374aed3b0837",
+        "assessment-f3265392dc852865af29",
+        "assessment-3c56708fdfce49111efb",
+        "assessment-aa1ccde4d985a1c3bb32",
+        "assessment-23cce348265b94644229",
+        "assessment-640bb23d96e0ef65717b",
+        "assessment-b7f7381aa8a1b5d55b66",
+        "assessment-7afadfd913e2803dd1d2",
+        "assessment-a9be782eec818b7a749b",
+        "assessment-9fd9d33e7c813a1d0d1f",
+        "assessment-782260e295a45f6467f9",
+        "assessment-c4b437b69c4daad4f303",
+        "assessment-4783397f93919aae6090",
+        "assessment-4f5bb929417994493fc2"
+      ],
+      "layoutId": "layout-sjogren-disease-overview"
+    },
+    "after": {
+      "id": "view-sjogren-disease-overview",
+      "revisionId": "view-sjogren-disease-overview-febd004e3f59-therapy-v1",
+      "status": "candidate",
+      "label": "Consolidated glandular mechanism overview",
+      "contextId": "context-sjd-consolidated",
+      "entityIds": [
+        "entity-pdc",
+        "entity-ifn",
+        "entity-ifng",
+        "entity-sjd-epithelium",
+        "entity-baff",
+        "entity-b_cells",
+        "entity-sjd-gc",
+        "entity-sjd-ssa",
+        "entity-debris",
+        "entity-complexes",
+        "entity-sjd-gzmk-cd8",
+        "entity-sjd-gzmk",
+        "entity-sjd-acinar-loss",
+        "entity-sjd-aqp5",
+        "entity-sjd-saliva",
+        "entity-sjd-sicca",
+        "entity-sjd-activity"
+      ],
+      "relationshipIds": [
+        "relationship-bbcf256095082e1acfa6",
+        "relationship-6e502f1bbf144ed63b23",
+        "relationship-981d0a633380230581b1",
+        "relationship-21eb5580e4a9bb0fe851",
+        "relationship-9f763e97269762d011a9",
+        "relationship-0ee53b7c7bb4dc794360",
+        "relationship-254700b2e50cd10288f2",
+        "relationship-1d7d65857919488dd7bf",
+        "relationship-08f26c3a2b527d444503",
+        "relationship-a0218a77b9f2cdf6fbc5",
+        "relationship-888ab4fcc8d08f04a694",
+        "relationship-dce76b16a29142ddc599",
+        "relationship-99d813e6353e21937501",
+        "relationship-17befbb996e2dfaffe61",
+        "relationship-b70fcd6290f2711e0989",
+        "relationship-a552a62e0f18b2dd3c80",
+        "relationship-4d6007b52b05d46b4b15",
+        "relationship-18dc4b5a1bf8c1a6544a",
+        "relationship-ee5d0c55120b363e781e",
+        "relationship-d03ec9a45a5b4b4636fc",
+        "relationship-813dfe7384a15270efea",
+        "relationship-8b552afa6d720aec1521"
+      ],
+      "assessmentIds": [
+        "assessment-68104947e6813013ff3c",
+        "assessment-574a7b29779919da954f",
+        "assessment-14a0ba8bf72f94064888",
+        "assessment-a9a5fb53b48f329eb7f5",
+        "assessment-ebdef9b4fa0569680fb7",
+        "assessment-2913f5cdec8a897865ec",
+        "assessment-5bbd9894921bbe9bdacc",
+        "assessment-8f8c18c1134e1b47899c",
+        "assessment-912dbe2467338847b2d7",
+        "assessment-a6d83628c7dc0fb6bc59",
+        "assessment-dd60a20f57a1a8c49d2e",
+        "assessment-128e214bded464862b71",
+        "assessment-790b83dece9919fe4427",
+        "assessment-9981dd41f096a19485d1",
+        "assessment-63bbcea054bb9fea4c75",
+        "assessment-61b41a0eb0c012b10ebc",
+        "assessment-4af15a5ebc5b6d403ba4",
+        "assessment-c965cd8fc954b49bbe78",
+        "assessment-44b95094754fd44e76cd",
+        "assessment-504511848baf49140034",
+        "assessment-0e598d21902b0eb024ea",
+        "assessment-31138ce307679f034682",
+        "assessment-4f92deefafa3503c11fd",
+        "assessment-4d02c0be453bfb91a2bd",
+        "assessment-dead617c374aed3b0837",
+        "assessment-f3265392dc852865af29",
+        "assessment-3c56708fdfce49111efb",
+        "assessment-aa1ccde4d985a1c3bb32",
+        "assessment-23cce348265b94644229",
+        "assessment-640bb23d96e0ef65717b",
+        "assessment-b7f7381aa8a1b5d55b66",
+        "assessment-7afadfd913e2803dd1d2",
+        "assessment-a9be782eec818b7a749b",
+        "assessment-9fd9d33e7c813a1d0d1f",
+        "assessment-782260e295a45f6467f9",
+        "assessment-c4b437b69c4daad4f303",
+        "assessment-4783397f93919aae6090",
+        "assessment-4f5bb929417994493fc2",
+        "assessment-sjd-activity"
+      ],
+      "layoutId": "layout-sjogren-disease-overview"
+    }
+  },
+  {
+    "collection": "layouts",
+    "id": "layout-sjogren-disease-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "positions"
+    ],
+    "before": {
+      "id": "layout-sjogren-disease-overview",
+      "revisionId": "layout-sjogren-disease-overview-febd004e3f59",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-pdc",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-ifn",
+          "x": 350,
+          "y": 0
+        },
+        {
+          "entityId": "entity-ifng",
+          "x": 350,
+          "y": 230
+        },
+        {
+          "entityId": "entity-sjd-epithelium",
+          "x": 700,
+          "y": 0
+        },
+        {
+          "entityId": "entity-baff",
+          "x": 1050,
+          "y": 0
+        },
+        {
+          "entityId": "entity-b_cells",
+          "x": 1400,
+          "y": 0
+        },
+        {
+          "entityId": "entity-sjd-gc",
+          "x": 1400,
+          "y": 230
+        },
+        {
+          "entityId": "entity-sjd-ssa",
+          "x": 1050,
+          "y": 460
+        },
+        {
+          "entityId": "entity-debris",
+          "x": 0,
+          "y": 460
+        },
+        {
+          "entityId": "entity-complexes",
+          "x": 350,
+          "y": 460
+        },
+        {
+          "entityId": "entity-sjd-gzmk-cd8",
+          "x": 0,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-gzmk",
+          "x": 350,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-acinar-loss",
+          "x": 700,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-aqp5",
+          "x": 1050,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-saliva",
+          "x": 1400,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-sicca",
+          "x": 1750,
+          "y": 800
+        }
+      ]
+    },
+    "after": {
+      "id": "layout-sjogren-disease-overview",
+      "revisionId": "layout-sjogren-disease-overview-febd004e3f59-therapy-v1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-pdc",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-ifn",
+          "x": 350,
+          "y": 0
+        },
+        {
+          "entityId": "entity-ifng",
+          "x": 350,
+          "y": 230
+        },
+        {
+          "entityId": "entity-sjd-epithelium",
+          "x": 700,
+          "y": 0
+        },
+        {
+          "entityId": "entity-baff",
+          "x": 1050,
+          "y": 0
+        },
+        {
+          "entityId": "entity-b_cells",
+          "x": 1400,
+          "y": 0
+        },
+        {
+          "entityId": "entity-sjd-gc",
+          "x": 1400,
+          "y": 230
+        },
+        {
+          "entityId": "entity-sjd-ssa",
+          "x": 1050,
+          "y": 460
+        },
+        {
+          "entityId": "entity-debris",
+          "x": 0,
+          "y": 460
+        },
+        {
+          "entityId": "entity-complexes",
+          "x": 350,
+          "y": 460
+        },
+        {
+          "entityId": "entity-sjd-gzmk-cd8",
+          "x": 0,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-gzmk",
+          "x": 350,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-acinar-loss",
+          "x": 700,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-aqp5",
+          "x": 1050,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-saliva",
+          "x": 1400,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-sicca",
+          "x": 1750,
+          "y": 800
+        },
+        {
+          "entityId": "entity-sjd-activity",
+          "x": 1750,
+          "y": 230
+        }
+      ]
+    }
+  }
+]

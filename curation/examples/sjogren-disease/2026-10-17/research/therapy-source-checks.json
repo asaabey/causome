@@ -1,0 +1,98 @@
+{
+  "checkedAt": "2026-10-17",
+  "checkerKind": "agent",
+  "urls": {
+    "ianalumab": "https://www.novartis.com/us-en/news/media-releases/novartis-ianalumab-receives-fda-breakthrough-therapy-designation-sjogrens-disease",
+    "dazodalibep": "https://www.amgen.com/newsroom/press-releases/2026/09/amgen-announces-positive-topline-phase-3-results-for-dazodalibep-in-moderatetosevere-systemic-sjgrens-disease"
+  },
+  "receipts": [
+    {
+      "claimId": "claim-sjd-ianalumab-activity",
+      "sourceId": "source-doi-749a861e936d2ec3a407",
+      "quote": "Statistically significant dose-responses were seen for overall disease activity",
+      "location": "Abstract or dated sponsor page as specified",
+      "checkedBy": "Codex agent (not independent human)",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "190 randomized; model-based dose response does not establish significance of the individual 300 mg comparison."
+      ]
+    },
+    {
+      "claimId": "claim-sjd-ianalumab-comparison",
+      "sourceId": "source-doi-749a861e936d2ec3a407",
+      "quote": "p=0·092",
+      "location": "Abstract or dated sponsor page as specified",
+      "checkedBy": "Codex agent (not independent human)",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Not statistically significant individual dose comparison; no universal symptom or salivary recovery claim."
+      ]
+    },
+    {
+      "claimId": "claim-sjd-ianalumab-target",
+      "sourceId": "source-sjd-status-ianalumab",
+      "quote": "depletes B-cells and inhibits their activation and survival via BAFF-R blockade",
+      "location": "Abstract or dated sponsor page as specified",
+      "checkedBy": "Codex agent (not independent human)",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Sponsor mechanism statement; target engagement is distinct from demonstrated clinical benefit."
+      ]
+    },
+    {
+      "claimId": "claim-sjd-dazodalibep-activity",
+      "sourceId": "source-doi-60a7f7ce001bba0810d7",
+      "quote": "P = 0.0167",
+      "location": "Abstract or dated sponsor page as specified",
+      "checkedBy": "Codex agent (not independent human)",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Mixed Sjögren population includes associated RA/SLE (21.6%); not a primary-only effect estimate."
+      ]
+    },
+    {
+      "claimId": "claim-sjd-dazodalibep-symptoms",
+      "sourceId": "source-doi-60a7f7ce001bba0810d7",
+      "quote": "P = 0.0002",
+      "location": "Abstract or dated sponsor page as specified",
+      "checkedBy": "Codex agent (not independent human)",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Composite dryness/fatigue/pain index is not a stand-alone dry-eye or dry-mouth efficacy estimate; 10.1% associated RA/SLE."
+      ]
+    },
+    {
+      "claimId": "claim-sjd-dazodalibep-target",
+      "sourceId": "source-doi-60a7f7ce001bba0810d7",
+      "quote": "blocks costimulatory signals between T and B cells and antigen-presenting cells",
+      "location": "Abstract or dated sponsor page as specified",
+      "checkedBy": "Codex agent (not independent human)",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Primary trial mechanism description; the mapped B cell is an indirect cellular target, not the direct molecular target."
+      ]
+    },
+    {
+      "claimId": "claim-sjd-rituximab-null",
+      "sourceId": "source-doi-b732b2a20a4e343ff1ab",
+      "quote": "adjusted odds ratio 1.13",
+      "location": "Abstract or dated sponsor page as specified",
+      "checkedBy": "Codex agent (not independent human)",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Anti-Ro-positive symptomatic primary Sjögren population; does not rule out effects in every organ or subgroup."
+      ]
+    },
+    {
+      "claimId": "claim-sjd-rituximab-saliva",
+      "sourceId": "source-doi-b732b2a20a4e343ff1ab",
+      "quote": "except for unstimulated salivary flow",
+      "location": "Abstract or dated sponsor page as specified",
+      "checkedBy": "Codex agent (not independent human)",
+      "checkedAt": "2026-10-17",
+      "limitations": [
+        "Secondary outcome; cannot substitute for the negative primary endpoint or establish global clinical efficacy."
+      ]
+    }
+  ]
+}

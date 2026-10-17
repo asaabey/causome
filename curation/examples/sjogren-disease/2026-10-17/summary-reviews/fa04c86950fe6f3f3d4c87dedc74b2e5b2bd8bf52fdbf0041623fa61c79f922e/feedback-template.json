@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "sjogren-disease",
+  "candidateId": "sjogren-disease-summary-candidate-ce8daa265d37",
+  "contentDigest": "2f3559b6d6d8a8e161e171b8bf6858d2356d06d9ee7a509f64e0a708a1c6dab4",
+  "summaryRevisionId": "summary-ce8daa265d37",
+  "summaryDigest": "86ccc08f637d9ab646bf4fb8218c50a9fc74c3dcb4f407dfc985b18237b01a2d",
+  "packetDigest": "fa04c86950fe6f3f3d4c87dedc74b2e5b2bd8bf52fdbf0041623fa61c79f922e",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

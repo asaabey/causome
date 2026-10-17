@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-17",
+  "checkedBy": "Codex agent, not independent/human reviewer",
+  "access": "Primary abstracts and Europe PMC bibliographic/publication-type/correction metadata. PMC1526588 Methods and Results additionally inspected. PMC11186761 XML retrieved but not full-text scientifically screened; trial claims use its inspected abstract.",
+  "failedAccess": [
+    {
+      "pmcid": "PMC1413808",
+      "result": "Europe PMC fullTextXML HTTP 500; abstract fallback retained"
+    },
+    {
+      "pmcid": "PMC8714705",
+      "result": "Europe PMC fullTextXML HTTP 500; abstract fallback retained"
+    }
+  ],
+  "selectedPmids": [
+    "PMID:11232635",
+    "PMID:11741631",
+    "PMID:11781351",
+    "PMID:14613282",
+    "PMID:15818675",
+    "PMID:16477017",
+    "PMID:16507175",
+    "PMID:28296257",
+    "PMID:32506205",
+    "PMID:34780913",
+    "PMID:34861168",
+    "PMID:38839899",
+    "PMID:41162286"
+  ],
+  "selectedSourceFlags": {
+    "source-doi-f622cbdbc263f56a2d61": [],
+    "source-doi-5399eaa5986b286a1386": [],
+    "source-doi-b02dc5580d91f83be4e4": [],
+    "source-doi-4a8ed1594d63e8bdf61f": [],
+    "source-doi-03f72088d54196e0ca39": [],
+    "source-doi-0c4e66c1e8a7bfd33583": [],
+    "source-doi-2b2466c7015750551324": [],
+    "source-doi-28da7d725483461612f8": [],
+    "source-doi-5fa62efdb4cd72369d16": [],
+    "source-doi-749a861e936d2ec3a407": [],
+    "source-doi-08565140f68cca529caf": [],
+    "source-doi-60a7f7ce001bba0810d7": [],
+    "source-doi-b732b2a20a4e343ff1ab": [],
+    "source-sjd-status-ianalumab": [],
+    "source-sjd-status-dazodalibep": []
+  },
+  "limitations": [
+    "No selected record carried a notice flag in the inspected metadata; this is not an exhaustive publisher/Crossmark audit.",
+    "Scan flags on unprocessed papers remain unresolved and are preserved in the disposition ledger."
+  ],
+  "targetedQueries": [
+    "DOI:10.1186/ar1912",
+    "DOI:10.1073/pnas.0510837103",
+    "DOI:10.1007/s10238-020-00637-0",
+    "DOI:10.1002/art.40589",
+    "DOI:10.1002/art.40093",
+    "DOI:10.1016/j.ard.2025.08.014",
+    "DOI:10.1016/j.bbadis.2021.166302",
+    "TITLE:\"Cellular basis of ectopic germinal center formation\"",
+    "TITLE:\"Induction of interferon-alpha by immune complexes\"",
+    "TITLE:\"ianalumab\" AND FIRST_PDATE:[2022-01-01 TO 2026-10-17]",
+    "TITLE:\"dazodalibep\" AND FIRST_PDATE:[2023-01-01 TO 2026-10-17]",
+    "TITLE:\"nipocalimab\" AND TITLE:\"Sj\"",
+    "TITLE:\"telitacicept\" AND TITLE:\"Sj\"",
+    "EXT_ID:11232635",
+    "TITLE:\"Subcellular distribution of aquaporin 5\"",
+    "TITLE:\"BAFF\" AND TITLE:\"transgenic\" AND TITLE:\"Sj\"",
+    "TITLE:\"nipocalimab\" AND Sjogren",
+    "TITLE:\"telitacicept\" AND Sjogren",
+    "TITLE:\"ianalumab\" AND TITLE:\"randomised\" AND Sjogren",
+    "AUTH_LAST:Bave AND Sjogren AND interferon (no records)",
+    "DOI:10.1172/JCI14121",
+    "DOI:10.1002/art.20998"
+  ]
+}

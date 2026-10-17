@@ -1,0 +1,337 @@
+[
+  {
+    "key": "doi-f622cbdbc263f56a2d61",
+    "identifiers": [
+      "DOI:10.1038/labinvest.3780221",
+      "MED:11232635",
+      "PMID:11232635"
+    ],
+    "title": "Abnormal distribution of aquaporin-5 water channel protein in salivary glands from Sjögren's syndrome patients.",
+    "authors": "Steinfeld S, Cogan E, King LS, Agre P, Kiss R, Delporte C.",
+    "publishedAt": "2001-02-01",
+    "journal": "Laboratory investigation; a journal of technical methods and pathology",
+    "abstract": "Patients with Sjögren's syndrome (SS) suffer from deficient secretion of saliva due to an autoimmune destruction of salivary glands, however, glandular dysfunction also occurs without destruction. Based upon its abnormal distribution in SS salivary glands, a potential role for the water channel protein aquaporin-5 (AQP5) is proposed in the pathogenesis of SS. The immunohistochemical distribution of AQP5 was compared in minor salivary gland biopsies obtained from women after informed consent: primary SS (53.2 +/- 14 years old, n = 10), healthy volunteers (46.2 +/- 17 years old, n = 10), patients with sarcoidosis (37 and 48 years old), and patients with non-specific sialoadenitis (54 and 61 years old). Biopsies from normal subjects revealed AQP5 primarily at the apical membrane of the salivary gland acinus. In contrast, biopsies from SS patients revealed AQP5 primarily at the basal membranes of the acinus. The AQP5 distribution in biopsies from patients with other dry mouth disorders, such as non-specific sialoadenitis or sarcoidosis, was similar to biopsies from control subjects. Computer-assisted microscopy was performed to quantitatively evaluate AQP5 distribution in the immunoreactive acini of both SS and control subjects. Biopsies from SS patients had higher labeling indices (percentage of acinus area immunoreactive for AQP5) at the basal membrane when compared with biopsies from control subjects. In contrast, biopsies of SS patients exhibited lower labeling indices at the apical membrane when compared with biopsies from control subjects. To verify the specificity of the AQP5 antibody, Western blot analysis was performed on membranes from Xenopus oocytes injected with AQP5 cRNA or on membranes from minor salivary glands of control subjects and SS patients. In each case, the immunoblots had a 27 kd band, corresponding to the expected molecular weight of AQP5. Abnormal distribution of AQP5 in salivary gland acini is likely to contribute to the deficiency of fluid secretion, which is a defining feature of Sjögren's syndrome.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11232635/",
+    "doi": "10.1038/labinvest.3780221",
+    "pmid": "11232635",
+    "pmcid": null,
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-5399eaa5986b286a1386",
+    "identifiers": [
+      "DOI:10.1016/s0140-6736(01)06900-8",
+      "MED:11741631",
+      "PMID:11741631"
+    ],
+    "title": "Subcellular distribution of aquaporin 5 in salivary glands in primary Sjögren's syndrome.",
+    "authors": "Beroukas D, Hiscock J, Jonsson R, Waterman SA, Gordon TP.",
+    "publishedAt": "2001-12-01",
+    "journal": "Lancet (London, England)",
+    "abstract": "Secretions from salivary and lacrimal glands are reduced in patients with primary Sjögren's syndrome (PSS). Since aquaporin 5 is involved in transport of water and is present in salivary and lacrimal glands, this protein was thought to have a major role in the pathogenesis of PSS. We used indirect immunofluorescence and an immunoperoxidase technique to assess expression and subcellular localisation of aquaporin 5 in patients and controls. Our results suggest that the distribution and density of aquaporin 5 in salivary glands does not differ between patients with PSS and those without. Thus, the role of aquaporin 5 in the pathogenesis of PSS needs to be reassessed and alternative pathogenetic mechanisms investigated.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11741631/",
+    "doi": "10.1016/s0140-6736(01)06900-8",
+    "pmid": "11741631",
+    "pmcid": null,
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "12049892",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "12049894",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-b02dc5580d91f83be4e4",
+    "identifiers": [
+      "DOI:10.1172/jci14121",
+      "MED:11781351",
+      "PMCID:PMC150825",
+      "PMID:11781351"
+    ],
+    "title": "Association of BAFF/BLyS overexpression and altered B cell differentiation with Sjögren's syndrome.",
+    "authors": "Groom J, Kalled SL, Cutler AH, Olson C, Woodcock SA, Schneider P, Tschopp J, Cachero TG, Batten M, Wheway J, Mauri D, Cavill D, Gordon TP, Mackay CR, Mackay F.",
+    "publishedAt": "2002-01-01",
+    "journal": "The Journal of clinical investigation",
+    "abstract": "BAFF (BLyS, TALL-1, THANK, zTNF4) is a member of the TNF superfamily that specifically regulates B lymphocyte proliferation and survival. Mice transgenic (Tg) for BAFF develop an autoimmune condition similar to systemic lupus erythematosus. We now demonstrate that BAFF Tg mice, as they age, develop a secondary pathology reminiscent of Sjögren's syndrome (SS), which is manifested by severe sialadenitis, decreased saliva production, and destruction of submaxillary glands. In humans, SS also correlates with elevated levels of circulating BAFF, as well as a dramatic upregulation of BAFF expression in inflamed salivary glands. A likely explanation for disease in BAFF Tg mice is excessive survival signals to autoreactive B cells, possibly as they pass through a critical tolerance checkpoint while maturing in the spleen. The marginal zone (MZ) B cell compartment, one of the enlarged B cell subsets in the spleen of BAFF Tg mice, is a potential reservoir of autoreactive B cells. Interestingly, B cells with an MZ-like phenotype infiltrate the salivary glands of BAFF Tg mice, suggesting that cells of this compartment potentially participate in tissue damage in SS and possibly other autoimmune diseases. We conclude that altered B cell differentiation and tolerance induced by excess BAFF may be central to SS pathogenesis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11781351/",
+    "doi": "10.1172/jci14121",
+    "pmid": "11781351",
+    "pmcid": "PMC150825",
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "11781346",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-4a8ed1594d63e8bdf61f",
+    "identifiers": [
+      "DOI:10.1002/art.11311",
+      "MED:14613282",
+      "PMID:14613282"
+    ],
+    "title": "Cellular basis of ectopic germinal center formation and autoantibody production in the target organ of patients with Sjögren's syndrome.",
+    "authors": "Salomonsson S, Jonsson MV, Skarstein K, Brokstad KA, Hjelmström P, Wahren-Herlenius M, Jonsson R.",
+    "publishedAt": "2003-11-01",
+    "journal": "Arthritis and rheumatism",
+    "abstract": "Objective To investigate functional properties of the germinal center (GC)-like structures observed in salivary glands of patients with Sjögren's syndrome (SS) and to determine the frequency with which such structures develop. Methods Hematoxylin and eosin-stained sections from 165 minor salivary gland biopsy samples were screened for GC-like structures. Expression of markers for GCs (CD3, CD20, Ki-67, CD35, CD31), adhesion molecules (intercellular adhesion molecule 1, lymphocyte function-associated antigen 1, vascular cell adhesion molecule 1, very late activation antigen 4), chemokines (CXCL13, CCL21, CXCL12), and production of autoantibodies (anti-Ro/SSA and anti-La/SSB) was investigated by immunohistochemistry. Apoptosis was investigated by TUNEL staining. Results GC-like structures were observed in 28 of 165 patients (17%). When GCs were defined as T and B cell aggregates with proliferating cells with a network of follicular dendritic cells and activated endothelial cells, such microenvironments were found in all patients in whom structures with GC-like morphology were observed. The defined microenvironments were not found in patients without apparent GC-like structures. The GCs formed within the target tissue showed functional features with production of autoantibodies (anti-Ro/SSA and anti-La/SSB) and apoptotic events (by TUNEL staining), and the local production of anti-Ro/SSA and anti-La/SSB autoantibodies was significantly increased (P = 0.04) in patients with GC development. Conclusion Lymphoid neogenesis and functional ectopic GC formation take place in salivary glands of a subset of patients with SS. Our data suggest that the ectopic secondary lymphoid follicles contain all elements needed for driving the autoimmune response. Our findings underscore a key role for the target organ in recruitment of inflammatory cells and propagation of the disease process.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14613282/",
+    "doi": "10.1002/art.11311",
+    "pmid": "14613282",
+    "pmcid": null,
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-03f72088d54196e0ca39",
+    "identifiers": [
+      "DOI:10.1002/art.20998",
+      "MED:15818675",
+      "PMID:15818675"
+    ],
+    "title": "Activation of the type I interferon system in primary Sjögren's syndrome: a possible etiopathogenic mechanism.",
+    "authors": "Båve U, Nordmark G, Lövgren T, Rönnelid J, Cajander S, Eloranta ML, Alm GV, Rönnblom L.",
+    "publishedAt": "2005-04-01",
+    "journal": "Arthritis and rheumatism",
+    "abstract": "Objective The etiopathogenesis of primary Sjögren's syndrome (SS) is largely unknown. In other autoimmune diseases, type I interferon (IFN) may play a pivotal role by triggering and sustaining the disease process. We therefore aimed to determine whether patients with primary SS had an activated type I IFN system. Methods Salivary gland biopsy specimens and sera from patients with primary SS were investigated for the occurrence of IFNalpha-producing cells and measurable IFNalpha levels, respectively. The ability of primary SS sera together with apoptotic or necrotic cells to induce IFNalpha production in normal peripheral blood mononuclear cells was examined. The IFNalpha inducer was characterized, and IFNalpha-producing cells were identified. Clinical data were correlated with the IFNalpha-inducing capacity of primary SS sera. Results Numerous IFNalpha-producing cells were detected in salivary gland biopsy specimens, despite low serum IFNalpha levels. Autoantibodies to RNA-binding proteins, combined with material released by necrotic or late apoptotic cells, were potent inducers of IFNalpha production in plasmacytoid dendritic cells (PDCs). This appeared to be attributable to RNA-containing immune complexes triggering PDCs by means of RNA and interaction with Fcgamma receptor IIa. The IFNalpha-inducing capacity of sera was associated with positive results of a labial salivary gland biopsy (focus score >/=1) and with dermatologic, hematologic, and pulmonary manifestations. Conclusion Patients with primary SS have an activated type I IFN system. Although virus may initiate the production of IFN, the continued IFNalpha synthesis is caused by RNA-containing immune complexes that activate PDCs to prolong IFNalpha production at the tissue level. This IFNalpha promotes the autoimmune process by a vicious circle-like mechanism, with increased autoantibody production and formation of more endogenous IFNalpha inducers.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15818675/",
+    "doi": "10.1002/art.20998",
+    "pmid": "15818675",
+    "pmcid": null,
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-0c4e66c1e8a7bfd33583",
+    "identifiers": [
+      "DOI:10.1073/pnas.0510837103",
+      "MED:16477017",
+      "PMCID:PMC1413808",
+      "PMID:16477017"
+    ],
+    "title": "Activation of IFN pathways and plasmacytoid dendritic cell recruitment in target organs of primary Sjögren's syndrome.",
+    "authors": "Gottenberg JE, Cagnard N, Lucchesi C, Letourneur F, Mistou S, Lazure T, Jacques S, Ba N, Ittah M, Lepajolec C, Labetoulle M, Ardizzone M, Sibilia J, Fournier C, Chiocchia G, Mariette X.",
+    "publishedAt": "2006-02-13",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "abstract": "Gene expression analysis of target organs might help provide new insights into the pathogenesis of autoimmune diseases. We used global gene expression profiling of minor salivary glands to identify patterns of gene expression in patients with primary Sjögren's syndrome (pSS), a common and prototypic systemic autoimmune disease. Gene expression analysis allowed for differentiating most patients with pSS from controls. The expression of 23 genes in the IFN pathways, including two Toll-like receptors (TLR8 and TLR9), was significantly different between patients and controls. Furthermore, the increased expression of IFN-inducible genes, BAFF and IFN-induced transmembrane protein 1, was also demonstrated in ocular epithelial cells by quantitative RT-PCR. In vitro activation showed that these genes were effectively modulated by IFNs in salivary gland epithelial cells, the target cells of autoimmunity in pSS. The activation of IFN pathways led us to investigate whether plasmacytoid dendritic cells were recruited in salivary glands. These IFN-producing cells were detected by immunohistochemistry in all patients with pSS, whereas none was observed in controls. In conclusion, our results support the pathogenic interaction between the innate and adaptive immune system in pSS. The persistence of the IFN signature might be related to a vicious circle, in which the environment interacts with genetic factors to drive the stimulation of salivary TLRs.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16477017/",
+    "doi": "10.1073/pnas.0510837103",
+    "pmid": "16477017",
+    "pmcid": "PMC1413808",
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": null,
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-2b2466c7015750551324",
+    "identifiers": [
+      "DOI:10.1186/ar1912",
+      "MED:16507175",
+      "PMCID:PMC1526588",
+      "PMID:16507175"
+    ],
+    "title": "B cell-activating factor of the tumor necrosis factor family (BAFF) is expressed under stimulation by interferon in salivary gland epithelial cells in primary Sjögren's syndrome.",
+    "authors": "Ittah M, Miceli-Richard C, Eric Gottenberg J, Lavie F, Lazure T, Ba N, Sellam J, Lepajolec C, Mariette X.",
+    "publishedAt": "2006-02-28",
+    "journal": "Arthritis research & therapy",
+    "abstract": "B cell-activating factor (BAFF) has a key role in promoting B-lymphocyte activation and survival in primary Sjögren's syndrome (pSS). The cellular origin of BAFF overexpression in salivary glands of patients with pSS is not fully known. We investigated whether salivary gland epithelial cells (SGECs), the main targets of autoimmunity in pSS, could produce and express BAFF. We used quantitative RT-PCR, ELISA and immunocytochemistry in cultured SGECs from eight patients with pSS and eight controls on treatment with IL-10, tumor necrosis factor alpha (TNF-alpha), IFN-alpha and IFN-gamma. At baseline, BAFF expression in SGECs was low in pSS patients and in controls. Treatment with IFN-alpha, IFN-gamma and TNF-alpha + IFN-gamma increased the level of BAFF mRNA in pSS patients (the mean increases were 27-fold, 25-fold and 62-fold, respectively) and in controls (mean increases 19.1-fold, 26.7-fold and 17.7-fold, respectively), with no significant difference between patients and controls. However, in comparison with that at baseline, stimulation with IFN-alpha significantly increased the level of BAFF mRNA in SGECs of pSS patients (p = 0.03) but not in controls (p = 0.2), which suggests that SGECs of patients with pSS are particularly susceptible to expressing BAFF under IFN-alpha stimulation. Secretion of BAFF protein, undetectable at baseline, was significantly increased after IFN-alpha and IFN-gamma stimulation both in pSS patients (40.8 +/- 12.5 (+/- SEM) and 47.4 +/- 18.7 pg/ml, respectively) and controls (24.9 +/- 8.0 and 9.0 +/- 3.9 pg/ml, respectively), with no significant difference between pSS and controls. Immunocytochemistry confirmed the induction of cytoplasmic BAFF expression after stimulation with IFN-alpha and IFN-gamma. This study confirms the importance of resident cells of target organs in inducing or perpetuating autoimmunity. Demonstrating the capacity of SGECs to express and secrete BAFF after IFN stimulation adds further information to the pivotal role of these epithelial cells in the pathogenesis of pSS, possibly after stimulation by innate immunity. Our results suggest that an anti-BAFF therapeutic approach could be particularly interesting in pSS.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16507175/",
+    "doi": "10.1186/ar1912",
+    "pmid": "16507175",
+    "pmcid": "PMC1526588",
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review. Additionally inspected PMC1526588 full-text Methods and Results, especially epithelial identity and IFN/BAFF secretion controls.",
+    "openAccess": true,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-28da7d725483461612f8",
+    "identifiers": [
+      "DOI:10.1007/s10238-020-00637-0",
+      "MED:32506205",
+      "PMID:32506205"
+    ],
+    "title": "Expression of BAFF and BAFF receptors in primary Sjögren's syndrome patients with ectopic germinal center-like structures.",
+    "authors": "Carrillo-Ballesteros FJ, Palafox-Sánchez CA, Franco-Topete RA, Muñoz-Valle JF, Orozco-Barocio G, Martínez-Bonilla GE, Gómez-López CE, Marín-Rosales M, López-Villalobos EF, Luquin S, Castañeda-Chávez A, Oregon-Romero E.",
+    "publishedAt": "2020-06-06",
+    "journal": "Clinical and experimental medicine",
+    "abstract": "B cell-activating factor (BAFF) is an essential cytokine in primary Sjögren's syndrome (pSS) physiopathology. It has been reported that pSS patients develop germinal center-like (GC-like) structures in their minor salivary glands (MSGs). BAFF, BAFF-R, TACI, and BCMA expression was analyzed in MSGs from 29 subjects (nonspecific chronic sialadenitis and focal lymphocytic sialadenitis with the presence [pSS-GC(+)] or absence [pSS-GC(-)] of GC-like structures). Twenty-four percent of patients showed ectopic GC-like structures and a high focus score [p < 0.001 vs pSS-GC(-)]. BAFF serum levels (sBAFF) were high in pSS patients (p = 0.025 vs healthy subjects). However, the pSS-GC(-) group showed higher sBAFF levels than pSS-GC(+) patients. BAFF and BAFF-R glandular expression levels were higher in pSS-GC(+) patients, without significant differences compared to pSS-GC(-) patients. Soluble levels of BAFF correlated with anti-La/SSB antibodies and disease duration. Our results showed that BAFF could contribute to focal lymphocytic infiltration. The role of BAFF-binding receptors in MSGs is proposed as a mechanism for the possible establishment of ectopic GC-like structures and disease progression in some patients. In conclusion, this study supports previous evidence that considers the active BAFF system role in the pathogenesis of pSS and the need for strong biomarkers in this disease.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32506205/",
+    "doi": "10.1007/s10238-020-00637-0",
+    "pmid": "32506205",
+    "pmcid": null,
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-5fa62efdb4cd72369d16",
+    "identifiers": [
+      "DOI:10.1016/j.bbadis.2021.166302",
+      "MED:34780913",
+      "PMCID:PMC8714705",
+      "PMID:34780913"
+    ],
+    "title": "Plasmacytoid dendritic cells promote the pathogenesis of Sjögren's syndrome.",
+    "authors": "Zhou J, Zhang X, Yu Q.",
+    "publishedAt": "2021-11-12",
+    "journal": "Biochimica et biophysica acta. Molecular basis of disease",
+    "abstract": "Plasmacytoid dendritic cells (pDCs) produce type I interferons (IFNs) and promote pathogenesis of multiple autoimmune diseases. Autoimmune Sjögren's syndrome (SS) primarily affects salivary and lacrimal glands, causing their inflammation, destruction and dysfunction. pDCs and type I IFN activity are elevated in salivary glands of SS patients, and this study seeks to elucidate the in vivo actions of pDCs in SS pathogenesis using the non-obese diabetic (NOD) mouse model. We confirmed the type I IFN-dependency of SS development in female NOD mice and elevation of pDC-type I IFN in their submandibular glands (SMGs). We administered a pDC-depleting anti-BST2/CD317 antibody to female NOD mice from 4 to 7 weeks of age at the early stage of SS, and assessed SS pathologies at age 10 weeks, the time of disease onset. Depletion of pDCs impeded the development of SMG inflammation and secretory dysfunction. It drastically reduced the amount of type I IFN mRNA and the number of total leukocytes, and T- and B lymphocytes in SMGs. Gene expression analyses showed that pDC depletion markedly diminished SMG expression of IL-7, BAFF, TNF-α, IFN-γ, CXCL9, CXCL11, CD40, CD40L, Lt-α, Lt-β and NOS2. Hence, pDCs critically contribute to the development and onset of SS-like salivary gland exocrinopathy.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34780913/",
+    "doi": "10.1016/j.bbadis.2021.166302",
+    "pmid": "34780913",
+    "pmcid": "PMC8714705",
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-749a861e936d2ec3a407",
+    "identifiers": [
+      "DOI:10.1016/s0140-6736(21)02251-0",
+      "MED:34861168",
+      "PMID:34861168"
+    ],
+    "title": "Safety and efficacy of subcutaneous ianalumab (VAY736) in patients with primary Sjögren's syndrome: a randomised, double-blind, placebo-controlled, phase 2b dose-finding trial.",
+    "authors": "Bowman SJ, Fox R, Dörner T, Mariette X, Papas A, Grader-Beck T, Fisher BA, Barcelos F, De Vita S, Schulze-Koops H, Moots RJ, Junge G, Woznicki JN, Sopala MA, Luo WL, Hueber W.",
+    "publishedAt": "2021-11-30",
+    "journal": "Lancet (London, England)",
+    "abstract": "Background Sjögren's syndrome is an autoimmune disease characterised by dry eyes and mouth, systemic features, and reduced quality of life. There are no disease-modifying treatments. A new biologic, ianalumab (VAY736), with two modes of suppressing B cells, has previously shown preliminary efficacy. This dose-finding trial aimed to assess the safety and efficacy of different subcutaneous doses of ianalumab in patients with moderate to severe primary Sjögren's syndrome. Methods VAY736A2201 was a randomised, parallel, double-blind, placebo-controlled, phase 2b dose-finding study done in 56 centres in 19 countries. Patients aged 18-75 years with primary Sjögren's syndrome with moderate to severe disease activity (European Alliance of Associations for Rheumatology [EULAR] Sjögren's Syndrome Disease Activity Index [ESSDAI] score ≥6) and symptom severity (EULAR Sjögren's Syndrome Patient Reported Index score ≥5) were eligible. Participants were randomly assigned (1:1:1:1) to receive subcutaneous placebo or ianalumab (5 mg, 50 mg, or 300 mg) every 4 weeks for 24 weeks using a secure, online randomisation system. Randomisation was stratified by the ESSDAI score at baseline (≥10 or Findings Between June 27, 2017, and Dec 06, 2018, 293 patients were screened, 190 of whom were randomly assigned (placebo n=49, ianalumab 5 mg n=47, ianalumab 50 mg n=47, ianalumab 300 mg n=47). Statistically significant dose-responses were seen for overall disease activity (ESSDAI score) in four of the five dose-response models tested (p Interpretation The study met its primary objective, showing a dose-related decrease in disease activity as measured by ESSDAI at week 24. Overall, ianalumab was well tolerated and safe, with no increase in infections. To our knowledge, this is the first large, randomised, controlled trial in primary Sjögren's syndrome that met its primary endpoint, and its results mean there is potential for more studies of this mechanism in the future. Funding Novartis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34861168/",
+    "doi": "10.1016/s0140-6736(21)02251-0",
+    "pmid": "34861168",
+    "pmcid": null,
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "34861169",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "34931061",
+        "source": "MED"
+      },
+      {
+        "type": "Erratum in",
+        "id": "40157802",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-08565140f68cca529caf",
+    "identifiers": [
+      "DOI:10.1016/j.ard.2025.08.014",
+      "MED:41162286",
+      "PMID:41162286"
+    ],
+    "title": "GZMK&lt;sup&gt;+&lt;/sup&gt;CD8&lt;sup&gt;+&lt;/sup&gt; T cells target a specific acinar cell type in Sjögren's disease.",
+    "authors": "Pranzatelli TJF, Perez P, Ku A, Matuck B, Huynh K, Sakai S, Abed M, Jang SI, Yamada E, Dominick K, Ahmed Z, Oliver AJ, Bogle R, Easter QT, Baer AN, Pelayo E, Khavandgar Z, Kleiner DE, Magone MT, Gupta S, Lessard C, Farris AD, Burbelo PD, Martin D, Morell RJ, Zheng C, Rachmaninoff N, Maldonado-Ortiz J, Tyc KM, Qu X, Aure M, Dezfulian MH, Lake R, Teichmann SA, Barber DL, Tsoi LC, Sowalsky AG, Liu J, Gudjonsson J, Byrd KM, Johnson PLF, Chiorini JA, Warner BM.",
+    "publishedAt": "2025-10-28",
+    "journal": "Annals of the rheumatic diseases",
+    "abstract": "Objectives Sjögren's disease (SjD) is a systemic autoimmune disorder characterized by dysfunction of exocrine glands, particularly the salivary and lacrimal glands, with no clear etiology or effective therapy. This study explores the complex interplay of varied cell types in the salivary glands and their role in the pathology of Sjögren's disease. Methods Utilizing single-cell and spatial transcriptomics alongside spatial immunophenotyping to analyze human minor salivary glands, we developed a comprehensive understanding of the cellular landscape of non-SjD salivary glands and how that landscape changes in SjD patients. In vitro cellular assays and novel patient-derived primary epithelial cells were co-cultured with autologous T cells to confirm effector states and the delivery and effect of disease-associated granzymes. Results We identified previously unrecognized heterogeneity among acinar cells, including a PRR4⁺CST3⁺WFDC2⁻ seromucous acinar population that is selectively lost in Sjögren's disease. Expression and organizational changes were linked to clinical features: (i) T cells in the glands of SSA⁺, high-focus score patients showed increased transcriptional signatures of activation, antigen presentation, and apoptosis resistance compared with patients with mild or moderate disease, and (ii) patients with low immune infiltration exhibited distinct epithelial organization. Notably, GZMK⁺CD8⁺ T cells, which accumulate with disease severity, displayed a cytotoxic transcriptional program, degranulated upon stimulation ex vivo, and localized spatially with immune-engaged epithelial cells. Functional assays demonstrated that GZMK activates interferon signaling in vitro, and autologous co-cultures of patient-derived T cells and epithelial cells validated these findings. Conclusions Using single-cell and spatial transcriptomics and proteomics, this study identifies a selective loss of PRR4⁺CST3⁺WFDC2⁻ seromucous acinar cells and a rise in GZMK⁺CD8⁺ T cells in Sjögren's disease, revealing distinct immune-mediated epithelial remodeling and interferon-driven dysfunction across diverse clinical presentations. These findings uncover a novel sub-cytolytic effector mechanism by which GZMK⁺CD8⁺ T cells impair mitochondrial integrity and activate innate immune signaling, linking epithelial injury to type I interferon responses and offering new therapeutic targets.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41162286/",
+    "doi": "10.1016/j.ard.2025.08.014",
+    "pmid": "41162286",
+    "pmcid": null,
+    "accessScope": "Primary-report abstract and bibliographic/notice metadata via Europe PMC; exact abstract passages inspected by Codex agent on 2026-10-17; no independent human review.",
+    "openAccess": false,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Update of",
+        "id": "38196575",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  }
+]

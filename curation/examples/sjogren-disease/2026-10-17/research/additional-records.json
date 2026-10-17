@@ -1,0 +1,2013 @@
+[
+  {
+    "id": "41286371",
+    "source": "MED",
+    "pmid": "41286371",
+    "doi": "10.1038/s41584-025-01334-6",
+    "title": "Nipocalimab reduces Sj\u00f6gren disease activity in phase II trial.",
+    "authorString": "Onuora S.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Onuora S",
+          "lastName": "Onuora",
+          "firstName": "Sarah",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2805-3019"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nature Reviews Rheumatology, . nrrheum@nature.com."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2805-3019"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "22",
+      "journalIssueId": 4076716,
+      "dateOfPublication": "2026 Jan",
+      "monthOfPublication": 1,
+      "yearOfPublication": 2026,
+      "journal": {
+        "medlineAbbreviation": "Nat Rev Rheumatol",
+        "title": "Nature reviews. Rheumatology",
+        "essn": "1759-4804",
+        "issn": "1759-4790",
+        "isoabbreviation": "Nat Rev Rheumatol",
+        "nlmid": "101500080"
+      },
+      "printPublicationDate": "2026-01-01"
+    },
+    "pubYear": "2026",
+    "pageInfo": "4",
+    "affiliation": "Nature Reviews Rheumatology, . nrrheum@nature.com.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1038/s41584-025-01334-6"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2025-11-25",
+    "dateOfRevision": "2025-12-21",
+    "firstPublicationDate": "2026-01-01",
+    "firstIndexDate": "2025-11-25",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "40543057",
+    "source": "MED",
+    "pmid": "40543057",
+    "pmcid": "PMC12188942",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC12188942"
+      ]
+    },
+    "doi": "10.12659/ajcr.947004",
+    "title": "Exploring Telitacicept for Neurological Autoimmune Disorders: A Case Study on Morvan Syndrome.",
+    "authorString": "Fu P, Choi K, Jinyi Y, Yang M, Li Z.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Fu P",
+          "lastName": "Fu",
+          "firstName": "Peicai",
+          "initials": "P",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Choi K",
+          "lastName": "Choi",
+          "firstName": "Kalam",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jinyi Y",
+          "lastName": "Jinyi",
+          "firstName": "Yan",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Yang M",
+          "lastName": "Yang",
+          "firstName": "Mengge",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li Z",
+          "lastName": "Li",
+          "firstName": "Zhijun",
+          "initials": "Z",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "26",
+      "journalIssueId": 3953842,
+      "dateOfPublication": "2025 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 2025,
+      "journal": {
+        "medlineAbbreviation": "Am J Case Rep",
+        "title": "The American journal of case reports",
+        "essn": "1941-5923",
+        "issn": "1941-5923",
+        "isoabbreviation": "Am J Case Rep",
+        "nlmid": "101489566"
+      },
+      "printPublicationDate": "2025-06-01"
+    },
+    "pubYear": "2025",
+    "pageInfo": "e947004",
+    "abstractText": "BACKGROUND Morvan syndrome is an autoimmune disease associated with autoantibodies against proteins of the voltage-gated potassium channel complex, particularly Caspr2. Telitacicept, a recombinant TACI-Fc fusion protein that dually inhibits BAFF and APRIL cytokines, has shown efficacy in refractory autoimmune diseases. This report describes a 54-year-old man with Morvan syndrome presenting with peripheral nerve hyperexcitability and sleep disturbance who responded to telitacicept after conventional immunotherapy failed. CASE REPORT In September 2023, a 54-year-old male patient presented with weakness, muscle cramps, burning sensation, pain in both lower limbs, and walking instability. He also reported severe sleep disturbance, cognitive impairment, difficulty concentrating, restlessness, and depression. Physical examination revealed muscle fasciculation, myokymia, hyperhidrosis, frequent micturition, and significant weight loss. Laboratory test results confirmed positive anti-Caspr2 antibodies in the serum. Due to pre-existing blood glucose concerns, the patient declined high-dose corticosteroid pulse therapy. After thorough discussion of alternative options, including intravenous immunoglobulin, plasma exchange, and rituximab, the patient opted for subcutaneous telitacicept at a dose of 160 mg weekly. Within the second week of treatment, notable improvements were observed in muscle myokymia, neuropathic pain, and sleep disturbances. Over the following 6 months, the patient achieved complete clinical remission with no recurrence of symptoms and was able to discontinue corticosteroids. No infections or other adverse effects were reported during the treatment period. CONCLUSIONS This report has highlighted the approach to diagnosing Morvan syndrome, which can present with peripheral nerve hyperexcitability, and supports the role of immunomodulatory therapy, including telitacicept.",
+    "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article",
+        "Case Reports"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Autoimmune Diseases of the Nervous System",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Syringomyelia",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DI",
+                "qualifierName": "diagnosis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Membrane Proteins"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Nerve Tissue Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Recombinant Fusion Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Autoantibodies",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "CNTNAP2 protein, human",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Membrane Proteins",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Autoantibodies",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Nerve Tissue Proteins",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Recombinant Fusion Proteins",
+          "registryNumber": "0"
+        },
+        {
+          "name": "telitacicept",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.12659/AJCR.947004"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC12188942"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC12188942?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by-nc-nd",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2025-06-24",
+    "dateOfCreation": "2025-06-21",
+    "dateOfRevision": "2026-01-27",
+    "electronicPublicationDate": "2025-06-21",
+    "firstPublicationDate": "2025-06-21",
+    "firstIndexDate": "2025-06-22",
+    "fullTextReceivedDate": "2025-06-27",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "41476025",
+    "source": "MED",
+    "pmid": "41476025",
+    "pmcid": "PMC12755965",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC12755965"
+      ]
+    },
+    "doi": "10.1002/brb3.71157",
+    "title": "Add-On Telitacicept Significantly Improves Outcome of Patients With Refractory Ocular Myasthenia Gravis a Real-World Case Series.",
+    "authorString": "Lin J, Li Y, Gui M, Bu B, Li Z.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Lin J",
+          "lastName": "Lin",
+          "firstName": "Jing",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li Y",
+          "lastName": "Li",
+          "firstName": "Yue",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Gui M",
+          "lastName": "Gui",
+          "firstName": "Mengcui",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bu B",
+          "lastName": "Bu",
+          "firstName": "Bitao",
+          "initials": "B",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li Z",
+          "lastName": "Li",
+          "firstName": "Zhijun",
+          "initials": "Z",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "16",
+      "journalIssueId": 4080362,
+      "dateOfPublication": "2026 Jan",
+      "monthOfPublication": 1,
+      "yearOfPublication": 2026,
+      "journal": {
+        "medlineAbbreviation": "Brain Behav",
+        "title": "Brain and behavior",
+        "essn": "2162-3279",
+        "issn": "2162-3279",
+        "isoabbreviation": "Brain Behav",
+        "nlmid": "101570837"
+      },
+      "printPublicationDate": "2026-01-01"
+    },
+    "pubYear": "2026",
+    "pageInfo": "e71157",
+    "abstractText": "<h4>Introduction</h4>Refractory ocular myasthenia gravis (MG) represents a significant therapeutic challenge, as conventional immunotherapies often prove ineffective. Telitacicept, a recombinant B-lymphocyte stimulator receptor-antibody fusion protein, offers a novel immunomodulatory approach. This retrospective study evaluates its efficacy and safety in patients with MG-associated refractory ocular symptoms.<h4>Methods</h4>This is a single-center retrospective cohort study. evaluated patients with refractory ocular symptoms who received telitacicept weekly between August 2024 and January 2025. We evaluated treatment efficacy using Myasthenia Gravis Foundation of America post-intervention status (MGFA-PIS), Myasthenia Gravis Impairment Index-patient-reported outcome (MGII-PRO), quantitative MG (QMG), and MG activity of daily living (ADL) scores, as well as the reduction in daily prednisone dosage at baseline and each month following treatment. The safety assessment was also evaluated.<h4>Results</h4>Seven MGFA class 1 patients (5 females, 2 males) were enrolled, with a median onset age of 6 years (interquartile range [IQR] 2-21) and a median disease duration of 98 months (IQR 46-121). MG-ADL scores showed significant reduction with prolonged follow-up. 6/7 patients achieved \u22652-point MG-ADL improvement by the third follow-up. 4/6 patients reached minimal symptom expression at the fifth follow-up. The average ocular MG-ADL, MGII-PRO, and QMG scores revealed statistically significant improvements at the third month of follow-up, sustained through the sixth month. The regimen exhibited excellent tolerability, with no severe adverse events (e.g., hypersensitivity reactions, infections) reported.<h4>Conclusion</h4>Our preliminary findings indicate that telitacicept represents a promising and well-tolerated adjunct therapy for refractory ocular symptoms in MG, providing significant clinical evidence to support this novel therapeutic approach.",
+    "affiliation": "Department of Neurology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "National Natural\u00a0Science Foundation of China",
+          "orderIn": 0
+        },
+        {
+          "agency": "Natural\u00a0Science Foundation of Hubei Province",
+          "orderIn": 0
+        },
+        {
+          "agency": "Health\u00a0Commission of Hubei Province scientific research project",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Myasthenia Gravis",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Prednisone",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Recombinant Fusion Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Treatment Outcome"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Drug Therapy, Combination"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Retrospective Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adolescent"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Young Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Patient Reported Outcome Measures"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Minimal Symptom Expression",
+        "Telitacicept",
+        "B\u2010cell Activating Factor",
+        "Refractory Ocular Myasthenia Gravis"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Recombinant Fusion Proteins",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Prednisone",
+          "registryNumber": "VB0R961HZT"
+        },
+        {
+          "name": "TACI receptor-IgG Fc fragment fusion protein",
+          "registryNumber": "K3D9A0ICQ3"
+        },
+        {
+          "name": "telitacicept",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1002/brb3.71157"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC12755965"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC12755965?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 4,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2025-12-31",
+    "dateOfCreation": "2025-12-31",
+    "dateOfRevision": "2026-04-03",
+    "firstPublicationDate": "2026-01-01",
+    "firstIndexDate": "2026-01-02",
+    "fullTextReceivedDate": "2026-01-02",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "37399108",
+    "source": "MED",
+    "pmid": "37399108",
+    "doi": "10.1093/rheumatology/kead265",
+    "title": "Efficacy and safety of telitacicept in primary Sj\u00f6gren's syndrome: a randomized, double-blind, placebo-controlled, phase 2 trial.",
+    "authorString": "Xu D, Fang J, Zhang S, Huang C, Huang C, Qin L, Li X, Chen M, Liu X, Liu Y, Li Z, Hu J, Bao C, Wei W, Tian J, Duan X, Zeng X.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Xu D",
+          "lastName": "Xu",
+          "firstName": "Dong",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6413-3043"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital (PUMCH), Chinese Academy of Medical Sciences & Peking Union Medical College; National Clinical Research Center for Dermatologic and Immunologic Diseases (NCRC-DID), Ministry of Science & Technology; State Key Laboratory of Complex Severe and Rare Diseases; Key Laboratory of Rheumatology and Clinical Immunology, Ministry of Education, Beijing, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Fang J",
+          "lastName": "Fang",
+          "firstName": "Jianmin",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Life Science and Technology, Tongji University, School of Life Science and Technology, Tongji University, Shanghai, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhang S",
+          "lastName": "Zhang",
+          "firstName": "Shangzhu",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital (PUMCH), Chinese Academy of Medical Sciences & Peking Union Medical College; National Clinical Research Center for Dermatologic and Immunologic Diseases (NCRC-DID), Ministry of Science & Technology; State Key Laboratory of Complex Severe and Rare Diseases; Key Laboratory of Rheumatology and Clinical Immunology, Ministry of Education, Beijing, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Huang C",
+          "lastName": "Huang",
+          "firstName": "Cibo",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, Beijing Hospital, Beijing, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Huang C",
+          "lastName": "Huang",
+          "firstName": "Chenghui",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology, The Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Qin L",
+          "lastName": "Qin",
+          "firstName": "Li",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, Huzhou Third Municipal Hospital, Huzhou, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li X",
+          "lastName": "Li",
+          "firstName": "Xiaomei",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, Anhui Provincial Hospital, Hefei, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Chen M",
+          "lastName": "Chen",
+          "firstName": "Meiqing",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, The First Affiliated Hospital of Xiamen University, Xiamen, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Liu X",
+          "lastName": "Liu",
+          "firstName": "Xiumei",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, The First Hospital of Shanxi Medical University, Taiyuan, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Liu Y",
+          "lastName": "Liu",
+          "firstName": "Yi",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, West China Hospital of Sichuan University, Chengdu, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li Z",
+          "lastName": "Li",
+          "firstName": "Zhijun",
+          "initials": "Z",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, The First Affiliated Hospital of Bengbu Medical College, Bengbu, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hu J",
+          "lastName": "Hu",
+          "firstName": "Jiankang",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, Jiangxi Pingxiang People's Hospital, Pingxiang, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bao C",
+          "lastName": "Bao",
+          "firstName": "Chunde",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology, Renji Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, ChinaAffiliated to."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wei W",
+          "lastName": "Wei",
+          "firstName": "Wei",
+          "initials": "W",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4386-8577"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, Tianjin Medical University General Hospital, Tianjin, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tian J",
+          "lastName": "Tian",
+          "firstName": "Jing",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, The Second Xiangya Hospital of Central South University, Changsha, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Duan X",
+          "lastName": "Duan",
+          "firstName": "Xinwang",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zeng X",
+          "lastName": "Zeng",
+          "firstName": "Xiaofeng",
+          "initials": "X",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9484-8093"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital (PUMCH), Chinese Academy of Medical Sciences & Peking Union Medical College; National Clinical Research Center for Dermatologic and Immunologic Diseases (NCRC-DID), Ministry of Science & Technology; State Key Laboratory of Complex Severe and Rare Diseases; Key Laboratory of Rheumatology and Clinical Immunology, Ministry of Education, Beijing, China."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9484-8093"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4386-8577"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6413-3043"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "3",
+      "volume": "63",
+      "journalIssueId": 3732346,
+      "dateOfPublication": "2024 Mar",
+      "monthOfPublication": 3,
+      "yearOfPublication": 2024,
+      "journal": {
+        "medlineAbbreviation": "Rheumatology (Oxford)",
+        "title": "Rheumatology (Oxford, England)",
+        "essn": "1462-0332",
+        "issn": "1462-0324",
+        "isoabbreviation": "Rheumatology (Oxford)",
+        "nlmid": "100883501"
+      },
+      "printPublicationDate": "2024-03-01"
+    },
+    "pubYear": "2024",
+    "pageInfo": "698-705",
+    "abstractText": "<h4>Objective</h4>To evaluate the efficacy and safety of telitacicept in adult patients with primary SS (pSS) in a phase II randomized double-blind placebo-controlled trial.<h4>Methods</h4>Patients with pSS with positive anti-SSA antibody and ESSDAI\u2009\u2265\u20095 were randomly assigned, in a 1:1:1 ratio, to receive weekly subcutaneous telitacicept 240\u2009mg, 160\u2009mg, or placebo for 24\u2009weeks. The primary end point was the change from baseline in the ESSDAI at week 24. Safety was monitored.<h4>Results</h4>A total of 42 patients were enrolled and randomized (n\u2009=\u200914 per group). Administration of telitacicept 160\u2009mg resulted in a significant reduction in ESSDAI score from baseline to week 24 compared with placebo (P\u2009<\u20090.05). The placebo-adjusted least-squares mean change from baseline was -4.3 (95% CI -7.0, -1.6; P\u2009=\u20090.002). While, mean change of ESSDAI in telitacicept 240\u2009mg was -2.7(-5.6-0.1) with no statistical difference when compared that in placebo group (P\u2009=\u20090.056). In addition, MFI-20 and serum immunoglobulins decreased significantly (P\u2009<\u20090.05) at week 24 in both telitacicept groups compared with placebo. No serious adverse events were observed in the telitacicept treating group.<h4>Conclusion</h4>Telitacicept showed clinical benefits and good tolerance and safety in the treatment of pSS.<h4>Trial registration</h4>ClinicalTrials.gov, https://clinicaltrials.gov, NCT04078386.",
+    "affiliation": "Department of Rheumatology and Clinical Immunology, Peking Union Medical College Hospital (PUMCH), Chinese Academy of Medical Sciences & Peking Union Medical College; National Clinical Research Center for Dermatologic and Immunologic Diseases (NCRC-DID), Ministry of Science & Technology; State Key Laboratory of Complex Severe and Rare Diseases; Key Laboratory of Rheumatology and Clinical Immunology, Ministry of Education, Beijing, China.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Clinical Trial, Phase II",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "RemeGen Co., Ltd",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Sjogren's Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Recombinant Fusion Proteins"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Double-Blind Method"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Clinical Trial",
+        "Essdai",
+        "Telitacicept",
+        "Primary Ss"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Recombinant Fusion Proteins",
+          "registryNumber": "0"
+        },
+        {
+          "name": "telitacicept",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1093/rheumatology/kead265"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 66,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "nct"
+      ]
+    },
+    "dateOfCompletion": "2024-03-04",
+    "dateOfCreation": "2023-07-03",
+    "dateOfRevision": "2024-11-18",
+    "firstPublicationDate": "2024-03-01",
+    "firstIndexDate": "2023-07-04",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "39512788",
+    "source": "MED",
+    "pmid": "39512788",
+    "pmcid": "PMC11540803",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC11540803"
+      ]
+    },
+    "doi": "10.1002/ccr3.9553",
+    "title": "Single-dose telitacicept therapy for refractory idiopathic membranous nephropathy: A case series.",
+    "authorString": "Sun L, Chen F, Zhang X.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Sun L",
+          "lastName": "Sun",
+          "firstName": "Liping",
+          "initials": "L",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1222-2298"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Shenzhen Key Laboratory of Renal, Department of Nephrology, Shenzhen People's Hospital, The Second Clinical Medical College Jinan University Shenzhen Guangdong China."
+              },
+              {
+                "affiliation": "The First Affiliated Hospital Southern University of Science and Technology Shenzhen Guangdong China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Chen F",
+          "lastName": "Chen",
+          "firstName": "Fuce",
+          "initials": "F",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Shenzhen Key Laboratory of Renal, Department of Nephrology, Shenzhen People's Hospital, The Second Clinical Medical College Jinan University Shenzhen Guangdong China."
+              },
+              {
+                "affiliation": "The First Affiliated Hospital Southern University of Science and Technology Shenzhen Guangdong China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhang X",
+          "lastName": "Zhang",
+          "firstName": "Xinzhou",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Shenzhen Key Laboratory of Renal, Department of Nephrology, Shenzhen People's Hospital, The Second Clinical Medical College Jinan University Shenzhen Guangdong China."
+              },
+              {
+                "affiliation": "The First Affiliated Hospital Southern University of Science and Technology Shenzhen Guangdong China."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-1222-2298"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "11",
+      "volume": "12",
+      "journalIssueId": 3842573,
+      "dateOfPublication": "2024 Nov",
+      "monthOfPublication": 11,
+      "yearOfPublication": 2024,
+      "journal": {
+        "medlineAbbreviation": "Clin Case Rep",
+        "title": "Clinical case reports",
+        "essn": "2050-0904",
+        "issn": "2050-0904",
+        "isoabbreviation": "Clin Case Rep",
+        "nlmid": "101620385"
+      },
+      "printPublicationDate": "2024-11-01"
+    },
+    "pubYear": "2024",
+    "pageInfo": "e9553",
+    "abstractText": "<h4>Key clinical message</h4>We report three cases of IMN from our center, where patients received a single dose of telitacicept after showing no response to conventional treatments. Although one case did not respond, the other two cases achieved complete or partial remission of proteinuria. These cases illustrates the telitacicept may offer new hope for the treatment of IMN.<h4>Abstract</h4>Despite the variety of treatment options available, effective therapies for refractory membranous nephropathy remain lacking. Recently, some reports have suggested that telitacicept is a new therapeutic option. However, only a few published studies have documented the use of telitacicept for treating idiopathic membranous nephropathy (IMN). We present three cases of IMN from our center, where patients received a single dose of telitacicept after showing no response to conventional treatments, including glucocorticoids, tacrolimus, mycophenolate mofetil, cyclophosphamide, cyclosporine, and rituximab. Although one case did not respond, the other two cases achieved complete or partial remission of proteinuria. Thus, telitacicept may offer new hope for the treatment of refractory membranous nephropathy.",
+    "affiliation": "Shenzhen Key Laboratory of Renal, Department of Nephrology, Shenzhen People's Hospital, The Second Clinical Medical College Jinan University Shenzhen Guangdong China.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic-eCollection",
+    "pubTypeList": {
+      "pubType": [
+        "case-study",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Therapy",
+        "Case Series",
+        "Telitacicept",
+        "Refractory Membranous Nephropathy"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1002/ccr3.9553"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC11540803"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC11540803?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 5,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "Y",
+    "license": "cc by-nc-nd",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "doi"
+      ]
+    },
+    "dateOfCreation": "2024-11-08",
+    "dateOfRevision": "2026-09-23",
+    "electronicPublicationDate": "2024-11-06",
+    "firstPublicationDate": "2024-11-06",
+    "firstIndexDate": "2024-11-13",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "37737205",
+    "source": "MED",
+    "pmid": "37737205",
+    "pmcid": "PMC10515419",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC10515419"
+      ]
+    },
+    "doi": "10.1186/s40001-023-01320-2",
+    "title": "Role of telitacicept in the treatment of IgA nephropathy.",
+    "authorString": "Wu L, Du X, Lu X.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Wu L",
+          "lastName": "Wu",
+          "firstName": "Lijun",
+          "initials": "L",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3813-822X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "The Second Hospital of Jilin University Nephropathy of Internal Medicine, Changchun, 130022, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Du X",
+          "lastName": "Du",
+          "firstName": "Xinru",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "The Second Hospital of Jilin University Nephropathy of Internal Medicine, Changchun, 130022, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lu X",
+          "lastName": "Lu",
+          "firstName": "Xuehong",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "The Second Hospital of Jilin University Nephropathy of Internal Medicine, Changchun, 130022, China. changchunlxh@foxmail.com."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-3813-822X"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "28",
+      "journalIssueId": 3625563,
+      "dateOfPublication": "2023 Sep",
+      "monthOfPublication": 9,
+      "yearOfPublication": 2023,
+      "journal": {
+        "medlineAbbreviation": "Eur J Med Res",
+        "title": "European journal of medical research",
+        "essn": "2047-783X",
+        "issn": "0949-2321",
+        "isoabbreviation": "Eur J Med Res",
+        "nlmid": "9517857"
+      },
+      "printPublicationDate": "2023-09-01"
+    },
+    "pubYear": "2023",
+    "pageInfo": "369",
+    "abstractText": "IgA nephropathy (IgAN) is the most common primary glomerular disease in the world, and up to 40% of patients with IgAN develop end-stage renal disease (ESRD). At present, an increasing amount of evidence indicates that the pathogenesis of IgAN is related to autoimmunity. In recent years, several studies have shown that B cell activating factors (BAFF), also known as B lymphocyte stimulators (BLyS), and proliferation-inducing ligand APRIL are extremely important for the activation of autoimmune signalling pathways, which have become key targets for the treatment of IgAN. As a dual-target biological agent, telitacicept can inhibit both BLyS and APRIL cytokines, improve the function of renal immune complexes, and reduce haematuria and proteinuria, which play important roles in IgAN pathogenesis and long-term prognosis. This article reviews the role of telitacicept in IgA nephropathy and discusses its potential for use in the treatment of IgAN and other autoimmune diseases where pathogenesis is driven by B cells.",
+    "affiliation": "The Second Hospital of Jilin University Nephropathy of Internal Medicine, Changchun, 130022, China.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Kidney"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Kidney Glomerulus"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Glomerulonephritis, IGA",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Autoimmune Diseases"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Recombinant Fusion Proteins"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Nephropathy",
+        "IGA",
+        "Blys",
+        "April",
+        "Baff",
+        "Telitacicept"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Recombinant Fusion Proteins",
+          "registryNumber": "0"
+        },
+        {
+          "name": "telitacicept",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://eurjmedres.biomedcentral.com/counter/pdf/10.1186/s40001-023-01320-2"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1186/s40001-023-01320-2"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10515419"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10515419?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 32,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "nct"
+      ]
+    },
+    "dateOfCompletion": "2023-09-25",
+    "dateOfCreation": "2023-09-22",
+    "dateOfRevision": "2026-01-27",
+    "electronicPublicationDate": "2023-09-22",
+    "firstPublicationDate": "2023-09-22",
+    "firstIndexDate": "2023-09-23",
+    "fullTextReceivedDate": "2023-09-25",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "34861168",
+    "source": "MED",
+    "pmid": "34861168",
+    "doi": "10.1016/s0140-6736(21)02251-0",
+    "title": "Safety and efficacy of subcutaneous ianalumab (VAY736) in patients with primary Sj\u00f6gren's syndrome: a randomised, double-blind, placebo-controlled, phase 2b dose-finding trial.",
+    "authorString": "Bowman SJ, Fox R, D\u00f6rner T, Mariette X, Papas A, Grader-Beck T, Fisher BA, Barcelos F, De Vita S, Schulze-Koops H, Moots RJ, Junge G, Woznicki JN, Sopala MA, Luo WL, Hueber W.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Bowman SJ",
+          "lastName": "Bowman",
+          "firstName": "Simon J",
+          "initials": "SJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Rheumatology Department, University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK; Institute of Inflammation and Ageing, College of Medical and Dental Sciences, University of Birmingham, UK; National Institute for Health Research Birmingham Biomedical Research Centre, University of Birmingham, Birmingham, UK; Rheumatology Department, Milton Keynes University Hospital, Milton Keynes, UK. Electronic address: simon.bowman@uhb.nhs.uk."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Fox R",
+          "lastName": "Fox",
+          "firstName": "Robert",
+          "initials": "R",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Rheumatology Clinic, Scripps Memorial Hospital and Research Institute, La Jolla, CA, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "D\u00f6rner T",
+          "lastName": "D\u00f6rner",
+          "firstName": "Thomas",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Medicine, Rheumatology and Clinical Immunology, Charit\u00e9 Universit\u00e4tsmedizin and Deutsches Rheumaforschungszentrum, Berlin, Germany."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Mariette X",
+          "lastName": "Mariette",
+          "firstName": "Xavier",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Universit\u00e9 Paris Saclay, Assistance Publique-H\u00f4pitaux de Paris, H\u00f4pital Bic\u00eatre, INSERM U1184, Le Kremlin Bic\u00eatre, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Papas A",
+          "lastName": "Papas",
+          "firstName": "Athena",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Division of Oral Medicine, Tufts School of Dental Medicine, Boston, MA, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Grader-Beck T",
+          "lastName": "Grader-Beck",
+          "firstName": "Thomas",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Division of Rheumatology, Johns Hopkins School of Medicine, Baltimore, MD, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Fisher BA",
+          "lastName": "Fisher",
+          "firstName": "Benjamin A",
+          "initials": "BA",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Rheumatology Department, University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK; Institute of Inflammation and Ageing, College of Medical and Dental Sciences, University of Birmingham, UK; National Institute for Health Research Birmingham Biomedical Research Centre, University of Birmingham, Birmingham, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Barcelos F",
+          "lastName": "Barcelos",
+          "firstName": "Filipe",
+          "initials": "F",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Chronic Diseases Research Center, Nova Medical School, Lisbon, Portugal; Instituto Portugu\u00eas de Reumatologia, Lisbon, Portugal; Rheumatology Department, Hospital Cuf Descobertas, Lisbon, Portugal."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "De Vita S",
+          "lastName": "De Vita",
+          "firstName": "Salvatore",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Clinic of Rheumatology, University Hospital Santa Maria della Misericordia, Department of Medical Area, University of Udine, Udine, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Schulze-Koops H",
+          "lastName": "Schulze-Koops",
+          "firstName": "Hendrik",
+          "initials": "H",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Division of Rheumatology and Clinical Immunology, Department of Internal Medicine IV, Ludwig-Maximilians-University of Munich, Munich, Germany."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Moots RJ",
+          "lastName": "Moots",
+          "firstName": "Robert J",
+          "initials": "RJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Rheumatology, Liverpool University Hospitals NHS Foundation Trust and Edge Hill University, Liverpool, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Junge G",
+          "lastName": "Junge",
+          "firstName": "Guido",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Novartis Pharma, Basel, Switzerland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Woznicki JN",
+          "lastName": "Woznicki",
+          "firstName": "Janice N",
+          "initials": "JN",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Novartis Pharmaceuticals, East Hanover, NJ, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sopala MA",
+          "lastName": "Sopala",
+          "firstName": "Monika A",
+          "initials": "MA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9587-7953"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Novartis Pharma, Basel, Switzerland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Luo WL",
+          "lastName": "Luo",
+          "firstName": "Wen-Lin",
+          "initials": "WL",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Novartis Pharmaceuticals, East Hanover, NJ, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hueber W",
+          "lastName": "Hueber",
+          "firstName": "Wolfgang",
+          "initials": "W",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Novartis Pharma, Basel, Switzerland."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9587-7953"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "10320",
+      "volume": "399",
+      "journalIssueId": 3291369,
+      "dateOfPublication": "2022 Jan",
+      "monthOfPublication": 1,
+      "yearOfPublication": 2022,
+      "journal": {
+        "medlineAbbreviation": "Lancet",
+        "title": "Lancet (London, England)",
+        "essn": "1474-547X",
+        "issn": "0140-6736",
+        "isoabbreviation": "Lancet",
+        "nlmid": "2985213R"
+      },
+      "printPublicationDate": "2022-01-01"
+    },
+    "pubYear": "2022",
+    "pageInfo": "161-171",
+    "abstractText": "<h4>Background</h4>Sj\u00f6gren's syndrome is an autoimmune disease characterised by dry eyes and mouth, systemic features, and reduced quality of life. There are no disease-modifying treatments. A new biologic, ianalumab (VAY736), with two modes of suppressing B cells, has previously shown preliminary efficacy. This dose-finding trial aimed to assess the safety and efficacy of different subcutaneous doses of ianalumab in patients with moderate to severe primary Sj\u00f6gren's syndrome.<h4>Methods</h4>VAY736A2201 was a randomised, parallel, double-blind, placebo-controlled, phase 2b dose-finding study done in 56 centres in 19 countries. Patients aged 18-75 years with primary Sj\u00f6gren's syndrome with moderate to severe disease activity (European Alliance of Associations for Rheumatology [EULAR] Sj\u00f6gren's Syndrome Disease Activity Index [ESSDAI] score \u22656) and symptom severity (EULAR Sj\u00f6gren's Syndrome Patient Reported Index score \u22655) were eligible. Participants were randomly assigned (1:1:1:1) to receive subcutaneous placebo or ianalumab (5 mg, 50 mg, or 300 mg) every 4 weeks for 24 weeks using a secure, online randomisation system. Randomisation was stratified by the ESSDAI score at baseline (\u226510 or <10). Study personnel and patients were masked to treatment assignment. The primary outcome was the change in ESSDAI score from baseline to 24 weeks in all randomly assigned patients. Dose-related change in disease activity (ESSDAI) from baseline at week 24 was assessed by multiple comparison procedure with modelling analysis. Safety was measured in all patients who received at least one dose of study drug. This trial is registered with ClinicalTrials.gov, NCT02962895.<h4>Findings</h4>Between June 27, 2017, and Dec 06, 2018, 293 patients were screened, 190 of whom were randomly assigned (placebo n=49, ianalumab 5 mg n=47, ianalumab 50 mg n=47, ianalumab 300 mg n=47). Statistically significant dose-responses were seen for overall disease activity (ESSDAI score) in four of the five dose-response models tested (p<0\u00b7025 in four models, p=0\u00b7060 in one model). The ESSDAI score decreased from baseline in all ianalumab groups, with the maximal ESSDAI score change from baseline observed in the ianalumab 300 mg group: placebo-adjusted least-squares mean change from baseline -1\u00b792 points (95% CI -4\u00b715 to 0\u00b732; p=0\u00b7092). There were four serious adverse events in three patients considered treatment-related (pneumonia [n=1] and gastroenteritis [n=1] in the placebo group; appendicitis plus tubo-ovarian abscess in the same patient in the ianalumab 50 mg group).<h4>Interpretation</h4>The study met its primary objective, showing a dose-related decrease in disease activity as measured by ESSDAI at week 24. Overall, ianalumab was well tolerated and safe, with no increase in infections. To our knowledge, this is the first large, randomised, controlled trial in primary Sj\u00f6gren's syndrome that met its primary endpoint, and its results mean there is potential for more studies of this mechanism in the future.<h4>Funding</h4>Novartis.",
+    "affiliation": "Rheumatology Department, University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK; Institute of Inflammation and Ageing, College of Medical and Dental Sciences, University of Birmingham, UK; National Institute for Health Research Birmingham Biomedical Research Centre, University of Birmingham, Birmingham, UK; Rheumatology Department, Milton Keynes University Hospital, Milton Keynes, UK. Electronic address: simon.bowman@uhb.nhs.uk.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Clinical Trial, Phase II",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Novartis AG",
+          "orderIn": 0
+        },
+        {
+          "agency": "Novartis Pharmaceuticals Corporation",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sjogren's Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DI",
+                "qualifierName": "diagnosis"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Placebos",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AE",
+                "qualifierName": "adverse effects"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Treatment Outcome"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Severity of Illness Index"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Double-Blind Method"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Dose-Response Relationship, Drug"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Antibodies, Monoclonal, Humanized",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "AE",
+                "qualifierName": "adverse effects"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Placebos",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Antibodies, Monoclonal, Humanized",
+          "registryNumber": "0"
+        },
+        {
+          "name": "ianalumab",
+          "registryNumber": "ZN2GQ3II96"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Unpaywall",
+          "url": "https://birmingham.elsevierpure.com/en/publications/d682e5ca-9234-460b-b0ed-e92381529a78"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/S0140-6736(21)02251-0"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "34861169",
+          "reference": "Lancet. 2022 Jan 8;399(10320):121-122. doi: 10.1016/S0140-6736(21)02644-1.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "34931061",
+          "reference": "Nat Rev Rheumatol. 2022 Feb;18(2):61. doi: 10.1038/s41584-021-00740-w.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "source": "MED",
+          "id": "40157802",
+          "reference": "Lancet. 2025 Mar 29;405(10484):1056. doi: 10.1016/S0140-6736(25)00560-4.",
+          "type": "Erratum in",
+          "orderIn": 3
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 152,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "nct"
+      ]
+    },
+    "dateOfCompletion": "2022-01-26",
+    "dateOfCreation": "2021-12-03",
+    "dateOfRevision": "2025-03-29",
+    "electronicPublicationDate": "2021-11-30",
+    "firstPublicationDate": "2021-11-30",
+    "firstIndexDate": "2021-12-05",
+    "hasEvaluations": "N"
+  }
+]

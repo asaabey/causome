@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "diseaseId": "sjogren-disease",
+  "baseReleaseId": "sjogren-disease-summary-candidate-6a97832a99ae",
+  "baseContentDigest": "b81c6773d2c8b792439efe34d1929809a47583ce655fb8b8e02a1d4a24ddb347",
+  "scope": "Primary Sjögren glandular mechanisms, with explicitly labelled human-cell and mouse findings and selected treatment-trial evidence through 2026-10-17. Historical GC cohort primary-only composition is unresolved; dazodalibep includes associated RA/SLE. Excludes a complete lacrimal, genetic, stromal, lymphoma or extraglandular model and comprehensive therapy guidance.",
+  "authoredBy": {
+    "id": "codex-curation-agent",
+    "kind": "agent"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "This bounded Sjögren map connects epithelial and immune activation around type I interferon and BAFF. In human-cell experiments, patient-serum autoantibodies to RNA-binding proteins and dying-cell material generated an RNA-containing immune-complex stimulus for plasmacytoid dendritic cells. Interferon-producing cells and interferon-responsive gene expression were observed in affected glands, while interferons induced epithelial BAFF secretion in culture. BAFF regulates B-cell survival; glandular B-cell aggregates can organise into ectopic germinal centres associated with local anti-Ro/SSA and anti-La/SSB production in a subset of biopsies. Together these findings suggest amplification between immune cells and epithelium, rather than proving a complete causal loop in every patient. A complementary human tissue study found selective seromucous acinar-cell loss alongside GZMK-positive CD8 T-cell accumulation; functional assays linked GZMK to epithelial interferon signalling. Salivary dysfunction and clinical dryness are represented, but direct lacrimal mechanisms remain incompletely curated.",
+      "claimIds": [
+        "claim-sjd-antibody-complex",
+        "claim-sjd-debris-complex",
+        "claim-sjd-complex-pdc",
+        "claim-sjd-pdc-ifn",
+        "claim-sjd-ifn-epithelium",
+        "claim-sjd-epithelium-baff",
+        "claim-sjd-baff-bcells",
+        "claim-sjd-bcells-gc",
+        "claim-sjd-gc-ssa",
+        "claim-sjd-cd8-acinar",
+        "claim-sjd-gzmk-ifn",
+        "claim-sjd-epithelium-saliva",
+        "claim-sjd-saliva-sicca"
+      ]
+    },
+    {
+      "text": "Important limits remain: BAFF secretion after interferon stimulation did not significantly differ between patient and control cultures, BAFF/GC associations were not uniformly positive, and human AQP5 localisation studies conflicted. BAFF-overexpressing and early pDC-depletion mouse experiments support mechanisms in those systems, not sufficiency or reversibility in established human disease. Ianalumab met its phase 2b model-based dose-response objective, although the individual 300 mg comparison crossed the null. Dazodalibep improved phase 2 systemic activity and a symptom composite in populations partly including associated RA/SLE, limiting primary-only inference. Later sponsor phase III updates are development evidence, not complete peer-reviewed efficacy appraisals or approval. TRACTISS found no significant rituximab benefit for its primary fatigue/oral-dryness endpoint despite a secondary salivary-flow improvement. The selected therapies remain experimental for the mapped Sjögren indication; no treatment recommendation follows from targeting these pathways. Most sources were inspected at abstract level, study independence is incompletely established, and independent scientific review and score calibration remain pending.",
+      "claimIds": [
+        "claim-sjd-ifna-baff-null",
+        "claim-sjd-baff-gc",
+        "claim-sjd-baff-gc-null",
+        "claim-sjd-epithelium-aqp5",
+        "claim-sjd-epithelium-aqp5-null",
+        "claim-sjd-baff-saliva",
+        "claim-sjd-pdc-saliva",
+        "claim-sjd-ianalumab-activity",
+        "claim-sjd-ianalumab-comparison",
+        "claim-sjd-dazodalibep-activity",
+        "claim-sjd-dazodalibep-symptoms",
+        "claim-sjd-rituximab-null",
+        "claim-sjd-rituximab-saliva"
+      ]
+    }
+  ]
+}

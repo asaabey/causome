@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-sjd-epithelium": "Gland epithelium",
+    "entity-sjd-ssa": "Anti-Ro / anti-La",
+    "entity-complexes": "RNA immune complexes",
+    "entity-sjd-acinar-loss": "Acinar-cell loss",
+    "entity-sjd-saliva": "Salivary dysfunction",
+    "entity-sjd-activity": "Disease activity"
+  }
+}

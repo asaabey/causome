@@ -1,0 +1,50 @@
+[
+  {
+    "path": "curation/workspace/sjogren-disease/scans/scan-89cc09c8609020610e684814/report.json",
+    "bytes": 84118,
+    "sha256": "c10c448e0700844e4295b1689b6f46e0d342a65e6e4030848f2cc4ed8fe30172",
+    "preservation": "reports durable; large papers/responses remain workspace-only"
+  },
+  {
+    "path": "curation/workspace/sjogren-disease/scans/scan-89cc09c8609020610e684814/report.md",
+    "bytes": 24022,
+    "sha256": "3f486b3189baec38fcc94011e6b7c5248ccd1b4e0f754dc49149ceb47ac38bed",
+    "preservation": "reports durable; large papers/responses remain workspace-only"
+  },
+  {
+    "path": "curation/workspace/sjogren-disease/scans/scan-89cc09c8609020610e684814/papers.json",
+    "bytes": 1682023,
+    "sha256": "42261a44313724e1d73d220f9ba050a4e2c94e8ccf9f0f990b857a4a04155b37",
+    "preservation": "reports durable; large papers/responses remain workspace-only"
+  },
+  {
+    "path": "curation/workspace/sjogren-disease/scans/scan-89cc09c8609020610e684814/responses.json",
+    "bytes": 8383891,
+    "sha256": "d1f7f810b8697f45aa0245cf3ebed6e817ba719caed4a32e785a730a52325d4a",
+    "preservation": "reports durable; large papers/responses remain workspace-only"
+  },
+  {
+    "path": "curation/workspace/sjogren-disease/scans/scan-cd6dc1b4b9485d1e527918dc/report.json",
+    "bytes": 408190,
+    "sha256": "d4d2b6b148d00996b1116f1427f315fc52b87a01f3f8e4862e0a94a97c328c6f",
+    "preservation": "reports durable; large papers/responses remain workspace-only"
+  },
+  {
+    "path": "curation/workspace/sjogren-disease/scans/scan-cd6dc1b4b9485d1e527918dc/report.md",
+    "bytes": 112661,
+    "sha256": "c8d05c37988734bedef2d607e93bb6d136a6e02fd87c7a829bf13a22210405ad",
+    "preservation": "reports durable; large papers/responses remain workspace-only"
+  },
+  {
+    "path": "curation/workspace/sjogren-disease/scans/scan-cd6dc1b4b9485d1e527918dc/papers.json",
+    "bytes": 9178575,
+    "sha256": "12b94ad8caa0f32b693ae2f25d902e2a285aed88e376c56137dd83fcefc70083",
+    "preservation": "reports durable; large papers/responses remain workspace-only"
+  },
+  {
+    "path": "curation/workspace/sjogren-disease/scans/scan-cd6dc1b4b9485d1e527918dc/responses.json",
+    "bytes": 62856014,
+    "sha256": "17c1ad0d26cc15af584b72f2c181bee59305ace3eb6dc466314cf9d62ac1392a",
+    "preservation": "reports durable; large papers/responses remain workspace-only"
+  }
+]

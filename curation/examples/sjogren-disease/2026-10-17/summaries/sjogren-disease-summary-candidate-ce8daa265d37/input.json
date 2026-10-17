@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "diseaseId": "sjogren-disease",
+  "baseReleaseId": "sjogren-disease-appraised-candidate-a67de9da4a52",
+  "baseContentDigest": "1ff2b0a1a25ed422fa97328f1e3158614a2af8daceddd807435d972dd49276e9",
+  "scope": "Bounded primary Sjögren disease: epithelial activation, interferon, BAFF/B-cell activity, autoantibodies, ectopic lymphoid organisation and glandular dysfunction; excludes secondary disease, mimics and symptomatic therapy efficacy.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "Salivary epithelial cells expressed and secreted BAFF after interferon stimulation. Aged BAFF-transgenic mice developed sialadenitis with decreased saliva production. IFN-alpha induced BAFF secretion in cultured salivary epithelial cells from primary Sjögren patients and controls.",
+      "claimIds": [
+        "claim-sjd-epithelium-baff",
+        "claim-sjd-baff-saliva",
+        "claim-sjd-ifna-baff"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Induced production in culture; basal secretion was undetectable. Exact epithelial origin and stimulation methods inspected in PMC1526588 Results. Engineered BAFF overexpression; not evidence of sufficiency or necessity in primary human Sjögren disease. Treatment efficacy has not been synthesized in this summary.",
+      "claimIds": [
+        "claim-sjd-epithelium-baff",
+        "claim-sjd-baff-saliva",
+        "claim-sjd-ifna-baff"
+      ]
+    }
+  ]
+}
