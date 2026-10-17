@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { resolve, join } from 'node:path';
-import { listDiseases } from '../../../scripts/curation/diseases.mjs';
+import { listDiseases, loadShortLabels } from '../../../scripts/curation/diseases.mjs';
 import { listPublishedReleases, loadPublishedRelease } from '../../../scripts/release-store.mjs';
 import { validatePreview } from '../../../scripts/validation.mjs';
 import type { ReleaseBundle } from './types';
@@ -47,3 +47,5 @@ export const atlas: AtlasDisease[] = profiles.flatMap<AtlasDisease>(profile => {
 if (!atlas.length) throw new Error(isPublication ? 'No approved current root (current.json). Complete authenticated scientific publication first.' : 'No validated disease candidate is selected');
 export const primaryDisease = atlas.find(item => item.profile.id === match?.[1]) ?? atlas.find(item => item.profile.id === 'sle') ?? atlas[0];
 export const diseaseProfiles = profiles;
+/** Curated word-cloud display names by entity ID; presentation only, so they apply to every snapshot of a disease. */
+export const shortLabelsFor = (id: string): Record<string, string> => loadShortLabels(root, id);

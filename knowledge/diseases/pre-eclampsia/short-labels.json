@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-flt1-locus": "FLT1 variant",
+    "entity-placental-ischaemia": "Placental ischaemia",
+    "entity-endotheliosis": "Endotheliosis",
+    "entity-eclampsia": "Eclampsia",
+    "entity-fgr": "FGR",
+    "entity-at1-aa": "AT1-AA",
+    "entity-at1r": "AT1R",
+    "entity-no": "NO bioavailability",
+    "entity-endothelial-dysfunction": "Endothelial dysfunction",
+    "entity-hla-c-kir": "KIR / HLA-C",
+    "entity-unk": "uNK cells",
+    "entity-trophoblast": "EVT",
+    "entity-spiral-artery-remodelling": "Spiral arteries",
+    "entity-oxidative-stress": "Oxidative stress"
+  }
+}

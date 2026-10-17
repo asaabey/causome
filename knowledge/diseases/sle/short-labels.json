@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-clearance": "Impaired clearance",
+    "entity-variant": "TLR7 GoF variant",
+    "entity-complexes": "Immune complexes",
+    "entity-fcr": "Fc receptors",
+    "entity-kidney": "Renal injury"
+  }
+}

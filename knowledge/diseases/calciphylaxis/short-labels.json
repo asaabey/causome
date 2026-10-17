@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-vka": "VKA (warfarin)",
+    "entity-phosphate": "Phosphate",
+    "entity-vsmc-osteogenic": "VSMC osteogenic switch",
+    "entity-arteriolar-calcification": "Arteriolar calcification",
+    "entity-ckd-dialysis": "Dialysis (CKD 5D)",
+    "entity-pth": "PTH",
+    "entity-corticosteroids": "Corticosteroids",
+    "entity-intimal-hyperplasia": "Intimal hyperplasia",
+    "entity-thrombosis": "Microthrombosis",
+    "entity-skin-necrosis": "Skin necrosis",
+    "entity-wound-infection": "Infection / sepsis",
+    "entity-casr": "CaSR"
+  }
+}

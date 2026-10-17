@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-iga-cells": "IgA1 cell lines",
+    "entity-gd-iga1": "Gd-IgA1",
+    "entity-iga-complexes": "IgA1 complexes",
+    "entity-kidney": "Renal injury"
+  }
+}

@@ -4,6 +4,7 @@ import { ArrowRight, Focus, List, Minus, Plus } from 'lucide-react';
 import type { Relationship, ReleaseBundle } from '../data/types';
 import { feedbackEdgeIds } from '../lib/graph/geometry';
 import EvidenceInspector, { type Selection } from './graph/EvidenceInspector';
+import KeyPlayers from './graph/KeyPlayers';
 import MechanismSearch from './graph/MechanismSearch';
 import { classPresentation, edgeTypes, humanize, nodeTypes, type BiologicalEdge, type BiologicalNode } from './graph/FlowElements';
 import '@xyflow/react/dist/style.css';
@@ -19,7 +20,7 @@ function ViewportControls({ selectedId }: { selectedId?: string }) {
   </div>;
 }
 
-function GraphWorkspace({ release }: { release: ReleaseBundle }) {
+function GraphWorkspace({ release, shortLabels }: { release: ReleaseBundle; shortLabels?: Record<string, string> }) {
   const [viewId, setViewId] = useState(release.mapViews[0]?.id);
   const view = release.mapViews.find(item => item.id === viewId) ?? release.mapViews[0];
   const layout = release.layouts.find(item => item.id === view?.layoutId);
@@ -119,6 +120,7 @@ function GraphWorkspace({ release }: { release: ReleaseBundle }) {
         }}>{collapsed ? 'Expand' : 'Collapse'} {group.label}<small>{group.entityIds.length} entities · {group.entityIds.map(id => release.entities.find(item => item.id === id)?.label).join(', ')}</small></button>;
       })}</div>}
       {release.therapies.length > 0 && <div className="mechanism-therapies" aria-label="Explore therapies"><span className="graph-kicker">Interventions</span>{release.therapies.map(item => <button key={item.id} type="button" aria-pressed={selection?.kind === 'therapy' && selection.id === item.id} onClick={() => setSelection({ kind: 'therapy', id: item.id })}>{item.name.split(' (')[0]}<small>{humanize(item.developmentStatus)}</small></button>)}</div>}
+      <KeyPlayers release={release} shortLabels={shortLabels} selectedId={selection?.kind === 'entity' ? selection.id : undefined} onSelect={id => inspect({ kind: 'entity', id })} />
       <div className="mechanism-canvas" aria-label="Mechanism diagram. Drag the background to pan; use the buttons to zoom. A complete text outline is available below.">
         <ReactFlow<BiologicalNode, BiologicalEdge> key={view.id} nodes={nodes} edges={edges} nodeTypes={nodeTypes} edgeTypes={edgeTypes}
           onNodesChange={onNodesChange} onEdgesChange={onEdgesChange}
@@ -152,6 +154,6 @@ function GraphWorkspace({ release }: { release: ReleaseBundle }) {
   </section>;
 }
 
-export default function MechanismMap({ release }: { release: ReleaseBundle }) {
-  return <ReactFlowProvider><GraphWorkspace release={release} /></ReactFlowProvider>;
+export default function MechanismMap({ release, shortLabels }: { release: ReleaseBundle; shortLabels?: Record<string, string> }) {
+  return <ReactFlowProvider><GraphWorkspace release={release} shortLabels={shortLabels} /></ReactFlowProvider>;
 }

@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-human-fibroblast-cultures": "Fibroblast cultures",
+    "entity-igg4-salivary-fibroblasts": "FAP+ fibroblasts",
+    "entity-ecm": "ECM production"
+  }
+}

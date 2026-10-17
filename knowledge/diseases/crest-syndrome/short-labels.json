@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-aca": "ACA",
+    "entity-hla-ii": "HLA class II",
+    "entity-pdc": "pDCs",
+    "entity-ifn": "Type I IFN",
+    "entity-pah": "PAH",
+    "entity-ild": "ILD",
+    "entity-lcssc-progression": "lcSSc progression",
+    "entity-ecm": "ECM deposition",
+    "entity-gi-dysmotility": "Oesophageal dysmotility",
+    "entity-integrin-avb3": "αvβ3 integrin",
+    "entity-aeca": "AECA",
+    "entity-endothelial-injury": "Endothelial injury"
+  }
+}

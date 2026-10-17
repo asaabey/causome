@@ -5,7 +5,7 @@ import MechanismMap from './MechanismMap';
 import AssessmentCard from './AssessmentCard.astro';
 import SummaryParagraph from './SummaryParagraph';
 import type { ReleaseBundle } from '../data/types';
-import type { DiseaseProfile } from '../data/atlas';
+import { shortLabelsFor, type DiseaseProfile } from '../data/atlas';
 interface Props { release: ReleaseBundle; disease: DiseaseProfile; isPublication: boolean; historical?: boolean }
 const { release, disease: profile, isPublication, historical = false } = Astro.props;
 const disease = isPublication || historical ? { ...profile, label: release.title, summary: release.diseaseDescription ?? (isPublication ? release.releaseNote : 'Explore this snapshot’s mechanisms, claims and source evidence.') ?? 'Reviewed contextual evidence and limitations.', aliases: release.diseaseAliases ?? [] } : profile;
@@ -26,7 +26,7 @@ const readable = (value: string) => value.replaceAll('_', ' ');
   {release.scientificSummary && <section class="page-width content-page" aria-label="Overall scientific summary"><h2>Overall scientific summary</h2><p>Scope: {release.scientificSummary.scope}</p>{release.scientificSummary.paragraphs.map(paragraph => <SummaryParagraph text={paragraph.text} entities={release.entities} />)}<p>Evidence cutoff {release.evidenceCutoff}</p>{!historical && <p><a href={sitePath(`/diseases/${disease.id}/summary-review.md`)} download>Download summary and external review prompt</a> · <a href={sitePath(`/curation/?disease=${disease.id}`)}>Review this summary in the curator</a></p>}</section>}
   <section class="map-section" aria-labelledby="map-heading">
     <div class="map-section-heading"><div><h2 id="map-heading">Mechanism map</h2><p>{release.entities.length} entities · {release.relationships.length} relationships · {release.therapies.length} therapies</p></div><a href="#mechanism-outline">Read the text outline ↓</a></div>
-    <MechanismMap release={release} client:load />
+    <MechanismMap release={release} shortLabels={shortLabelsFor(profile.id)} client:load />
     <noscript><p class="preview-notice">The interactive map needs JavaScript. Every entity, relationship, therapy and evidence item is available in the text outline below.</p></noscript>
   </section>
   <section id="mechanism-outline" class="outline-section page-width" aria-labelledby="outline-heading">

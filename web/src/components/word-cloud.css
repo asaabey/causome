@@ -1,0 +1,47 @@
+.word-cloud { padding: 14px 24px 18px; border-bottom: 1px solid #d3dcd4; }
+.word-cloud > summary { cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; min-height: 44px; padding-block: 10px; }
+.word-cloud__title { color: #237467; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.word-cloud__caption { color: #4d6657; font-size: 12px; }
+.word-cloud__cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 12px; margin-top: 6px; }
+.word-cloud__card { padding: 10px 12px 12px; border: 1px solid #d3dcd4; border-top: 3px solid var(--accent); border-radius: 7px; background: #fffef9; }
+.word-cloud h3 { margin: 0 0 8px; color: #486b61; font-size: 11px; font-weight: 650; letter-spacing: .04em; text-transform: uppercase; }
+.word-cloud__words { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 8px; }
+.word-cloud__row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; margin-top: 12px; }
+.word-cloud__row h3 { margin: 0; }
+.word-cloud__row .word-cloud__word { font-weight: 500; }
+.word-cloud__word { padding: 3px 8px; border: 1px solid transparent; border-radius: 6px; background: var(--tint); color: var(--accent); font: inherit; font-weight: 600; line-height: 1.2; text-align: left; }
+.word-cloud__word sup { margin-left: 3px; font-size: 10px; font-weight: 500; }
+button.word-cloud__word { cursor: pointer; }
+button.word-cloud__word:hover { border-color: var(--accent); }
+button.word-cloud__word:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button.word-cloud__word[aria-pressed="true"] { background: var(--accent); color: #fffef9; }
+.word-cloud__toggle { display: inline-flex; margin: 2px 0 10px; border: 1px solid #bdcbbf; border-radius: 7px; overflow: hidden; }
+.word-cloud__toggle button { cursor: pointer; min-height: 36px; padding: 6px 14px; border: 0; background: #fffef9; color: #315b4d; font-size: 12px; }
+.word-cloud__toggle button + button { border-left: 1px solid #bdcbbf; }
+.word-cloud__toggle button[aria-pressed="true"] { background: #315b4d; color: #fffef9; }
+.word-cloud__frame { padding: 8px 0; }
+.word-cloud__svg { display: block; width: 100%; height: auto; margin: 0 auto; overflow: visible; }
+.word-cloud__placed text { fill: var(--accent); font-family: var(--sans); font-weight: 600; text-anchor: middle; }
+.word-cloud__placed rect { fill: transparent; stroke: transparent; stroke-width: 1.5; }
+.word-cloud__placed[role="button"] { cursor: pointer; outline: none; }
+.word-cloud__placed[role="button"]:hover rect { fill: var(--tint); }
+.word-cloud__placed[role="button"]:focus-visible rect { stroke: var(--accent); stroke-width: 2.5; }
+.word-cloud__placed[aria-pressed="true"] rect, .word-cloud__placed[aria-pressed="true"]:hover rect { fill: var(--accent); }
+.word-cloud__placed[aria-pressed="true"] text { fill: #fffef9; }
+.word-cloud__placed--glyph text { stroke: transparent; stroke-width: .3em; stroke-linejoin: round; paint-order: stroke; }
+.word-cloud__placed--glyph[role="button"]:hover text { stroke: var(--tint); }
+.word-cloud__placed--glyph[role="button"]:focus-visible text { stroke: var(--tint); text-decoration: underline; text-decoration-thickness: .08em; }
+.word-cloud__placed--glyph[aria-pressed="true"] text, .word-cloud__placed--glyph[aria-pressed="true"]:hover text { stroke: var(--accent); fill: #fffef9; }
+.word-cloud__legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 4px 0 0; padding: 0; list-style: none; color: #486b61; font-size: 11px; }
+.word-cloud__legend li { display: inline-flex; align-items: center; gap: 6px; }
+.word-cloud__legend li::before { content: ''; width: 10px; height: 10px; border-radius: 3px; background: var(--accent); }
+/* Every accent holds at least 4.5:1 against both its tint and the pressed-state text colour. */
+.word-cloud--tone-neutral { --accent: #315b4d; --tint: #eef2ec; }
+.word-cloud--tone-plum { --accent: #7e3459; --tint: #f6ecf1; }
+.word-cloud--tone-blue { --accent: #2a5784; --tint: #ebf1f7; }
+.word-cloud--tone-amber { --accent: #85490a; --tint: #f8f0e4; }
+.word-cloud--tone-green { --accent: #1f6a5e; --tint: #e7f1ec; }
+.word-cloud--tone-violet { --accent: #54467f; --tint: #efedf6; }
+.word-cloud--tone-olive { --accent: #525d2f; --tint: #f0f2e6; }
+.word-cloud--tone-earth { --accent: #66463a; --tint: #f4eeea; }
+@media (max-width: 760px) { .word-cloud { padding-inline: 16px; } }
