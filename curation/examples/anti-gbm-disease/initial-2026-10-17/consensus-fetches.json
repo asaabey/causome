@@ -1,0 +1,41 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"id\": \"0392a7a8996950cc85a399326ecf6e86\", \"title\": \"Complement activation in anti-glomerular basement membrane disease before and after treatment with imlifidase\", \"text\": \"Background: The involvement of the complement system in anti-glomerular basement membrane (GBM) disease is well known but incompletely characterized. The ability of autoantibodies to trigger the classical pathway is evident, while the lectin and alternative pathways also seem to be of importance. We studied complement activation in patients treated with imlifidase, which leads to rapid IgG depletion, to elucidate the role of complement in anti-GBM disease.\\n\\nMethods: The GOOD-IDES-01 trial included 15 anti-GBM disease patients treated with one dose of imlifidase in addition to standard therapy with 6 months of follow-up. Plasma samples were analyzed for C3, C4 and complement activation products [C4d, C3bBbP and soluble terminal complement complexes (sTCC)]. Ratios of C4d/C4 and C3bBbP/C3 were calculated to correct for plasmapheresis. Serum samples were analyzed for anti-drug antibodies (ADA) directed against imlifidase.\\n\\nResults: The C4d/C4 ratio decreased rapidly from its pre-dose level, while sTCC decreased more slowly. sTCC and C3bBbP/C3 were above the reference level throughout the trial. We observed a transient increase in C4d/C4 and C3bBbP/C3, but not sTCC, immediately following treatment with imlifidase, which tended to be more pronounced in patients with more pre-existing ADA.\\n\\nConclusions: Classical pathway activation decreased rapidly after autoantibody removal by imlifidase and increased again in most of those that experienced a rebound, but terminal complement activation remained elevated throughout the trial. However, due to the small sample size our results must be interpreted with caution.\\n\\n© The Author(s) 2025. Published by Oxford University Press on behalf of the ERA.\\n\\nKey takeaway: Imlifidase treatment rapidly reduces classical pathway activation in anti-GBM disease patients, but terminal complement activation remains elevated throughout the trial.\", \"url\": \"https://consensus.app/papers/complement-activation-in-antiglomerular-basement-tyrberg-uhlin/0392a7a8996950cc85a399326ecf6e86/?utm_source=chatgpt\", \"metadata\": {\"authors\": \"Linnéa Tyrberg, Fredrik Uhlin, S. Alam, Elisabeth Sonesson, T. Hellmark, Anna M Blom, Mårten Segelmark\", \"publish_year\": \"2025\", \"journal\": \"Clinical Kidney Journal\", \"volume\": \"19\", \"citation_count\": \"3\", \"doi\": \"10.1093/ckj/sfaf393\"}}"
+        }
+      ],
+      "structuredContent": null,
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"id\": \"ff32142eef4d59f6a2035cf9ff7d8141\", \"title\": \"Perlecan is a novel target of autoantibodies in anti-glomerular basement membrane disease.\", \"text\": \"Background: Anti-glomerular basement membrane (anti-GBM) disease is an autoimmune kidney disease in which autoantibodies are directed against GBM components. Type IV collagen and laminin α5β2γ1 (laminin 521) within the GBM are two major target antigens in anti-GBM disease. Perlecan is a type of heparan sulphate proteoglycans, ubiquitously expressed in basement membranes. The present study aimed to investigate whether perlecan could be recognized by anti-GBM antibodies and further analysed the properties and clinical associations of anti-perlecan antibodies.\\n\\nMethods: A total of 108 patients diagnosed with anti-GBM disease between January 2000 and December 2018 were included in the study. Additionally, 100 patients with various active glomerular diseases were utilized as disease controls, along with 40 healthy controls. Immunoglobulin G (IgG) antibodies against perlecan were detected by enzyme-linked immunosorbent assay and immunoblot.\\n\\nResults: Circulating IgG antibodies against perlecan were detected in 18.5% (20/108) of the anti-GBM patients but not in the healthy controls or other glomerular disease controls. Anti-perlecan IgG antibodies were predominantly of the IgG3 subclass. Patients with anti-perlecan autoantibodies had a higher prevalence of lung haemorrhage than those without (55.0% versus 26.1%; P = .012). A 'triple-positive' subgroup with anti-GBM disease was identified, who had circulating autoantibodies simultaneously against type IV collagen, laminin 521 and perlecan. This subgroup had the highest prevalence of lung haemorrhage [66.7% (10/15)] and incidence of end-stage kidney disease events [93.3% (14/15)], indicating a more aggressive immune-mediated tissue injury among these patients.\\n\\nConclusion: Perlecan expands the repertoire of target antigens in anti-GBM disease. The discovery of autoantibodies against perlecan identified a 'triple-positive' subgroup with a more severe clinical phenotype among patients with anti-GBM disease. The pathogenic role of autoimmunity against perlecan and the pathophysiology of the co-existence of three autoantibodies merit further investigation in the future.\\n\\n© The Author(s) 2025. Published by Oxford University Press on behalf of the ERA. All rights reserved. For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via the Permissions link on the article page on our site-for further information please contact journals.permissions@oup.com.\\n\\nKey takeaway: Perlecan is a novel target of autoantibodies in anti-GBM disease, and its discovery identified a 'triple-positive' subgroup with a more severe clinical phenotype among patients.\", \"url\": \"https://consensus.app/papers/perlecan-is-a-novel-target-of-autoantibodies-in-kuang-wang/ff32142eef4d59f6a2035cf9ff7d8141/?utm_source=chatgpt\", \"metadata\": {\"authors\": \"Huang Kuang, Beining Wang, Xiao-Yu Jia, Z. Cui, Xiao-Juan Yu, Nan Jiang, D. Borza, Ming-Hui Zhao\", \"publish_year\": \"2025\", \"journal\": \"Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association\", \"citation_count\": \"3\", \"doi\": \"10.1093/ndt/gfaf153\"}}"
+        }
+      ],
+      "structuredContent": null,
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"id\": \"9b904e4a51d451ae9ce63e80840a440e\", \"title\": \"Engineered antigen-specific T regulatory cells suppress autoreactivity to the anti-glomerular basement membrane disease antigen.\", \"text\": \"Key takeaway: GBM-TCR Tregs show potential as a promising cell-based therapy for anti-GBM disease by effectively suppressing autoreactive conventional T cells and modulating immune cells.\", \"url\": \"https://consensus.app/papers/engineered-antigenspecific-t-regulatory-cells-suppress-eggenhuizen-ng/9b904e4a51d451ae9ce63e80840a440e/?utm_source=chatgpt\", \"metadata\": {\"authors\": \"P. Eggenhuizen, B. H. Ng, C. Lo, Janet Chang, S. Snelgrove, R. M. Cheong, Chanjuan Shen, Steven Lim, Y. Zhong, Poh-Yi Gan, J. Ooi\", \"publish_year\": \"2025\", \"journal\": \"Kidney international\", \"citation_count\": \"7\", \"doi\": \"10.1016/j.kint.2025.01.005\"}}"
+        }
+      ],
+      "structuredContent": null,
+      "isError": false
+    }
+  }
+]

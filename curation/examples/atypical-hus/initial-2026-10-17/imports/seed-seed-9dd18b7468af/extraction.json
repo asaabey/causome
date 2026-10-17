@@ -1,0 +1,492 @@
+{
+  "version": 1,
+  "diseaseId": "atypical-hus",
+  "baseReleaseId": "atypical-hus-candidate-20261017-01",
+  "baseContentDigest": "2996c90e8d23e4bbd2f7743eac3439f880a161f91f5b416a0d6cf1511823c169",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "manual-source-check-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "ahus-fh-block",
+      "subject": "entity-anti-factor-h",
+      "object": "entity-factor-h",
+      "predicate": "inhibits",
+      "text": "IgG from five unrelated aHUS patients inhibited factor H binding to C3b in a functional assay.",
+      "quote": "isolated patient IgG inhibited FH binding to C3b",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Five patient IgG preparations; recombinant fragments and biochemical binding assay",
+      "limitations": [
+        "Sheep-erythrocyte hemolysis experiments do not directly demonstrate human renal endothelial injury.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-fdc36fb463f35af9e660",
+      "paperDigest": "909b04944b9ce5325a0ac8cd895fcffd3d0d235006db158e4e7d6a2378b5652a"
+    },
+    {
+      "id": "ahus-cfhr-antibody",
+      "subject": "entity-ahus-cfhr-deficiency",
+      "object": "entity-anti-factor-h",
+      "predicate": "is_associated_with",
+      "text": "In 147 aHUS patients, 16 juvenile autoantibody-positive patients had absent or very low CFHR1/CFHR3.",
+      "quote": "16 juvenile individuals",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "147-patient cohort; CFHR protein levels and autoantibody mapping",
+      "limitations": [
+        "Association does not establish that deletion causes autoantibodies or that deficiency is sufficient for aHUS.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_genetic",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-ffc61bb297b66c65b8b7",
+      "paperDigest": "afc6d9fea0b7443b643aa82db61370b3cb91aa1e190025f635f0695a2e277bdc"
+    },
+    {
+      "id": "ahus-genetic-risk",
+      "subject": "entity-complement-regulatory-variants",
+      "object": "entity-ahus-susceptibility",
+      "predicate": "is_associated_with",
+      "text": "Among 795 aHUS patients, single complement-gene mutations were detected in 41% and combined mutations in 3%.",
+      "quote": "single mutations in 41% and combined mutations in 3%",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Human multicentre genetic cohort; 795 patients",
+      "limitations": [
+        "Historical mutation classification and selected ascertainment; current variant reclassification not performed.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_genetic",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-2e9ed71bf11faf232b51",
+      "paperDigest": "97739545169a8b65a3b5f52a769420bbb9fe555cb764d8cd308ef96b02c26ef7"
+    },
+    {
+      "id": "ahus-penetrance",
+      "subject": "entity-complement-regulatory-variants",
+      "object": "entity-ahus-susceptibility",
+      "predicate": "is_associated_with",
+      "text": "Penetrance among combined-mutation carriers differed with CFH/MCP risk haplotypes: 73% with two versus 36% with zero or one.",
+      "quote": "73% penetrance among carriers with two risk haplotypes compared with 36% penetrance",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Human family and genotype–phenotype analysis",
+      "limitations": [
+        "Susceptibility variants do not determine clinical disease; estimates are cohort-specific.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_genetic",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-2e9ed71bf11faf232b51",
+      "paperDigest": "97739545169a8b65a3b5f52a769420bbb9fe555cb764d8cd308ef96b02c26ef7"
+    },
+    {
+      "id": "ahus-fi-function",
+      "subject": "entity-ahus-factor-i",
+      "object": "entity-ap-dysregulation",
+      "predicate": "inhibits",
+      "text": "In expression and endothelial assays, selected CFI variants impaired secretion or surface C3b degradation relative to wild type.",
+      "quote": "Three mutants cleaved surface-bound C3b less efficiently than WT",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Human HEK293 expression; purified proteins; endothelial-cell complement assays",
+      "limitations": [
+        "Variant-specific function; not every CFI variant is pathogenic or has the same defect.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-12e23ce5916d8f3ac225",
+      "paperDigest": "a9129230577e4f9c5e0e4c5cb07ab916cb36583a7bb170a40b68a730322b27e7"
+    },
+    {
+      "id": "ahus-cd46-function",
+      "subject": "entity-ahus-cd46",
+      "object": "entity-ap-dysregulation",
+      "predicate": "inhibits",
+      "text": "Cell lines expressing CD46 R69W or A304V controlled alternative-pathway surface activation less effectively than wild-type protein.",
+      "quote": "deficient in their ability to control the alternative pathway of complement activation on a cell surface",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Permanent cell lines expressing human CD46 variants; complement challenge",
+      "limitations": [
+        "Mixed clinical phenotypes in the report; functional impairment alone does not establish aHUS-specific pathogenicity.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-6ba5c495fa276fb41d2c",
+      "paperDigest": "cdb7cbd9f616d0c9d65ccc25361cc3bc71ad36ea9a8b32486fc51f45bc27585b"
+    },
+    {
+      "id": "ahus-c3-risk",
+      "subject": "entity-ahus-c3-variants",
+      "object": "entity-ahus-susceptibility",
+      "predicate": "is_associated_with",
+      "text": "Nine novel C3 mutations were described in 14 selected aHUS patients with persistently low C3.",
+      "quote": "9 novel C3 mutations in 14 aHUS patients",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Selected human low-C3 case series and functional analysis",
+      "limitations": [
+        "Not a prevalence estimate for unselected aHUS.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_genetic",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-4a7a2e6f943928c5d468",
+      "paperDigest": "ccb3e8eaf50a0576210e14fffcb424b2ea07fe880c61024920bfad94752c4dc2"
+    },
+    {
+      "id": "ahus-c3-heterogeneity",
+      "subject": "entity-ahus-c3-variants",
+      "object": "entity-ahus-susceptibility",
+      "predicate": "is_associated_with",
+      "text": "The C3 series reported five gain-of-function and two inactivating mutations, qualifying any uniform gain-of-function interpretation.",
+      "quote": "5 of these mutations are gain-of-function and 2 are inactivating",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Human C3 mutation functional analysis",
+      "limitations": [
+        "Not all identified variants were shown to have the same functional consequence.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_genetic",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-4a7a2e6f943928c5d468",
+      "paperDigest": "ccb3e8eaf50a0576210e14fffcb424b2ea07fe880c61024920bfad94752c4dc2"
+    },
+    {
+      "id": "ahus-serum-mac",
+      "subject": "entity-ahus-serum",
+      "object": "entity-ahus-mac",
+      "predicate": "activates",
+      "text": "Acute aHUS serum induced greater C3 and C5b-9 deposition than control serum on unstimulated HMEC-1.",
+      "quote": "Acute aHUS serum, but not serum from remission",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Human serum and HMEC-1 culture; 44 patients and relatives",
+      "limitations": [
+        "Culture deposition cannot be interpreted as a validated clinical activity test.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-78dd5f2110ee94ce5ca4",
+      "paperDigest": "019072b301694a1d196a724502e8d7f222747934efa84b0d35445cc1bfa0b04a"
+    },
+    {
+      "id": "ahus-carrier-mac",
+      "subject": "entity-ahus-serum",
+      "object": "entity-ahus-mac",
+      "predicate": "activates",
+      "text": "On ADP-activated HMEC-1, serum from unaffected mutation carriers also induced excessive complement deposition.",
+      "quote": "from all unaffected mutation carriers",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Serum from relatives and patients; ADP-activated human HMEC-1",
+      "limitations": [
+        "Abnormal assay response is not sufficient for clinical aHUS and depends on cell activation.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-78dd5f2110ee94ce5ca4",
+      "paperDigest": "019072b301694a1d196a724502e8d7f222747934efa84b0d35445cc1bfa0b04a"
+    },
+    {
+      "id": "ahus-glomerular-mac",
+      "subject": "entity-ahus-serum",
+      "object": "entity-ahus-mac",
+      "predicate": "activates",
+      "text": "Acute-phase sera from five aHUS patients increased C5b-9 deposition on glomerular microvascular endothelial cells.",
+      "quote": "Sera from acute disease phases of all patients showed increased endothelial C5b-9 deposition",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Five patients; control conditionally immortalized human glomerular endothelial cells",
+      "limitations": [
+        "Small sample and culture model; magnitude did not perfectly track clinical severity.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-54336a4bb12635f02233",
+      "paperDigest": "e338e2fcf3811795d99fc543476aa93e2b13b99d23d3edc51a4adb04b193d243"
+    },
+    {
+      "id": "ahus-remission-mac",
+      "subject": "entity-ahus-serum",
+      "object": "entity-ahus-mac",
+      "predicate": "activates",
+      "text": "Remission samples normalized C5b-9 deposition with or without ongoing eculizumab complement blockade.",
+      "quote": "whether remission was reached with or without complement blockage by eculizumab",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Longitudinal patient serum on human glomerular endothelial cultures",
+      "limitations": [
+        "Qualifies disease-activity and drug-response interpretation; assay is not sufficient to infer treatment need.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-54336a4bb12635f02233",
+      "paperDigest": "e338e2fcf3811795d99fc543476aa93e2b13b99d23d3edc51a4adb04b193d243"
+    },
+    {
+      "id": "ahus-ecu-mac",
+      "subject": "entity-ahus-eculizumab",
+      "object": "entity-ahus-mac",
+      "predicate": "inhibits",
+      "text": "Eculizumab dose-dependently inhibited activated-serum C5b-9 deposition on glomerular endothelial cultures.",
+      "quote": "could be dose-dependently inhibited by adding the C5 inhibitor eculizumab",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Zymosan-activated human serum and glomerular endothelial cells",
+      "limitations": [
+        "Zymosan may also activate endothelial cells; no clinical efficacy estimate from this experiment.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-54336a4bb12635f02233",
+      "paperDigest": "e338e2fcf3811795d99fc543476aa93e2b13b99d23d3edc51a4adb04b193d243"
+    },
+    {
+      "id": "ahus-mac-tma",
+      "subject": "entity-ahus-mac",
+      "object": "entity-ahus-tma",
+      "predicate": "contributes_to",
+      "text": "In C3 D1115N mice, C7 deficiency abolished clinical and histological disease, supporting a requirement for MAC in that model.",
+      "quote": "C7 deficiency completely abolished both clinical and histological evidence of disease",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "C3 D1115N knock-in mice; C7 knockout and therapeutic anti-C7 perturbation",
+      "limitations": [
+        "Mouse-model causal evidence; does not establish anti-C7 clinical efficacy or universal human dependence.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-f6abbde31d7be44d2294",
+      "paperDigest": "27bdd779ebd8875d5291cff42b2086e2ba799474c2c3efdfe5c0742563fe490b"
+    },
+    {
+      "id": "ahus-c5ar-tma",
+      "subject": "entity-ahus-c5ar1",
+      "object": "entity-ahus-tma",
+      "predicate": "contributes_to",
+      "text": "C5aR1 removal attenuated clinical disease risk in C3 D1115N mice but renal TMA still developed.",
+      "quote": "mice still developed thrombotic microangiopathy",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "C3 D1115N mice crossed with C5aR1-deficient mice",
+      "limitations": [
+        "C5aR1 contribution is model-specific; not equivalent to MAC blockade.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-f6abbde31d7be44d2294",
+      "paperDigest": "27bdd779ebd8875d5291cff42b2086e2ba799474c2c3efdfe5c0742563fe490b"
+    },
+    {
+      "id": "ahus-fh-mac-tma",
+      "subject": "entity-ahus-mac",
+      "object": "entity-ahus-tma",
+      "predicate": "contributes_to",
+      "text": "C6 or C9 deficiency markedly diminished renal TMA in factor H W1206R mutant mice.",
+      "quote": "C6 or C9 deficiency significantly improved survival and markedly diminished renal TMA",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Factor H W1206R mouse; C6/C9 genetic deficiency",
+      "limitations": [
+        "Aged deficient mice developed C3GN-like disease; terminal blockade does not normalize all upstream biology.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-421026d667ebce72edc9",
+      "paperDigest": "8201bacbf742d42b40f879d91688f1eb03bc18e8c67d895efbd9c88b6986b946"
+    },
+    {
+      "id": "ahus-fh-c5ar-macro",
+      "subject": "entity-ahus-c5ar1",
+      "object": "entity-ahus-macrothrombosis",
+      "predicate": "contributes_to",
+      "text": "C5aR1 deficiency prevented macrovascular thrombosis in factor H mutant mice.",
+      "quote": "C5aR1 gene deficiency prevented macrovascular thrombosis",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Factor H W1206R mouse; C5aR1 genetic deficiency",
+      "limitations": [
+        "Macrovascular thrombosis is a distinct mouse outcome; not a claim of universal human aHUS manifestations.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-421026d667ebce72edc9",
+      "paperDigest": "8201bacbf742d42b40f879d91688f1eb03bc18e8c67d895efbd9c88b6986b946"
+    },
+    {
+      "id": "ahus-fh-c5ar-renal",
+      "subject": "entity-ahus-c5ar1",
+      "object": "entity-ahus-tma",
+      "predicate": "contributes_to",
+      "text": "C5aR1 deficiency did not reduce renal TMA or improve survival in factor H mutant mice.",
+      "quote": "did not improve survival or reduce renal TMA",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Factor H W1206R mouse; C5aR1 genetic deficiency",
+      "limitations": [
+        "Null renal outcome qualifies pathway generalization; differs from clinical-risk attenuation in the C3 model.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "qualifying",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-421026d667ebce72edc9",
+      "paperDigest": "8201bacbf742d42b40f879d91688f1eb03bc18e8c67d895efbd9c88b6986b946"
+    },
+    {
+      "id": "ahus-ecu-response",
+      "subject": "entity-ahus-eculizumab",
+      "object": "entity-ahus-tma-response",
+      "predicate": "contributes_to",
+      "text": "In two prospective uncontrolled eculizumab phase 2 studies, platelet counts improved and 80% in the second trial achieved TMA event-free status.",
+      "quote": "80% of the patients had thrombotic microangiopathy event-free status",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "37 patients aged at least 12 years; two prospective single-arm phase 2 trials",
+      "limitations": [
+        "No concurrent randomized comparator; event-free status differs from complete TMA response.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "interventional",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-b8ffa5b97382ec69abe9",
+      "paperDigest": "86fce9af827db7d83565957462a81d70924769b8bb793ab5b2d10c95a78768fc"
+    },
+    {
+      "id": "ahus-ecu-renal",
+      "subject": "entity-ahus-eculizumab",
+      "object": "entity-kidney-function-loss",
+      "predicate": "inhibits",
+      "text": "Renal function improved during eculizumab treatment; four of five baseline dialysis patients in trial 1 discontinued dialysis.",
+      "quote": "dialysis was discontinued in 4 of 5 patients",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Two prospective single-arm phase 2 studies; distinct severity cohorts",
+      "limitations": [
+        "Small selected cohorts; no guarantee of renal recovery and no untreated comparator.",
+        "Selected primary-source inspection by an agent; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "interventional",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human domain approval)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-ahus-overview",
+      "paperKey": "doi-b8ffa5b97382ec69abe9",
+      "paperDigest": "86fce9af827db7d83565957462a81d70924769b8bb793ab5b2d10c95a78768fc"
+    }
+  ]
+}

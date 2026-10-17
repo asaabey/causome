@@ -1,0 +1,437 @@
+[
+  {
+    "claimId": "claim-c3gn-nephritic-stabilization",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "properdin-independent nephritic factors increased convertase half-life over 50-fold",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "supporting",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Mixed renal-disease population; assay activity does not establish C3GN causation or universal patient prevalence.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-fade1a9b5518c445d808"
+  },
+  {
+    "claimId": "claim-c3gn-nephritic-terminal-qualification",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "Representative properdin-independent nephritic factors had no effect on C5 cleavage and terminal pathway activity",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "qualifying",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Qualifies any extrapolation from convertase stabilization to universal terminal-pathway activation.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-fade1a9b5518c445d808"
+  },
+  {
+    "claimId": "claim-c3gn-nephritic-c3gn",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "The most common acquired abnormality was the presence of C3 nephritic factors",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "supporting",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Small selected case series; no population prevalence or causal sufficiency established.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-a244ff446770358b5fbc"
+  },
+  {
+    "claimId": "claim-c3gn-variants-c3gn",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "other abnormalities included Factor H autoantibodies and mutations in CFH, CFI, and CFHR genes",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "supporting",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Individual variant function and penetrance cannot be resolved from the abstract.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-a244ff446770358b5fbc"
+  },
+  {
+    "claimId": "claim-c3gn-genetic-heterogeneity",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "Mutations in complement regulatory genes were detected in 4/6 patients",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "supporting",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Historical diagnostic categories predate modern C3G criteria; selected cohort and subgroup sizes limit generalization.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-b0d758839c2902552446"
+  },
+  {
+    "claimId": "claim-c3gn-deposits",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "showed accumulation of AP and terminal complement complex proteins",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "supporting",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Deposited proteins do not by themselves prove the sequence or sufficiency of injury mechanisms.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-a244ff446770358b5fbc"
+  },
+  {
+    "claimId": "claim-c3gn-renal-presentation",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "typically presented with hematuria and proteinuria",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "supporting",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Clinicopathological association; does not prove deposits alone cause clinical manifestations.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-a244ff446770358b5fbc"
+  },
+  {
+    "claimId": "claim-c3gn-course-qualification",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "renal function remained stable in the majority of patients with native kidney disease",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "qualifying",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Small selected series; this is not an estimate of long-term kidney survival for all C3GN.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-a244ff446770358b5fbc"
+  },
+  {
+    "claimId": "claim-c3gn-anti-fh-function",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "anti-FH IgG samples isolated from three patients were able to affect the factor I cofactor activity of FH",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "supporting",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Broad glomerulopathy cohort; functional effect in three samples cannot be generalized to all C3GN or all anti-FH antibodies.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-e6f6e72771dfbb20338d"
+  },
+  {
+    "claimId": "claim-c3gn-anti-fh-qualification",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "these Abs induced no perturbations in FH cell surface protection or the binding of FH to its ligand",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "qualifying",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Different regulatory functions are distinct endpoints; antibody detection alone does not establish universal functional inhibition.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-e6f6e72771dfbb20338d"
+  },
+  {
+    "claimId": "claim-c3gn-iptacopan-proteinuria",
+    "sourceCheck": {
+      "checkedBy": "Codex agent (source inspection; not human approval)",
+      "checkedAt": "2026-10-15"
+    },
+    "quote": "relative reduction in 24-h UPCR at 6 months for iptacopan versus placebo of 35\u00b71%",
+    "quoteLocation": "Europe PMC indexed primary-report abstract",
+    "category": "supporting",
+    "accessScope": "Indexed primary-report abstract; initial check preserved",
+    "limitations": [
+      "Mixed C3G enrollment; no C3GN-specific efficacy estimate or long-term kidney-survival benefit established by this abstract. Trial funded by Novartis.",
+      "Abstract-only source inspection; independent domain review pending."
+    ],
+    "sourceId": "source-doi-e55def3fa75dabaf18aa"
+  },
+  {
+    "claimId": "claim-c3gn-cfhr5-protein",
+    "sourceId": "source-doi-1de181fbba9cced51df3",
+    "quote": "Duplication of exon 2 (encoding SCR1) and exon 3 (encoding SCR2), predicted a novel CFHR5 protein with duplicated SCR domains 1 and 2",
+    "quoteLocation": "PMC2935536 Results, Figure 7",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Founder variant; not all CFHR5 variation."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-cfhr5-binding",
+    "sourceId": "source-doi-1de181fbba9cced51df3",
+    "quote": "mutant CFHR512123-9 protein bound less effectively than did wild-type protein to two sources of surface-bound complement",
+    "quoteLocation": "PMC2935536 Results, Figure 8 and cited webappendix; superscript flattened for quotation",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Cross-system assay substrates; not a direct measurement of in-vivo human renal deposition.",
+      "The original assay supports reduced binding, not universal loss of FHR5 function."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-cfhr5-not-loss",
+    "sourceId": "source-doi-1de181fbba9cced51df3",
+    "quote": "The mutant CFHR512123-9 protein did not have reduced activity compared with wild-type in this assay",
+    "quoteLocation": "PMC2935536 Results, paragraph on factor I cofactor activity; superscript flattened",
+    "category": "qualifying",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Qualifies extrapolation to generalized loss of function; the cofactor assay is a different endpoint from surface binding.",
+      "Supplementary raw assays not independently inspected."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-cfhr5-segregation",
+    "sourceId": "source-doi-1de181fbba9cced51df3",
+    "quote": "none of the 36 individuals with biopsies showing C3 glomerulonephritis from the UK and France had the CFHR5 mutation",
+    "quoteLocation": "PMC2935536 Results and Discussion",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Ascertainment, shared founder ancestry and incomplete mechanistic understanding limit generalization."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-cfhr3-1-segregation",
+    "sourceId": "source-doi-d5843433959f478a1a9f",
+    "quote": "affected individuals carry a unique hybrid CFHR3-1 gene",
+    "quoteLocation": "Europe PMC primary abstract",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Abstract-only inspection; no functional competition or convertase-stabilization mechanism is inferred for this hybrid."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-familial-progression",
+    "sourceId": "source-doi-5e1eee58edff2ec0c340",
+    "quote": "18 developed ESRD (14 men [78%], 4 women [22%])",
+    "quoteLocation": "Europe PMC/Consensus primary abstract Results",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Expansion of the Gale founder cohort, not independent replication; percentages are cohort-specific, not population prognosis.",
+      "Abstract-only inspection; historical CKD/ESRD terminology retained."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-modern-autoantibodies",
+    "sourceId": "source-doi-52f03e0b14781095baf8",
+    "quote": "The correlation between the stabilization of convertases by complement autoantibodies",
+    "quoteLocation": "PMC10851021 abstract and Results; study-defined associations",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Retrospective referral cohort; biomarker/assay correlation does not establish prospective clinical causation.",
+      "Earlier Sethi and current Iowa referral datasets may overlap; independent replication is not assumed."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-modern-unknown",
+    "sourceId": "source-doi-52f03e0b14781095baf8",
+    "quote": "Over 50% of patients with C3GN and 24% of patients with DDD had no identifiable driver of disease",
+    "quoteLocation": "PMC10851021 Results, Defining the Disease Profiles in C3G; Discussion",
+    "category": "qualifying",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "No detected driver is not proof of biological absence; nephritic factors change over time.",
+      "Major stated limitation: sparse longitudinal data; local glomerular dysregulation remains a hypothesis."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-factor-b-convertase",
+    "sourceId": "source-doi-fade1a9b5518c445d808",
+    "quote": "fB, fD, and C3NeF IgGs were flowed over immobilized C3b",
+    "quoteLocation": "PMC3608896 Results, Real-time analysis of C3NeF stabilization of convertase; Methods",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Biochemical reconstitution; not a C3GN clinical experiment."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-convertase-c3",
+    "sourceId": "source-doi-fade1a9b5518c445d808",
+    "quote": "C3 was flowed for 2 min to deposit nascent C3b covalently on-chip",
+    "quoteLocation": "PMC3608896 Results, C3NeF binding enhances C3 convertase activity; whitespace normalized",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "C3 and C3b are represented by a combined protein node; assay-surface deposition is not human glomerular deposition."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-peg-proteinuria",
+    "sourceId": "source-doi-f3e2ceaeff5ddff27d21",
+    "quote": "relative reduction of 68.1% (95% CI, 57.3 to 76.2) as compared with placebo",
+    "quoteLocation": "NEJM/Europe PMC/Consensus primary abstract Results",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Pooled mixed-diagnosis result; no C3GN-specific estimate or head-to-head comparison with iptacopan.",
+      "Apellis/Sobi funding; full methods/supplement not inspected."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-peg-histology-qualification",
+    "sourceId": "source-doi-f3e2ceaeff5ddff27d21",
+    "quote": "subsequent end points (decrease in C3 staining and change in eGFR) were not formally tested",
+    "quoteLocation": "NEJM/Europe PMC/Consensus primary abstract Results",
+    "category": "qualifying",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Historical trial-analysis qualification; distinguish from the later August 2026 FDA label that includes reduction of loss of kidney function."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-ipt-moa",
+    "sourceId": "source-fda-fabhalta-2025",
+    "quote": "Iptacopan binds to Factor B of the alternative complement pathway",
+    "quoteLocation": "FDA FABHALTA March 2025 label, section 12.1, pages 9\u201310",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "US label mechanism statement, distinct from a new primary mechanistic experiment."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-ipt-us-indication",
+    "sourceId": "source-fda-fabhalta-2025",
+    "quote": "FABHALTA is indicated for the treatment of adults with complement 3 glomerulopathy (C3G), to reduce proteinuria",
+    "quoteLocation": "FDA FABHALTA March 2025 label, section 1.3, page 2",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "C3G indication encompasses C3GN but is not a C3GN-only trial estimate; no pediatric or non-US approval inferred."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-peg-moa",
+    "sourceId": "source-fda-empaveli-2026",
+    "quote": "Pegcetacoplan binds to complement protein C3 and its activation fragment C3b",
+    "quoteLocation": "FDA EMPAVELI August 2026 label, section 12.1, page 12",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Molecular targeting does not establish universal disease causation or response."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-peg-us-indication",
+    "sourceId": "source-fda-empaveli-2026",
+    "quote": "to reduce proteinuria and the loss of kidney function",
+    "quoteLocation": "FDA EMPAVELI August 2026 label, sections 1.2 and 14.2; pages 2 and 19\u201322",
+    "category": "supporting",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Current regulatory scope; the controlled phase was 26 weeks and extension open-label. Not proof of lifelong prevention of kidney failure.",
+      "Recurrent IC-MPGN after transplant is not established in the inspected label; mixed-diagnosis efficacy cannot yield an isolated C3GN estimate."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-iptacopan-infection-limit",
+    "sourceId": "source-fda-fabhalta-2025",
+    "quote": "infections caused by encapsulated bacteria",
+    "quoteLocation": "FDA prescribing information boxed warning and section 5.1",
+    "category": "qualifying",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Risk and REMS qualification of therapeutic benefit; this map is not prescribing guidance."
+    ]
+  },
+  {
+    "claimId": "claim-c3gn-pegcetacoplan-infection-limit",
+    "sourceId": "source-fda-empaveli-2026",
+    "quote": "infections caused by encapsulated bacteria",
+    "quoteLocation": "FDA prescribing information boxed warning and section 5.1",
+    "category": "qualifying",
+    "sourceCheck": {
+      "checkedBy": "Codex agent",
+      "checkedAt": "2026-10-15"
+    },
+    "limitations": [
+      "Risk and REMS qualification of therapeutic benefit; this map is not prescribing guidance."
+    ]
+  }
+]

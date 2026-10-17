@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-17",
+  "candidate": "atypical-hus-summary-candidate-d4ea04ecbc70",
+  "digest": "9a1a7da24bfdca47a74b096feee5f7a5401c44a43769c3ca5f50e34805b52b35",
+  "passed": [
+    {
+      "command": "node scripts/validate-release.mjs knowledge/diseases/atypical-hus/candidates/atypical-hus-summary-candidate-d4ea04ecbc70.json",
+      "exit": 0,
+      "log": "candidate-validation.log"
+    },
+    {
+      "command": "pnpm check (includes pnpm validate)",
+      "exit": 0,
+      "log": "check.log"
+    },
+    {
+      "command": "pnpm build (includes pnpm validate)",
+      "exit": 0,
+      "log": "build.log"
+    },
+    {
+      "command": "node --test tests/short-labels.test.mjs",
+      "exit": 0,
+      "log": "short-labels-test.log"
+    },
+    {
+      "command": "node curation/workspace/atypical-hus/revision-consolidated-2026-10-17/browser-check.mjs",
+      "exit": 0,
+      "log": "browser-check.json"
+    }
+  ],
+  "notRun": [
+    "Independent external overall scientific verdict: no Consensus research-thread creation tool exposed",
+    "Authenticated human domain review",
+    "Appraisal calibration",
+    "Full regression/performance suites (data/documentation change)"
+  ]
+}

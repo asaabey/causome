@@ -1,0 +1,1385 @@
+{
+  "id": "c3-glomerulonephritis-candidate-001",
+  "revisionId": "c3-glomerulonephritis-candidate-001-r1",
+  "formatVersion": "0.3.0",
+  "diseaseId": "c3-glomerulonephritis",
+  "title": "C3 glomerulonephritis",
+  "status": "candidate",
+  "illustrative": false,
+  "diseaseDescription": "Bounded C3GN map: alternative complement pathway dysregulation, acquired convertase stabilization, complement-regulatory variants and glomerular complement deposition. Dense deposit disease is excluded as a phenotype; mixed C3 glomerulopathy studies are labelled and cannot establish C3GN-specific effects. Infection-related and immune-complex glomerulonephritis are excluded.",
+  "diseaseAliases": [
+    "C3 GN",
+    "C3GN",
+    "C3 glomerulonephritis"
+  ],
+  "parentReleaseId": null,
+  "parentContentDigest": null,
+  "createdAt": "2026-10-15T00:00:00.000Z",
+  "evidenceCutoff": "2026-10-15",
+  "changeSetRevision": "seed-8d554145c5be",
+  "releaseNote": "Bounded agent-source-checked candidate from five primary abstracts. Heterogeneous assays, genetic associations, C3GN pathology and mixed-C3G intervention evidence remain distinct. Therapy catalog and independent review pending; no comprehensive coverage claimed.",
+  "entities": [
+    {
+      "id": "entity-c3-nephritic-factor",
+      "label": "C3 nephritic factors",
+      "entityClass": "antibody",
+      "description": "Autoantibodies with heterogeneous activity on the alternative-pathway C3 convertase.",
+      "synonyms": [
+        "C3NeF"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-c3-nephritic-factor-8d554145c5be",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-c3gn-nephritic-stabilization",
+        "claim-c3gn-nephritic-c3gn"
+      ]
+    },
+    {
+      "id": "entity-ap-c3-convertase",
+      "label": "Alternative-pathway C3 convertase",
+      "entityClass": "protein",
+      "description": "C3bBb enzyme complex; stabilization and susceptibility to regulation vary with nephritic factor and properdin.",
+      "synonyms": [
+        "C3bBb"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-ap-c3-convertase-8d554145c5be",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-c3gn-nephritic-stabilization"
+      ]
+    },
+    {
+      "id": "entity-ap-dysregulation",
+      "label": "Alternative complement pathway dysregulation",
+      "entityClass": "process",
+      "description": "Selected acquired and genetic abnormalities identified in patients; not a universal single cause.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-ap-dysregulation-8d554145c5be",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-c3gn-nephritic-c3gn",
+        "claim-c3gn-variants-c3gn",
+        "claim-c3gn-deposits"
+      ]
+    },
+    {
+      "id": "entity-complement-regulatory-variants",
+      "label": "Complement-regulatory gene variants",
+      "entityClass": "genetic_variant",
+      "description": "Reported CFH, CFI, CD46 and CFHR variants in selected cohorts; pathogenicity is not assumed for every variant.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-complement-regulatory-variants-8d554145c5be",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-c3gn-variants-c3gn",
+        "claim-c3gn-genetic-heterogeneity"
+      ]
+    },
+    {
+      "id": "entity-anti-factor-h",
+      "label": "Anti-factor H autoantibodies",
+      "entityClass": "antibody",
+      "description": "Heterogeneous antibodies studied in alternative-pathway glomerulopathies; their functional effects are sample-specific.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-anti-factor-h-8d554145c5be",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-c3gn-anti-fh-function"
+      ]
+    },
+    {
+      "id": "entity-factor-h",
+      "label": "Factor H regulatory activity",
+      "entityClass": "process",
+      "description": "Factor H cofactor activity and cell-surface protection are distinct assay endpoints.",
+      "synonyms": [
+        "FH regulation"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-factor-h-8d554145c5be",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-c3gn-anti-fh-function"
+      ]
+    },
+    {
+      "id": "entity-glomerular-complement-deposits",
+      "label": "Glomerular complement deposits",
+      "entityClass": "process",
+      "description": "AP and terminal complement proteins detected by proteomics in C3GN glomeruli.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-glomerular-complement-deposits-8d554145c5be",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-c3gn-deposits",
+        "claim-c3gn-renal-presentation"
+      ]
+    },
+    {
+      "id": "entity-c3gn-phenotype",
+      "label": "C3GN renal phenotype",
+      "entityClass": "clinical_outcome",
+      "description": "Biopsy-defined C3GN with variable proliferative patterns, hematuria, proteinuria and clinical course; DDD is excluded.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-c3gn-phenotype-8d554145c5be",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-c3gn-genetic-heterogeneity",
+        "claim-c3gn-renal-presentation"
+      ]
+    },
+    {
+      "id": "entity-iptacopan",
+      "label": "Iptacopan exposure",
+      "entityClass": "substrate",
+      "description": "Oral factor B inhibitor studied as an adjunct to background care in mixed C3 glomerulopathy; no subtype-specific estimate is inferred.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-iptacopan-8d554145c5be",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-c3gn-iptacopan-proteinuria"
+      ]
+    },
+    {
+      "id": "entity-proteinuria",
+      "label": "Proteinuria",
+      "entityClass": "clinical_outcome",
+      "description": "Urinary protein excretion; trial UPCR is a surrogate endpoint, distinct from long-term kidney survival.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-proteinuria-8d554145c5be",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-c3gn-iptacopan-proteinuria"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-aa30b9df20addc92570e",
+      "revisionId": "relationship-aa30b9df20addc92570e-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "entity-c3-nephritic-factor",
+      "targetId": "entity-ap-c3-convertase",
+      "predicate": "activates",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-c3gn-overview",
+      "assessmentId": "assessment-48b4f283667cb698fd1f",
+      "supportingClaimIds": [
+        "claim-c3gn-nephritic-stabilization"
+      ],
+      "qualifyingClaimIds": [
+        "claim-c3gn-nephritic-terminal-qualification"
+      ],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-544a9a5ec8c75bb0ddb6",
+      "revisionId": "relationship-544a9a5ec8c75bb0ddb6-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "entity-ap-dysregulation",
+      "targetId": "entity-c3-nephritic-factor",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-c3gn-overview",
+      "assessmentId": "assessment-7e41b7c6b104c5df829d",
+      "supportingClaimIds": [
+        "claim-c3gn-nephritic-c3gn"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-5a19300acd80c47a7965",
+      "revisionId": "relationship-5a19300acd80c47a7965-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "entity-ap-dysregulation",
+      "targetId": "entity-complement-regulatory-variants",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-c3gn-overview",
+      "assessmentId": "assessment-2928bd90c858058d3a0b",
+      "supportingClaimIds": [
+        "claim-c3gn-variants-c3gn"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-519d2a3f0ce8a208e5cf",
+      "revisionId": "relationship-519d2a3f0ce8a208e5cf-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "entity-c3gn-phenotype",
+      "targetId": "entity-complement-regulatory-variants",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-c3gn-overview",
+      "assessmentId": "assessment-37a2bc2c2fb41f1e1277",
+      "supportingClaimIds": [
+        "claim-c3gn-genetic-heterogeneity"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-5af200b474a4a9849758",
+      "revisionId": "relationship-5af200b474a4a9849758-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "entity-ap-dysregulation",
+      "targetId": "entity-glomerular-complement-deposits",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-c3gn-overview",
+      "assessmentId": "assessment-bcaa9bcda04c366313c5",
+      "supportingClaimIds": [
+        "claim-c3gn-deposits"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-a182b1169473ad409de9",
+      "revisionId": "relationship-a182b1169473ad409de9-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "entity-c3gn-phenotype",
+      "targetId": "entity-glomerular-complement-deposits",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-c3gn-overview",
+      "assessmentId": "assessment-f96021c0a7a032a9f04a",
+      "supportingClaimIds": [
+        "claim-c3gn-renal-presentation"
+      ],
+      "qualifyingClaimIds": [
+        "claim-c3gn-course-qualification"
+      ],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-37a632bbf3e63ceaae96",
+      "revisionId": "relationship-37a632bbf3e63ceaae96-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "entity-anti-factor-h",
+      "targetId": "entity-factor-h",
+      "predicate": "inhibits",
+      "directionality": "directed",
+      "polarity": "negative",
+      "contextId": "context-c3gn-overview",
+      "assessmentId": "assessment-0c5ae79a3fac6f21bee1",
+      "supportingClaimIds": [
+        "claim-c3gn-anti-fh-function"
+      ],
+      "qualifyingClaimIds": [
+        "claim-c3gn-anti-fh-qualification"
+      ],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-d603c5022fe867c8d10b",
+      "revisionId": "relationship-d603c5022fe867c8d10b-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "entity-iptacopan",
+      "targetId": "entity-proteinuria",
+      "predicate": "efficacy_on",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-c3gn-overview",
+      "assessmentId": "assessment-f56ebd171d277352a49b",
+      "supportingClaimIds": [
+        "claim-c3gn-iptacopan-proteinuria"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-c3gn-nephritic-stabilization",
+      "revisionId": "claim-c3gn-nephritic-stabilization-8d554145c5be",
+      "status": "candidate",
+      "text": "Patient nephritic-factor IgG stabilized alternative-pathway C3 convertase in biochemical assays.",
+      "subjectId": "entity-c3-nephritic-factor",
+      "objectId": "entity-ap-c3-convertase",
+      "predicate": "activates",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-nephritic-stabilization"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Mixed renal-disease population; assay activity does not establish C3GN causation or universal patient prevalence.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-c3gn-nephritic-terminal-qualification",
+      "revisionId": "claim-c3gn-nephritic-terminal-qualification-8d554145c5be",
+      "status": "candidate",
+      "text": "Nephritic-factor effects were heterogeneous: representative properdin-independent samples did not increase C5 cleavage or terminal activity.",
+      "subjectId": "entity-c3-nephritic-factor",
+      "objectId": "entity-ap-c3-convertase",
+      "predicate": "activates",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-nephritic-terminal-qualification"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Qualifies any extrapolation from convertase stabilization to universal terminal-pathway activation.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-c3gn-nephritic-c3gn",
+      "revisionId": "claim-c3gn-nephritic-c3gn-8d554145c5be",
+      "status": "candidate",
+      "text": "C3 nephritic factors were the most common acquired alternative-pathway abnormality in the 12-case C3GN series.",
+      "subjectId": "entity-ap-dysregulation",
+      "objectId": "entity-c3-nephritic-factor",
+      "predicate": "is_associated_with",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-nephritic-c3gn"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Small selected case series; no population prevalence or causal sufficiency established.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-c3gn-variants-c3gn",
+      "revisionId": "claim-c3gn-variants-c3gn-8d554145c5be",
+      "status": "candidate",
+      "text": "CFH, CFI and CFHR mutations were among the abnormalities reported in the C3GN series.",
+      "subjectId": "entity-ap-dysregulation",
+      "objectId": "entity-complement-regulatory-variants",
+      "predicate": "is_associated_with",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-variants-c3gn"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Individual variant function and penetrance cannot be resolved from the abstract.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-c3gn-genetic-heterogeneity",
+      "revisionId": "claim-c3gn-genetic-heterogeneity-8d554145c5be",
+      "status": "candidate",
+      "text": "Complement-regulatory gene mutations were detected in both proliferative and nonproliferative isolated-C3 glomerulonephritis groups, with differing frequencies.",
+      "subjectId": "entity-c3gn-phenotype",
+      "objectId": "entity-complement-regulatory-variants",
+      "predicate": "is_associated_with",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-genetic-heterogeneity"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Historical diagnostic categories predate modern C3G criteria; selected cohort and subgroup sizes limit generalization.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-c3gn-deposits",
+      "revisionId": "claim-c3gn-deposits-8d554145c5be",
+      "status": "candidate",
+      "text": "Glomerular proteomics identified alternative-pathway and terminal-complement proteins in the C3GN case series.",
+      "subjectId": "entity-ap-dysregulation",
+      "objectId": "entity-glomerular-complement-deposits",
+      "predicate": "is_associated_with",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-deposits"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Deposited proteins do not by themselves prove the sequence or sufficiency of injury mechanisms.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-c3gn-renal-presentation",
+      "revisionId": "claim-c3gn-renal-presentation-8d554145c5be",
+      "status": "candidate",
+      "text": "Patients in the C3GN series typically had hematuria and proteinuria alongside glomerular complement deposits.",
+      "subjectId": "entity-c3gn-phenotype",
+      "objectId": "entity-glomerular-complement-deposits",
+      "predicate": "is_associated_with",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-renal-presentation"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Clinicopathological association; does not prove deposits alone cause clinical manifestations.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-c3gn-course-qualification",
+      "revisionId": "claim-c3gn-course-qualification-8d554145c5be",
+      "status": "candidate",
+      "text": "Most patients with native kidney disease had stable renal function during reported follow-up, qualifying an inevitable progressive-failure interpretation.",
+      "subjectId": "entity-c3gn-phenotype",
+      "objectId": "entity-glomerular-complement-deposits",
+      "predicate": "is_associated_with",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-course-qualification"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Small selected series; this is not an estimate of long-term kidney survival for all C3GN.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-c3gn-anti-fh-function",
+      "revisionId": "claim-c3gn-anti-fh-function-8d554145c5be",
+      "status": "candidate",
+      "text": "Anti-factor H IgG from three glomerulopathy patients affected factor H factor-I cofactor activity in functional assays.",
+      "subjectId": "entity-anti-factor-h",
+      "objectId": "entity-factor-h",
+      "predicate": "inhibits",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-anti-fh-function"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Broad glomerulopathy cohort; functional effect in three samples cannot be generalized to all C3GN or all anti-FH antibodies.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-c3gn-anti-fh-qualification",
+      "revisionId": "claim-c3gn-anti-fh-qualification-8d554145c5be",
+      "status": "candidate",
+      "text": "In the reported assays, glomerulopathy anti-FH antibodies did not perturb factor H cell-surface protection or ligand binding.",
+      "subjectId": "entity-anti-factor-h",
+      "objectId": "entity-factor-h",
+      "predicate": "inhibits",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-anti-fh-qualification"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Different regulatory functions are distinct endpoints; antibody detection alone does not establish universal functional inhibition.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-c3gn-iptacopan-proteinuria",
+      "revisionId": "claim-c3gn-iptacopan-proteinuria-8d554145c5be",
+      "status": "candidate",
+      "text": "In APPEAR-C3G, iptacopan reduced 24-hour UPCR relative to placebo by 35.1% at six months on background care in adults with C3 glomerulopathy.",
+      "subjectId": "entity-iptacopan",
+      "objectId": "entity-proteinuria",
+      "predicate": "efficacy_on",
+      "contextId": "context-c3gn-overview",
+      "evidenceItemIds": [
+        "evidence-c3gn-iptacopan-proteinuria"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Mixed C3G enrollment; no C3GN-specific efficacy estimate or long-term kidney-survival benefit established by this abstract. Trial funded by Novartis.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "sourceCheckedAt": "2026-10-15",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  ],
+  "evidenceItems": [
+    {
+      "id": "evidence-c3gn-nephritic-stabilization",
+      "revisionId": "evidence-c3gn-nephritic-stabilization-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-fade1a9b5518c445d808",
+      "summary": "Patient nephritic-factor IgG stabilized alternative-pathway C3 convertase in biochemical assays.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Selected patient samples and purified IgG in biochemical convertase assays",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-c3gn-nephritic-terminal-qualification",
+      "revisionId": "evidence-c3gn-nephritic-terminal-qualification-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-fade1a9b5518c445d808",
+      "summary": "Nephritic-factor effects were heterogeneous: representative properdin-independent samples did not increase C5 cleavage or terminal activity.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Patient nephritic-factor biochemical assays stratified by properdin dependence",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-c3gn-nephritic-c3gn",
+      "revisionId": "evidence-c3gn-nephritic-c3gn-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-a244ff446770358b5fbc",
+      "summary": "C3 nephritic factors were the most common acquired alternative-pathway abnormality in the 12-case C3GN series.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Twelve biopsy-defined C3GN cases",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-c3gn-variants-c3gn",
+      "revisionId": "evidence-c3gn-variants-c3gn-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-a244ff446770358b5fbc",
+      "summary": "CFH, CFI and CFHR mutations were among the abnormalities reported in the C3GN series.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Twelve biopsy-defined C3GN cases with complement investigations",
+      "evidenceType": "human_genetic"
+    },
+    {
+      "id": "evidence-c3gn-genetic-heterogeneity",
+      "revisionId": "evidence-c3gn-genetic-heterogeneity-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-b0d758839c2902552446",
+      "summary": "Complement-regulatory gene mutations were detected in both proliferative and nonproliferative isolated-C3 glomerulonephritis groups, with differing frequencies.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Nineteen patients with isolated-C3 glomerulonephritis, 13 with MPGN and six without MPGN",
+      "evidenceType": "human_genetic"
+    },
+    {
+      "id": "evidence-c3gn-deposits",
+      "revisionId": "evidence-c3gn-deposits-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-a244ff446770358b5fbc",
+      "summary": "Glomerular proteomics identified alternative-pathway and terminal-complement proteins in the C3GN case series.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Laser-dissected human C3GN glomeruli with mass spectrometry",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-c3gn-renal-presentation",
+      "revisionId": "evidence-c3gn-renal-presentation-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-a244ff446770358b5fbc",
+      "summary": "Patients in the C3GN series typically had hematuria and proteinuria alongside glomerular complement deposits.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Twelve biopsy-defined C3GN cases",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-c3gn-course-qualification",
+      "revisionId": "evidence-c3gn-course-qualification-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-a244ff446770358b5fbc",
+      "summary": "Most patients with native kidney disease had stable renal function during reported follow-up, qualifying an inevitable progressive-failure interpretation.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Native-kidney follow-up in the twelve-case series",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-c3gn-anti-fh-function",
+      "revisionId": "evidence-c3gn-anti-fh-function-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-e6f6e72771dfbb20338d",
+      "summary": "Anti-factor H IgG from three glomerulopathy patients affected factor H factor-I cofactor activity in functional assays.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Anti-factor H-positive glomerulopathy cohort (17 patients), selected IgG functional assays",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-c3gn-anti-fh-qualification",
+      "revisionId": "evidence-c3gn-anti-fh-qualification-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-e6f6e72771dfbb20338d",
+      "summary": "In the reported assays, glomerulopathy anti-FH antibodies did not perturb factor H cell-surface protection or ligand binding.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Anti-factor H-positive glomerulopathy cohort and functional assays",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-c3gn-iptacopan-proteinuria",
+      "revisionId": "evidence-c3gn-iptacopan-proteinuria-8d554145c5be",
+      "status": "candidate",
+      "sourceId": "source-doi-e55def3fa75dabaf18aa",
+      "summary": "In APPEAR-C3G, iptacopan reduced 24-hour UPCR relative to placebo by 35.1% at six months on background care in adults with C3 glomerulopathy.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-15",
+      "studySystem": "Randomized double-blind phase 3 trial; 74 adults with biopsy-confirmed C3G, low serum C3, UPCR >=1 g/g and eGFR >=30",
+      "evidenceType": "randomized_trial"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-doi-e55def3fa75dabaf18aa",
+      "revisionId": "source-doi-e55def3fa75dabaf18aa-8d554145c5be",
+      "status": "candidate",
+      "title": "Oral iptacopan therapy in patients with C3 glomerulopathy: a randomised, double-blind, parallel group, multicentre, placebo-controlled, phase 3 study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41016405/",
+      "kind": "publication",
+      "studyId": "PMID:41016405",
+      "citation": "Kavanagh D, Bomback AS, Vivarelli M, Nester CM, Remuzzi G, Zhao MH, Wong EKS, Wang Y, Krishnan I, Schuhmann I, Trapani AJ, Webb NJA, Meier M, Israni RK, Smith RJH, APPEAR-C3G investigators.. Oral iptacopan therapy in patients with C3 glomerulopathy: a randomised, double-blind, parallel group, multicentre, placebo-controlled, phase 3 study.. Lancet (London, England). 2025-09-25",
+      "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+      "identifiers": [
+        "DOI:10.1016/s0140-6736(25)01148-1",
+        "MED:41016405",
+        "PMID:41016405"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-e6f6e72771dfbb20338d",
+      "revisionId": "source-doi-e6f6e72771dfbb20338d-8d554145c5be",
+      "status": "candidate",
+      "title": "Anti-factor H autoantibodies in C3 glomerulopathies and in atypical hemolytic uremic syndrome: one target, two diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25917093/",
+      "kind": "publication",
+      "studyId": "PMID:25917093",
+      "citation": "Blanc C, Togarsimalemath SK, Chauvet S, Le Quintrec M, Moulin B, Buchler M, Jokiranta TS, Roumenina LT, Fremeaux-Bacchi V, Dragon-Durey MA.. Anti-factor H autoantibodies in C3 glomerulopathies and in atypical hemolytic uremic syndrome: one target, two diseases.. Journal of immunology (Baltimore, Md. : 1950). 2015-04-27",
+      "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+      "identifiers": [
+        "DOI:10.4049/jimmunol.1402770",
+        "MED:25917093",
+        "PMID:25917093"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-a244ff446770358b5fbc",
+      "revisionId": "source-doi-a244ff446770358b5fbc-8d554145c5be",
+      "status": "candidate",
+      "title": "C3 glomerulonephritis: clinicopathological findings, complement abnormalities, glomerular proteomic profile, treatment, and follow-up.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22673887/",
+      "kind": "publication",
+      "studyId": "PMID:22673887",
+      "citation": "Sethi S, Fervenza FC, Zhang Y, Zand L, Vrana JA, Nasr SH, Theis JD, Dogan A, Smith RJ.. C3 glomerulonephritis: clinicopathological findings, complement abnormalities, glomerular proteomic profile, treatment, and follow-up.. Kidney international. 2012-08-01",
+      "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+      "identifiers": [
+        "DOI:10.1038/ki.2012.212",
+        "MED:22673887",
+        "PMCID:PMC4438675",
+        "PMID:22673887"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-fade1a9b5518c445d808",
+      "revisionId": "source-doi-fade1a9b5518c445d808-8d554145c5be",
+      "status": "candidate",
+      "title": "Sensitive and specific assays for C3 nephritic factors clarify mechanisms underlying complement dysregulation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22854646/",
+      "kind": "publication",
+      "studyId": "PMID:22854646",
+      "citation": "Paixão-Cavalcante D, López-Trascasa M, Skattum L, Giclas PC, Goodship TH, de Córdoba SR, Truedsson L, Morgan BP, Harris CL.. Sensitive and specific assays for C3 nephritic factors clarify mechanisms underlying complement dysregulation.. Kidney international. 2012-08-01",
+      "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+      "identifiers": [
+        "DOI:10.1038/ki.2012.250",
+        "MED:22854646",
+        "PMCID:PMC3608896",
+        "PMID:22854646"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-b0d758839c2902552446",
+      "revisionId": "source-doi-b0d758839c2902552446-8d554145c5be",
+      "status": "candidate",
+      "title": "Primary glomerulonephritis with isolated C3 deposits: a new entity which shares common genetic risk factors with haemolytic uraemic syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17018561/",
+      "kind": "publication",
+      "studyId": "PMID:17018561",
+      "citation": "Servais A, Frémeaux-Bacchi V, Lequintrec M, Salomon R, Blouin J, Knebelmann B, Grünfeld JP, Lesavre P, Noël LH, Fakhouri F.. Primary glomerulonephritis with isolated C3 deposits: a new entity which shares common genetic risk factors with haemolytic uraemic syndrome.. Journal of medical genetics. 2006-10-03",
+      "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+      "identifiers": [
+        "DOI:10.1136/jmg.2006.045328",
+        "MED:17018561",
+        "PMCID:PMC2598029",
+        "PMID:17018561"
+      ],
+      "flags": []
+    }
+  ],
+  "therapies": [],
+  "contexts": [
+    {
+      "id": "context-c3gn-overview",
+      "label": "C3GN with explicitly labelled related glomerulopathy assays and mixed-C3G trial evidence",
+      "organism": "Human patients and patient-derived biochemical assays",
+      "phenotype": "C3GN; related mixed-C3G findings remain bounded to their study populations",
+      "tissue": "Kidney glomeruli, blood and biochemical complement assays",
+      "stage": "Selected mechanisms and six-month proteinuria intervention evidence",
+      "revisionId": "context-c3gn-overview-8d554145c5be",
+      "status": "candidate",
+      "diseaseId": "c3-glomerulonephritis"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "assessment-1b0c599297ef9de634b2",
+      "revisionId": "assessment-1b0c599297ef9de634b2-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "entity-c3-nephritic-factor",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-nephritic-stabilization",
+        "claim-c3gn-nephritic-c3gn"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-f62d93ee5198d938ff75",
+      "revisionId": "assessment-f62d93ee5198d938ff75-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "entity-ap-c3-convertase",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-nephritic-stabilization"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-1441804e1146aa946af1",
+      "revisionId": "assessment-1441804e1146aa946af1-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "entity-ap-dysregulation",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-nephritic-c3gn",
+        "claim-c3gn-variants-c3gn",
+        "claim-c3gn-deposits"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-f890dd11a24a9e078d36",
+      "revisionId": "assessment-f890dd11a24a9e078d36-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "entity-complement-regulatory-variants",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-variants-c3gn",
+        "claim-c3gn-genetic-heterogeneity"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-2e1e28914a14806683e0",
+      "revisionId": "assessment-2e1e28914a14806683e0-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "entity-anti-factor-h",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-anti-fh-function"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-fa44c5752b87c0c1210d",
+      "revisionId": "assessment-fa44c5752b87c0c1210d-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "entity-factor-h",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-anti-fh-function"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-56bc8b161419b5cea69f",
+      "revisionId": "assessment-56bc8b161419b5cea69f-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "entity-glomerular-complement-deposits",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-deposits",
+        "claim-c3gn-renal-presentation"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-e9eaacac7a2b7e3741a6",
+      "revisionId": "assessment-e9eaacac7a2b7e3741a6-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "entity-c3gn-phenotype",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-genetic-heterogeneity",
+        "claim-c3gn-renal-presentation"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-d226459bf5f9d3312184",
+      "revisionId": "assessment-d226459bf5f9d3312184-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "entity-iptacopan",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-iptacopan-proteinuria"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-de9bcf00ee6897151559",
+      "revisionId": "assessment-de9bcf00ee6897151559-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "entity-proteinuria",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-iptacopan-proteinuria"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-48b4f283667cb698fd1f",
+      "revisionId": "assessment-48b4f283667cb698fd1f-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "relationship-aa30b9df20addc92570e",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-nephritic-stabilization"
+      ],
+      "qualifyingClaimIds": [
+        "claim-c3gn-nephritic-terminal-qualification"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-7e41b7c6b104c5df829d",
+      "revisionId": "assessment-7e41b7c6b104c5df829d-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "relationship-544a9a5ec8c75bb0ddb6",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-nephritic-c3gn"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-2928bd90c858058d3a0b",
+      "revisionId": "assessment-2928bd90c858058d3a0b-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "relationship-5a19300acd80c47a7965",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-variants-c3gn"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-37a2bc2c2fb41f1e1277",
+      "revisionId": "assessment-37a2bc2c2fb41f1e1277-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "relationship-519d2a3f0ce8a208e5cf",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-genetic-heterogeneity"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-bcaa9bcda04c366313c5",
+      "revisionId": "assessment-bcaa9bcda04c366313c5-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "relationship-5af200b474a4a9849758",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-deposits"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-f96021c0a7a032a9f04a",
+      "revisionId": "assessment-f96021c0a7a032a9f04a-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "relationship-a182b1169473ad409de9",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-renal-presentation"
+      ],
+      "qualifyingClaimIds": [
+        "claim-c3gn-course-qualification"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-0c5ae79a3fac6f21bee1",
+      "revisionId": "assessment-0c5ae79a3fac6f21bee1-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "relationship-37a632bbf3e63ceaae96",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-anti-fh-function"
+      ],
+      "qualifyingClaimIds": [
+        "claim-c3gn-anti-fh-qualification"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-f56ebd171d277352a49b",
+      "revisionId": "assessment-f56ebd171d277352a49b-8d554145c5be",
+      "status": "candidate",
+      "subjectId": "relationship-d603c5022fe867c8d10b",
+      "contextId": "context-c3gn-overview",
+      "scoringModelId": "scoring-c3-glomerulonephritis-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-c3gn-iptacopan-proteinuria"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Source-checked candidate. Independent domain review and quantitative appraisal are pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    }
+  ],
+  "scoringModels": [
+    {
+      "id": "scoring-c3-glomerulonephritis-unassessed",
+      "revisionId": "scoring-c3-glomerulonephritis-unassessed-8d554145c5be",
+      "status": "candidate",
+      "label": "Unassessed baseline",
+      "calibrated": false,
+      "description": "No numerical scores. Calibration requires independent domain reviewers and representative paired appraisals."
+    }
+  ],
+  "layouts": [
+    {
+      "id": "layout-c3-glomerulonephritis-overview",
+      "revisionId": "layout-c3-glomerulonephritis-overview-8d554145c5be",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-c3-nephritic-factor",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-ap-c3-convertase",
+          "x": 380,
+          "y": 0
+        },
+        {
+          "entityId": "entity-ap-dysregulation",
+          "x": 760,
+          "y": 0
+        },
+        {
+          "entityId": "entity-complement-regulatory-variants",
+          "x": 0,
+          "y": 240
+        },
+        {
+          "entityId": "entity-anti-factor-h",
+          "x": 380,
+          "y": 240
+        },
+        {
+          "entityId": "entity-factor-h",
+          "x": 760,
+          "y": 240
+        },
+        {
+          "entityId": "entity-glomerular-complement-deposits",
+          "x": 0,
+          "y": 480
+        },
+        {
+          "entityId": "entity-c3gn-phenotype",
+          "x": 380,
+          "y": 480
+        },
+        {
+          "entityId": "entity-iptacopan",
+          "x": 760,
+          "y": 480
+        },
+        {
+          "entityId": "entity-proteinuria",
+          "x": 0,
+          "y": 720
+        }
+      ]
+    }
+  ],
+  "mapViews": [
+    {
+      "id": "view-c3-glomerulonephritis-overview",
+      "revisionId": "view-c3-glomerulonephritis-overview-8d554145c5be",
+      "status": "candidate",
+      "label": "Complement dysregulation and C3GN phenotype",
+      "contextId": "context-c3gn-overview",
+      "entityIds": [
+        "entity-c3-nephritic-factor",
+        "entity-ap-c3-convertase",
+        "entity-ap-dysregulation",
+        "entity-complement-regulatory-variants",
+        "entity-anti-factor-h",
+        "entity-factor-h",
+        "entity-glomerular-complement-deposits",
+        "entity-c3gn-phenotype",
+        "entity-iptacopan",
+        "entity-proteinuria"
+      ],
+      "relationshipIds": [
+        "relationship-aa30b9df20addc92570e",
+        "relationship-544a9a5ec8c75bb0ddb6",
+        "relationship-5a19300acd80c47a7965",
+        "relationship-519d2a3f0ce8a208e5cf",
+        "relationship-5af200b474a4a9849758",
+        "relationship-a182b1169473ad409de9",
+        "relationship-37a632bbf3e63ceaae96",
+        "relationship-d603c5022fe867c8d10b"
+      ],
+      "assessmentIds": [
+        "assessment-1b0c599297ef9de634b2",
+        "assessment-f62d93ee5198d938ff75",
+        "assessment-1441804e1146aa946af1",
+        "assessment-f890dd11a24a9e078d36",
+        "assessment-2e1e28914a14806683e0",
+        "assessment-fa44c5752b87c0c1210d",
+        "assessment-56bc8b161419b5cea69f",
+        "assessment-e9eaacac7a2b7e3741a6",
+        "assessment-d226459bf5f9d3312184",
+        "assessment-de9bcf00ee6897151559",
+        "assessment-48b4f283667cb698fd1f",
+        "assessment-7e41b7c6b104c5df829d",
+        "assessment-2928bd90c858058d3a0b",
+        "assessment-37a2bc2c2fb41f1e1277",
+        "assessment-bcaa9bcda04c366313c5",
+        "assessment-f96021c0a7a032a9f04a",
+        "assessment-0c5ae79a3fac6f21bee1",
+        "assessment-f56ebd171d277352a49b"
+      ],
+      "layoutId": "layout-c3-glomerulonephritis-overview"
+    }
+  ],
+  "manifest": {
+    "algorithm": "sha256",
+    "schemaVersion": "0.3.0",
+    "contentDigest": "ab726e38a7e1db719a44edddbfbcc74e66891cdf6878fddd651040542baa16ef"
+  }
+}

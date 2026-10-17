@@ -1,0 +1,11 @@
+{
+  "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/first-fda-approved-treatment-patients-focal-segmental-glomerulosclerosis-rare-kidney-condition",
+  "checkedBy": "Codex agent via web retrieval",
+  "checkedAt": "2026-10-17",
+  "accessScope": "FDA web announcement full page",
+  "exactExcerpt": "(sparsentan) tablets for reducing proteinuria (abnormal levels of protein in the urine) in patients aged eight years and older with focal segmental glomerulosclerosis (FSGS) without nephrotic syndrome.",
+  "mechanismExcerpt": "Filspari is a dual endothelin and angiotensin II receptor antagonist.",
+  "limitations": [
+    "US indication only; not an indication for nephrotic syndrome."
+  ]
+}

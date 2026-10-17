@@ -1,0 +1,48 @@
+{
+  "routes": [
+    {
+      "value": "view-context-fsgs-serum",
+      "label": "Primary FSGS: circulating activity and recurrence",
+      "nodes": 3
+    },
+    {
+      "value": "view-context-fsgs-nephrin",
+      "label": "Human anti-nephrin evidence: conflicting cohorts",
+      "nodes": 2
+    },
+    {
+      "value": "view-context-fsgs-immune",
+      "label": "Immune experiments and biomarker limits",
+      "nodes": 5
+    },
+    {
+      "value": "view-context-fsgs-apol1",
+      "label": "APOL1: interferon and cation transport",
+      "nodes": 4
+    },
+    {
+      "value": "view-context-fsgs-apol1-mouse",
+      "label": "APOL1 G1: experimental podocyte injury",
+      "nodes": 2
+    },
+    {
+      "value": "view-context-fsgs-inaxaplin",
+      "label": "APOL1-associated FSGS: inaxaplin phase 2a",
+      "nodes": 2
+    },
+    {
+      "value": "view-context-fsgs-depletion",
+      "label": "Final injury pathway: rat podocyte depletion",
+      "nodes": 3
+    },
+    {
+      "value": "view-context-fsgs-duplex",
+      "label": "FSGS intervention: DUPLEX and endpoint limits",
+      "nodes": 2
+    }
+  ],
+  "curationPageStatus": [
+    "From sources to a reviewable map."
+  ],
+  "errors": []
+}

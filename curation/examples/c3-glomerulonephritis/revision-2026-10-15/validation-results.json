@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-15",
+  "candidateId": "c3-glomerulonephritis-summary-candidate-67b26c1308bd",
+  "contentDigest": "364ebd83f67a1e9a45595a20a7c68e06348854625111a3fa943a944679482edf",
+  "checks": [
+    {
+      "command": "node scripts/validate-release.mjs knowledge/diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-67b26c1308bd.json",
+      "result": "passed",
+      "exit": 0
+    },
+    {
+      "command": "pnpm check",
+      "result": "passed",
+      "exit": 0,
+      "log": "check.log",
+      "note": "Run on unchanged scientific collections before final summary-scope clarification; final build reran type/registry checks."
+    },
+    {
+      "command": "pnpm build",
+      "result": "passed",
+      "exit": 0,
+      "log": "build.log",
+      "pages": 100
+    },
+    {
+      "command": "node curation/workspace/c3-glomerulonephritis/revision-2026-10-15/browser-check.mjs",
+      "result": "passed",
+      "exit": 0,
+      "log": "browser-check.json"
+    },
+    {
+      "command": "agent passage-checks",
+      "result": "all 23 primary-source quotations matched normalized source text; 6 regulatory passages inspected manually",
+      "log": "passage-checks.json"
+    }
+  ],
+  "correctedFailures": [
+    {
+      "stage": "pre-proposal structural validation",
+      "errors": [
+        "regulatory source studyId missing",
+        "trial views require at least one entity-to-entity relationship"
+      ],
+      "correction": "Added explicit FDA source identifiers and retained trial-exposure entities/relationships separately from therapy MOA/indication claims. Revised input passed before immutable proposal storage."
+    },
+    {
+      "stage": "browser smoke assertion",
+      "errors": [
+        "first assertion searched a heading-only element for lower-case approved",
+        "curator assertion ran before client hydration"
+      ],
+      "correction": "Assert rendered APPROVED text in full evidence inspector; wait for bound candidate text before checking curator. No UI or science changes were needed. Final targeted check passed."
+    }
+  ],
+  "accessFailures": [
+    {
+      "source": "PMC3380655 Europe PMC fullTextXML",
+      "result": "HTTP 500; initial and repeat request failed",
+      "action": "Retained abstract-only association; full-text mechanism deferred"
+    },
+    {
+      "source": "local PDF text extraction",
+      "result": "pdftotext and checked Python PDF readers unavailable",
+      "action": "Archived FDA PDFs; inspected official PDF text using web tool"
+    }
+  ],
+  "notRun": [
+    "independent complete-summary scientific review",
+    "human domain review",
+    "calibration",
+    "held-out semantic-verifier evaluation",
+    "full cross-project browser benchmark suite"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-complement-regulatory-variants": "Regulatory variants",
+    "entity-ahus-cfhr-deficiency": "CFHR1/3 deficiency",
+    "entity-ahus-susceptibility": "aHUS susceptibility",
+    "entity-ap-dysregulation": "AP dysregulation",
+    "entity-ahus-mac": "Endothelial C5b-9",
+    "entity-ahus-c5ar1": "C5a\u2013C5aR1",
+    "entity-ahus-tma": "Renal TMA",
+    "entity-ahus-macrothrombosis": "Macrothrombosis",
+    "entity-ahus-tma-response": "Clinical TMA response",
+    "entity-kidney-function-loss": "Kidney function loss",
+    "entity-ap-c3-convertase": "C3/C5 convertases",
+    "entity-ahus-factor-b-variants": "Factor B variants",
+    "entity-ahus-endothelial-injury": "Endothelial injury",
+    "entity-ahus-platelet-activation": "Platelet activation",
+    "entity-ahus-fibrin": "Fibrin / microthrombi",
+    "entity-ahus-hemolysis": "MA haemolysis",
+    "entity-ahus-thrombocytopenia": "Thrombocytopenia",
+    "entity-ahus-heme": "Heme",
+    "entity-ahus-triggers": "Amplifying triggers",
+    "entity-ahus-thrombomodulin": "THBD (disputed)",
+    "entity-ahus-vwf": "Endothelial VWF"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "atypical-hus",
+  "candidateId": "atypical-hus-summary-candidate-d7ca7f3430a3",
+  "contentDigest": "c391516b29da1e22aa92178d2268db0b936f6b5b7fb6143b2f3082e56336766c",
+  "summaryRevisionId": "summary-d7ca7f3430a3",
+  "summaryDigest": "b847a6f20e2843d2293880f9ff82b73776157cde95d1113aac90c7f06aa711e5",
+  "packetDigest": "32a4b829c98ec910c76ee869b340b32fb6392565d8efb674a22c71855e25eb86",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

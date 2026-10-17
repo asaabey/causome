@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-gbm-nc1-hexamer": "α345NC1 hexamer",
+    "entity-gbm-exposed-nc1": "Exposed NC1 epitopes",
+    "entity-gbm-autoreactive-t": "α3-specific T cells",
+    "entity-gbm-hla-dr1-treg": "DR1-selected Tregs",
+    "entity-gbm-complement": "Complement",
+    "entity-kidney": "Renal injury",
+    "entity-gbm-crescents": "Crescents",
+    "entity-gbm-alveolar-hemorrhage": "Alveolar haemorrhage",
+    "entity-gbm-standard-regimen": "PLEX + immunosuppression",
+    "entity-gbm-double-positive": "Double positivity"
+  }
+}

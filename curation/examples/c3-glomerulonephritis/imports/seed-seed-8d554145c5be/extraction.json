@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "diseaseId": "c3-glomerulonephritis",
+  "baseReleaseId": "c3-glomerulonephritis-candidate-001",
+  "baseContentDigest": "ab726e38a7e1db719a44edddbfbcc74e66891cdf6878fddd651040542baa16ef",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "manual-source-check-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "c3gn-nephritic-stabilization",
+      "subject": "entity-c3-nephritic-factor",
+      "object": "entity-ap-c3-convertase",
+      "predicate": "activates",
+      "text": "Patient nephritic-factor IgG stabilized alternative-pathway C3 convertase in biochemical assays.",
+      "quote": "properdin-independent nephritic factors increased convertase half-life over 50-fold",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Selected patient samples and purified IgG in biochemical convertase assays",
+      "limitations": [
+        "Mixed renal-disease population; assay activity does not establish C3GN causation or universal patient prevalence.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-fade1a9b5518c445d808",
+      "paperDigest": "691260bab94d30a8a385c4c8210cdcaaedda9afb53de7a3f092affa82fb08a76"
+    },
+    {
+      "id": "c3gn-nephritic-terminal-qualification",
+      "subject": "entity-c3-nephritic-factor",
+      "object": "entity-ap-c3-convertase",
+      "predicate": "activates",
+      "text": "Nephritic-factor effects were heterogeneous: representative properdin-independent samples did not increase C5 cleavage or terminal activity.",
+      "quote": "Representative properdin-independent nephritic factors had no effect on C5 cleavage and terminal pathway activity",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Patient nephritic-factor biochemical assays stratified by properdin dependence",
+      "limitations": [
+        "Qualifies any extrapolation from convertase stabilization to universal terminal-pathway activation.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-fade1a9b5518c445d808",
+      "paperDigest": "691260bab94d30a8a385c4c8210cdcaaedda9afb53de7a3f092affa82fb08a76"
+    },
+    {
+      "id": "c3gn-nephritic-c3gn",
+      "subject": "entity-c3-nephritic-factor",
+      "object": "entity-ap-dysregulation",
+      "predicate": "is_associated_with",
+      "text": "C3 nephritic factors were the most common acquired alternative-pathway abnormality in the 12-case C3GN series.",
+      "quote": "The most common acquired abnormality was the presence of C3 nephritic factors",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Twelve biopsy-defined C3GN cases",
+      "limitations": [
+        "Small selected case series; no population prevalence or causal sufficiency established.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-a244ff446770358b5fbc",
+      "paperDigest": "116bcef50cc9c787892aa71404569f53f72db8b3a6a0d3bc272542955c52453f"
+    },
+    {
+      "id": "c3gn-variants-c3gn",
+      "subject": "entity-complement-regulatory-variants",
+      "object": "entity-ap-dysregulation",
+      "predicate": "is_associated_with",
+      "text": "CFH, CFI and CFHR mutations were among the abnormalities reported in the C3GN series.",
+      "quote": "other abnormalities included Factor H autoantibodies and mutations in CFH, CFI, and CFHR genes",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Twelve biopsy-defined C3GN cases with complement investigations",
+      "limitations": [
+        "Individual variant function and penetrance cannot be resolved from the abstract.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_genetic",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-a244ff446770358b5fbc",
+      "paperDigest": "116bcef50cc9c787892aa71404569f53f72db8b3a6a0d3bc272542955c52453f"
+    },
+    {
+      "id": "c3gn-genetic-heterogeneity",
+      "subject": "entity-complement-regulatory-variants",
+      "object": "entity-c3gn-phenotype",
+      "predicate": "is_associated_with",
+      "text": "Complement-regulatory gene mutations were detected in both proliferative and nonproliferative isolated-C3 glomerulonephritis groups, with differing frequencies.",
+      "quote": "Mutations in complement regulatory genes were detected in 4/6 patients",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Nineteen patients with isolated-C3 glomerulonephritis, 13 with MPGN and six without MPGN",
+      "limitations": [
+        "Historical diagnostic categories predate modern C3G criteria; selected cohort and subgroup sizes limit generalization.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_genetic",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-b0d758839c2902552446",
+      "paperDigest": "2bd37f7d28963f4e3fd25cc03d0bfa66efca6d85dd087d1803b3605ca9c00872"
+    },
+    {
+      "id": "c3gn-deposits",
+      "subject": "entity-ap-dysregulation",
+      "object": "entity-glomerular-complement-deposits",
+      "predicate": "is_associated_with",
+      "text": "Glomerular proteomics identified alternative-pathway and terminal-complement proteins in the C3GN case series.",
+      "quote": "showed accumulation of AP and terminal complement complex proteins",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Laser-dissected human C3GN glomeruli with mass spectrometry",
+      "limitations": [
+        "Deposited proteins do not by themselves prove the sequence or sufficiency of injury mechanisms.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-a244ff446770358b5fbc",
+      "paperDigest": "116bcef50cc9c787892aa71404569f53f72db8b3a6a0d3bc272542955c52453f"
+    },
+    {
+      "id": "c3gn-renal-presentation",
+      "subject": "entity-glomerular-complement-deposits",
+      "object": "entity-c3gn-phenotype",
+      "predicate": "is_associated_with",
+      "text": "Patients in the C3GN series typically had hematuria and proteinuria alongside glomerular complement deposits.",
+      "quote": "typically presented with hematuria and proteinuria",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Twelve biopsy-defined C3GN cases",
+      "limitations": [
+        "Clinicopathological association; does not prove deposits alone cause clinical manifestations.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-a244ff446770358b5fbc",
+      "paperDigest": "116bcef50cc9c787892aa71404569f53f72db8b3a6a0d3bc272542955c52453f"
+    },
+    {
+      "id": "c3gn-course-qualification",
+      "subject": "entity-glomerular-complement-deposits",
+      "object": "entity-c3gn-phenotype",
+      "predicate": "is_associated_with",
+      "text": "Most patients with native kidney disease had stable renal function during reported follow-up, qualifying an inevitable progressive-failure interpretation.",
+      "quote": "renal function remained stable in the majority of patients with native kidney disease",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Native-kidney follow-up in the twelve-case series",
+      "limitations": [
+        "Small selected series; this is not an estimate of long-term kidney survival for all C3GN.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-a244ff446770358b5fbc",
+      "paperDigest": "116bcef50cc9c787892aa71404569f53f72db8b3a6a0d3bc272542955c52453f"
+    },
+    {
+      "id": "c3gn-anti-fh-function",
+      "subject": "entity-anti-factor-h",
+      "object": "entity-factor-h",
+      "predicate": "inhibits",
+      "text": "Anti-factor H IgG from three glomerulopathy patients affected factor H factor-I cofactor activity in functional assays.",
+      "quote": "anti-FH IgG samples isolated from three patients were able to affect the factor I cofactor activity of FH",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Anti-factor H-positive glomerulopathy cohort (17 patients), selected IgG functional assays",
+      "limitations": [
+        "Broad glomerulopathy cohort; functional effect in three samples cannot be generalized to all C3GN or all anti-FH antibodies.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-e6f6e72771dfbb20338d",
+      "paperDigest": "9ca8866dea95a8b751651951d8e7f3c308cf5fb691473eb1125931f39f8e83bf"
+    },
+    {
+      "id": "c3gn-anti-fh-qualification",
+      "subject": "entity-anti-factor-h",
+      "object": "entity-factor-h",
+      "predicate": "inhibits",
+      "text": "In the reported assays, glomerulopathy anti-FH antibodies did not perturb factor H cell-surface protection or ligand binding.",
+      "quote": "these Abs induced no perturbations in FH cell surface protection or the binding of FH to its ligand",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Anti-factor H-positive glomerulopathy cohort and functional assays",
+      "limitations": [
+        "Different regulatory functions are distinct endpoints; antibody detection alone does not establish universal functional inhibition.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-e6f6e72771dfbb20338d",
+      "paperDigest": "9ca8866dea95a8b751651951d8e7f3c308cf5fb691473eb1125931f39f8e83bf"
+    },
+    {
+      "id": "c3gn-iptacopan-proteinuria",
+      "subject": "entity-iptacopan",
+      "object": "entity-proteinuria",
+      "predicate": "efficacy_on",
+      "text": "In APPEAR-C3G, iptacopan reduced 24-hour UPCR relative to placebo by 35.1% at six months on background care in adults with C3 glomerulopathy.",
+      "quote": "relative reduction in 24-h UPCR at 6 months for iptacopan versus placebo of 35·1%",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Randomized double-blind phase 3 trial; 74 adults with biopsy-confirmed C3G, low serum C3, UPCR >=1 g/g and eGFR >=30",
+      "limitations": [
+        "Mixed C3G enrollment; no C3GN-specific efficacy estimate or long-term kidney-survival benefit established by this abstract. Trial funded by Novartis.",
+        "Abstract-only source inspection; independent domain review pending."
+      ],
+      "category": "supporting",
+      "evidenceType": "randomized_trial",
+      "causalInterpretation": "interventional",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human approval)",
+        "checkedAt": "2026-10-15"
+      },
+      "contextId": "context-c3gn-overview",
+      "paperKey": "doi-e55def3fa75dabaf18aa",
+      "paperDigest": "e31d80987d6f51a2e38881d6cac2e03808a89c5adec69e9a80bd7a9f6d78f026"
+    }
+  ]
+}

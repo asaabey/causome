@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "diseaseId": "atypical-hus",
+  "baseReleaseId": "atypical-hus-summary-candidate-89b9ec28207f",
+  "baseContentDigest": "0454a43d226b949781a8a6b8397abb6d514097877cd97c5d0c7a18ee618f2608",
+  "scope": "Consolidated complement-mediated aHUS map: inherited and acquired regulatory defects, alternative-pathway amplification, terminal complement, endothelial and platelet injury, renal TMA, haemolysis, thrombocytopenia and kidney dysfunction, with haemolysis\u2013heme feedback and verified C5 targets. Human associations, cell experiments and animal perturbations retain explicit study-system limits. THBD disease causality is disputed. Excludes STEC-HUS, TTP, secondary TMA as disease entities, DGKE and cobalamin-related TMA.",
+  "authoredBy": {
+    "id": "codex-agent",
+    "kind": "agent"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "Complement-mediated aHUS can arise through converging inherited and acquired defects in complement control: altered factor H, factor I or CD46 function, selected C3 or factor B variants, and anti-factor H autoantibodies associated with CFHR1/CFHR3 deficiency. Impaired surface regulation allows alternative-pathway convertase amplification and C5 cleavage, generating C5a and terminal C5b-9. Endothelial complement deposition, membrane injury and activation connect with VWF release, platelet activation and fibrin-rich microthrombi. Human serum/cell experiments demonstrate several of these links; distinct complement-mutant mouse models support MAC-dependent renal TMA, accompanied by red-cell fragmentation, thrombocytopenia and renal dysfunction. Haemolysis-derived heme can amplify complement, reduce endothelial CD46 and stimulate VWF release in experiments, forming a plausible amplification loop. The consolidated map shows these routes together while retaining the actual human, cell, biochemical and mouse systems in each evidence item.",
+      "claimIds": [
+        "claim-ahus-v3-cfh-defect",
+        "claim-ahus-v3-cfi-defect",
+        "claim-ahus-v3-cd46-defect",
+        "claim-ahus-v3-cfb-convertase",
+        "claim-ahus-v3-c3-surface-amplification",
+        "claim-ahus-fh-block",
+        "claim-ahus-cfhr-antibody",
+        "claim-ahus-v3-fh-surface-control",
+        "claim-ahus-v3-ap-convertase",
+        "claim-ahus-v3-convertase-c5",
+        "claim-ahus-v3-c5-mac",
+        "claim-ahus-v3-c5-c5ar",
+        "claim-ahus-v3-mac-endothelial",
+        "claim-ahus-v3-endothelial-vwf",
+        "claim-ahus-v3-ap-platelets",
+        "claim-ahus-v3-platelets-thrombi",
+        "claim-ahus-v3-mac-fibrin",
+        "claim-ahus-mac-tma",
+        "claim-ahus-fh-mac-tma",
+        "claim-ahus-v3-tma-hemolysis",
+        "claim-ahus-v3-tma-platelet-count",
+        "claim-ahus-v3-tma-renal",
+        "claim-ahus-v3-hemolysis-heme",
+        "claim-ahus-v3-heme-convertase",
+        "claim-ahus-v3-heme-cd46",
+        "claim-ahus-v3-heme-vwf"
+      ]
+    },
+    {
+      "text": "Susceptibility is incompletely penetrant, and triggering events commonly precede onset; neither a variant nor an abnormal endothelial assay alone establishes active disease. C5aR1 effects differ across mouse models, and complement-challenged endothelial cells can repair membrane leakage rather than die. THBD altered complement regulation in original biochemical experiments, but a later human registry/population study did not support a significant THBD contribution to complement-mediated aHUS; this disputed branch remains visible with contrary evidence. Eculizumab and ravulizumab have verified US aHUS indications and target C5; selected uncontrolled eculizumab studies reported platelet and renal improvements but do not establish universal recovery or drug superiority. Their serious meningococcal infection risks remain explicit. Connecting supported edges provides an integrated disease explanation, not proof that every step or the complete heme feedback loop occurs in every patient. Some bridging biochemistry comes from explicitly identified primary-report background or regulatory mechanism text. Source access is predominantly abstract-level with selected full-text results; independent scientific review, calibration and comprehensive therapy appraisal remain pending.",
+      "claimIds": [
+        "claim-ahus-penetrance",
+        "claim-ahus-v3-trigger-onset",
+        "claim-ahus-carrier-mac",
+        "claim-ahus-remission-mac",
+        "claim-ahus-c5ar-tma",
+        "claim-ahus-fh-c5ar-renal",
+        "claim-ahus-v3-mac-repair-qualification",
+        "claim-ahus-v3-thbd-regulation",
+        "claim-ahus-v3-thbd-risk",
+        "claim-ahus-v3-thbd-disputed",
+        "claim-ahus-soliris-c5",
+        "claim-ahus-soliris-indication",
+        "claim-ahus-ultomiris-c5",
+        "claim-ahus-ultomiris-indication",
+        "claim-ahus-ecu-response",
+        "claim-ahus-ecu-renal"
+      ]
+    }
+  ]
+}

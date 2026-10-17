@@ -1,0 +1,288 @@
+[
+  {
+    "key": "doi-11560631b622a2fc22de",
+    "identifiers": [
+      "DOI:10.1016/j.kint.2025.02.028",
+      "MED:40147632",
+      "PMID:40147632"
+    ],
+    "title": "Anti-nephrin antibodies in adult Chinese patients with minimal change disease and primary focal segmental glomerulosclerosis.",
+    "authors": "Shu Y, Huang J, Jiang L, Zhang YM, Wang F, Wang X, Meng LQ, Cheng XY, Liu G, Wang SX, Zhao MH, Ronco P, Cui Z.",
+    "publishedAt": "2025-03-25",
+    "journal": "Kidney international",
+    "abstract": "Introduction Anti-nephrin autoantibodies have been discovered in patients with minimal change disease (MCD) and primary focal segmental glomerulosclerosis (FSGS), especially in those with active nephrotic syndrome. Methods Here, we investigated the prevalence and clinical significance of anti-nephrin antibodies in 596 adult Chinese patients (436 with MCD and 160 with primary FSGS) diagnosed by kidney biopsy. Results Anti-nephrin IgG and IgM were detected using ELISA, with validation through antigen-inhibition ELISA and Western blotting. Clinical data at biopsy and during the follow-up period were analyzed. Anti-nephrin antibodies were detected in 43% of all patients, with 30% testing positive for anti-nephrin IgG, 26% for anti-nephrin IgM, and 13.1% for both antibodies. The prevalence of anti-nephrin antibodies was higher in patients with nephrotic-range proteinuria who were not receiving steroids or immunosuppressants (51.1%). Patients with positive anti-nephrin antibodies exhibited more severe nephrotic syndrome, higher rates of relapse, and a shorter relapse-free period compared to those negative for these antibodies. Clinical features were similar between those with IgG and IgM. Notably, patients with both anti-nephrin IgG and IgM had the most severe proteinuria and the highest relapse frequency, suggesting a dose-dependent effect. Longitudinal analysis revealed that anti-nephrin antibodies significantly decreased during clinical remission, while they reappeared preceding proteinuria relapse. Conclusions Our study shows that anti-nephrin antibodies, including IgG and IgM, are detectable in adult patients with MCD and primary FSGS and are associated with active nephrotic syndrome and frequent relapse. These antibodies may serve as valuable biomarkers and potential therapeutic targets.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40147632/",
+    "doi": "10.1016/j.kint.2025.02.028",
+    "pmid": "40147632",
+    "pmcid": null,
+    "accessScope": "Abstract and bibliographic metadata",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-58e7b70bdec8a8a4be97",
+    "identifiers": [
+      "DOI:10.1056/nejm199604043341402",
+      "MED:8596570",
+      "PMID:8596570"
+    ],
+    "title": "Circulating factor associated with increased glomerular permeability to albumin in recurrent focal segmental glomerulosclerosis.",
+    "authors": "Savin VJ, Sharma R, Sharma M, McCarthy ET, Swan SK, Ellis E, Lovell H, Warady B, Gunwar S, Chonko AM, Artero M, Vincenti F.",
+    "publishedAt": "1996-04-01",
+    "journal": "The New England journal of medicine",
+    "abstract": "Background Heavy proteinuria and progressive renal injury recur after transplantation in up to 40 percent of patients with renal failure caused by idiopathic focal segmental glomerulosclerosis. A circulating factor may be responsible for this recurrence. Methods To determine whether patients with focal segmental glomerulosclerosis have a circulating factor capable of causing glomerular injury, we tested serum samples from 100 patients with the disorder in an in vitro assay of glomerular permeability to albumin. Of the 56 patients who had undergone renal transplantation, 33 had recurrences. Sixty-four patients, many of whom had undergone transplantation, were being treated with dialysis. Thirty-one patients with other renal diseases and nine normal subjects were also studied. Results The 33 patients with recurrent focal segmental glomerulosclerosis after transplantation had a higher mean (+/-SE) value for permeability to albumin (0.47+/-0.06) than the normal subjects (0.06+/-0.07) or the patients who did not have recurrences (0.14+/-0.06). After plasmapheresis in six patients with recurrences, the permeability was reduced (from 0.79+/-0.06 to 0.10+/-0.05, P = 0.008), and proteinuria was significantly decreased. Patients with corticosteroid-sensitive nephrotic syndrome or with membranous nephropathy after transplantation had low levels of serum activity. The circulating factor bound to protein A and hydrophobic-interaction columns and had an apparent molecular mass of about 50 kd. Conclusions A circulating factor found in some patients with focal segmental glomerulosclerosis is associated with recurrent disease after renal transplantation and may be responsible for initiating the renal injury.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8596570/",
+    "doi": "10.1056/nejm199604043341402",
+    "pmid": "8596570",
+    "pmcid": null,
+    "accessScope": "Abstract and bibliographic metadata",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "8596578",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "11195803",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-5a6802f69e8a23c5ae1d",
+    "identifiers": [
+      "DOI:10.1056/nejmoa2314471",
+      "MED:38804512",
+      "PMID:38804512"
+    ],
+    "title": "Autoantibodies Targeting Nephrin in Podocytopathies.",
+    "authors": "Hengel FE, Dehde S, Lass\u00e9 M, Zahner G, Seifert L, Schnarre A, Kretz O, Demir F, Pinnschmidt HO, Grahammer F, Lucas R, Mehner LM, Zimmermann T, Billing AM, Oh J, Mitrotti A, Pontrelli P, Debiec H, Dossier C, Colucci M, Emma F, Smoyer WE, Weins A, Schaefer F, Alachkar N, Diemert A, Hogan J, Hoxha E, Wiech T, Rinschen MM, Ronco P, Vivarelli M, Gesualdo L, Tomas NM, Huber TB, International Society of Glomerular Disease.",
+    "publishedAt": "2024-05-25",
+    "journal": "The New England journal of medicine",
+    "abstract": "Background Minimal change disease and primary focal segmental glomerulosclerosis in adults, along with idiopathic nephrotic syndrome in children, are immune-mediated podocytopathies that lead to nephrotic syndrome. Autoantibodies targeting nephrin have been found in patients with minimal change disease, but their clinical and pathophysiological roles are unclear. Methods We conducted a multicenter study to analyze antinephrin autoantibodies in adults with glomerular diseases, including minimal change disease, focal segmental glomerulosclerosis, membranous nephropathy, IgA nephropathy, antineutrophil cytoplasmic antibody-associated glomerulonephritis, and lupus nephritis, as well as in children with idiopathic nephrotic syndrome and in controls. We also created an experimental mouse model through active immunization with recombinant murine nephrin. Results The study included 539 patients (357 adults and 182 children) and 117 controls. Among the adults, antinephrin autoantibodies were found in 46 of the 105 patients (44%) with minimal change disease, 7 of 74 (9%) with primary focal segmental glomerulosclerosis, and only in rare cases among the patients with other conditions. Of the 182 children with idiopathic nephrotic syndrome, 94 (52%) had detectable antinephrin autoantibodies. In the subgroup of patients with active minimal change disease or idiopathic nephrotic syndrome who were not receiving immunosuppressive treatment, the prevalence of antinephrin autoantibodies was as high as 69% and 90%, respectively. At study inclusion and during follow-up, antinephrin autoantibody levels were correlated with disease activity. Experimental immunization induced a nephrotic syndrome, a minimal change disease-like phenotype, IgG localization to the podocyte slit diaphragm, nephrin phosphorylation, and severe cytoskeletal changes in mice. Conclusions In this study, circulating antinephrin autoantibodies were common in patients with minimal change disease or idiopathic nephrotic syndrome and appeared to be markers of disease activity. Their binding at the slit diaphragm induced podocyte dysfunction and nephrotic syndrome, which highlights their pathophysiological significance. (Funded by Deutsche Forschungsgemeinschaft and others.).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38804512/",
+    "doi": "10.1056/nejmoa2314471",
+    "pmid": "38804512",
+    "pmcid": null,
+    "accessScope": "Abstract and bibliographic metadata",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "39383467",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "39383468",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "39383469",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "39383470",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-82728a5c8c4285ed45be",
+    "identifiers": [
+      "DOI:10.1056/nejmoa2308550",
+      "MED:37921461",
+      "PMID:37921461"
+    ],
+    "title": "Sparsentan versus Irbesartan in Focal Segmental Glomerulosclerosis.",
+    "authors": "Rheault MN, Alpers CE, Barratt J, Bieler S, Canetta P, Chae DW, Coppock G, Diva U, Gesualdo L, Heerspink HJL, Inrig JK, Kirsztajn GM, Kohan D, Komers R, Kooienga LA, Lieberman K, Mercer A, Noronha IL, Perkovic V, Radhakrishnan J, Rote W, Rovin B, Tesar V, Trimarchi H, Tumlin J, Wong MG, Trachtman H, DUPRO Steering Committee and DUPLEX Investigators.",
+    "publishedAt": "2023-11-03",
+    "journal": "The New England journal of medicine",
+    "abstract": "Background An unmet need exists for focal segmental glomerulosclerosis (FSGS) treatment. In an 8-week, phase 2 trial, sparsentan, a dual endothelin-angiotensin receptor antagonist, reduced proteinuria in patients with FSGS. The efficacy and safety of longer-term treatment with sparsentan for FSGS are unknown. Methods In this phase 3 trial, we enrolled patients with FSGS (without known secondary causes) who were 8 to 75 years of age; patients were randomly assigned to receive sparsentan or irbesartan (active control) for 108 weeks. The surrogate efficacy end point assessed at the prespecified interim analysis at 36 weeks was the FSGS partial remission of proteinuria end point (defined as a urinary protein-to-creatinine ratio of \u22641.5 [with protein and creatinine both measured in grams] and a >40% reduction in the ratio from baseline). The primary efficacy end point was the estimated glomerular filtration rate (eGFR) slope at the time of the final analysis. The change in eGFR from baseline to 4 weeks after the end of treatment (week 112) was a secondary end point. Safety was also evaluated. Results A total of 371 patients underwent randomization: 184 were assigned to receive sparsentan and 187 to receive irbesartan. At 36 weeks, the percentage of patients with partial remission of proteinuria was 42.0% in the sparsentan group and 26.0% in the irbesartan group (P = 0.009), a response that was sustained through 108 weeks. At the time of the final analysis at week 108, there were no significant between-group differences in the eGFR slope; the between-group difference in total slope (day 1 to week 108) was 0.3 ml per minute per 1.73 m 2 of body-surface area per year (95% confidence interval [CI], -1.7 to 2.4), and the between-group difference in the slope from week 6 to week 108 (i.e., chronic slope) was 0.9 ml per minute per 1.73 m 2 per year (95% CI, -1.3 to 3.0). The mean change in eGFR from baseline to week 112 was -10.4 ml per minute per 1.73 m 2 with sparsentan and -12.1 ml per minute per 1.73 m 2 with irbesartan (difference, 1.8 ml per minute per 1.73 m 2 ; 95% CI, -1.4 to 4.9). Sparsentan and irbesartan had similar safety profiles, and the frequency of adverse events was similar in the two groups. Conclusions Among patients with FSGS, there were no significant between-group differences in eGFR slope at 108 weeks, despite a greater reduction in proteinuria with sparsentan than with irbesartan. (Funded by Travere Therapeutics; DUPLEX ClinicalTrials.gov number, NCT03493685.).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37921461/",
+    "doi": "10.1056/nejmoa2308550",
+    "pmid": "37921461",
+    "pmcid": null,
+    "accessScope": "Abstract and bibliographic metadata",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "38507767",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "38507768",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "38507769",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-9bc822ea3202e8cbecd8",
+    "identifiers": [
+      "DOI:10.1056/nejmoa2202396",
+      "MED:36920755",
+      "PMID:36920755"
+    ],
+    "title": "Inaxaplin for Proteinuric Kidney Disease in Persons with Two &lt;i&gt;APOL1&lt;/i&gt; Variants.",
+    "authors": "Egbuna O, Zimmerman B, Manos G, Fortier A, Chirieac MC, Dakin LA, Friedman DJ, Bramham K, Campbell K, Knebelmann B, Barisoni L, Falk RJ, Gipson DS, Lipkowitz MS, Ojo A, Bunnage ME, Pollak MR, Altshuler D, Chertow GM, VX19-147-101 Study Group.",
+    "publishedAt": "2023-03-01",
+    "journal": "The New England journal of medicine",
+    "abstract": "Background Persons with toxic gain-of-function variants in the gene encoding apolipoprotein L1 ( APOL1 ) are at greater risk for the development of rapidly progressive, proteinuric nephropathy. Despite the known genetic cause, therapies targeting proteinuric kidney disease in persons with two APOL1 variants (G1 or G2) are lacking. Methods We used tetracycline-inducible APOL1 human embryonic kidney (HEK293) cells to assess the ability of a small-molecule compound, inaxaplin, to inhibit APOL1 channel function. An APOL1 G2-homologous transgenic mouse model of proteinuric kidney disease was used to assess inaxaplin treatment for proteinuria. We then conducted a single-group, open-label, phase 2a clinical study in which inaxaplin was administered to participants who had two APOL1 variants, biopsy-proven focal segmental glomerulosclerosis, and proteinuria (urinary protein-to-creatinine ratio of \u22650.7 to 2 of body-surface area). Participants received inaxaplin daily for 13 weeks (15 mg for 2 weeks and 45 mg for 11 weeks) along with standard care. The primary outcome was the percent change from the baseline urinary protein-to-creatinine ratio at week 13 in participants who had at least 80% adherence to inaxaplin therapy. Safety was also assessed. Results In preclinical studies, inaxaplin selectively inhibited APOL1 channel function in vitro and reduced proteinuria in the mouse model. Sixteen participants were enrolled in the phase 2a study. Among the 13 participants who were treated with inaxaplin and met the adherence threshold, the mean change from the baseline urinary protein-to-creatinine ratio at week 13 was -47.6% (95% confidence interval, -60.0 to -31.3). In an analysis that included all the participants regardless of adherence to inaxaplin therapy, reductions similar to those in the primary analysis were observed in all but 1 participant. Adverse events were mild or moderate in severity; none led to study discontinuation. Conclusions Targeted inhibition of APOL1 channel function with inaxaplin reduced proteinuria in participants with two APOL1 variants and focal segmental glomerulosclerosis. (Funded by Vertex Pharmaceuticals; VX19-147-101 ClinicalTrials.gov number, NCT04340362.).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36920755/",
+    "doi": "10.1056/nejmoa2202396",
+    "pmid": "36920755",
+    "pmcid": null,
+    "accessScope": "Abstract and bibliographic metadata",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "37106136",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "37224918",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "37379147",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "37379148",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-d2ab11f0d2522aeeb78a",
+    "identifiers": [
+      "DOI:10.1007/s00424-022-02767-8",
+      "MED:36449077",
+      "PMCID:PMC10321438",
+      "PMID:36449077"
+    ],
+    "title": "Apolipoprotein L1 (APOL1) cation current in HEK-293 cells and in human podocytes.",
+    "authors": "Vandorpe DH, Heneghan JF, Waitzman JS, McCarthy GM, Blasio A, Magraner JM, Donovan OG, Schaller LB, Shah SS, Subramanian B, Riella CV, Friedman DJ, Pollak MR, Alper SL.",
+    "publishedAt": "2022-11-30",
+    "journal": "Pflugers Archiv : European journal of physiology",
+    "abstract": "Two heterozygous missense variants (G1 and G2) of Apolipoprotein L1 (APOL1) found in individuals of recent African ancestry can attenuate the severity of infection by some forms of Trypanosoma brucei. However, these two variants within a broader African haplotype also increase the risk of kidney disease in Americans of African descent. Although overexpression of either variant G1 or G2 causes multiple pathogenic changes in cultured cells and transgenic mouse models, the mechanism(s) promoting kidney disease remain unclear. Human serum APOL1 kills trypanosomes through its cation channel activity, and cation channel activity of recombinant APOL1 has been reconstituted in lipid bilayers and proteoliposomes. Although APOL1 overexpression increases whole cell cation currents in HEK-293 cells, the ion channel activity of APOL1 has not been assessed in glomerular podocytes, the major site of APOL1-associated kidney diseases. We characterize APOL1-associated whole cell and on-cell cation currents in HEK-293 T-Rex cells and demonstrate partial inhibition of currents by anti-APOL antibodies. We detect in primary human podocytes a similar cation current inducible by interferon-\u03b3 (IFN\u03b3) and sensitive to inhibition by anti-APOL antibody as well as by a fragment of T. brucei Serum Resistance-Associated protein (SRA). CRISPR knockout of APOL1 in human primary podocytes abrogates the IFN\u03b3-induced, antibody-sensitive current. Our novel characterization in HEK-293 cells of heterologous APOL1-associated cation conductance inhibited by anti-APOL antibody and our documentation in primary human glomerular podocytes of endogenous IFN\u03b3-stimulated, APOL1-mediated, SRA and anti-APOL-sensitive ion channel activity together support APOL1-mediated channel activity as a therapeutic target for treatment of APOL1-associated kidney diseases.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36449077/",
+    "doi": "10.1007/s00424-022-02767-8",
+    "pmid": "36449077",
+    "pmcid": "PMC10321438",
+    "accessScope": "Abstract and bibliographic metadata",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-f04252a6870b993813bf",
+    "identifiers": [
+      "DOI:10.21037/atm-22-3670",
+      "MED:37404982",
+      "PMCID:PMC10316099",
+      "PMID:37404982"
+    ],
+    "title": "Perturbations in podocyte transcriptome and biological pathways induced by FSGS associated circulating factors.",
+    "authors": "Rashmi P, Sigdel TK, Rychkov D, Damm I, Da Silva AA, Vincenti F, Lourenco AL, Craik CS, Reiser J, Sarwal MM.",
+    "publishedAt": "2023-05-04",
+    "journal": "Annals of translational medicine",
+    "abstract": "Background Focal segmental glomerulosclerosis (FSGS) is frequently associated with heavy proteinuria and progressive renal failure requiring dialysis or kidney transplantation. However, primary FSGS also has a ~40% risk of recurrence of disease in the transplanted kidney (rFSGS). Multiple circulating factors have been identified to contribute to the pathogenesis of primary and rFSGS including soluble urokinase-type plasminogen activator receptor (suPAR) and patient-derived CD40 autoantibody (CD40autoAb). However, the downstream effector pathways specific to individual factors require further study. The tumor necrosis factor, TNF pathway activation by one or more circulating factors present in the sera of patients with FSGS has been supported by multiple studies. Methods A human in vitro model was used to study podocyte injury measured as the loss of actin stress fibers. Anti-CD40 autoantibody was isolated from FSGS patients (recurrent and non-recurrent) and control patients with ESRD due to non-FSGS related causes. Two novel human antibodies-anti-uPAR (2G10) and anti-CD40 antibody (Bristol Meyer Squibb, 986090) were tested for their ability to rescue podocyte injury. Podocytes treated with patient derived antibody were transcriptionally profiled using whole human genome microarray. Results Here we show that podocyte injury caused by sera from FSGS patients is mediated by CD40 and suPAR and can be blocked by human anti-uPAR and anti-CD40 antibodies. Transcriptomic studies to compare the molecules and pathways activated in response to CD40 autoantibody from rFSGS patients (rFSGS/CD40autoAb) and suPAR, identified unique inflammatory pathways associated with FSGS injury. Conclusions We identified several novel and previously described genes associated with FSGS progression. Targeted blockade of suPAR and CD40 pathways with novel human antibodies showed inhibition of podocyte injury in FSGS.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37404982/",
+    "doi": "10.21037/atm-22-3670",
+    "pmid": "37404982",
+    "pmcid": "PMC10316099",
+    "accessScope": "Abstract and bibliographic metadata",
+    "openAccess": true,
+    "license": "cc by-nc-nd",
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Preprint in",
+        "id": "PPR543036",
+        "source": "PPR"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-f3e8766ddc81e419756f",
+    "identifiers": [
+      "DOI:10.1172/jci172262",
+      "MED:38227370",
+      "PMCID:PMC10904047",
+      "PMID:38227370"
+    ],
+    "title": "APOL1-mediated monovalent cation transport contributes to APOL1-mediated podocytopathy in kidney disease.",
+    "authors": "Datta S, Antonio BM, Zahler NH, Theile JW, Krafte D, Zhang H, Rosenberg PB, Chaves AB, Muoio DM, Zhang G, Silas D, Li G, Soldano K, Nystrom S, Ferreira D, Miller SE, Bain JR, Muehlbauer MJ, Ilkayeva O, Becker TC, Hohmeier HE, Newgard CB, Olabisi OA.",
+    "publishedAt": "2024-01-16",
+    "journal": "The Journal of clinical investigation",
+    "abstract": "Two coding variants of apolipoprotein L1 (APOL1), called G1 and G2, explain much of the excess risk of kidney disease in African Americans. While various cytotoxic phenotypes have been reported in experimental models, the proximal mechanism by which G1 and G2 cause kidney disease is poorly understood. Here, we leveraged 3 experimental models and a recently reported small molecule blocker of APOL1 protein, VX-147, to identify the upstream mechanism of G1-induced cytotoxicity. In HEK293 cells, we demonstrated that G1-mediated Na+ import/K+ efflux triggered activation of GPCR/IP3-mediated calcium release from the ER, impaired mitochondrial ATP production, and impaired translation, which were all reversed by VX-147. In human urine-derived podocyte-like epithelial cells (HUPECs), we demonstrated that G1 caused cytotoxicity that was again reversible by VX-147. Finally, in podocytes isolated from APOL1 G1 transgenic mice, we showed that IFN-\u03b3-mediated induction of G1 caused K+ efflux, activation of GPCR/IP3 signaling, and inhibition of translation, podocyte injury, and proteinuria, all reversed by VX-147. Together, these results establish APOL1-mediated Na+/K+ transport as the proximal driver of APOL1-mediated kidney disease.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38227370/",
+    "doi": "10.1172/jci172262",
+    "pmid": "38227370",
+    "pmcid": "PMC10904047",
+    "accessScope": "Abstract and bibliographic metadata",
+    "openAccess": true,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  }
+]

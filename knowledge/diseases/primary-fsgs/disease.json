@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "id": "primary-fsgs",
+  "label": "Primary FSGS with APOL1 branch",
+  "summary": "Bounded circulating-factor/immune primary FSGS and separate APOL1-associated kidney injury branch; excludes other genetic, adaptive, viral and drug-associated FSGS. APOL1-associated disease is not classified as idiopathic primary FSGS.",
+  "query": "((TITLE_ABS:\"focal segmental glomerulosclerosis\" OR TITLE_ABS:\"FSGS\") AND (TITLE_ABS:primary OR TITLE_ABS:\"circulating factor\" OR TITLE_ABS:nephrin OR TITLE_ABS:recurrence)) OR (TITLE_ABS:APOL1 AND (TITLE_ABS:podocyte OR TITLE_ABS:channel OR TITLE_ABS:interferon OR TITLE_ABS:inaxaplin))",
+  "aliases": [
+    "FSGS",
+    "primary focal segmental glomerulosclerosis",
+    "circulating-factor FSGS",
+    "APOL1-mediated kidney disease",
+    "AMKD"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "primary-fsgs-summary-candidate-c0afb63eed8a"
+}

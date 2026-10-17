@@ -1,0 +1,49 @@
+[
+  {
+    "id": "source-gbm-phase3",
+    "url": "https://www.hansabiopharma.com/media/press-releases/2025/hansa-provides-update-on-pivotal-phase-3-trial-in-anti-glomerular-basement-membrane-anti-gbm-disease/",
+    "title": "Hansa GOOD-IDES-02 topline results",
+    "kind": "trial",
+    "studyId": "NCT05679401",
+    "quote": "did not meet its primary endpoint.",
+    "location": "Opening paragraph; trial design and standard-of-care paragraphs",
+    "scope": "Sponsor web report inspected; not a peer-reviewed full trial report",
+    "notes": [
+      "Header and lead date are 2025-12-16; regulatory footer says December 16, 2026. Date inconsistency retained; corroborating Cision report is dated 2025-12-16.",
+      "Sponsor reports null primary endpoint; no full effect estimate or confidence interval appraised."
+    ],
+    "checkedBy": "Codex agent via web retrieval",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "id": "source-gbm-ema",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/idefirix",
+    "title": "EMA Idefirix EPAR",
+    "kind": "regulatory",
+    "studyId": "EMEA/H/C/004849",
+    "quote": "Idefirix is indicated for desensitisation treatment of highly sensitised adult kidney transplant patients",
+    "location": "Therapeutic indication",
+    "scope": "EMA EPAR web indication inspected on 2026-10-17",
+    "notes": [
+      "Transplant desensitisation indication; does not authorize anti-GBM treatment."
+    ],
+    "checkedBy": "Codex agent via web retrieval",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "id": "source-gbm-kdigo",
+    "url": "https://kdigo.org/wp-content/uploads/2017/02/KDIGO-Glomerular-Diseases-Guideline-2021-English.pdf",
+    "title": "KDIGO 2021 Glomerular Diseases Guideline, chapter 11",
+    "kind": "publication",
+    "studyId": "KDIGO-GD-2021-CH11",
+    "quote": "We recommend initiating immunosuppression with cyclophosphamide and glucocorticoids plus plasmapheresis in all patients with anti-GBM GN",
+    "location": "Chapter 11, recommendation 11.2.1 and figure 99",
+    "scope": "Selected chapter 11 treatment recommendation/table via web retrieval; no full guideline appraisal",
+    "notes": [
+      "Guideline-recommended combined use, not a regulatory approval record.",
+      "Dialysis at presentation plus 100% crescents or >50% global sclerosis without pulmonary haemorrhage is an exception in recommendation 11.2.1."
+    ],
+    "checkedBy": "Codex agent via web retrieval",
+    "checkedAt": "2026-10-17"
+  }
+]

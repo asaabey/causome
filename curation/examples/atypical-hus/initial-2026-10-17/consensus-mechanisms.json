@@ -1,0 +1,594 @@
+{
+  "causalSearch": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"results\": [{\"id\": \"c1047b471c5d5964a47485bb48b28868\", \"title\": \"The membrane attack complex drives thrombotic microangiopathy in complement mediated atypical hemolytic uremic syndrome.\", \"text\": \"Introduction of complement (C) inhibition into clinical practice has revolutionized the treatment of patients with complement-mediated atypical hemolytic syndrome (aHUS). Our C3D1115N mouse model, eng...\", \"url\": \"https://consensus.app/papers/details/c1047b471c5d5964a47485bb48b28868/?utm_source=chatgpt\"}, {\"id\": \"0f68ce42bd3b536b97bd068a9a19385d\", \"title\": \"Differential contribution of C5aR and C5b-9 pathways to renal thrombic microangiopathy and macrovascular thrombosis in mice carrying an atypical hemolytic syndrome-related factor H mutation.\", \"text\": \"Atypical hemolytic uremic syndrome (aHUS) is a form of thrombotic microangiopathy (TMA) caused by dysregulated complement activation. Clinically, aHUS is effectively treated by an anti-C5 monoclonal a...\", \"url\": \"https://consensus.app/papers/details/0f68ce42bd3b536b97bd068a9a19385d/?utm_source=chatgpt\"}, {\"id\": \"db79965c439e54b28f81bafcb97380fc\", \"title\": \"Atypical Haemolytic Uraemic Syndrome.\", \"text\": \"Hemolytic uremic syndromes are a heterogeneous group of conditions with differing underlying pathophysiology. These all result in pathologic features of thrombotic microangiopathy (TMA), which cause e...\", \"url\": \"https://consensus.app/papers/details/db79965c439e54b28f81bafcb97380fc/?utm_source=chatgpt\"}, {\"id\": \"b8be803000cc50dda2c7c94276fe52e7\", \"title\": \"Terminal complement effectors in atypical hemolytic uremic syndrome: C5a, C5b-9, or a bit of both?\", \"text\": \"The role of the terminal complement pathway as the cause of atypical hemolytic uremic syndrome (aHUS) is widely recognized, but the relative contribution of the effectors C5a/C5aR1 and C5b-9 to diseas...\", \"url\": \"https://consensus.app/papers/details/b8be803000cc50dda2c7c94276fe52e7/?utm_source=chatgpt\"}, {\"id\": \"509676cdd2f85e4eb37f9dc29448a8ed\", \"title\": \"The Development of Atypical Hemolytic Uremic Syndrome Depends on Complement C5\", \"text\": \"Gene variants in the alternative pathway of the complement system strongly associate with atypical hemolytic uremic syndrome (aHUS), presumably by predisposing to increased complement activation withi...\", \"url\": \"https://consensus.app/papers/details/509676cdd2f85e4eb37f9dc29448a8ed/?utm_source=chatgpt\"}, {\"id\": \"c9e969451f945fb287555654c05bac79\", \"title\": \"Complement activation by heme as a secondary hit for atypical hemolytic uremic syndrome.\", \"text\": \"Atypical hemolytic uremic syndrome (aHUS) is characterized by genetic and acquired abnormalities of the complement system leading to alternative pathway (AP) overactivation and by glomerular endotheli...\", \"url\": \"https://consensus.app/papers/details/c9e969451f945fb287555654c05bac79/?utm_source=chatgpt\"}, {\"id\": \"e017405a42de542284f0764fe31a01b6\", \"title\": \"C3d-targeted complement inhibitors to correct complement dysregulation in aHUS patients\", \"text\": \"Atypical hemolytic uremic syndrome (aHUS) is a rare and severe thrombotic microangiopathy caused by genetic or acquired abnormalities leading to activation of the complement alternative pathway on cel...\", \"url\": \"https://consensus.app/papers/details/e017405a42de542284f0764fe31a01b6/?utm_source=chatgpt\"}, {\"id\": \"55fe57b2e7b25fb88723d0e0cbfd1fd9\", \"title\": \"Complement Alternative Pathway Dominance in Atypical Hemolytic Uremic Syndrome Revealed by Endothelial Bioassays\", \"text\": \"Atypical hemolytic uremic syndrome (aHUS), or as recently suggested complement-mediated thrombotic microangiopathy,1 is primarily driven by genetic or acquired dysregulation of the alternative complem...\", \"url\": \"https://consensus.app/papers/details/55fe57b2e7b25fb88723d0e0cbfd1fd9/?utm_source=chatgpt\"}, {\"id\": \"e4ffced952035d018c08db42bcf65abe\", \"title\": \"Optimal duration of treatment with eculizumab in atypical hemolytic uremic syndrome (aHUS)—a question to be addressed in a scientific way\", \"text\": \"Atypical hemolytic uremic syndrome (aHUS) is an ultrarare disease caused, in most cases, by dysregulation of the alternative complement (C′) pathway at the surface of the vascular endothelium [1–3]. U...\\n\\nAccess through your institution: https://libkey.io/libraries/3459/articles/269467125/full-text-file?utm_source=api_3508&allow_speedbump=true\", \"url\": \"https://consensus.app/papers/details/e4ffced952035d018c08db42bcf65abe/?utm_source=chatgpt\"}, {\"id\": \"7ce536c1fad654e99e73f606e61159ec\", \"title\": \"Eculizumab reduces complement activation, inflammation, endothelial damage, thrombosis, and renal injury markers in aHUS.\", \"text\": \"Atypical hemolytic uremic syndrome (aHUS) is a genetic, life-threatening disease characterized by uncontrolled complement activation, systemic thrombotic microangiopathy (TMA), and vital organ damage....\\n\\nAccess through your institution: https://libkey.io/libraries/3459/articles/54463134/content-location?utm_source=api_3508&allow_speedbump=true\", \"url\": \"https://consensus.app/papers/details/7ce536c1fad654e99e73f606e61159ec/?utm_source=chatgpt\"}, {\"id\": \"8f178c94e87d5bd3aa7da2f5ae22a4c6\", \"title\": \"Atypical Hemolytic Uremic Syndrome: A Brief Review\", \"text\": \"Atypical hemolytic uremic syndrome (aHUS) is a disease characterized by the triad of microangiopathic hemolytic anemia, thrombocytopenia and acute kidney injury. The histopathologic lesions of aHUS in...\\n\\nAccess through your institution: https://libkey.io/libraries/3459/articles/104551488/full-text-file?utm_source=api_3508&allow_speedbump=true\", \"url\": \"https://consensus.app/papers/details/8f178c94e87d5bd3aa7da2f5ae22a4c6/?utm_source=chatgpt\"}, {\"id\": \"3cdc7f93f7de5ef6b6813aec33c710e9\", \"title\": \"Hyperfunctional complement C3 promotes C5-dependent atypical hemolytic uremic syndrome in mice\", \"text\": \"Atypical hemolytic uremic syndrome (aHUS) is frequently associated in humans with loss-of-function mutations in complement-regulating proteins or gain-of-function mutations in complement-activating pr...\", \"url\": \"https://consensus.app/papers/details/3cdc7f93f7de5ef6b6813aec33c710e9/?utm_source=chatgpt\"}, {\"id\": \"223868be9edb5b1683190c250558383d\", \"title\": \"Atypical Hemolytic Uremic Syndrome: A Review of Complement Dysregulation, Genetic Susceptibility and Multiorgan Involvement\", \"text\": \"Atypical hemolytic uremic syndrome (aHUS) is a rare, life-threatening thrombotic microangiopathy (TMA) characterized by complement dysregulation, leading to microvascular thrombosis and multi-organ in...\\n\\nAccess through your institution: https://libkey.io/libraries/3459/articles/662195476/full-text-file?utm_source=api_3508&allow_speedbump=true\", \"url\": \"https://consensus.app/papers/details/223868be9edb5b1683190c250558383d/?utm_source=chatgpt\"}, {\"id\": \"9be99d1ee1cf5fd6bf6a12bc1e1acb81\", \"title\": \"Anti-C5 monoclonal antibody treatment showing pathological resolution of complement-mediated atypical hemolytic uremic syndrome: a case report\", \"text\": \"Background: No reports have shown histological changes before and after anti-C5 monoclonal antibody treatment in patients with atypical hemolytic uremic syndrome (aHUS). Here, we report a rare case of...\", \"url\": \"https://consensus.app/papers/details/9be99d1ee1cf5fd6bf6a12bc1e1acb81/?utm_source=chatgpt\"}, {\"id\": \"a1432e96a4c45c44ae7235644dd45795\", \"title\": \"Factor H-related proteins in the pathogenesis of atypical hemolytic-uremic syndrome\", \"text\": \"Atypical hemolytic-uremic syndrome (aHUS) is a rare disease of the group of thrombotic microangiopathies caused by hyperactivation of an alternative pathway of the complement system. One of the mechan...\", \"url\": \"https://consensus.app/papers/details/a1432e96a4c45c44ae7235644dd45795/?utm_source=chatgpt\"}, {\"id\": \"7e1124e23e2f58a5b578b904ef496f54\", \"title\": \"How I diagnose and treat atypical hemolytic uremic syndrome.\", \"text\": \"Our understanding and management of atypical hemolytic uremic syndrome (aHUS) have dramatically improved in the last decade. aHUS has been established as a prototypic disease resulting from a dysregul...\", \"url\": \"https://consensus.app/papers/details/7e1124e23e2f58a5b578b904ef496f54/?utm_source=chatgpt\"}, {\"id\": \"c96aa4d87a7252949589622286ca3a3d\", \"title\": \"Critical appraisal of eculizumab for atypical hemolytic uremic syndrome\", \"text\": \"The biology of atypical hemolytic uremic syndrome has been shown to involve inability to limit activation of the alternative complement pathway, with subsequent damage to systemic endothelial beds and...\", \"url\": \"https://consensus.app/papers/details/c96aa4d87a7252949589622286ca3a3d/?utm_source=chatgpt\"}, {\"id\": \"81cb27733d725dfb86c099d2f726c765\", \"title\": \"Complement‐driven hemolytic uremic syndrome\", \"text\": \"Overactivation of the complement alternative pathway drives the pathogenesis of primary atypical hemolytic uremic syndrome (aHUS). Genetically-determined or acquired dysregulation of the complement is...\", \"url\": \"https://consensus.app/papers/details/81cb27733d725dfb86c099d2f726c765/?utm_source=chatgpt\"}, {\"id\": \"c6faec6270505c5ca256721e7c6aaaf8\", \"title\": \"Spontaneous hemolytic uremic syndrome triggered by complement factor H lacking surface recognition domains\", \"text\": \"Factor H (FH) is an abundant serum glycoprotein that regulates the alternative pathway of complement-preventing uncontrolled plasma C3 activation and nonspecific damage to host tissues. Age-related ma...\", \"url\": \"https://consensus.app/papers/details/c6faec6270505c5ca256721e7c6aaaf8/?utm_source=chatgpt\"}, {\"id\": \"fd329b2f84175e0ea48f9ab7ea17bb4d\", \"title\": \"Murine systemic thrombophilia and hemolytic uremic syndrome from a factor H point mutation.\", \"text\": \"Complement plays a key role in host defense, but its dysregulation can cause autologous tissue injury. Complement activation is normally controlled by regulatory proteins, including factor H (FH) in p...\", \"url\": \"https://consensus.app/papers/details/fd329b2f84175e0ea48f9ab7ea17bb4d/?utm_source=chatgpt\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "query": "atypical hemolytic uremic syndrome mouse factor H C5 membrane attack complex endothelial injury thrombosis C5a",
+      "total_results": 20,
+      "returned_results": 20,
+      "top_papers": [
+        {
+          "title": "The membrane attack complex drives thrombotic microangiopathy in complement mediated atypical hemolytic uremic syndrome.",
+          "authors": [
+            "K. Smith-Jackson",
+            "P. Walsh",
+            "W. Zelek",
+            "Thomas F Hoyler",
+            "Marianne M. Martinic",
+            "Gemma L. Thompson",
+            "Beth Gibson",
+            "Chloe Connelly",
+            "I. Pappworth",
+            "M. Murphy",
+            "David Kavanagh",
+            "Kevin J. Marchbank"
+          ],
+          "year": 2025,
+          "citation_count": 7,
+          "journal": "Kidney international",
+          "volume": "",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/c1047b471c5d5964a47485bb48b28868/?utm_source=chatgpt",
+          "abstract": "Introduction of complement (C) inhibition into clinical practice has revolutionized the treatment of patients with complement-mediated atypical hemolytic syndrome (aHUS). Our C3D1115N mouse model, engineered around a gain of function point mutation in C3, is associated with complement mediated aHUS in man, allowing us to study the clinical disease in a preclinical model. Backcrossing our model onto C7 deficient and C5aR1 deficient mice enabled further determination of the roles of the C5a-C5aR1 axis and C5b-9 (the membrane attack complex) on kidney disease. C7 deficiency completely abolished both clinical and histological evidence of disease. Removing C5aR1 (CD88) attenuated the risk of developing clinical disease, but mice still developed thrombotic microangiopathy. Therapeutic inhibition strengthened our genetic findings showing both anti-C7 therapy and an oral C5aR1 antagonist, when used before evidence of significant kidney injury, prevented mice from succumbing to disease. However, there was ongoing histological disease within mice treated with the C5aR1 antagonist. Our data suggest that both C5aR1 and C7 play a role in the development of the conditions required for thrombotic microangiopathy of the kidney. While disrupting the C5a-C5aR1 axis is beneficial, our genetic and therapeutic studies showed that thrombotic microangiopathy of the kidney can still develop and ultimately our data confirm that the membrane attack complex is required to develop thrombotic microangiopathy of the kidney. Overall, our study shows that in addition to requiring alternative pathway dysregulation, local generation of membrane attack complex within the kidney is also critical to drive disease pathology in complement-mediated aHUS.\n\nCopyright © 2025 International Society of Nephrology. Published by Elsevier Inc. All rights reserved.",
+          "study_type": "non-randomized experimental study",
+          "takeaway": "The membrane attack complex plays a crucial role in developing thrombotic microangiopathy in complement-mediated atypical hemolytic uremic syndrome, with both C5aR1 and C7 playing a role in kidney disease.",
+          "doi": "10.1016/j.kint.2024.12.016"
+        },
+        {
+          "title": "Differential contribution of C5aR and C5b-9 pathways to renal thrombic microangiopathy and macrovascular thrombosis in mice carrying an atypical hemolytic syndrome-related factor H mutation.",
+          "authors": [
+            "Yoshiyasu Ueda",
+            "T. Miwa",
+            "Daisuke Ito",
+            "Hangsoo Kim",
+            "Sayaka Sato",
+            "D. Gullipalli",
+            "Lin Zhou",
+            "Madhu Golla",
+            "Delu Song",
+            "J. Dunaief",
+            "M. Palmer",
+            "Wen-Chao Song"
+          ],
+          "year": 2019,
+          "citation_count": 36,
+          "journal": "Kidney international",
+          "volume": "96",
+          "pages": "67 - 79",
+          "url": "https://consensus.app/papers/details/0f68ce42bd3b536b97bd068a9a19385d/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a form of thrombotic microangiopathy (TMA) caused by dysregulated complement activation. Clinically, aHUS is effectively treated by an anti-C5 monoclonal antibody (mAb) but whether the disease is mediated by the C5a receptor (C5aR) or C5b-9 pathway, or both, is unknown. Here we address this in a factor H mutant mouse (FHR/R) which developed complement-mediated TMA as well as macrovascular thrombosis caused by an aHUS-related factor H point mutation (mouse W1206R, corresponding to human W1183R). C5 deficiency and anti-C5 mAb treatment blocked all disease manifestations in FHR/R mice. C5aR1 gene deficiency prevented macrovascular thrombosis in various organs but did not improve survival or reduce renal TMA. Conversely, C6 or C9 deficiency significantly improved survival and markedly diminished renal TMA but did not prevent macrovascular thrombosis. Interestingly, as they aged both FHR/R C6-/- and FHR/R C9-/- mice developed glomerular disease reminiscent of C3 glomerulonephritis. Thus, C5aR and C5b-9 pathways drove different aspects of disease in FHR/R mice with the C5aR pathway being responsible for macrovascular thrombosis and chronic inflammatory injury while the C5b-9 pathway caused renal TMA. Our data provide new understanding of the pathogenesis of complement-mediated TMA and macrovascular thrombosis in FHR/R mice and suggest that C5 blockade is more effective for the treatment of aHUS than selectively targeting the C5aR or C5b-9 pathway alone.\n\nCopyright © 2019 International Society of Nephrology. Published by Elsevier Inc. All rights reserved.",
+          "study_type": "non-randomized experimental study",
+          "takeaway": "C5 blockade is more effective for treating aHUS than targeting either the C5aR or C5b-9 pathways alone, as both pathways play a role in complement-mediated TMA and macrovascular thrombosis in mice with a factor H mutation.",
+          "doi": "10.1016/j.kint.2019.01.009"
+        },
+        {
+          "title": "Atypical Haemolytic Uraemic Syndrome.",
+          "authors": [
+            "P. Walsh",
+            "D. Kavanagh"
+          ],
+          "year": 2025,
+          "citation_count": 7,
+          "journal": "The Journal of allergy and clinical immunology",
+          "volume": "",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/db79965c439e54b28f81bafcb97380fc/?utm_source=chatgpt",
+          "abstract": "Hemolytic uremic syndromes are a heterogeneous group of conditions with differing underlying pathophysiology. These all result in pathologic features of thrombotic microangiopathy (TMA), which cause endothelial damage and organ injury. TMAs manifest with a microangiopathic hemolytic anaemia, thrombocytopenia, and commonly acute kidney injury. The past two decades have revealed many of the immunologic, metabolic, ribosomal, cell-signaling, and clotting pathways responsible for disease. The understanding of the role of the membrane attack complex in some TMAs has led to the introduction of pharmacologic inhibition of complement C5, which greatly improved prognosis. This review summarizes the current understanding of the pathogenesis of complement-dependent and non-complement-dependent TMAs.\n\nCopyright © 2025 The Authors. Published by Elsevier Inc. All rights reserved.",
+          "study_type": null,
+          "takeaway": "Atypical hemolytic uremic syndromes (HUS) are a heterogeneous group of conditions with differing underlying pathophysiologies, leading to thrombotic microangiopathy and acute kidney injury.",
+          "doi": "10.1016/j.jaci.2025.05.010"
+        }
+      ],
+      "papers": [
+        {
+          "title": "The membrane attack complex drives thrombotic microangiopathy in complement mediated atypical hemolytic uremic syndrome.",
+          "authors": [
+            "K. Smith-Jackson",
+            "P. Walsh",
+            "W. Zelek",
+            "Thomas F Hoyler",
+            "Marianne M. Martinic",
+            "Gemma L. Thompson",
+            "Beth Gibson",
+            "Chloe Connelly",
+            "I. Pappworth",
+            "M. Murphy",
+            "David Kavanagh",
+            "Kevin J. Marchbank"
+          ],
+          "year": 2025,
+          "citation_count": 7,
+          "journal": "Kidney international",
+          "volume": "",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/c1047b471c5d5964a47485bb48b28868/?utm_source=chatgpt",
+          "abstract": "Introduction of complement (C) inhibition into clinical practice has revolutionized the treatment of patients with complement-mediated atypical hemolytic syndrome (aHUS). Our C3D1115N mouse model, engineered around a gain of function point mutation in C3, is associated with complement mediated aHUS in man, allowing us to study the clinical disease in a preclinical model. Backcrossing our model onto C7 deficient and C5aR1 deficient mice enabled further determination of the roles of the C5a-C5aR1 axis and C5b-9 (the membrane attack complex) on kidney disease. C7 deficiency completely abolished both clinical and histological evidence of disease. Removing C5aR1 (CD88) attenuated the risk of developing clinical disease, but mice still developed thrombotic microangiopathy. Therapeutic inhibition strengthened our genetic findings showing both anti-C7 therapy and an oral C5aR1 antagonist, when used before evidence of significant kidney injury, prevented mice from succumbing to disease. However, there was ongoing histological disease within mice treated with the C5aR1 antagonist. Our data suggest that both C5aR1 and C7 play a role in the development of the conditions required for thrombotic microangiopathy of the kidney. While disrupting the C5a-C5aR1 axis is beneficial, our genetic and therapeutic studies showed that thrombotic microangiopathy of the kidney can still develop and ultimately our data confirm that the membrane attack complex is required to develop thrombotic microangiopathy of the kidney. Overall, our study shows that in addition to requiring alternative pathway dysregulation, local generation of membrane attack complex within the kidney is also critical to drive disease pathology in complement-mediated aHUS.\n\nCopyright © 2025 International Society of Nephrology. Published by Elsevier Inc. All rights reserved.",
+          "study_type": "non-randomized experimental study",
+          "takeaway": "The membrane attack complex plays a crucial role in developing thrombotic microangiopathy in complement-mediated atypical hemolytic uremic syndrome, with both C5aR1 and C7 playing a role in kidney disease.",
+          "doi": "10.1016/j.kint.2024.12.016"
+        },
+        {
+          "title": "Differential contribution of C5aR and C5b-9 pathways to renal thrombic microangiopathy and macrovascular thrombosis in mice carrying an atypical hemolytic syndrome-related factor H mutation.",
+          "authors": [
+            "Yoshiyasu Ueda",
+            "T. Miwa",
+            "Daisuke Ito",
+            "Hangsoo Kim",
+            "Sayaka Sato",
+            "D. Gullipalli",
+            "Lin Zhou",
+            "Madhu Golla",
+            "Delu Song",
+            "J. Dunaief",
+            "M. Palmer",
+            "Wen-Chao Song"
+          ],
+          "year": 2019,
+          "citation_count": 36,
+          "journal": "Kidney international",
+          "volume": "96",
+          "pages": "67 - 79",
+          "url": "https://consensus.app/papers/details/0f68ce42bd3b536b97bd068a9a19385d/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a form of thrombotic microangiopathy (TMA) caused by dysregulated complement activation. Clinically, aHUS is effectively treated by an anti-C5 monoclonal antibody (mAb) but whether the disease is mediated by the C5a receptor (C5aR) or C5b-9 pathway, or both, is unknown. Here we address this in a factor H mutant mouse (FHR/R) which developed complement-mediated TMA as well as macrovascular thrombosis caused by an aHUS-related factor H point mutation (mouse W1206R, corresponding to human W1183R). C5 deficiency and anti-C5 mAb treatment blocked all disease manifestations in FHR/R mice. C5aR1 gene deficiency prevented macrovascular thrombosis in various organs but did not improve survival or reduce renal TMA. Conversely, C6 or C9 deficiency significantly improved survival and markedly diminished renal TMA but did not prevent macrovascular thrombosis. Interestingly, as they aged both FHR/R C6-/- and FHR/R C9-/- mice developed glomerular disease reminiscent of C3 glomerulonephritis. Thus, C5aR and C5b-9 pathways drove different aspects of disease in FHR/R mice with the C5aR pathway being responsible for macrovascular thrombosis and chronic inflammatory injury while the C5b-9 pathway caused renal TMA. Our data provide new understanding of the pathogenesis of complement-mediated TMA and macrovascular thrombosis in FHR/R mice and suggest that C5 blockade is more effective for the treatment of aHUS than selectively targeting the C5aR or C5b-9 pathway alone.\n\nCopyright © 2019 International Society of Nephrology. Published by Elsevier Inc. All rights reserved.",
+          "study_type": "non-randomized experimental study",
+          "takeaway": "C5 blockade is more effective for treating aHUS than targeting either the C5aR or C5b-9 pathways alone, as both pathways play a role in complement-mediated TMA and macrovascular thrombosis in mice with a factor H mutation.",
+          "doi": "10.1016/j.kint.2019.01.009"
+        },
+        {
+          "title": "Atypical Haemolytic Uraemic Syndrome.",
+          "authors": [
+            "P. Walsh",
+            "D. Kavanagh"
+          ],
+          "year": 2025,
+          "citation_count": 7,
+          "journal": "The Journal of allergy and clinical immunology",
+          "volume": "",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/db79965c439e54b28f81bafcb97380fc/?utm_source=chatgpt",
+          "abstract": "Hemolytic uremic syndromes are a heterogeneous group of conditions with differing underlying pathophysiology. These all result in pathologic features of thrombotic microangiopathy (TMA), which cause endothelial damage and organ injury. TMAs manifest with a microangiopathic hemolytic anaemia, thrombocytopenia, and commonly acute kidney injury. The past two decades have revealed many of the immunologic, metabolic, ribosomal, cell-signaling, and clotting pathways responsible for disease. The understanding of the role of the membrane attack complex in some TMAs has led to the introduction of pharmacologic inhibition of complement C5, which greatly improved prognosis. This review summarizes the current understanding of the pathogenesis of complement-dependent and non-complement-dependent TMAs.\n\nCopyright © 2025 The Authors. Published by Elsevier Inc. All rights reserved.",
+          "study_type": null,
+          "takeaway": "Atypical hemolytic uremic syndromes (HUS) are a heterogeneous group of conditions with differing underlying pathophysiologies, leading to thrombotic microangiopathy and acute kidney injury.",
+          "doi": "10.1016/j.jaci.2025.05.010"
+        },
+        {
+          "title": "Terminal complement effectors in atypical hemolytic uremic syndrome: C5a, C5b-9, or a bit of both?",
+          "authors": [
+            "M. Noris",
+            "G. Remuzzi"
+          ],
+          "year": 2019,
+          "citation_count": 7,
+          "journal": "Kidney international",
+          "volume": "96 1",
+          "pages": "\n          13-15\n",
+          "url": "https://consensus.app/papers/details/b8be803000cc50dda2c7c94276fe52e7/?utm_source=chatgpt",
+          "abstract": "The role of the terminal complement pathway as the cause of atypical hemolytic uremic syndrome (aHUS) is widely recognized, but the relative contribution of the effectors C5a/C5aR1 and C5b-9 to disease pathogenesis has not been defined. Using FHR/R mice carrying a factor H mutation that causes cell surface complement alternative pathway dysregulation, Ueda documented that in FHR/R mice, C5b-9 causes renal thrombotic microangiopathy (TMA) whereas C5a/C5aR drives macrovascular thrombosis. This commentary addresses the implications and limitations of this study.\n\nCopyright © 2019 International Society of Nephrology. Published by Elsevier Inc. All rights reserved.",
+          "study_type": "commentary or perspective",
+          "takeaway": "C5b-9 contributes to renal thrombotic microangiopathy in aHUS, while C5a/C5aR1 drives macrovascular thrombosis in mice with a factor H mutation.",
+          "doi": "10.1016/j.kint.2019.02.038"
+        },
+        {
+          "title": "The Development of Atypical Hemolytic Uremic Syndrome Depends on Complement C5",
+          "authors": [
+            "E. G. de Jorge",
+            "P. Macor",
+            "D. Paixão-Cavalcante",
+            "K. L. Rose",
+            "F. Tedesco",
+            "H. T. Cook",
+            "M. Botto",
+            "Matthew C. Pickering"
+          ],
+          "year": 2010,
+          "citation_count": 121,
+          "journal": "Journal of the American Society of Nephrology : JASN",
+          "volume": "22",
+          "pages": "137 - 145",
+          "url": "https://consensus.app/papers/details/509676cdd2f85e4eb37f9dc29448a8ed/?utm_source=chatgpt",
+          "abstract": "Gene variants in the alternative pathway of the complement system strongly associate with atypical hemolytic uremic syndrome (aHUS), presumably by predisposing to increased complement activation within the kidney. Complement factor H (CFH) is the major regulator of complement activation through the alternative pathway. Factor H-deficient mice transgenically expressing a mutant CFH protein (Cfh(-/-).FHΔ16-20) that functionally mimics the CFH mutations reported in aHUS patients spontaneously develop thrombotic microangiopathy. To investigate the role of complement C5 activation in this aHUS model, we generated C5-deficient Cfh(-/-).FHΔ16-20 mice. Both C5-sufficient and C5-deficient Cfh(-/-).FHΔ16-20 mice had abnormal C3 deposition within the kidney, but spontaneous aHUS did not develop in any of the C5-deficient mice. Furthermore, although Cfh(-/-).FHΔ16-20 animals demonstrated marked hypersensitivity to experimentally triggered renal injury, animals with concomitant C5 deficiency did not. These data demonstrate a critical role for C5 activation in both spontaneous aHUS and experimentally triggered renal injury in animals with defective complement factor H function. This study provides a rationale to investigate therapeutic inhibition of C5 in human aHUS.",
+          "study_type": "non-randomized experimental study",
+          "takeaway": "Complement C5 activation plays a critical role in both spontaneous aHUS development and experimentally triggered renal injury in animals with defective complement factor H function.",
+          "doi": "10.1681/asn.2010050451"
+        },
+        {
+          "title": "Complement activation by heme as a secondary hit for atypical hemolytic uremic syndrome.",
+          "authors": [
+            "Marie Frimat",
+            "Fanny Tabarin",
+            "J. Dimitrov",
+            "C. Poitou",
+            "L. Halbwachs‐Mecarelli",
+            "V. Frémeaux-Bacchi",
+            "L. Roumenina"
+          ],
+          "year": 2013,
+          "citation_count": 254,
+          "journal": "Blood",
+          "volume": "122 2",
+          "pages": "\n          282-92\n",
+          "url": "https://consensus.app/papers/details/c9e969451f945fb287555654c05bac79/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic uremic syndrome (aHUS) is characterized by genetic and acquired abnormalities of the complement system leading to alternative pathway (AP) overactivation and by glomerular endothelial damage, thrombosis, and mechanical hemolysis. Mutations per se are not sufficient to induce aHUS, and nonspecific primary triggers are required for disease manifestation. We investigated whether hemolysis-derived heme contributes to aHUS pathogenesis. We confirmed that heme activates complement AP in normal human serum, releasing C3a, C5a, and sC5b9. We demonstrated that heme-exposed endothelial cells also activate the AP, resulting in cell-bound C3 and C5b9. This was exacerbated in aHUS by genetic abnormalities associated with AP overactivation. Heme interacted with C3 close to the thioester bond, induced homophilic C3 complexes, and promoted formation of an overactive C3/C5 convertase. Heme induced decreased membrane cofactor protein (MCP) and decay-accelerating factor (DAF) expression on endothelial cells, giving Factor H (FH) a major role in complement regulation. Finally, heme promoted a rapid exocytosis of Weibel-Palade bodies, with membrane expression of P-selectin known to bind C3b and trigger the AP, and the release of the prothrombotic von Willebrand factor. These results strongly suggest that hemolysis-derived heme represents a common secondary hit amplifying endothelial damage and thrombosis in aHUS.",
+          "study_type": "non-rct in vitro",
+          "takeaway": "Heme-derived heme contributes to aHUS pathogenesis by promoting endothelial damage and thrombosis by activating complement alternative pathway.",
+          "doi": "10.1182/blood-2013-03-489245"
+        },
+        {
+          "title": "C3d-targeted complement inhibitors to correct complement dysregulation in aHUS patients",
+          "authors": [
+            "Valeria Guaschino",
+            "Donata Santarsiero",
+            "S. Gastoldi",
+            "Joshua M. Thurman",
+            "V. Holers",
+            "Shelia Violette",
+            "Fei Liu",
+            "K. Fahnoe",
+            "Chiara Guarinoni",
+            "A. Benigni",
+            "Giuseppe Remuzzi",
+            "M. Noris",
+            "S. Aiello"
+          ],
+          "year": 2025,
+          "citation_count": 4,
+          "journal": "Frontiers in Immunology",
+          "volume": "16",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/e017405a42de542284f0764fe31a01b6/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a rare and severe thrombotic microangiopathy caused by genetic or acquired abnormalities leading to activation of the complement alternative pathway on cell surfaces. This process leads to endothelial dysfunction and microvascular thrombosis. The introduction of anti-C5 antibodies has dramatically improved aHUS prognosis; however, these treatments require regular intravenous infusions and block systemic complement activity, exposing the patient to risk of infections. Recently complement inhibitors have been developed to selectively bind injury-associated target molecules, thereby concentrating the drug at specific cellular or tissue sites while preserving systemic complement function. This study evaluated the local complement inhibitory activity of new molecules that exploit the natural localization of C3d at complement activation sites on cells: namely the anti-C3d monoclonal antibody 3d8b conjugated with the first 10 or 17 short consensus repeats (SCRs) of complement receptor 1 (CR11-10 and CR11-17, respectively) or the first 5 SCRs of complement factor H (FH1-5). To this purpose we tested their capability to block C3 deposition and C5b-9 formation on microvascular endothelial cells (HMEC-1) exposed to serum from patients with aHUS. We also assessed their ability to prevent loss of anti-thrombogenic properties in HMEC-1 pre-exposed to aHUS serum and then perfused with control blood. We demonstrate that anti-C3d-antibody conjugated with CR11-10, or CR11-17, or FH1-5 effectively prevented aHUS serum-induced complement activation on HMEC-1, outperforming their non-targeted soluble counterparts. The efficacy of C3 convertase inhibition varied depending on the complement inhibitory component (CR11-17 > CR11-10 > FH1-5). However, all the inhibitors successfully blocked C5 convertase activity and eliminated the pro-thrombogenic effects of aHUS patients' serum. These findings support the potential of tissue-targeted complement inhibition as a novel, non-systemic therapeutic strategy for aHUS and other diseases characterized by localized complement dysregulation.\n\nCopyright © 2025 Guaschino, Santarsiero, Gastoldi, Thurman, Holers, Violette, Liu, Fahnoe, Guarinoni, Benigni, Remuzzi, Noris and Aiello.",
+          "study_type": "non-rct in vitro",
+          "takeaway": "C3d-targeted complement inhibitors effectively prevent aHUS serum-induced complement activation on microvascular endothelial cells, offering a novel, non-systemic therapeutic strategy for aHUS and other diseases characterized by localized complement dysregulation.",
+          "doi": "10.3389/fimmu.2025.1620996"
+        },
+        {
+          "title": "Complement Alternative Pathway Dominance in Atypical Hemolytic Uremic Syndrome Revealed by Endothelial Bioassays",
+          "authors": [
+            "Donata Santarsiero",
+            "S. Gastoldi",
+            "Valeria Guaschino",
+            "E. Bresin",
+            "Ilaria Pagani",
+            "Andrea Pasini",
+            "Elena Romano",
+            "A. Benigni",
+            "Giuseppe Remuzzi",
+            "M. Noris",
+            "S. Aiello"
+          ],
+          "year": 2025,
+          "citation_count": 4,
+          "journal": "Kidney International Reports",
+          "volume": "11",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/55fe57b2e7b25fb88723d0e0cbfd1fd9/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic uremic syndrome (aHUS), or as recently suggested complement-mediated thrombotic microangiopathy,1 is primarily driven by genetic or acquired dysregulation of the alternative complement pathway (AP).2 Complement dysregulation results in persistent complement activation on cell surfaces, particularly targeting the endothelium, and leading to microvascular thrombi in kidney and several organs.2 Consistent with this, ex vivo/in vitro studies have shown that human microvascular endothelial cells of dermal origin (HMEC-1) exposed to aHUS serum exhibit deposits of C3b and C5b-9,3-5,S1,S7 and a prothrombogenic phenotype.",
+          "study_type": null,
+          "takeaway": "Atypical hemolytic uremic syndrome is primarily driven by dysregulation of the alternative complement pathway, leading to persistent complement activation on cell surfaces and microvascular thrombi in kidney and organs.",
+          "doi": "10.1016/j.ekir.2025.103717"
+        },
+        {
+          "title": "Optimal duration of treatment with eculizumab in atypical hemolytic uremic syndrome (aHUS)—a question to be addressed in a scientific way",
+          "authors": [
+            "G. Ariceta"
+          ],
+          "year": 2019,
+          "citation_count": 30,
+          "journal": "Pediatric Nephrology",
+          "volume": "34",
+          "pages": "943-949",
+          "url": "https://consensus.app/papers/details/e4ffced952035d018c08db42bcf65abe/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic uremic syndrome (aHUS) is an ultrarare disease caused, in most cases, by dysregulation of the alternative complement (C′) pathway at the surface of the vascular endothelium [1–3]. Uncontrolled C′ activation due to genetic abnormalities of several regulatory proteins, such as complement factor H (FH) [4–13] or auto-antibodies against FH synthesis [14, 15], lead to increased C3 convertase production and/or reduced degradation [16], which in turn result in excessive C5 activation, C5b-9 formation (also named terminal complement complex (TCC)), and subsequently endothelial cell lysis [17, 18]. Independent of the individual specific C′ anomaly, aHUS is a disease driven by a common pathogenic mechanism: C5 activation [19, 20]. Affected patients are vulnerable to C ́ pathway stimulus and exhibit excessive C3b deposits on the surface of the endothelium membrane [16, 21]. Incomplete penetrance (~ 50%) of aHUS in mutation carriers is common. Concurrent environmental agents, commonly infections, or additional endothelial damaging factors, will further amplify C′ activation and trigger the disease due to impaired protection of microvasculature cells to C′ injury [22]. The course of the disease is characterized by relapses separated by remission periods, both often preceded by external factors [1, 17–19]. It is generally accepted that individual predisposition to aHUS results from the combination of different inherited and environmental factors [22, 23]. Atypical hemolytic uremic syndrome is a disease characterized by thrombotic microangiopathy (TMA) which is defined by the concurrent triad of non-immune microangiopathic hemolytic anemia, thrombocytopenia, and vital organ damage, most frequently the kidney [1, 17–19]. The discovery that constitutive C′ alternative pathway dysregulation at the endothelial cell membrane surfaces plays a primary role in the pathogenic mechanism for most patients with aHUS provided a robust argument in favor of therapeutic complement blockade in those patients [20, 22–25]. Eculizumab, a humanized antibody which prevents C5 convertase activation that avoids TCC formation, and resulting endothelial damage, is the first in class complement blocker drug, effective in every specific C′ anomaly in patients with aHUS [23, 24]. Eculizumab was approved by the FDA and EMA as a specific treatment for aHUS in 2011 [26, 27], after the success of four industrysponsored prospective non-randomized trials including 100 patients (78 adults and 22 children), which demonstrated hematologic remission with normalization of platelet count within 7–8 days; lactate dehydrogenase level (LDH) after 14– 54 days; and more importantly, a mean estimated glomerular filtration (eGFR) rate recovery of 64 mL/min/1.73m in children and 30–35 mL/ min/1.73m in adults—a time-dependent response, with a more favorable outcome in those patients who started treatment during the first week of disease [28–31]. Since then, eculizumab has become the elective treatment of patients with aHUS [23–26] based on its remarkable positive effect on hematological remission, preservation renal function in native kidneys and to a lesser extent in kidney allografts, and recovery from extra-renal manifestations [29, 30, 32], preventing disease recurrence after kidney transplantation (KTx) [33], even using selective living-related donor allografts in an individualized manner [32]. Therefore, treatment with eculizumab has changed the natural history of aHUS, substantially improving patient survival and outcome from the historic treatment with plasma exchange or infusion (PE/PI) [34, 35], a suboptimal therapy useful in the absence of eculizumab [23, 24, 34]. Prior to the availability of eculizumab, data from aHUS patient registries in different countries invariably described high rates of mortality, progression to end-stage kidney disease (ESKD), and disease recurrence risk in 60% of patients after KTx. * Gema Ariceta gariceta@vhebron.net",
+          "study_type": "other",
+          "takeaway": "Eculizumab treatment for aHUS patients should be initiated early in the disease course to maximize its benefits and prevent disease recurrence.",
+          "doi": "10.1007/s00467-019-4192-7",
+          "institutional_access_url": "https://libkey.io/libraries/3459/articles/269467125/full-text-file?utm_source=api_3508&allow_speedbump=true"
+        },
+        {
+          "title": "Eculizumab reduces complement activation, inflammation, endothelial damage, thrombosis, and renal injury markers in aHUS.",
+          "authors": [
+            "R. Cofiell",
+            "A. Kukreja",
+            "Krystin A. Bedard",
+            "Yan Yan",
+            "Angela P. Mickle",
+            "M. Ogawa",
+            "C. Bedrosian",
+            "S. Faas"
+          ],
+          "year": 2015,
+          "citation_count": 200,
+          "journal": "Blood",
+          "volume": "125 21",
+          "pages": "\n          3253-62\n",
+          "url": "https://consensus.app/papers/details/7ce536c1fad654e99e73f606e61159ec/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a genetic, life-threatening disease characterized by uncontrolled complement activation, systemic thrombotic microangiopathy (TMA), and vital organ damage. We evaluated the effect of terminal complement blockade with the anti-C5 monoclonal antibody eculizumab on biomarkers of cellular processes involved in TMA in patients with aHUS longitudinally, during up to 1 year of treatment, compared with in healthy volunteers. Biomarker levels were elevated at baseline in most patients, regardless of mutational status, plasma exchange/infusion use, platelet count, or lactate dehydrogenase or haptoglobin levels. Eculizumab reduced terminal complement activation (C5a and sC5b-9) and renal injury markers (clusterin, cystatin-C, β2-microglobulin, and liver fatty acid binding protein-1) to healthy volunteer levels and reduced inflammation (soluble tumor necrosis factor receptor-1), coagulation (prothrombin fragment F1+2 and d-dimer), and endothelial damage (thrombomodulin) markers to near-normal levels. Alternative pathway activation (Ba) and endothelial activation markers (soluble vascular cell adhesion molecule-1) decreased but remained elevated, reflecting ongoing complement activation in aHUS despite complete terminal complement blockade. These results highlight links between terminal complement activation and inflammation, endothelial damage, thrombosis, and renal injury and underscore ongoing risk for systemic TMA and progression to organ damage. Further research regarding underlying complement dysregulation is warranted. This trial was registered at www.clinicaltrials.gov as #NCT01194973.\n\n© 2015 by The American Society of Hematology.",
+          "study_type": "non-randomized experimental study",
+          "takeaway": "Eculizumab effectively reduces complement activation, inflammation, endothelial damage, thrombosis, and renal injury markers in patients with aHUS, potentially preventing organ damage.",
+          "doi": "10.1182/blood-2014-09-600411",
+          "institutional_access_url": "https://libkey.io/libraries/3459/articles/54463134/content-location?utm_source=api_3508&allow_speedbump=true"
+        },
+        {
+          "title": "Atypical Hemolytic Uremic Syndrome: A Brief Review",
+          "authors": [
+            "Kuixing Zhang",
+            "Yuxin Lu",
+            "Kevin T. Harley",
+            "M. Tran"
+          ],
+          "year": 2017,
+          "citation_count": 68,
+          "journal": "Hematology Reports",
+          "volume": "9",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/8f178c94e87d5bd3aa7da2f5ae22a4c6/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a disease characterized by the triad of microangiopathic hemolytic anemia, thrombocytopenia and acute kidney injury. The histopathologic lesions of aHUS include thrombotic microangiopathy involving the glomerular capillaries and thrombosis involving arterioles or interlobar arteries. Extra-renal manifestations occur in up to 20% of patients. The majority of aHUS is caused by complement system defects impairing ordinary regulatory mechanisms. Activating events therefore lead to unbridled, ongoing complement activity producing widespread endothelial injury. Pathologic mutations include those resulting in loss-of-function in a complement regulatory gene (CFH, CFI, CD46 or THBD) or gain-of-function in an effector gene (CFB or C3). Treatment with the late complement inhibitor, eculizumab - a monoclonal antibody directed against C5 - is effective.",
+          "study_type": null,
+          "takeaway": "Atypical hemolytic uremic syndrome (aHUS) is a disease caused by complement system defects, and treatment with eculizumab effectively reduces kidney damage and inflammation.",
+          "doi": "10.4081/hr.2017.7053",
+          "institutional_access_url": "https://libkey.io/libraries/3459/articles/104551488/full-text-file?utm_source=api_3508&allow_speedbump=true"
+        },
+        {
+          "title": "Hyperfunctional complement C3 promotes C5-dependent atypical hemolytic uremic syndrome in mice",
+          "authors": [
+            "Yi Yang",
+            "Harriet Denton",
+            "I. Pappworth",
+            "K. Cooke",
+            "P. Barlow",
+            "J. Atkinson",
+            "M. Liszewski",
+            "M. Pickering",
+            "David Kavanagh",
+            "H. Cook",
+            "K. Marchbank"
+          ],
+          "year": 2019,
+          "citation_count": 31,
+          "journal": "The Journal of Clinical Investigation",
+          "volume": "129",
+          "pages": "1061 - 1075",
+          "url": "https://consensus.app/papers/details/3cdc7f93f7de5ef6b6813aec33c710e9/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic uremic syndrome (aHUS) is frequently associated in humans with loss-of-function mutations in complement-regulating proteins or gain-of-function mutations in complement-activating proteins. Thus, aHUS provides an archetypal complement-mediated disease with which to model new therapeutic strategies and treatments. Herein, we show that, when transferred to mice, an aHUS-associated gain-of-function change (D1115N) to the complement-activation protein C3 results in aHUS. Homozygous C3 p.D1115N (C3KI) mice developed spontaneous chronic thrombotic microangiopathy together with hematuria, thrombocytopenia, elevated creatinine, and evidence of hemolysis. Mice with active disease had reduced plasma C3 with C3 fragment and C9 deposition within the kidney. Therapeutic blockade or genetic deletion of C5, a protein downstream of C3 in the complement cascade, protected homozygous C3KI mice from thrombotic microangiopathy and aHUS. Thus, our data provide in vivo modeling evidence that gain-of-function changes in complement C3 drive aHUS. They also show that long-term C5 deficiency is not accompanied by development of other renal complications (such as C3 glomerulopathy) despite sustained dysregulation of C3. Our results suggest that this preclinical model will allow testing of novel complement inhibitors with the aim of developing precisely targeted therapeutics that could have application in many complement-mediated diseases.",
+          "study_type": "non-randomized experimental study",
+          "takeaway": "Gain-of-function changes in complement C3 drive aHUS, and targeting C5 could lead to targeted therapeutics for complement-mediated diseases.",
+          "doi": "10.1172/jci99296"
+        },
+        {
+          "title": "Atypical Hemolytic Uremic Syndrome: A Review of Complement Dysregulation, Genetic Susceptibility and Multiorgan Involvement",
+          "authors": [
+            "Razvan-George Bogdan",
+            "Paula Anderco",
+            "Cristian Ichim",
+            "A. Cimpean",
+            "S. Todor",
+            "Mihai Glaja-Iliescu",
+            "Z. Crainiceanu",
+            "M. L. Popa"
+          ],
+          "year": 2025,
+          "citation_count": 30,
+          "journal": "Journal of Clinical Medicine",
+          "volume": "14",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/223868be9edb5b1683190c250558383d/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a rare, life-threatening thrombotic microangiopathy (TMA) characterized by complement dysregulation, leading to microvascular thrombosis and multi-organ injury. TMAs are defined by thrombocytopenia, microangiopathic hemolytic anemia and organ dysfunction caused by small-vessel thrombosis. Unlike thrombotic thrombocytopenic purpura, which results from severe ADAMTS13 deficiency, aHUS is driven by uncontrolled activation of the alternative complement pathway. While the kidneys are most frequently affected, other vital organs can also be involved. Genetic susceptibility contributes significantly to disease risk, but a trigger such as infection, pregnancy or autoimmune disease is usually required. Diagnosis is challenging due to overlapping features with other TMAs and relies on exclusion and complement testing. C5 inhibitors, such as eculizumab and ravulizumab, have revolutionized treatment but necessitate prophylactic vaccination and ongoing clinical surveillance. While these therapies provide effective disease control, discontinuing treatment remains complex, especially in patients with complement gene mutations. New therapies targeting various points in the complement cascade are under investigation and may offer safer, more cost-effective options. Progress in genetic profiling and biomarker discovery is essential for earlier diagnosis, individualized therapy and relapse prevention. This review highlights recent advances in the understanding of aHUS pathophysiology, clinical features and evolving therapeutic strategies aimed at improving patient outcomes.",
+          "study_type": null,
+          "takeaway": "Atypical hemolytic uremic syndrome (aHUS) is a rare, life-threatening thrombotic microangiopathy characterized by complement dysregulation and multiorgan involvement, with genetic susceptibility and triggers playing a significant role in disease risk.",
+          "doi": "10.3390/jcm14072527",
+          "institutional_access_url": "https://libkey.io/libraries/3459/articles/662195476/full-text-file?utm_source=api_3508&allow_speedbump=true"
+        },
+        {
+          "title": "Anti-C5 monoclonal antibody treatment showing pathological resolution of complement-mediated atypical hemolytic uremic syndrome: a case report",
+          "authors": [
+            "Shigekazu Kurihara",
+            "Akinori Yamaguchi",
+            "Kosuke Sonoda",
+            "Yosuke Yamada",
+            "M. Harada",
+            "Koji Hashimoto",
+            "H. Shimojo",
+            "Yoichiro Ikeda",
+            "Yuji Kamijo"
+          ],
+          "year": 2024,
+          "citation_count": 4,
+          "journal": "BMC Nephrology",
+          "volume": "25",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/9be99d1ee1cf5fd6bf6a12bc1e1acb81/?utm_source=chatgpt",
+          "abstract": "Background: No reports have shown histological changes before and after anti-C5 monoclonal antibody treatment in patients with atypical hemolytic uremic syndrome (aHUS). Here, we report a rare case of complement-mediated aHUS with a complement factor H (CFH) mutation and anti-CFH antibodies who underwent multiple kidney biopsies.\n\nCase presentation: A 53-year-old woman developed aHUS with CFH gene mutation [c.3572C > T (p. Ser1191 Leu)] and anti-CFH antibodies. Her father had succumbed to acute kidney injury (AKI) in his 30 s. She exhibited AKI, thrombocytopenia, and hemolytic anemia with schistocytes. After improving the platelet count with one session of plasma exchange, a kidney biopsy was performed one month after the onset of symptoms. Blood vessel thrombosis, obvious endothelial swelling, endocapillary hypercellularity, and subendothelial exudative lesions in the glomeruli and arterioles were detected. Anti-C5 monoclonal antibody treatment with eculizumab immediately improved disease activity. A second biopsy 3 months later revealed marked improvement of endothelial injuries with residual membrane double contours and exudative lesions. A third biopsy at 17 months after gradual improvement of kidney function showed a further decrease of double contours along with alterations of the exudative lesions to fibrous intimal thickening.\n\nConclusions: This is the first report showing the pathophysiology of aHUS in the kidneys and the efficacy of anti-C5 monoclonal antibody treatment by presenting serial kidney pathological features before and after anti-C5 monoclonal antibody treatment. Since her CFH mutation was considered the most important pathological condition, treatment centered on eculizumab was administered, resulting in a good long-term prognosis. In addition, kidney pathological resolution in aHUS occurred over 1 year after anti-C5 monoclonal antibody treatment.\n\n© 2024. The Author(s).",
+          "study_type": "case report",
+          "takeaway": "Anti-C5 monoclonal antibody treatment with eculizumab effectively improved kidney function and showed pathological resolution in aHUS patients with CFH mutations.",
+          "doi": "10.1186/s12882-024-03662-3"
+        },
+        {
+          "title": "Factor H-related proteins in the pathogenesis of atypical hemolytic-uremic syndrome",
+          "authors": [
+            "Khadizha M. Emirova",
+            "O. Chernysheva",
+            "S. Mstislavskaya",
+            "O. V. Zaitseva",
+            "V. K. Vakhitov",
+            "T. Makarova",
+            "D. Kudlay",
+            "O. Orlova",
+            "T. Abaseeva",
+            "A. Muzurov",
+            "E. Tolstova"
+          ],
+          "year": 2024,
+          "citation_count": 0,
+          "journal": "Practical medicine",
+          "volume": "",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/a1432e96a4c45c44ae7235644dd45795/?utm_source=chatgpt",
+          "abstract": "Atypical hemolytic-uremic syndrome (aHUS) is a rare disease of the group of thrombotic microangiopathies caused by hyperactivation of an alternative pathway of the complement system. One of the mechanisms of aHUS development is the change in the functional activity of proteins of the factor H (FH) family. We analyzed the available data on the influence of factor H protein family on aHUS development. A total of 43 studies published in 2003-2021, including 41 foreign ones, were reviewed. PubMed, Web of Science, Scopus, еLibrary, Google Scholar databases were searched using keywords: aHUS, factor H, factor H-like protein, factor H-related proteins (FHRs). Priority was given to the results of randomized controlled trials, systematic reviews with meta-analysis. Duplicate articles were excluded. Based on the analysis results, conclusions were drawn that disruption of C3b subunit inactivation as a result of changes in the functional activity of FH family proteins mediates the formation of a membrane-attacking complex. Among the mechanisms of FH, FHR1, and FHR3 inhibition are genetic aberrations (missense mutations, reading frame shift), formation of hybrid proteins, and synthesis of autologous antibodies. Other mechanisms of alternative pathway hyperactivation include decreased concentration or complete absence of FH, FHR1, FHR3, and FHR4 as a result of deletion of 1q31.3 fragments or formation of hybrid proteins. The change in the FH functional activity is also possible due to autoinactivation or competitive inhibition when the FHRs concentration increases.",
+          "study_type": "meta-analysis",
+          "takeaway": "Factor H-related proteins play a role in the development of atypical hemolytic-uremic syndrome through disruption of C3b subunit inactivation and various mechanisms.",
+          "doi": "10.32000/2072-1757-2024-2-8-20"
+        },
+        {
+          "title": "How I diagnose and treat atypical hemolytic uremic syndrome.",
+          "authors": [
+            "F. Fakhouri",
+            "Nora Schwotzer",
+            "V. Frémeaux-Bacchi"
+          ],
+          "year": 2022,
+          "citation_count": 73,
+          "journal": "Blood",
+          "volume": "",
+          "pages": "",
+          "url": "https://consensus.app/papers/details/7e1124e23e2f58a5b578b904ef496f54/?utm_source=chatgpt",
+          "abstract": "Our understanding and management of atypical hemolytic uremic syndrome (aHUS) have dramatically improved in the last decade. aHUS has been established as a prototypic disease resulting from a dysregulation of the complement alternative C3 convertase. Subsequently, prospective nonrandomized studies and retrospective series have shown the efficacy of C5 blockade in the treatment of this devastating disease. C5 blockade has become the cornerstone of the treatment of aHUS. This therapeutic breakthrough has been dulled by persistent difficulties in the positive diagnosis of aHUS, and the latter remains, to date, a diagnosis by exclusion. Furthermore, the precise spectrum of complement-mediated renal thrombotic microangiopathy is still a matter of debate. Nevertheless, long-term management of aHUS is increasingly individualized and lifelong C5 blockade is no longer a paradigm that applies to all patients with this disease. The potential benefit of complement blockade in other forms of HUS, notably secondary HUS, remains uncertain.\n\n© 2023 by The American Society of Hematology.",
+          "study_type": "other",
+          "takeaway": "C5 blockade is the cornerstone of treatment for atypical hemolytic uremic syndrome, but diagnosis and long-term management are increasingly individualized, with potential benefits in secondary HUS forms.",
+          "doi": "10.1182/blood.2022017860"
+        },
+        {
+          "title": "Critical appraisal of eculizumab for atypical hemolytic uremic syndrome",
+          "authors": [
+            "L. Palma",
+            "C. Langman"
+          ],
+          "year": 2016,
+          "citation_count": 30,
+          "journal": "Journal of Blood Medicine",
+          "volume": "7",
+          "pages": "39 - 72",
+          "url": "https://consensus.app/papers/details/c96aa4d87a7252949589622286ca3a3d/?utm_source=chatgpt",
+          "abstract": "The biology of atypical hemolytic uremic syndrome has been shown to involve inability to limit activation of the alternative complement pathway, with subsequent damage to systemic endothelial beds and the vasculature, resulting in the prototypic findings of a thrombotic microangiopathy. Central to this process is the formation of the terminal membrane attack complex C5b-9. Recently, application of a monoclonal antibody that specifically binds to C5, eculizumab, became available to treat patients with atypical hemolytic uremic syndrome, replacing plasma exchange or infusion as primary therapy. This review focuses on the evidence, based on published clinical trials, case series, and case reports, on the efficacy and safety of this approach.",
+          "study_type": "literature review",
+          "takeaway": "Eculizumab is an effective and safe treatment for atypical hemolytic uremic syndrome, replacing plasma exchange or infusion as primary therapy.",
+          "doi": "10.2147/jbm.s36249"
+        },
+        {
+          "title": "Complement‐driven hemolytic uremic syndrome",
+          "authors": [
+            "J. Léon",
+            "Marie-Bénédicte LeStang",
+            "R. Sberro-Soussan",
+            "A. Servais",
+            "D. Anglicheau",
+            "V. Frémeaux-Bacchi",
+            "J. Zuber"
+          ],
+          "year": 2023,
+          "citation_count": 43,
+          "journal": "American Journal of Hematology",
+          "volume": "98",
+          "pages": "S44 - S56",
+          "url": "https://consensus.app/papers/details/81cb27733d725dfb86c099d2f726c765/?utm_source=chatgpt",
+          "abstract": "Overactivation of the complement alternative pathway drives the pathogenesis of primary atypical hemolytic uremic syndrome (aHUS). Genetically-determined or acquired dysregulation of the complement is frequently identified in patients with aHUS, pregnancy-related hemolytic uremic syndrome (HUS), and severe hypertension-associated HUS. In contrast, it is still unclear whether self-limited complement activation, which frequently occurs in other forms of HUS, provides key mechanistic clues or results from endothelial damage. Development of novel biomarkers is underway to firmly establish complement-driven pathogenesis. C5 blockade therapy has revolutionized the management of aHUS patients, resulting in a halving of the subpopulation under chronic dialysis over the course of a few years. On the other hand, the efficacy of C5 blockade in secondary forms of HUS, as assessed by small and uncontrolled case series, is less compelling and should be investigated through properly designed prospective clinical trials. The increased risk of meningococcal infection, related to C5 inhibition, must be rigorously addressed with suitable prophylaxis. Treatment duration should be determined based on an individualized benefit/risk assessment.\n\n© 2023 The Authors. American Journal of Hematology published by Wiley Periodicals LLC.",
+          "study_type": "literature review",
+          "takeaway": "Complement-driven hemolytic uremic syndrome (aHUS) is driven by overactivation of the complement alternative pathway, with C5 blockade therapy revolutionizing the management of aHUS patients.",
+          "doi": "10.1002/ajh.26854"
+        },
+        {
+          "title": "Spontaneous hemolytic uremic syndrome triggered by complement factor H lacking surface recognition domains",
+          "authors": [
+            "Matthew C. Pickering",
+            "E. G. de Jorge",
+            "R. Martinez-Barricarte",
+            "S. Recalde",
+            "A. García-Layana",
+            "K. L. Rose",
+            "J. Moss",
+            "M. Walport",
+            "H. Cook",
+            "S. de Córdoba",
+            "M. Botto"
+          ],
+          "year": 2007,
+          "citation_count": 288,
+          "journal": "The Journal of Experimental Medicine",
+          "volume": "204",
+          "pages": "1249 - 1256",
+          "url": "https://consensus.app/papers/details/c6faec6270505c5ca256721e7c6aaaf8/?utm_source=chatgpt",
+          "abstract": "Factor H (FH) is an abundant serum glycoprotein that regulates the alternative pathway of complement-preventing uncontrolled plasma C3 activation and nonspecific damage to host tissues. Age-related macular degeneration (AMD), atypical hemolytic uremic syndrome (aHUS), and membranoproliferative glomerulonephritis type II (MPGN2) are associated with polymorphisms or mutations in the FH gene (Cfh), suggesting the existence of a genotype-phenotype relationship. Although AMD and MPGN2 share pathological similarities with the accumulation of complement-containing debris within the eye and kidney, respectively, aHUS is characterized by renal endothelial injury. This pathological distinction was reflected in our Cfh association analysis, which demonstrated that although AMD and MPGN2 share a Cfh at-risk haplotype, the haplotype for aHUS was unique. FH-deficient mice have uncontrolled plasma C3 activation and spontaneously develop MPGN2 but not aHUS. We show that these mice, transgenically expressing a mouse FH protein functionally equivalent to aHUS-associated human FH mutants, regulate C3 activation in plasma and spontaneously develop aHUS but not MPGN2. These animals represent the first model of aHUS and provide in vivo evidence that effective plasma C3 regulation and the defective control of complement activation on renal endothelium are the critical events in the molecular pathogenesis of FH-associated aHUS.",
+          "study_type": "non-randomized experimental study",
+          "takeaway": "AHUS is triggered by complement factor H lacking surface recognition domains, and effective plasma C3 regulation and defective control of complement activation on renal endothelium are critical events in its molecular pathogenesis.",
+          "doi": "10.1084/jem.20070301"
+        },
+        {
+          "title": "Murine systemic thrombophilia and hemolytic uremic syndrome from a factor H point mutation.",
+          "authors": [
+            "Yoshiyasu Ueda",
+            "Imran Mohammed",
+            "Delu Song",
+            "D. Gullipalli",
+            "Lin Zhou",
+            "Sayaka Sato",
+            "Yuan Wang",
+            "Shuchi Gupta",
+            "Zhong-Jian Cheng",
+            "Hong Wang",
+            "J. Bao",
+            "Yingying Mao",
+            "L. Brass",
+            "Long X. Zheng",
+            "T. Miwa",
+            "M. Palmer",
+            "J. Dunaief",
+            "Wen-Chao Song"
+          ],
+          "year": 2017,
+          "citation_count": 61,
+          "journal": "Blood",
+          "volume": "129 9",
+          "pages": "\n          1184-1196\n",
+          "url": "https://consensus.app/papers/details/fd329b2f84175e0ea48f9ab7ea17bb4d/?utm_source=chatgpt",
+          "abstract": "Complement plays a key role in host defense, but its dysregulation can cause autologous tissue injury. Complement activation is normally controlled by regulatory proteins, including factor H (FH) in plasma and membrane cofactor protein (MCP) on the cell surface. Mutations in FH and MCP are linked to atypical hemolytic uremic syndrome, a type of thrombotic microangiopathy (TMA) that causes renal failure. We describe here that disruption of FH function on the cell surface can also lead to disseminated complement-dependent macrovascular thrombosis. By gene targeting, we introduced a point mutation (W1206R) into murine FH that impaired its interaction with host cells but did not affect its plasma complement-regulating activity. Homozygous mutant mice carrying this mutation developed renal TMA as well as systemic thrombophilia involving large blood vessels in multiple organs, including liver, lung, spleen, and kidney. Approximately 30% of mutant mice displayed symptoms of stroke and ischemic retinopathy, and 48% died prematurely. Genetic deficiency of complement C3 and factor D prevented both the systemic thrombophilia and renal TMA phenotypes. These results demonstrate a causal relationship between complement dysregulation and systemic angiopathy and suggest that complement activation may contribute to various human thrombotic disorders involving both the micro- and macrovasculature.\n\n© 2017 by The American Society of Hematology.",
+          "study_type": "non-randomized experimental study",
+          "takeaway": "A factor H point mutation can cause systemic thrombophilia and renal thrombotic microangiopathy in mice, suggesting a causal relationship between complement dysregulation and systemic angiopathy.",
+          "doi": "10.1182/blood-2016-07-728253"
+        }
+      ],
+      "tier": "pro",
+      "utm_source": "chatgpt_widget",
+      "page": 0,
+      "is_end": false,
+      "next_page": 1,
+      "usage": {
+        "searches_used": 97,
+        "searches_limit": 500,
+        "papers_per_search": 20
+      },
+      "instructions": "IMPORTANT: When presenting these results, you MUST: 1. Cite papers inline using numbered references [1], [2], etc. Example: 'Caffeine improves endurance performance [1] and reduces perceived exertion [3].' 2. Hyperlink paper titles to their URLs: [Paper Title](url). 3. Include the authors, year, journal, and citation count for each paper. If a paper has a `doi` field, surface it (e.g. 'DOI: 10.1038/...') so the user can cite it formally. 4. Use the exact paper URLs — do not modify or shorten them. 5. Include the sign-up/upgrade message at the END word-for-word. If a paper has an `institutional_access_url`, offer it as 'Access through your institution': it opens the full text through the user's library."
+    },
+    "isError": false
+  },
+  "mouseFetches": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"id\": \"c1047b471c5d5964a47485bb48b28868\", \"title\": \"The membrane attack complex drives thrombotic microangiopathy in complement mediated atypical hemolytic uremic syndrome.\", \"text\": \"Key takeaway: The membrane attack complex plays a crucial role in developing thrombotic microangiopathy in complement-mediated atypical hemolytic uremic syndrome, with both C5aR1 and C7 playing a role in kidney disease.\", \"url\": \"https://consensus.app/papers/the-membrane-attack-complex-drives-thrombotic-smith-jackson-walsh/c1047b471c5d5964a47485bb48b28868/?utm_source=chatgpt\", \"metadata\": {\"authors\": \"K. Smith-Jackson, P. Walsh, W. Zelek, Thomas F Hoyler, Marianne M. Martinic, Gemma L. Thompson, Beth Gibson, Chloe Connelly, I. Pappworth, M. Murphy, David Kavanagh, Kevin J. Marchbank\", \"publish_year\": \"2025\", \"journal\": \"Kidney international\", \"citation_count\": \"7\", \"doi\": \"10.1016/j.kint.2024.12.016\"}}"
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"id\": \"0f68ce42bd3b536b97bd068a9a19385d\", \"title\": \"Differential contribution of C5aR and C5b-9 pathways to renal thrombic microangiopathy and macrovascular thrombosis in mice carrying an atypical hemolytic syndrome-related factor H mutation.\", \"text\": \"Key takeaway: C5 blockade is more effective for treating aHUS than targeting either the C5aR or C5b-9 pathways alone, as both pathways play a role in complement-mediated TMA and macrovascular thrombosis in mice with a factor H mutation.\", \"url\": \"https://consensus.app/papers/differential-contribution-of-c5ar-and-c5b9-pathways-to-ueda-miwa/0f68ce42bd3b536b97bd068a9a19385d/?utm_source=chatgpt\", \"metadata\": {\"authors\": \"Yoshiyasu Ueda, T. Miwa, Daisuke Ito, Hangsoo Kim, Sayaka Sato, D. Gullipalli, Lin Zhou, Madhu Golla, Delu Song, J. Dunaief, M. Palmer, Wen-Chao Song\", \"publish_year\": \"2019\", \"journal\": \"Kidney international\", \"volume\": \"96\", \"pages\": \"67 - 79\", \"citation_count\": \"36\", \"doi\": \"10.1016/j.kint.2019.01.009\"}}"
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    }
+  ]
+}

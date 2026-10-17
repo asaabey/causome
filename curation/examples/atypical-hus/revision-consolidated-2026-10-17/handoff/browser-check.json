@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-17",
+  "candidateId": "atypical-hus-summary-candidate-d4ea04ecbc70",
+  "digest": "9a1a7da24bfdca47a74b096feee5f7a5401c44a43769c3ca5f50e34805b52b35",
+  "entityCount": 29,
+  "relationshipCount": 44,
+  "cloudCount": 29,
+  "cloudMapCoverage": 1,
+  "cloudClicks": 29,
+  "cloudClicksKeepOverview": true,
+  "overlappingNodes": [],
+  "pageErrors": [],
+  "summaryDownloadBindsSnapshot": true,
+  "therapyTargetSelectsVisibleNode": true,
+  "mobileOverflow": false
+}

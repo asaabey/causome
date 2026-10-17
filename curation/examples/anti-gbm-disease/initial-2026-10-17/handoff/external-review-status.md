@@ -1,0 +1,7 @@
+External literature retrieval, 2026-10-17: Consensus search and three fetches were actually run (see consensus-discovery.json and consensus-fetches.json). Query: anti glomerular basement membrane disease HLA DR15 alpha3 alpha5 NC1 imlifidase GOOD-IDES-02 randomized phase 3 results year:2025-2026. Returned 20 discovery records. This was retrieval, not an independent overall-review verdict; no summary-feedback receipt is asserted.
+
+Deferred current evidence: Tyrberg et al., DOI 10.1093/ckj/sfaf393 (same GOOD-IDES-01 cohort, classical activation falls but terminal activation remains elevated); Kuang et al., DOI 10.1093/ndt/gfaf153 (perlecan autoantibodies, observational antigen expansion); Eggenhuizen et al., DOI 10.1016/j.kint.2025.01.005 (engineered antigen-specific Tregs; fetch lacked a full abstract). Primary originals, notices and exact passages need follow-up before these are added. None establishes clinical Treg efficacy or that collagen IV is the only antigen. Summary states the narrow scope and newer-branch omissions.
+
+Web retrieval inspected primary abstracts, a selected PMC complement biopsy report, KDIGO chapter 11, EMA EPAR and Hansa phase 3 topline announcement. Hansa header/lead and its Cision release are dated 2025-12-16, but one regulatory footer says 2026; preserved as an unresolved date inconsistency. Phase 3 null result is explicitly sponsor-reported, not presented as independently appraised full data.
+
+Independent overall current-science verdict: NOT RUN / pending scientific review. Human domain review and calibration: pending.

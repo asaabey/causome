@@ -1,0 +1,146 @@
+[
+  {
+    "key": "doi-e55def3fa75dabaf18aa",
+    "identifiers": [
+      "DOI:10.1016/s0140-6736(25)01148-1",
+      "MED:41016405",
+      "PMID:41016405"
+    ],
+    "title": "Oral iptacopan therapy in patients with C3 glomerulopathy: a randomised, double-blind, parallel group, multicentre, placebo-controlled, phase 3 study.",
+    "authors": "Kavanagh D, Bomback AS, Vivarelli M, Nester CM, Remuzzi G, Zhao MH, Wong EKS, Wang Y, Krishnan I, Schuhmann I, Trapani AJ, Webb NJA, Meier M, Israni RK, Smith RJH, APPEAR-C3G investigators.",
+    "publishedAt": "2025-09-25",
+    "journal": "Lancet (London, England)",
+    "abstract": "Background C3 glomerulopathy is an ultra-rare, severe form of glomerulonephritis caused by overactivation of the alternative complement pathway. We aimed to assess efficacy and safety of iptacopan (LNP023), an oral, proximal complement inhibitor that targets factor B to selectively inhibit the alternative pathway of the complement cascade. Methods APPEAR-C3G was a multicentre, randomised, double-blind, placebo-controlled, phase 3 study of iptacopan versus placebo (both in addition to supportive care [renin-angiotensin-aldosterone system (RAAS) inhibitors] and immunosuppression). Adult participants (aged 18-60 years) with biopsy-confirmed C3 glomerulopathy were enrolled from 35 hospitals or medical centres in 18 countries. Inclusion criteria included reduced serum C3 concentration (ie, 2 or higher at screening and day -15, and vaccination against Neisseria meningitidis and Streptococcus pneumoniae. All eligible participants were randomised 1:1 via interactive response technology to either the iptacopan or the placebo group, stratified by treatment with corticosteroids, mycophenolic acid, or both (yes or no). During the 6-month double-blind period, participants orally received either iptacopan 200 mg twice daily or placebo; this was followed by a 6-month open-label period in which all participants received iptacopan 200 mg twice daily. The primary endpoint was relative reduction in proteinuria (measured by log-transformed ratio to baseline in UPCR sampled from a 24-h urine collection) at 6 months. The primary analyses were done in the full analysis set (ie, all participants to whom study treatment was assigned by randomisation); all participants who received at least one dose of study treatment were included in the safety analysis. This trial was registered with ClinicalTrials.gov (NCT04817618) and the adult cohort has been completed. Findings Between July 28, 2021, and Feb 15, 2023, 132 participants were screened, of whom 58 did not complete the screening period and 74 (64% male; 69% White) were randomised 1:1 to receive either iptacopan (n=38) or placebo (n=36). One participant in the placebo group discontinued treatment during the open-label period. The 24-h UPCR percentage change relative to baseline at 6 months was -30·2% (95% CI -42·8 to -14·8) in the iptacopan group and 7·6% (-11·9 to 31·3) in the placebo group. In the iptacopan group, the geometric mean of 24-h UPCR was 3·33 g/g (95% CI 2·79 to 3·97) at baseline and 2·17 g/g (1·62 to 2·91) at 6 months; in the placebo group, this was 2·58 g/g (2·18 to 3·05) at baseline and 2·80 g/g (2·37 to 3·30) at 6 months. The primary endpoint was met with a relative reduction in 24-h UPCR at 6 months for iptacopan versus placebo of 35·1% (13·8 to 51·1; p=0·0014). 30 (79%) of 38 participants in the iptacopan group had treatment-emergent adverse events, compared with 24 (67%) of 36 participants in the placebo group; most of these were of mild or moderate severity. There were no deaths, no treatment discontinuations due to treatment-emergent adverse events, and no meningococcal infections. Serious adverse events were reported in three (8%) participants in the iptacopan group and one (3%) participant in the placebo group. Interpretation Iptacopan showed a statistically significant, clinically meaningful proteinuria reduction in addition to RAAS inhibitors and immunosuppression at 6 months. Iptacopan was well tolerated with an acceptable safety profile in patients with C3 glomerulopathy. Funding Novartis Pharma.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41016405/",
+    "doi": "10.1016/s0140-6736(25)01148-1",
+    "pmid": "41016405",
+    "pmcid": null,
+    "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+    "openAccess": false,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-15",
+    "lastCheckedAt": "2026-10-15",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-e6f6e72771dfbb20338d",
+    "identifiers": [
+      "DOI:10.4049/jimmunol.1402770",
+      "MED:25917093",
+      "PMID:25917093"
+    ],
+    "title": "Anti-factor H autoantibodies in C3 glomerulopathies and in atypical hemolytic uremic syndrome: one target, two diseases.",
+    "authors": "Blanc C, Togarsimalemath SK, Chauvet S, Le Quintrec M, Moulin B, Buchler M, Jokiranta TS, Roumenina LT, Fremeaux-Bacchi V, Dragon-Durey MA.",
+    "publishedAt": "2015-04-27",
+    "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+    "abstract": "Autoantibodies targeting factor H (FH), which is a main alternative complement pathway regulatory protein, have been well characterized in atypical hemolytic uremic syndrome (aHUS) but have been less well described in association with alternative pathway-mediated glomerulopathies (GP). In this study, we studied 17 patients presenting with GP who were positive for anti-FH IgG. Clinical data were collected and biological characteristics were compared with those of patients presenting with anti-FH Ab-associated aHUS. In contrast to the aHUS patients, the GP patients had no circulating FH-containing immune complexes, and their anti-FH IgG had a weaker affinity for FH. Functional studies demonstrated that these Abs induced no perturbations in FH cell surface protection or the binding of FH to its ligand. However, anti-FH IgG samples isolated from three patients were able to affect the factor I cofactor activity of FH. Epitope mapping identified the N-terminal domain of FH as the major binding site for GP patient IgG. No homozygous deletions of the CFHR1 and CFHR3 genes, which are frequently associated with the anti-FH Ab in aHUS patients, were found in the GP patients. Finally, anti-FH Abs were frequently associated with the presence of C3 nephritic factor in child GP patients and with monoclonal gammopathy in adult GP patients, who frequently showed Ig Lchain restriction during reactivity against factor H. These data provide deeper insights into the pathophysiological differences between aHUS and GP, demonstrating heterogeneity of anti-FH IgG.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25917093/",
+    "doi": "10.4049/jimmunol.1402770",
+    "pmid": "25917093",
+    "pmcid": null,
+    "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-15",
+    "lastCheckedAt": "2026-10-15",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-a244ff446770358b5fbc",
+    "identifiers": [
+      "DOI:10.1038/ki.2012.212",
+      "MED:22673887",
+      "PMCID:PMC4438675",
+      "PMID:22673887"
+    ],
+    "title": "C3 glomerulonephritis: clinicopathological findings, complement abnormalities, glomerular proteomic profile, treatment, and follow-up.",
+    "authors": "Sethi S, Fervenza FC, Zhang Y, Zand L, Vrana JA, Nasr SH, Theis JD, Dogan A, Smith RJ.",
+    "publishedAt": "2012-08-01",
+    "journal": "Kidney international",
+    "abstract": "C3 glomerulonephritis (C3GN) is a recently described disorder that typically results from abnormalities in the alternative pathway (AP) of complement. Here, we describe the clinical features, kidney biopsy findings, AP abnormalities, glomerular proteomic profile, and follow-up in 12 cases of C3GN. This disorder equally affected all ages, both genders, and typically presented with hematuria and proteinuria. In both the short and long term, renal function remained stable in the majority of patients with native kidney disease. In two patients, C3GN recurred within 1 year of transplantation and resulted in a decline in allograft function. Kidney biopsy mainly showed a membranoproliferative pattern, although both mesangial proliferative and diffuse endocapillary proliferative glomerulonephritis were noted. AP abnormalities were heterogeneous, both acquired and genetic. The most common acquired abnormality was the presence of C3 nephritic factors, while the most common genetic finding was the presence of H402 and V62 alleles of Factor H. In addition to these risk factors, other abnormalities included Factor H autoantibodies and mutations in CFH, CFI, and CFHR genes. Laser dissection and mass spectrometry of glomeruli from patients with C3GN showed accumulation of AP and terminal complement complex proteins. Thus, C3GN results from diverse abnormalities of the alternative complement pathway leading to subsequent glomerular injury.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22673887/",
+    "doi": "10.1038/ki.2012.212",
+    "pmid": "22673887",
+    "pmcid": "PMC4438675",
+    "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+    "openAccess": true,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "23364589",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "23364591",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-15",
+    "lastCheckedAt": "2026-10-15",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-fade1a9b5518c445d808",
+    "identifiers": [
+      "DOI:10.1038/ki.2012.250",
+      "MED:22854646",
+      "PMCID:PMC3608896",
+      "PMID:22854646"
+    ],
+    "title": "Sensitive and specific assays for C3 nephritic factors clarify mechanisms underlying complement dysregulation.",
+    "authors": "Paixão-Cavalcante D, López-Trascasa M, Skattum L, Giclas PC, Goodship TH, de Córdoba SR, Truedsson L, Morgan BP, Harris CL.",
+    "publishedAt": "2012-08-01",
+    "journal": "Kidney international",
+    "abstract": "C3 nephritic factors are autoantibodies that prolong the half-life or prevent regulation of the alternative pathway C3 convertase, resulting in uncontrolled complement activation. They are strongly associated with renal disease but their role in pathogenesis remains controversial. Here we optimized and compared a panel of assays to identify and interrogate nephritic factor activities. Of 101 patients with histologic or clinically evident disease, 48 were positive in some or all assays. In the presence of properdin, binding of autoantibody was detected in 39 samples and convertase stabilization was detected in 36. Forty-two of 48 nephritic factors tested prevented convertase decay by factor H, and most of these by decay accelerating factor (28) and complement receptor 1 (34). Representative properdin-independent nephritic factors had no effect on C5 cleavage and terminal pathway activity, while properdin-dependent nephritic factors enhanced activity. Biacore analysis of four purified IgG samples confirmed resistance to decay and showed that properdin-independent nephritic factors increased convertase half-life over 50-fold, whereas properdin-dependent nephritic factors increased the half-life 10- to 20-fold and also increased activity of the C3 convertase up to 10-fold. Thus, our study provides a rational approach to detect and characterize nephritic factors in patients.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22854646/",
+    "doi": "10.1038/ki.2012.250",
+    "pmid": "22854646",
+    "pmcid": "PMC3608896",
+    "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+    "openAccess": true,
+    "license": "cc by-nc-nd",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-15",
+    "lastCheckedAt": "2026-10-15",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-b0d758839c2902552446",
+    "identifiers": [
+      "DOI:10.1136/jmg.2006.045328",
+      "MED:17018561",
+      "PMCID:PMC2598029",
+      "PMID:17018561"
+    ],
+    "title": "Primary glomerulonephritis with isolated C3 deposits: a new entity which shares common genetic risk factors with haemolytic uraemic syndrome.",
+    "authors": "Servais A, Frémeaux-Bacchi V, Lequintrec M, Salomon R, Blouin J, Knebelmann B, Grünfeld JP, Lesavre P, Noël LH, Fakhouri F.",
+    "publishedAt": "2006-10-03",
+    "journal": "Journal of medical genetics",
+    "abstract": "Introduction Abnormal control of the complement alternative pathway (CAP) (factor H, factor I and membrane cofactor protein (MCP) deficiencies) is a well established risk factor for the occurrence of haemolytic uraemic syndrome (HUS). In some instances, HUS may be associated with an unusual glomerulonephritis with isolated C3 deposits (glomerulonephritis C3). We determined whether HUS and glomerulonephritis C3 share common genetic susceptibility factors. Methods We identified 19 patients with glomerulonephritis C3. We measured levels of circulating complement components, performed assays for the detection of C3 nephritic factor (C3NeF) and screened factor H, factor I and MCP coding genes for the presence of mutations. Results Patients were divided in two groups based on renal pathology findings: group I (n = 13) had typical features of type I membranoproliferative glomerulonephritis (glomerulonephritis C3 with membranoproliferative glomerulonephritis (MPGN)) and group II (n = 6) was characterised by mesangial and epimembranous C3 deposits in the absence of mesangial proliferation (glomerulonephritis C3 without MPGN). Mutations in complement regulatory genes were detected in 4/6 patients with glomerulonephritis C3 without MPGN (heterozygous mutations in factor H gene (two patients) with low factor H antigenic level in one case, heterozygous mutations in factor I gene (two patients)) and in only 2/13 patients with glomerulonephritis C3 with MPGN (heterozygous mutations in factor H gene (one patient) and double heterozygous mutation in CD 46 gene (one patient)). In contrast, C3NeF was present in 5/13 patients with glomerulonephritis C3 with MPGN and in 2/6 patients with glomerulonephritis C3 without MPGN, one of whom had a factor H mutation. Conclusion HUS and glomerulonephritis C3 without MPGN share common genetic risk factors. Constitutional or acquired dysregulation of the CAP is probably associated with a wide spectrum of diseases, ranging from HUS to glomerulonephritis C3 with MPGN.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17018561/",
+    "doi": "10.1136/jmg.2006.045328",
+    "pmid": "17018561",
+    "pmcid": "PMC2598029",
+    "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-15",
+    "lastCheckedAt": "2026-10-15",
+    "reviewedAt": null
+  }
+]

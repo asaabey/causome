@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "attempt-4f0f6673-2b08-44a5-869d-acb778204646",
+  "diseaseId": "atypical-hus",
+  "trigger": "manual",
+  "provider": "europe-pmc-core-v1",
+  "startedAt": "2026-10-17T01:42:47.666Z",
+  "requestedThrough": "2026-10-17",
+  "finishedAt": "2026-10-17T01:43:27.708Z",
+  "status": "succeeded",
+  "runId": "scan-f61e0f67d936697f9347ee03"
+}

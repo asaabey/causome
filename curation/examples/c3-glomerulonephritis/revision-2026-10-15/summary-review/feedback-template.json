@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "c3-glomerulonephritis",
+  "candidateId": "c3-glomerulonephritis-summary-candidate-67b26c1308bd",
+  "contentDigest": "364ebd83f67a1e9a45595a20a7c68e06348854625111a3fa943a944679482edf",
+  "summaryRevisionId": "summary-67b26c1308bd",
+  "summaryDigest": "60840bb78d1f279fce1c53927b3947e589bdb4cbd49a9a0d293b1203e4ab7d0d",
+  "packetDigest": "4186f2ccc3900a5bf01714b341bdec51f51489b7e5b00b91c548c1c04cd824ad",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

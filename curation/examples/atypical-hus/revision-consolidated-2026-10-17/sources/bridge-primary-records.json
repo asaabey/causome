@@ -1,0 +1,2683 @@
+[
+  {
+    "id": "32073731",
+    "source": "MED",
+    "pmid": "32073731",
+    "doi": "10.1111/jth.14767",
+    "title": "Vascular endothelial cells evade complement-mediated membrane injury via Weibel-Palade body mobilization.",
+    "authorString": "Riedl Khursigara M, Schlam D, Noone DG, Bruno V, Ortiz-Sandoval CG, Pluthero FG, Kahr WHA, Bowman ML, James P, Grinstein S, Licht C.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Riedl Khursigara M",
+          "lastName": "Riedl Khursigara",
+          "firstName": "Magdalena",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Cell Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Department of Pediatrics, Innsbruck Medical University, Innsbruck, Austria."
+              },
+              {
+                "affiliation": "Department of Paediatrics, University of Toronto, Toronto, ON, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Schlam D",
+          "lastName": "Schlam",
+          "firstName": "Daniel",
+          "initials": "D",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Cell Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Noone DG",
+          "lastName": "Noone",
+          "firstName": "Damien G",
+          "initials": "DG",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Paediatrics, University of Toronto, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Division of Nephrology, The Hospital for Sick Children, Toronto, ON, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bruno V",
+          "lastName": "Bruno",
+          "firstName": "Valentina",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Cell Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Department of Translational Medical Sciences, Section of Pediatrics, University of Naples Federico II, Naples, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ortiz-Sandoval CG",
+          "lastName": "Ortiz-Sandoval",
+          "firstName": "Carolina G",
+          "initials": "CG",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Cell Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Pluthero FG",
+          "lastName": "Pluthero",
+          "firstName": "Fred G",
+          "initials": "FG",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Cell Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kahr WHA",
+          "lastName": "Kahr",
+          "firstName": "Walter H A",
+          "initials": "WHA",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Cell Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Department of Paediatrics, University of Toronto, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Division of Haematology/Oncology, The Hospital for Sick Children, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Department of Biochemistry, University of Toronto, Toronto, ON, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bowman ML",
+          "lastName": "Bowman",
+          "firstName": "Mackenzie L",
+          "initials": "ML",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Medicine, Queen's University, Kingston, ON, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "James P",
+          "lastName": "James",
+          "firstName": "Paula",
+          "initials": "P",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Medicine, Queen's University, Kingston, ON, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Grinstein S",
+          "lastName": "Grinstein",
+          "firstName": "Sergio",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Cell Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Department of Biochemistry, University of Toronto, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Keenan Research Centre, St. Michael's Hospital, Toronto, ON, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Licht C",
+          "lastName": "Licht",
+          "firstName": "Christoph",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Cell Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Department of Paediatrics, University of Toronto, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Division of Nephrology, The Hospital for Sick Children, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Institute of Medical Science, University of Toronto, Toronto, ON, Canada."
+              },
+              {
+                "affiliation": "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON, Canada."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "6",
+      "volume": "18",
+      "journalIssueId": 2963152,
+      "dateOfPublication": "2020 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 2020,
+      "journal": {
+        "medlineAbbreviation": "J Thromb Haemost",
+        "title": "Journal of thrombosis and haemostasis : JTH",
+        "essn": "1538-7836",
+        "issn": "1538-7933",
+        "isoabbreviation": "J Thromb Haemost",
+        "nlmid": "101170508"
+      },
+      "printPublicationDate": "2020-06-01"
+    },
+    "pubYear": "2020",
+    "pageInfo": "1484-1494",
+    "abstractText": "<h4>Background</h4>Defective complement inhibition can lead to the formation of membrane attack complexes (MAC; C5b-9) on the plasma membranes of vascular endothelial cells, resulting in injury that drives the progression of thrombotic microangiopathy (TMA), a key pathology in kidney disease.<h4>Objective/methods</h4>We examined the response of human endothelial cells to complement-mediated damage using blood outgrowth endothelial cells (BOECs) derived from healthy donors. BOECs were sensitized to complement factors present in normal human serum to induce the formation of C5b-9 on their plasma membranes.<h4>Results</h4>This triggered an expected abrupt rise in intracellular Ca<sup>2+</sup> reflecting membrane leakage. Remarkably, while intracellular Ca<sup>2+</sup> remained elevated, membrane leakage ceased within 30\u00a0minutes, and cells did not show significant death. Extensive mobilization of Weibel-Palade bodies (WPBs) was observed along with secretion of von Willebrand factor (VWF). The potential role of WPBs and VWF in mitigating complement-mediated damage was examined by comparing the effects of C5b-9 on BOECs derived from von Willebrand disease (VWD) patients expressing reduced amounts of VWF, lacking expression of functional VWF, or lacking both VWF and WPBs. BOECs lacking WPBs were not resistant to complement-mediated damage, but became resistant when transfected to express VWF (and thus WPBs).<h4>Conclusion</h4>We conclude that BOECs exposed to C5b-9 attack respond by mobilizing WPBs, which mitigate and repair damage by fusing with the plasma membrane. We propose that a similar cell-specific response may protect the vascular endothelium from complement-mediated damage in vivo.",
+    "affiliation": "Cell Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "CIHR",
+          "grantId": "376777",
+          "orderIn": 0
+        },
+        {
+          "agency": "CIHR",
+          "grantId": "FDN\u2010143202",
+          "orderIn": 0
+        },
+        {
+          "agency": "CIHR",
+          "grantId": "PJT\u2010119450",
+          "orderIn": 0
+        },
+        {
+          "agency": "CIHR",
+          "grantId": "PJT\u2010153168",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Endothelium, Vascular"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Weibel-Palade Bodies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Endothelial Cells"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "von Willebrand Factor"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "von Willebrand Diseases"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Complement",
+        "Plasma membrane",
+        "Thrombotic Microangiopathy",
+        "Weibel-palade Bodies",
+        "Membrane Attack Complex"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "von Willebrand Factor",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1111/jth.14767"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 15,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2021-05-14",
+    "dateOfCreation": "2020-02-20",
+    "dateOfRevision": "2023-08-29",
+    "firstPublicationDate": "2020-06-01",
+    "firstIndexDate": "2020-02-20",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "42532252",
+    "source": "MED",
+    "pmid": "42532252",
+    "doi": "10.1016/j.autrev.2026.104151",
+    "title": "Aberrant neutrophil and complement activation in thrombotic microangiopathies in pregnancy - Is there a missing link?",
+    "authorString": "Zaimi M, Kambas K, Marinaki S, Theodora M, Daskalakis G, Frangou E.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Zaimi M",
+          "lastName": "Zaimi",
+          "firstName": "Maria",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Internal Medicine, Alexandra Hospital, Athens, Greece; Department of Nephrology, National and Kapodistrian University of Athens Medical School, Areteio Hospital, Athens, Greece."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kambas K",
+          "lastName": "Kambas",
+          "firstName": "Konstantinos",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Laboratory of Molecular Genetics, Hellenic Pasteur Institute, Athens, Greece."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Marinaki S",
+          "lastName": "Marinaki",
+          "firstName": "Smaragdi",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Clinic of Nephrology and Renal Transplantation, National and Kapodistrian University of Athens Medical School, Laiko Hospital, Athens, Greece."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Theodora M",
+          "lastName": "Theodora",
+          "firstName": "Marianna",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Obstetrics and Gynecology, Alexandra Hospital, Athens, Greece."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Daskalakis G",
+          "lastName": "Daskalakis",
+          "firstName": "Georgios",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Obstetrics and Gynecology, Alexandra Hospital, Athens, Greece."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Frangou E",
+          "lastName": "Frangou",
+          "firstName": "Eleni",
+          "initials": "E",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, National and Kapodistrian University of Athens Medical School, Areteio Hospital, Athens, Greece; Department of Nephrology, Limassol General Hospital, State Health Services Organization, Limassol, Cyprus; Department of Basic and Clinical Science, University of Nicosia Medical School, Cyprus. Electronic address: efrangou@outlook.com.gr."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "11",
+      "volume": "25",
+      "journalIssueId": 4235891,
+      "dateOfPublication": "2026 Jul",
+      "monthOfPublication": 7,
+      "yearOfPublication": 2026,
+      "journal": {
+        "medlineAbbreviation": "Autoimmun Rev",
+        "title": "Autoimmunity reviews",
+        "essn": "1873-0183",
+        "issn": "1568-9972",
+        "isoabbreviation": "Autoimmun Rev",
+        "nlmid": "101128967"
+      },
+      "printPublicationDate": "2026-07-01"
+    },
+    "pubYear": "2026",
+    "pageInfo": "104151",
+    "abstractText": "Pregnancy-related acute kidney injury is a major global health burden associated with increased maternal and fetal morbidity and mortality. Thrombotic microangiopathies (TMA) occurring in pregnancy or postpartum include severe preeclampsia/Hemolysis Elevated Liver Enzymes Low Platelets (HELLP) syndrome, atypical Hemolytic Uremic Syndrome (aHUS) and Thrombotic Thrombocytopenic Purpura (TTP). Severe acute kidney injury and progression to chronic kidney disease are particularly associated with complement-mediated thrombotic microangiopathy/atypical hemolytic uremic syndrome and may also complicate severe preeclampsia/HELLP syndrome, while renal involvement is usually less prominent in TTP. Interestingly, preeclampsia, HELLP syndrome, aHUS, TTP, lupus nephritis and antiphospholipid syndrome share common autoimmune pathogenic mechanisms, as both are characterized by exaggerated neutrophil activation and increased neutrophil extracellular traps (NETs) release, as well as complement activation. In an era of targeted therapies, the lack of treatment of preeclampsia and HELLP results from the limited understanding of the underlying pathogenetic mechanisms. Eculizumab, a C5 inhibitor that targets the complement, significantly reduced the risk of ESKD in women with pregnancy-associated aHUS, supporting the therapeutic relevance of complement modulation. In this review, we performed a narrative synthesis of established and emerging experimental, translational and clinical data on pregnancy-associated TMAs, summarizing current evidence on the interaction between neutrophil dysregulation, NET formation, complement activation and endothelial injury in pregnancy-associated thrombotic microangiopathies. A better understanding of the neutrophil-NET-complement axis may help refine diagnostic distinctions among overlapping pregnancy-associated thrombotic microangiopathies and facilitate the development of more targeted therapeutic strategies.",
+    "affiliation": "Department of Internal Medicine, Alexandra Hospital, Athens, Greece; Department of Nephrology, National and Kapodistrian University of Athens Medical School, Areteio Hospital, Athens, Greece.",
+    "publicationStatus": "aheadofprint",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Review",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Complement",
+        "Preeclampsia",
+        "Thrombotic Microangiopathy",
+        "Atypical Hemolytic Uremic Syndrome",
+        "Hellp Syndrome",
+        "Neutrophil Extracellular Traps",
+        "Complement Inhibition"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.autrev.2026.104151"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-07-30",
+    "dateOfRevision": "2026-08-01",
+    "electronicPublicationDate": "2026-07-30",
+    "firstPublicationDate": "2026-07-30",
+    "firstIndexDate": "2026-07-31",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "37164260",
+    "source": "MED",
+    "pmid": "37164260",
+    "doi": "10.1016/j.kint.2023.03.039",
+    "title": "Hemolysis is associated with altered heparan sulfate of the endothelial glycocalyx and with local complement activation in thrombotic microangiopathies.",
+    "authorString": "Laboux T, Maanaoui M, Allain F, Boulanger E, Denys A, Gibier JB, Glowacki F, Grolaux G, Grunenwald A, Howsam M, Lancel S, Lebas C, Lopez B, Roumenina L, Prov\u00f4t F, Gnemmi V, Frimat M.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Laboux T",
+          "lastName": "Laboux",
+          "firstName": "Timoth\u00e9e",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, CHU Lille, Nephrology Department, Lille, France; University of Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167-RID-AGE, Lille, France. Electronic address: tlaboux@gmail.com."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Maanaoui M",
+          "lastName": "Maanaoui",
+          "firstName": "Mehdi",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6188-1196"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, CHU Lille, Nephrology Department, Lille, France; University of Lille, Inserm, Institut Pasteur de Lille, U1190 - EGID, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Allain F",
+          "lastName": "Allain",
+          "firstName": "Fabrice",
+          "initials": "F",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, CNRS, UMR 8576 - UGSF, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Boulanger E",
+          "lastName": "Boulanger",
+          "firstName": "Eric",
+          "initials": "E",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167-RID-AGE, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Denys A",
+          "lastName": "Denys",
+          "firstName": "Agn\u00e8s",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, CNRS, UMR 8576 - UGSF, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Gibier JB",
+          "lastName": "Gibier",
+          "firstName": "Jean-Baptiste",
+          "initials": "JB",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, Pathology Department, Lille, France; University of Lille, Inserm, US1172, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Glowacki F",
+          "lastName": "Glowacki",
+          "firstName": "Fran\u00e7ois",
+          "initials": "F",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, CHU Lille, Nephrology Department, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Grolaux G",
+          "lastName": "Grolaux",
+          "firstName": "Ga\u00eblle",
+          "initials": "G",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7402-6786"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167-RID-AGE, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Grunenwald A",
+          "lastName": "Grunenwald",
+          "firstName": "Anne",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre de Recherche des Cordeliers, INSERM, Sorbonne Universit\u00e9, Universit\u00e9 de Paris, Paris, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Howsam M",
+          "lastName": "Howsam",
+          "firstName": "Mike",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6344-8908"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167-RID-AGE, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lancel S",
+          "lastName": "Lancel",
+          "firstName": "Steve",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3292-5433"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167-RID-AGE, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lebas C",
+          "lastName": "Lebas",
+          "firstName": "C\u00e9line",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, CHU Lille, Nephrology Department, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lopez B",
+          "lastName": "Lopez",
+          "firstName": "Benjamin",
+          "initials": "B",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, Institut of Immunology, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Roumenina L",
+          "lastName": "Roumenina",
+          "firstName": "Lubka",
+          "initials": "L",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9940-0324"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre de Recherche des Cordeliers, INSERM, Sorbonne Universit\u00e9, Universit\u00e9 de Paris, Paris, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Prov\u00f4t F",
+          "lastName": "Prov\u00f4t",
+          "firstName": "Fran\u00e7ois",
+          "initials": "F",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, CHU Lille, Nephrology Department, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Gnemmi V",
+          "lastName": "Gnemmi",
+          "firstName": "Viviane",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, Pathology Department, Lille, France; University of Lille, CNRS, Inserm, U9020-UMR-S 1277, Lille, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Frimat M",
+          "lastName": "Frimat",
+          "firstName": "Marie",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Lille, CHU Lille, Nephrology Department, Lille, France; University of Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167-RID-AGE, Lille, France. Electronic address: marie.frimat@chru-lille.fr."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6188-1196"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-3292-5433"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6344-8908"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7402-6786"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9940-0324"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "2",
+      "volume": "104",
+      "journalIssueId": 3605692,
+      "dateOfPublication": "2023 Aug",
+      "monthOfPublication": 8,
+      "yearOfPublication": 2023,
+      "journal": {
+        "medlineAbbreviation": "Kidney Int",
+        "title": "Kidney international",
+        "essn": "1523-1755",
+        "issn": "0085-2538",
+        "isoabbreviation": "Kidney Int",
+        "nlmid": "0323470"
+      },
+      "printPublicationDate": "2023-08-01"
+    },
+    "pubYear": "2023",
+    "pageInfo": "353-366",
+    "abstractText": "The complement system plays a key role in the pathophysiology of kidney thrombotic microangiopathies (TMA), as illustrated by atypical hemolytic uremic syndrome. But complement abnormalities are not the only drivers of TMA lesions. Among other potential pathophysiological actors, we hypothesized that alteration of heparan sulfate (HS) in the endothelial glycocalyx could be important. To evaluate this, we analyzed clinical and histological features of kidney biopsies from a monocentric, retrospective cohort of 72 patients with TMA, particularly for HS integrity and markers of local complement activation. The role of heme (a major product of hemolysis) as an HS-degrading agent in\u00a0vitro, and the impact of altering endothelial cell (ECs) HS on their ability to locally activate complement were studied. Compared with a positive control, glomerular HS staining was lower in 57 (79%) patients with TMA, moderately reduced in 20 (28%), and strongly reduced in 37 (51%) of these 57 cases. Strongly reduced HS density was significantly associated with both hemolysis at the time of biopsy and local complement activation (C3 and/or C5b-9 deposits). Using primary endothelial cells (HUVECs, Glomerular ECs), we observed decreased HS expression after short-term exposure to heme, and that artificial HS degradation by exposure to heparinase was associated with local complement activation. Further, prolonged exposure to heme modulated expression of several key genes of glycocalyx metabolism involved in coagulation regulation (C5-EPI, HS6ST1, HS3ST1). Thus, our study highlights the impact of hemolysis on the integrity of endothelial HS, both in patients and in endothelial cell models. Hence, acute alteration of HS may be a mechanism of heme-induced complement activation.",
+    "affiliation": "University of Lille, CHU Lille, Nephrology Department, Lille, France; University of Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167-RID-AGE, Lille, France. Electronic address: tlaboux@gmail.com.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Glycocalyx",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Endothelial Cells",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Kidney Diseases",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hemolysis"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Heme",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Retrospective Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Activation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement System Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Thrombotic Microangiopathies"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Atypical Hemolytic Uremic Syndrome"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Heparan Sulfate",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Heme",
+        "Complement system",
+        "Hemolytic Uremic Syndrome",
+        "Heparan Sulfate",
+        "Glycocalyx",
+        "Thrombotic Microangiopathy"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Complement System Proteins",
+          "registryNumber": "9007-36-7"
+        },
+        {
+          "name": "Heme",
+          "registryNumber": "42VZT0U6YR"
+        },
+        {
+          "name": "Heparan Sulfate",
+          "registryNumber": "9050-30-0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0085253823003277-fx1_lrg.jpg"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.kint.2023.03.039"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 16,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2023-07-24",
+    "dateOfCreation": "2023-05-10",
+    "dateOfRevision": "2026-01-27",
+    "electronicPublicationDate": "2023-05-09",
+    "firstPublicationDate": "2023-05-09",
+    "firstIndexDate": "2023-05-11",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "31694864",
+    "source": "MED",
+    "pmid": "31694864",
+    "pmcid": "PMC6895490",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC6895490"
+      ]
+    },
+    "doi": "10.2215/cjn.05830519",
+    "title": "Complement Activation and Thrombotic Microangiopathies.",
+    "authorString": "Palomo M, Blasco M, Molina P, Lozano M, Praga M, Torramade-Moix S, Martinez-Sanchez J, Cid J, Escolar G, Carreras E, Paules C, Crispi F, Quintana LF, Poch E, Rodas L, Goma E, Morelle J, Espinosa M, Morales E, Avila A, Cabello V, Ariceta G, Chocron S, Manrique J, Barros X, Martin N, Huerta A, Fraga-Rodriguez GM, Cao M, Martin M, Romera AM, Moreso F, Manonelles A, Gratacos E, Pereira A, Campistol JM, Diaz-Ricart M.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Palomo M",
+          "lastName": "Palomo",
+          "firstName": "Marta",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Josep Carreras Leukaemia Research Institute."
+              },
+              {
+                "affiliation": "Hematopathology, Department of Pathology, Centre de Diagnostic Biomedic (CDB), Hospital Clinic de Barcelona, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Universitat de Barcelona, Barcelona, Spain."
+              },
+              {
+                "affiliation": "Barcelona Endothelium Team, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Blasco M",
+          "lastName": "Blasco",
+          "firstName": "Miquel",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-0789-7992"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology and Renal Transplantation, Hospital Clinic de Barcelona, Universitat de Barcelona, Spain."
+              },
+              {
+                "affiliation": "Group of nephro-urological diseases and renal transplantation (IDIBAPS), Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Molina P",
+          "lastName": "Molina",
+          "firstName": "Patricia",
+          "initials": "P",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Hematopathology, Department of Pathology, Centre de Diagnostic Biomedic (CDB), Hospital Clinic de Barcelona, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Universitat de Barcelona, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lozano M",
+          "lastName": "Lozano",
+          "firstName": "Miquel",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Apheresis Unit, Department of Hemotherapy and Hemostasis, Institut Clinic de Malalties Hematologiques i Oncologiques (ICMHO), IDIBAPS, Hospital Clinic de Barcelona, Universitat de Barcelona, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Praga M",
+          "lastName": "Praga",
+          "firstName": "Manuel",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Hospital Universitario 12 de Octubre and Research Institute i+12, Madrid, Spain."
+              },
+              {
+                "affiliation": "Department of Medicine, Universidad Complutense, Madrid, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Torramade-Moix S",
+          "lastName": "Torramade-Moix",
+          "firstName": "Sergi",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4409-9607"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Hematopathology, Department of Pathology, Centre de Diagnostic Biomedic (CDB), Hospital Clinic de Barcelona, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Universitat de Barcelona, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Martinez-Sanchez J",
+          "lastName": "Martinez-Sanchez",
+          "firstName": "Julia",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Josep Carreras Leukaemia Research Institute."
+              },
+              {
+                "affiliation": "Hematopathology, Department of Pathology, Centre de Diagnostic Biomedic (CDB), Hospital Clinic de Barcelona, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Universitat de Barcelona, Barcelona, Spain."
+              },
+              {
+                "affiliation": "Barcelona Endothelium Team, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Cid J",
+          "lastName": "Cid",
+          "firstName": "Joan",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5445-4508"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Apheresis Unit, Department of Hemotherapy and Hemostasis, Institut Clinic de Malalties Hematologiques i Oncologiques (ICMHO), IDIBAPS, Hospital Clinic de Barcelona, Universitat de Barcelona, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Escolar G",
+          "lastName": "Escolar",
+          "firstName": "Gines",
+          "initials": "G",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6658-0381"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Hematopathology, Department of Pathology, Centre de Diagnostic Biomedic (CDB), Hospital Clinic de Barcelona, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Universitat de Barcelona, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Carreras E",
+          "lastName": "Carreras",
+          "firstName": "Enric",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3134-9964"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Josep Carreras Leukaemia Research Institute."
+              },
+              {
+                "affiliation": "Barcelona Endothelium Team, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Paules C",
+          "lastName": "Paules",
+          "firstName": "Cristina",
+          "initials": "C",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6795-0367"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Fetal i+D Fetal Medicine Research Center, BCNatal - Barcelona Center for Maternal-Fetal and Neonatal Medicine (Hospital Clinic de Barcelona and Hospital Sant Joan de Deu), ICGON, IDIBAPS, Universitat de Barcelona and Centro de Investigaci\u00f3n Biom\u00e9dica en Red de Enfermedades Raras (CIBER-ER), Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Crispi F",
+          "lastName": "Crispi",
+          "firstName": "Fatima",
+          "initials": "F",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Fetal i+D Fetal Medicine Research Center, BCNatal - Barcelona Center for Maternal-Fetal and Neonatal Medicine (Hospital Clinic de Barcelona and Hospital Sant Joan de Deu), ICGON, IDIBAPS, Universitat de Barcelona and Centro de Investigaci\u00f3n Biom\u00e9dica en Red de Enfermedades Raras (CIBER-ER), Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Quintana LF",
+          "lastName": "Quintana",
+          "firstName": "Luis F",
+          "initials": "LF",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7582-8476"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology and Renal Transplantation, Hospital Clinic de Barcelona, Universitat de Barcelona, Spain."
+              },
+              {
+                "affiliation": "Group of nephro-urological diseases and renal transplantation (IDIBAPS), Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Poch E",
+          "lastName": "Poch",
+          "firstName": "Esteban",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6492-024X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology and Renal Transplantation, Hospital Clinic de Barcelona, Universitat de Barcelona, Spain."
+              },
+              {
+                "affiliation": "Group of nephro-urological diseases and renal transplantation (IDIBAPS), Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Rodas L",
+          "lastName": "Rodas",
+          "firstName": "Lida",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology and Renal Transplantation, Hospital Clinic de Barcelona, Universitat de Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Goma E",
+          "lastName": "Goma",
+          "firstName": "Emma",
+          "initials": "E",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology and Renal Transplantation, Hospital Clinic de Barcelona, Universitat de Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Morelle J",
+          "lastName": "Morelle",
+          "firstName": "Johann",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6925-1989"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Division of Nephrology, Cliniques universitaires Saint-Luc, Institut de Recherche Exp\u00e9rimentale et Clinique, Universit\u00e9 catholique de Louvain, Brussels, Belgium."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Espinosa M",
+          "lastName": "Espinosa",
+          "firstName": "Mario",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Hospital Universitario Reina Sof\u00eda e Instituto Maimonides de Investigaciones Biol\u00f3gicas de C\u00f3rdoba (IMIBIC), C\u00f3rdoba, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Morales E",
+          "lastName": "Morales",
+          "firstName": "Enrique",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-5824-6973"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Hospital Universitario 12 de Octubre and Research Institute i+12, Madrid, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Avila A",
+          "lastName": "Avila",
+          "firstName": "Ana",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology and Renal Transplantation, Hospital Universitario Dr Peset, Valencia, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Cabello V",
+          "lastName": "Cabello",
+          "firstName": "Virginia",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Hospital Virgen del Rocio, Sevilla, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ariceta G",
+          "lastName": "Ariceta",
+          "firstName": "Gema",
+          "initials": "G",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-1763-1098"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pediatric Nephrology, Hospital Materno-Infantil, Vall d'Hebron, Universitat Autonoma de Barcelona, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Chocron S",
+          "lastName": "Chocron",
+          "firstName": "Sara",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pediatric Nephrology, Hospital Materno-Infantil, Vall d'Hebron, Universitat Autonoma de Barcelona, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Manrique J",
+          "lastName": "Manrique",
+          "firstName": "Joaquin",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7713-1629"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Complejo Hospitalario de Navarra, Pamplona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Barros X",
+          "lastName": "Barros",
+          "firstName": "Xoana",
+          "initials": "X",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9690-9769"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Hospital Universitari Josep Trueta, Girona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Martin N",
+          "lastName": "Martin",
+          "firstName": "Nadia",
+          "initials": "N",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Hospital Universitari Josep Trueta, Girona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Huerta A",
+          "lastName": "Huerta",
+          "firstName": "Ana",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3342-7628"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Hospital Puerta de Hierro Majadahonda, Madrid, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Fraga-Rodriguez GM",
+          "lastName": "Fraga-Rodriguez",
+          "firstName": "Gloria M",
+          "initials": "GM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pediatric Nephrology, Hospital de la Santa Creu i Sant Pau, Universitat Autonoma de Barcelona, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Cao M",
+          "lastName": "Cao",
+          "firstName": "Mercedes",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8389-1800"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Complejo Hospitalario Universitario A Coru\u00f1a, Coru\u00f1a, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Martin M",
+          "lastName": "Martin",
+          "firstName": "Marisa",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Hospital Universitari Arnau de Vilanova, Lleida, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Romera AM",
+          "lastName": "Romera",
+          "firstName": "Ana Maria",
+          "initials": "AM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Hospital General Universitario, Ciudad Real, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Moreso F",
+          "lastName": "Moreso",
+          "firstName": "Francesc",
+          "initials": "F",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7267-3963"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology, Hospital Universitari Vall d'Hebron, Universitat Autonoma Barcelona, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Manonelles A",
+          "lastName": "Manonelles",
+          "firstName": "Anna",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Kidney Transplant Unit, Department of Nephrology, Hospital de Bellvitge, Universitat de Barcelona, Barcelona, Spain; and."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Gratacos E",
+          "lastName": "Gratacos",
+          "firstName": "Eduard",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7405-7224"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Fetal i+D Fetal Medicine Research Center, BCNatal - Barcelona Center for Maternal-Fetal and Neonatal Medicine (Hospital Clinic de Barcelona and Hospital Sant Joan de Deu), ICGON, IDIBAPS, Universitat de Barcelona and Centro de Investigaci\u00f3n Biom\u00e9dica en Red de Enfermedades Raras (CIBER-ER), Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Pereira A",
+          "lastName": "Pereira",
+          "firstName": "Arturo",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CDB, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Campistol JM",
+          "lastName": "Campistol",
+          "firstName": "Josep M",
+          "initials": "JM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nephrology and Renal Transplantation, Hospital Clinic de Barcelona, Universitat de Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Diaz-Ricart M",
+          "lastName": "Diaz-Ricart",
+          "firstName": "Maribel",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Hematopathology, Department of Pathology, Centre de Diagnostic Biomedic (CDB), Hospital Clinic de Barcelona, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Universitat de Barcelona, Barcelona, Spain."
+              },
+              {
+                "affiliation": "Barcelona Endothelium Team, Barcelona, Spain."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5445-4508"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6244-0253"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6795-0367"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7582-8476"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9690-9769"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9885-1847"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-3134-9964"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-5824-6973"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6492-024X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6658-0381"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6925-1989"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7267-3963"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7405-7224"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7713-1629"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8389-1800"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-0789-7992"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-1763-1098"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2456-388X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3342-7628"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-4409-9607"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "12",
+      "volume": "14",
+      "journalIssueId": 2889923,
+      "dateOfPublication": "2019 Dec",
+      "monthOfPublication": 12,
+      "yearOfPublication": 2019,
+      "journal": {
+        "medlineAbbreviation": "Clin J Am Soc Nephrol",
+        "title": "Clinical journal of the American Society of Nephrology : CJASN",
+        "essn": "1555-905X",
+        "issn": "1555-9041",
+        "isoabbreviation": "Clin J Am Soc Nephrol",
+        "nlmid": "101271570"
+      },
+      "printPublicationDate": "2019-12-01"
+    },
+    "pubYear": "2019",
+    "pageInfo": "1719-1732",
+    "abstractText": "<h4>Background and objectives</h4>Atypical hemolytic uremic syndrome is a form of thrombotic microangiopathy caused by dysregulation of the alternative complement pathway. There is evidence showing complement activation in other thrombotic microangiopathies. The aim of this study was to evaluate complement activation in different thrombotic microangiopathies and to monitor treatment response.<h4>Design, setting, participants, & measurements</h4>Complement activation was assessed by exposing endothelial cells to sera or activated-patient plasma-citrated plasma mixed with a control sera pool (1:1)-to analyze C5b-9 deposits by immunofluorescence. Patients with atypical hemolytic uremic syndrome (<i>n</i>=34) at different stages of the disease, HELLP syndrome (a pregnancy complication characterized by hemolysis, elevated liver enzymes, and low platelet count) or severe preeclampsia (<i>n</i>=10), and malignant hypertension (<i>n</i>=5) were included.<h4>Results</h4>Acute phase atypical hemolytic uremic syndrome-activated plasma induced an increased C5b-9 deposition on endothelial cells. Standard and lower doses of eculizumab inhibited C5b-9 deposition in all patients with atypical hemolytic uremic syndrome, except in two who showed partial remission and clinical relapse. Significant fibrin formation was observed together with C5b-9 deposition. Results obtained using activated-plasma samples were more marked and reproducible than those obtained with sera. C5b-9 deposition was also increased with samples from patients with HELLP (all cases) and preeclampsia (90%) at disease onset. This increase was sustained in those with HELLP after 40 days, and levels normalized in patients with both HELLP and preeclampsia after 6-9 months. Complement activation in those with malignant hypertension was at control levels.<h4>Conclusions</h4>The proposed methodology identifies complement overactivation in patients with atypical hemolytic uremic syndrome at acute phase and in other diseases such as HELLP syndrome and preeclampsia. Moreover, it is sensitive enough to individually assess the efficiency of the C5 inhibition treatment.",
+    "affiliation": "Josep Carreras Leukaemia Research Institute.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Fondo de Investigaci\u00f3n en Salud",
+          "grantId": "PI19/00888",
+          "orderIn": 0
+        },
+        {
+          "agency": "Instituto de Salud Carlos III",
+          "orderIn": 0
+        },
+        {
+          "agency": "Generalitat de Catalunya",
+          "grantId": "2017-SGR671",
+          "orderIn": 0
+        },
+        {
+          "agency": "FEDER",
+          "orderIn": 0
+        },
+        {
+          "agency": "ISCIII",
+          "grantId": "CM16/00142",
+          "orderIn": 0
+        },
+        {
+          "agency": "German Jose Carreras Leukaemia Foundation",
+          "grantId": "DJCLS 03R/2019",
+          "orderIn": 0
+        },
+        {
+          "agency": "Fondo Europeo de Desarrollo Regional [FEDER]",
+          "orderIn": 0
+        },
+        {
+          "agency": "Fundaci\u00f3 Dexeus Mujer",
+          "orderIn": 0
+        },
+        {
+          "agency": "[ISCIII]-RETIC",
+          "orderIn": 0
+        },
+        {
+          "agency": "FEDER",
+          "grantId": "PI13/02502",
+          "orderIn": 0
+        },
+        {
+          "agency": "Cerebra Foundation for the Brain Injured Child",
+          "orderIn": 0
+        },
+        {
+          "agency": "ISCIII",
+          "orderIn": 0
+        },
+        {
+          "agency": "Jazz Pharmaceuticals",
+          "grantId": "IST-16-10355",
+          "orderIn": 0
+        },
+        {
+          "agency": "FEDER",
+          "grantId": "PICI14/00350",
+          "orderIn": 0
+        },
+        {
+          "agency": "L\u2019Ag\u00e8ncia de Gesti\u00f3 d\u2019Ajuts Universitaris i de Recerca",
+          "grantId": "1531",
+          "orderIn": 0
+        },
+        {
+          "agency": "Autonomous Region of Madrid",
+          "grantId": "S2017/BMD-3673",
+          "orderIn": 0
+        },
+        {
+          "agency": "Spanish Kidney Research Network",
+          "orderIn": 0
+        },
+        {
+          "agency": "German Jose Carreras Leukaemia Foundation",
+          "grantId": "DJCLS 11R/2016",
+          "orderIn": 0
+        },
+        {
+          "agency": "Technology Development Projects in Health 2016",
+          "grantId": "DTS16/00133",
+          "orderIn": 0
+        },
+        {
+          "agency": "FEDER",
+          "grantId": "PI16/01685",
+          "orderIn": 0
+        },
+        {
+          "agency": "RedInRen",
+          "grantId": "RD12/0021/0029",
+          "orderIn": 0
+        },
+        {
+          "agency": "Centres de Recerca de Catalunya Programme of the Generalitat de Catalunya",
+          "orderIn": 0
+        },
+        {
+          "agency": "Fundaci\u00f3 Miarnau",
+          "orderIn": 0
+        },
+        {
+          "agency": "\u201cLa Caixa\u201d Foundation",
+          "grantId": "LCF/PR/GN14/10270005",
+          "orderIn": 0
+        },
+        {
+          "agency": "Integrated Project in Health Institutes",
+          "grantId": "PIE15/00027",
+          "orderIn": 0
+        },
+        {
+          "agency": "Red de Investigaci\u00f3n Renal [REDinREN]",
+          "grantId": "RD16/0009/0023",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "HELLP Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Pre-Eclampsia",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Membrane Attack Complex",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Complement Activation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Pregnancy"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Thrombotic Microangiopathies",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Antibodies, Monoclonal, Humanized",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Atypical Hemolytic Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Antibodies",
+        "Female",
+        "Pregnancy",
+        "Hypertension",
+        "Fibrin",
+        "Monoclonal",
+        "Pre-eclampsia",
+        "fluorescent antibody technique",
+        "Malignant",
+        "Complement activation",
+        "Recurrence",
+        "alternative",
+        "Endothelial Cells",
+        "Humans",
+        "Humanized",
+        "Atypical Hemolytic Uremic Syndrome",
+        "Hellp Syndrome",
+        "Eculizumab",
+        "Thrombotic Microangiopathies",
+        "Complement System Proteins",
+        "Complement C9",
+        "Complement Pathway",
+        "Complement Membrane"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Complement Membrane Attack Complex",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Antibodies, Monoclonal, Humanized",
+          "registryNumber": "0"
+        },
+        {
+          "name": "eculizumab",
+          "registryNumber": "A3ULP0F556"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.2215/CJN.05830519"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC6895490"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC6895490?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.2215/cjn.05830519"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "31811084",
+          "reference": "Clin J Am Soc Nephrol. 2019 Dec 6;14(12):1682-1683. doi: 10.2215/CJN.12111019",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 76,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2020-12-01",
+    "dateOfCreation": "2019-11-08",
+    "dateOfRevision": "2023-04-21",
+    "electronicPublicationDate": "2019-11-06",
+    "firstPublicationDate": "2019-11-06",
+    "firstIndexDate": "2019-11-08",
+    "fullTextReceivedDate": "2025-02-03",
+    "embargoDate": "2020-12-06",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "23116127",
+    "source": "MED",
+    "pmid": "23116127",
+    "pmcid": "PMC3758746",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC3758746"
+      ]
+    },
+    "doi": "10.1111/bjh.12112",
+    "title": "Complement activation in thrombotic microangiopathies.",
+    "authorString": "Feng S, Kroll MH, Nolasco L, Moake J, Afshar-Kharghan V.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Feng S",
+          "lastName": "Feng",
+          "firstName": "Shuju",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Section of Benign Hematology, Division of Internal Medicine, University of Texas M.D. Anderson Cancer Center, Houston, TX 77030, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kroll MH",
+          "lastName": "Kroll",
+          "firstName": "Michael H",
+          "initials": "MH"
+        },
+        {
+          "fullName": "Nolasco L",
+          "lastName": "Nolasco",
+          "firstName": "Leticia",
+          "initials": "L"
+        },
+        {
+          "fullName": "Moake J",
+          "lastName": "Moake",
+          "firstName": "Joel",
+          "initials": "J"
+        },
+        {
+          "fullName": "Afshar-Kharghan V",
+          "lastName": "Afshar-Kharghan",
+          "firstName": "Vahid",
+          "initials": "V"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "3",
+      "volume": "160",
+      "journalIssueId": 2002266,
+      "dateOfPublication": "2013 Feb",
+      "monthOfPublication": 2,
+      "yearOfPublication": 2013,
+      "journal": {
+        "medlineAbbreviation": "Br J Haematol",
+        "title": "British journal of haematology",
+        "essn": "1365-2141",
+        "issn": "0007-1048",
+        "isoabbreviation": "Br J Haematol",
+        "nlmid": "0372544"
+      },
+      "printPublicationDate": "2013-02-01"
+    },
+    "pubYear": "2013",
+    "pageInfo": "404-406",
+    "affiliation": "Section of Benign Hematology, Division of Internal Medicine, University of Texas M.D. Anderson Cancer Center, Houston, TX 77030, USA.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Letter",
+        "research-article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NIAID NIH HHS",
+          "acronym": "AI",
+          "grantId": "R21 AI101932",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Activation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement System Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "ADAM Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Thrombotic Microangiopathies",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "ADAMTS13 Protein"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Complement System Proteins",
+          "registryNumber": "9007-36-7"
+        },
+        {
+          "name": "ADAM Proteins",
+          "registryNumber": "EC 3.4.24.-"
+        },
+        {
+          "name": "ADAMTS13 Protein",
+          "registryNumber": "EC 3.4.24.87"
+        },
+        {
+          "name": "ADAMTS13 protein, human",
+          "registryNumber": "EC 3.4.24.87"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1111/bjh.12112"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3758746"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3758746?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1111/bjh.12112"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 17,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "Y",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "Y",
+    "manuscriptId": "NIHMS496650",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2013-06-14",
+    "dateOfCreation": "2012-11-03",
+    "dateOfRevision": "2021-10-21",
+    "electronicPublicationDate": "2012-11-01",
+    "firstPublicationDate": "2012-11-01",
+    "firstIndexDate": "2012-11-03",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "23555663",
+    "source": "MED",
+    "pmid": "23555663",
+    "pmcid": "PMC3612042",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC3612042"
+      ]
+    },
+    "doi": "10.1371/journal.pone.0059372",
+    "title": "Assembly and activation of alternative complement components on endothelial cell-anchored ultra-large von Willebrand factor links complement and hemostasis-thrombosis.",
+    "authorString": "Turner NA, Moake J.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Turner NA",
+          "lastName": "Turner",
+          "firstName": "Nancy A",
+          "initials": "NA",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Bioengineering, Rice University, Houston, TX, USA. nturner@rice.edu"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Moake J",
+          "lastName": "Moake",
+          "firstName": "Joel",
+          "initials": "J"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "3",
+      "volume": "8",
+      "journalIssueId": 2017374,
+      "dateOfPublication": "2013 ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 2013,
+      "journal": {
+        "medlineAbbreviation": "PLoS One",
+        "title": "PloS one",
+        "essn": "1932-6203",
+        "issn": "1932-6203",
+        "isoabbreviation": "PLoS One",
+        "nlmid": "101285081"
+      },
+      "printPublicationDate": "2013-01-01"
+    },
+    "pubYear": "2013",
+    "pageInfo": "e59372",
+    "abstractText": "<h4>Background</h4>Vascular endothelial cells (ECs) express and release protein components of the complement pathways, as well as secreting and anchoring ultra-large von Willebrand factor (ULVWF) multimers in long string-like structures that initiate platelet adhesion during hemostasis and thrombosis. The alternative complement pathway (AP) is an important non-antibody-requiring host defense system. Thrombotic microangiopathies can be associated with defective regulation of the AP (atypical hemolytic-uremic syndrome) or with inadequate cleavage by ADAMTS-13 of ULVWF multimeric strings secreted by/anchored to ECs (thrombotic thrombocytopenic purpura). Our goal was to determine if EC-anchored ULVWF strings caused the assembly and activation of AP components, thereby linking two essential defense mechanisms.<h4>Methodology/principal findings</h4>We quantified gene expression of these complement components in cultured human umbilical vein endothelial cells (HUVECs) by real-time PCR: C3 and C5; complement factor (CF) B, CFD, CFP, CFH and CFI of the AP; and C4 of the classical and lectin (but not alternative) complement pathways. We used fluorescent microscopy, monospecific antibodies against complement components, fluorescent secondary antibodies, and the analysis of >150 images to quantify the attachment of HUVEC-released complement proteins to ULVWF strings secreted by, and anchored to, the HUVECs (under conditions of ADAMTS-13 inhibition). We found that HUVEC-released C4 did not attach to ULVWF strings, ruling out activation of the classical and lectin pathways by the strings. In contrast, C3, FB, FD, FP and C5, FH and FI attached to ULVWF strings in quantitative patterns consistent with assembly of the AP components into active complexes. This was verified when non-functional FB blocked the formation of AP C3 convertase complexes (C3bBb) on ULVWF strings.<h4>Conclusions/significance</h4>AP components are assembled and activated on EC-secreted/anchored ULVWF multimeric strings. Our findings provide one possible molecular mechanism for clinical linkage between different types of thrombotic and complement-mediated disorders.",
+    "affiliation": "Department of Bioengineering, Rice University, Houston, TX, USA. nturner@rice.edu",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cells, Cultured"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Thrombosis",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PA",
+                "qualifierName": "pathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "von Willebrand Factor",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Complement Pathway, Alternative"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Pathway, Classical"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Pathway, Mannose-Binding Lectin"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Gene Expression"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Protein Binding"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hemostasis",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement System Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "ADAM Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AI",
+                "qualifierName": "antagonists & inhibitors"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hot Temperature"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Protein Multimerization"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Human Umbilical Vein Endothelial Cells",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CY",
+                "qualifierName": "cytology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "ADAMTS13 Protein"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "von Willebrand Factor",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Complement System Proteins",
+          "registryNumber": "9007-36-7"
+        },
+        {
+          "name": "ADAM Proteins",
+          "registryNumber": "EC 3.4.24.-"
+        },
+        {
+          "name": "ADAMTS13 Protein",
+          "registryNumber": "EC 3.4.24.87"
+        },
+        {
+          "name": "ADAMTS13 protein, human",
+          "registryNumber": "EC 3.4.24.87"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0059372&type=printable"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1371/journal.pone.0059372"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3612042"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3612042?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 91,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2013-09-24",
+    "dateOfCreation": "2013-04-05",
+    "dateOfRevision": "2021-10-21",
+    "electronicPublicationDate": "2013-03-29",
+    "firstPublicationDate": "2013-03-29",
+    "firstIndexDate": "2013-04-05",
+    "fullTextReceivedDate": "2025-02-02",
+    "hasEvaluations": "N"
+  }
+]

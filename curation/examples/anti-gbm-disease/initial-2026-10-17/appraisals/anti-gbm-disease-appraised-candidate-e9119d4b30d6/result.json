@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "anti-gbm-disease-candidate-20261017-01",
+  "baseContentDigest": "73a380a953edac8314eb3c4d571f677b73a8b78849fff42cad32b4dbc9359cab",
+  "candidateId": "anti-gbm-disease-appraised-candidate-e9119d4b30d6",
+  "contentDigest": "1c65f23e248a5e596e7362e4a93e832eec8dda1c9d7a3795b39c84af7d1ec87b",
+  "inputDigest": "e9119d4b30d6ff2fa2d8010e75798209178c3cfcc4fef3b246df10973fda1863",
+  "assessmentCount": 33,
+  "weightCount": 33,
+  "confidenceCount": 33,
+  "therapyCoverageCount": 33,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

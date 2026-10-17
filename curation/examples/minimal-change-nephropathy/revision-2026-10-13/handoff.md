@@ -37,3 +37,11 @@ New entity: `entity-il13`. Review issues addressed: anti-nephrin omission, the p
 - `validate-release.mjs` on all four new snapshots: valid.
 - `pnpm validate`: 30 candidates valid. `pnpm check`: 0 errors/warnings/hints. `pnpm build`: 57 pages. `npx pnpm@10.24.0 test`: 98/98 pass (bare `pnpm test` fails here with spawn ENOEXEC, an environment issue).
 - Built disease page contains the new summary text. No browser suites run (data-only change).
+
+## Follow-up: map views (2026-10-13 UTC)
+
+- `minimal-change-nephropathy-candidate-ea826765a33b`: view-only full-candidate edit (`stage-views.mjs`, proposal `proposal-a72f0cce6e3c2a0d0d53eb4c`). The default view is a two-row human-evidence layout (immune findings → anti-nephrin hub → nephrin/podocytes on top; nephrotic-syndrome hub with CD4, IL-8, effacement and proteinuria below). The experimental view is relabelled and laid out without edges crossing nodes. The redundant research view is removed. No scientific records changed.
+- **`minimal-change-nephropathy-summary-candidate-08ba4223dd93`**: the same agent-authored summary reattached (`summary-input-views.json`), now the selected preview. Packet: `summary-reviews/58845de7957419c2b73bf7fb364a73f8ad1e6bd16f1460461be55c34513aa326/`.
+- External review receipt imported: `knowledge/diseases/minimal-change-nephropathy/summary-reviews/summary-feedback-f87530e6b761fc2fec51ccc3.json` (bound to summary-candidate-22a34a3088c7).
+- Checks: validate (33 candidates), check (0 errors/warnings), build, 98/98 tests; both views verified in a headless browser.
+- The dev server "not rendered" symptom was a stale Vite dependency cache (`504 Outdated Optimize Dep`). Running build/tests, which spawn `astro build` in `web/`, while `astro dev` runs invalidates it; restart dev with `--force`.

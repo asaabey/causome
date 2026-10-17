@@ -1,0 +1,2731 @@
+{
+  "id": "primary-fsgs-candidate-contexts-002",
+  "revisionId": "primary-fsgs-candidate-contexts-002-r1",
+  "formatVersion": "0.3.0",
+  "diseaseId": "primary-fsgs",
+  "title": "Primary FSGS with APOL1 branch",
+  "status": "candidate",
+  "illustrative": false,
+  "diseaseDescription": "Bounded circulating-factor/immune primary FSGS and separate APOL1-associated kidney injury branch; excludes other genetic, adaptive, viral and drug-associated FSGS. APOL1-associated disease is not classified as idiopathic primary FSGS. Selected mechanistic and intervention reports; not comprehensive literature or treatment coverage.",
+  "diseaseAliases": [
+    "FSGS",
+    "primary focal segmental glomerulosclerosis",
+    "circulating-factor FSGS",
+    "APOL1-mediated kidney disease",
+    "AMKD"
+  ],
+  "parentReleaseId": null,
+  "parentContentDigest": null,
+  "createdAt": "2026-10-17T00:00:00.000Z",
+  "evidenceCutoff": "2026-10-17",
+  "changeSetRevision": "fsgs-study-contexts-v1",
+  "releaseNote": "Separate study-context views for primary FSGS serum activity, human anti-nephrin findings, experimental immune injury, APOL1 ion transport, transgenic injury, inaxaplin trial and DUPLEX. No universal causal circuit or comprehensive therapy catalogue. Source checks are agent abstract inspections; independent scientific review pending.",
+  "entities": [
+    {
+      "id": "entity-circulating-factors",
+      "label": "Candidate circulating permeability factors",
+      "entityClass": "process",
+      "description": "Operational serum permeability activity in selected recurrent FSGS; no universal molecular factor identified.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-circulating-factors-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-serum-permeability",
+        "claim-fsgs-factor-recurrence"
+      ]
+    },
+    {
+      "id": "entity-permeability",
+      "label": "Glomerular albumin permeability",
+      "entityClass": "process",
+      "description": "Albumin permeability in an isolated-glomerulus assay; distinct from clinical proteinuria.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-permeability-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-serum-permeability"
+      ]
+    },
+    {
+      "id": "entity-recurrence",
+      "label": "Post-transplant FSGS recurrence",
+      "entityClass": "clinical_outcome",
+      "description": "Recurrent primary FSGS in selected transplant cohorts.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-recurrence-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-factor-recurrence"
+      ]
+    },
+    {
+      "id": "entity-anti-nephrin",
+      "label": "Anti-nephrin autoantibodies",
+      "entityClass": "antibody",
+      "description": "Nephrin-reactive serum antibodies reported in subsets; assay specificity and disease enrichment remain contested.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-anti-nephrin-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-nephrin-fsgs",
+        "claim-fsgs-nephrin-binding",
+        "claim-fsgs-nephrin-china"
+      ]
+    },
+    {
+      "id": "entity-nephrin",
+      "label": "Nephrin",
+      "entityClass": "protein",
+      "description": "Slit-diaphragm protein tested as an autoantigen; no NPHS1 monogenic disease branch.",
+      "synonyms": [
+        "NPHS1"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-nephrin-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-nephrin-binding"
+      ]
+    },
+    {
+      "id": "entity-primary-fsgs",
+      "label": "Primary FSGS phenotype",
+      "entityClass": "clinical_outcome",
+      "description": "Biopsy-defined primary FSGS in cited human cohorts, distinguished from APOL1-associated disease.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-primary-fsgs-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-nephrin-fsgs",
+        "claim-fsgs-nephrin-china"
+      ]
+    },
+    {
+      "id": "entity-supar",
+      "label": "Soluble urokinase plasminogen activator receptor",
+      "entityClass": "protein",
+      "description": "Candidate circulating factor studied in podocyte assays; serum measurements lack consistent diagnostic specificity.",
+      "synonyms": [
+        "suPAR"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-supar-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-supar-culture"
+      ]
+    },
+    {
+      "id": "entity-anti-cd40",
+      "label": "Anti-CD40 autoantibodies",
+      "entityClass": "antibody",
+      "description": "Patient-derived antibodies tested in cultured human podocyte injury assays.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-anti-cd40-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-cd40-culture"
+      ]
+    },
+    {
+      "id": "entity-podocyte",
+      "label": "Podocytes",
+      "entityClass": "cell",
+      "description": "Glomerular epithelial cells studied in human cultures and experimental animal models; individual evidence specifies the system.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-podocyte-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-supar-culture",
+        "claim-fsgs-cd40-culture",
+        "claim-fsgs-current-injury"
+      ]
+    },
+    {
+      "id": "entity-podocyte-loss",
+      "label": "Podocyte depletion",
+      "entityClass": "process",
+      "description": "Experimentally induced podocyte loss in toxin-receptor transgenic rats; model of a final injury pathway.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-podocyte-loss-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-loss-sclerosis",
+        "claim-fsgs-loss-protein"
+      ]
+    },
+    {
+      "id": "entity-sclerosis",
+      "label": "Segmental glomerulosclerosis",
+      "entityClass": "process",
+      "description": "Segmental glomerular scarring; a histologic injury pattern with heterogeneous causes.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-sclerosis-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-loss-sclerosis"
+      ]
+    },
+    {
+      "id": "entity-proteinuria",
+      "label": "Proteinuria",
+      "entityClass": "clinical_outcome",
+      "description": "Urinary protein excretion; a surrogate distinct from kidney-function preservation.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-proteinuria-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-inax-protein",
+        "claim-fsgs-loss-protein",
+        "claim-fsgs-spar-protein"
+      ]
+    },
+    {
+      "id": "entity-ifng",
+      "label": "Interferon gamma",
+      "entityClass": "cytokine",
+      "description": "Type II interferon used to induce endogenous APOL1-associated currents in primary human podocytes.",
+      "synonyms": [
+        "IFN-γ"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-ifng-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-ifng-current"
+      ]
+    },
+    {
+      "id": "entity-apol1",
+      "label": "APOL1 risk-variant protein",
+      "entityClass": "protein",
+      "description": "APOL1 G1/G2 branch; a genetic susceptibility route separate from idiopathic primary FSGS.",
+      "synonyms": [
+        "APOL1",
+        "G1",
+        "G2"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-apol1-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-apol1-current"
+      ]
+    },
+    {
+      "id": "entity-apol1-current",
+      "label": "APOL1-mediated cation transport",
+      "entityClass": "process",
+      "description": "APOL1-associated monovalent ion flux measured in cultured cells and transgenic models.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-apol1-current-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-ifng-current",
+        "claim-fsgs-apol1-current",
+        "claim-fsgs-current-injury",
+        "claim-fsgs-inax-channel"
+      ]
+    },
+    {
+      "id": "entity-inaxaplin",
+      "label": "Inaxaplin",
+      "entityClass": "metabolite",
+      "description": "Small-molecule APOL1 channel inhibitor examined in preclinical experiments and a phase 2a uncontrolled trial.",
+      "synonyms": [
+        "VX-147"
+      ],
+      "externalIds": [],
+      "revisionId": "entity-inaxaplin-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-inax-channel",
+        "claim-fsgs-inax-protein"
+      ]
+    },
+    {
+      "id": "entity-sparsentan",
+      "label": "Sparsentan",
+      "entityClass": "metabolite",
+      "description": "Dual endothelin/angiotensin receptor antagonist evaluated in DUPLEX; current US indication is phenotype restricted.",
+      "synonyms": [],
+      "externalIds": [],
+      "revisionId": "entity-sparsentan-97cb3d816b7b",
+      "status": "candidate",
+      "biologicalRoleClaimIds": [
+        "claim-fsgs-spar-protein"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-1a3e61aff8e3053914b5",
+      "revisionId": "relationship-1a3e61aff8e3053914b5-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-circulating-factors",
+      "targetId": "entity-permeability",
+      "predicate": "stimulates",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-fsgs-serum",
+      "assessmentId": "assessment-relationship-1a3e61aff8e3053914b5-context-fsgs-serum",
+      "supportingClaimIds": [
+        "claim-fsgs-serum-permeability"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-ea64396298efdb8e239d",
+      "revisionId": "relationship-ea64396298efdb8e239d-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-circulating-factors",
+      "targetId": "entity-recurrence",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-fsgs-serum",
+      "assessmentId": "assessment-relationship-ea64396298efdb8e239d-context-fsgs-serum",
+      "supportingClaimIds": [
+        "claim-fsgs-factor-recurrence"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-029763e8ca9d296509c0",
+      "revisionId": "relationship-029763e8ca9d296509c0-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-anti-nephrin",
+      "targetId": "entity-primary-fsgs",
+      "predicate": "is_associated_with",
+      "directionality": "symmetric",
+      "polarity": "not_applicable",
+      "contextId": "context-fsgs-nephrin",
+      "assessmentId": "assessment-relationship-029763e8ca9d296509c0-context-fsgs-nephrin",
+      "supportingClaimIds": [
+        "claim-fsgs-nephrin-fsgs",
+        "claim-fsgs-nephrin-china"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [
+        "claim-fsgs-nephrin-null"
+      ]
+    },
+    {
+      "id": "relationship-367f46251c1b33ef6fc0",
+      "revisionId": "relationship-367f46251c1b33ef6fc0-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-anti-nephrin",
+      "targetId": "entity-nephrin",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-fsgs-immune",
+      "assessmentId": "assessment-relationship-367f46251c1b33ef6fc0-context-fsgs-immune",
+      "supportingClaimIds": [
+        "claim-fsgs-nephrin-binding"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-b1af482acb61b56caeb7",
+      "revisionId": "relationship-b1af482acb61b56caeb7-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-supar",
+      "targetId": "entity-podocyte",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-fsgs-immune",
+      "assessmentId": "assessment-relationship-b1af482acb61b56caeb7-context-fsgs-immune",
+      "supportingClaimIds": [
+        "claim-fsgs-supar-culture"
+      ],
+      "qualifyingClaimIds": [
+        "claim-fsgs-supar-null"
+      ],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-38b4fa49eb332e9c826b",
+      "revisionId": "relationship-38b4fa49eb332e9c826b-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-anti-cd40",
+      "targetId": "entity-podocyte",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-fsgs-immune",
+      "assessmentId": "assessment-relationship-38b4fa49eb332e9c826b-context-fsgs-immune",
+      "supportingClaimIds": [
+        "claim-fsgs-cd40-culture"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-0e9321f835184558aa9e",
+      "revisionId": "relationship-0e9321f835184558aa9e-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-ifng",
+      "targetId": "entity-apol1-current",
+      "predicate": "stimulates",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-fsgs-apol1",
+      "assessmentId": "assessment-relationship-0e9321f835184558aa9e-context-fsgs-apol1",
+      "supportingClaimIds": [
+        "claim-fsgs-ifng-current"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-bb16135e51e6f1db2f33",
+      "revisionId": "relationship-bb16135e51e6f1db2f33-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-apol1",
+      "targetId": "entity-apol1-current",
+      "predicate": "stimulates",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-fsgs-apol1",
+      "assessmentId": "assessment-relationship-bb16135e51e6f1db2f33-context-fsgs-apol1",
+      "supportingClaimIds": [
+        "claim-fsgs-apol1-current"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-9f3504245c3b9c143d5f",
+      "revisionId": "relationship-9f3504245c3b9c143d5f-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-apol1-current",
+      "targetId": "entity-podocyte",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-fsgs-apol1-mouse",
+      "assessmentId": "assessment-relationship-9f3504245c3b9c143d5f-context-fsgs-apol1-mouse",
+      "supportingClaimIds": [
+        "claim-fsgs-current-injury"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-8a1859506435bf1da432",
+      "revisionId": "relationship-8a1859506435bf1da432-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-inaxaplin",
+      "targetId": "entity-apol1-current",
+      "predicate": "inhibits",
+      "directionality": "directed",
+      "polarity": "negative",
+      "contextId": "context-fsgs-apol1",
+      "assessmentId": "assessment-relationship-8a1859506435bf1da432-context-fsgs-apol1",
+      "supportingClaimIds": [
+        "claim-fsgs-inax-channel"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-070b712102af86d1293b",
+      "revisionId": "relationship-070b712102af86d1293b-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-inaxaplin",
+      "targetId": "entity-proteinuria",
+      "predicate": "inhibits",
+      "directionality": "directed",
+      "polarity": "negative",
+      "contextId": "context-fsgs-inaxaplin",
+      "assessmentId": "assessment-relationship-070b712102af86d1293b-context-fsgs-inaxaplin",
+      "supportingClaimIds": [
+        "claim-fsgs-inax-protein"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-d14874070dfe3579d915",
+      "revisionId": "relationship-d14874070dfe3579d915-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-podocyte-loss",
+      "targetId": "entity-sclerosis",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-fsgs-depletion",
+      "assessmentId": "assessment-relationship-d14874070dfe3579d915-context-fsgs-depletion",
+      "supportingClaimIds": [
+        "claim-fsgs-loss-sclerosis"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-3ba90d1fbad207411a61",
+      "revisionId": "relationship-3ba90d1fbad207411a61-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-podocyte-loss",
+      "targetId": "entity-proteinuria",
+      "predicate": "contributes_to",
+      "directionality": "directed",
+      "polarity": "positive",
+      "contextId": "context-fsgs-depletion",
+      "assessmentId": "assessment-relationship-3ba90d1fbad207411a61-context-fsgs-depletion",
+      "supportingClaimIds": [
+        "claim-fsgs-loss-protein"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": []
+    },
+    {
+      "id": "relationship-dac6260ed6e9cb982099",
+      "revisionId": "relationship-dac6260ed6e9cb982099-contexts-v1",
+      "status": "candidate",
+      "sourceId": "entity-sparsentan",
+      "targetId": "entity-proteinuria",
+      "predicate": "inhibits",
+      "directionality": "directed",
+      "polarity": "negative",
+      "contextId": "context-fsgs-duplex",
+      "assessmentId": "assessment-relationship-dac6260ed6e9cb982099-context-fsgs-duplex",
+      "supportingClaimIds": [
+        "claim-fsgs-spar-protein"
+      ],
+      "qualifyingClaimIds": [
+        "claim-fsgs-spar-egfr"
+      ],
+      "contradictingClaimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-fsgs-serum-permeability",
+      "revisionId": "claim-fsgs-serum-permeability-contexts-v1",
+      "status": "candidate",
+      "text": "Serum from recurrent FSGS patients increased albumin permeability in an isolated-glomerulus assay.",
+      "subjectId": "entity-circulating-factors",
+      "objectId": "entity-permeability",
+      "predicate": "stimulates",
+      "contextId": "context-fsgs-serum",
+      "evidenceItemIds": [
+        "evidence-fsgs-serum-permeability"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Ex vivo assay does not identify the factor, prove clinical causation, or apply to all primary FSGS."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-factor-recurrence",
+      "revisionId": "claim-fsgs-factor-recurrence-contexts-v1",
+      "status": "candidate",
+      "text": "Circulating permeability activity was associated with FSGS recurrence after transplantation.",
+      "subjectId": "entity-circulating-factors",
+      "objectId": "entity-recurrence",
+      "predicate": "is_associated_with",
+      "contextId": "context-fsgs-serum",
+      "evidenceItemIds": [
+        "evidence-fsgs-factor-recurrence"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-nephrin-fsgs",
+      "revisionId": "claim-fsgs-nephrin-fsgs-contexts-v1",
+      "status": "candidate",
+      "text": "Anti-nephrin antibodies were detected in 7 of 74 adults (9%) with primary FSGS in the multicenter study.",
+      "subjectId": "entity-anti-nephrin",
+      "objectId": "entity-primary-fsgs",
+      "predicate": "is_associated_with",
+      "contextId": "context-fsgs-nephrin",
+      "evidenceItemIds": [
+        "evidence-fsgs-nephrin-fsgs"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Minority subgroup; activity correlations and experimental MCD-like findings cannot be assigned to all FSGS."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-nephrin-binding",
+      "revisionId": "claim-fsgs-nephrin-binding-contexts-v1",
+      "status": "candidate",
+      "text": "Nephrin-directed antibodies localized to the slit diaphragm in an active-immunization mouse model.",
+      "subjectId": "entity-anti-nephrin",
+      "objectId": "entity-nephrin",
+      "predicate": "contributes_to",
+      "contextId": "context-fsgs-immune",
+      "evidenceItemIds": [
+        "evidence-fsgs-nephrin-binding"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "MCD-like mouse model; not a demonstration of human FSGS sclerosis or universal antibody causation."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-nephrin-china",
+      "revisionId": "claim-fsgs-nephrin-china-contexts-v1",
+      "status": "candidate",
+      "text": "A Chinese cohort including 160 primary FSGS and 436 MCD patients reported anti-nephrin reactivity; its 43% overall prevalence is pooled across diagnoses.",
+      "subjectId": "entity-anti-nephrin",
+      "objectId": "entity-primary-fsgs",
+      "predicate": "is_associated_with",
+      "contextId": "context-fsgs-nephrin",
+      "evidenceItemIds": [
+        "evidence-fsgs-nephrin-china"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Pooled result must not be reported as FSGS-specific prevalence; assay/cohort differences remain unresolved."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-nephrin-null",
+      "revisionId": "claim-fsgs-nephrin-null-contexts-v1",
+      "status": "candidate",
+      "text": "A separate podocytopathy cohort found very low anti-nephrin prevalence with human-cell antigen and no disease enrichment, challenging broad biomarker interpretation.",
+      "subjectId": "entity-anti-nephrin",
+      "objectId": "entity-primary-fsgs",
+      "predicate": "is_associated_with",
+      "contextId": "context-fsgs-nephrin",
+      "evidenceItemIds": [
+        "evidence-fsgs-nephrin-null"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "association",
+      "limitations": [
+        "Mixed podocytopathies, not a primary-FSGS-only estimate; does not exclude a rare pathogenic subset.",
+        "Antigen-dependent cross-reactivity materially limits cross-study comparison."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-supar-culture",
+      "revisionId": "claim-fsgs-supar-culture-contexts-v1",
+      "status": "candidate",
+      "text": "suPAR-associated podocyte injury in patient-serum culture assays was inhibited by anti-uPAR blockade.",
+      "subjectId": "entity-supar",
+      "objectId": "entity-podocyte",
+      "predicate": "contributes_to",
+      "contextId": "context-fsgs-immune",
+      "evidenceItemIds": [
+        "evidence-fsgs-supar-culture"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Culture blockade does not establish suPAR as a universal circulating cause or an effective clinical target."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-cd40-culture",
+      "revisionId": "claim-fsgs-cd40-culture-contexts-v1",
+      "status": "candidate",
+      "text": "Patient-derived anti-CD40 antibodies were studied in human podocyte injury assays with rescue by pathway blockade.",
+      "subjectId": "entity-anti-cd40",
+      "objectId": "entity-podocyte",
+      "predicate": "contributes_to",
+      "contextId": "context-fsgs-immune",
+      "evidenceItemIds": [
+        "evidence-fsgs-cd40-culture"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-supar-null",
+      "revisionId": "claim-fsgs-supar-null-contexts-v1",
+      "status": "candidate",
+      "text": "Serum suPAR was not significantly higher in the FSGS group in a prospective Brazilian biopsy cohort.",
+      "subjectId": "entity-supar",
+      "objectId": "entity-podocyte",
+      "predicate": "contributes_to",
+      "contextId": "context-fsgs-immune",
+      "evidenceItemIds": [
+        "evidence-fsgs-supar-null"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "hypothesis",
+      "limitations": [
+        "FSGS classification not restricted to primary disease; biomarker specificity test does not directly refute culture toxicity.",
+        "Indirect qualification of generalizing the suPAR injury hypothesis; this is a biomarker null finding, not a direct culture replication."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-ifng-current",
+      "revisionId": "claim-fsgs-ifng-current-contexts-v1",
+      "status": "candidate",
+      "text": "Interferon gamma induced an APOL1-dependent cation current in primary human podocytes.",
+      "subjectId": "entity-ifng",
+      "objectId": "entity-apol1-current",
+      "predicate": "stimulates",
+      "contextId": "context-fsgs-apol1",
+      "evidenceItemIds": [
+        "evidence-fsgs-ifng-current"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Culture response; not proof that interferon is required in every APOL1-associated patient."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-apol1-current",
+      "revisionId": "claim-fsgs-apol1-current-contexts-v1",
+      "status": "candidate",
+      "text": "Induced G1 expression produced sodium import and potassium efflux in HEK293 experiments.",
+      "subjectId": "entity-apol1",
+      "objectId": "entity-apol1-current",
+      "predicate": "stimulates",
+      "contextId": "context-fsgs-apol1",
+      "evidenceItemIds": [
+        "evidence-fsgs-apol1-current"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Overexpression system; G1 result does not by itself establish identical G2 effects or penetrance in humans."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-current-injury",
+      "revisionId": "claim-fsgs-current-injury-contexts-v1",
+      "status": "candidate",
+      "text": "IFNγ-induced APOL1 G1 in transgenic mouse podocytes produced ion-flux and injury phenotypes reversible by VX-147.",
+      "subjectId": "entity-apol1-current",
+      "objectId": "entity-podocyte",
+      "predicate": "contributes_to",
+      "contextId": "context-fsgs-apol1-mouse",
+      "evidenceItemIds": [
+        "evidence-fsgs-current-injury"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-inax-channel",
+      "revisionId": "claim-fsgs-inax-channel-contexts-v1",
+      "status": "candidate",
+      "text": "Inaxaplin inhibited APOL1 channel function in preclinical cell assays.",
+      "subjectId": "entity-inaxaplin",
+      "objectId": "entity-apol1-current",
+      "predicate": "inhibits",
+      "contextId": "context-fsgs-apol1",
+      "evidenceItemIds": [
+        "evidence-fsgs-inax-channel"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-inax-protein",
+      "revisionId": "claim-fsgs-inax-protein-contexts-v1",
+      "status": "candidate",
+      "text": "In a single-group phase 2a study, 13 adherent participants with two APOL1 risk variants and biopsy-proven FSGS had a mean 47.6% proteinuria reduction at 13 weeks.",
+      "subjectId": "entity-inaxaplin",
+      "objectId": "entity-proteinuria",
+      "predicate": "inhibits",
+      "contextId": "context-fsgs-inaxaplin",
+      "evidenceItemIds": [
+        "evidence-fsgs-inax-protein"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Uncontrolled small short-term trial; no randomized effect estimate, established kidney-survival benefit or approval inference."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-loss-sclerosis",
+      "revisionId": "claim-fsgs-loss-sclerosis-contexts-v1",
+      "status": "candidate",
+      "text": "Toxin-induced podocyte depletion produced focal segmental sclerosis in transgenic rats.",
+      "subjectId": "entity-podocyte-loss",
+      "objectId": "entity-sclerosis",
+      "predicate": "contributes_to",
+      "contextId": "context-fsgs-depletion",
+      "evidenceItemIds": [
+        "evidence-fsgs-loss-sclerosis"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "causal",
+      "limitations": [
+        "Generic final-pathway animal model; does not establish the initiating mechanism in primary human FSGS."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-loss-protein",
+      "revisionId": "claim-fsgs-loss-protein-contexts-v1",
+      "status": "candidate",
+      "text": "Increasing experimental podocyte depletion caused persistent proteinuria in transgenic rats.",
+      "subjectId": "entity-podocyte-loss",
+      "objectId": "entity-proteinuria",
+      "predicate": "contributes_to",
+      "contextId": "context-fsgs-depletion",
+      "evidenceItemIds": [
+        "evidence-fsgs-loss-protein"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "causal",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-spar-protein",
+      "revisionId": "claim-fsgs-spar-protein-contexts-v1",
+      "status": "candidate",
+      "text": "DUPLEX showed greater partial proteinuria remission with sparsentan than irbesartan at 36 weeks (42% versus 26%).",
+      "subjectId": "entity-sparsentan",
+      "objectId": "entity-proteinuria",
+      "predicate": "inhibits",
+      "contextId": "context-fsgs-duplex",
+      "evidenceItemIds": [
+        "evidence-fsgs-spar-protein"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Mixed FSGS eligibility; not proof of immunologic mechanism or applicability of current indication to nephrotic primary FSGS."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "id": "claim-fsgs-spar-egfr",
+      "revisionId": "claim-fsgs-spar-egfr-contexts-v1",
+      "status": "candidate",
+      "text": "Despite greater proteinuria reduction, DUPLEX found no significant between-group eGFR-slope difference at 108 weeks.",
+      "subjectId": "entity-sparsentan",
+      "objectId": "entity-proteinuria",
+      "predicate": "inhibits",
+      "contextId": "context-fsgs-duplex",
+      "evidenceItemIds": [
+        "evidence-fsgs-spar-egfr"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Surrogate improvement must not be described as demonstrated overall trial kidney-function preservation."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  ],
+  "evidenceItems": [
+    {
+      "id": "evidence-fsgs-serum-permeability",
+      "revisionId": "evidence-fsgs-serum-permeability-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-58e7b70bdec8a8a4be97",
+      "summary": "Serum from recurrent FSGS patients increased albumin permeability in an isolated-glomerulus assay.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Human serum applied to isolated glomeruli; recurrent versus nonrecurrent transplant groups",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-fsgs-factor-recurrence",
+      "revisionId": "evidence-fsgs-factor-recurrence-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-58e7b70bdec8a8a4be97",
+      "summary": "Circulating permeability activity was associated with FSGS recurrence after transplantation.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Human transplant cohort and serum permeability measurements",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-fsgs-nephrin-fsgs",
+      "revisionId": "evidence-fsgs-nephrin-fsgs-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-5a6802f69e8a23c5ae1d",
+      "summary": "Anti-nephrin antibodies were detected in 7 of 74 adults (9%) with primary FSGS in the multicenter study.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Human multicenter primary FSGS subgroup",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-fsgs-nephrin-binding",
+      "revisionId": "evidence-fsgs-nephrin-binding-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-5a6802f69e8a23c5ae1d",
+      "summary": "Nephrin-directed antibodies localized to the slit diaphragm in an active-immunization mouse model.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Mice actively immunized with recombinant murine nephrin",
+      "evidenceType": "animal_experiment"
+    },
+    {
+      "id": "evidence-fsgs-nephrin-china",
+      "revisionId": "evidence-fsgs-nephrin-china-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-11560631b622a2fc22de",
+      "summary": "A Chinese cohort including 160 primary FSGS and 436 MCD patients reported anti-nephrin reactivity; its 43% overall prevalence is pooled across diagnoses.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Mixed human MCD/primary FSGS cohort",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-fsgs-nephrin-null",
+      "revisionId": "evidence-fsgs-nephrin-null-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-0502288276b52c4eaad8",
+      "summary": "A separate podocytopathy cohort found very low anti-nephrin prevalence with human-cell antigen and no disease enrichment, challenging broad biomarker interpretation.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "65 native-kidney podocytopathy patients, 34 post-transplant recurrences and controls; antigen-expression comparison",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-fsgs-supar-culture",
+      "revisionId": "evidence-fsgs-supar-culture-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-f04252a6870b993813bf",
+      "summary": "suPAR-associated podocyte injury in patient-serum culture assays was inhibited by anti-uPAR blockade.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Cultured human podocytes exposed to patient serum/isolated antibodies",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-fsgs-cd40-culture",
+      "revisionId": "evidence-fsgs-cd40-culture-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-f04252a6870b993813bf",
+      "summary": "Patient-derived anti-CD40 antibodies were studied in human podocyte injury assays with rescue by pathway blockade.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Cultured human podocytes; anti-CD40 autoantibody isolation and blockade",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-fsgs-supar-null",
+      "revisionId": "evidence-fsgs-supar-null-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-1e277fce80d1639fd113",
+      "summary": "Serum suPAR was not significantly higher in the FSGS group in a prospective Brazilian biopsy cohort.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "70 human biopsies including 18 FSGS cases",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-fsgs-ifng-current",
+      "revisionId": "evidence-fsgs-ifng-current-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-d2ab11f0d2522aeeb78a",
+      "summary": "Interferon gamma induced an APOL1-dependent cation current in primary human podocytes.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Primary human podocyte culture with IFNγ, CRISPR knockout and antibody inhibition",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-fsgs-apol1-current",
+      "revisionId": "evidence-fsgs-apol1-current-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-f3e8766ddc81e419756f",
+      "summary": "Induced G1 expression produced sodium import and potassium efflux in HEK293 experiments.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Inducible APOL1 G1 HEK293 cells",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-fsgs-current-injury",
+      "revisionId": "evidence-fsgs-current-injury-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-f3e8766ddc81e419756f",
+      "summary": "IFNγ-induced APOL1 G1 in transgenic mouse podocytes produced ion-flux and injury phenotypes reversible by VX-147.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "APOL1 G1 transgenic mice and isolated mouse podocytes",
+      "evidenceType": "animal_experiment"
+    },
+    {
+      "id": "evidence-fsgs-inax-channel",
+      "revisionId": "evidence-fsgs-inax-channel-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-9bc822ea3202e8cbecd8",
+      "summary": "Inaxaplin inhibited APOL1 channel function in preclinical cell assays.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Tetracycline-inducible APOL1-expressing HEK293 cells",
+      "evidenceType": "human_in_vitro"
+    },
+    {
+      "id": "evidence-fsgs-inax-protein",
+      "revisionId": "evidence-fsgs-inax-protein-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-9bc822ea3202e8cbecd8",
+      "summary": "In a single-group phase 2a study, 13 adherent participants with two APOL1 risk variants and biopsy-proven FSGS had a mean 47.6% proteinuria reduction at 13 weeks.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "16 enrolled human participants; 13 met adherence threshold",
+      "evidenceType": "human_observational"
+    },
+    {
+      "id": "evidence-fsgs-loss-sclerosis",
+      "revisionId": "evidence-fsgs-loss-sclerosis-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-08cc0baaa9d0893aa68c",
+      "summary": "Toxin-induced podocyte depletion produced focal segmental sclerosis in transgenic rats.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Podocyte-specific human toxin receptor transgenic rats",
+      "evidenceType": "animal_experiment"
+    },
+    {
+      "id": "evidence-fsgs-loss-protein",
+      "revisionId": "evidence-fsgs-loss-protein-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-08cc0baaa9d0893aa68c",
+      "summary": "Increasing experimental podocyte depletion caused persistent proteinuria in transgenic rats.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "Podocyte-specific toxin receptor transgenic rats",
+      "evidenceType": "animal_experiment"
+    },
+    {
+      "id": "evidence-fsgs-spar-protein",
+      "revisionId": "evidence-fsgs-spar-protein-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-82728a5c8c4285ed45be",
+      "summary": "DUPLEX showed greater partial proteinuria remission with sparsentan than irbesartan at 36 weeks (42% versus 26%).",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "371 randomized FSGS patients without known secondary causes; genetic cases included",
+      "evidenceType": "randomized_trial"
+    },
+    {
+      "id": "evidence-fsgs-spar-egfr",
+      "revisionId": "evidence-fsgs-spar-egfr-97cb3d816b7b",
+      "status": "candidate",
+      "sourceId": "source-doi-82728a5c8c4285ed45be",
+      "summary": "Despite greater proteinuria reduction, DUPLEX found no significant between-group eGFR-slope difference at 108 weeks.",
+      "location": "Europe PMC indexed primary-report abstract",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "DUPLEX active-controlled randomized trial",
+      "evidenceType": "randomized_trial"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-doi-58e7b70bdec8a8a4be97",
+      "revisionId": "source-doi-58e7b70bdec8a8a4be97-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Circulating factor associated with increased glomerular permeability to albumin in recurrent focal segmental glomerulosclerosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8596570/",
+      "kind": "publication",
+      "studyId": "PMID:8596570",
+      "citation": "Savin VJ, Sharma R, Sharma M, McCarthy ET, Swan SK, Ellis E, Lovell H, Warady B, Gunwar S, Chonko AM, Artero M, Vincenti F.. Circulating factor associated with increased glomerular permeability to albumin in recurrent focal segmental glomerulosclerosis.. The New England journal of medicine. 1996-04-01",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1056/nejm199604043341402",
+        "MED:8596570",
+        "PMID:8596570"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-5a6802f69e8a23c5ae1d",
+      "revisionId": "source-doi-5a6802f69e8a23c5ae1d-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Autoantibodies Targeting Nephrin in Podocytopathies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38804512/",
+      "kind": "publication",
+      "studyId": "PMID:38804512",
+      "citation": "Hengel FE, Dehde S, Lassé M, Zahner G, Seifert L, Schnarre A, Kretz O, Demir F, Pinnschmidt HO, Grahammer F, Lucas R, Mehner LM, Zimmermann T, Billing AM, Oh J, Mitrotti A, Pontrelli P, Debiec H, Dossier C, Colucci M, Emma F, Smoyer WE, Weins A, Schaefer F, Alachkar N, Diemert A, Hogan J, Hoxha E, Wiech T, Rinschen MM, Ronco P, Vivarelli M, Gesualdo L, Tomas NM, Huber TB, International Society of Glomerular Disease.. Autoantibodies Targeting Nephrin in Podocytopathies.. The New England journal of medicine. 2024-05-25",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1056/nejmoa2314471",
+        "MED:38804512",
+        "PMID:38804512"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-11560631b622a2fc22de",
+      "revisionId": "source-doi-11560631b622a2fc22de-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Anti-nephrin antibodies in adult Chinese patients with minimal change disease and primary focal segmental glomerulosclerosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40147632/",
+      "kind": "publication",
+      "studyId": "PMID:40147632",
+      "citation": "Shu Y, Huang J, Jiang L, Zhang YM, Wang F, Wang X, Meng LQ, Cheng XY, Liu G, Wang SX, Zhao MH, Ronco P, Cui Z.. Anti-nephrin antibodies in adult Chinese patients with minimal change disease and primary focal segmental glomerulosclerosis.. Kidney international. 2025-03-25",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1016/j.kint.2025.02.028",
+        "MED:40147632",
+        "PMID:40147632"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-0502288276b52c4eaad8",
+      "revisionId": "source-doi-0502288276b52c4eaad8-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Anti-nephrin antibodies are not enriched in patients with primary and posttransplant recurrent podocytopathies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42048157/",
+      "kind": "publication",
+      "studyId": "PMID:42048157",
+      "citation": "Pecoraro F, Perico L, Casiraghi F, Rizzo P, Trillini M, Angeletti A, Podestà MA, Kajana X, Spennacchio A, Todeschini M, Mister M, Castellano G, Benigni A, Remuzzi G.. Anti-nephrin antibodies are not enriched in patients with primary and posttransplant recurrent podocytopathies.. The Journal of clinical investigation. 2026-04-28",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1172/jci204727",
+        "MED:42048157",
+        "PMCID:PMC13318109",
+        "PMID:42048157"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-f04252a6870b993813bf",
+      "revisionId": "source-doi-f04252a6870b993813bf-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Perturbations in podocyte transcriptome and biological pathways induced by FSGS associated circulating factors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37404982/",
+      "kind": "publication",
+      "studyId": "PMID:37404982",
+      "citation": "Rashmi P, Sigdel TK, Rychkov D, Damm I, Da Silva AA, Vincenti F, Lourenco AL, Craik CS, Reiser J, Sarwal MM.. Perturbations in podocyte transcriptome and biological pathways induced by FSGS associated circulating factors.. Annals of translational medicine. 2023-05-04",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.21037/atm-22-3670",
+        "MED:37404982",
+        "PMCID:PMC10316099",
+        "PMID:37404982"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-1e277fce80d1639fd113",
+      "revisionId": "source-doi-1e277fce80d1639fd113-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Urinary CD80 and Serum suPAR as Biomarkers of Glomerular Disease among Adults in Brazil.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36673014/",
+      "kind": "publication",
+      "studyId": "PMID:36673014",
+      "citation": "Zen RC, Dominguez WV, Braga I, Dos Reis LM, Jorge LB, Yu L, Woronik V, Dias CB.. Urinary CD80 and Serum suPAR as Biomarkers of Glomerular Disease among Adults in Brazil.. Diagnostics (Basel, Switzerland). 2023-01-05",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.3390/diagnostics13020203",
+        "MED:36673014",
+        "PMCID:PMC9857681",
+        "PMID:36673014"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-d2ab11f0d2522aeeb78a",
+      "revisionId": "source-doi-d2ab11f0d2522aeeb78a-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Apolipoprotein L1 (APOL1) cation current in HEK-293 cells and in human podocytes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36449077/",
+      "kind": "publication",
+      "studyId": "PMID:36449077",
+      "citation": "Vandorpe DH, Heneghan JF, Waitzman JS, McCarthy GM, Blasio A, Magraner JM, Donovan OG, Schaller LB, Shah SS, Subramanian B, Riella CV, Friedman DJ, Pollak MR, Alper SL.. Apolipoprotein L1 (APOL1) cation current in HEK-293 cells and in human podocytes.. Pflugers Archiv : European journal of physiology. 2022-11-30",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1007/s00424-022-02767-8",
+        "MED:36449077",
+        "PMCID:PMC10321438",
+        "PMID:36449077"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-f3e8766ddc81e419756f",
+      "revisionId": "source-doi-f3e8766ddc81e419756f-97cb3d816b7b",
+      "status": "candidate",
+      "title": "APOL1-mediated monovalent cation transport contributes to APOL1-mediated podocytopathy in kidney disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38227370/",
+      "kind": "publication",
+      "studyId": "PMID:38227370",
+      "citation": "Datta S, Antonio BM, Zahler NH, Theile JW, Krafte D, Zhang H, Rosenberg PB, Chaves AB, Muoio DM, Zhang G, Silas D, Li G, Soldano K, Nystrom S, Ferreira D, Miller SE, Bain JR, Muehlbauer MJ, Ilkayeva O, Becker TC, Hohmeier HE, Newgard CB, Olabisi OA.. APOL1-mediated monovalent cation transport contributes to APOL1-mediated podocytopathy in kidney disease.. The Journal of clinical investigation. 2024-01-16",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1172/jci172262",
+        "MED:38227370",
+        "PMCID:PMC10904047",
+        "PMID:38227370"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-9bc822ea3202e8cbecd8",
+      "revisionId": "source-doi-9bc822ea3202e8cbecd8-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Inaxaplin for Proteinuric Kidney Disease in Persons with Two &lt;i&gt;APOL1&lt;/i&gt; Variants.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36920755/",
+      "kind": "publication",
+      "studyId": "PMID:36920755",
+      "citation": "Egbuna O, Zimmerman B, Manos G, Fortier A, Chirieac MC, Dakin LA, Friedman DJ, Bramham K, Campbell K, Knebelmann B, Barisoni L, Falk RJ, Gipson DS, Lipkowitz MS, Ojo A, Bunnage ME, Pollak MR, Altshuler D, Chertow GM, VX19-147-101 Study Group.. Inaxaplin for Proteinuric Kidney Disease in Persons with Two &lt;i&gt;APOL1&lt;/i&gt; Variants.. The New England journal of medicine. 2023-03-01",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1056/nejmoa2202396",
+        "MED:36920755",
+        "PMID:36920755"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-08cc0baaa9d0893aa68c",
+      "revisionId": "source-doi-08cc0baaa9d0893aa68c-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Podocyte depletion causes glomerulosclerosis: diphtheria toxin-induced podocyte depletion in rats expressing human diphtheria toxin receptor transgene.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16107576/",
+      "kind": "publication",
+      "studyId": "PMID:16107576",
+      "citation": "Wharram BL, Goyal M, Wiggins JE, Sanden SK, Hussain S, Filipiak WE, Saunders TL, Dysko RC, Kohno K, Holzman LB, Wiggins RC.. Podocyte depletion causes glomerulosclerosis: diphtheria toxin-induced podocyte depletion in rats expressing human diphtheria toxin receptor transgene.. Journal of the American Society of Nephrology : JASN. 2005-08-17",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1681/asn.2005010055",
+        "MED:16107576",
+        "PMID:16107576"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-82728a5c8c4285ed45be",
+      "revisionId": "source-doi-82728a5c8c4285ed45be-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Sparsentan versus Irbesartan in Focal Segmental Glomerulosclerosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37921461/",
+      "kind": "publication",
+      "studyId": "PMID:37921461",
+      "citation": "Rheault MN, Alpers CE, Barratt J, Bieler S, Canetta P, Chae DW, Coppock G, Diva U, Gesualdo L, Heerspink HJL, Inrig JK, Kirsztajn GM, Kohan D, Komers R, Kooienga LA, Lieberman K, Mercer A, Noronha IL, Perkovic V, Radhakrishnan J, Rote W, Rovin B, Tesar V, Trimarchi H, Tumlin J, Wong MG, Trachtman H, DUPRO Steering Committee and DUPLEX Investigators.. Sparsentan versus Irbesartan in Focal Segmental Glomerulosclerosis.. The New England journal of medicine. 2023-11-03",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1056/nejmoa2308550",
+        "MED:37921461",
+        "PMID:37921461"
+      ],
+      "flags": []
+    }
+  ],
+  "therapies": [],
+  "contexts": [
+    {
+      "id": "context-fsgs-serum",
+      "revisionId": "context-fsgs-serum-contexts-v1",
+      "status": "candidate",
+      "diseaseId": "primary-fsgs",
+      "label": "Primary FSGS: circulating activity and recurrence",
+      "organism": "Human serum / isolated glomerular assay",
+      "phenotype": "Recurrent primary FSGS",
+      "tissue": "Glomerulus / podocyte / circulation as specified per evidence item",
+      "stage": "Selected study-specific evidence; no transfer across systems"
+    },
+    {
+      "id": "context-fsgs-nephrin",
+      "revisionId": "context-fsgs-nephrin-contexts-v1",
+      "status": "candidate",
+      "diseaseId": "primary-fsgs",
+      "label": "Human anti-nephrin evidence: conflicting cohorts",
+      "organism": "Human",
+      "phenotype": "Primary FSGS and explicitly mixed podocytopathy cohorts",
+      "tissue": "Glomerulus / podocyte / circulation as specified per evidence item",
+      "stage": "Selected study-specific evidence; no transfer across systems"
+    },
+    {
+      "id": "context-fsgs-immune",
+      "revisionId": "context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "diseaseId": "primary-fsgs",
+      "label": "Immune experiments and biomarker limits",
+      "organism": "Human cultures; mouse immunization; human biopsy cohort",
+      "phenotype": "Selected experimental podocyte injury; MCD-like mouse model and mixed-FSGS biomarker qualification",
+      "tissue": "Glomerulus / podocyte / circulation as specified per evidence item",
+      "stage": "Selected study-specific evidence; no transfer across systems"
+    },
+    {
+      "id": "context-fsgs-apol1",
+      "revisionId": "context-fsgs-apol1-contexts-v1",
+      "status": "candidate",
+      "diseaseId": "primary-fsgs",
+      "label": "APOL1: interferon and cation transport",
+      "organism": "Human cultured primary podocytes and HEK293 cells",
+      "phenotype": "Experimental APOL1 expression and channel inhibition",
+      "tissue": "Glomerulus / podocyte / circulation as specified per evidence item",
+      "stage": "Selected study-specific evidence; no transfer across systems"
+    },
+    {
+      "id": "context-fsgs-apol1-mouse",
+      "revisionId": "context-fsgs-apol1-mouse-contexts-v1",
+      "status": "candidate",
+      "diseaseId": "primary-fsgs",
+      "label": "APOL1 G1: experimental podocyte injury",
+      "organism": "Transgenic mouse",
+      "phenotype": "IFNγ-induced APOL1 G1 injury",
+      "tissue": "Glomerulus / podocyte / circulation as specified per evidence item",
+      "stage": "Selected study-specific evidence; no transfer across systems"
+    },
+    {
+      "id": "context-fsgs-inaxaplin",
+      "revisionId": "context-fsgs-inaxaplin-contexts-v1",
+      "status": "candidate",
+      "diseaseId": "primary-fsgs",
+      "label": "APOL1-associated FSGS: inaxaplin phase 2a",
+      "organism": "Human",
+      "phenotype": "Two APOL1 risk variants, biopsy-proven FSGS and proteinuria; uncontrolled 13-week trial",
+      "tissue": "Glomerulus / podocyte / circulation as specified per evidence item",
+      "stage": "Selected study-specific evidence; no transfer across systems"
+    },
+    {
+      "id": "context-fsgs-depletion",
+      "revisionId": "context-fsgs-depletion-contexts-v1",
+      "status": "candidate",
+      "diseaseId": "primary-fsgs",
+      "label": "Final injury pathway: rat podocyte depletion",
+      "organism": "Transgenic rat",
+      "phenotype": "Toxin-induced podocyte depletion; not an initiating FSGS mechanism",
+      "tissue": "Glomerulus / podocyte / circulation as specified per evidence item",
+      "stage": "Selected study-specific evidence; no transfer across systems"
+    },
+    {
+      "id": "context-fsgs-duplex",
+      "revisionId": "context-fsgs-duplex-contexts-v1",
+      "status": "candidate",
+      "diseaseId": "primary-fsgs",
+      "label": "FSGS intervention: DUPLEX and endpoint limits",
+      "organism": "Human",
+      "phenotype": "FSGS without known secondary causes; genetic cases included; randomized active-controlled trial",
+      "tissue": "Glomerulus / podocyte / circulation as specified per evidence item",
+      "stage": "Selected study-specific evidence; no transfer across systems"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "assessment-relationship-1a3e61aff8e3053914b5-context-fsgs-serum",
+      "revisionId": "assessment-relationship-1a3e61aff8e3053914b5-context-fsgs-serum-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-1a3e61aff8e3053914b5",
+      "contextId": "context-fsgs-serum",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-serum-permeability"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-ea64396298efdb8e239d-context-fsgs-serum",
+      "revisionId": "assessment-relationship-ea64396298efdb8e239d-context-fsgs-serum-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-ea64396298efdb8e239d",
+      "contextId": "context-fsgs-serum",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-factor-recurrence"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-circulating-factors-context-fsgs-serum",
+      "revisionId": "assessment-entity-circulating-factors-context-fsgs-serum-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-circulating-factors",
+      "contextId": "context-fsgs-serum",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-serum-permeability",
+        "claim-fsgs-factor-recurrence"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-permeability-context-fsgs-serum",
+      "revisionId": "assessment-entity-permeability-context-fsgs-serum-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-permeability",
+      "contextId": "context-fsgs-serum",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-serum-permeability"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-recurrence-context-fsgs-serum",
+      "revisionId": "assessment-entity-recurrence-context-fsgs-serum-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-recurrence",
+      "contextId": "context-fsgs-serum",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-factor-recurrence"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-029763e8ca9d296509c0-context-fsgs-nephrin",
+      "revisionId": "assessment-relationship-029763e8ca9d296509c0-context-fsgs-nephrin-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-029763e8ca9d296509c0",
+      "contextId": "context-fsgs-nephrin",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-nephrin-fsgs",
+        "claim-fsgs-nephrin-china"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [
+        "claim-fsgs-nephrin-null"
+      ],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-anti-nephrin-context-fsgs-nephrin",
+      "revisionId": "assessment-entity-anti-nephrin-context-fsgs-nephrin-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-anti-nephrin",
+      "contextId": "context-fsgs-nephrin",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-nephrin-fsgs",
+        "claim-fsgs-nephrin-china"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [
+        "claim-fsgs-nephrin-null"
+      ],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-primary-fsgs-context-fsgs-nephrin",
+      "revisionId": "assessment-entity-primary-fsgs-context-fsgs-nephrin-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-primary-fsgs",
+      "contextId": "context-fsgs-nephrin",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-nephrin-fsgs",
+        "claim-fsgs-nephrin-china"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [
+        "claim-fsgs-nephrin-null"
+      ],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-367f46251c1b33ef6fc0-context-fsgs-immune",
+      "revisionId": "assessment-relationship-367f46251c1b33ef6fc0-context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-367f46251c1b33ef6fc0",
+      "contextId": "context-fsgs-immune",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-nephrin-binding"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-b1af482acb61b56caeb7-context-fsgs-immune",
+      "revisionId": "assessment-relationship-b1af482acb61b56caeb7-context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-b1af482acb61b56caeb7",
+      "contextId": "context-fsgs-immune",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-supar-culture"
+      ],
+      "qualifyingClaimIds": [
+        "claim-fsgs-supar-null"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-38b4fa49eb332e9c826b-context-fsgs-immune",
+      "revisionId": "assessment-relationship-38b4fa49eb332e9c826b-context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-38b4fa49eb332e9c826b",
+      "contextId": "context-fsgs-immune",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-cd40-culture"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-anti-nephrin-context-fsgs-immune",
+      "revisionId": "assessment-entity-anti-nephrin-context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-anti-nephrin",
+      "contextId": "context-fsgs-immune",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-nephrin-binding"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-nephrin-context-fsgs-immune",
+      "revisionId": "assessment-entity-nephrin-context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-nephrin",
+      "contextId": "context-fsgs-immune",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-nephrin-binding"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-supar-context-fsgs-immune",
+      "revisionId": "assessment-entity-supar-context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-supar",
+      "contextId": "context-fsgs-immune",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-supar-culture"
+      ],
+      "qualifyingClaimIds": [
+        "claim-fsgs-supar-null"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-podocyte-context-fsgs-immune",
+      "revisionId": "assessment-entity-podocyte-context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-podocyte",
+      "contextId": "context-fsgs-immune",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-supar-culture",
+        "claim-fsgs-cd40-culture"
+      ],
+      "qualifyingClaimIds": [
+        "claim-fsgs-supar-null"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-anti-cd40-context-fsgs-immune",
+      "revisionId": "assessment-entity-anti-cd40-context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-anti-cd40",
+      "contextId": "context-fsgs-immune",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-cd40-culture"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-0e9321f835184558aa9e-context-fsgs-apol1",
+      "revisionId": "assessment-relationship-0e9321f835184558aa9e-context-fsgs-apol1-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-0e9321f835184558aa9e",
+      "contextId": "context-fsgs-apol1",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-ifng-current"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-bb16135e51e6f1db2f33-context-fsgs-apol1",
+      "revisionId": "assessment-relationship-bb16135e51e6f1db2f33-context-fsgs-apol1-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-bb16135e51e6f1db2f33",
+      "contextId": "context-fsgs-apol1",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-apol1-current"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-8a1859506435bf1da432-context-fsgs-apol1",
+      "revisionId": "assessment-relationship-8a1859506435bf1da432-context-fsgs-apol1-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-8a1859506435bf1da432",
+      "contextId": "context-fsgs-apol1",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-inax-channel"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-ifng-context-fsgs-apol1",
+      "revisionId": "assessment-entity-ifng-context-fsgs-apol1-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-ifng",
+      "contextId": "context-fsgs-apol1",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-ifng-current"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-apol1-current-context-fsgs-apol1",
+      "revisionId": "assessment-entity-apol1-current-context-fsgs-apol1-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-apol1-current",
+      "contextId": "context-fsgs-apol1",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-ifng-current",
+        "claim-fsgs-apol1-current",
+        "claim-fsgs-inax-channel"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-apol1-context-fsgs-apol1",
+      "revisionId": "assessment-entity-apol1-context-fsgs-apol1-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-apol1",
+      "contextId": "context-fsgs-apol1",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-apol1-current"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-inaxaplin-context-fsgs-apol1",
+      "revisionId": "assessment-entity-inaxaplin-context-fsgs-apol1-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-inaxaplin",
+      "contextId": "context-fsgs-apol1",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-inax-channel"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-9f3504245c3b9c143d5f-context-fsgs-apol1-mouse",
+      "revisionId": "assessment-relationship-9f3504245c3b9c143d5f-context-fsgs-apol1-mouse-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-9f3504245c3b9c143d5f",
+      "contextId": "context-fsgs-apol1-mouse",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-current-injury"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-apol1-current-context-fsgs-apol1-mouse",
+      "revisionId": "assessment-entity-apol1-current-context-fsgs-apol1-mouse-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-apol1-current",
+      "contextId": "context-fsgs-apol1-mouse",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-current-injury"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-podocyte-context-fsgs-apol1-mouse",
+      "revisionId": "assessment-entity-podocyte-context-fsgs-apol1-mouse-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-podocyte",
+      "contextId": "context-fsgs-apol1-mouse",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-current-injury"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-070b712102af86d1293b-context-fsgs-inaxaplin",
+      "revisionId": "assessment-relationship-070b712102af86d1293b-context-fsgs-inaxaplin-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-070b712102af86d1293b",
+      "contextId": "context-fsgs-inaxaplin",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-inax-protein"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-inaxaplin-context-fsgs-inaxaplin",
+      "revisionId": "assessment-entity-inaxaplin-context-fsgs-inaxaplin-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-inaxaplin",
+      "contextId": "context-fsgs-inaxaplin",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-inax-protein"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-proteinuria-context-fsgs-inaxaplin",
+      "revisionId": "assessment-entity-proteinuria-context-fsgs-inaxaplin-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-proteinuria",
+      "contextId": "context-fsgs-inaxaplin",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-inax-protein"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-d14874070dfe3579d915-context-fsgs-depletion",
+      "revisionId": "assessment-relationship-d14874070dfe3579d915-context-fsgs-depletion-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-d14874070dfe3579d915",
+      "contextId": "context-fsgs-depletion",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-loss-sclerosis"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-3ba90d1fbad207411a61-context-fsgs-depletion",
+      "revisionId": "assessment-relationship-3ba90d1fbad207411a61-context-fsgs-depletion-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-3ba90d1fbad207411a61",
+      "contextId": "context-fsgs-depletion",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-loss-protein"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-podocyte-loss-context-fsgs-depletion",
+      "revisionId": "assessment-entity-podocyte-loss-context-fsgs-depletion-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-podocyte-loss",
+      "contextId": "context-fsgs-depletion",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-loss-sclerosis",
+        "claim-fsgs-loss-protein"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-sclerosis-context-fsgs-depletion",
+      "revisionId": "assessment-entity-sclerosis-context-fsgs-depletion-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-sclerosis",
+      "contextId": "context-fsgs-depletion",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-loss-sclerosis"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-proteinuria-context-fsgs-depletion",
+      "revisionId": "assessment-entity-proteinuria-context-fsgs-depletion-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-proteinuria",
+      "contextId": "context-fsgs-depletion",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-loss-protein"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-relationship-dac6260ed6e9cb982099-context-fsgs-duplex",
+      "revisionId": "assessment-relationship-dac6260ed6e9cb982099-context-fsgs-duplex-contexts-v1",
+      "status": "candidate",
+      "subjectId": "relationship-dac6260ed6e9cb982099",
+      "contextId": "context-fsgs-duplex",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-spar-protein"
+      ],
+      "qualifyingClaimIds": [
+        "claim-fsgs-spar-egfr"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-sparsentan-context-fsgs-duplex",
+      "revisionId": "assessment-entity-sparsentan-context-fsgs-duplex-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-sparsentan",
+      "contextId": "context-fsgs-duplex",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-spar-protein"
+      ],
+      "qualifyingClaimIds": [
+        "claim-fsgs-spar-egfr"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "assessment-entity-proteinuria-context-fsgs-duplex",
+      "revisionId": "assessment-entity-proteinuria-context-fsgs-duplex-contexts-v1",
+      "status": "candidate",
+      "subjectId": "entity-proteinuria",
+      "contextId": "context-fsgs-duplex",
+      "scoringModelId": "scoring-primary-fsgs-unassessed",
+      "metricStatus": {
+        "mechanisticWeight": "unassessed",
+        "evidenceConfidence": "unassessed",
+        "therapeuticLeverage": "unassessed"
+      },
+      "mechanisticWeight": null,
+      "evidenceConfidence": null,
+      "therapeuticLeverage": null,
+      "supportingClaimIds": [
+        "claim-fsgs-spar-protein"
+      ],
+      "qualifyingClaimIds": [
+        "claim-fsgs-spar-egfr"
+      ],
+      "contradictingClaimIds": [],
+      "rationale": "Context-specific source-checked candidate; quantitative appraisal and independent domain review pending.",
+      "reviewerDecision": null,
+      "reviewedAt": null
+    }
+  ],
+  "scoringModels": [
+    {
+      "id": "scoring-primary-fsgs-unassessed",
+      "revisionId": "scoring-primary-fsgs-unassessed-97cb3d816b7b",
+      "status": "candidate",
+      "label": "Unassessed baseline",
+      "calibrated": false,
+      "description": "No numerical scores. Calibration requires independent domain reviewers and representative paired appraisals."
+    }
+  ],
+  "layouts": [
+    {
+      "id": "layout-context-fsgs-serum",
+      "revisionId": "layout-context-fsgs-serum-contexts-v1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-circulating-factors",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-permeability",
+          "x": 430,
+          "y": 50
+        },
+        {
+          "entityId": "entity-recurrence",
+          "x": 810,
+          "y": 50
+        }
+      ]
+    },
+    {
+      "id": "layout-context-fsgs-nephrin",
+      "revisionId": "layout-context-fsgs-nephrin-contexts-v1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-anti-nephrin",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-primary-fsgs",
+          "x": 430,
+          "y": 50
+        }
+      ]
+    },
+    {
+      "id": "layout-context-fsgs-immune",
+      "revisionId": "layout-context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-anti-nephrin",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-nephrin",
+          "x": 430,
+          "y": 50
+        },
+        {
+          "entityId": "entity-supar",
+          "x": 810,
+          "y": 50
+        },
+        {
+          "entityId": "entity-podocyte",
+          "x": 50,
+          "y": 310
+        },
+        {
+          "entityId": "entity-anti-cd40",
+          "x": 430,
+          "y": 310
+        }
+      ]
+    },
+    {
+      "id": "layout-context-fsgs-apol1",
+      "revisionId": "layout-context-fsgs-apol1-contexts-v1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-ifng",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-apol1-current",
+          "x": 430,
+          "y": 50
+        },
+        {
+          "entityId": "entity-apol1",
+          "x": 810,
+          "y": 50
+        },
+        {
+          "entityId": "entity-inaxaplin",
+          "x": 50,
+          "y": 310
+        }
+      ]
+    },
+    {
+      "id": "layout-context-fsgs-apol1-mouse",
+      "revisionId": "layout-context-fsgs-apol1-mouse-contexts-v1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-apol1-current",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-podocyte",
+          "x": 430,
+          "y": 50
+        }
+      ]
+    },
+    {
+      "id": "layout-context-fsgs-inaxaplin",
+      "revisionId": "layout-context-fsgs-inaxaplin-contexts-v1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-inaxaplin",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-proteinuria",
+          "x": 430,
+          "y": 50
+        }
+      ]
+    },
+    {
+      "id": "layout-context-fsgs-depletion",
+      "revisionId": "layout-context-fsgs-depletion-contexts-v1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-podocyte-loss",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-sclerosis",
+          "x": 430,
+          "y": 50
+        },
+        {
+          "entityId": "entity-proteinuria",
+          "x": 810,
+          "y": 50
+        }
+      ]
+    },
+    {
+      "id": "layout-context-fsgs-duplex",
+      "revisionId": "layout-context-fsgs-duplex-contexts-v1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-sparsentan",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-proteinuria",
+          "x": 430,
+          "y": 50
+        }
+      ]
+    }
+  ],
+  "mapViews": [
+    {
+      "id": "view-context-fsgs-serum",
+      "revisionId": "view-context-fsgs-serum-contexts-v1",
+      "status": "candidate",
+      "label": "Primary FSGS: circulating activity and recurrence",
+      "contextId": "context-fsgs-serum",
+      "entityIds": [
+        "entity-circulating-factors",
+        "entity-permeability",
+        "entity-recurrence"
+      ],
+      "relationshipIds": [
+        "relationship-1a3e61aff8e3053914b5",
+        "relationship-ea64396298efdb8e239d"
+      ],
+      "assessmentIds": [
+        "assessment-relationship-1a3e61aff8e3053914b5-context-fsgs-serum",
+        "assessment-relationship-ea64396298efdb8e239d-context-fsgs-serum",
+        "assessment-entity-circulating-factors-context-fsgs-serum",
+        "assessment-entity-permeability-context-fsgs-serum",
+        "assessment-entity-recurrence-context-fsgs-serum"
+      ],
+      "layoutId": "layout-context-fsgs-serum"
+    },
+    {
+      "id": "view-context-fsgs-nephrin",
+      "revisionId": "view-context-fsgs-nephrin-contexts-v1",
+      "status": "candidate",
+      "label": "Human anti-nephrin evidence: conflicting cohorts",
+      "contextId": "context-fsgs-nephrin",
+      "entityIds": [
+        "entity-anti-nephrin",
+        "entity-primary-fsgs"
+      ],
+      "relationshipIds": [
+        "relationship-029763e8ca9d296509c0"
+      ],
+      "assessmentIds": [
+        "assessment-relationship-029763e8ca9d296509c0-context-fsgs-nephrin",
+        "assessment-entity-anti-nephrin-context-fsgs-nephrin",
+        "assessment-entity-primary-fsgs-context-fsgs-nephrin"
+      ],
+      "layoutId": "layout-context-fsgs-nephrin"
+    },
+    {
+      "id": "view-context-fsgs-immune",
+      "revisionId": "view-context-fsgs-immune-contexts-v1",
+      "status": "candidate",
+      "label": "Immune experiments and biomarker limits",
+      "contextId": "context-fsgs-immune",
+      "entityIds": [
+        "entity-anti-nephrin",
+        "entity-nephrin",
+        "entity-supar",
+        "entity-podocyte",
+        "entity-anti-cd40"
+      ],
+      "relationshipIds": [
+        "relationship-367f46251c1b33ef6fc0",
+        "relationship-b1af482acb61b56caeb7",
+        "relationship-38b4fa49eb332e9c826b"
+      ],
+      "assessmentIds": [
+        "assessment-relationship-367f46251c1b33ef6fc0-context-fsgs-immune",
+        "assessment-relationship-b1af482acb61b56caeb7-context-fsgs-immune",
+        "assessment-relationship-38b4fa49eb332e9c826b-context-fsgs-immune",
+        "assessment-entity-anti-nephrin-context-fsgs-immune",
+        "assessment-entity-nephrin-context-fsgs-immune",
+        "assessment-entity-supar-context-fsgs-immune",
+        "assessment-entity-podocyte-context-fsgs-immune",
+        "assessment-entity-anti-cd40-context-fsgs-immune"
+      ],
+      "layoutId": "layout-context-fsgs-immune"
+    },
+    {
+      "id": "view-context-fsgs-apol1",
+      "revisionId": "view-context-fsgs-apol1-contexts-v1",
+      "status": "candidate",
+      "label": "APOL1: interferon and cation transport",
+      "contextId": "context-fsgs-apol1",
+      "entityIds": [
+        "entity-ifng",
+        "entity-apol1-current",
+        "entity-apol1",
+        "entity-inaxaplin"
+      ],
+      "relationshipIds": [
+        "relationship-0e9321f835184558aa9e",
+        "relationship-bb16135e51e6f1db2f33",
+        "relationship-8a1859506435bf1da432"
+      ],
+      "assessmentIds": [
+        "assessment-relationship-0e9321f835184558aa9e-context-fsgs-apol1",
+        "assessment-relationship-bb16135e51e6f1db2f33-context-fsgs-apol1",
+        "assessment-relationship-8a1859506435bf1da432-context-fsgs-apol1",
+        "assessment-entity-ifng-context-fsgs-apol1",
+        "assessment-entity-apol1-current-context-fsgs-apol1",
+        "assessment-entity-apol1-context-fsgs-apol1",
+        "assessment-entity-inaxaplin-context-fsgs-apol1"
+      ],
+      "layoutId": "layout-context-fsgs-apol1"
+    },
+    {
+      "id": "view-context-fsgs-apol1-mouse",
+      "revisionId": "view-context-fsgs-apol1-mouse-contexts-v1",
+      "status": "candidate",
+      "label": "APOL1 G1: experimental podocyte injury",
+      "contextId": "context-fsgs-apol1-mouse",
+      "entityIds": [
+        "entity-apol1-current",
+        "entity-podocyte"
+      ],
+      "relationshipIds": [
+        "relationship-9f3504245c3b9c143d5f"
+      ],
+      "assessmentIds": [
+        "assessment-relationship-9f3504245c3b9c143d5f-context-fsgs-apol1-mouse",
+        "assessment-entity-apol1-current-context-fsgs-apol1-mouse",
+        "assessment-entity-podocyte-context-fsgs-apol1-mouse"
+      ],
+      "layoutId": "layout-context-fsgs-apol1-mouse"
+    },
+    {
+      "id": "view-context-fsgs-inaxaplin",
+      "revisionId": "view-context-fsgs-inaxaplin-contexts-v1",
+      "status": "candidate",
+      "label": "APOL1-associated FSGS: inaxaplin phase 2a",
+      "contextId": "context-fsgs-inaxaplin",
+      "entityIds": [
+        "entity-inaxaplin",
+        "entity-proteinuria"
+      ],
+      "relationshipIds": [
+        "relationship-070b712102af86d1293b"
+      ],
+      "assessmentIds": [
+        "assessment-relationship-070b712102af86d1293b-context-fsgs-inaxaplin",
+        "assessment-entity-inaxaplin-context-fsgs-inaxaplin",
+        "assessment-entity-proteinuria-context-fsgs-inaxaplin"
+      ],
+      "layoutId": "layout-context-fsgs-inaxaplin"
+    },
+    {
+      "id": "view-context-fsgs-depletion",
+      "revisionId": "view-context-fsgs-depletion-contexts-v1",
+      "status": "candidate",
+      "label": "Final injury pathway: rat podocyte depletion",
+      "contextId": "context-fsgs-depletion",
+      "entityIds": [
+        "entity-podocyte-loss",
+        "entity-sclerosis",
+        "entity-proteinuria"
+      ],
+      "relationshipIds": [
+        "relationship-d14874070dfe3579d915",
+        "relationship-3ba90d1fbad207411a61"
+      ],
+      "assessmentIds": [
+        "assessment-relationship-d14874070dfe3579d915-context-fsgs-depletion",
+        "assessment-relationship-3ba90d1fbad207411a61-context-fsgs-depletion",
+        "assessment-entity-podocyte-loss-context-fsgs-depletion",
+        "assessment-entity-sclerosis-context-fsgs-depletion",
+        "assessment-entity-proteinuria-context-fsgs-depletion"
+      ],
+      "layoutId": "layout-context-fsgs-depletion"
+    },
+    {
+      "id": "view-context-fsgs-duplex",
+      "revisionId": "view-context-fsgs-duplex-contexts-v1",
+      "status": "candidate",
+      "label": "FSGS intervention: DUPLEX and endpoint limits",
+      "contextId": "context-fsgs-duplex",
+      "entityIds": [
+        "entity-sparsentan",
+        "entity-proteinuria"
+      ],
+      "relationshipIds": [
+        "relationship-dac6260ed6e9cb982099"
+      ],
+      "assessmentIds": [
+        "assessment-relationship-dac6260ed6e9cb982099-context-fsgs-duplex",
+        "assessment-entity-sparsentan-context-fsgs-duplex",
+        "assessment-entity-proteinuria-context-fsgs-duplex"
+      ],
+      "layoutId": "layout-context-fsgs-duplex"
+    }
+  ],
+  "manifest": {
+    "algorithm": "sha256",
+    "schemaVersion": "0.3.0",
+    "contentDigest": "1c74bdd9259280e17e001444379fcd6345021156fa4e9708a808100652d08f30"
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "claimId": "claim-c3gn-nephritic-stabilization",
+    "quoteMatches": true,
+    "pmid": "22854646",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-nephritic-terminal-qualification",
+    "quoteMatches": true,
+    "pmid": "22854646",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-nephritic-c3gn",
+    "quoteMatches": true,
+    "pmid": "22673887",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-variants-c3gn",
+    "quoteMatches": true,
+    "pmid": "22673887",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-genetic-heterogeneity",
+    "quoteMatches": true,
+    "pmid": "17018561",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-deposits",
+    "quoteMatches": true,
+    "pmid": "22673887",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-renal-presentation",
+    "quoteMatches": true,
+    "pmid": "22673887",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-course-qualification",
+    "quoteMatches": true,
+    "pmid": "22673887",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-anti-fh-function",
+    "quoteMatches": true,
+    "pmid": "25917093",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-anti-fh-qualification",
+    "quoteMatches": true,
+    "pmid": "25917093",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-iptacopan-proteinuria",
+    "quoteMatches": true,
+    "pmid": "41016405",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-cfhr5-protein",
+    "quoteMatches": true,
+    "pmid": "20800271",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-cfhr5-binding",
+    "quoteMatches": true,
+    "pmid": "20800271",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-cfhr5-not-loss",
+    "quoteMatches": true,
+    "pmid": "20800271",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-cfhr5-segregation",
+    "quoteMatches": true,
+    "pmid": "20800271",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-cfhr3-1-segregation",
+    "quoteMatches": true,
+    "pmid": "22626820",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-familial-progression",
+    "quoteMatches": true,
+    "pmid": "21566112",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-modern-autoantibodies",
+    "quoteMatches": true,
+    "pmid": "38344720",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-modern-unknown",
+    "quoteMatches": true,
+    "pmid": "38344720",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-factor-b-convertase",
+    "quoteMatches": true,
+    "pmid": "22854646",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-convertase-c3",
+    "quoteMatches": true,
+    "pmid": "22854646",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-peg-proteinuria",
+    "quoteMatches": true,
+    "pmid": "41337715",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-peg-histology-qualification",
+    "quoteMatches": true,
+    "pmid": "41337715",
+    "note": "Whitespace and XML markup normalized; full-text superscripts flattened; matching is not scientific approval."
+  },
+  {
+    "claimId": "claim-c3gn-ipt-moa",
+    "status": "manual PDF text inspection",
+    "locator": "FDA FABHALTA March 2025 label, section 12.1, pages 9\u201310"
+  },
+  {
+    "claimId": "claim-c3gn-ipt-us-indication",
+    "status": "manual PDF text inspection",
+    "locator": "FDA FABHALTA March 2025 label, section 1.3, page 2"
+  },
+  {
+    "claimId": "claim-c3gn-peg-moa",
+    "status": "manual PDF text inspection",
+    "locator": "FDA EMPAVELI August 2026 label, section 12.1, page 12"
+  },
+  {
+    "claimId": "claim-c3gn-peg-us-indication",
+    "status": "manual PDF text inspection",
+    "locator": "FDA EMPAVELI August 2026 label, sections 1.2 and 14.2; pages 2 and 19\u201322"
+  },
+  {
+    "claimId": "claim-c3gn-iptacopan-infection-limit",
+    "status": "manual PDF text inspection",
+    "locator": "FDA prescribing information boxed warning and section 5.1"
+  },
+  {
+    "claimId": "claim-c3gn-pegcetacoplan-infection-limit",
+    "status": "manual PDF text inspection",
+    "locator": "FDA prescribing information boxed warning and section 5.1"
+  }
+]

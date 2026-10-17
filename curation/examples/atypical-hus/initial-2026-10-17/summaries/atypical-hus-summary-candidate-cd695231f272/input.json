@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "diseaseId": "atypical-hus",
+  "baseReleaseId": "atypical-hus-summary-candidate-531cea347028",
+  "baseContentDigest": "af4fe85d52075c1979e8e153df5ad4416e3916134305c82866072ca93e749001",
+  "scope": "Bounded complement-mediated aHUS: inherited or acquired complement dysregulation at endothelial surfaces, terminal complement injury and thrombotic microangiopathy. Human cohorts, endothelial assays and animal experiments remain distinct. Excludes STEC-HUS, TTP, secondary TMA, DGKE and cobalamin-related TMA. Selected primary genetic, antibody, endothelial and mouse studies; factor B, THBD, triggers and detailed clinical-manifestation sequence remain deferred.",
+  "authoredBy": {
+    "id": "codex-agent",
+    "kind": "agent"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "Complement-mediated aHUS links impaired complement regulation at cell surfaces with renal thrombotic microangiopathy. Human genetic studies identify susceptibility in complement regulators and C3, with incomplete penetrance and variant-specific functional effects. Selected CFI variants impair secretion or surface C3b degradation; CD46 variants impair complement control in cell challenges. Patient anti-factor H IgG inhibits factor H recognition of C3b, while CFHR1/CFHR3 deficiency is associated with the autoantibody-positive subgroup without establishing a deterministic causal sequence. Acute patient serum increases terminal C5b-9 deposition on cultured human microvascular endothelium. In separate C3 D1115N and factor H W1206R mouse models, terminal-pathway genetic perturbations strongly support MAC-dependent renal TMA. C5aR1 contributes differently across models: its removal attenuated clinical disease risk in the C3 model without abolishing TMA, whereas in the factor H model it prevented macrovascular thrombosis but did not reduce renal TMA. These experiments do not establish one universal human causal circuit.",
+      "claimIds": [
+        "claim-ahus-genetic-risk",
+        "claim-ahus-penetrance",
+        "claim-ahus-fi-function",
+        "claim-ahus-cd46-function",
+        "claim-ahus-c3-risk",
+        "claim-ahus-c3-heterogeneity",
+        "claim-ahus-fh-block",
+        "claim-ahus-cfhr-antibody",
+        "claim-ahus-serum-mac",
+        "claim-ahus-glomerular-mac",
+        "claim-ahus-mac-tma",
+        "claim-ahus-c5ar-tma",
+        "claim-ahus-fh-mac-tma",
+        "claim-ahus-fh-c5ar-macro",
+        "claim-ahus-fh-c5ar-renal"
+      ]
+    },
+    {
+      "text": "Endothelial deposition assays depend on the cell system and activation state: unaffected mutation carriers can have abnormal results on activated cells, and remission samples may normalize with or without eculizumab. Deposition therefore cannot alone establish active disease or treatment need. Eculizumab inhibits C5b-9 deposition in glomerular endothelial cultures. Two uncontrolled phase 2 clinical studies reported improved platelet and renal outcomes, including TMA event-free status in 80% of one cohort; absence of a concurrent comparator limits effect attribution. Eculizumab and ravulizumab have verified US aHUS indications to inhibit complement-mediated TMA, excluding STEC-HUS; both inhibit C5 cleavage and carry serious meningococcal infection warnings. Approval and pathway targeting do not imply universal renal recovery or superiority between drugs. This selected, predominantly abstract-based synthesis does not yet map the complete endothelial injury-to-hemolysis, platelet-consumption and kidney-injury sequence, factor B or THBD mechanisms, triggers, plasma exchange or emerging proximal inhibitors. Notice-linked original factor B and ravulizumab trial reports await correction appraisal. Independent scientific review and appraisal calibration remain pending.",
+      "claimIds": [
+        "claim-ahus-carrier-mac",
+        "claim-ahus-remission-mac",
+        "claim-ahus-ecu-mac",
+        "claim-ahus-ecu-response",
+        "claim-ahus-ecu-renal",
+        "claim-ahus-soliris-c5",
+        "claim-ahus-soliris-indication",
+        "claim-ahus-ultomiris-c5",
+        "claim-ahus-ultomiris-indication"
+      ]
+    }
+  ]
+}

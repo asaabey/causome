@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "diseaseId": "atypical-hus",
+  "baseReleaseId": "atypical-hus-appraised-candidate-dfb2884386f7",
+  "baseContentDigest": "878b94fd766ab6aabe6a1bfe2273902631bbf2b7fb4cebd5355711f6f390d6e2",
+  "scope": "Bounded complement-mediated aHUS: inherited or acquired complement dysregulation at endothelial surfaces, terminal complement injury and thrombotic microangiopathy. Human cohorts, endothelial assays and animal experiments remain distinct. Excludes STEC-HUS, TTP, secondary TMA, DGKE and cobalamin-related TMA.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "In 147 aHUS patients, 16 juvenile autoantibody-positive patients had absent or very low CFHR1/CFHR3. IgG from five unrelated aHUS patients inhibited factor H binding to C3b in a functional assay.",
+      "claimIds": [
+        "claim-ahus-cfhr-antibody",
+        "claim-ahus-fh-block"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Association does not establish that deletion causes autoantibodies or that deficiency is sufficient for aHUS. Selected primary-source inspection by an agent; independent domain review pending. Eculizumab binds C5 and inhibits cleavage into C5a/C5b, preventing terminal MAC generation. Drug targeting and approval do not establish every proposed mechanism or benefit in every phenotype.",
+      "claimIds": [
+        "claim-ahus-cfhr-antibody",
+        "claim-ahus-fh-block",
+        "claim-ahus-soliris-c5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "pmid": "41016405",
+    "checkedBy": "Codex agent",
+    "checkedAt": "2026-10-15",
+    "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+    "checkedFields": [
+      "primary-report abstract, study population, endpoint and bounded claim entailment",
+      "Europe PMC core publication types, isRetracted and correction links"
+    ],
+    "noticeMetadata": {
+      "isRetracted": null,
+      "pubTypes": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "Research Support, Non-U.S. Gov't",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {}
+    },
+    "limitations": [
+      "No full-text methods, independent human appraisal, publisher/Crossmark or comprehensive retraction search performed."
+    ]
+  },
+  {
+    "pmid": "25917093",
+    "checkedBy": "Codex agent",
+    "checkedAt": "2026-10-15",
+    "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+    "checkedFields": [
+      "primary-report abstract, study population, endpoint and bounded claim entailment",
+      "Europe PMC core publication types, isRetracted and correction links"
+    ],
+    "noticeMetadata": {
+      "isRetracted": null,
+      "pubTypes": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {}
+    },
+    "limitations": [
+      "No full-text methods, independent human appraisal, publisher/Crossmark or comprehensive retraction search performed."
+    ]
+  },
+  {
+    "pmid": "22673887",
+    "checkedBy": "Codex agent",
+    "checkedAt": "2026-10-15",
+    "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+    "checkedFields": [
+      "primary-report abstract, study population, endpoint and bounded claim entailment",
+      "Europe PMC core publication types, isRetracted and correction links"
+    ],
+    "noticeMetadata": {
+      "isRetracted": null,
+      "pubTypes": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "23364589",
+            "reference": "Kidney Int. 2013 Feb;83(2):331-2. doi: 10.1038/ki.2012.385",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "23364591",
+            "reference": "Kidney Int. 2013 Feb;83(2):332. doi: 10.1038/ki.2012.380",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      }
+    },
+    "limitations": [
+      "No full-text methods, independent human appraisal, publisher/Crossmark or comprehensive retraction search performed."
+    ]
+  },
+  {
+    "pmid": "22854646",
+    "checkedBy": "Codex agent",
+    "checkedAt": "2026-10-15",
+    "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+    "checkedFields": [
+      "primary-report abstract, study population, endpoint and bounded claim entailment",
+      "Europe PMC core publication types, isRetracted and correction links"
+    ],
+    "noticeMetadata": {
+      "isRetracted": null,
+      "pubTypes": {
+        "pubType": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {}
+    },
+    "limitations": [
+      "No full-text methods, independent human appraisal, publisher/Crossmark or comprehensive retraction search performed."
+    ]
+  },
+  {
+    "pmid": "17018561",
+    "checkedBy": "Codex agent",
+    "checkedAt": "2026-10-15",
+    "accessScope": "Europe PMC indexed primary-report abstract inspected by Codex agent, 2026-10-15; full text and methods not inspected",
+    "checkedFields": [
+      "primary-report abstract, study population, endpoint and bounded claim entailment",
+      "Europe PMC core publication types, isRetracted and correction links"
+    ],
+    "noticeMetadata": {
+      "isRetracted": null,
+      "pubTypes": {
+        "pubType": [
+          "Comparative Study",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {}
+    },
+    "limitations": [
+      "No full-text methods, independent human appraisal, publisher/Crossmark or comprehensive retraction search performed."
+    ]
+  }
+]

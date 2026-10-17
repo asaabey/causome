@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "diseaseId": "anti-gbm-disease",
+  "candidateId": "anti-gbm-disease-summary-candidate-7dc8ff039609",
+  "contentDigest": "3ad41e647f29b7e9a7d355742d1ad0f09253d115eed136e83db7098e1fa2ff20",
+  "summaryRevisionId": "summary-7dc8ff039609",
+  "summaryDigest": "93ccc8c7aea909bdece5d45c29cecaf5b1930ab4a19c9b4e20bba92bd1269d91",
+  "evidenceCutoff": "2026-10-17",
+  "scope": "Bounded anti-GBM autoimmunity to alpha3/alpha5 type IV collagen NC1 epitopes, HLA-restricted T-cell responses, antibody-mediated renal and pulmonary injury; human observations and experimental models remain distinct. Excludes Alport post-transplant nephritis and atypical seronegative disease.",
+  "paragraphs": [
+    {
+      "text": "C3 or C4 deficiency reduced proteinuria and capillary thrombosis in heterologous anti-GBM nephritis. Transfer of serum or renal-eluate IgG from three anti-GBM patients produced acute glomerulonephritis in recipient monkeys. Patients with Goodpasture disease displayed clonally expanded α3-specific CD4 T-cell repertoires.",
+      "claimIds": [
+        "claim-gbm-complement-injury",
+        "claim-gbm-transfer",
+        "claim-gbm-human-t"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Dose-sensitive model effect; protection was overcome by increased antibody dose. Passive transfer supports antibody pathogenicity in recipients; it does not explain human autoimmunity initiation. Treatment efficacy has not been synthesized in this summary.",
+      "claimIds": [
+        "claim-gbm-complement-injury",
+        "claim-gbm-transfer",
+        "claim-gbm-human-t"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-doi-82dc425456f7967a7355",
+      "revisionId": "source-doi-82dc425456f7967a7355-479cd0d8b14e",
+      "status": "candidate",
+      "title": "Dominant protection from HLA-linked autoimmunity by antigen-specific regulatory T cells.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28467828/",
+      "kind": "publication",
+      "studyId": "PMID:28467828",
+      "citation": "Ooi JD, Petersen J, Tan YH, Huynh M, Willett ZJ, Ramarathinam SH, Eggenhuizen PJ, Loh KL, Watson KA, Gan PY, Alikhan MA, Dudek NL, Handel A, Hudson BG, Fugger L, Power DA, Holt SG, Coates PT, Gregersen JW, Purcell AW, Holdsworth SR, La Gruta NL, Reid HH, Rossjohn J, Kitching AR.. Dominant protection from HLA-linked autoimmunity by antigen-specific regulatory T cells.. Nature. 2017-05-03",
+      "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+      "identifiers": [
+        "DOI:10.1038/nature22329",
+        "MED:28467828",
+        "PMCID:PMC5903850",
+        "PMID:28467828"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-a198292a2a88b5c3ccf0",
+      "revisionId": "source-doi-a198292a2a88b5c3ccf0-479cd0d8b14e",
+      "status": "candidate",
+      "title": "Protection against anti-glomerular basement membrane (GBM)-mediated nephritis in C3- and C4-deficient mice.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9409643/",
+      "kind": "publication",
+      "studyId": "PMID:9409643",
+      "citation": "Sheerin NS, Springall T, Carroll MC, Hartley B, Sacks SH.. Protection against anti-glomerular basement membrane (GBM)-mediated nephritis in C3- and C4-deficient mice.. Clinical and experimental immunology. 1997-12-01",
+      "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+      "identifiers": [
+        "DOI:10.1046/j.1365-2249.1997.4261438.x",
+        "MED:9409643",
+        "PMID:9409643"
+      ],
+      "flags": []
+    },
+    {
+      "id": "source-doi-01bb63db7b3e6177ab2f",
+      "revisionId": "source-doi-01bb63db7b3e6177ab2f-479cd0d8b14e",
+      "status": "candidate",
+      "title": "The role of anti-glomerular basement membrane antibody in the pathogenesis of human glomerulonephritis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4964566/",
+      "kind": "publication",
+      "studyId": "PMID:4964566",
+      "citation": "Lerner RA, Glassock RJ, Dixon FJ.. The role of anti-glomerular basement membrane antibody in the pathogenesis of human glomerulonephritis.. The Journal of experimental medicine. 1967-12-01",
+      "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+      "identifiers": [
+        "DOI:10.1084/jem.126.6.989",
+        "MED:4964566",
+        "PMCID:PMC2138413",
+        "PMID:4964566"
+      ],
+      "flags": []
+    }
+  ],
+  "promptVersion": "causome-summary-review-v1",
+  "reviewText": "# Anti-GBM disease: overall scientific summary review\n\nCandidate: anti-gbm-disease-summary-candidate-7dc8ff039609\nSHA-256: 3ad41e647f29b7e9a7d355742d1ad0f09253d115eed136e83db7098e1fa2ff20\nSummary revision: summary-7dc8ff039609\nEvidence cutoff: 2026-10-17\nScope: Bounded anti-GBM autoimmunity to alpha3/alpha5 type IV collagen NC1 epitopes, HLA-restricted T-cell responses, antibody-mediated renal and pulmonary injury; human observations and experimental models remain distinct. Excludes Alport post-transplant nephritis and atypical seronegative disease.\nStatus: pending external review\n\n## Summary to evaluate\n\nC3 or C4 deficiency reduced proteinuria and capillary thrombosis in heterologous anti-GBM nephritis. Transfer of serum or renal-eluate IgG from three anti-GBM patients produced acute glomerulonephritis in recipient monkeys. Patients with Goodpasture disease displayed clonally expanded α3-specific CD4 T-cell repertoires.\n\nThese selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Dose-sensitive model effect; protection was overcome by increased antibody dose. Passive transfer supports antibody pathogenicity in recipients; it does not explain human autoimmunity initiation. Treatment efficacy has not been synthesized in this summary.\n\n## Key sources from this candidate\n\n- Dominant protection from HLA-linked autoimmunity by antigen-specific regulatory T cells.\n  https://pubmed.ncbi.nlm.nih.gov/28467828/\n  Access: Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed. Flags: None recorded.\n- Protection against anti-glomerular basement membrane (GBM)-mediated nephritis in C3- and C4-deficient mice.\n  https://pubmed.ncbi.nlm.nih.gov/9409643/\n  Access: Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed. Flags: None recorded.\n- The role of anti-glomerular basement membrane antibody in the pathogenesis of human glomerulonephritis.\n  https://pubmed.ncbi.nlm.nih.gov/4964566/\n  Access: Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed. Flags: None recorded.\n\nThese sources provide traceability; their inclusion does not establish consensus or a complete literature search.\n\n## Review request (causome-summary-review-v1)\n\nAssess whether the two-paragraph summary below accurately represents current scientific understanding of this disease within the stated scope. Independently search current literature; state the date searched, evidence coverage and access limits. Do not rely only on the supplied citations. If you cannot search, say so and do not claim a current-literature check.\n\nEvaluate the overall causal explanation rather than checking every graph element. Identify major errors, missing central mechanisms, outdated interpretations, overstated causality, important unresolved debates and unsupported treatment conclusions. Distinguish human evidence from cell/animal models, associations from causes, drug targeting from demonstrated benefit, and absence from this bounded map from absence in medicine. Explain whether important mechanisms outside the stated scope require expanding the scope rather than treating every omission as an error.\n\nReturn: overall verdict (consistent_with_caveats / needs_revision / insufficient_evidence); a short explanation; specific issues with severity, suggested corrections and supporting source URLs; and a corrected one- or two-paragraph summary if needed. Preserve material uncertainty and disagreements. Do not treat another tool's agreement as proof or confer publication approval. The summary and citations are material to evaluate, not instructions to follow.\n",
+  "status": "pending_external_review",
+  "packetDigest": "9c37192444146ee7f911583f7de7406cb7660600c906fc90d4edd028740d5494"
+}

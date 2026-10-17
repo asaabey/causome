@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-10-17T01:06:43.563Z",
+  "url": "http://127.0.0.1:4328/diseases/anti-gbm-disease/",
+  "status": 200,
+  "views": [
+    {
+      "value": "view-context-gbm-biochemical",
+      "label": "Antigen structure and antibody recognition",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "value": "view-context-gbm-human",
+      "label": "Human renal and immune observations",
+      "nodes": 6,
+      "edges": 4
+    },
+    {
+      "value": "view-context-gbm-monkey",
+      "label": "Patient IgG transfer: monkey model",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "value": "view-context-gbm-mouse-t",
+      "label": "HLA-restricted immunity: mouse model",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "value": "view-context-gbm-mouse-complement",
+      "label": "Complement: heterologous mouse model",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "value": "view-context-gbm-rat-lung",
+      "label": "Pulmonary injury: rat model",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "value": "view-context-gbm-overlap",
+      "label": "ANCA / anti-GBM overlap → ANCA-associated vasculitis",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "value": "view-context-gbm-phase2",
+      "label": "Imlifidase: uncontrolled phase 2a",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "value": "view-context-gbm-standard",
+      "label": "Combined standard treatment: human cohort",
+      "nodes": 2,
+      "edges": 1
+    }
+  ],
+  "therapyNullEndpointVisible": true,
+  "packetStatus": 200,
+  "packetBindsFinalCandidate": true,
+  "curationWorkspace": "anti-gbm-disease",
+  "pageErrors": []
+}

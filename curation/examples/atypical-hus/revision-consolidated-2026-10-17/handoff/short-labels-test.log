@@ -1,0 +1,10 @@
+✔ short labels name entities in each disease preview, so re-curation cannot leave them stale (14.49525ms)
+✔ short-label files reject malformed, untrimmed and overlong labels (0.412417ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 148.717042

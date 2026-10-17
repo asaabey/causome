@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-17",
+  "candidate": "atypical-hus-summary-candidate-cd695231f272",
+  "digest": "ca6d22f09c7c28172d54f6ec9ed5565b5cce5e130d88198a9867c8eb956e2ad8",
+  "checks": [
+    {
+      "command": "node scripts/validate-release.mjs knowledge/diseases/atypical-hus/candidates/atypical-hus-summary-candidate-cd695231f272.json",
+      "exitCode": 0,
+      "log": "candidate-validation.log"
+    },
+    {
+      "command": "pnpm validate",
+      "exitCode": 0,
+      "log": "registry-validation.log"
+    },
+    {
+      "command": "pnpm check",
+      "exitCode": 0,
+      "log": "check.log"
+    },
+    {
+      "command": "pnpm build",
+      "exitCode": 0,
+      "log": "build.log"
+    },
+    {
+      "command": "node --test tests/short-labels.test.mjs",
+      "exitCode": 0,
+      "log": "short-labels-test.log"
+    },
+    {
+      "command": "node curation/workspace/atypical-hus/browser-smoke.mjs",
+      "exitCode": 0,
+      "log": "browser-check.json"
+    }
+  ],
+  "scientificReview": "pending",
+  "calibration": "pending",
+  "externalOverallReview": "not run; Consensus search/fetch exposed but no create_thread tool"
+}

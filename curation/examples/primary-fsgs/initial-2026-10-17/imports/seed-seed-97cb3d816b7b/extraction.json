@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "diseaseId": "primary-fsgs",
+  "baseReleaseId": "primary-fsgs-candidate-001",
+  "baseContentDigest": "0b69b2ac7817c44c0107cb437c15ef3b6cbe846b2db1891cd91265b9a648b596",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "manual-source-check-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "fsgs-serum-permeability",
+      "subject": "entity-circulating-factors",
+      "object": "entity-permeability",
+      "predicate": "stimulates",
+      "text": "Serum from recurrent FSGS patients increased albumin permeability in an isolated-glomerulus assay.",
+      "quote": "The 33 patients with recurrent focal segmental glomerulosclerosis after transplantation had a higher mean",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Human serum applied to isolated glomeruli; recurrent versus nonrecurrent transplant groups",
+      "limitations": [
+        "Ex vivo assay does not identify the factor, prove clinical causation, or apply to all primary FSGS."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-58e7b70bdec8a8a4be97",
+      "paperDigest": "4c191249fe90d0f6055f3afc8791adcbcced797561183d5864d0baec8ce651b0"
+    },
+    {
+      "id": "fsgs-factor-recurrence",
+      "subject": "entity-circulating-factors",
+      "object": "entity-recurrence",
+      "predicate": "is_associated_with",
+      "text": "Circulating permeability activity was associated with FSGS recurrence after transplantation.",
+      "quote": "A circulating factor found in some patients with focal segmental glomerulosclerosis is associated with recurrent disease",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Human transplant cohort and serum permeability measurements",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-58e7b70bdec8a8a4be97",
+      "paperDigest": "4c191249fe90d0f6055f3afc8791adcbcced797561183d5864d0baec8ce651b0"
+    },
+    {
+      "id": "fsgs-nephrin-fsgs",
+      "subject": "entity-anti-nephrin",
+      "object": "entity-primary-fsgs",
+      "predicate": "is_associated_with",
+      "text": "Anti-nephrin antibodies were detected in 7 of 74 adults (9%) with primary FSGS in the multicenter study.",
+      "quote": "7 of 74 (9%) with primary focal segmental glomerulosclerosis",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Human multicenter primary FSGS subgroup",
+      "limitations": [
+        "Minority subgroup; activity correlations and experimental MCD-like findings cannot be assigned to all FSGS."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-5a6802f69e8a23c5ae1d",
+      "paperDigest": "938f2262c2fcb3e055a059095fe91191fb6ce85f796c2a673e8e32f0fd212a00"
+    },
+    {
+      "id": "fsgs-nephrin-binding",
+      "subject": "entity-anti-nephrin",
+      "object": "entity-nephrin",
+      "predicate": "contributes_to",
+      "text": "Nephrin-directed antibodies localized to the slit diaphragm in an active-immunization mouse model.",
+      "quote": "IgG localization to the podocyte slit diaphragm",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Mice actively immunized with recombinant murine nephrin",
+      "limitations": [
+        "MCD-like mouse model; not a demonstration of human FSGS sclerosis or universal antibody causation."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-5a6802f69e8a23c5ae1d",
+      "paperDigest": "938f2262c2fcb3e055a059095fe91191fb6ce85f796c2a673e8e32f0fd212a00"
+    },
+    {
+      "id": "fsgs-nephrin-china",
+      "subject": "entity-anti-nephrin",
+      "object": "entity-primary-fsgs",
+      "predicate": "is_associated_with",
+      "text": "A Chinese cohort including 160 primary FSGS and 436 MCD patients reported anti-nephrin reactivity; its 43% overall prevalence is pooled across diagnoses.",
+      "quote": "Anti-nephrin antibodies were detected in 43% of all patients",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Mixed human MCD/primary FSGS cohort",
+      "limitations": [
+        "Pooled result must not be reported as FSGS-specific prevalence; assay/cohort differences remain unresolved."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-11560631b622a2fc22de",
+      "paperDigest": "0fbb5787bca328a9b81a8e0bc98dc915731be741cecbbed61f7abdbafb2fbeb5"
+    },
+    {
+      "id": "fsgs-nephrin-null",
+      "subject": "entity-anti-nephrin",
+      "object": "entity-primary-fsgs",
+      "predicate": "is_associated_with",
+      "text": "A separate podocytopathy cohort found very low anti-nephrin prevalence with human-cell antigen and no disease enrichment, challenging broad biomarker interpretation.",
+      "quote": "These frequencies were comparable to healthy volunteers.",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "65 native-kidney podocytopathy patients, 34 post-transplant recurrences and controls; antigen-expression comparison",
+      "limitations": [
+        "Mixed podocytopathies, not a primary-FSGS-only estimate; does not exclude a rare pathogenic subset.",
+        "Antigen-dependent cross-reactivity materially limits cross-study comparison."
+      ],
+      "category": "contradicting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-0502288276b52c4eaad8",
+      "paperDigest": "30d2827f146bd25e7ee45d9b824491e926239131d66c8c9853db926cb45dbc89"
+    },
+    {
+      "id": "fsgs-supar-culture",
+      "subject": "entity-supar",
+      "object": "entity-podocyte",
+      "predicate": "contributes_to",
+      "text": "suPAR-associated podocyte injury in patient-serum culture assays was inhibited by anti-uPAR blockade.",
+      "quote": "podocyte injury caused by sera from FSGS patients is mediated by CD40 and suPAR",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Cultured human podocytes exposed to patient serum/isolated antibodies",
+      "limitations": [
+        "Culture blockade does not establish suPAR as a universal circulating cause or an effective clinical target."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-f04252a6870b993813bf",
+      "paperDigest": "48ca5af48928047e33bf49565fd5c06c90cf2056ed4cf92af1e361236e665b79"
+    },
+    {
+      "id": "fsgs-cd40-culture",
+      "subject": "entity-anti-cd40",
+      "object": "entity-podocyte",
+      "predicate": "contributes_to",
+      "text": "Patient-derived anti-CD40 antibodies were studied in human podocyte injury assays with rescue by pathway blockade.",
+      "quote": "Targeted blockade of suPAR and CD40 pathways with novel human antibodies showed inhibition of podocyte injury in FSGS.",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Cultured human podocytes; anti-CD40 autoantibody isolation and blockade",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-f04252a6870b993813bf",
+      "paperDigest": "48ca5af48928047e33bf49565fd5c06c90cf2056ed4cf92af1e361236e665b79"
+    },
+    {
+      "id": "fsgs-supar-null",
+      "subject": "entity-supar",
+      "object": "entity-podocyte",
+      "predicate": "contributes_to",
+      "text": "Serum suPAR was not significantly higher in the FSGS group in a prospective Brazilian biopsy cohort.",
+      "quote": "serum suPAR was not significantly higher in the FSGS group",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "70 human biopsies including 18 FSGS cases",
+      "limitations": [
+        "FSGS classification not restricted to primary disease; biomarker specificity test does not directly refute culture toxicity.",
+        "Indirect qualification of generalizing the suPAR injury hypothesis; this is a biomarker null finding, not a direct culture replication."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "hypothesis",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-1e277fce80d1639fd113",
+      "paperDigest": "c2f906b1438dfa4eaeb6e7ef8c13fdf7c9f1cf286a2a6c39365984dcb55129dc"
+    },
+    {
+      "id": "fsgs-ifng-current",
+      "subject": "entity-ifng",
+      "object": "entity-apol1-current",
+      "predicate": "stimulates",
+      "text": "Interferon gamma induced an APOL1-dependent cation current in primary human podocytes.",
+      "quote": "CRISPR knockout of APOL1 in human primary podocytes abrogates the IFNγ-induced, antibody-sensitive current.",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Primary human podocyte culture with IFNγ, CRISPR knockout and antibody inhibition",
+      "limitations": [
+        "Culture response; not proof that interferon is required in every APOL1-associated patient."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-d2ab11f0d2522aeeb78a",
+      "paperDigest": "1ba207d3909e58f840dcb58c4c64eba2ef90429e7cf09da5e5f1cc763fc8efd8"
+    },
+    {
+      "id": "fsgs-apol1-current",
+      "subject": "entity-apol1",
+      "object": "entity-apol1-current",
+      "predicate": "stimulates",
+      "text": "Induced G1 expression produced sodium import and potassium efflux in HEK293 experiments.",
+      "quote": "G1-mediated Na+ import/K+ efflux",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Inducible APOL1 G1 HEK293 cells",
+      "limitations": [
+        "Overexpression system; G1 result does not by itself establish identical G2 effects or penetrance in humans."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-f3e8766ddc81e419756f",
+      "paperDigest": "eb8b5d68120f754a4c7c88c773837fd40f1697ad277ddde3fdc503f20d5c2aa8"
+    },
+    {
+      "id": "fsgs-current-injury",
+      "subject": "entity-apol1-current",
+      "object": "entity-podocyte",
+      "predicate": "contributes_to",
+      "text": "IFNγ-induced APOL1 G1 in transgenic mouse podocytes produced ion-flux and injury phenotypes reversible by VX-147.",
+      "quote": "podocyte injury, and proteinuria, all reversed by VX-147.",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "APOL1 G1 transgenic mice and isolated mouse podocytes",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-f3e8766ddc81e419756f",
+      "paperDigest": "eb8b5d68120f754a4c7c88c773837fd40f1697ad277ddde3fdc503f20d5c2aa8"
+    },
+    {
+      "id": "fsgs-inax-channel",
+      "subject": "entity-inaxaplin",
+      "object": "entity-apol1-current",
+      "predicate": "inhibits",
+      "text": "Inaxaplin inhibited APOL1 channel function in preclinical cell assays.",
+      "quote": "inaxaplin selectively inhibited APOL1 channel function in vitro",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Tetracycline-inducible APOL1-expressing HEK293 cells",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-9bc822ea3202e8cbecd8",
+      "paperDigest": "47aa826e06972a5c39c424d2518b418cd443e1a7c185b85227f0ab581f47c322"
+    },
+    {
+      "id": "fsgs-inax-protein",
+      "subject": "entity-inaxaplin",
+      "object": "entity-proteinuria",
+      "predicate": "inhibits",
+      "text": "In a single-group phase 2a study, 13 adherent participants with two APOL1 risk variants and biopsy-proven FSGS had a mean 47.6% proteinuria reduction at 13 weeks.",
+      "quote": "the mean change from the baseline urinary protein-to-creatinine ratio at week 13 was -47.6%",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "16 enrolled human participants; 13 met adherence threshold",
+      "limitations": [
+        "Uncontrolled small short-term trial; no randomized effect estimate, established kidney-survival benefit or approval inference."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "interventional",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-9bc822ea3202e8cbecd8",
+      "paperDigest": "47aa826e06972a5c39c424d2518b418cd443e1a7c185b85227f0ab581f47c322"
+    },
+    {
+      "id": "fsgs-loss-sclerosis",
+      "subject": "entity-podocyte-loss",
+      "object": "entity-sclerosis",
+      "predicate": "contributes_to",
+      "text": "Toxin-induced podocyte depletion produced focal segmental sclerosis in transgenic rats.",
+      "quote": "focal segmental glomerulosclerosis, mild persistent proteinuria",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Podocyte-specific human toxin receptor transgenic rats",
+      "limitations": [
+        "Generic final-pathway animal model; does not establish the initiating mechanism in primary human FSGS."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "causal",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-08cc0baaa9d0893aa68c",
+      "paperDigest": "788317cfa84eaf4d4f11347faae5e582aeb885439106d9a4c9b724cc4645cf5d"
+    },
+    {
+      "id": "fsgs-loss-protein",
+      "subject": "entity-podocyte-loss",
+      "object": "entity-proteinuria",
+      "predicate": "contributes_to",
+      "text": "Increasing experimental podocyte depletion caused persistent proteinuria in transgenic rats.",
+      "quote": "sustained high-grade proteinuria and reduced renal function",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "Podocyte-specific toxin receptor transgenic rats",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "causal",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-08cc0baaa9d0893aa68c",
+      "paperDigest": "788317cfa84eaf4d4f11347faae5e582aeb885439106d9a4c9b724cc4645cf5d"
+    },
+    {
+      "id": "fsgs-spar-protein",
+      "subject": "entity-sparsentan",
+      "object": "entity-proteinuria",
+      "predicate": "inhibits",
+      "text": "DUPLEX showed greater partial proteinuria remission with sparsentan than irbesartan at 36 weeks (42% versus 26%).",
+      "quote": "42.0% in the sparsentan group and 26.0% in the irbesartan group",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "371 randomized FSGS patients without known secondary causes; genetic cases included",
+      "limitations": [
+        "Mixed FSGS eligibility; not proof of immunologic mechanism or applicability of current indication to nephrotic primary FSGS."
+      ],
+      "category": "supporting",
+      "evidenceType": "randomized_trial",
+      "causalInterpretation": "interventional",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-82728a5c8c4285ed45be",
+      "paperDigest": "cd36545212096be9baf869e0dcdc8a1c3703126c3049de880d136aa8d6d5f0a4"
+    },
+    {
+      "id": "fsgs-spar-egfr",
+      "subject": "entity-sparsentan",
+      "object": "entity-proteinuria",
+      "predicate": "inhibits",
+      "text": "Despite greater proteinuria reduction, DUPLEX found no significant between-group eGFR-slope difference at 108 weeks.",
+      "quote": "there were no significant between-group differences in the eGFR slope",
+      "quoteLocation": "Europe PMC indexed primary-report abstract",
+      "studySystem": "DUPLEX active-controlled randomized trial",
+      "limitations": [
+        "Surrogate improvement must not be described as demonstrated overall trial kidney-function preservation."
+      ],
+      "category": "qualifying",
+      "evidenceType": "randomized_trial",
+      "causalInterpretation": "interventional",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-fsgs-selected",
+      "paperKey": "doi-82728a5c8c4285ed45be",
+      "paperDigest": "cd36545212096be9baf869e0dcdc8a1c3703126c3049de880d136aa8d6d5f0a4"
+    }
+  ]
+}

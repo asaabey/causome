@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "diseaseId": "c3-glomerulonephritis",
+  "baseReleaseId": "c3-glomerulonephritis-appraised-candidate-80e1ca3d8ba0",
+  "baseContentDigest": "b3ff2713e6e5c147c60440580a54aa8803b69afb33e0808244cec981dfadd52c",
+  "scope": "Bounded C3GN map: alternative complement pathway dysregulation, acquired convertase stabilization, complement-regulatory variants and glomerular complement deposition. Dense deposit disease is excluded as a phenotype; mixed C3 glomerulopathy studies are labelled and cannot establish C3GN-specific effects. Infection-related and immune-complex glomerulonephritis are excluded.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-15",
+  "paragraphs": [
+    {
+      "text": "Glomerular proteomics identified alternative-pathway and terminal-complement proteins in the C3GN case series. Most patients with native kidney disease had stable renal function during reported follow-up, qualifying an inevitable progressive-failure interpretation. Patient nephritic-factor IgG stabilized alternative-pathway C3 convertase in biochemical assays.",
+      "claimIds": [
+        "claim-c3gn-deposits",
+        "claim-c3gn-course-qualification",
+        "claim-c3gn-nephritic-stabilization"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Deposited proteins do not by themselves prove the sequence or sufficiency of injury mechanisms. Abstract-only source inspection; independent domain review pending. Treatment efficacy has not been synthesized in this summary.",
+      "claimIds": [
+        "claim-c3gn-deposits",
+        "claim-c3gn-course-qualification",
+        "claim-c3gn-nephritic-stabilization"
+      ]
+    }
+  ]
+}

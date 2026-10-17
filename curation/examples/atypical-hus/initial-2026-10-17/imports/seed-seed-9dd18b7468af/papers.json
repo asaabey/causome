@@ -1,0 +1,332 @@
+[
+  {
+    "key": "doi-fdc36fb463f35af9e660",
+    "identifiers": [
+      "DOI:10.1182/blood-2007-02-071472",
+      "MED:17495132",
+      "PMID:17495132"
+    ],
+    "title": "Anti factor H autoantibodies block C-terminal recognition function of factor H in hemolytic uremic syndrome.",
+    "authors": "Józsi M, Strobel S, Dahse HM, Liu WS, Hoyer PF, Oppermann M, Skerka C, Zipfel PF.",
+    "publishedAt": "2007-05-10",
+    "journal": "Blood",
+    "abstract": "The atypical form of the kidney disease hemolytic uremic syndrome (aHUS) is associated with defective complement regulation. In addition to mutations in complement regulators, factor H (FH)-specific autoantibodies have been reported for aHUS patients. The aim of the present study was to understand the role of these autoantibodies in aHUS. First, the binding sites of FH autoantibodies from 5 unrelated aHUS patients were mapped using recombinant FH fragments and competitor antibodies. For all 5 autoantibodies, the binding site was localized to the FH C-terminus. In a functional assay, isolated patient IgG inhibited FH binding to C3b. In addition, autoantibody-positive patients' plasma caused enhanced hemolysis of sheep erythrocytes, which was reversed by adding FH in excess. These results suggest that aHUS-associated FH autoantibodies mimic the effect of C-terminal FH mutations, as they inhibit the regulatory function of FH at cell surfaces by blocking its C-terminal recognition region.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17495132/",
+    "doi": "10.1182/blood-2007-02-071472",
+    "pmid": "17495132",
+    "pmcid": null,
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-ffc61bb297b66c65b8b7",
+    "identifiers": [
+      "DOI:10.1182/blood-2007-09-109876",
+      "MED:18006700",
+      "PMID:18006700"
+    ],
+    "title": "Factor H autoantibodies in atypical hemolytic uremic syndrome correlate with CFHR1/CFHR3 deficiency.",
+    "authors": "Józsi M, Licht C, Strobel S, Zipfel SL, Richter H, Heinen S, Zipfel PF, Skerka C.",
+    "publishedAt": "2007-11-15",
+    "journal": "Blood",
+    "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a severe renal disease that is associated with defective complement regulation caused by multiple factors. We previously described the deficiency of factor H-related proteins CFHR1 and CFHR3 as predisposing factor for aHUS. Here we identify in an extended cohort of 147 aHUS patients that 16 juvenile individuals (ie, 11%) who either lacked the CFHR1/CFHR3 completely (n = 14) or showed extremely low CFHR1/CFHR3 plasma levels (n = 2) are positive for factor H (CFH) autoantibodies. The binding epitopes of all 16 analyzed autoantibodies were localized to the C-terminal recognition region of factor H, which represents a hot spot for aHUS mutations. Thus we define a novel subgroup of aHUS, termed DEAP HUS (deficiency of CFHR proteins and CFH autoantibody positive) that is characterized by a combination of genetic and acquired factors. Screening for both factors is obviously relevant for HUS patients as reduction of CFH autoantibody levels represents a therapeutic option.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18006700/",
+    "doi": "10.1182/blood-2007-09-109876",
+    "pmid": "18006700",
+    "pmcid": null,
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-2e9ed71bf11faf232b51",
+    "identifiers": [
+      "DOI:10.1681/asn.2012090884",
+      "MED:23431077",
+      "PMCID:PMC3582207",
+      "PMID:23431077"
+    ],
+    "title": "Combined complement gene mutations in atypical hemolytic uremic syndrome influence clinical phenotype.",
+    "authors": "Bresin E, Rurali E, Caprioli J, Sanchez-Corral P, Fremeaux-Bacchi V, Rodriguez de Cordoba S, Pinto S, Goodship TH, Alberti M, Ribes D, Valoti E, Remuzzi G, Noris M, European Working Party on Complement Genetics in Renal Diseases.",
+    "publishedAt": "2013-02-21",
+    "journal": "Journal of the American Society of Nephrology : JASN",
+    "abstract": "Several abnormalities in complement genes reportedly contribute to atypical hemolytic uremic syndrome (aHUS), but incomplete penetrance suggests that additional factors are necessary for the disease to manifest. Here, we sought to describe genotype-phenotype correlations among patients with combined mutations, defined as mutations in more than one complement gene. We screened 795 patients with aHUS and identified single mutations in 41% and combined mutations in 3%. Only 8%-10% of patients with mutations in CFH, C3, or CFB had combined mutations, whereas approximately 25% of patients with mutations in MCP or CFI had combined mutations. The concomitant presence of CFH and MCP risk haplotypes significantly increased disease penetrance in combined mutated carriers, with 73% penetrance among carriers with two risk haplotypes compared with 36% penetrance among carriers with zero or one risk haplotype. Among patients with CFH or CFI mutations, the presence of mutations in other genes did not modify prognosis; in contrast, 50% of patients with combined MCP mutation developed end stage renal failure within 3 years from onset compared with 19% of patients with an isolated MCP mutation. Patients with combined mutations achieved remission with plasma treatment similar to patients with single mutations. Kidney transplant outcomes were worse, however, for patients with combined MCP mutation compared with an isolated MCP mutation. In summary, these data suggest that genotyping for the risk haplotypes in CFH and MCP may help predict the risk of developing aHUS in unaffected carriers of mutations. Furthermore, screening patients with aHUS for all known disease-associated genes may inform decisions about kidney transplantation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23431077/",
+    "doi": "10.1681/asn.2012090884",
+    "pmid": "23431077",
+    "pmcid": "PMC3582207",
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-78dd5f2110ee94ce5ca4",
+    "identifiers": [
+      "DOI:10.1182/blood-2014-02-558296",
+      "MED:25037630",
+      "PMCID:PMC4162105",
+      "PMID:25037630"
+    ],
+    "title": "Dynamics of complement activation in aHUS and how to monitor eculizumab therapy.",
+    "authors": "Noris M, Galbusera M, Gastoldi S, Macor P, Banterla F, Bresin E, Tripodo C, Bettoni S, Donadelli R, Valoti E, Tedesco F, Amore A, Coppo R, Ruggenenti P, Gotti E, Remuzzi G.",
+    "publishedAt": "2014-07-18",
+    "journal": "Blood",
+    "abstract": "Atypical hemolytic-uremic syndrome (aHUS) is associated with genetic complement abnormalities/anti-complement factor H antibodies, which paved the way to treatment with eculizumab. We studied 44 aHUS patients and their relatives to (1) test new assays of complement activation, (2) verify whether such abnormality occurs also in unaffected mutation carriers, and (3) search for a tool for eculizumab titration. An abnormal circulating complement profile (low C3, high C5a, or SC5b-9) was found in 47% to 64% of patients, irrespective of disease phase. Acute aHUS serum, but not serum from remission, caused wider C3 and C5b-9 deposits than control serum on unstimulated human microvascular endothelial cells (HMEC-1). In adenosine 5'-diphosphate-activated HMEC-1, also sera from 84% and 100% of patients in remission, and from all unaffected mutation carriers, induced excessive C3 and C5b-9 deposits. At variance, in most patients with C3 glomerulopathies/immune complex-associated membranoproliferative glomerulonephritis, serum-induced endothelial C5b-9 deposits were normal. In 8 eculizumab-treated aHUS patients, C3/SC5b-9 circulating levels did not change posteculizumab, whereas serum-induced endothelial C5b-9 deposits normalized after treatment, paralleled or even preceded remission, and guided drug dosing and timing. These results point to efficient complement inhibition on endothelium for aHUS treatment. C5b-9 endothelial deposits might help monitor eculizumab effectiveness, avoid drug overexposure, and save money considering the extremely high cost of the drug.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25037630/",
+    "doi": "10.1182/blood-2014-02-558296",
+    "pmid": "25037630",
+    "pmcid": "PMC4162105",
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "25214194",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-54336a4bb12635f02233",
+    "identifiers": [
+      "DOI:10.3389/fimmu.2023.1206409",
+      "MED:37954621",
+      "PMCID:PMC10634509",
+      "PMID:37954621"
+    ],
+    "title": "Modeling complement activation on human glomerular microvascular endothelial cells.",
+    "authors": "Stevens KH, Baas LM, van der Velden TJAM, Bouwmeester RN, van Dillen N, Dorresteijn EM, van Zuilen AD, Wetzels JFM, Michels MAHM, van de Kar NCAJ, van den Heuvel LP.",
+    "publishedAt": "2023-10-25",
+    "journal": "Frontiers in immunology",
+    "abstract": "Introduction Atypical hemolytic uremic syndrome (aHUS) is a rare kidney disease caused by dysregulation of the complement alternative pathway. The complement dysregulation specifically leads to damage to the glomerular endothelium. To further understand aHUS pathophysiology, we validated an ex vivo model for measuring complement deposition on both control and patient human glomerular microvascular endothelial cells (GMVECs). Methods Endothelial cells were incubated with human test sera and stained with an anti-C5b-9 antibody to visualize and quantify complement depositions on the cells with immunofluorescence microscopy. Results First, we showed that zymosan-activated sera resulted in increased endothelial C5b-9 depositions compared to normal human serum (NHS). The levels of C5b-9 depositions were similar between conditionally immortalized (ci)GMVECs and primary control GMVECs. The protocol with ciGMVECs was further validated and we additionally generated ciGMVECs from an aHUS patient. The increased C5b-9 deposition on control ciGMVECs by zymosan-activated serum could be dose-dependently inhibited by adding the C5 inhibitor eculizumab. Next, sera from five aHUS patients were tested on control ciGMVECs. Sera from acute disease phases of all patients showed increased endothelial C5b-9 deposition levels compared to NHS. The remission samples showed normalized C5b-9 depositions, whether remission was reached with or without complement blockage by eculizumab. We also monitored the glomerular endothelial complement deposition of an aHUS patient with a hybrid complement factor H (CFH)/CFH-related 1 gene during follow-up. This patient had already chronic kidney failure and an ongoing deterioration of kidney function despite absence of markers indicating an aHUS flare. Increased C5b-9 depositions on ciGMVECs were observed in all samples obtained throughout different diseases phases, except for the samples with eculizumab levels above target. We then tested the samples on the patient's own ciGMVECs. The C5b-9 deposition pattern was comparable and these aHUS patient ciGMVECs also responded similar to NHS as control ciGMVECs. Discussion In conclusion, we demonstrate a robust and reliable model to adequately measure C5b-9-based complement deposition on human control and patient ciGMVECs. This model can be used to study the pathophysiological mechanisms of aHUS or other diseases associated with endothelial complement activation ex vivo .",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37954621/",
+    "doi": "10.3389/fimmu.2023.1206409",
+    "pmid": "37954621",
+    "pmcid": "PMC10634509",
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal; PMC10634509 full text methods/results/discussion inspected",
+    "openAccess": true,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-4a7a2e6f943928c5d468",
+    "identifiers": [
+      "DOI:10.1182/blood-2008-01-133702",
+      "MED:18796626",
+      "PMCID:PMC2597601",
+      "PMID:18796626"
+    ],
+    "title": "Mutations in complement C3 predispose to development of atypical hemolytic uremic syndrome.",
+    "authors": "Frémeaux-Bacchi V, Miller EC, Liszewski MK, Strain L, Blouin J, Brown AL, Moghal N, Kaplan BS, Weiss RA, Lhotta K, Kapur G, Mattoo T, Nivet H, Wong W, Gie S, Hurault de Ligny B, Fischbach M, Gupta R, Hauhart R, Meunier V, Loirat C, Dragon-Durey MA, Fridman WH, Janssen BJ, Goodship TH, Atkinson JP.",
+    "publishedAt": "2008-09-16",
+    "journal": "Blood",
+    "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a disease of complement dysregulation. In approximately 50% of patients, mutations have been described in the genes encoding the complement regulators factor H, MCP, and factor I or the activator factor B. We report here mutations in the central component of the complement cascade, C3, in association with aHUS. We describe 9 novel C3 mutations in 14 aHUS patients with a persistently low serum C3 level. We have demonstrated that 5 of these mutations are gain-of-function and 2 are inactivating. This establishes C3 as a susceptibility factor for aHUS.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18796626/",
+    "doi": "10.1182/blood-2008-01-133702",
+    "pmid": "18796626",
+    "pmcid": "PMC2597601",
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-b8ffa5b97382ec69abe9",
+    "identifiers": [
+      "DOI:10.1056/nejmoa1208981",
+      "MED:23738544",
+      "PMID:23738544"
+    ],
+    "title": "Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome.",
+    "authors": "Legendre CM, Licht C, Muus P, Greenbaum LA, Babu S, Bedrosian C, Bingham C, Cohen DJ, Delmas Y, Douglas K, Eitner F, Feldkamp T, Fouque D, Furman RR, Gaber O, Herthelius M, Hourmant M, Karpman D, Lebranchu Y, Mariat C, Menne J, Moulin B, Nürnberger J, Ogawa M, Remuzzi G, Richard T, Sberro-Soussan R, Severino B, Sheerin NS, Trivelli A, Zimmerhackl LB, Goodship T, Loirat C.",
+    "publishedAt": "2013-06-01",
+    "journal": "The New England journal of medicine",
+    "abstract": "Background Atypical hemolytic-uremic syndrome is a genetic, life-threatening, chronic disease of complement-mediated thrombotic microangiopathy. Plasma exchange or infusion may transiently maintain normal levels of hematologic measures but does not treat the underlying systemic disease. Methods We conducted two prospective phase 2 trials in which patients with atypical hemolytic-uremic syndrome who were 12 years of age or older received eculizumab for 26 weeks and during long-term extension phases. Patients with low platelet counts and renal damage (in trial 1) and those with renal damage but no decrease in the platelet count of more than 25% for at least 8 weeks during plasma exchange or infusion (in trial 2) were recruited. The primary end points included a change in the platelet count (in trial 1) and thrombotic microangiopathy event-free status (no decrease in the platelet count of >25%, no plasma exchange or infusion, and no initiation of dialysis) (in trial 2). Results A total of 37 patients (17 in trial 1 and 20 in trial 2) received eculizumab for a median of 64 and 62 weeks, respectively. Eculizumab resulted in increases in the platelet count; in trial 1, the mean increase in the count from baseline to week 26 was 73×10(9) per liter (P&lt;0.001). In trial 2, 80% of the patients had thrombotic microangiopathy event-free status. Eculizumab was associated with significant improvement in all secondary end points, with continuous, time-dependent increases in the estimated glomerular filtration rate (GFR). In trial 1, dialysis was discontinued in 4 of 5 patients. Earlier intervention with eculizumab was associated with significantly greater improvement in the estimated GFR. Eculizumab was also associated with improvement in health-related quality of life. No cumulative toxicity of therapy or serious infection-related adverse events, including meningococcal infections, were observed through the extension period. Conclusions Eculizumab inhibited complement-mediated thrombotic microangiopathy and was associated with significant time-dependent improvement in renal function in patients with atypical hemolytic-uremic syndrome. (Funded by Alexion Pharmaceuticals; C08-002 ClinicalTrials.gov numbers, NCT00844545 [adults] and NCT00844844 [adolescents]; C08-003 ClinicalTrials.gov numbers, NCT00838513 [adults] and NCT00844428 [adolescents]).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23738544/",
+    "doi": "10.1056/nejmoa1208981",
+    "pmid": "23738544",
+    "pmcid": null,
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "24088105",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "24088106",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "24088107",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "24088108",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "24088109",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-f6abbde31d7be44d2294",
+    "identifiers": [
+      "DOI:10.1016/j.kint.2024.12.016",
+      "MED:39848404",
+      "PMID:39848404"
+    ],
+    "title": "The membrane attack complex drives thrombotic microangiopathy in complement mediated atypical hemolytic uremic syndrome.",
+    "authors": "Smith-Jackson K, Walsh P, Zelek WM, Hoyler T, Martinic MM, Thompson G, Gibson BG, Connelly C, Pappworth IY, Murphy MJ, Kavanagh D, Marchbank KJ.",
+    "publishedAt": "2025-01-21",
+    "journal": "Kidney international",
+    "abstract": "Introduction of complement (C) inhibition into clinical practice has revolutionized the treatment of patients with complement-mediated atypical hemolytic syndrome (aHUS). Our C3 D1115N mouse model, engineered around a gain of function point mutation in C3, is associated with complement mediated aHUS in man, allowing us to study the clinical disease in a preclinical model. Backcrossing our model onto C7 deficient and C5aR1 deficient mice enabled further determination of the roles of the C5a-C5aR1 axis and C5b-9 (the membrane attack complex) on kidney disease. C7 deficiency completely abolished both clinical and histological evidence of disease. Removing C5aR1 (CD88) attenuated the risk of developing clinical disease, but mice still developed thrombotic microangiopathy. Therapeutic inhibition strengthened our genetic findings showing both anti-C7 therapy and an oral C5aR1 antagonist, when used before evidence of significant kidney injury, prevented mice from succumbing to disease. However, there was ongoing histological disease within mice treated with the C5aR1 antagonist. Our data suggest that both C5aR1 and C7 play a role in the development of the conditions required for thrombotic microangiopathy of the kidney. While disrupting the C5a-C5aR1 axis is beneficial, our genetic and therapeutic studies showed that thrombotic microangiopathy of the kidney can still develop and ultimately our data confirm that the membrane attack complex is required to develop thrombotic microangiopathy of the kidney. Overall, our study shows that in addition to requiring alternative pathway dysregulation, local generation of membrane attack complex within the kidney is also critical to drive disease pathology in complement-mediated aHUS.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39848404/",
+    "doi": "10.1016/j.kint.2024.12.016",
+    "pmid": "39848404",
+    "pmcid": null,
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal",
+    "openAccess": false,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-421026d667ebce72edc9",
+    "identifiers": [
+      "DOI:10.1016/j.kint.2019.01.009",
+      "MED:30910380",
+      "PMCID:PMC10084839",
+      "PMID:30910380"
+    ],
+    "title": "Differential contribution of C5aR and C5b-9 pathways to renal thrombic microangiopathy and macrovascular thrombosis in mice carrying an atypical hemolytic syndrome-related factor H mutation.",
+    "authors": "Ueda Y, Miwa T, Ito D, Kim H, Sato S, Gullipalli D, Zhou L, Golla M, Song D, Dunaief JL, Palmer MB, Song WC.",
+    "publishedAt": "2019-02-27",
+    "journal": "Kidney international",
+    "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a form of thrombotic microangiopathy (TMA) caused by dysregulated complement activation. Clinically, aHUS is effectively treated by an anti-C5 monoclonal antibody (mAb) but whether the disease is mediated by the C5a receptor (C5aR) or C5b-9 pathway, or both, is unknown. Here we address this in a factor H mutant mouse (FH R/R ) which developed complement-mediated TMA as well as macrovascular thrombosis caused by an aHUS-related factor H point mutation (mouse W1206R, corresponding to human W1183R). C5 deficiency and anti-C5 mAb treatment blocked all disease manifestations in FH R/R mice. C5aR1 gene deficiency prevented macrovascular thrombosis in various organs but did not improve survival or reduce renal TMA. Conversely, C6 or C9 deficiency significantly improved survival and markedly diminished renal TMA but did not prevent macrovascular thrombosis. Interestingly, as they aged both FH R/R C6 -/- and FH R/R C9 -/- mice developed glomerular disease reminiscent of C3 glomerulonephritis. Thus, C5aR and C5b-9 pathways drove different aspects of disease in FH R/R mice with the C5aR pathway being responsible for macrovascular thrombosis and chronic inflammatory injury while the C5b-9 pathway caused renal TMA. Our data provide new understanding of the pathogenesis of complement-mediated TMA and macrovascular thrombosis in FH R/R mice and suggest that C5 blockade is more effective for the treatment of aHUS than selectively targeting the C5aR or C5b-9 pathway alone.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30910380/",
+    "doi": "10.1016/j.kint.2019.01.009",
+    "pmid": "30910380",
+    "pmcid": "PMC10084839",
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "31229026",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-12e23ce5916d8f3ac225",
+    "identifiers": [
+      "DOI:10.1002/eji.200939280",
+      "MED:19877009",
+      "PMID:19877009"
+    ],
+    "title": "Mutations in complement factor I as found in atypical hemolytic uremic syndrome lead to either altered secretion or altered function of factor I.",
+    "authors": "Nilsson SC, Kalchishkova N, Trouw LA, Fremeaux-Bacchi V, Villoutreix BO, Blom AM.",
+    "publishedAt": "2010-01-01",
+    "journal": "European journal of immunology",
+    "abstract": "The complement system is regulated by inhibitors such as factor I (FI), a serine protease that degrades activated complement factors C4b and C3b in the presence of specific cofactors. Mutations and polymorphisms in FI and its cofactors are associated with atypical hemolytic uremic syndrome (aHUS). All 14 complement factor I mutations associated with aHUS analyzed in this study were heterozygous and generated premature stop codons (six) or amino acid substitutions (eight). Almost all of the mutants were expressed by human embryonic kidney 293 cells but only six mutants were secreted into the medium, three of which were at lower levels than WT. The remaining eight mutants were not secreted but sensitive to deglycosylation with endoglycosidase H, indicating that they were retained early in the secretory pathway. Six secreted mutants were purified and five of them were functionally altered in degradation of C4b/C3b in the fluid-phase in the presence of various cofactors and on endothelial cells. Three mutants cleaved surface-bound C3b less efficiently than WT. The D501N mutant was severely impaired both in solution and on surface irrespective of the cofactor used. In conclusion, mutations in complement factor I affect both secretion and function of FI, which leads to impaired regulation of the complement system in aHUS.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19877009/",
+    "doi": "10.1002/eji.200939280",
+    "pmid": "19877009",
+    "pmcid": null,
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-6ba5c495fa276fb41d2c",
+    "identifiers": [
+      "DOI:10.1182/blood-2007-04-084533",
+      "MED:17914026",
+      "PMCID:PMC2200836",
+      "PMID:17914026"
+    ],
+    "title": "Membrane cofactor protein mutations in atypical hemolytic uremic syndrome (aHUS), fatal Stx-HUS, C3 glomerulonephritis, and the HELLP syndrome.",
+    "authors": "Fang CJ, Fremeaux-Bacchi V, Liszewski MK, Pianetti G, Noris M, Goodship TH, Atkinson JP.",
+    "publishedAt": "2007-10-03",
+    "journal": "Blood",
+    "abstract": "The hemolytic uremic syndrome (HUS) is a triad of microangiopathic hemolytic anemia, thrombocytopenia, and renal impairment. Genetic studies demonstrate that heterozygous mutations of membrane cofactor protein (MCP;CD46) predispose to atypical HUS (aHUS), which is not associated with exposure to Shiga toxin (Stx). Among the initial 25 MCP mutations in patients with aHUS were 2, R69W and A304V, that were expressed normally and for which no dysfunction was found. The R69W mutation is in complement control protein module 2, while A304V is in the hydrophobic transmembrane domain. In addition to 3 patients with aHUS, the A304V mutation was identified in 1 patient each with fatal Stx-HUS, the HELLP (hemolysis, elevated liver enzymes, and low platelets) syndrome, and glomerulonephritis with C3 deposits. A major goal was to assess if these putative mutations lead to defective complement regulation. Permanent cell lines expressing the mutated proteins were complement \"challenged,\" and membrane control of C3 fragment deposition was monitored. Both the R69W and A304V MCP mutations were deficient in their ability to control the alternative pathway of complement activation on a cell surface, illustrating the importance of modeling transmembrane proteins in situ.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17914026/",
+    "doi": "10.1182/blood-2007-04-084533",
+    "pmid": "17914026",
+    "pmcid": "PMC2200836",
+    "accessScope": "Europe PMC primary-report core abstract and metadata inspected by Codex agent 2026-10-17; no full methods appraisal",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  }
+]

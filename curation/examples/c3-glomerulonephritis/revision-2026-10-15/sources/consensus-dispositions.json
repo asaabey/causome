@@ -1,0 +1,951 @@
+[
+  {
+    "id": "03d48dfcfd7a573ba9aace2201216e7f",
+    "title": "Defining Nephritic Factors as Diverse Drivers of Systemic Complement Dysregulation in C3 Glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/03d48dfcfd7a573ba9aace2201216e7f/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms",
+      "challenges"
+    ],
+    "decision": "mapped/retained",
+    "reason": "Mapped modern cohort association and unknown-driver qualification; PMID 38344720",
+    "date": "2026-10-15",
+    "fetchPerformed": true
+  },
+  {
+    "id": "b47bdcc831785d8da8103e66c0fa8658",
+    "title": "A hybrid CFHR3-1 gene causes familial C3 glomerulopathy.",
+    "searchUrl": "https://consensus.app/papers/details/b47bdcc831785d8da8103e66c0fa8658/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "mapped/retained",
+    "reason": "Mapped familial association only; full-text access failed; PMID 22626820",
+    "date": "2026-10-15",
+    "fetchPerformed": true
+  },
+  {
+    "id": "15f7a321dc775874b4b271e8f2c91c13",
+    "title": "A novel CFHR1-CFHR5 hybrid leads to a familial dominant C3 glomerulopathy.",
+    "searchUrl": "https://consensus.app/papers/details/15f7a321dc775874b4b271e8f2c91c13/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "3789337f179d56999bcda5b19c420f91",
+    "title": "Familial C3 glomerulonephritis caused by a novel CFHR5-CFHR2 fusion gene.",
+    "searchUrl": "https://consensus.app/papers/details/3789337f179d56999bcda5b19c420f91/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "f5cb597061a550269985fc5083cc76cc",
+    "title": "C3 Glomerulopathy: Understanding an ultra-rare complement-mediated renal disease",
+    "searchUrl": "https://consensus.app/papers/details/f5cb597061a550269985fc5083cc76cc/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "33db6f8ce22e528cb08d03191fbb4036",
+    "title": "Unraveling the Molecular Mechanisms Underlying Complement Dysregulation by Nephritic Factors in C3G and IC-MPGN",
+    "searchUrl": "https://consensus.app/papers/details/33db6f8ce22e528cb08d03191fbb4036/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "949444a87e285e098b7e5551af1999ae",
+    "title": "A novel CFHR5 fusion protein causes C3 glomerulopathy in a family without Cypriot ancestry",
+    "searchUrl": "https://consensus.app/papers/details/949444a87e285e098b7e5551af1999ae/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "0273d665fa7d5b08b7ec0f1a29f533ad",
+    "title": "Nephritic Factors: An Overview of Classification, Diagnostic Tools and Clinical Associations",
+    "searchUrl": "https://consensus.app/papers/details/0273d665fa7d5b08b7ec0f1a29f533ad/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "ea0c01d4fa77554f9f9b9bb2d925ec0d",
+    "title": "Acquired and genetic complement abnormalities play a critical role in dense deposit disease and other C3 glomerulopathies.",
+    "searchUrl": "https://consensus.app/papers/details/ea0c01d4fa77554f9f9b9bb2d925ec0d/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "4b495cf1f46a585280e194354883a3a8",
+    "title": "Factor H\u2013Related Protein 1 Drives Disease Susceptibility and Prognosis in C3 Glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/4b495cf1f46a585280e194354883a3a8/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "e51fc3c1f9cb5f73893da87600f13155",
+    "title": "C3 glomerulonephritis and CFHR5 nephropathy.",
+    "searchUrl": "https://consensus.app/papers/details/e51fc3c1f9cb5f73893da87600f13155/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "7dd4a6960b085a6aaec8c387f4348a8f",
+    "title": "C3 Glomerulonephritis Presenting With Nephritic and Nephrotic Syndromes: Spontaneous Remission After Six Months on Dialysis",
+    "searchUrl": "https://consensus.app/papers/details/7dd4a6960b085a6aaec8c387f4348a8f/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "1a5f3b702e4b5fc5941c9a5d243aefc4",
+    "title": "FHR-5 Serum Levels and CFHR5 Genetic Variations in Patients With Immune Complex-Mediated Membranoproliferative Glomerulonephritis and C3-Glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/1a5f3b702e4b5fc5941c9a5d243aefc4/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "4b72077dba515f1889199ffa9f93f6bd",
+    "title": "CFHR Gene Variations Provide Insights in the Pathogenesis of the Kidney Diseases Atypical Hemolytic Uremic Syndrome and C3 Glomerulopathy.",
+    "searchUrl": "https://consensus.app/papers/details/4b72077dba515f1889199ffa9f93f6bd/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "ad3177650c5c5f6abaa440865b2058aa",
+    "title": "Familial C3 glomerulopathy associated with CFHR5 mutations: clinical characteristics of 91 patients in 16 pedigrees.",
+    "searchUrl": "https://consensus.app/papers/details/ad3177650c5c5f6abaa440865b2058aa/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "mapped/retained",
+    "reason": "Mapped expanded founder cohort progression; not independent from Gale cohort; PMID 21566112",
+    "date": "2026-10-15",
+    "fetchPerformed": true
+  },
+  {
+    "id": "de758db215fa578089b26b19a46a285e",
+    "title": "Identification of a mutation in complement factor H-related protein 5 in patients of Cypriot origin with glomerulonephritis",
+    "searchUrl": "https://consensus.app/papers/details/de758db215fa578089b26b19a46a285e/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "mapped/retained",
+    "reason": "Mapped founder CFHR5 genetics and assay limits; PMID 20800271",
+    "date": "2026-10-15",
+    "fetchPerformed": true
+  },
+  {
+    "id": "4ea2fcb0d7675ca19f42dd472ad72c05",
+    "title": "C3 Glomerulonephritis: Clinicopathologic findings, complement abnormalities, glomerular proteomic profile, treatment and follow-up",
+    "searchUrl": "https://consensus.app/papers/details/4ea2fcb0d7675ca19f42dd472ad72c05/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "c518147498a157248a0cf85156df3106",
+    "title": "CFH and CFHR Copy Number Variations in C3 Glomerulopathy and Immune Complex-Mediated Membranoproliferative Glomerulonephritis",
+    "searchUrl": "https://consensus.app/papers/details/c518147498a157248a0cf85156df3106/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "5010cddcef7e5bb0ac51668880c7ea7c",
+    "title": "Statistical validation of rare complement variants provides insights on the molecular basis of atypical haemolytic uraemic syndrome and C3 glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/5010cddcef7e5bb0ac51668880c7ea7c/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "9dd1365be986558bbba32e436c3b6dee",
+    "title": "Update on C3 glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/9dd1365be986558bbba32e436c3b6dee/?utm_source=chatgpt",
+    "querySets": [
+      "mechanisms"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "876883fee406524fa5b4664efe348c91",
+    "title": "Pegcetacoplan Versus Iptacopan for the Treatment of Patients with C3 Glomerulopathy: Indirect Treatment Comparisons",
+    "searchUrl": "https://consensus.app/papers/details/876883fee406524fa5b4664efe348c91/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "3da3d942daf0592891bf9ab84516f499",
+    "title": "Trial of Pegcetacoplan in C3 Glomerulopathy and Immune-Complex MPGN.",
+    "searchUrl": "https://consensus.app/papers/details/3da3d942daf0592891bf9ab84516f499/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "mapped/retained",
+    "reason": "Mapped VALIANT and retained secondary-endpoint limitation; PMID 41337715",
+    "date": "2026-10-15",
+    "fetchPerformed": true
+  },
+  {
+    "id": "518d8682ec695e5db55c6e46c7b82069",
+    "title": "Oral iptacopan therapy in patients with C3 glomerulopathy: a randomised, double-blind, parallel group, multicentre, placebo-controlled, phase 3 study.",
+    "searchUrl": "https://consensus.app/papers/details/518d8682ec695e5db55c6e46c7b82069/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "mapped/retained",
+    "reason": "Already mapped APPEAR evidence retained in distinct context; PMID 41016405",
+    "date": "2026-10-15",
+    "fetchPerformed": true
+  },
+  {
+    "id": "82dc633ab1ea57b0a388e2f3642de70e",
+    "title": "Pegcetacoplan for Adolescents with C3 Glomerulopathy or Primary Immune Complex Membranoproliferative GN",
+    "searchUrl": "https://consensus.app/papers/details/82dc633ab1ea57b0a388e2f3642de70e/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "90885f2e5a4b5043a45b1c0062324c79",
+    "title": "Real-world outcomes of pegcetacoplan treatment in C3 glomerulopathy and immune-complex membranoproliferative glomerulonephritis.",
+    "searchUrl": "https://consensus.app/papers/details/90885f2e5a4b5043a45b1c0062324c79/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "070457ce87ad5a2db8f714e1638f4ec9",
+    "title": "Current and Emerging Therapies for C3 Glomerulopathy and Primary (Idiopathic) Immune Complex Membranoproliferative Glomerulonephritis",
+    "searchUrl": "https://consensus.app/papers/details/070457ce87ad5a2db8f714e1638f4ec9/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "5042e5081b8258b78bc9efe39e887dfe",
+    "title": "Pegcetacoplan in C3 Glomerulopathy and Immune-Complex MPGN. Reply.",
+    "searchUrl": "https://consensus.app/papers/details/5042e5081b8258b78bc9efe39e887dfe/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "ff1568370acb5e70a3579570e011d64d",
+    "title": "Efficacy of complement inhibition with pegcetacoplan in children with C3 glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/ff1568370acb5e70a3579570e011d64d/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "5d8db247f7025c679bdf613929bb5f7e",
+    "title": "Pivotal Clinical Trials in C3 Glomerulopathy: answers and remaining uncertainties.",
+    "searchUrl": "https://consensus.app/papers/details/5d8db247f7025c679bdf613929bb5f7e/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "146a4ff992b65ea09c0ac6d741953724",
+    "title": "C3 glomerulopathy: advancements in diagnostics and therapeutics.",
+    "searchUrl": "https://consensus.app/papers/details/146a4ff992b65ea09c0ac6d741953724/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "4f0912d0e1b1588f96aa559a2c6760eb",
+    "title": "Complement-targeted therapies for C3 glomerulopathy and atypical hemolytic uremic syndrome: a time-limited rapid systematic review with narrative synthesis",
+    "searchUrl": "https://consensus.app/papers/details/4f0912d0e1b1588f96aa559a2c6760eb/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "6502234e54b757798a9e118adc7b0978",
+    "title": "Rescue Therapy With Pegcetacoplan in a Patient With Proliferative Glomerulonephritis With Monoclonal Immunoglobulin Deposits",
+    "searchUrl": "https://consensus.app/papers/details/6502234e54b757798a9e118adc7b0978/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "81f8899a74ad5797bf603f87dbbc4786",
+    "title": "Methodological pitfalls in indirect treatment comparisons: insights from a recent systematic review and analysis for C3 glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/81f8899a74ad5797bf603f87dbbc4786/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "424107ed160357d7802652a017857a02",
+    "title": "Novel treatment strategies for C3 glomerulopathy: complement blockade",
+    "searchUrl": "https://consensus.app/papers/details/424107ed160357d7802652a017857a02/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "61c149c33f7c535a8b3e7264ae85d085",
+    "title": "Quantifying association of early proteinuria and estimated glomerular filtration rate changes with long-term kidney failure in C3 glomerulopathy and immune-complex membranous proliferative glomerulonephritis using the United Kingdom RaDaR Registry.",
+    "searchUrl": "https://consensus.app/papers/details/61c149c33f7c535a8b3e7264ae85d085/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "b39c3c3ff8bf59b091dcfa51844b7c4c",
+    "title": "Pegcetacoplan in idiopathic and familial pediatric C3 glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/b39c3c3ff8bf59b091dcfa51844b7c4c/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "46d2f0d0360252b3ac47a14f04e5707d",
+    "title": "Pegcetacoplan for the Treatment of Paediatric C3 Glomerulonephritis: A Case Report",
+    "searchUrl": "https://consensus.app/papers/details/46d2f0d0360252b3ac47a14f04e5707d/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "591b4039f4d456de85268afca5699f4d",
+    "title": "Targeting the Alternative Complement Pathway by Iptacopan Abrogates C3 and Strongly Reduces C5b-9 Deposition within Glomeruli in IgA Nephropathy Recurrence after Kidney Transplantation.",
+    "searchUrl": "https://consensus.app/papers/details/591b4039f4d456de85268afca5699f4d/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "61f64e82e19058b9aae29255a4fba966",
+    "title": "A pediatric case of C3 glomerulonephritis initially misclassified as IgA nephropathy with a favorable response to C3-targeted therapy",
+    "searchUrl": "https://consensus.app/papers/details/61f64e82e19058b9aae29255a4fba966/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "4f92fa0b4eaa5cc4b12216cec3ddf587",
+    "title": "Successful Management of C3 Glomerulopathy Recurrence Post-Kidney Transplantation with Iptacopan: A Case Report",
+    "searchUrl": "https://consensus.app/papers/details/4f92fa0b4eaa5cc4b12216cec3ddf587/?utm_source=chatgpt",
+    "querySets": [
+      "trials"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "5841b583c84358b6b7bcd05810cba4e9",
+    "title": "Acquired and genetic drivers of C3 and C5 convertase dysregulation in C3 glomerulopathy and immunoglobulin-associated MPGN.",
+    "searchUrl": "https://consensus.app/papers/details/5841b583c84358b6b7bcd05810cba4e9/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "113616638bb85c69b9dbde0eb0a8f649",
+    "title": "C3 Glomerulonephritis Associated with Monoclonal Gammopathy",
+    "searchUrl": "https://consensus.app/papers/details/113616638bb85c69b9dbde0eb0a8f649/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "3926f8f3804558c0824534e3fefbf06c",
+    "title": "Acquired drivers of C3 glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/3926f8f3804558c0824534e3fefbf06c/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "1622cfe827eb5d1fa016403c261857a8",
+    "title": "Monoclonal gammopathy-associated C3 glomerulonephritis secondary to follicular lymphoma: a case report",
+    "searchUrl": "https://consensus.app/papers/details/1622cfe827eb5d1fa016403c261857a8/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "acd5900575245bc4b677544627fa7791",
+    "title": "C3 glomerulonephritis with light chain crystalline podocytopathy and non-crystalline proximal tubulopathy: a case report and integrative clinicopathologic analysis",
+    "searchUrl": "https://consensus.app/papers/details/acd5900575245bc4b677544627fa7791/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "9da885557bfa57e8a5bfc68b3451f4c3",
+    "title": "A 78-Year-Old Man with Chronic Kidney Disease and Monoclonal Gammopathy Who Developed Post-Transplant C3 Glomerulopathy \u2013 Recurrence or De Novo? A Case Report and Literature Review",
+    "searchUrl": "https://consensus.app/papers/details/9da885557bfa57e8a5bfc68b3451f4c3/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "c4e76b736b7d52ed9070bd9eb97a75c4",
+    "title": "Association of monoclonal gammopathy of undetermined significance and C3 glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/c4e76b736b7d52ed9070bd9eb97a75c4/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "5d65ff37df9b5d858e70f50a091aa384",
+    "title": "C3 glomerulonephritis associated with monoclonal gammopathy of renal significance: a diagnostic and therapeutic challenge",
+    "searchUrl": "https://consensus.app/papers/details/5d65ff37df9b5d858e70f50a091aa384/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "36a6bbc9220454dfaddfa15a23c62cf2",
+    "title": "Acquired and genetic determinants of disease phenotype and therapeutic strategies in C3 glomerulopathy and immunoglobulin-associated MPGN.",
+    "searchUrl": "https://consensus.app/papers/details/36a6bbc9220454dfaddfa15a23c62cf2/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "ecfafa614fe95d5d8a40d4c5be751eb0",
+    "title": "Digital Ischemia as a Rare Manifestation of C3 Glomerulopathy Associated With Monoclonal Gammopathy",
+    "searchUrl": "https://consensus.app/papers/details/ecfafa614fe95d5d8a40d4c5be751eb0/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "98c2b202cfa65753b608ce95c4ff8cc6",
+    "title": "C3G and Ig-MPGN\u2014treatment standard",
+    "searchUrl": "https://consensus.app/papers/details/98c2b202cfa65753b608ce95c4ff8cc6/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "be538fc1af6c5455810bb83ee0b1e767",
+    "title": "Clinical Remission and Reduction of Circulating Nephritic Factors by Combining Rituximab With Belimumab in a Case of Complement Factor 3 Glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/be538fc1af6c5455810bb83ee0b1e767/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "6a20e94e2ab25d03b2dd18f5f72b6003",
+    "title": "Recurrence of C3 Glomerulopathy and Immune Complex\u2013Mediated Membranoproliferative Glomerulonephritis After Kidney Transplantation: Challenges and Opportunities",
+    "searchUrl": "https://consensus.app/papers/details/6a20e94e2ab25d03b2dd18f5f72b6003/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "d335c11352d653b09f8e5e73bd461f1e",
+    "title": "Clinical and Histologic Predictors of Kidney Outcomes in C3 Glomerulopathy and Idiopathic Membranoproliferative Glomerulonephritis.",
+    "searchUrl": "https://consensus.app/papers/details/d335c11352d653b09f8e5e73bd461f1e/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "27797cc2057e5f5a88468b47185de950",
+    "title": "Clinical Safety and Efficacy of Pegcetacoplan in a Phase 2 Study of Patients with C3 Glomerulopathy and Other Complement-Mediated Glomerular Diseases",
+    "searchUrl": "https://consensus.app/papers/details/27797cc2057e5f5a88468b47185de950/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "ce64319ff9f6533383f003aaae4f2a4b",
+    "title": "Establishing the Future Direction of Clinical Outcomes in C3 Glomerulopathy: Perspectives From a Patient and a Physician",
+    "searchUrl": "https://consensus.app/papers/details/ce64319ff9f6533383f003aaae4f2a4b/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "f3e828947db75f6ba45384fd60b8384a",
+    "title": "Daratumumab in the treatment of C3 glomerulopathy with monoclonal gammopathy: a case report and literature review",
+    "searchUrl": "https://consensus.app/papers/details/f3e828947db75f6ba45384fd60b8384a/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "2a96cde0d0115984b53e68815c46b161",
+    "title": "Diagnostic and Prognostic Comparison of Immune-Complex-Mediated Membranoproliferative Glomerulonephritis and C3 Glomerulopathy",
+    "searchUrl": "https://consensus.app/papers/details/2a96cde0d0115984b53e68815c46b161/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "49402f4dc0a756568ef2eaf80715ffa2",
+    "title": "A Narrative Review of C3 Glomerulopathy: From Pathogenesis to Targeted Therapy",
+    "searchUrl": "https://consensus.app/papers/details/49402f4dc0a756568ef2eaf80715ffa2/?utm_source=chatgpt",
+    "querySets": [
+      "challenges"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "aa220eaff8cd59f082e0b13c1a2bcbfd",
+    "title": "Eculizumab for dense deposit disease and C3 glomerulonephritis.",
+    "searchUrl": "https://consensus.app/papers/details/aa220eaff8cd59f082e0b13c1a2bcbfd/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Deferred: mixed six-patient uncontrolled proof-of-concept; variable response; full primary methods not inspected in this revision",
+    "date": "2026-10-15",
+    "fetchPerformed": true
+  },
+  {
+    "id": "b45eaa7237b753a9aa6962af61fcb2e7",
+    "title": "Eculizumab in C3 Glomerulopathy: A Systematic Review of Therapeutic Efficacy and Clinical Outcomes",
+    "searchUrl": "https://consensus.app/papers/details/b45eaa7237b753a9aa6962af61fcb2e7/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "1d94f65db0875d1797e045c2a599351b",
+    "title": "Patterns of Clinical Response to Eculizumab in Patients With C3 Glomerulopathy.",
+    "searchUrl": "https://consensus.app/papers/details/1d94f65db0875d1797e045c2a599351b/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "677dc31259fe570f803eb09545450af8",
+    "title": "Eculizumab in Pediatric Dense Deposit Disease.",
+    "searchUrl": "https://consensus.app/papers/details/677dc31259fe570f803eb09545450af8/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "91e06c655ee257a292b9b26bc78d7895",
+    "title": "Pathology after eculizumab in dense deposit disease and C3 GN.",
+    "searchUrl": "https://consensus.app/papers/details/91e06c655ee257a292b9b26bc78d7895/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "19eb278f1de550caabc05de096a0a945",
+    "title": "Treating C3 glomerulopathy with eculizumab",
+    "searchUrl": "https://consensus.app/papers/details/19eb278f1de550caabc05de096a0a945/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "b8f720d724a05d0780981321f5b3de95",
+    "title": "Myeloperoxidase Immunohistochemical Staining and Response to Eculizumab in a Pediatric Patient with Dense Deposit Disease",
+    "searchUrl": "https://consensus.app/papers/details/b8f720d724a05d0780981321f5b3de95/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "a9de1cc226d25399b467292bf732e2f2",
+    "title": "Recurrent Dense Deposit Disease After Renal Transplantation: An Emerging Role for Complementary Therapies",
+    "searchUrl": "https://consensus.app/papers/details/a9de1cc226d25399b467292bf732e2f2/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "35e723629c765ecbba31dbb4bc3aec25",
+    "title": "Eculizumab and Recurrent C3 Glomerulonephritis",
+    "searchUrl": "https://consensus.app/papers/details/35e723629c765ecbba31dbb4bc3aec25/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "b55adf4386ec56acb307e19b3b4bbd4a",
+    "title": "Eculizumab as a treatment for C3 glomerulopathy: a single-center retrospective study",
+    "searchUrl": "https://consensus.app/papers/details/b55adf4386ec56acb307e19b3b4bbd4a/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "e48cce57e6f05a6b936724c2e4d33dee",
+    "title": "Eculizumab as treatment in dense deposit disease in children",
+    "searchUrl": "https://consensus.app/papers/details/e48cce57e6f05a6b936724c2e4d33dee/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "b91200e8e83054a19baa0e27f6924cb7",
+    "title": "Eculizumab for the treatment of dense-deposit disease.",
+    "searchUrl": "https://consensus.app/papers/details/b91200e8e83054a19baa0e27f6924cb7/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "85a055dd7b475e96b2c6dcdbfbf9127a",
+    "title": "Discontinuation of dialysis with eculizumab therapy in a pediatric patient with dense deposit disease",
+    "searchUrl": "https://consensus.app/papers/details/85a055dd7b475e96b2c6dcdbfbf9127a/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "7270f40dc6f452feb312c656c88c8d4d",
+    "title": "Eculizumab for pediatric dense deposit disease: A case report and literature review",
+    "searchUrl": "https://consensus.app/papers/details/7270f40dc6f452feb312c656c88c8d4d/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "914705bb6cbc561b96bcebd27f6b6b1d",
+    "title": "Eculizumab therapy in a patient with dense-deposit disease associated with partial lipodystropy",
+    "searchUrl": "https://consensus.app/papers/details/914705bb6cbc561b96bcebd27f6b6b1d/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "bc2013fd786c592ea91cf568f4411e85",
+    "title": "Kidney Transplantation in C3 Glomerulopathy: A Case Series.",
+    "searchUrl": "https://consensus.app/papers/details/bc2013fd786c592ea91cf568f4411e85/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "2264493d1222544f8262fef51d3d6204",
+    "title": "C3 glomerulonephritis secondary to mutations in factors H and I: rapid recurrence in deceased donor kidney transplant effectively treated with eculizumab",
+    "searchUrl": "https://consensus.app/papers/details/2264493d1222544f8262fef51d3d6204/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "3689606da8eb5d85bf4e6e615538b77c",
+    "title": "Rituximab fails where eculizumab restores renal function in C3nef-related DDD",
+    "searchUrl": "https://consensus.app/papers/details/3689606da8eb5d85bf4e6e615538b77c/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "70f319946371573eb80488e00140c1d9",
+    "title": "WCN26-8809 SUCCESSFUL TREATMENT OF RECURRENT DENSE DEPOSIT DISEASE POST KIDNEY TRANSPLANT WITH IPTACOPAN FOLLOWING ECULIZUMAB THERAPY",
+    "searchUrl": "https://consensus.app/papers/details/70f319946371573eb80488e00140c1d9/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  },
+  {
+    "id": "4c24e3c340d45f4c80cb128cfd5a0b21",
+    "title": "Rapidly Progressive Glomerulonephritis Due to Dense Deposit Disease Overlapping Alport Syndrome",
+    "searchUrl": "https://consensus.app/papers/details/4c24e3c340d45f4c80cb128cfd5a0b21/?utm_source=chatgpt",
+    "querySets": [
+      "eculizumab"
+    ],
+    "decision": "deferred",
+    "reason": "Search-result title/snippet screened only; not fetched, primary-source appraised or rejected. Retain for later review.",
+    "date": "2026-10-15",
+    "fetchPerformed": false
+  }
+]

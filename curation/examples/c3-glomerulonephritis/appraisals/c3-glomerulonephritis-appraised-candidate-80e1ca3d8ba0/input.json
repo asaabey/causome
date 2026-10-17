@@ -1,0 +1,2114 @@
+{
+  "version": 1,
+  "diseaseId": "c3-glomerulonephritis",
+  "baseReleaseId": "c3-glomerulonephritis-candidate-001",
+  "baseContentDigest": "ab726e38a7e1db719a44edddbfbcc74e66891cdf6878fddd651040542baa16ef",
+  "assessorId": "causome-auto-appraisal-v1",
+  "assessorKind": "system",
+  "method": "rules",
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "assessedAt": "2026-10-15",
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "assessments": [
+    {
+      "assessmentId": "assessment-1b0c599297ef9de634b2",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 2 supporting, 1 qualifying and 0 contradicting claims; 2 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Source-coded functional evidence supports a contextual contribution. Automatic rules cap this at 2/4, or 1/4 when contrary findings/source concerns remain unresolved; converging or independently corroborated human causation is not inferred.",
+          "claimIds": [
+            "claim-c3gn-nephritic-c3gn",
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-nephritic-c3gn",
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-nephritic-c3gn",
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-nephritic-c3gn",
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-nephritic-c3gn",
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-nephritic-stabilization"
+            ]
+          },
+          "causalDesign": {
+            "rating": "adequate",
+            "rationale": "Functional study types and a non-associative causal interpretation are recorded; their semantic correctness still needs checking.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-nephritic-stabilization"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [
+          "claim-c3gn-nephritic-stabilization"
+        ],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-f62d93ee5198d938ff75",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 1 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Source-coded functional evidence supports a contextual contribution. Automatic rules cap this at 2/4, or 1/4 when contrary findings/source concerns remain unresolved; converging or independently corroborated human causation is not inferred.",
+          "claimIds": [
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 0,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "No qualifying patient-study support is established in this contextual set.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization"
+            ]
+          },
+          "causalDesign": {
+            "rating": "adequate",
+            "rationale": "Functional study types and a non-associative causal interpretation are recorded; their semantic correctness still needs checking.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [
+          "claim-c3gn-nephritic-stabilization"
+        ],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-1441804e1146aa946af1",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 3 supporting, 0 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "No qualifying direct functional support is established in the appraised set. An explicitly hypothesized/mechanistic interpretation gets at most 1/4; association alone gets 0/4. This is not a verdict that causation is absent.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-nephritic-c3gn",
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-nephritic-c3gn",
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-nephritic-c3gn",
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-nephritic-c3gn",
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-nephritic-c3gn",
+            "claim-c3gn-variants-c3gn"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-deposits",
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "No qualifying functional design is established; association does not imply causation.",
+            "claimIds": [
+              "claim-c3gn-deposits",
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-deposits",
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-deposits",
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-deposits",
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-deposits",
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-deposits",
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-deposits",
+              "claim-c3gn-nephritic-c3gn",
+              "claim-c3gn-variants-c3gn"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-f890dd11a24a9e078d36",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 2 supporting, 0 qualifying and 0 contradicting claims; 2 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "No qualifying direct functional support is established in the appraised set. An explicitly hypothesized/mechanistic interpretation gets at most 1/4; association alone gets 0/4. This is not a verdict that causation is absent.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity",
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity",
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity",
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity",
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity",
+            "claim-c3gn-variants-c3gn"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "No qualifying functional design is established; association does not imply causation.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-variants-c3gn"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-2e1e28914a14806683e0",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 1 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Source-coded functional evidence supports a contextual contribution. Automatic rules cap this at 2/4, or 1/4 when contrary findings/source concerns remain unresolved; converging or independently corroborated human causation is not inferred.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 0,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "No qualifying patient-study support is established in this contextual set.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function"
+            ]
+          },
+          "causalDesign": {
+            "rating": "adequate",
+            "rationale": "Functional study types and a non-associative causal interpretation are recorded; their semantic correctness still needs checking.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [
+          "claim-c3gn-anti-fh-function"
+        ],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-fa44c5752b87c0c1210d",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 1 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Source-coded functional evidence supports a contextual contribution. Automatic rules cap this at 2/4, or 1/4 when contrary findings/source concerns remain unresolved; converging or independently corroborated human causation is not inferred.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 0,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "No qualifying patient-study support is established in this contextual set.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function"
+            ]
+          },
+          "causalDesign": {
+            "rating": "adequate",
+            "rationale": "Functional study types and a non-associative causal interpretation are recorded; their semantic correctness still needs checking.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [
+          "claim-c3gn-anti-fh-function"
+        ],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-56bc8b161419b5cea69f",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 2 supporting, 1 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "No qualifying direct functional support is established in the appraised set. An explicitly hypothesized/mechanistic interpretation gets at most 1/4; association alone gets 0/4. This is not a verdict that causation is absent.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-renal-presentation"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-deposits",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "No qualifying functional design is established; association does not imply causation.",
+            "claimIds": [
+              "claim-c3gn-deposits",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-deposits",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-deposits",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-deposits",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-deposits",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-deposits",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-deposits",
+              "claim-c3gn-renal-presentation"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-e9eaacac7a2b7e3741a6",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 2 supporting, 1 qualifying and 0 contradicting claims; 2 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "No qualifying direct functional support is established in the appraised set. An explicitly hypothesized/mechanistic interpretation gets at most 1/4; association alone gets 0/4. This is not a verdict that causation is absent.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity",
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity",
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity",
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity",
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity",
+            "claim-c3gn-renal-presentation"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "No qualifying functional design is established; association does not imply causation.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-genetic-heterogeneity",
+              "claim-c3gn-renal-presentation"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-d226459bf5f9d3312184",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 0 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Source-coded functional evidence supports a contextual contribution. Automatic rules cap this at 2/4, or 1/4 when contrary findings/source concerns remain unresolved; converging or independently corroborated human causation is not inferred.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 3,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "causalDesign": {
+            "rating": "adequate",
+            "rationale": "Functional study types and a non-associative causal interpretation are recorded; their semantic correctness still needs checking.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [
+          "claim-c3gn-iptacopan-proteinuria"
+        ],
+        "humanCausalClaimIds": [
+          "claim-c3gn-iptacopan-proteinuria"
+        ]
+      }
+    },
+    {
+      "assessmentId": "assessment-de9bcf00ee6897151559",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 0 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Source-coded functional evidence supports a contextual contribution. Automatic rules cap this at 2/4, or 1/4 when contrary findings/source concerns remain unresolved; converging or independently corroborated human causation is not inferred.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 3,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "causalDesign": {
+            "rating": "adequate",
+            "rationale": "Functional study types and a non-associative causal interpretation are recorded; their semantic correctness still needs checking.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [
+          "claim-c3gn-iptacopan-proteinuria"
+        ],
+        "humanCausalClaimIds": [
+          "claim-c3gn-iptacopan-proteinuria"
+        ]
+      }
+    },
+    {
+      "assessmentId": "assessment-48b4f283667cb698fd1f",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 1 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Source-coded functional evidence supports a contextual contribution. Automatic rules cap this at 2/4, or 1/4 when contrary findings/source concerns remain unresolved; converging or independently corroborated human causation is not inferred.",
+          "claimIds": [
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 0,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-nephritic-stabilization"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "No qualifying patient-study support is established in this contextual set.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization"
+            ]
+          },
+          "causalDesign": {
+            "rating": "adequate",
+            "rationale": "Functional study types and a non-associative causal interpretation are recorded; their semantic correctness still needs checking.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-nephritic-stabilization",
+              "claim-c3gn-nephritic-terminal-qualification"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [
+          "claim-c3gn-nephritic-stabilization"
+        ],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-7e41b7c6b104c5df829d",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 0 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "No qualifying direct functional support is established in the appraised set. An explicitly hypothesized/mechanistic interpretation gets at most 1/4; association alone gets 0/4. This is not a verdict that causation is absent.",
+          "claimIds": [
+            "claim-c3gn-nephritic-c3gn"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-nephritic-c3gn"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-nephritic-c3gn"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-nephritic-c3gn"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-nephritic-c3gn"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "No qualifying functional design is established; association does not imply causation.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-nephritic-c3gn"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-2928bd90c858058d3a0b",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 0 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "No qualifying direct functional support is established in the appraised set. An explicitly hypothesized/mechanistic interpretation gets at most 1/4; association alone gets 0/4. This is not a verdict that causation is absent.",
+          "claimIds": [
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-variants-c3gn"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-variants-c3gn"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "No qualifying functional design is established; association does not imply causation.",
+            "claimIds": [
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-variants-c3gn"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-variants-c3gn"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-37a2bc2c2fb41f1e1277",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 0 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "No qualifying direct functional support is established in the appraised set. An explicitly hypothesized/mechanistic interpretation gets at most 1/4; association alone gets 0/4. This is not a verdict that causation is absent.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-genetic-heterogeneity"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "No qualifying functional design is established; association does not imply causation.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-genetic-heterogeneity"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-bcaa9bcda04c366313c5",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 0 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "No qualifying direct functional support is established in the appraised set. An explicitly hypothesized/mechanistic interpretation gets at most 1/4; association alone gets 0/4. This is not a verdict that causation is absent.",
+          "claimIds": [
+            "claim-c3gn-deposits"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-deposits"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-deposits"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-deposits"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-deposits"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-deposits"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "No qualifying functional design is established; association does not imply causation.",
+            "claimIds": [
+              "claim-c3gn-deposits"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-deposits"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-deposits"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-deposits"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-deposits"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-deposits"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-deposits"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-f96021c0a7a032a9f04a",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 1 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 0,
+          "rationale": "No qualifying direct functional support is established in the appraised set. An explicitly hypothesized/mechanistic interpretation gets at most 1/4; association alone gets 0/4. This is not a verdict that causation is absent.",
+          "claimIds": [
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 0,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 0,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-renal-presentation"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-renal-presentation"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "causalDesign": {
+            "rating": "limited",
+            "rationale": "No qualifying functional design is established; association does not imply causation.",
+            "claimIds": [
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-renal-presentation"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-course-qualification",
+              "claim-c3gn-renal-presentation"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-0c5ae79a3fac6f21bee1",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 1 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Source-coded functional evidence supports a contextual contribution. Automatic rules cap this at 2/4, or 1/4 when contrary findings/source concerns remain unresolved; converging or independently corroborated human causation is not inferred.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 1,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 0,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-anti-fh-function"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "limited",
+            "rationale": "No qualifying patient-study support is established in this contextual set.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function"
+            ]
+          },
+          "causalDesign": {
+            "rating": "adequate",
+            "rationale": "Functional study types and a non-associative causal interpretation are recorded; their semantic correctness still needs checking.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-anti-fh-function",
+              "claim-c3gn-anti-fh-qualification"
+            ]
+          }
+        },
+        "predominantlyNonHuman": true,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [
+          "claim-c3gn-anti-fh-function"
+        ],
+        "humanCausalClaimIds": []
+      }
+    },
+    {
+      "assessmentId": "assessment-f56ebd171d277352a49b",
+      "rationale": "Automatic provisional appraisal (causome-auto-appraisal-v1). 1 supporting, 0 qualifying and 0 contradicting claims; 1 distinct supporting study identifiers. Ratings use source-coded metadata, not an independent semantic check. Unknown quality and directness conservatively limit confidence to 1/4.",
+      "weightComponents": {
+        "causalConfidence": {
+          "rating": 2,
+          "rationale": "Source-coded functional evidence supports a contextual contribution. Automatic rules cap this at 2/4, or 1/4 when contrary findings/source concerns remain unresolved; converging or independently corroborated human causation is not inferred.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "networkInfluence": {
+          "rating": 1,
+          "rationale": "Context-local, functionally supported connections give a conservative topology proxy (0–2/4). Graph degree alone, associations and mixed-context paths cannot establish a major disease circuit.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "interventionalValidation": {
+          "rating": 3,
+          "rationale": "Only supporting, context-matched study tags and interventional claim types receive credit: functional preclinical perturbation 1, human randomized intervention 2, and a randomized interventional claim with a clinical-outcome object 3. Target coverage, genetic association and qualifying/negative trial findings do not receive intervention credit. Source interpretation remains unverified by these rules.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "diseaseCoverage": {
+          "rating": 1,
+          "rationale": "Automatic coverage is capped at 1/4 for patient evidence in an explicitly bounded phenotype. Cell/animal studies do not establish patient coverage, and broad coverage across subgroups or stages is not inferred.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        },
+        "independentReplication": {
+          "rating": 0,
+          "rationale": "Replication requires frozen research-group and dataset-family metadata, with distinct study identities. Multiple citations or evidence items alone receive no independence credit. Automatic ratings are capped at 2/4; absent metadata means corroboration is not established in this set.",
+          "claimIds": [
+            "claim-c3gn-iptacopan-proteinuria"
+          ]
+        }
+      },
+      "evidenceConfidence": 1,
+      "confidenceAppraisal": {
+        "dimensions": {
+          "humanEvidence": {
+            "rating": "adequate",
+            "rationale": "Contextual patient-study evidence is present; in-vitro human cells alone are not patient evidence.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "causalDesign": {
+            "rating": "adequate",
+            "rationale": "Functional study types and a non-associative causal interpretation are recorded; their semantic correctness still needs checking.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "quality": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: study controls, methods and bias have not been independently appraised. Access scope or a study-type label alone cannot establish adequate quality.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "independence": {
+            "rating": "limited",
+            "rationale": "Independent groups and non-overlapping datasets are not established by the frozen metadata.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "replication": {
+            "rating": "limited",
+            "rationale": "Multiple citations alone do not establish replication.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "directness": {
+            "rating": "limited",
+            "rationale": "Conservatively limited to the recorded study system/context; whole-disease generalization is not established.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "consistency": {
+            "rating": "limited",
+            "rationale": "Conservatively limited: agreement across comparable studies and comprehensive literature coverage have not been independently checked.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          },
+          "contradictions": {
+            "rating": "limited",
+            "rationale": "No contradiction is recorded in this bounded set; this does not establish absence of contradictory literature.",
+            "claimIds": [
+              "claim-c3gn-iptacopan-proteinuria"
+            ]
+          }
+        },
+        "predominantlyNonHuman": false,
+        "unresolvedMaterialContradiction": false,
+        "humanPrimaryGroups": [],
+        "humanDatasetFamilies": [],
+        "directFunctionalClaimIds": [
+          "claim-c3gn-iptacopan-proteinuria"
+        ],
+        "humanCausalClaimIds": [
+          "claim-c3gn-iptacopan-proteinuria"
+        ]
+      }
+    }
+  ]
+}

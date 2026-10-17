@@ -1,0 +1,194 @@
+[
+  {
+    "id": "18268093",
+    "title": "Factor H dysfunction in patients with atypical hemolytic uremic syndrome contributes to complement deposition on platelets and their activation.",
+    "decision": "mapped inspected primary evidence",
+    "metadataFile": "sources/primary-records.json",
+    "notices": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "18502839",
+          "reference": "Blood. 2008 Jun 1;111(11):5266. doi: 10.1182/blood-2008-03-140905",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "23692858",
+    "title": "Complement activation by heme as a secondary hit for atypical hemolytic uremic syndrome.",
+    "decision": "mapped inspected primary evidence",
+    "metadataFile": "sources/primary-records.json",
+    "notices": null
+  },
+  {
+    "id": "17182750",
+    "title": "Gain-of-function mutations in complement factor B are associated with atypical hemolytic uremic syndrome.",
+    "decision": "mapped inspected primary evidence",
+    "metadataFile": "sources/primary-records.json",
+    "notices": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "reference": "Proc Natl Acad Sci U S A. 2007 Jun 19;104(25):10749",
+          "type": "Erratum in",
+          "orderIn": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "PMC1965584",
+    "title": "Correction for Elena Goicoechea de Jorge et al., Gain-of-function mutations in complement factor B are associated with atypical hemolytic uremic syndrome",
+    "decision": "discovery only / deferred; not evidence in this revision",
+    "metadataFile": "sources/primary-records.json",
+    "notices": null
+  },
+  {
+    "id": "19625716",
+    "title": "Thrombomodulin mutations in atypical hemolytic-uremic syndrome.",
+    "decision": "mapped inspected primary evidence",
+    "metadataFile": "sources/primary-records.json",
+    "notices": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "19812413",
+          "reference": "N Engl J Med. 2009 Oct 8;361(15):1511; author reply 1511. doi: 10.1056/NEJMc091704.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "17517971",
+    "title": "Spontaneous hemolytic uremic syndrome triggered by complement factor H lacking surface recognition domains.",
+    "decision": "mapped inspected primary evidence",
+    "metadataFile": "sources/primary-records.json",
+    "notices": null
+  },
+  {
+    "id": "31705748",
+    "title": "Genetics and outcome of atypical hemolytic-uremic syndrome in Turkish children: a retrospective study between 2010 and 2017, a single-center experience.",
+    "decision": "discovery only / deferred; not evidence in this revision",
+    "metadataFile": "sources/primary-records.json",
+    "notices": null
+  },
+  {
+    "id": "23307876",
+    "title": "Genetics and outcome of atypical hemolytic uremic syndrome: a nationwide French series comparing children and adults.",
+    "decision": "discovery only / deferred; not evidence in this revision",
+    "metadataFile": "sources/primary-records.json",
+    "notices": null
+  },
+  {
+    "id": "37369098",
+    "title": "Atypical hemolytic uremic syndrome in the era of terminal complement inhibition: an observational cohort study.",
+    "decision": "discovery only / deferred; not evidence in this revision",
+    "metadataFile": "sources/primary-records.json",
+    "notices": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "37856094",
+          "reference": "Blood. 2023 Oct 19;142(16):1334-1335. doi: 10.1182/blood.2023021474.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "28439485",
+    "title": "Treatment of Atypical Hemolytic-Uremic Syndrome in the Era of Eculizumab.",
+    "decision": "discovery only / deferred; not evidence in this revision",
+    "metadataFile": "sources/primary-records.json",
+    "notices": null
+  },
+  {
+    "id": "37567446",
+    "title": "On the relevance of thrombomodulin variants in atypical hemolytic uremic syndrome.",
+    "decision": "mapped inspected primary evidence",
+    "metadataFile": "sources/additional-records.json",
+    "notices": null
+  },
+  {
+    "id": "20395375",
+    "title": "Pulling the trigger in atypical hemolytic uremic syndrome: the role of pregnancy.",
+    "decision": "discovery only / deferred; not evidence in this revision",
+    "metadataFile": "sources/additional-records.json",
+    "notices": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "20203157",
+          "reference": "J Am Soc Nephrol. 2010 May;21(5):859-67. doi: 10.1681/ASN.2009070706",
+          "type": "Comment on",
+          "orderIn": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "22410797",
+    "title": "Atypical hemolytic uremic syndrome in children: complement mutations and clinical characteristics.",
+    "decision": "mapped inspected primary evidence",
+    "metadataFile": "sources/additional-records.json",
+    "notices": null
+  },
+  {
+    "id": "32073731",
+    "title": "Vascular endothelial cells evade complement-mediated membrane injury via Weibel-Palade body mobilization.",
+    "decision": "mapped inspected primary evidence",
+    "metadataFile": "sources/bridge-primary-records.json",
+    "notices": null
+  },
+  {
+    "id": "42532252",
+    "title": "Aberrant neutrophil and complement activation in thrombotic microangiopathies in pregnancy - Is there a missing link?",
+    "decision": "discovery only / deferred; not evidence in this revision",
+    "metadataFile": "sources/bridge-primary-records.json",
+    "notices": null
+  },
+  {
+    "id": "37164260",
+    "title": "Hemolysis is associated with altered heparan sulfate of the endothelial glycocalyx and with local complement activation in thrombotic microangiopathies.",
+    "decision": "discovery only / deferred; not evidence in this revision",
+    "metadataFile": "sources/bridge-primary-records.json",
+    "notices": null
+  },
+  {
+    "id": "31694864",
+    "title": "Complement Activation and Thrombotic Microangiopathies.",
+    "decision": "mapped inspected primary evidence",
+    "metadataFile": "sources/bridge-primary-records.json",
+    "notices": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "31811084",
+          "reference": "Clin J Am Soc Nephrol. 2019 Dec 6;14(12):1682-1683. doi: 10.2215/CJN.12111019",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "23116127",
+    "title": "Complement activation in thrombotic microangiopathies.",
+    "decision": "discovery only / deferred; not evidence in this revision",
+    "metadataFile": "sources/bridge-primary-records.json",
+    "notices": null
+  },
+  {
+    "id": "23555663",
+    "title": "Assembly and activation of alternative complement components on endothelial cell-anchored ultra-large von Willebrand factor links complement and hemostasis-thrombosis.",
+    "decision": "mapped inspected primary evidence",
+    "metadataFile": "sources/bridge-primary-records.json",
+    "notices": null
+  }
+]

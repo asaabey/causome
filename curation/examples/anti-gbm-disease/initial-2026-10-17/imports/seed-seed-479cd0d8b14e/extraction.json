@@ -1,0 +1,472 @@
+{
+  "version": 1,
+  "diseaseId": "anti-gbm-disease",
+  "baseReleaseId": "anti-gbm-disease-candidate-20261017-01",
+  "baseContentDigest": "73a380a953edac8314eb3c4d571f677b73a8b78849fff42cad32b4dbc9359cab",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "manual-source-check-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "gbm-crypticity",
+      "subject": "entity-gbm-nc1-hexamer",
+      "object": "entity-gbm-exposed-nc1",
+      "predicate": "inhibits",
+      "text": "In biochemical assays, the native cross-linked α345NC1 hexamer concealed antibody-reactive conformations present on α3NC1/α5NC1 monomers.",
+      "quote": "but they did not bind to the native cross-linked alpha345NC1 hexamer",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Human patient antibodies, chimeric NC1 molecules and structural modelling",
+      "limitations": [
+        "Does not establish the initiating in-vivo trigger or prove that hexamer disruption precedes human disease."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-b447b2c9f6d15697b74e",
+      "paperDigest": "a78243a8961fa49e1603429427988f2b829e7e15ae308c78c50ccb307d35f25b"
+    },
+    {
+      "id": "gbm-antigen-binding",
+      "subject": "entity-gbm-exposed-nc1",
+      "object": "entity-gbm-autoantibodies",
+      "predicate": "is_associated_with",
+      "text": "Patient kidney/lung-bound autoantibodies recognized α3NC1 and α5NC1 monomers in antigen-specificity assays.",
+      "quote": "both autoantibodies to the alpha3NC1 monomer and antibodies to the alpha5NC1 monomer",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "57 serum samples; kidney-bound antibodies from 14 Goodpasture patients; tissue elution and ELISA",
+      "limitations": [
+        "Binding specificity does not show equal pathogenic contribution of α3 and α5 antibodies; Alport comparators are excluded as mapped disease."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_in_vitro",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-b447b2c9f6d15697b74e",
+      "paperDigest": "a78243a8961fa49e1603429427988f2b829e7e15ae308c78c50ccb307d35f25b"
+    },
+    {
+      "id": "gbm-renal-binding",
+      "subject": "entity-gbm-autoantibodies",
+      "object": "entity-gbm-linear-igg",
+      "predicate": "forms",
+      "text": "Anti-GBM antibodies were identified in sera/kidneys and bound host glomeruli in the reported human cases.",
+      "quote": "these antibodies do combine with the host's glomeruli in vivo",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Six historical human glomerulonephritis cases with antibody studies",
+      "limitations": [
+        "Historical selected cases; modern prevalence, diagnosis and transplantation inferences from this report are not adopted."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-01bb63db7b3e6177ab2f",
+      "paperDigest": "4af410d54e8b3226f61a40351255598e4295c36d00f4afd1f4afe56699b06521"
+    },
+    {
+      "id": "gbm-transfer",
+      "subject": "entity-gbm-autoantibodies",
+      "object": "entity-kidney",
+      "predicate": "contributes_to",
+      "text": "Transfer of serum or renal-eluate IgG from three anti-GBM patients produced acute glomerulonephritis in recipient monkeys.",
+      "quote": "Transfer of acute glomerulonephritis to normal recipient monkeys was possible with serum or renal eluate IGG",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Human IgG transferred into normal recipient monkeys",
+      "limitations": [
+        "Passive transfer supports antibody pathogenicity in recipients; it does not explain human autoimmunity initiation."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "causal",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-01bb63db7b3e6177ab2f",
+      "paperDigest": "4af410d54e8b3226f61a40351255598e4295c36d00f4afd1f4afe56699b06521"
+    },
+    {
+      "id": "gbm-dr15-t",
+      "subject": "entity-gbm-hla-dr15",
+      "object": "entity-gbm-autoreactive-t",
+      "predicate": "activates",
+      "text": "In HLA-DR15 transgenic mice, α3 peptide presentation selected pro-inflammatory conventional α3-specific T-cell responses.",
+      "quote": "T cells in HLA-DR15 transgenic mice exhibit a conventional T-cell phenotype",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "α3 135–145-immunized HLA-transgenic mice",
+      "limitations": [
+        "Abstract-level mouse mechanism; not all human HLA-DR15 carriers develop anti-GBM disease."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-82dc425456f7967a7355",
+      "paperDigest": "d093de6d6f98ac1df953de7791da605feb14235265b7b4d22f93577c60a0c83d"
+    },
+    {
+      "id": "gbm-human-t",
+      "subject": "entity-gbm-autoreactive-t",
+      "object": "entity-kidney",
+      "predicate": "is_associated_with",
+      "text": "Patients with Goodpasture disease displayed clonally expanded α3-specific CD4 T-cell repertoires.",
+      "quote": "patients with Goodpasture disease display a clonally expanded",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Human peripheral T-cell repertoire observations",
+      "limitations": [
+        "Expansion in patients does not establish that T cells alone caused their renal injury."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-82dc425456f7967a7355",
+      "paperDigest": "d093de6d6f98ac1df953de7791da605feb14235265b7b4d22f93577c60a0c83d"
+    },
+    {
+      "id": "gbm-mouse-t",
+      "subject": "entity-gbm-autoreactive-t",
+      "object": "entity-kidney",
+      "predicate": "contributes_to",
+      "text": "After α3 peptide immunization, α3-specific T cells infiltrated kidneys and HLA-DR15 transgenic mice developed disease.",
+      "quote": "specific T cells infiltrate the kidney and mice develop Goodpasture disease",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "α3 135–145-immunized HLA-DR15 transgenic mice",
+      "limitations": [
+        "Induced disease model; antibody-independent injury is not established by this abstract passage."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-82dc425456f7967a7355",
+      "paperDigest": "d093de6d6f98ac1df953de7791da605feb14235265b7b4d22f93577c60a0c83d"
+    },
+    {
+      "id": "gbm-treg-protection",
+      "subject": "entity-gbm-hla-dr1-treg",
+      "object": "entity-kidney",
+      "predicate": "inhibits",
+      "text": "HLA-DR1-induced regulatory T cells conferred resistance to induced disease in HLA-DR15/DR1 transgenic mice.",
+      "quote": "cells confer resistance to disease in HLA-DR15/DR1 transgenic mice",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "HLA-DR15/DR1 transgenic mice",
+      "limitations": [
+        "Protective model branch; this does not demonstrate clinical Treg therapy efficacy."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-82dc425456f7967a7355",
+      "paperDigest": "d093de6d6f98ac1df953de7791da605feb14235265b7b4d22f93577c60a0c83d"
+    },
+    {
+      "id": "gbm-deposits",
+      "subject": "entity-gbm-linear-igg",
+      "object": "entity-gbm-complement",
+      "predicate": "is_associated_with",
+      "text": "Anti-GBM renal biopsies showed complement components along GBM, including classical and alternative-pathway components.",
+      "quote": "C1q, factor B, properdin, C3d, C4d and C5b-9 were detected",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Renal biopsies from ten human patients; selected primary abstract and PMC methods/results inspected",
+      "limitations": [
+        "Tissue colocalization does not establish pathway ordering or complement dependence in each patient; two patients were MPO-ANCA positive."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-65af4c3b2dd9f4219d72",
+      "paperDigest": "da88c46f0e05baab3145df1e2b6118a9bd022f115a34d72277a6038bf9f346d2"
+    },
+    {
+      "id": "gbm-crescents",
+      "subject": "entity-gbm-complement",
+      "object": "entity-gbm-crescents",
+      "predicate": "is_associated_with",
+      "text": "Factor B and C5b-9 staining was stronger in glomeruli with crescents than in glomeruli without crescents.",
+      "quote": "was significantly stronger in the glomeruli with crescent formation",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Ten-patient human biopsy series; glomerular staining comparisons",
+      "limitations": [
+        "Small observational biopsy study with glomeruli nested within patients; not proof of complement-caused crescents."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-65af4c3b2dd9f4219d72",
+      "paperDigest": "da88c46f0e05baab3145df1e2b6118a9bd022f115a34d72277a6038bf9f346d2"
+    },
+    {
+      "id": "gbm-complement-pmn",
+      "subject": "entity-gbm-complement",
+      "object": "entity-neutrophils",
+      "predicate": "contributes_to",
+      "text": "C3- or C4-deficient mice had reduced early glomerular neutrophil infiltration after heterologous anti-GBM antibody challenge.",
+      "quote": "The early infiltration of neutrophils into the glomeruli is greater in wild-type mice",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "C3/C4 knockout mice; heterologous anti-GBM antibody challenge",
+      "limitations": [
+        "Heterologous acute model; not direct evidence for complement blockade in human anti-GBM disease."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-a198292a2a88b5c3ccf0",
+      "paperDigest": "41ff87439842eb21cf3a1ea5977eb6de7b65b532dd66927675accc36ff93a1dc"
+    },
+    {
+      "id": "gbm-complement-injury",
+      "subject": "entity-gbm-complement",
+      "object": "entity-kidney",
+      "predicate": "contributes_to",
+      "text": "C3 or C4 deficiency reduced proteinuria and capillary thrombosis in heterologous anti-GBM nephritis.",
+      "quote": "Deficiency also protects against the subsequent development of proteinuria",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "C3/C4 knockout mice; acute heterologous anti-GBM model",
+      "limitations": [
+        "Dose-sensitive model effect; protection was overcome by increased antibody dose."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-a198292a2a88b5c3ccf0",
+      "paperDigest": "41ff87439842eb21cf3a1ea5977eb6de7b65b532dd66927675accc36ff93a1dc"
+    },
+    {
+      "id": "gbm-dose-qualification",
+      "subject": "entity-gbm-complement",
+      "object": "entity-kidney",
+      "predicate": "contributes_to",
+      "text": "Increasing nephritogenic antibody dose overcame the protective effect of complement deficiency.",
+      "quote": "the protective effect of complement deficiency can be broken if the dose of nephritogenic antibody is increased",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "C3/C4 knockout mice; increased heterologous antibody dose",
+      "limitations": [
+        "Qualifies absolute complement dependence; cannot be used as positive evidence that complement is always necessary."
+      ],
+      "category": "qualifying",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-a198292a2a88b5c3ccf0",
+      "paperDigest": "41ff87439842eb21cf3a1ea5977eb6de7b65b532dd66927675accc36ff93a1dc"
+    },
+    {
+      "id": "gbm-lung-pmn",
+      "subject": "entity-neutrophils",
+      "object": "entity-gbm-alveolar-hemorrhage",
+      "predicate": "contributes_to",
+      "text": "Neutrophils were required for full haemorrhagic lung injury after anti-GBM antibody infusion in rats.",
+      "quote": "Lung injury was dependent on the presence of neutrophils and complement",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Rats infused with heterologous anti-GBM antibody; neutrophil/complement perturbations",
+      "limitations": [
+        "Rat lung injury model; does not establish sufficiency of the same pathway in human alveolar haemorrhage."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-3834871eba13bff22032",
+      "paperDigest": "fa2374eda374815c55b971ef31558317a51838bbb0e5a6880c35d404d6e94fbc"
+    },
+    {
+      "id": "gbm-lung-complement",
+      "subject": "entity-gbm-complement",
+      "object": "entity-gbm-alveolar-hemorrhage",
+      "predicate": "contributes_to",
+      "text": "Complement was required for full anti-GBM antibody-induced haemorrhagic lung injury in rats.",
+      "quote": "Lung injury was dependent on the presence of neutrophils and complement",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Rats infused with heterologous anti-GBM antibody",
+      "limitations": [
+        "Same study as neutrophil lung result, not independent replication; acute model."
+      ],
+      "category": "supporting",
+      "evidenceType": "animal_experiment",
+      "causalInterpretation": "mechanistic",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-3834871eba13bff22032",
+      "paperDigest": "fa2374eda374815c55b971ef31558317a51838bbb0e5a6880c35d404d6e94fbc"
+    },
+    {
+      "id": "gbm-human-lung",
+      "subject": "entity-gbm-double-positive",
+      "object": "entity-gbm-alveolar-hemorrhage",
+      "predicate": "is_associated_with",
+      "text": "Double-positive patients shared severe renal disease and frequent lung haemorrhage at presentation with anti-GBM disease.",
+      "quote": "severe renal disease and high frequency of lung hemorrhage at presentation",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Retrospective four-centre European cohort: 568 AAV, 41 anti-GBM and 37 double-positive patients",
+      "limitations": [
+        "Overlap link to ANCA-associated vasculitis only; not evidence that ANCA causes anti-GBM antibodies."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-af6c6b22f924aa6dfc36",
+      "paperDigest": "ee347f12e4248036eeed023eb4fca028e111b7b8d7758c72658285db948702e2"
+    },
+    {
+      "id": "gbm-ide-clearance",
+      "subject": "entity-gbm-imlifidase",
+      "object": "entity-gbm-autoantibodies",
+      "predicate": "inhibits",
+      "text": "In the 15-adult one-arm phase 2a trial, anti-GBM antibody levels were below the assay reference range six hours after imlifidase.",
+      "quote": "all patients had anti-GBM antibodies levels below the reference range of a prespecified assay",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Severe human anti-GBM disease, eGFR <15; imlifidase plus standard immunosuppression",
+      "limitations": [
+        "Uncontrolled phase 2a study; antibody depletion is a pharmacodynamic endpoint, not proof of added clinical benefit; six patients also ANCA positive."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "interventional",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-339b936f41439d51967d",
+      "paperDigest": "fc860d597f9d6856f9efa6ab9ea55d6acafd227228d3394e46cdcc87185c93f5"
+    },
+    {
+      "id": "gbm-ide-outcome",
+      "subject": "entity-gbm-imlifidase",
+      "object": "entity-kidney",
+      "predicate": "is_associated_with",
+      "text": "Ten of fifteen phase 2a participants were dialysis independent at six months, compared with nine of fifty historical controls.",
+      "quote": "At 6 months 67% (ten out of 15) were dialysis independent.",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "One-arm phase 2a severe anti-GBM trial with historical comparator",
+      "limitations": [
+        "Historical comparison subject to selection and care differences; later randomized phase 3 sponsor report found no significant primary-endpoint benefit."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-339b936f41439d51967d",
+      "paperDigest": "fc860d597f9d6856f9efa6ab9ea55d6acafd227228d3394e46cdcc87185c93f5"
+    },
+    {
+      "id": "gbm-standard-outcomes",
+      "subject": "entity-gbm-standard-regimen",
+      "object": "entity-kidney",
+      "predicate": "is_associated_with",
+      "text": "In 71 patients treated with plasma exchange, prednisolone and cyclophosphamide, renal outcomes varied greatly with baseline renal severity.",
+      "quote": "All patients received plasma exchange, prednisolone, and cyclophosphamide.",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Retrospective 25-year tertiary-centre series; 71 treated human patients",
+      "limitations": [
+        "No untreated randomized comparator; cannot estimate independent efficacy of plasma exchange, cyclophosphamide or glucocorticoids."
+      ],
+      "category": "supporting",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-bb689159ec7d929e32e3",
+      "paperDigest": "c6269a22ca7ea9c2097fbd947c1098311b1f2839c141b59a15dbb713be0098c6"
+    },
+    {
+      "id": "gbm-standard-limits",
+      "subject": "entity-gbm-standard-regimen",
+      "object": "entity-kidney",
+      "predicate": "is_associated_with",
+      "text": "All patients requiring immediate dialysis with 100% crescents remained dialysis dependent in the treated cohort.",
+      "quote": "All patients who required immediate dialysis and had 100% crescents on renal biopsy remained dialysis dependent.",
+      "quoteLocation": "Primary-report abstract, Europe PMC core record",
+      "studySystem": "Retrospective 71-patient treated cohort; severe presentation subgroup",
+      "limitations": [
+        "Selected cohort prognosis; not a universal futility rule, especially for pulmonary haemorrhage."
+      ],
+      "category": "qualifying",
+      "evidenceType": "human_observational",
+      "causalInterpretation": "association",
+      "sourceCheck": {
+        "checkedBy": "Codex agent (source inspection; not human or independent domain review)",
+        "checkedAt": "2026-10-17"
+      },
+      "contextId": "context-gbm-overview",
+      "paperKey": "doi-bb689159ec7d929e32e3",
+      "paperDigest": "c6269a22ca7ea9c2097fbd947c1098311b1f2839c141b59a15dbb713be0098c6"
+    }
+  ]
+}

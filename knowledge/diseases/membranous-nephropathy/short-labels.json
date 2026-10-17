@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-mn-minor-antigens": "Other target antigens",
+    "entity-mn-autoantibody": "Anti-podocyte IgG4",
+    "entity-mn-deposits": "Subepithelial deposits",
+    "entity-mn-classical-pathway": "Classical pathway",
+    "entity-mn-lectin-pathway": "Lectin pathway",
+    "entity-mn-alternative-pathway": "Alternative pathway",
+    "entity-mn-c3-activation": "C3 activation",
+    "entity-mn-c3a-c3ar": "C3a / C3aR",
+    "entity-mn-c5b9": "C5b-9 (MAC)",
+    "entity-mn-slit-diaphragm": "Slit diaphragm",
+    "entity-mn-proteinuria": "Nephrotic syndrome",
+    "entity-mn-epitope-spreading": "Epitope spreading"
+  }
+}

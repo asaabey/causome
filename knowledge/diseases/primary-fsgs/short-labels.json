@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-circulating-factors": "Circulating factors",
+    "entity-permeability": "Albumin permeability",
+    "entity-recurrence": "FSGS recurrence",
+    "entity-anti-nephrin": "Anti-nephrin",
+    "entity-supar": "suPAR",
+    "entity-anti-cd40": "Anti-CD40",
+    "entity-sclerosis": "Glomerulosclerosis",
+    "entity-apol1": "APOL1 variants",
+    "entity-apol1-current": "APOL1 cation flux"
+  }
+}

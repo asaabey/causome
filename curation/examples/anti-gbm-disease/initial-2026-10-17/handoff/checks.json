@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-17",
+  "candidate": "anti-gbm-disease-summary-candidate-824d30740aae",
+  "contentDigest": "5a5e8930f929131c1c89050196e7466eaa3c4c7b5e06d029b46204df9698bedf",
+  "passed": [
+    {
+      "command": "node scripts/validate-release.mjs knowledge/diseases/anti-gbm-disease/candidates/anti-gbm-disease-summary-candidate-824d30740aae.json",
+      "exitCode": 0,
+      "log": "handoff/candidate-validation.log"
+    },
+    {
+      "command": "pnpm check",
+      "exitCode": 0,
+      "log": "handoff/check.log",
+      "result": "Registry validation and Astro check: 42 files, 0 errors/warnings/hints"
+    },
+    {
+      "command": "pnpm build",
+      "exitCode": 0,
+      "log": "handoff/build.log",
+      "result": "124 pages built"
+    },
+    {
+      "command": "node curation/workspace/anti-gbm-disease/browser-check.mjs",
+      "exitCode": 0,
+      "log": "handoff/browser-check.json",
+      "result": "Nine non-empty views; imlifidase null endpoint visible; exact-candidate summary packet; curator workspace; zero page errors. Screenshot inspected by Codex."
+    }
+  ],
+  "correctedFailures": [
+    {
+      "command": "pnpm curate propose",
+      "exitCode": 1,
+      "reason": "A therapy-only context was given an empty graph view; removed the empty view while retaining phase 3 context/claims."
+    },
+    {
+      "command": "pnpm curate propose",
+      "exitCode": 1,
+      "reason": "trialSourceIds initially referenced a publication-kind phase 2 source and an observational cohort. Marked phase 2 source trial; removed cohort from trialSourceIds."
+    }
+  ],
+  "notRun": [
+    "Independent overall summary verdict from an external research agent: no such callable reviewer available. Consensus search/fetch performed retrieval only.",
+    "Authenticated domain review, scoring calibration, claim-level independent semantic verification"
+  ],
+  "publicationChanged": false
+}

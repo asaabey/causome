@@ -1,0 +1,603 @@
+[
+  {
+    "collection": "release",
+    "id": "release-metadata",
+    "kind": "changed",
+    "fields": [
+      "id",
+      "revisionId",
+      "changeSetRevision",
+      "releaseNote",
+      "manifest"
+    ],
+    "before": {
+      "id": "primary-fsgs-candidate-contexts-002",
+      "revisionId": "primary-fsgs-candidate-contexts-002-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "primary-fsgs",
+      "title": "Primary FSGS with APOL1 branch",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Bounded circulating-factor/immune primary FSGS and separate APOL1-associated kidney injury branch; excludes other genetic, adaptive, viral and drug-associated FSGS. APOL1-associated disease is not classified as idiopathic primary FSGS. Selected mechanistic and intervention reports; not comprehensive literature or treatment coverage.",
+      "diseaseAliases": [
+        "FSGS",
+        "primary focal segmental glomerulosclerosis",
+        "circulating-factor FSGS",
+        "APOL1-mediated kidney disease",
+        "AMKD"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-17T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-17",
+      "changeSetRevision": "fsgs-study-contexts-v1",
+      "releaseNote": "Separate study-context views for primary FSGS serum activity, human anti-nephrin findings, experimental immune injury, APOL1 ion transport, transgenic injury, inaxaplin trial and DUPLEX. No universal causal circuit or comprehensive therapy catalogue. Source checks are agent abstract inspections; independent scientific review pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "1c74bdd9259280e17e001444379fcd6345021156fa4e9708a808100652d08f30"
+      }
+    },
+    "after": {
+      "id": "primary-fsgs-candidate-therapies-003",
+      "revisionId": "primary-fsgs-candidate-therapies-003-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "primary-fsgs",
+      "title": "Primary FSGS with APOL1 branch",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Bounded circulating-factor/immune primary FSGS and separate APOL1-associated kidney injury branch; excludes other genetic, adaptive, viral and drug-associated FSGS. APOL1-associated disease is not classified as idiopathic primary FSGS. Selected mechanistic and intervention reports; not comprehensive literature or treatment coverage.",
+      "diseaseAliases": [
+        "FSGS",
+        "primary focal segmental glomerulosclerosis",
+        "circulating-factor FSGS",
+        "APOL1-mediated kidney disease",
+        "AMKD"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-17T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-17",
+      "changeSetRevision": "fsgs-therapy-contexts-v1",
+      "releaseNote": "Separate study-context views for primary FSGS serum activity, human anti-nephrin findings, experimental immune injury, APOL1 ion transport, transgenic injury, inaxaplin trial and DUPLEX. No universal causal circuit or comprehensive therapy catalogue. Source checks are agent abstract inspections; independent scientific review pending. Selected inaxaplin and sparsentan records added; US sparsentan indication explicitly excludes nephrotic syndrome. Steroids, calcineurin inhibitors and rituximab not curated.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "2ad126a61099207db8ff3c82f37e1931df5bedd38373292cca6f759e175057d6"
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-fsgs-spar-label",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-fsgs-spar-label",
+      "revisionId": "claim-fsgs-spar-label-therapies-v1",
+      "status": "candidate",
+      "text": "In the United States, sparsentan is approved to reduce proteinuria in patients aged eight years and older with FSGS without nephrotic syndrome.",
+      "subjectId": "therapy-sparsentan",
+      "objectId": "entity-proteinuria",
+      "predicate": "efficacy_on",
+      "contextId": "context-fsgs-spar-label",
+      "evidenceItemIds": [
+        "evidence-fsgs-spar-label"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Label restriction excludes nephrotic syndrome; no extrapolation to nephrotic primary FSGS."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-fsgs-therapy-inax-channel",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-fsgs-therapy-inax-channel",
+      "revisionId": "claim-fsgs-therapy-inax-channel-therapies-v1",
+      "status": "candidate",
+      "text": "Inaxaplin inhibited APOL1 channel function in preclinical cell assays.",
+      "subjectId": "therapy-inaxaplin",
+      "objectId": "entity-apol1-current",
+      "predicate": "inhibits",
+      "contextId": "context-fsgs-apol1",
+      "evidenceItemIds": [
+        "evidence-fsgs-inax-channel"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "mechanistic",
+      "limitations": [
+        "Abstract-level inspection; no independent domain review or complete methods appraisal."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-fsgs-therapy-inax-protein",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-fsgs-therapy-inax-protein",
+      "revisionId": "claim-fsgs-therapy-inax-protein-therapies-v1",
+      "status": "candidate",
+      "text": "In a single-group phase 2a study, 13 adherent participants with two APOL1 risk variants and biopsy-proven FSGS had a mean 47.6% proteinuria reduction at 13 weeks.",
+      "subjectId": "therapy-inaxaplin",
+      "objectId": "entity-proteinuria",
+      "predicate": "inhibits",
+      "contextId": "context-fsgs-inaxaplin",
+      "evidenceItemIds": [
+        "evidence-fsgs-inax-protein"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Uncontrolled small short-term trial; no randomized effect estimate, established kidney-survival benefit or approval inference."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-fsgs-therapy-spar-egfr",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-fsgs-therapy-spar-egfr",
+      "revisionId": "claim-fsgs-therapy-spar-egfr-therapies-v1",
+      "status": "candidate",
+      "text": "Despite greater proteinuria reduction, DUPLEX found no significant between-group eGFR-slope difference at 108 weeks.",
+      "subjectId": "therapy-sparsentan",
+      "objectId": "entity-proteinuria",
+      "predicate": "inhibits",
+      "contextId": "context-fsgs-duplex",
+      "evidenceItemIds": [
+        "evidence-fsgs-spar-egfr"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Surrogate improvement must not be described as demonstrated overall trial kidney-function preservation."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "claims",
+    "id": "claim-fsgs-therapy-spar-protein",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "text",
+      "subjectId",
+      "objectId",
+      "predicate",
+      "contextId",
+      "evidenceItemIds",
+      "verification",
+      "causalInterpretation",
+      "limitations",
+      "sourceCheckedAt",
+      "reviewDisposition"
+    ],
+    "before": null,
+    "after": {
+      "id": "claim-fsgs-therapy-spar-protein",
+      "revisionId": "claim-fsgs-therapy-spar-protein-therapies-v1",
+      "status": "candidate",
+      "text": "DUPLEX showed greater partial proteinuria remission with sparsentan than irbesartan at 36 weeks (42% versus 26%).",
+      "subjectId": "therapy-sparsentan",
+      "objectId": "entity-proteinuria",
+      "predicate": "inhibits",
+      "contextId": "context-fsgs-duplex",
+      "evidenceItemIds": [
+        "evidence-fsgs-spar-protein"
+      ],
+      "verification": "source_checked",
+      "causalInterpretation": "interventional",
+      "limitations": [
+        "Mixed FSGS eligibility; not proof of immunologic mechanism or applicability of current indication to nephrotic primary FSGS."
+      ],
+      "sourceCheckedAt": "2026-10-17",
+      "reviewDisposition": {
+        "decision": "pending_domain_review",
+        "reviewerId": null,
+        "reviewedAt": null
+      }
+    }
+  },
+  {
+    "collection": "evidenceItems",
+    "id": "evidence-fsgs-spar-label",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "sourceId",
+      "summary",
+      "location",
+      "retrievedAt",
+      "studySystem",
+      "evidenceType"
+    ],
+    "before": null,
+    "after": {
+      "id": "evidence-fsgs-spar-label",
+      "revisionId": "evidence-fsgs-spar-label-therapies-v1",
+      "status": "candidate",
+      "sourceId": "source-fda-fsgs-2026",
+      "summary": "US FDA indication for reducing proteinuria in FSGS without nephrotic syndrome, age eight years and older.",
+      "location": "FDA announcement opening paragraph; mechanism in following paragraph",
+      "retrievedAt": "2026-10-17",
+      "studySystem": "US FDA regulatory indication",
+      "evidenceType": "regulatory_label"
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-82728a5c8c4285ed45be",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "kind"
+    ],
+    "before": {
+      "id": "source-doi-82728a5c8c4285ed45be",
+      "revisionId": "source-doi-82728a5c8c4285ed45be-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Sparsentan versus Irbesartan in Focal Segmental Glomerulosclerosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37921461/",
+      "kind": "publication",
+      "studyId": "PMID:37921461",
+      "citation": "Rheault MN, Alpers CE, Barratt J, Bieler S, Canetta P, Chae DW, Coppock G, Diva U, Gesualdo L, Heerspink HJL, Inrig JK, Kirsztajn GM, Kohan D, Komers R, Kooienga LA, Lieberman K, Mercer A, Noronha IL, Perkovic V, Radhakrishnan J, Rote W, Rovin B, Tesar V, Trimarchi H, Tumlin J, Wong MG, Trachtman H, DUPRO Steering Committee and DUPLEX Investigators.. Sparsentan versus Irbesartan in Focal Segmental Glomerulosclerosis.. The New England journal of medicine. 2023-11-03",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1056/nejmoa2308550",
+        "MED:37921461",
+        "PMID:37921461"
+      ],
+      "flags": []
+    },
+    "after": {
+      "id": "source-doi-82728a5c8c4285ed45be",
+      "revisionId": "source-doi-82728a5c8c4285ed45be-therapies-v1",
+      "status": "candidate",
+      "title": "Sparsentan versus Irbesartan in Focal Segmental Glomerulosclerosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37921461/",
+      "kind": "trial",
+      "studyId": "PMID:37921461",
+      "citation": "Rheault MN, Alpers CE, Barratt J, Bieler S, Canetta P, Chae DW, Coppock G, Diva U, Gesualdo L, Heerspink HJL, Inrig JK, Kirsztajn GM, Kohan D, Komers R, Kooienga LA, Lieberman K, Mercer A, Noronha IL, Perkovic V, Radhakrishnan J, Rote W, Rovin B, Tesar V, Trimarchi H, Tumlin J, Wong MG, Trachtman H, DUPRO Steering Committee and DUPLEX Investigators.. Sparsentan versus Irbesartan in Focal Segmental Glomerulosclerosis.. The New England journal of medicine. 2023-11-03",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1056/nejmoa2308550",
+        "MED:37921461",
+        "PMID:37921461"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-doi-9bc822ea3202e8cbecd8",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "kind"
+    ],
+    "before": {
+      "id": "source-doi-9bc822ea3202e8cbecd8",
+      "revisionId": "source-doi-9bc822ea3202e8cbecd8-97cb3d816b7b",
+      "status": "candidate",
+      "title": "Inaxaplin for Proteinuric Kidney Disease in Persons with Two &lt;i&gt;APOL1&lt;/i&gt; Variants.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36920755/",
+      "kind": "publication",
+      "studyId": "PMID:36920755",
+      "citation": "Egbuna O, Zimmerman B, Manos G, Fortier A, Chirieac MC, Dakin LA, Friedman DJ, Bramham K, Campbell K, Knebelmann B, Barisoni L, Falk RJ, Gipson DS, Lipkowitz MS, Ojo A, Bunnage ME, Pollak MR, Altshuler D, Chertow GM, VX19-147-101 Study Group.. Inaxaplin for Proteinuric Kidney Disease in Persons with Two &lt;i&gt;APOL1&lt;/i&gt; Variants.. The New England journal of medicine. 2023-03-01",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1056/nejmoa2202396",
+        "MED:36920755",
+        "PMID:36920755"
+      ],
+      "flags": []
+    },
+    "after": {
+      "id": "source-doi-9bc822ea3202e8cbecd8",
+      "revisionId": "source-doi-9bc822ea3202e8cbecd8-therapies-v1",
+      "status": "candidate",
+      "title": "Inaxaplin for Proteinuric Kidney Disease in Persons with Two &lt;i&gt;APOL1&lt;/i&gt; Variants.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36920755/",
+      "kind": "trial",
+      "studyId": "PMID:36920755",
+      "citation": "Egbuna O, Zimmerman B, Manos G, Fortier A, Chirieac MC, Dakin LA, Friedman DJ, Bramham K, Campbell K, Knebelmann B, Barisoni L, Falk RJ, Gipson DS, Lipkowitz MS, Ojo A, Bunnage ME, Pollak MR, Altshuler D, Chertow GM, VX19-147-101 Study Group.. Inaxaplin for Proteinuric Kidney Disease in Persons with Two &lt;i&gt;APOL1&lt;/i&gt; Variants.. The New England journal of medicine. 2023-03-01",
+      "accessScope": "Europe PMC core metadata and complete indexed abstract inspected by Codex agent on 2026-10-17; publisher full text and supplements not inspected.",
+      "identifiers": [
+        "DOI:10.1056/nejmoa2202396",
+        "MED:36920755",
+        "PMID:36920755"
+      ],
+      "flags": []
+    }
+  },
+  {
+    "collection": "sources",
+    "id": "source-fda-fsgs-2026",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "title",
+      "url",
+      "kind",
+      "studyId",
+      "citation",
+      "accessScope",
+      "identifiers",
+      "flags"
+    ],
+    "before": null,
+    "after": {
+      "id": "source-fda-fsgs-2026",
+      "revisionId": "source-fda-fsgs-2026-therapies-v1",
+      "status": "candidate",
+      "title": "FDA: First FDA-approved treatment for FSGS",
+      "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/first-fda-approved-treatment-patients-focal-segmental-glomerulosclerosis-rare-kidney-condition",
+      "kind": "regulatory",
+      "studyId": "FDA-FILSPARI-FSGS-2026",
+      "citation": "FDA announcement and linked 2026 labeling, inspected 2026-10-17",
+      "accessScope": "FDA announcement full page inspected by Codex agent; prescribing-label PDF not separately inspected",
+      "identifiers": [],
+      "flags": []
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-inaxaplin",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-inaxaplin",
+      "revisionId": "therapy-inaxaplin-therapies-v1",
+      "status": "candidate",
+      "name": "Inaxaplin (VX-147)",
+      "modality": "Oral small-molecule APOL1 channel inhibitor",
+      "directTargetIds": [
+        "entity-apol1"
+      ],
+      "indirectTargetIds": [
+        "entity-apol1-current"
+      ],
+      "mechanismOfAction": "Inhibits APOL1 channel function in preclinical assays.",
+      "indicationContextId": "context-fsgs-inaxaplin",
+      "developmentStatus": "experimental",
+      "trialSourceIds": [
+        "source-doi-9bc822ea3202e8cbecd8"
+      ],
+      "supportingClaimIds": [
+        "claim-fsgs-therapy-inax-channel",
+        "claim-fsgs-therapy-inax-protein"
+      ],
+      "qualifyingClaimIds": [],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "Investigational APOL1-associated proteinuric kidney disease; initial trial required two APOL1 risk variants and biopsy-proven FSGS.",
+      "jurisdiction": "Investigational; no approved indication asserted",
+      "trialPhase": "Inspected efficacy report: phase 2a (NCT04340362); subsequent development not systematically curated",
+      "verificationSourceIds": [
+        "source-doi-9bc822ea3202e8cbecd8"
+      ],
+      "limitations": [
+        "Small uncontrolled 13-week study; no randomized kidney-outcome efficacy established.",
+        "2026 sponsor updates identified in search; newer trial results not independently inspected or mapped."
+      ]
+    }
+  },
+  {
+    "collection": "therapies",
+    "id": "therapy-sparsentan",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "name",
+      "modality",
+      "directTargetIds",
+      "indirectTargetIds",
+      "mechanismOfAction",
+      "indicationContextId",
+      "developmentStatus",
+      "trialSourceIds",
+      "supportingClaimIds",
+      "qualifyingClaimIds",
+      "contradictingClaimIds",
+      "lastVerifiedAt",
+      "indication",
+      "jurisdiction",
+      "trialPhase",
+      "verificationSourceIds",
+      "limitations"
+    ],
+    "before": null,
+    "after": {
+      "id": "therapy-sparsentan",
+      "revisionId": "therapy-sparsentan-therapies-v1",
+      "status": "candidate",
+      "name": "Sparsentan (Filspari)",
+      "modality": "Oral dual endothelin / angiotensin II receptor antagonist",
+      "directTargetIds": [],
+      "indirectTargetIds": [
+        "entity-proteinuria"
+      ],
+      "mechanismOfAction": "Dual endothelin and angiotensin II receptor antagonism, as described by FDA; specific receptor nodes not expanded in this map.",
+      "indicationContextId": "context-fsgs-spar-label",
+      "developmentStatus": "approved",
+      "trialSourceIds": [
+        "source-doi-82728a5c8c4285ed45be"
+      ],
+      "supportingClaimIds": [
+        "claim-fsgs-therapy-spar-protein",
+        "claim-fsgs-spar-label"
+      ],
+      "qualifyingClaimIds": [
+        "claim-fsgs-therapy-spar-egfr"
+      ],
+      "contradictingClaimIds": [],
+      "lastVerifiedAt": "2026-10-17",
+      "indication": "US: reduce proteinuria in patients aged eight years and older with FSGS without nephrotic syndrome.",
+      "jurisdiction": "United States (FDA)",
+      "trialPhase": "Phase 3 DUPLEX (NCT03493685)",
+      "verificationSourceIds": [
+        "source-fda-fsgs-2026"
+      ],
+      "limitations": [
+        "US label excludes nephrotic syndrome; not an approved treatment for the nephrotic primary-FSGS branch.",
+        "DUPLEX overall eGFR-slope endpoint was not significant despite proteinuria improvement.",
+        "FDA announcement notes hepatotoxicity/REMS; full prescribing information not appraised."
+      ]
+    }
+  },
+  {
+    "collection": "contexts",
+    "id": "context-fsgs-spar-label",
+    "kind": "added",
+    "fields": [
+      "id",
+      "revisionId",
+      "status",
+      "diseaseId",
+      "label",
+      "organism",
+      "phenotype",
+      "tissue",
+      "stage"
+    ],
+    "before": null,
+    "after": {
+      "id": "context-fsgs-spar-label",
+      "revisionId": "context-fsgs-spar-label-therapies-v1",
+      "status": "candidate",
+      "diseaseId": "primary-fsgs",
+      "label": "US sparsentan indication: FSGS without nephrotic syndrome, age 8+",
+      "organism": "Human",
+      "phenotype": "FSGS without nephrotic syndrome",
+      "tissue": "Kidney",
+      "stage": "US indication checked 2026-10-17; outside nephrotic primary-FSGS phenotype"
+    }
+  }
+]

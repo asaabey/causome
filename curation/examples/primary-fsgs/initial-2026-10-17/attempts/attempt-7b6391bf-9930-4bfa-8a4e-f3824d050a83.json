@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "attempt-7b6391bf-9930-4bfa-8a4e-f3824d050a83",
+  "diseaseId": "primary-fsgs",
+  "trigger": "manual",
+  "provider": "europe-pmc-core-v1",
+  "startedAt": "2026-10-17T00:49:21.684Z",
+  "requestedThrough": "2026-10-17",
+  "finishedAt": "2026-10-17T00:50:02.487Z",
+  "status": "succeeded",
+  "runId": "scan-ad6ec0ac05861bb2f93f9592"
+}

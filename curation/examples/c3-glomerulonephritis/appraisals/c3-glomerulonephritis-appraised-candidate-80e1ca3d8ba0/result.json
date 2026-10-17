@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "c3-glomerulonephritis-candidate-001",
+  "baseContentDigest": "ab726e38a7e1db719a44edddbfbcc74e66891cdf6878fddd651040542baa16ef",
+  "candidateId": "c3-glomerulonephritis-appraised-candidate-80e1ca3d8ba0",
+  "contentDigest": "b3ff2713e6e5c147c60440580a54aa8803b69afb33e0808244cec981dfadd52c",
+  "inputDigest": "80e1ca3d8ba0ee689c15ab0264c1f309e4a5826de470924792804f55484465b8",
+  "assessmentCount": 18,
+  "weightCount": 18,
+  "confidenceCount": 18,
+  "therapyCoverageCount": 18,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

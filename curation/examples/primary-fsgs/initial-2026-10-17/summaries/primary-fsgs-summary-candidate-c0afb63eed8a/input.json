@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "diseaseId": "primary-fsgs",
+  "baseReleaseId": "primary-fsgs-summary-candidate-96cc690f2e0c",
+  "baseContentDigest": "bc3cccab542976e946924fe9649010affb68e75a480410eb2ec4814b37eb8f4a",
+  "scope": "Bounded circulating-factor/immune primary FSGS and separate APOL1-associated kidney injury branch; excludes other genetic, adaptive, viral and drug-associated FSGS. APOL1-associated disease is not classified as idiopathic primary FSGS.",
+  "authoredBy": {
+    "id": "codex-agent",
+    "kind": "agent"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "This bounded map separates circulating-factor/immune primary FSGS from genetically susceptible APOL1-associated kidney injury. In recurrent primary FSGS, patient serum increased albumin permeability in isolated glomeruli, supporting a circulating-activity hypothesis without identifying a universal factor. Anti-nephrin reactivity was reported in a minority of primary FSGS patients, while suPAR and anti-CD40 pathways contributed to injury in selected human podocyte cultures. The separate APOL1 branch links interferon-induced channel activity in human podocytes and G1-associated sodium/potassium transport in experimental cells to injury in transgenic mouse models. Podocyte-depletion experiments in rats connect loss of these cells to proteinuria and segmental sclerosis as a final injury pathway; they do not establish the initiating cause in human primary FSGS.",
+      "claimIds": [
+        "claim-fsgs-serum-permeability",
+        "claim-fsgs-factor-recurrence",
+        "claim-fsgs-nephrin-fsgs",
+        "claim-fsgs-supar-culture",
+        "claim-fsgs-cd40-culture",
+        "claim-fsgs-ifng-current",
+        "claim-fsgs-apol1-current",
+        "claim-fsgs-current-injury",
+        "claim-fsgs-loss-sclerosis",
+        "claim-fsgs-loss-protein"
+      ]
+    },
+    {
+      "text": "These branches are provisional and cannot be assembled into one demonstrated human causal circuit. Anti-nephrin findings conflict across cohorts and assay systems: a 2026 study found similarly low reactivity in patients and controls with human-cell-derived antigen, challenging broad disease specificity. A negative serum suPAR study likewise limits biomarker generalization without directly refuting culture toxicity. Inaxaplin inhibited APOL1 channels experimentally and was associated with reduced proteinuria in a small, uncontrolled 13-week phase 2a trial; long-term randomized kidney benefit is not established by that report. DUPLEX showed greater proteinuria reduction with sparsentan but no significant overall eGFR-slope advantage. The verified US sparsentan indication covers patients aged eight years and older with FSGS without nephrotic syndrome, so it must not be extrapolated to nephrotic primary FSGS. Source inspection was predominantly at abstract level; the 2026-10-17 cutoff records retrieval, not exhaustive screening. Newer inaxaplin sponsor-reported results and comprehensive immunosuppressive therapy evidence remain uncurated, and independent current-literature review is pending.",
+      "claimIds": [
+        "claim-fsgs-nephrin-null",
+        "claim-fsgs-nephrin-china",
+        "claim-fsgs-supar-null",
+        "claim-fsgs-inax-channel",
+        "claim-fsgs-therapy-inax-protein",
+        "claim-fsgs-spar-protein",
+        "claim-fsgs-spar-egfr",
+        "claim-fsgs-spar-label"
+      ]
+    }
+  ]
+}

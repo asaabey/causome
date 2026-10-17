@@ -4,6 +4,10 @@ Give this file to any third-party agent working on a disease map. It is the sing
 
 ## Start here
 
+Start with `/curate anti-gbm-disease` in Claude Code or `$curate anti-gbm-disease` in Codex CLI. The project entry points are [.claude/commands/curate.md](.claude/commands/curate.md) and [.agents/skills/curate/SKILL.md](.agents/skills/curate/SKILL.md); both load the [shared command workflow](curation/commands/curate.md). This runbook remains authoritative.
+
+For Codex CLI slash-menu access, install a local custom prompt at `$CODEX_HOME/prompts/curate.md` (default `~/.codex/prompts/curate.md`) that passes `$ARGUMENTS` to the shared workflow. Invoke it as `/prompts:curate anti-gbm-disease` after restarting Codex. Custom prompts are local and deprecated in favour of skills; the repo skill is the shared, portable entry point.
+
 Use this task instruction:
 
 > Read CURATION.md and follow its runbook for **[new disease / update / validate]**. Disease: **[name and slug]**. Scope: **[organ, phenotype, mechanisms and exclusions]**. Evidence cutoff: **[YYYY-MM-DD]**. Produce the required handoff, record actual checks and unresolved gaps, and keep the result a local candidate. Do not invent citations, source checks, human review, calibration or validation results.
@@ -144,6 +148,12 @@ The remainder of this file defines the detailed workflow and contracts.
 This workflow creates reviewable candidates. Retrieval, model output, a source checker name, a local JSON review and a browser draft cannot grant authenticated scientific publication. The public store remains separate.
 
 ## 1. Define scope and author a first map
+
+### Consolidate the disease explanation
+
+The default map should present a comprehensive, connected overview within the disease's declared scope. Consolidate alternative upstream routes around shared biological entities and downstream mechanisms. Aim to show every Key players word-cloud entity in that default overview; retain a reason for any exception. Do not use a small study-specific route as the default while the cloud presents the whole disease. Do not impose an entity budget that removes essential mechanisms or manifestations.
+
+Keep organisms, experimental systems, patient populations, null results and uncertainty explicit in claims and evidence. A cross-study synthesis is not proof that the complete path operates in every patient. Optional detailed views may supplement the overview. Where the current schema requires one context per view, use an explicitly labelled cross-study synthesis context and preserve the original study systems in each evidence item; do not silently turn animal findings into human findings or associations into causal arrows. Verify cloud-to-map coverage, major pathway convergence and clinical outcomes in the browser before handoff.
 
 ```sh
 pnpm curate init --id disease-slug --label "Disease name" --summary "Bounded scope and limitations" --query 'TITLE_ABS:"disease name"'

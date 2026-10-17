@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "id": "atypical-hus",
+  "label": "Atypical haemolytic uraemic syndrome",
+  "summary": "An integrated aHUS map connecting inherited and acquired complement dysregulation, endothelial and platelet injury, microvascular thrombosis, haemolysis, thrombocytopenia and kidney dysfunction. Includes heme amplification and C5 targets; study-specific limits and disputed THBD genetics remain explicit.",
+  "query": "(TITLE_ABS:\"atypical hemolytic uremic syndrome\" OR TITLE_ABS:\"atypical haemolytic uraemic syndrome\" OR TITLE_ABS:\"complement-mediated thrombotic microangiopathy\")",
+  "aliases": [
+    "aHUS",
+    "complement-mediated HUS",
+    "complement-mediated thrombotic microangiopathy",
+    "CM-TMA"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "atypical-hus-summary-candidate-d4ea04ecbc70"
+}

@@ -1,0 +1,10 @@
+{
+  "baseReleaseId": "c3-glomerulonephritis-summary-candidate-bc0c86a1bbcb",
+  "baseContentDigest": "634290e4c0d52fee062844f552b1159d1f76a08207ed8e955b6aa7e3d3e3aa0f",
+  "candidateId": "c3-glomerulonephritis-candidate-002",
+  "candidateDigest": "ff2a653f7fa7394cec649f4b30a5f1514b9169731e33a10b6a8d0683a2b96e01",
+  "author": "Codex agent",
+  "date": "2026-10-15",
+  "sourceDiscovery": "Consensus MCP search/fetch plus primary full-text/provider retrieval and FDA labels",
+  "scope": "Bounded C3GN map: acquired convertase dysregulation, complement-regulatory and CFHR structural variants, glomerular complement deposition and variable renal course. Related mixed-C3G assay/cohort evidence and mixed-C3G/IC-MPGN trials retain separate contexts. Dense deposit disease and immune-complex GN are excluded as mapped phenotypes; their inclusion in cited studies is explicit. Selected proximal complement therapies include verified US indications through 2026-10-15; no universal causal circuit or comprehensive therapy catalog is claimed."
+}

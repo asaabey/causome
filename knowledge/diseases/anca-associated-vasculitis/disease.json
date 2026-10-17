@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "id": "anca-associated-vasculitis",
+  "label": "ANCA-associated vasculitis",
+  "summary": "Bounded MPO-/PR3-ANCA, neutrophil activation, complement/C5a and renal/pulmonary small-vessel injury map for GPA/MPA, with a separate EGPA eosinophilic branch. Human observations and experimental models remain distinct; excludes drug-induced disease and comprehensive diagnostic or therapy coverage.",
+  "query": "((TITLE_ABS:\"ANCA-associated vasculitis\" OR TITLE_ABS:\"antineutrophil cytoplasmic\" OR TITLE_ABS:\"anti-neutrophil cytoplasmic\") AND (TITLE_ABS:complement OR TITLE_ABS:C5a OR TITLE_ABS:\"extracellular traps\" OR TITLE_ABS:priming)) OR ((TITLE_ABS:\"eosinophilic granulomatosis\" OR TITLE_ABS:\"Churg-Strauss\") AND (TITLE_ABS:\"extracellular traps\" OR TITLE_ABS:degranulation OR TITLE_ABS:\"interleukin-5\" OR TITLE_ABS:\"ANCA status\"))",
+  "aliases": [
+    "AAV",
+    "ANCA associated vasculitis",
+    "GPA",
+    "MPA",
+    "granulomatosis with polyangiitis",
+    "microscopic polyangiitis",
+    "EGPA",
+    "eosinophilic granulomatosis with polyangiitis",
+    "Churg-Strauss syndrome"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "anca-associated-vasculitis-summary-candidate-12053b461b79"
+}

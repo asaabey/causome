@@ -1,0 +1,13 @@
+{
+  "url": "http://127.0.0.1:4399/diseases/c3-glomerulonephritis/",
+  "status": 200,
+  "title": "C3 glomerulonephritis · Causome",
+  "pageErrors": [],
+  "svgCount": 52,
+  "textChecks": [
+    "C3 glomerulonephritis",
+    "35.1%"
+  ],
+  "date": "2026-10-15",
+  "curationStatus": true
+}

@@ -1,0 +1,19 @@
+{
+  "tool": "Consensus MCP search and fetch",
+  "performedBy": "Codex agent",
+  "date": "2026-10-15",
+  "queries": [
+    "C3 glomerulonephritis CFHR5 CFHR3-1 familial complement dysregulation nephritic factors mechanisms human:true domain:med,bio",
+    "C3 glomerulopathy iptacopan APPEAR pegcetacoplan VALIANT randomized trial proteinuria eGFR year:2025-2026 domain:med",
+    "C3 glomerulonephritis nephritic factors complement abnormalities unknown drivers monoclonal gammopathy prognosis year:2023-2026 domain:med,bio",
+    "eculizumab dense deposit disease C3 glomerulonephritis six subjects response Bomback 2012"
+  ],
+  "searchCalls": 4,
+  "returnedRecords": 80,
+  "uniqueSearchResults": 79,
+  "fetchCalls": 7,
+  "mappedOrRetainedFetchedPapers": 6,
+  "reviewMode": "Search/fetch records were inspected and synthesized by the curation agent. This is a Consensus-assisted literature check, not an independent Consensus agent assessment of the exported summary packet.",
+  "independentSummaryReview": "not run; no create_thread/research-dispatch endpoint was available among the exposed Consensus MCP tools",
+  "retractionScope": "Provider publication types and comment/correction metadata inspected; not comprehensive publisher/Crossmark clearance."
+}

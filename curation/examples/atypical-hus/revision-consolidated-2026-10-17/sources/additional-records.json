@@ -1,0 +1,955 @@
+[
+  {
+    "id": "37567446",
+    "source": "MED",
+    "pmid": "37567446",
+    "doi": "10.1016/j.kint.2023.07.020",
+    "title": "On the relevance of thrombomodulin variants in atypical hemolytic uremic syndrome.",
+    "authorString": "Huerta A, Arjona E, Portoles J, Lopez-Sanchez P, Cavero T, Fernandez-Cusicanqui J, Blasco M, Cabello V, Calvo N, Diaz M, Herrero-Go\u00f1i M, Aguirre M, El\u00edas S, Alcaide MP, Ramos N, Sellares J, Rodr\u00edguez de C\u00f3rdoba S.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Huerta A",
+          "lastName": "Huerta",
+          "firstName": "Ana",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3342-7628"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department. Hospital Puerta de Hierro-Majadahonda.IDIPHISA, Madrid, Spain; RedinRen Instituto de Salud Carlos III 16/009/009, Madrid, Spain. Electronic address: ana.huerta@me.com."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Arjona E",
+          "lastName": "Arjona",
+          "firstName": "Emi",
+          "initials": "E",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centro de Investigaciones Biol\u00f3gicas-Margarita Salas (CIB-MS), Madrid, Spain; Ciber de Enfermedades Raras (Ciberer), Madrid, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Portoles J",
+          "lastName": "Portoles",
+          "firstName": "Jose",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department. Hospital Puerta de Hierro-Majadahonda.IDIPHISA, Madrid, Spain; RedinRen Instituto de Salud Carlos III 16/009/009, Madrid, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lopez-Sanchez P",
+          "lastName": "Lopez-Sanchez",
+          "firstName": "Paula",
+          "initials": "P",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4332-5759"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department. Hospital Puerta de Hierro-Majadahonda.IDIPHISA, Madrid, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Cavero T",
+          "lastName": "Cavero",
+          "firstName": "Teresa",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department, Hospital Universitario Doce de Octubre, Madrid, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Fernandez-Cusicanqui J",
+          "lastName": "Fernandez-Cusicanqui",
+          "firstName": "Jeanette",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department, Hospital Alvaro Cunqueiro, Vigo, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Blasco M",
+          "lastName": "Blasco",
+          "firstName": "Miquel",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department, Hospital Clinic, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Cabello V",
+          "lastName": "Cabello",
+          "firstName": "Virginia",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department, Hospital Virgen del Rocio, Sevilla, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Calvo N",
+          "lastName": "Calvo",
+          "firstName": "Natividad",
+          "initials": "N",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department, Hospital Cl\u00ednico, Madrid, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Diaz M",
+          "lastName": "Diaz",
+          "firstName": "Montserrat",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department, Fundaci\u00f3n Puigvert, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Herrero-Go\u00f1i M",
+          "lastName": "Herrero-Go\u00f1i",
+          "firstName": "Maria",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Pediatric Nephrology Department, Hospital Cruces, Bizkaia, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Aguirre M",
+          "lastName": "Aguirre",
+          "firstName": "Mireia",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Pediatric Nephrology Department, Hospital Cruces, Bizkaia, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "El\u00edas S",
+          "lastName": "El\u00edas",
+          "firstName": "Sandra",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department, Hospital Ramon y Cajal, Madrid, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Alcaide MP",
+          "lastName": "Alcaide",
+          "firstName": "Maria Paz",
+          "initials": "MP",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department, Hospital Virgen del Rocio, Sevilla, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ramos N",
+          "lastName": "Ramos",
+          "firstName": "Natalia",
+          "initials": "N",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department, Hospital Vall d'Hebron, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sellares J",
+          "lastName": "Sellares",
+          "firstName": "Joana",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nephrology Department, Hospital Vall d'Hebron, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Rodr\u00edguez de C\u00f3rdoba S",
+          "lastName": "Rodr\u00edguez de C\u00f3rdoba",
+          "firstName": "Santiago",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centro de Investigaciones Biol\u00f3gicas-Margarita Salas (CIB-MS), Madrid, Spain; Ciber de Enfermedades Raras (Ciberer), Madrid, Spain. Electronic address: srdecordoba@cib.csic.es."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5187-9906"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9832-326X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-2114-1385"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4332-5759"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3342-7628"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "4",
+      "volume": "104",
+      "journalIssueId": 3637800,
+      "dateOfPublication": "2023 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 2023,
+      "journal": {
+        "medlineAbbreviation": "Kidney Int",
+        "title": "Kidney international",
+        "essn": "1523-1755",
+        "issn": "0085-2538",
+        "isoabbreviation": "Kidney Int",
+        "nlmid": "0323470"
+      },
+      "printPublicationDate": "2023-10-01"
+    },
+    "pubYear": "2023",
+    "pageInfo": "851-855",
+    "affiliation": "Nephrology Department. Hospital Puerta de Hierro-Majadahonda.IDIPHISA, Madrid, Spain; RedinRen Instituto de Salud Carlos III 16/009/009, Madrid, Spain. Electronic address: ana.huerta@me.com.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Thrombomodulin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement System Proteins"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Atypical Hemolytic Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Genetic analysis",
+        "Thrombomodulin",
+        "Atypical Hemolytic Uremic Syndrome (Ahus)",
+        "Complement-related Diseases"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Thrombomodulin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Complement System Proteins",
+          "registryNumber": "9007-36-7"
+        },
+        {
+          "name": "THBD protein, human",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.kint.2023.07.020"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 9,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "license": "cc by-nc-nd",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2023-09-28",
+    "dateOfCreation": "2023-08-11",
+    "dateOfRevision": "2023-09-28",
+    "electronicPublicationDate": "2023-08-09",
+    "firstPublicationDate": "2023-08-09",
+    "firstIndexDate": "2023-08-14",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "20395375",
+    "source": "MED",
+    "pmid": "20395375",
+    "doi": "10.1681/asn.2010030308",
+    "title": "Pulling the trigger in atypical hemolytic uremic syndrome: the role of pregnancy.",
+    "authorString": "Goodship TH, Kavanagh D.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Goodship TH",
+          "lastName": "Goodship",
+          "firstName": "Timothy H J",
+          "initials": "TH"
+        },
+        {
+          "fullName": "Kavanagh D",
+          "lastName": "Kavanagh",
+          "firstName": "David",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4718-0072"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0003-4718-0072"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "5",
+      "volume": "21",
+      "journalIssueId": 1727332,
+      "dateOfPublication": "2010 May",
+      "monthOfPublication": 5,
+      "yearOfPublication": 2010,
+      "journal": {
+        "medlineAbbreviation": "J Am Soc Nephrol",
+        "title": "Journal of the American Society of Nephrology : JASN",
+        "essn": "1533-3450",
+        "issn": "1046-6673",
+        "isoabbreviation": "J Am Soc Nephrol",
+        "nlmid": "9013836"
+      },
+      "printPublicationDate": "2010-05-01"
+    },
+    "pubYear": "2010",
+    "pageInfo": "731-732",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Comment",
+        "Editorial"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hemolytic-Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ET",
+                "qualifierName": "etiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Pregnancy Complications, Hematologic",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ET",
+                "qualifierName": "etiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Pregnancy"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement System Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Complement System Proteins",
+          "registryNumber": "9007-36-7"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "html",
+          "site": "www.jasn.org",
+          "url": "http://www.jasn.org/cgi/content/full/21/5/731"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "abs",
+          "site": "www.jasn.org",
+          "url": "http://www.jasn.org/cgi/content/abstract/21/5/731"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1681/ASN.2010030308"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "20203157",
+          "reference": "J Am Soc Nephrol. 2010 May;21(5):859-67. doi: 10.1681/ASN.2009070706",
+          "type": "Comment on",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 11,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2010-06-21",
+    "dateOfCreation": "2010-04-17",
+    "dateOfRevision": "2010-05-03",
+    "electronicPublicationDate": "2010-04-15",
+    "firstPublicationDate": "2010-04-15",
+    "firstIndexDate": "2010-06-23",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "22410797",
+    "source": "MED",
+    "pmid": "22410797",
+    "pmcid": "PMC3382652",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC3382652"
+      ]
+    },
+    "doi": "10.1007/s00467-012-2131-y",
+    "title": "Atypical hemolytic uremic syndrome in children: complement mutations and clinical characteristics.",
+    "authorString": "Geerdink LM, Westra D, van Wijk JA, Dorresteijn EM, Lilien MR, Davin JC, K\u00f6mhoff M, Van Hoeck K, van der Vlugt A, van den Heuvel LP, van de Kar NC.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Geerdink LM",
+          "lastName": "Geerdink",
+          "firstName": "Lianne M",
+          "initials": "LM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pediatric Nephrology, Radboud University Nijmegen Medical Centre, PO Box 9101, 6500 HB Nijmegen, The Netherlands. lgeerdink@gmail.com"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Westra D",
+          "lastName": "Westra",
+          "firstName": "Dineke",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-5567-1704"
+          }
+        },
+        {
+          "fullName": "van Wijk JA",
+          "lastName": "van Wijk",
+          "firstName": "Joanna A E",
+          "initials": "JA"
+        },
+        {
+          "fullName": "Dorresteijn EM",
+          "lastName": "Dorresteijn",
+          "firstName": "Eiske M",
+          "initials": "EM"
+        },
+        {
+          "fullName": "Lilien MR",
+          "lastName": "Lilien",
+          "firstName": "Marc R",
+          "initials": "MR"
+        },
+        {
+          "fullName": "Davin JC",
+          "lastName": "Davin",
+          "firstName": "Jean-Claude",
+          "initials": "JC"
+        },
+        {
+          "fullName": "K\u00f6mhoff M",
+          "lastName": "K\u00f6mhoff",
+          "firstName": "Martin",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6499-5313"
+          }
+        },
+        {
+          "fullName": "Van Hoeck K",
+          "lastName": "Van Hoeck",
+          "firstName": "Koen",
+          "initials": "K"
+        },
+        {
+          "fullName": "van der Vlugt A",
+          "lastName": "van der Vlugt",
+          "firstName": "Amerins",
+          "initials": "A"
+        },
+        {
+          "fullName": "van den Heuvel LP",
+          "lastName": "van den Heuvel",
+          "firstName": "Lambertus P",
+          "initials": "LP"
+        },
+        {
+          "fullName": "van de Kar NC",
+          "lastName": "van de Kar",
+          "firstName": "Nicole C A J",
+          "initials": "NC"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-5567-1704"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6499-5313"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "8",
+      "volume": "27",
+      "journalIssueId": 1943457,
+      "dateOfPublication": "2012 Aug",
+      "monthOfPublication": 8,
+      "yearOfPublication": 2012,
+      "journal": {
+        "medlineAbbreviation": "Pediatr Nephrol",
+        "title": "Pediatric nephrology (Berlin, Germany)",
+        "essn": "1432-198X",
+        "issn": "0931-041X",
+        "nlmid": "8708728",
+        "isoabbreviation": "Pediatr Nephrol"
+      },
+      "printPublicationDate": "2012-08-01"
+    },
+    "pubYear": "2012",
+    "pageInfo": "1283-1291",
+    "abstractText": "<h4>Background</h4>Mutations in complement factor H (CFH), factor I (CFI), factor B (CFB), thrombomodulin (THBD), C3 and membrane cofactor protein (MCP), and autoantibodies against factor H (\u03b1FH) with or without a homozygous deletion in CFH-related protein 1 and 3 (\u2206CFHR1/3) predispose development of atypical hemolytic uremic syndrome (aHUS).<h4>Methods</h4>Different mutations in genes encoding complement proteins in 45 pediatric aHUS patients were retrospectively linked with clinical features, treatment, and outcome.<h4>Results</h4>In 47% of the study participants, potentially pathogenic genetic anomalies were found (5xCFH, 4xMCP, and 4xC3, 3xCFI, 2xCFB, 6x\u03b1FH, of which five had \u2206CFHR1/3); four patients carried combined genetic defects or a mutation, together with \u03b1FH. In the majority (87%), disease onset was preceeded by a triggering event; in 25% of cases diarrhea was the presenting symptom. More than 50% had normal serum C3 levels at presentation. Relapses were seen in half of the patients, and there was renal graft failure in all except one case following transplant.<h4>Conclusions</h4>Performing adequate DNA analysis is essential for treatment and positive outcome in children with aHUS. The impact of intensive initial therapy and renal replacement therapy, as well as the high risk of recurrence of aHUS in renal transplant, warrants further understanding of the pathogenesis, which will lead to better treatment options.",
+    "affiliation": "Department of Pediatric Nephrology, Radboud University Nijmegen Medical Centre, PO Box 9101, 6500 HB Nijmegen, The Netherlands. lgeerdink@gmail.com",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hemolytic-Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Autoantibodies",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Autoantigens",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Treatment Outcome"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Retrospective Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "DNA Mutational Analysis"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Age of Onset"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Mutation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child, Preschool"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Infant"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Infant, Newborn"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement System Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Atypical Hemolytic Uremic Syndrome"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Autoantibodies",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Autoantigens",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Complement System Proteins",
+          "registryNumber": "9007-36-7"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1007/s00467-012-2131-y"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3382652"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3382652?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 117,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "refseq"
+      ]
+    },
+    "dateOfCompletion": "2012-10-30",
+    "dateOfCreation": "2012-03-14",
+    "dateOfRevision": "2022-04-19",
+    "electronicPublicationDate": "2012-03-13",
+    "firstPublicationDate": "2012-03-13",
+    "firstIndexDate": "2012-03-15",
+    "fullTextReceivedDate": "2025-02-02",
+    "hasEvaluations": "N"
+  }
+]

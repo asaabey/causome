@@ -1,0 +1,34 @@
+[
+  {
+    "claimId": "claim-ahus-soliris-c5",
+    "sourceId": "source-ahus-soliris",
+    "quote": "specifically binds to the complement protein C5 with high affinity",
+    "location": "Section 12.1 Mechanism of Action",
+    "checkedBy": "Codex agent; source inspection, not human domain approval",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "claimId": "claim-ahus-soliris-indication",
+    "sourceId": "source-ahus-soliris",
+    "quote": "SOLIRIS is indicated for the treatment of patients with atypical hemolytic uremic syndrome",
+    "location": "Section 1.2 aHUS indication and limitation of use",
+    "checkedBy": "Codex agent; source inspection, not human domain approval",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "claimId": "claim-ahus-ultomiris-c5",
+    "sourceId": "source-ahus-ultomiris",
+    "quote": "specifically binds to the complement protein C5 with high affinity",
+    "location": "Section 12.1 Mechanism of Action",
+    "checkedBy": "Codex agent; source inspection, not human domain approval",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "claimId": "claim-ahus-ultomiris-indication",
+    "sourceId": "source-ahus-ultomiris",
+    "quote": "ULTOMIRIS is indicated for the treatment of adult and pediatric patients one month of age and older with atypical hemolytic uremic syndrome",
+    "location": "Section 1.2 aHUS indication and limitation of use",
+    "checkedBy": "Codex agent; source inspection, not human domain approval",
+    "checkedAt": "2026-10-17"
+  }
+]

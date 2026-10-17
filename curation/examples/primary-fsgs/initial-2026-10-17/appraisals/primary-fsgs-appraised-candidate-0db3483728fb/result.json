@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "primary-fsgs-candidate-001",
+  "baseContentDigest": "0b69b2ac7817c44c0107cb437c15ef3b6cbe846b2db1891cd91265b9a648b596",
+  "candidateId": "primary-fsgs-appraised-candidate-0db3483728fb",
+  "contentDigest": "ae0e5917f565b183b40ade5ef4cd0451275afdc441748b88c100dbae028622e1",
+  "inputDigest": "0db3483728fbfb23f9de3c763ab95d7c9e146c07403f6c8ea5bc6b14cbf0d314",
+  "assessmentCount": 31,
+  "weightCount": 31,
+  "confidenceCount": 31,
+  "therapyCoverageCount": 31,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

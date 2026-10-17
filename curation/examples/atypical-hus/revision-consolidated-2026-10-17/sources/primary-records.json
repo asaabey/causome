@@ -1,0 +1,3543 @@
+[
+  {
+    "id": "18268093",
+    "source": "MED",
+    "pmid": "18268093",
+    "doi": "10.1182/blood-2007-08-106153",
+    "title": "Factor H dysfunction in patients with atypical hemolytic uremic syndrome contributes to complement deposition on platelets and their activation.",
+    "authorString": "St\u00e5hl AL, Vaziri-Sani F, Heinen S, Kristoffersson AC, Gydell KH, Raafat R, Gutierrez A, Beringer O, Zipfel PF, Karpman D.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "St\u00e5hl AL",
+          "lastName": "St\u00e5hl",
+          "firstName": "Anne-lie",
+          "initials": "AL",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pediatrics, Clinical Sciences Lund, Lund University, Lund, Sweden."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Vaziri-Sani F",
+          "lastName": "Vaziri-Sani",
+          "firstName": "Fariba",
+          "initials": "F"
+        },
+        {
+          "fullName": "Heinen S",
+          "lastName": "Heinen",
+          "firstName": "Stefan",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5800-6593"
+          }
+        },
+        {
+          "fullName": "Kristoffersson AC",
+          "lastName": "Kristoffersson",
+          "firstName": "Ann-Charlotte",
+          "initials": "AC"
+        },
+        {
+          "fullName": "Gydell KH",
+          "lastName": "Gydell",
+          "firstName": "Karl-Henrik",
+          "initials": "KH"
+        },
+        {
+          "fullName": "Raafat R",
+          "lastName": "Raafat",
+          "firstName": "Reem",
+          "initials": "R"
+        },
+        {
+          "fullName": "Gutierrez A",
+          "lastName": "Gutierrez",
+          "firstName": "Alberto",
+          "initials": "A"
+        },
+        {
+          "fullName": "Beringer O",
+          "lastName": "Beringer",
+          "firstName": "Ortraud",
+          "initials": "O"
+        },
+        {
+          "fullName": "Zipfel PF",
+          "lastName": "Zipfel",
+          "firstName": "Peter F",
+          "initials": "PF"
+        },
+        {
+          "fullName": "Karpman D",
+          "lastName": "Karpman",
+          "firstName": "Diana",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7220-7658"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5800-6593"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7220-7658"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "related_data",
+        "wikipedia"
+      ]
+    },
+    "journalInfo": {
+      "issue": "11",
+      "volume": "111",
+      "journalIssueId": 1530760,
+      "dateOfPublication": "2008 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 2008,
+      "journal": {
+        "medlineAbbreviation": "Blood",
+        "title": "Blood",
+        "essn": "1528-0020",
+        "issn": "0006-4971",
+        "isoabbreviation": "Blood",
+        "nlmid": "7603509"
+      },
+      "printPublicationDate": "2008-06-01"
+    },
+    "pubYear": "2008",
+    "pageInfo": "5307-5315",
+    "abstractText": "Atypical hemolytic uremic syndrome (aHUS) may be associated with mutations in the C-terminal of factor H (FH). FH binds to platelets via the C-terminal as previously shown using a construct consisting of short consensus repeats (SCRs) 15 to 20. A total of 4 FH mutations, in SCR15 (C870R) and SCR20 (V1168E, E1198K, and E1198Stop) in patients with aHUS, were studied regarding their ability to allow complement activation on platelet surfaces. Purified FH-E1198Stop mutant exhibited reduced binding to normal washed platelets compared with normal FH, detected by flow cytometry. Washed platelets taken from the 4 patients with aHUS during remission exhibited C3 and C9 deposition, as well as CD40-ligand (CD40L) expression indicating platelet activation. Combining patient serum/plasma with normal washed platelets led to C3 and C9 deposition, CD40L and CD62P expression, aggregate formation, and generation of tissue factor-expressing microparticles. Complement deposition and platelet activation were reduced when normal FH was preincubated with platelets and were minimal when using normal serum. The purified FH-E1198Stop mutant added to FH-deficient plasma (complemented with C3) allowed considerable C3 deposition on washed platelets, in comparison to normal FH. In summary, mutated FH enables complement activation on the surface of platelets and their activation, which may contribute to the development of thrombocytopenia in aHUS.",
+    "affiliation": "Department of Pediatrics, Clinical Sciences Lund, Lund University, Lund, Sweden.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article",
+        "Case Reports"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Blood Platelets"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hemolytic-Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CO",
+                "qualifierName": "complications"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Thrombocytopenia",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ET",
+                "qualifierName": "etiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Factor H",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fluorescent Antibody Technique"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Flow Cytometry"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Activation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Platelet Activation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Mutation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child, Preschool"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement System Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Complement Factor H",
+          "registryNumber": "80295-65-4"
+        },
+        {
+          "name": "Complement System Proteins",
+          "registryNumber": "9007-36-7"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://ashpublications.org/blood/article-pdf/111/11/5307/1295140/zh801108005307.pdf"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "abs",
+          "site": "www.bloodjournal.org",
+          "url": "http://www.bloodjournal.org/cgi/content/abstract/111/11/5307"
+        },
+        {
+          "availability": "Free after 12 months",
+          "availabilityCode": "F12",
+          "documentStyle": "html",
+          "site": "www.bloodjournal.org",
+          "url": "http://www.bloodjournal.org/cgi/content/full/111/11/5307"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1182/blood-2007-08-106153"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "18502839",
+          "reference": "Blood. 2008 Jun 1;111(11):5266. doi: 10.1182/blood-2008-03-140905",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 108,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "Y",
+    "dbCrossReferenceList": {
+      "dbName": [
+        "OMIM"
+      ]
+    },
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2008-07-01",
+    "dateOfCreation": "2008-02-13",
+    "dateOfRevision": "2021-02-06",
+    "electronicPublicationDate": "2008-02-11",
+    "firstPublicationDate": "2008-02-11",
+    "firstIndexDate": "2008-07-02",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "23692858",
+    "source": "MED",
+    "pmid": "23692858",
+    "doi": "10.1182/blood-2013-03-489245",
+    "title": "Complement activation by heme as a secondary hit for atypical hemolytic uremic syndrome.",
+    "authorString": "Frimat M, Tabarin F, Dimitrov JD, Poitou C, Halbwachs-Mecarelli L, Fremeaux-Bacchi V, Roumenina LT.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Frimat M",
+          "lastName": "Frimat",
+          "firstName": "Marie",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7461-8298"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "INSERM, Unite Mixte de Recherche en Sante 872, Cordeliers Research Center, 15 rue de l'Ecole de Medecine, Paris, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tabarin F",
+          "lastName": "Tabarin",
+          "firstName": "Fanny",
+          "initials": "F"
+        },
+        {
+          "fullName": "Dimitrov JD",
+          "lastName": "Dimitrov",
+          "firstName": "Jordan D",
+          "initials": "JD",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-8536-8995"
+          }
+        },
+        {
+          "fullName": "Poitou C",
+          "lastName": "Poitou",
+          "firstName": "Caroline",
+          "initials": "C"
+        },
+        {
+          "fullName": "Halbwachs-Mecarelli L",
+          "lastName": "Halbwachs-Mecarelli",
+          "firstName": "Lise",
+          "initials": "L"
+        },
+        {
+          "fullName": "Fremeaux-Bacchi V",
+          "lastName": "Fremeaux-Bacchi",
+          "firstName": "Veronique",
+          "initials": "V"
+        },
+        {
+          "fullName": "Roumenina LT",
+          "lastName": "Roumenina",
+          "firstName": "Lubka T",
+          "initials": "LT",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9940-0324"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-8536-8995"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7461-8298"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9940-0324"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "2",
+      "volume": "122",
+      "journalIssueId": 2056690,
+      "dateOfPublication": "2013 Jul",
+      "monthOfPublication": 7,
+      "yearOfPublication": 2013,
+      "journal": {
+        "medlineAbbreviation": "Blood",
+        "title": "Blood",
+        "essn": "1528-0020",
+        "issn": "0006-4971",
+        "isoabbreviation": "Blood",
+        "nlmid": "7603509"
+      },
+      "printPublicationDate": "2013-07-01"
+    },
+    "pubYear": "2013",
+    "pageInfo": "282-292",
+    "abstractText": "Atypical hemolytic uremic syndrome (aHUS) is characterized by genetic and acquired abnormalities of the complement system leading to alternative pathway (AP) overactivation and by glomerular endothelial damage, thrombosis, and mechanical hemolysis. Mutations per se are not sufficient to induce aHUS, and nonspecific primary triggers are required for disease manifestation. We investigated whether hemolysis-derived heme contributes to aHUS pathogenesis. We confirmed that heme activates complement AP in normal human serum, releasing C3a, C5a, and sC5b9. We demonstrated that heme-exposed endothelial cells also activate the AP, resulting in cell-bound C3 and C5b9. This was exacerbated in aHUS by genetic abnormalities associated with AP overactivation. Heme interacted with C3 close to the thioester bond, induced homophilic C3 complexes, and promoted formation of an overactive C3/C5 convertase. Heme induced decreased membrane cofactor protein (MCP) and decay-accelerating factor (DAF) expression on endothelial cells, giving Factor H (FH) a major role in complement regulation. Finally, heme promoted a rapid exocytosis of Weibel-Palade bodies, with membrane expression of P-selectin known to bind C3b and trigger the AP, and the release of the prothrombotic von Willebrand factor. These results strongly suggest that hemolysis-derived heme represents a common secondary hit amplifying endothelial damage and thrombosis in aHUS.",
+    "affiliation": "INSERM, Unite Mixte de Recherche en Sante 872, Cordeliers Research Center, 15 rue de l'Ecole de Medecine, Paris, France.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cell Line"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cell Membrane",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Endothelial Cells",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hemolytic-Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Heme",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CH",
+                "qualifierName": "chemistry"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "P-Selectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Activation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Pathway, Alternative",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Protein Binding",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Mutation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement C3",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CH",
+                "qualifierName": "chemistry"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement C3b",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement C3-C5 Convertases",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Atypical Hemolytic Uremic Syndrome"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "P-Selectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Complement C3-C5 Convertases",
+          "registryNumber": "EC 3.4.21.-"
+        },
+        {
+          "name": "Complement C3",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Complement C3b",
+          "registryNumber": "80295-43-8"
+        },
+        {
+          "name": "Heme",
+          "registryNumber": "42VZT0U6YR"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1182/blood-2013-03-489245"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 201,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2013-09-23",
+    "dateOfCreation": "2013-05-23",
+    "dateOfRevision": "2021-02-02",
+    "electronicPublicationDate": "2013-05-21",
+    "firstPublicationDate": "2013-05-21",
+    "firstIndexDate": "2013-05-23",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "17182750",
+    "source": "MED",
+    "pmid": "17182750",
+    "pmcid": "PMC1765442",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC1765442"
+      ]
+    },
+    "doi": "10.1073/pnas.0603420103",
+    "title": "Gain-of-function mutations in complement factor B are associated with atypical hemolytic uremic syndrome.",
+    "authorString": "Goicoechea de Jorge E, Harris CL, Esparza-Gordillo J, Carreras L, Arranz EA, Garrido CA, L\u00f3pez-Trascasa M, S\u00e1nchez-Corral P, Morgan BP, Rodr\u00edguez de C\u00f3rdoba S.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Goicoechea de Jorge E",
+          "lastName": "Goicoechea de Jorge",
+          "firstName": "Elena",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4978-2483"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centro de Investigaciones Biol\u00f3gicas, Consejo Superior de Investigaciones Cient\u00edficas, Ramiro de Maeztu 9, 28040 Madrid, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Harris CL",
+          "lastName": "Harris",
+          "firstName": "Claire L",
+          "initials": "CL"
+        },
+        {
+          "fullName": "Esparza-Gordillo J",
+          "lastName": "Esparza-Gordillo",
+          "firstName": "Jorge",
+          "initials": "J"
+        },
+        {
+          "fullName": "Carreras L",
+          "lastName": "Carreras",
+          "firstName": "Luis",
+          "initials": "L"
+        },
+        {
+          "fullName": "Arranz EA",
+          "lastName": "Arranz",
+          "firstName": "Elena Aller",
+          "initials": "EA"
+        },
+        {
+          "fullName": "Garrido CA",
+          "lastName": "Garrido",
+          "firstName": "Cynthia Abarrategui",
+          "initials": "CA"
+        },
+        {
+          "fullName": "L\u00f3pez-Trascasa M",
+          "lastName": "L\u00f3pez-Trascasa",
+          "firstName": "Margarita",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-8594-282X"
+          }
+        },
+        {
+          "fullName": "S\u00e1nchez-Corral P",
+          "lastName": "S\u00e1nchez-Corral",
+          "firstName": "Pilar",
+          "initials": "P",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4212-1233"
+          }
+        },
+        {
+          "fullName": "Morgan BP",
+          "lastName": "Morgan",
+          "firstName": "B Paul",
+          "initials": "BP",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4075-7676"
+          }
+        },
+        {
+          "fullName": "Rodr\u00edguez de C\u00f3rdoba S",
+          "lastName": "Rodr\u00edguez de C\u00f3rdoba",
+          "firstName": "Santiago",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6401-1874"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6401-1874"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-8594-282X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4978-2483"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-4075-7676"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-4212-1233"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data",
+        "recommended_reviews",
+        "related_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "104",
+      "journalIssueId": 1369029,
+      "dateOfPublication": "2007 Jan",
+      "monthOfPublication": 1,
+      "yearOfPublication": 2007,
+      "journal": {
+        "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+        "title": "Proceedings of the National Academy of Sciences of the United States of America",
+        "essn": "1091-6490",
+        "issn": "0027-8424",
+        "nlmid": "7505876",
+        "isoabbreviation": "Proc Natl Acad Sci U S A"
+      },
+      "printPublicationDate": "2007-01-01"
+    },
+    "pubYear": "2007",
+    "pageInfo": "240-245",
+    "abstractText": "Hemolytic uremic syndrome (HUS) is an important cause of acute renal failure in children. Mutations in one or more genes encoding complement-regulatory proteins have been reported in approximately one-third of nondiarrheal, atypical HUS (aHUS) patients, suggesting a defect in the protection of cell surfaces against complement activation in susceptible individuals. Here, we identified a subgroup of aHUS patients showing persistent activation of the complement alternative pathway and found within this subgroup two families with mutations in the gene encoding factor B (BF), a zymogen that carries the catalytic site of the complement alternative pathway convertase (C3bBb). Functional analyses demonstrated that F286L and K323E aHUS-associated BF mutations are gain-of-function mutations that result in enhanced formation of the C3bBb convertase or increased resistance to inactivation by complement regulators. These data expand our understanding of the genetic factors conferring predisposition to aHUS, demonstrate the critical role of the alternative complement pathway in the pathogenesis of aHUS, and provide support for the use of complement-inhibition therapies to prevent or reduce tissue damage caused by dysregulated complement activation.",
+    "affiliation": "Centro de Investigaciones Biol\u00f3gicas, Consejo Superior de Investigaciones Cient\u00edficas, Ramiro de Maeztu 9, 28040 Madrid, Spain.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Wellcome Trust",
+          "acronym": "WT_",
+          "grantId": "068599",
+          "orderIn": 0
+        },
+        {
+          "agency": "Wellcome Trust",
+          "acronym": "WT_",
+          "orderIn": 0
+        },
+        {
+          "agency": "Wellcome Trust",
+          "grantId": "068823",
+          "orderIn": 0
+        },
+        {
+          "agency": "Wellcome Trust",
+          "acronym": "WT_",
+          "grantId": "068823/Z",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hemolytic-Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ET",
+                "qualifierName": "etiology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Factor B",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CH",
+                "qualifierName": "chemistry"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Factor H",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Pathway, Alternative"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Structure-Activity Relationship"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Mutation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "CD55 Antigens",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Complement Factor B",
+          "registryNumber": "EC 3.4.21.47"
+        },
+        {
+          "name": "Complement Factor H",
+          "registryNumber": "80295-65-4"
+        },
+        {
+          "name": "CD55 Antigens",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Unpaywall",
+          "url": "http://hdl.handle.net/10261/67584"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1073/pnas.0603420103"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC1765442"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC1765442?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1073/pnas.0603420103"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "reference": "Proc Natl Acad Sci U S A. 2007 Jun 19;104(25):10749",
+          "type": "Erratum in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 344,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "Y",
+    "dbCrossReferenceList": {
+      "dbName": [
+        "OMIM",
+        "UNIPROT"
+      ]
+    },
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "omim",
+        "pdb"
+      ]
+    },
+    "dateOfCompletion": "2007-02-07",
+    "dateOfCreation": "2006-12-22",
+    "dateOfRevision": "2026-09-16",
+    "electronicPublicationDate": "2006-12-20",
+    "firstPublicationDate": "2006-12-20",
+    "firstIndexDate": "2009-12-24",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC1965584",
+    "source": "PMC",
+    "pmcid": "PMC1965584",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC1965584"
+      ]
+    },
+    "title": "Correction for Elena Goicoechea de Jorge et al., Gain-of-function mutations in complement factor B are associated with atypical hemolytic uremic syndrome",
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "25",
+      "volume": "104",
+      "journalIssueId": 1402338,
+      "dateOfPublication": "2007 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 2007,
+      "journal": {
+        "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+        "title": "Proceedings of the National Academy of Sciences of the United States of America",
+        "essn": "1091-6490",
+        "issn": "0027-8424",
+        "nlmid": "7505876",
+        "isoabbreviation": "Proc Natl Acad Sci U S A"
+      },
+      "printPublicationDate": "2007-06-01"
+    },
+    "pubYear": "2007",
+    "pageInfo": "10749-10749",
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "correction",
+        "Corrected and Republished Article"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1965584/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1965584/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC1965584"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC1965584?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "pdb"
+      ]
+    },
+    "dateOfCreation": "2025-02-05",
+    "dateOfRevision": "2026-08-24",
+    "electronicPublicationDate": "2007-06-04",
+    "firstPublicationDate": "2007-06-04",
+    "firstIndexDate": "2010-02-22",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "19625716",
+    "source": "MED",
+    "pmid": "19625716",
+    "pmcid": "PMC3530919",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC3530919"
+      ]
+    },
+    "doi": "10.1056/nejmoa0810739",
+    "title": "Thrombomodulin mutations in atypical hemolytic-uremic syndrome.",
+    "authorString": "Delvaeye M, Noris M, De Vriese A, Esmon CT, Esmon NL, Ferrell G, Del-Favero J, Plaisance S, Claes B, Lambrechts D, Zoja C, Remuzzi G, Conway EM.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Delvaeye M",
+          "lastName": "Delvaeye",
+          "firstName": "Mieke",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "VIB-K.U.Leuven Vesalius Research Center, Leuven, Belgium."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Noris M",
+          "lastName": "Noris",
+          "firstName": "Marina",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7651-5033"
+          }
+        },
+        {
+          "fullName": "De Vriese A",
+          "lastName": "De Vriese",
+          "firstName": "Astrid",
+          "initials": "A"
+        },
+        {
+          "fullName": "Esmon CT",
+          "lastName": "Esmon",
+          "firstName": "Charles T",
+          "initials": "CT"
+        },
+        {
+          "fullName": "Esmon NL",
+          "lastName": "Esmon",
+          "firstName": "Naomi L",
+          "initials": "NL"
+        },
+        {
+          "fullName": "Ferrell G",
+          "lastName": "Ferrell",
+          "firstName": "Gary",
+          "initials": "G"
+        },
+        {
+          "fullName": "Del-Favero J",
+          "lastName": "Del-Favero",
+          "firstName": "Jurgen",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7427-7489"
+          }
+        },
+        {
+          "fullName": "Plaisance S",
+          "lastName": "Plaisance",
+          "firstName": "Stephane",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1651-241X"
+          }
+        },
+        {
+          "fullName": "Claes B",
+          "lastName": "Claes",
+          "firstName": "Bart",
+          "initials": "B"
+        },
+        {
+          "fullName": "Lambrechts D",
+          "lastName": "Lambrechts",
+          "firstName": "Diether",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3429-302X"
+          }
+        },
+        {
+          "fullName": "Zoja C",
+          "lastName": "Zoja",
+          "firstName": "Carla",
+          "initials": "C",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2507-8894"
+          }
+        },
+        {
+          "fullName": "Remuzzi G",
+          "lastName": "Remuzzi",
+          "firstName": "Giuseppe",
+          "initials": "G",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6194-3446"
+          }
+        },
+        {
+          "fullName": "Conway EM",
+          "lastName": "Conway",
+          "firstName": "Edward M",
+          "initials": "EM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-0081-0305"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7651-5033"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-1651-241X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-3429-302X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6194-3446"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7427-7489"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-0081-0305"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2507-8894"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "supporting_data",
+        "recommended_reviews",
+        "related_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "4",
+      "volume": "361",
+      "journalIssueId": 1638640,
+      "dateOfPublication": "2009 Jul",
+      "monthOfPublication": 7,
+      "yearOfPublication": 2009,
+      "journal": {
+        "medlineAbbreviation": "N Engl J Med",
+        "title": "The New England journal of medicine",
+        "essn": "1533-4406",
+        "issn": "0028-4793",
+        "isoabbreviation": "N Engl J Med",
+        "nlmid": "0255562"
+      },
+      "printPublicationDate": "2009-07-01"
+    },
+    "pubYear": "2009",
+    "pageInfo": "345-357",
+    "abstractText": "<h4>Background</h4>The hemolytic-uremic syndrome consists of the triad of microangiopathic hemolytic anemia, thrombocytopenia, and renal failure. The common form of the syndrome is triggered by infection with Shiga toxin-producing bacteria and has a favorable outcome. The less common form of the syndrome, called atypical hemolytic-uremic syndrome, accounts for about 10% of cases, and patients with this form of the syndrome have a poor prognosis. Approximately half of the patients with atypical hemolytic-uremic syndrome have mutations in genes that regulate the complement system. Genetic factors in the remaining cases are unknown. We studied the role of thrombomodulin, an endothelial glycoprotein with anticoagulant, antiinflammatory, and cytoprotective properties, in atypical hemolytic-uremic syndrome.<h4>Methods</h4>We sequenced the entire thrombomodulin gene (THBD) in 152 patients with atypical hemolytic-uremic syndrome and in 380 controls. Using purified proteins and cell-expression systems, we investigated whether thrombomodulin regulates the complement system, and we characterized the mechanisms. We evaluated the effects of thrombomodulin missense mutations associated with atypical hemolytic-uremic syndrome on complement activation by expressing thrombomodulin variants in cultured cells.<h4>Results</h4>Of 152 patients with atypical hemolytic-uremic syndrome, 7 unrelated patients had six different heterozygous missense THBD mutations. In vitro, thrombomodulin binds to C3b and factor H (CFH) and negatively regulates complement by accelerating factor I-mediated inactivation of C3b in the presence of cofactors, CFH or C4b binding protein. By promoting activation of the plasma procarboxypeptidase B, thrombomodulin also accelerates the inactivation of anaphylatoxins C3a and C5a. Cultured cells expressing thrombomodulin variants associated with atypical hemolytic-uremic syndrome had diminished capacity to inactivate C3b and to activate procarboxypeptidase B and were thus less protected from activated complement.<h4>Conclusions</h4>Mutations that impair the function of thrombomodulin occur in about 5% of patients with atypical hemolytic-uremic syndrome.",
+    "affiliation": "VIB-K.U.Leuven Vesalius Research Center, Leuven, Belgium.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "R21 DK071221",
+          "orderIn": 0
+        },
+        {
+          "agency": "Howard Hughes Medical Institute",
+          "acronym": "HHMI",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "DK71221",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hemolytic-Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Factor I"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Thrombomodulin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Pedigree"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "DNA Mutational Analysis"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Activation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Pathway, Alternative",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Heterozygote"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Mutation, Missense"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Polymorphism, Single Nucleotide"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adolescent"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement C3b"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Young Adult"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Complement Factor I",
+          "registryNumber": "EC 3.4.21.45"
+        },
+        {
+          "name": "Thrombomodulin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Complement C3b",
+          "registryNumber": "80295-43-8"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://europepmc.org/articles/pmc3530919?pdf=render"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "html",
+          "site": "content.nejm.org",
+          "url": "http://content.nejm.org/cgi/content/full/361/4/345"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "pdf",
+          "site": "content.nejm.org",
+          "url": "http://content.nejm.org/cgi/reprint/361/4/345.pdf"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "abs",
+          "site": "content.nejm.org",
+          "url": "http://content.nejm.org/cgi/content/abstract/361/4/345"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1056/NEJMoa0810739"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3530919"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3530919?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1056/nejmoa0810739"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "19812413",
+          "reference": "N Engl J Med. 2009 Oct 8;361(15):1511; author reply 1511. doi: 10.1056/NEJMc091704.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 409,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "Y",
+    "dbCrossReferenceList": {
+      "dbName": [
+        "OMIM",
+        "UNIPROT"
+      ]
+    },
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "Y",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "Y",
+    "manuscriptId": "NIHMS428130",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "refsnp"
+      ]
+    },
+    "dateOfCompletion": "2009-07-29",
+    "dateOfCreation": "2009-07-24",
+    "dateOfRevision": "2025-05-29",
+    "firstPublicationDate": "2009-07-01",
+    "firstIndexDate": "2009-10-10",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "17517971",
+    "source": "MED",
+    "pmid": "17517971",
+    "pmcid": "PMC2118613",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC2118613"
+      ]
+    },
+    "doi": "10.1084/jem.20070301",
+    "title": "Spontaneous hemolytic uremic syndrome triggered by complement factor H lacking surface recognition domains.",
+    "authorString": "Pickering MC, de Jorge EG, Martinez-Barricarte R, Recalde S, Garcia-Layana A, Rose KL, Moss J, Walport MJ, Cook HT, de C\u00f3rdoba SR, Botto M.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Pickering MC",
+          "lastName": "Pickering",
+          "firstName": "Matthew C",
+          "initials": "MC",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1153-0192"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Molecular Genetics and Rheumatology Section, Faculty of Medicine, Imperial College, London W12 0NN, England, UK. matthew.pickering@imperial.ac.uk"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "de Jorge EG",
+          "lastName": "de Jorge",
+          "firstName": "Elena Goicoechea",
+          "initials": "EG"
+        },
+        {
+          "fullName": "Martinez-Barricarte R",
+          "lastName": "Martinez-Barricarte",
+          "firstName": "Rub\u00e9n",
+          "initials": "R",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7925-449X"
+          }
+        },
+        {
+          "fullName": "Recalde S",
+          "lastName": "Recalde",
+          "firstName": "Sergio",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9328-9725"
+          }
+        },
+        {
+          "fullName": "Garcia-Layana A",
+          "lastName": "Garcia-Layana",
+          "firstName": "Alfredo",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5732-2797"
+          }
+        },
+        {
+          "fullName": "Rose KL",
+          "lastName": "Rose",
+          "firstName": "Kirsten L",
+          "initials": "KL"
+        },
+        {
+          "fullName": "Moss J",
+          "lastName": "Moss",
+          "firstName": "Jill",
+          "initials": "J"
+        },
+        {
+          "fullName": "Walport MJ",
+          "lastName": "Walport",
+          "firstName": "Mark J",
+          "initials": "MJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7220-5273"
+          }
+        },
+        {
+          "fullName": "Cook HT",
+          "lastName": "Cook",
+          "firstName": "H Terence",
+          "initials": "HT"
+        },
+        {
+          "fullName": "de C\u00f3rdoba SR",
+          "lastName": "de C\u00f3rdoba",
+          "firstName": "Santiago Rodriguez",
+          "initials": "SR"
+        },
+        {
+          "fullName": "Botto M",
+          "lastName": "Botto",
+          "firstName": "Marina",
+          "initials": "M"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5732-2797"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6401-1874"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7220-5273"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7925-449X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-1153-0192"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4978-2483"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9328-9725"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "supporting_data",
+        "recommended_reviews",
+        "related_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "6",
+      "volume": "204",
+      "journalIssueId": 1401043,
+      "dateOfPublication": "2007 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 2007,
+      "journal": {
+        "medlineAbbreviation": "J Exp Med",
+        "title": "The Journal of experimental medicine",
+        "essn": "1540-9538",
+        "issn": "0022-1007",
+        "isoabbreviation": "J Exp Med",
+        "nlmid": "2985109R"
+      },
+      "printPublicationDate": "2007-06-01"
+    },
+    "pubYear": "2007",
+    "pageInfo": "1249-1256",
+    "abstractText": "Factor H (FH) is an abundant serum glycoprotein that regulates the alternative pathway of complement-preventing uncontrolled plasma C3 activation and nonspecific damage to host tissues. Age-related macular degeneration (AMD), atypical hemolytic uremic syndrome (aHUS), and membranoproliferative glomerulonephritis type II (MPGN2) are associated with polymorphisms or mutations in the FH gene (Cfh), suggesting the existence of a genotype-phenotype relationship. Although AMD and MPGN2 share pathological similarities with the accumulation of complement-containing debris within the eye and kidney, respectively, aHUS is characterized by renal endothelial injury. This pathological distinction was reflected in our Cfh association analysis, which demonstrated that although AMD and MPGN2 share a Cfh at-risk haplotype, the haplotype for aHUS was unique. FH-deficient mice have uncontrolled plasma C3 activation and spontaneously develop MPGN2 but not aHUS. We show that these mice, transgenically expressing a mouse FH protein functionally equivalent to aHUS-associated human FH mutants, regulate C3 activation in plasma and spontaneously develop aHUS but not MPGN2. These animals represent the first model of aHUS and provide in vivo evidence that effective plasma C3 regulation and the defective control of complement activation on renal endothelium are the critical events in the molecular pathogenesis of FH-associated aHUS.",
+    "affiliation": "Molecular Genetics and Rheumatology Section, Faculty of Medicine, Imperial College, London W12 0NN, England, UK. matthew.pickering@imperial.ac.uk",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Wellcome Trust",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Eye",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PA",
+                "qualifierName": "pathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Kidney",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PA",
+                "qualifierName": "pathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Mice, Knockout"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Mice"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Macular Degeneration",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Glomerulonephritis, Membranoproliferative",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hemolytic-Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PA",
+                "qualifierName": "pathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Factor H",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "DNA Primers"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Blotting, Western"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Protein Structure, Tertiary"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Haplotypes",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement C3",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "DNA Primers",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Complement Factor H",
+          "registryNumber": "80295-65-4"
+        },
+        {
+          "name": "Complement C3",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1084/jem.20070301"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC2118613"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC2118613?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 218,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by-nc-sa",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2007-12-13",
+    "dateOfCreation": "2007-05-23",
+    "dateOfRevision": "2018-11-13",
+    "electronicPublicationDate": "2007-05-21",
+    "firstPublicationDate": "2007-05-21",
+    "firstIndexDate": "2009-12-24",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "31705748",
+    "source": "MED",
+    "pmid": "31705748",
+    "title": "Genetics and outcome of atypical hemolytic-uremic syndrome in Turkish children: a retrospective study between 2010 and 2017, a single-center experience.",
+    "authorString": "Conkar S, Mir S, Berdeli A.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Conkar S",
+          "lastName": "Conkar",
+          "firstName": "Se\u00e7il",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": ". secilcankar@yahoo.com.tr."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Mir S",
+          "lastName": "Mir",
+          "firstName": "Sevgi",
+          "initials": "S"
+        },
+        {
+          "fullName": "Berdeli A",
+          "lastName": "Berdeli",
+          "firstName": "Afig",
+          "initials": "A"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "5",
+      "volume": "13",
+      "journalIssueId": 2880207,
+      "dateOfPublication": "2019 Sep",
+      "monthOfPublication": 9,
+      "yearOfPublication": 2019,
+      "journal": {
+        "medlineAbbreviation": "Iran J Kidney Dis",
+        "title": "Iranian journal of kidney diseases",
+        "essn": "1735-8604",
+        "issn": "1735-8582",
+        "isoabbreviation": "Iran J Kidney Dis",
+        "nlmid": "101316967"
+      },
+      "printPublicationDate": "2019-09-01"
+    },
+    "pubYear": "2019",
+    "pageInfo": "316-321",
+    "abstractText": "<h4>Introduction</h4>Atypical hemolytic uremic syndrome (aHUS) is associated with mutations or antibodies that affect the regulation of the alternative complement pathway. In the recent years several studies have been published describing these mutations. In this study, the initial clinical findings, treatments and long-term follow-up results of 19 patients who were hospitalized with the diagnosis of aHUS were presented.<h4>Materials and methods</h4>Nineteen patients who were diagnosed as aHUS were enrolled from January 2010 to March 2017. Initial clinical signs and clinical follow-up of patients with aHUS were evaluated. Disease causing complement factor H (CFH) mutations were determined. \u00a0Results. CFH mutations were detected in 5 of 19 aHUS cases. Of these, one was novel and 4 were previously reported. We reported here the clinical course of aHUS patients with CFH mutations (p.Glu936Asp, Val 1197Ala) and a novel mutation (Glu927Lys) which caused\u00a0 previously defined aHUS. Two of the CFH mutation cases developed end stage kidney disease that required hemodialysis, 1 case developed chronic kidney disease. Two cases were in remission, one of them with supportive therapy and the other case was in remission with eculizumab treatment.<h4>Conclusions</h4>Morbidity rate is higher in children with aHUS. The renal prognosis and morbidity rate is higher in children with CFH mutations than other children with aHUS. Poor prognosis in aHUS children with CFH mutation depends on the genetic background.",
+    "affiliation": ". secilcankar@yahoo.com.tr.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Kidney Failure, Chronic",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "EH",
+                "qualifierName": "ethnology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TH",
+                "qualifierName": "therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Factor H",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Treatment Outcome"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Renal Dialysis"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Retrospective Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adolescent"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child, Preschool"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Infant"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Turkey",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "EH",
+                "qualifierName": "ethnology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement Inactivating Agents",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Antibodies, Monoclonal, Humanized",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Atypical Hemolytic Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "EH",
+                "qualifierName": "ethnology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TH",
+                "qualifierName": "therapy"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Complement Factor H",
+          "registryNumber": "80295-65-4"
+        },
+        {
+          "name": "Complement Inactivating Agents",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Antibodies, Monoclonal, Humanized",
+          "registryNumber": "0"
+        },
+        {
+          "name": "eculizumab",
+          "registryNumber": "A3ULP0F556"
+        },
+        {
+          "name": "CFH protein, human",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2020-04-06",
+    "dateOfCreation": "2019-11-10",
+    "dateOfRevision": "2021-05-14",
+    "firstPublicationDate": "2019-09-01",
+    "firstIndexDate": "2019-11-10",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "23307876",
+    "source": "MED",
+    "pmid": "23307876",
+    "pmcid": "PMC3613948",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC3613948"
+      ]
+    },
+    "doi": "10.2215/cjn.04760512",
+    "title": "Genetics and outcome of atypical hemolytic uremic syndrome: a nationwide French series comparing children and adults.",
+    "authorString": "Fremeaux-Bacchi V, Fakhouri F, Garnier A, Bienaim\u00e9 F, Dragon-Durey MA, Ngo S, Moulin B, Servais A, Provot F, Rostaing L, Burtey S, Niaudet P, Desch\u00eanes G, Lebranchu Y, Zuber J, Loirat C.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Fremeaux-Bacchi V",
+          "lastName": "Fremeaux-Bacchi",
+          "firstName": "V\u00e9ronique",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Service d'Immunologie Biologique, H\u00f4pital Europe\u00e9n Georges Pompidou, 20-40 rue Leblanc, Paris cedex 15, France. veronique.fremeaux-bacchi@egp.aphp.fr"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Fakhouri F",
+          "lastName": "Fakhouri",
+          "firstName": "Fadi",
+          "initials": "F",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5390-8002"
+          }
+        },
+        {
+          "fullName": "Garnier A",
+          "lastName": "Garnier",
+          "firstName": "Arnaud",
+          "initials": "A"
+        },
+        {
+          "fullName": "Bienaim\u00e9 F",
+          "lastName": "Bienaim\u00e9",
+          "firstName": "Frank",
+          "initials": "F",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8666-2042"
+          }
+        },
+        {
+          "fullName": "Dragon-Durey MA",
+          "lastName": "Dragon-Durey",
+          "firstName": "Marie-Agn\u00e8s",
+          "initials": "MA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-5809-8122"
+          }
+        },
+        {
+          "fullName": "Ngo S",
+          "lastName": "Ngo",
+          "firstName": "St\u00e9phanie",
+          "initials": "S"
+        },
+        {
+          "fullName": "Moulin B",
+          "lastName": "Moulin",
+          "firstName": "Bruno",
+          "initials": "B",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6772-7165"
+          }
+        },
+        {
+          "fullName": "Servais A",
+          "lastName": "Servais",
+          "firstName": "Aude",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8165-8212"
+          }
+        },
+        {
+          "fullName": "Provot F",
+          "lastName": "Provot",
+          "firstName": "Fran\u00e7ois",
+          "initials": "F"
+        },
+        {
+          "fullName": "Rostaing L",
+          "lastName": "Rostaing",
+          "firstName": "Lionel",
+          "initials": "L"
+        },
+        {
+          "fullName": "Burtey S",
+          "lastName": "Burtey",
+          "firstName": "St\u00e9phane",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-1813-7884"
+          }
+        },
+        {
+          "fullName": "Niaudet P",
+          "lastName": "Niaudet",
+          "firstName": "Patrick",
+          "initials": "P"
+        },
+        {
+          "fullName": "Desch\u00eanes G",
+          "lastName": "Desch\u00eanes",
+          "firstName": "Georges",
+          "initials": "G",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-5158-2915"
+          }
+        },
+        {
+          "fullName": "Lebranchu Y",
+          "lastName": "Lebranchu",
+          "firstName": "Yvon",
+          "initials": "Y"
+        },
+        {
+          "fullName": "Zuber J",
+          "lastName": "Zuber",
+          "firstName": "Julien",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6741-9330"
+          }
+        },
+        {
+          "fullName": "Loirat C",
+          "lastName": "Loirat",
+          "firstName": "Chantal",
+          "initials": "C"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5390-8002"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6741-9330"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6772-7165"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-5158-2915"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-5809-8122"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8165-8212"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8666-2042"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-1813-7884"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "4",
+      "volume": "8",
+      "journalIssueId": 2027835,
+      "dateOfPublication": "2013 Apr",
+      "monthOfPublication": 4,
+      "yearOfPublication": 2013,
+      "journal": {
+        "medlineAbbreviation": "Clin J Am Soc Nephrol",
+        "title": "Clinical journal of the American Society of Nephrology : CJASN",
+        "essn": "1555-905X",
+        "issn": "1555-9041",
+        "isoabbreviation": "Clin J Am Soc Nephrol",
+        "nlmid": "101271570"
+      },
+      "printPublicationDate": "2013-04-01"
+    },
+    "pubYear": "2013",
+    "pageInfo": "554-562",
+    "abstractText": "<h4>Background and objectives</h4>Atypical hemolytic uremic syndrome (aHUS) is a rare complement-mediated kidney disease that was first recognized in children but also affects adults. This study assessed the disease presentation and outcome in a nationwide cohort of patients with aHUS according to the age at onset and the underlying complement abnormalities.<h4>Design, setting, participants, & measurements</h4>A total of 214 patients with aHUS were enrolled between 2000 and 2008 and screened for mutations in the six susceptibility factors for aHUS and for anti-factor H antibodies.<h4>Results</h4>Onset of aHUS occurred as frequently during adulthood (58.4%) as during childhood (41.6%). The percentages of patients who developed the disease were 23%, 40%, 70%, and 98% by age 2, 18, 40, and 60 years, respectively. Mortality was higher in children than in adults (6.7% versus 0.8% at 1 year) (P=0.02), but progression to ESRD after the first aHUS episode was more frequent in adults (46% versus 16%; P<0.001). Sixty-one percent of patients had mutations in their complement genes. The renal outcome was not significantly different in adults regardless of genetic background. Only membrane cofactor protein (MCP) and undetermined aHUS were less severe in children than adults. The frequency of relapse after 1 year was 92% in children with MCP-associated HUS and approximately 30% in all other subgroups.<h4>Conclusion</h4>Mortality rate was higher in children than adults with aHUS, but renal prognosis was worse in adults than children. In children, the prognosis strongly depends on the genetic background.",
+    "affiliation": "Service d'Immunologie Biologique, H\u00f4pital Europe\u00e9n Georges Pompidou, 20-40 rue Leblanc, Paris cedex 15, France. veronique.fremeaux-bacchi@egp.aphp.fr",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Hemolytic-Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "MO",
+                "qualifierName": "mortality"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TH",
+                "qualifierName": "therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Genetic Predisposition to Disease",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "EP",
+                "qualifierName": "epidemiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Prognosis"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Age of Onset"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adolescent"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged, 80 and over"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child, Preschool"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Infant"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Infant, Newborn"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "France",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "EP",
+                "qualifierName": "epidemiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement System Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Young Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Genetic Testing",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "SN",
+                "qualifierName": "statistics & numerical data"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Genetic Association Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Kaplan-Meier Estimate"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Atypical Hemolytic Uremic Syndrome"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Outcome Assessment, Health Care"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Complement System Proteins",
+          "registryNumber": "9007-36-7"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.2215/CJN.04760512"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3613948"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3613948?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.2215/cjn.04760512"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 565,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2013-09-30",
+    "dateOfCreation": "2013-01-12",
+    "dateOfRevision": "2022-04-19",
+    "electronicPublicationDate": "2013-01-10",
+    "firstPublicationDate": "2013-01-10",
+    "firstIndexDate": "2013-01-12",
+    "fullTextReceivedDate": "2025-02-02",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "37369098",
+    "source": "MED",
+    "pmid": "37369098",
+    "pmcid": "PMC10651868",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC10651868"
+      ]
+    },
+    "doi": "10.1182/blood.2022018833",
+    "title": "Atypical hemolytic uremic syndrome in the era of terminal complement inhibition: an observational cohort study.",
+    "authorString": "Brocklebank V, Walsh PR, Smith-Jackson K, Hallam TM, Marchbank KJ, Wilson V, Bigirumurame T, Dutt T, Montgomery EK, Malina M, Wong EKS, Johnson S, Sheerin NS, Kavanagh D.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Brocklebank V",
+          "lastName": "Brocklebank",
+          "firstName": "Vicky",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              },
+              {
+                "affiliation": "Complement Therapeutics Research Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Walsh PR",
+          "lastName": "Walsh",
+          "firstName": "Patrick R",
+          "initials": "PR",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9852-0095"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              },
+              {
+                "affiliation": "Complement Therapeutics Research Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Smith-Jackson K",
+          "lastName": "Smith-Jackson",
+          "firstName": "Kate",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              },
+              {
+                "affiliation": "Complement Therapeutics Research Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hallam TM",
+          "lastName": "Hallam",
+          "firstName": "Thomas M",
+          "initials": "TM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4632-9640"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Complement Therapeutics Research Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Marchbank KJ",
+          "lastName": "Marchbank",
+          "firstName": "Kevin J",
+          "initials": "KJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-1312-5411"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              },
+              {
+                "affiliation": "Complement Therapeutics Research Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wilson V",
+          "lastName": "Wilson",
+          "firstName": "Valerie",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bigirumurame T",
+          "lastName": "Bigirumurame",
+          "firstName": "Theophile",
+          "initials": "T",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2387-4918"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Population Health Sciences Institute, Newcastle University, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Dutt T",
+          "lastName": "Dutt",
+          "firstName": "Tina",
+          "initials": "T",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3049-2395"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Haematology, Royal Liverpool University Hospital, Liverpool, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Montgomery EK",
+          "lastName": "Montgomery",
+          "firstName": "Emma K",
+          "initials": "EK",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4051-2620"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Malina M",
+          "lastName": "Malina",
+          "firstName": "Michal",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9434-1521"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              },
+              {
+                "affiliation": "Complement Therapeutics Research Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, United Kingdom."
+              },
+              {
+                "affiliation": "Great North Children's Hospital, Sir James Spence Institute, Royal Victoria Infirmary, Newcastle, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wong EKS",
+          "lastName": "Wong",
+          "firstName": "Edwin K S",
+          "initials": "EKS",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4867-6117"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Johnson S",
+          "lastName": "Johnson",
+          "firstName": "Sally",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9221-1347"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              },
+              {
+                "affiliation": "Great North Children's Hospital, Sir James Spence Institute, Royal Victoria Infirmary, Newcastle, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sheerin NS",
+          "lastName": "Sheerin",
+          "firstName": "Neil S",
+          "initials": "NS",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3743-2371"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              },
+              {
+                "affiliation": "Complement Therapeutics Research Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kavanagh D",
+          "lastName": "Kavanagh",
+          "firstName": "David",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4718-0072"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom."
+              },
+              {
+                "affiliation": "Complement Therapeutics Research Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, United Kingdom."
+              },
+              {
+                "affiliation": "National Institute for Health and Care Research Newcastle Biomedical Research Centre, Biomedical Research Building, Campus for Ageing and Vitality, Newcastle upon Tyne, United Kingdom."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9221-1347"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9852-0095"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-1615-2602"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-3114-3501"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-3743-2371"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4051-2620"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4632-9640"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7207-6122"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9170-1579"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9434-1521"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-1312-5411"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2387-4918"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3049-2395"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-4718-0072"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-4867-6117"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data",
+        "recommended_reviews"
+      ]
+    },
+    "journalInfo": {
+      "issue": "16",
+      "volume": "142",
+      "journalIssueId": 3651806,
+      "dateOfPublication": "2023 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 2023,
+      "journal": {
+        "medlineAbbreviation": "Blood",
+        "title": "Blood",
+        "essn": "1528-0020",
+        "issn": "0006-4971",
+        "nlmid": "7603509",
+        "isoabbreviation": "Blood"
+      },
+      "printPublicationDate": "2023-10-01"
+    },
+    "pubYear": "2023",
+    "pageInfo": "1371-1386",
+    "abstractText": "Historically, the majority of patients with complement-mediated atypical hemolytic uremic syndrome (CaHUS) progress to end-stage kidney disease (ESKD). Single-arm trials of eculizumab with a short follow-up suggested efficacy. We prove, for the first time to our knowledge, in a genotype matched CaHUS cohort that the 5-year cumulative estimate of ESKD-free survival improved from 39.5% in a control cohort to 85.5% in the eculizumab-treated cohort (hazard ratio, 4.95; 95% confidence interval [CI], 2.75-8.90; P\u00a0= .000; number needed to treat, 2.17 [95% CI, 1.81-2.73]). The outcome of eculizumab treatment is associated with the underlying genotype. Lower serum creatinine, lower platelet count, lower blood pressure, and younger age at presentation as well as shorter time between presentation and the first dose of eculizumab were associated with estimated glomerular filtration rate >60 ml/min at 6 months in multivariate analysis. The rate of meningococcal infection in the treated cohort was 550 times greater than the background rate in the general population. The relapse rate upon eculizumab withdrawal was 1 per 9.5 person years for patients with a pathogenic mutation and 1 per 10.8 person years for those with a variant of uncertain significance. No relapses were recorded in 67.3 person years off eculizumab in those with no rare genetic variants. Eculizumab was restarted in 6 individuals with functioning kidneys in whom it had been stopped, with no individual progressing to ESKD. We demonstrated that biallelic pathogenic mutations in RNA-processing genes, including EXOSC3, encoding an essential part of the RNA exosome, cause eculizumab nonresponsive aHUS. Recessive HSD11B2 mutations causing apparent mineralocorticoid excess may also present with thrombotic microangiopathy.",
+    "affiliation": "National Renal Complement Therapeutics Centre, Newcastle upon Tyne Hospitals National Health Service Foundation Trust, Newcastle upon Tyne, United Kingdom.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Observational Study"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "National Institute for Health Research (NIHR)",
+          "grantId": "15/130/94",
+          "orderIn": 0
+        },
+        {
+          "agency": "Kidney Research UK",
+          "grantId": "JF1/2017",
+          "orderIn": 0
+        },
+        {
+          "agency": "Medical Research Council",
+          "acronym": "MRC_",
+          "grantId": "MR/R000913/1",
+          "orderIn": 0
+        },
+        {
+          "agency": "Wellcome Trust",
+          "acronym": "WT_",
+          "orderIn": 0
+        },
+        {
+          "agency": "Kidney Research UK",
+          "grantId": "RP_019_20210802 - NU-009683",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Kidney Failure, Chronic",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Platelet Count"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cohort Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Child, Preschool"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Complement System Proteins"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Thrombotic Microangiopathies"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Atypical Hemolytic Uremic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Complement System Proteins",
+          "registryNumber": "9007-36-7"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1182/blood.2022018833"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10651868"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "37856094",
+          "reference": "Blood. 2023 Oct 19;142(16):1334-1335. doi: 10.1182/blood.2023021474.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 63,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by-nc-nd",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "refsnp",
+        "omim",
+        "doi"
+      ]
+    },
+    "dateOfCompletion": "2023-11-27",
+    "dateOfCreation": "2023-06-27",
+    "dateOfRevision": "2025-05-30",
+    "firstPublicationDate": "2023-10-01",
+    "firstIndexDate": "2023-06-28",
+    "fullTextReceivedDate": "2023-11-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "28439485",
+    "source": "MED",
+    "pmid": "28439485",
+    "pmcid": "PMC5400517",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC5400517"
+      ]
+    },
+    "doi": "10.7759/cureus.1111",
+    "title": "Treatment of Atypical Hemolytic-Uremic Syndrome in the Era of Eculizumab.",
+    "authorString": "Ebrahem R, Kadhem S, Truong Q.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Ebrahem R",
+          "lastName": "Ebrahem",
+          "firstName": "Rawaa",
+          "initials": "R",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Internal Medicine, University of Kansas School of Medicine-Wichita."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kadhem S",
+          "lastName": "Kadhem",
+          "firstName": "Salam",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Internal Medicine, University of Kansas School of Medicine-Wichita."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Truong Q",
+          "lastName": "Truong",
+          "firstName": "Quoc",
+          "initials": "Q",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Cancer Center of Kansas."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "3",
+      "volume": "9",
+      "journalIssueId": 2546986,
+      "dateOfPublication": "2017 Mar",
+      "monthOfPublication": 3,
+      "yearOfPublication": 2017,
+      "journal": {
+        "medlineAbbreviation": "Cureus",
+        "title": "Cureus",
+        "essn": "2168-8184",
+        "issn": "2168-8184",
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
+      },
+      "printPublicationDate": "2017-03-01"
+    },
+    "pubYear": "2017",
+    "pageInfo": "e1111",
+    "abstractText": "Hemolytic-uremic syndrome (HUS) is the triad of microangiopathic hemolytic anemia (MAHA), thrombocytopenia, and acute kidney injury (AKI); the main cause of multi-organ failure is related to thrombotic microangiopathy (TMA). Atypical HUS (aHUS) is a disease of uncontrolled complement activation associated with a high mortality rate and most cases progress to end-stage renal disease.\u00a0About 50% of patients with this syndrome carry mutations in genes that encode complement proteins. Also, aHUS constitutes an over-activation of the complement pathway which is either inherited, acquired, or both. This results in TMA. Plasma infusions or exchange should be performed daily until the platelet count,\u00a0lactate dehydrogenase (LDH), and hemoglobin levels are substantially improved, or until an alternate treatment strategy has been decided upon. Eculizumab (a terminal complement inhibitor approved in 2011 for treating aHUS) treatment should begin immediately when the diagnosis is confirmed. There is limited evidence on the duration of the treatment despite significant clinical interest in investigating this aspect. Therefore, it is crucial to conduct further analysis on the possible dose and time adjustments.",
+    "affiliation": "Internal Medicine, University of Kansas School of Medicine-Wichita.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article",
+        "Case Reports",
+        "case-report"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Thrombocytopenia",
+        "Acute Kidney Injury",
+        "Eculizumab",
+        "Microangiopathic Hemolytic Anemia",
+        "Duration Of Treatment"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.7759/cureus.1111"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC5400517"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC5400517?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2017-04-26",
+    "dateOfRevision": "2020-10-01",
+    "electronicPublicationDate": "2017-03-23",
+    "firstPublicationDate": "2017-03-23",
+    "firstIndexDate": "2017-04-25",
+    "fullTextReceivedDate": "2025-02-03",
+    "hasEvaluations": "N"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-aav-oxidative-degranulation": "Oxidative burst",
+    "entity-alternative-complement": "Alternative pathway",
+    "entity-nets": "NETs",
+    "entity-kidney": "Renal injury",
+    "entity-aav-activity": "GPA/MPA activity",
+    "entity-eets": "EETs",
+    "entity-egpa-thrombi": "EGPA thrombi",
+    "entity-cfdna": "cfDNA"
+  }
+}

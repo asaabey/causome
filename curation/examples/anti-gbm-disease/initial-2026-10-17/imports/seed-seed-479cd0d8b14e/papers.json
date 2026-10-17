@@ -1,0 +1,281 @@
+[
+  {
+    "key": "doi-af6c6b22f924aa6dfc36",
+    "identifiers": [
+      "DOI:10.1016/j.kint.2017.03.014",
+      "MED:28506760",
+      "PMCID:PMC5567410",
+      "PMID:28506760"
+    ],
+    "title": "Patients double-seropositive for ANCA and anti-GBM antibodies have varied renal survival, frequency of relapse, and outcomes compared to single-seropositive patients.",
+    "authors": "McAdoo SP, Tanna A, Hrušková Z, Holm L, Weiner M, Arulkumaran N, Kang A, Satrapová V, Levy J, Ohlsson S, Tesar V, Segelmark M, Pusey CD.",
+    "publishedAt": "2017-05-12",
+    "journal": "Kidney international",
+    "abstract": "Co-presentation with both ANCA and anti-GBM antibodies is thought to be relatively rare. Current studies of such 'double-positive' cases report small numbers and variable outcomes. To study this further we retrospectively analyzed clinical features and long-term outcomes of a large cohort of 568 contemporary patients with ANCA-associated vasculitis, 41 patients with anti-GBM disease, and 37 double-positive patients with ANCA and anti-GBM disease from four European centers. Double-positive patients shared characteristics of ANCA-associated vasculitis (AAV), such as older age distribution and longer symptom duration before diagnosis, and features of anti-GBM disease, such as severe renal disease and high frequency of lung hemorrhage at presentation. Despite having more evidence of chronic injury on renal biopsy compared to patients with anti-GBM disease, double-positive patients had a greater tendency to recover from being dialysis-dependent after treatment and had intermediate long-term renal survival compared to the single-positive patients. However, overall patient survival was similar in all three groups. Predictors of poor patient survival included advanced age, severe renal failure, and lung hemorrhage at presentation. No single-positive anti-GBM patients experienced disease relapse, whereas approximately half of surviving patients with AAV and double-positive patients had recurrent disease during a median follow-up of 4.8 years. Thus, double-positive patients have a truly hybrid disease phenotype, requiring aggressive early treatment for anti-GBM disease, and careful long-term follow-up and consideration for maintenance immunosuppression for AAV. Since double-positivity appears common, further work is required to define the underlying mechanisms of this association and define optimum treatment strategies.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28506760/",
+    "doi": "10.1016/j.kint.2017.03.014",
+    "pmid": "28506760",
+    "pmcid": "PMC5567410",
+    "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+    "openAccess": true,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "28807260",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-339b936f41439d51967d",
+    "identifiers": [
+      "DOI:10.1681/asn.2021111460",
+      "MED:35260419",
+      "PMCID:PMC8970456",
+      "PMID:35260419"
+    ],
+    "title": "Endopeptidase Cleavage of Anti-Glomerular Basement Membrane Antibodies &lt;i&gt;in vivo&lt;/i&gt; in Severe Kidney Disease: An Open-Label Phase 2a Study.",
+    "authors": "Uhlin F, Szpirt W, Kronbichler A, Bruchfeld A, Soveri I, Rostaing L, Daugas E, Lionet A, Kamar N, Rafat C, Mysliveček M, Tesař V, Fernström A, Kjellman C, Elfving C, McAdoo S, Mölne J, Bajema I, Sonesson E, Segelmark M.",
+    "publishedAt": "2022-03-08",
+    "journal": "Journal of the American Society of Nephrology : JASN",
+    "abstract": "Background The prognosis for kidney survival is poor in patients presenting with circulating anti-glomerular basement membrane (GBM) antibodies and severe kidney injury. It is unknown if treatment with an endopeptidase that cleaves circulating and kidney bound IgG can alter the prognosis. Methods An investigator-driven phase 2a one-arm study (EudraCT 2016-004082-39) was performed in 17 hospitals in five European countries. A single dose of 0.25 mg/kg of imlifidase was given to 15 adults with circulating anti-GBM antibodies and an eGFR 2 . All patients received standard treatment with cyclophosphamide and corticosteroids, but plasma exchange only if autoantibodies rebounded. The primary outcomes were safety and dialysis independency at 6 months. Results At inclusion, ten patients were dialysis dependent and the other five had eGFR levels between 7 and 14 ml/min per 1.73m 2 . The median age was 61 years (range 19-77), six were women, and six were also positive for anti-neutrophil cytoplasmic antibodies. Then 6 hours after imlifidase infusion, all patients had anti-GBM antibodies levels below the reference range of a prespecified assay. At 6 months 67% (ten out of 15) were dialysis independent. This is significantly higher compared with 18% (nine out of 50) in a historical control cohort ( P Conclusions In this pilot study, the use of imlifidase was associated with a better outcome compared with earlier publications, without major safety issues, but the findings need to be confirmed in a randomized controlled trial. Clinical Trial registration number: EUDRACT 2016-004082-39 https://www.clinicaltrialsregister.eu/ctr-search/trial/2007-001377-28/results.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35260419/",
+    "doi": "10.1681/asn.2021111460",
+    "pmid": "35260419",
+    "pmcid": "PMC8970456",
+    "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "35948435",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "35948436",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-82dc425456f7967a7355",
+    "identifiers": [
+      "DOI:10.1038/nature22329",
+      "MED:28467828",
+      "PMCID:PMC5903850",
+      "PMID:28467828"
+    ],
+    "title": "Dominant protection from HLA-linked autoimmunity by antigen-specific regulatory T cells.",
+    "authors": "Ooi JD, Petersen J, Tan YH, Huynh M, Willett ZJ, Ramarathinam SH, Eggenhuizen PJ, Loh KL, Watson KA, Gan PY, Alikhan MA, Dudek NL, Handel A, Hudson BG, Fugger L, Power DA, Holt SG, Coates PT, Gregersen JW, Purcell AW, Holdsworth SR, La Gruta NL, Reid HH, Rossjohn J, Kitching AR.",
+    "publishedAt": "2017-05-03",
+    "journal": "Nature",
+    "abstract": "Susceptibility and protection against human autoimmune diseases, including type I diabetes, multiple sclerosis, and Goodpasture disease, is associated with particular human leukocyte antigen (HLA) alleles. However, the mechanisms underpinning such HLA-mediated effects on self-tolerance remain unclear. Here we investigate the molecular mechanism of Goodpasture disease, an HLA-linked autoimmune renal disorder characterized by an immunodominant CD4 + T-cell self-epitope derived from the α3 chain of type IV collagen (α3 135-145 ). While HLA-DR15 confers a markedly increased disease risk, the protective HLA-DR1 allele is dominantly protective in trans with HLA-DR15 (ref. 2). We show that autoreactive α3 135-145 -specific T cells expand in patients with Goodpasture disease and, in α3 135-145 -immunized HLA-DR15 transgenic mice, α3 135-145 -specific T cells infiltrate the kidney and mice develop Goodpasture disease. HLA-DR15 and HLA-DR1 exhibit distinct peptide repertoires and binding preferences and present the α3 135-145 epitope in different binding registers. HLA-DR15-α3 135-145 tetramer + T cells in HLA-DR15 transgenic mice exhibit a conventional T-cell phenotype (T conv ) that secretes pro-inflammatory cytokines. In contrast, HLA-DR1-α3 135-145 tetramer + T cells in HLA-DR1 and HLA-DR15/DR1 transgenic mice are predominantly CD4 + Foxp3 + regulatory T cells (T reg cells) expressing tolerogenic cytokines. HLA-DR1-induced T reg cells confer resistance to disease in HLA-DR15/DR1 transgenic mice. HLA-DR15 + and HLA-DR1 + healthy human donors display altered α3 135-145 -specific T-cell antigen receptor usage, HLA-DR15-α3 135-145 tetramer + Foxp3 - T conv and HLA-DR1-α3 135-145 tetramer + Foxp3 + CD25 hi CD127 lo T reg dominant phenotypes. Moreover, patients with Goodpasture disease display a clonally expanded α3 135-145 -specific CD4 + T-cell repertoire. Accordingly, we provide a mechanistic basis for the dominantly protective effect of HLA in autoimmune disease, whereby HLA polymorphism shapes the relative abundance of self-epitope specific T reg cells that leads to protection or causation of autoimmunity.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28467828/",
+    "doi": "10.1038/nature22329",
+    "pmid": "28467828",
+    "pmcid": "PMC5903850",
+    "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "28502986",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "28515462",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-3834871eba13bff22032",
+    "identifiers": [
+      "DOI:10.1023/a:1022372900175",
+      "MED:9675611",
+      "PMID:9675611"
+    ],
+    "title": "Cytokine and adhesion molecule requirements for lung injury induced by anti-glomerular basement membrane antibody.",
+    "authors": "Mulligan MS, Lentsch AB, Shanley TP, Miyasaka M, Johnson KJ, Ward PA.",
+    "publishedAt": "1998-08-01",
+    "journal": "Inflammation",
+    "abstract": "Acute hemorrhagic lung injury occurs in humans with anti-GBM antibody (Goodpasture's syndrome), however, the mechanism of this injury is still largely unknown. To date, treatment has been confined to steroids and plasmaphoresis. Infusion of anti-GBM antibody into rats caused lung injury with intra-alveolar hemorrhage and intrapulmonary accumulation of neutrophils. Lung injury was dependent on the presence of neutrophils and complement and required both TNF alpha and IL-1. Experiments employing blocking antibodies to adhesion molecules demonstrated requirements for the beta 1 integrin VLA-4, beta 2 integrins LFA-1 and Mac-1, and L-selection. The endothelial cell adhesion molecules, E-selectin and ICAM-1, were also required for the full development of lung injury. Inhibition of TNF alpha or IL-1 or adhesion molecules reduced both lung injury and tissue neutrophil accumulation. Thus, this study underscores cytokine and adhesion molecule requirements for neutrophil mediated injury in lung and kidney caused by anti-GBM, suggesting potential targets for the treatment of Goodpasture's syndrome in humans.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9675611/",
+    "doi": "10.1023/a:1022372900175",
+    "pmid": "9675611",
+    "pmcid": null,
+    "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-65af4c3b2dd9f4219d72",
+    "identifiers": [
+      "DOI:10.1371/journal.pone.0091250",
+      "MED:24658070",
+      "PMCID:PMC3962356",
+      "PMID:24658070"
+    ],
+    "title": "The alternative pathway of complement activation may be involved in the renal damage of human anti-glomerular basement membrane disease.",
+    "authors": "Ma R, Cui Z, Hu SY, Jia XY, Yang R, Zheng X, Ao J, Liu G, Liao YH, Zhao MH.",
+    "publishedAt": "2014-03-21",
+    "journal": "PloS one",
+    "abstract": "Linear deposition of IgG and complement 3 (C3) along glomerular basement membrane (GBM) is generally revealed in the kidneys of human anti-GBM disease. Our recent studies demonstrated the pathogenic role of complement activation in renal damage of this disease. However, the pathways of complement activation were still paradoxical. In this study, renal biopsy tissues from 10 patients with anti-GBM disease were used to investigate the pathways of complement activation by detecting the deposition of various complement components, including C1q, factor B, factor P (properdin), mannose-binding lectin (MBL), C3d, C4d and C5b-9, using immunohistochemistry and immunofluorescence. We found that C1q, factor B, properdin, C3d, C4d and C5b-9 were detected in all the glomeruli of our patients, along GBM with a linear and/or granular staining pattern. Furthermore, C1q, factor B and properdin co-localized well with C5b-9. The properdin also co-localized well with C3d. However, the deposition of MBL was diffusive in mesangium, GBM, Bowman's capsule and within crescents and was not co-localized with C5b-9 but partially co-localized with C4d. The intensity of factor B deposition (3.3 vs. 1.2, P<0.001) and C5b-9 deposition (3.2 vs. 1.6, P<0.001) was significantly stronger in the glomeruli with crescent formation, compared with the glomeruli without crescents. The complement system is overall activated via both the alternative pathway and classical pathway in the kidneys of human anti-GBM disease. The alternative pathway might play an important role in complement activation induced renal damage.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24658070/",
+    "doi": "10.1371/journal.pone.0091250",
+    "pmid": "24658070",
+    "pmcid": "PMC3962356",
+    "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+    "openAccess": true,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-b447b2c9f6d15697b74e",
+    "identifiers": [
+      "DOI:10.1056/nejmoa0910500",
+      "MED:20660402",
+      "PMCID:PMC4144421",
+      "PMID:20660402"
+    ],
+    "title": "Molecular architecture of the Goodpasture autoantigen in anti-GBM nephritis.",
+    "authors": "Pedchenko V, Bondar O, Fogo AB, Vanacore R, Voziyan P, Kitching AR, Wieslander J, Kashtan C, Borza DB, Neilson EG, Wilson CB, Hudson BG.",
+    "publishedAt": "2010-07-01",
+    "journal": "The New England journal of medicine",
+    "abstract": "Background In Goodpasture's disease, circulating autoantibodies bind to the noncollagenous-1 (NC1) domain of type IV collagen in the glomerular basement membrane (GBM). The specificity and molecular architecture of epitopes of tissue-bound autoantibodies are unknown. Alport's post-transplantation nephritis, which is mediated by alloantibodies against the GBM, occurs after kidney transplantation in some patients with Alport's syndrome. We compared the conformations of the antibody epitopes in Goodpasture's disease and Alport's post-transplantation nephritis with the intention of finding clues to the pathogenesis of anti-GBM glomerulonephritis. Methods We used an enzyme-linked immunosorbent assay to determine the specificity of circulating autoantibodies and kidney-bound antibodies to NC1 domains. Circulating antibodies were analyzed in 57 patients with Goodpasture's disease, and kidney-bound antibodies were analyzed in 14 patients with Goodpasture's disease and 2 patients with Alport's post-transplantation nephritis. The molecular architecture of key epitope regions was deduced with the use of chimeric molecules and a three-dimensional model of the alpha345NC1 hexamer. Results In patients with Goodpasture's disease, both autoantibodies to the alpha3NC1 monomer and antibodies to the alpha5NC1 monomer (and fewer to the alpha4NC1 monomer) were bound in the kidneys and lungs, indicating roles for the alpha3NC1 and alpha5NC1 monomers as autoantigens. High antibody titers at diagnosis of anti-GBM disease were associated with ultimate loss of renal function. The antibodies bound to distinct epitopes encompassing region E(A) in the alpha5NC1 monomer and regions E(A) and E(B) in the alpha3NC1 monomer, but they did not bind to the native cross-linked alpha345NC1 hexamer. In contrast, in patients with Alport's post-transplantation nephritis, alloantibodies bound to the E(A) region of the alpha5NC1 subunit in the intact hexamer, and binding decreased on dissociation. Conclusions The development of Goodpasture's disease may be considered an autoimmune \"conformeropathy\" that involves perturbation of the quaternary structure of the alpha345NC1 hexamer, inducing a pathogenic conformational change in the alpha3NC1 and alpha5NC1 subunits, which in turn elicits an autoimmune response. (Funded by the National Institute of Diabetes and Digestive and Kidney Diseases.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20660402/",
+    "doi": "10.1056/nejmoa0910500",
+    "pmid": "20660402",
+    "pmcid": "PMC4144421",
+    "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [
+      {
+        "type": "Comment in",
+        "id": "20660408",
+        "source": "MED"
+      },
+      {
+        "type": "Comment in",
+        "id": "20979482",
+        "source": "MED"
+      }
+    ],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-a198292a2a88b5c3ccf0",
+    "identifiers": [
+      "DOI:10.1046/j.1365-2249.1997.4261438.x",
+      "MED:9409643",
+      "PMID:9409643"
+    ],
+    "title": "Protection against anti-glomerular basement membrane (GBM)-mediated nephritis in C3- and C4-deficient mice.",
+    "authors": "Sheerin NS, Springall T, Carroll MC, Hartley B, Sacks SH.",
+    "publishedAt": "1997-12-01",
+    "journal": "Clinical and experimental immunology",
+    "abstract": "Mice rendered completely deficient of the complement components C3 or C4 were used to determine the influence of complement activation in the heterologous phase of the anti-GBM disease model. In wild-type animals the disease is characterized by a neutrophil infiltrate, capillary thrombosis, proteinuria and C3 and C4 deposited within the glomerulus. The early infiltration of neutrophils into the glomeruli is greater in wild-type mice (2.8 +/- 0.3) compared with C3-deficient (1.4 +/- 0.2) and C4-deficient (1.2 +/- 0.003) mice. Deficiency also protects against the subsequent development of proteinuria (2.99 +/- 1.11 mg/24h, 0.059 mg/24h and 0.327 +/- 0.14 mg/24h in wild-type, C3-deficient and C4-deficient mice, respectively) and decreases glomerular capillary thrombosis in both C3- and C4-deficient mice. The degree of protection is greater in the C3-deficient than the C4-deficient animals, suggesting both classical and alternative pathway involvement. These studies support a critical role for complement in the development of anti-GBM disease. However, the protective effect of complement deficiency can be broken if the dose of nephritogenic antibody is increased.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9409643/",
+    "doi": "10.1046/j.1365-2249.1997.4261438.x",
+    "pmid": "9409643",
+    "pmcid": null,
+    "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-01bb63db7b3e6177ab2f",
+    "identifiers": [
+      "DOI:10.1084/jem.126.6.989",
+      "MED:4964566",
+      "PMCID:PMC2138413",
+      "PMID:4964566"
+    ],
+    "title": "The role of anti-glomerular basement membrane antibody in the pathogenesis of human glomerulonephritis.",
+    "authors": "Lerner RA, Glassock RJ, Dixon FJ.",
+    "publishedAt": "1967-12-01",
+    "journal": "The Journal of experimental medicine",
+    "abstract": "These observations established the presence of anti-GBM antibodies in the sera and/or kidneys of six humans with glomerulonephritis. Further, it seems clear that these antibodies do combine with the host's glomeruli in vivo and with GBM antigen of several species in vitro. Transfer of acute glomerulonephritis to normal recipient monkeys was possible with serum or renal eluate IGG from the three patients with anti-GBM antibodies in whom sufficient material was available. Based on this transfer of nephritis and on the presence of these antibodies at the site of injury in the nephritic kidneys of both the patients and the recipient monkeys, it seems likely that they are at least a contributing, if not primary, cause of the glomerular injury. The frequency of anti-GBM antibodies in human nephritis is not certain, but on the basis of preliminary observations it would appear that they are present in all cases of Goodpasture's nephritis and somewhat less than half of the cases of subacute and chronic glomerulonephritis of adults. The nature and source of immunogen stimulating the production of anti-GBM antibodies is not known, but the presence of potentially nephritogenic GBM antigens in normal urine raises the question of possible autoimmunization. From a practical point of view, it appears that patients forming anti-GBM antibodies may not be good candidates for renal transplantation since they are likely to produce in the transplants the nephritic changes already suffered by their own kidneys.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/4964566/",
+    "doi": "10.1084/jem.126.6.989",
+    "pmid": "4964566",
+    "pmcid": "PMC2138413",
+    "accessScope": "Europe PMC primary-report abstract and bibliographic/notice metadata inspected by Codex agent on 2026-10-17; full methods and figures not systematically reviewed",
+    "openAccess": true,
+    "license": "cc by-nc-sa",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-bb689159ec7d929e32e3",
+    "identifiers": [
+      "DOI:10.7326/0003-4819-134-11-200106050-00009",
+      "MED:11388816",
+      "PMID:11388816"
+    ],
+    "title": "Long-term outcome of anti-glomerular basement membrane antibody disease treated with plasma exchange and immunosuppression.",
+    "authors": "Levy JB, Turner AN, Rees AJ, Pusey CD.",
+    "publishedAt": "2001-06-01",
+    "journal": "Annals of internal medicine",
+    "abstract": "Background Anti-glomerular basement membrane (GBM) antibody disease is an autoantibody-mediated disorder that usually presents as rapidly progressive glomerulonephritis, often with pulmonary hemorrhage (the Goodpasture syndrome). It is reported that patients with severe renal failure do not generally recover renal function. Objective To examine the long-term outcome of severe anti-GBM antibody disease. Design Retrospective review of patients treated for confirmed anti-GBM antibody disease over 25 years. Setting A tertiary referral center in the United Kingdom. Patients 71 treated patients with anti-GBM antibody disease. Intervention All patients received plasma exchange, prednisolone, and cyclophosphamide. Measurements Patient and renal survival, renal histology, and antibody levels. Results Patients who presented with a creatinine concentration less than 500 micromol/L (5.7 mg/dL) (n = 19) had 100% patient survival and 95% renal survival at 1 year and 84% patient survival and 74% renal survival at last follow-up. In patients who presented with a creatinine concentration of 500 micromol/L or more (>/=5.7 mg/dL) (n = 13) but did not require immediate dialysis, patient and renal survival were 83% and 82% at 1 year and 62% and 69% at last follow-up. In patients who presented with dialysis-dependent renal failure (n = 39), patient and renal survival were 65% and 8% at 1 year and 36% and 5% at last follow-up. All patients who required immediate dialysis and had 100% crescents on renal biopsy remained dialysis dependent. Conclusions Patients with the Goodpasture syndrome and severe renal failure should be considered for urgent immunosuppression therapy, including plasma exchange, to maximize the chance of renal recovery. Patients needing immediate dialysis are less likely to recover.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11388816/",
+    "doi": "10.7326/0003-4819-134-11-200106050-00009",
+    "pmid": "11388816",
+    "pmcid": null,
+    "accessScope": "Europe PMC primary-report abstract inspected by Codex agent on 2026-10-17",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-17",
+    "lastCheckedAt": "2026-10-17",
+    "reviewedAt": null
+  }
+]

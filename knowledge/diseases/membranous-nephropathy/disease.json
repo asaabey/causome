@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "id": "membranous-nephropathy",
+  "label": "Membranous nephropathy",
+  "summary": "Bounded primary (autoantibody-mediated) membranous nephropathy map: podocyte target antigens (PLA2R1, THSD7A and other recently described antigens) lumped as one shared antigen-antibody mechanism, subepithelial immune-complex formation, complement activation, podocyte injury and nephrotic proteinuria. Secondary membranous nephropathy (lupus, malignancy, infection, drug-associated) and therapy efficacy are excluded.",
+  "query": "((TITLE_ABS:\"membranous nephropathy\" OR TITLE_ABS:\"membranous glomerulonephritis\") AND (TITLE_ABS:PLA2R OR TITLE_ABS:\"phospholipase A2 receptor\" OR TITLE_ABS:THSD7A OR TITLE_ABS:thrombospondin OR TITLE_ABS:NELL-1 OR TITLE_ABS:semaphorin OR TITLE_ABS:\"protocadherin\" OR TITLE_ABS:complement OR TITLE_ABS:autoantibody OR TITLE_ABS:autoantibodies))",
+  "aliases": [
+    "MN",
+    "idiopathic membranous nephropathy",
+    "primary membranous nephropathy",
+    "membranous glomerulonephritis",
+    "membranous glomerulopathy",
+    "PLA2R-associated membranous nephropathy"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "membranous-nephropathy-summary-candidate-a6d97ad77a83"
+}

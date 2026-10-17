@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-17",
+  "candidateId": "atypical-hus-summary-candidate-cd695231f272",
+  "routes": [
+    {
+      "route": "/diseases/atypical-hus/",
+      "status": 200
+    },
+    {
+      "route": "/diseases/atypical-hus/?view=view-context-ahus-antibody",
+      "status": 200
+    },
+    {
+      "route": "/diseases/atypical-hus/?view=view-context-ahus-genetics",
+      "status": 200
+    },
+    {
+      "route": "/diseases/atypical-hus/?view=view-context-ahus-endothelial",
+      "status": 200
+    },
+    {
+      "route": "/diseases/atypical-hus/?view=view-context-ahus-c3-mouse",
+      "status": 200
+    },
+    {
+      "route": "/diseases/atypical-hus/?view=view-context-ahus-fh-mouse",
+      "status": 200
+    },
+    {
+      "route": "/diseases/atypical-hus/?view=view-context-ahus-ecu-trial",
+      "status": 200
+    },
+    {
+      "route": "/curation/?disease=atypical-hus",
+      "status": 200
+    }
+  ],
+  "summaryDigestBound": true,
+  "pageErrors": [],
+  "desktop": [
+    1366,
+    900
+  ],
+  "mobile": [
+    390,
+    844
+  ]
+}

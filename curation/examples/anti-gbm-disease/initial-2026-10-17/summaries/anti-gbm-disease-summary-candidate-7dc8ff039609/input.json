@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "diseaseId": "anti-gbm-disease",
+  "baseReleaseId": "anti-gbm-disease-appraised-candidate-e9119d4b30d6",
+  "baseContentDigest": "1c65f23e248a5e596e7362e4a93e832eec8dda1c9d7a3795b39c84af7d1ec87b",
+  "scope": "Bounded anti-GBM autoimmunity to alpha3/alpha5 type IV collagen NC1 epitopes, HLA-restricted T-cell responses, antibody-mediated renal and pulmonary injury; human observations and experimental models remain distinct. Excludes Alport post-transplant nephritis and atypical seronegative disease.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "C3 or C4 deficiency reduced proteinuria and capillary thrombosis in heterologous anti-GBM nephritis. Transfer of serum or renal-eluate IgG from three anti-GBM patients produced acute glomerulonephritis in recipient monkeys. Patients with Goodpasture disease displayed clonally expanded α3-specific CD4 T-cell repertoires.",
+      "claimIds": [
+        "claim-gbm-complement-injury",
+        "claim-gbm-transfer",
+        "claim-gbm-human-t"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Dose-sensitive model effect; protection was overcome by increased antibody dose. Passive transfer supports antibody pathogenicity in recipients; it does not explain human autoimmunity initiation. Treatment efficacy has not been synthesized in this summary.",
+      "claimIds": [
+        "claim-gbm-complement-injury",
+        "claim-gbm-transfer",
+        "claim-gbm-human-t"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+
+> causome@ build /Users/asanga/Documents/Projects/causome
+> pnpm validate && pnpm --filter @causome/web build
+
+
+> causome@ validate /Users/asanga/Documents/Projects/causome
+> node scripts/validate-release.mjs
+
+Validated 65 disease candidates and their registry profiles.
+
+> @causome/web@0.1.0 build /Users/asanga/Documents/Projects/causome/web
+> astro check && astro build
+
+19:47:07 [content] Syncing content
+19:47:07 [content] Synced content
+19:47:07 [types] Generated 15ms
+19:47:07 [check] Getting diagnostics for Astro files in /Users/asanga/Documents/Projects/causome/web...
+Result (39 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+19:47:10 [content] Syncing content
+19:47:10 [content] Synced content
+19:47:10 [types] Generated 10ms
+19:47:10 [build] output: "static"
+19:47:10 [build] mode: "static"
+19:47:10 [build] directory: /Users/asanga/Documents/Projects/causome/web/dist/
+19:47:10 [build] Collecting build info...
+19:47:10 [build] ✓ Completed in 18ms.
+19:47:10 [build] Building static entrypoints...
+19:47:10 [vite] ✓ built in 332ms
+19:47:10 [build] ✓ Completed in 342ms.
+
+ building client (vite) 
+19:47:10 [vite] transforming...
+19:47:10 [vite] ✓ 1758 modules transformed.
+19:47:11 [vite] rendering chunks...
+19:47:11 [vite] computing gzip size...
+19:47:11 [vite] dist/_astro/jsx-runtime.D_zvdyIk.js          0.73 kB │ gzip:  0.46 kB
+19:47:11 [vite] dist/_astro/comparison.2va9aNxt.js           1.98 kB │ gzip:  0.91 kB
+19:47:11 [vite] dist/_astro/VersionComparison.vsmL_EvA.js    2.54 kB │ gzip:  0.99 kB
+19:47:11 [vite] dist/_astro/DiseaseComparison.gEaWOImJ.js    2.87 kB │ gzip:  1.22 kB
+19:47:11 [vite] dist/_astro/index.L9_0-KR3.js                4.21 kB │ gzip:  1.57 kB
+19:47:11 [vite] dist/_astro/index.DpbGOhQu.js                8.33 kB │ gzip:  3.23 kB
+19:47:11 [vite] dist/_astro/CurationWorkbench.DgXQoLkB.js   30.88 kB │ gzip: 10.26 kB
+19:47:11 [vite] dist/_astro/client.ZxaFizIP.js             211.37 kB │ gzip: 66.06 kB
+19:47:11 [vite] dist/_astro/MechanismMap.BwrzHj-3.js       218.76 kB │ gzip: 69.43 kB
+19:47:11 [vite] ✓ built in 637ms
+
+ generating static routes 
+19:47:11 ▶ src/pages/[workspace].astro
+19:47:11   └─ /curation/index.html (+245ms) 
+19:47:11 ▶ src/pages/compare.astro
+19:47:11   └─ /compare/index.html (+47ms) 
+19:47:11 ▶ src/pages/diseases/[disease]/candidates/[release].astro
+19:47:11   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-appraised-candidate-2285020a4592/index.html (+11ms) 
+19:47:11   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-appraised-candidate-238031bf4b8a/index.html (+11ms) 
+19:47:11   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-candidate-001/index.html (+3ms) 
+19:47:11   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-summary-candidate-12053b461b79/index.html (+16ms) 
+19:47:11   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-summary-candidate-3c24e9e72405/index.html (+7ms) 
+19:47:11   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-summary-candidate-eb8e14a28e3c/index.html (+7ms) 
+19:47:11   ├─ /diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-with-egpa-candidate-001/index.html (+3ms) 
+19:47:11   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-appraised-candidate-80e1ca3d8ba0/index.html (+4ms) 
+19:47:11   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-candidate-001/index.html (+2ms) 
+19:47:11   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-779fb35eb11c/index.html (+9ms) 
+19:47:11   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-bc0c86a1bbcb/index.html (+4ms) 
+19:47:11   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-appraised-candidate-c7fdac3e8a2c/index.html (+7ms) 
+19:47:11   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-3495bfd77080/index.html (+12ms) 
+19:47:11   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-489eb5491465/index.html (+6ms) 
+19:47:11   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-67b26c1308bd/index.html (+6ms) 
+19:47:11   ├─ /diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-candidate-002/index.html (+3ms) 
+19:47:11   ├─ /diseases/calciphylaxis/candidates/calciphylaxis-appraised-candidate-cc06694e21cc/index.html (+9ms) 
+19:47:11   ├─ /diseases/calciphylaxis/candidates/calciphylaxis-appraised-candidate-e54e61b388a6/index.html (+9ms) 
+19:47:11   ├─ /diseases/calciphylaxis/candidates/calciphylaxis-candidate-001/index.html (+4ms) 
+19:47:11   ├─ /diseases/calciphylaxis/candidates/calciphylaxis-candidate-002/index.html (+4ms) 
+19:47:11   ├─ /diseases/calciphylaxis/candidates/calciphylaxis-summary-candidate-9b1e60179c27/index.html (+25ms) 
+19:47:11   ├─ /diseases/crest-syndrome/candidates/crest-syndrome-appraised-candidate-30d2fc09b9ce/index.html (+9ms) 
+19:47:11   ├─ /diseases/crest-syndrome/candidates/crest-syndrome-candidate-001/index.html (+4ms) 
+19:47:11   ├─ /diseases/crest-syndrome/candidates/crest-syndrome-summary-candidate-b57a0717c4a3/index.html (+24ms) 
+19:47:11   ├─ /diseases/iga-nephropathy/candidates/iga-nephropathy-appraised-candidate-bf0656421814/index.html (+3ms) 
+19:47:12   ├─ /diseases/iga-nephropathy/candidates/iga-nephropathy-candidate-001/index.html (+1ms) 
+19:47:12   ├─ /diseases/iga-nephropathy/candidates/iga-nephropathy-candidate-2a8f21ad71cc/index.html (+1ms) 
+19:47:12   ├─ /diseases/iga-nephropathy/candidates/iga-nephropathy-candidate-b81ba67f55bc/index.html (+1ms) 
+19:47:12   ├─ /diseases/iga-nephropathy/candidates/iga-nephropathy-summary-candidate-5bcf0968db75/index.html (+6ms) 
+19:47:12   ├─ /diseases/igg4-related-disease/candidates/igg4-related-disease-appraised-candidate-90d22ffa6cee/index.html (+5ms) 
+19:47:12   ├─ /diseases/igg4-related-disease/candidates/igg4-related-disease-candidate-001/index.html (+2ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-appraised-candidate-3db1004942c1/index.html (+8ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-appraised-candidate-a3f88eef204e/index.html (+9ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-appraised-candidate-e0783dfd7daf/index.html (+7ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-candidate-002/index.html (+3ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-candidate-7ce925c46588/index.html (+4ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-candidate-b69c087e5f07/index.html (+4ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-candidate-b758cd68c916/index.html (+7ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-1baa289a09b0/index.html (+29ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-517ce885ff07/index.html (+9ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-72068b9c347e/index.html (+8ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-7d249c509f63/index.html (+7ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-7f864b439dbc/index.html (+9ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-a6d97ad77a83/index.html (+9ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-ab9e5d35de09/index.html (+8ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-d855e941088c/index.html (+9ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/candidates/membranous-nephropathy-candidate-001/index.html (+3ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-appraised-candidate-52490a4350bd/index.html (+4ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-candidate-001/index.html (+1ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-22a34a3088c7/index.html (+6ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-appraised-candidate-1f40e4edb5bb/index.html (+4ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-candidate-5855e3a9d51f/index.html (+3ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-candidate-afc4c3d77c4c/index.html (+2ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-32b357e83600/index.html (+4ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-7b1e8b5874d6/index.html (+6ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-bc5dfdb78dfb/index.html (+5ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-candidate-ea826765a33b/index.html (+5ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-08ba4223dd93/index.html (+5ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-a97aa8990ba3/index.html (+4ms) 
+19:47:12   ├─ /diseases/pre-eclampsia/candidates/pre-eclampsia-appraised-candidate-41278c06c087/index.html (+9ms) 
+19:47:12   ├─ /diseases/pre-eclampsia/candidates/pre-eclampsia-candidate-001/index.html (+4ms) 
+19:47:12   ├─ /diseases/pre-eclampsia/candidates/pre-eclampsia-summary-candidate-980515be46a7/index.html (+30ms) 
+19:47:12   ├─ /diseases/sle/candidates/sle-curated-candidate-001/index.html (+3ms) 
+19:47:12   ├─ /diseases/sle/candidates/sle-appraised-candidate-df64ccfede54/index.html (+7ms) 
+19:47:12   └─ /diseases/sle/candidates/sle-summary-candidate-f3c3742263d5/index.html (+16ms) 
+19:47:12 ▶ src/pages/diseases/[disease]/compare.astro
+19:47:12   ├─ /diseases/anca-associated-vasculitis/compare/index.html (+19ms) 
+19:47:12   ├─ /diseases/c3-glomerulonephritis/compare/index.html (+22ms) 
+19:47:12   ├─ /diseases/calciphylaxis/compare/index.html (+21ms) 
+19:47:12   ├─ /diseases/crest-syndrome/compare/index.html (+14ms) 
+19:47:12   ├─ /diseases/iga-nephropathy/compare/index.html (+4ms) 
+19:47:12   ├─ /diseases/igg4-related-disease/compare/index.html (+8ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/compare/index.html (+61ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/compare/index.html (+35ms) 
+19:47:12   ├─ /diseases/pre-eclampsia/compare/index.html (+15ms) 
+19:47:12   └─ /diseases/sle/compare/index.html (+11ms) 
+19:47:12 ▶ src/pages/diseases/[disease]/history.astro
+19:47:12   ├─ /diseases/anca-associated-vasculitis/history/index.html (+0ms) 
+19:47:12   ├─ /diseases/c3-glomerulonephritis/history/index.html (+1ms) 
+19:47:12   ├─ /diseases/calciphylaxis/history/index.html (+0ms) 
+19:47:12   ├─ /diseases/crest-syndrome/history/index.html (+0ms) 
+19:47:12   ├─ /diseases/iga-nephropathy/history/index.html (+0ms) 
+19:47:12   ├─ /diseases/igg4-related-disease/history/index.html (+0ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/history/index.html (+0ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/history/index.html (+0ms) 
+19:47:12   ├─ /diseases/pre-eclampsia/history/index.html (+0ms) 
+19:47:12   └─ /diseases/sle/history/index.html (+0ms) 
+19:47:12 ▶ src/pages/diseases/[disease]/releases/[release].astro
+19:47:12 λ src/pages/diseases/[disease]/summary-review.md.ts
+19:47:12   ├─ /diseases/anca-associated-vasculitis/summary-review.md/ (+0ms) 
+19:47:12   ├─ /diseases/c3-glomerulonephritis/summary-review.md/ (+0ms) 
+19:47:12   ├─ /diseases/calciphylaxis/summary-review.md/ (+0ms) 
+19:47:12   ├─ /diseases/crest-syndrome/summary-review.md/ (+0ms) 
+19:47:12   ├─ /diseases/iga-nephropathy/summary-review.md/ (+0ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/summary-review.md/ (+0ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/summary-review.md/ (+0ms) 
+19:47:12   ├─ /diseases/pre-eclampsia/summary-review.md/ (+0ms) 
+19:47:12   └─ /diseases/sle/summary-review.md/ (+0ms) 
+19:47:12 ▶ src/pages/diseases/[disease].astro
+19:47:12   ├─ /diseases/anca-associated-vasculitis/index.html (+7ms) 
+19:47:12   ├─ /diseases/c3-glomerulonephritis/index.html (+6ms) 
+19:47:12   ├─ /diseases/calciphylaxis/index.html (+10ms) 
+19:47:12   ├─ /diseases/crest-syndrome/index.html (+10ms) 
+19:47:12   ├─ /diseases/iga-nephropathy/index.html (+3ms) 
+19:47:12   ├─ /diseases/igg4-related-disease/index.html (+4ms) 
+19:47:12   ├─ /diseases/membranous-nephropathy/index.html (+10ms) 
+19:47:12   ├─ /diseases/minimal-change-nephropathy/index.html (+5ms) 
+19:47:12   ├─ /diseases/pre-eclampsia/index.html (+10ms) 
+19:47:12   └─ /diseases/sle/index.html (+7ms) 
+19:47:12 ▶ src/pages/diseases/index.astro
+19:47:12   └─ /diseases/index.html (+0ms) 
+19:47:12 ▶ src/pages/index.astro
+19:47:12   └─ /index.html (+0ms) 
+19:47:12 ▶ src/pages/methodology.astro
+19:47:12   └─ /methodology/index.html (+0ms) 
+19:47:12 λ src/pages/release.json.ts
+19:47:12   └─ /release.json (+0ms) 
+19:47:12 ▶ src/pages/sources.astro
+19:47:12   └─ /sources/index.html (+2ms) 
+19:47:12 ▶ src/pages/testing/[fixture].astro
+19:47:12 ✓ Completed in 1.51s.
+
+19:47:12 [build] 101 page(s) built in 2.53s
+19:47:12 [build] Complete!

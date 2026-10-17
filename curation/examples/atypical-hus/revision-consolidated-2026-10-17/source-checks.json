@@ -1,0 +1,340 @@
+[
+  {
+    "claimId": "claim-ahus-v3-cfh-defect",
+    "sourceId": "source-doi-0b01b7ef080484bbdc31",
+    "quote": "FHΔ16-20 retained complement regulatory activity but showed impaired binding to heparin and human umbilical vein endothelial cells",
+    "location": "Results, FHΔ16–20 functional characterization",
+    "studySystem": "Mouse FHΔ16–20 protein; human endothelial binding assay and transgenic mice",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-fh-surface-control",
+    "sourceId": "source-doi-0b01b7ef080484bbdc31",
+    "quote": "FHΔ16-20 failed to regulate C3 activation on renal endothelium",
+    "location": "Results, renal complement distribution",
+    "studySystem": "Transgenic mouse FHΔ16–20 renal immunofluorescence and biochemical studies",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-cfi-defect",
+    "sourceId": "source-doi-12e23ce5916d8f3ac225",
+    "quote": "mutations in complement factor I affect both secretion and function of FI",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "HEK293 expression, purified variant factor I and endothelial complement assays",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-cd46-defect",
+    "sourceId": "source-doi-6ba5c495fa276fb41d2c",
+    "quote": "deficient in their ability to control the alternative pathway of complement activation on a cell surface",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "CD46-mutant permanent cell lines; mixed clinical variant ascertainment",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-cfb-convertase",
+    "sourceId": "source-doi-089d96bf6512d220adc4",
+    "quote": "enhanced formation of the C3bBb convertase or increased resistance to inactivation",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Two human families; recombinant factor B functional studies",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "sourceId": "source-doi-089d96bf6512d220adc4",
+    "checkedAt": "2026-10-17",
+    "checkedBy": "Codex agent via indexed primary correction text",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1965584/",
+    "quote": "The authors note that in Fig. 2, the Lys323 residue of factor B was placed incorrectly; the correct location is outside of the C3b–Bb interface. In addition, residue Tyr344 was mislabeled as Tyr319. These errors do not affect the conclusions of the article.",
+    "disposition": "Fig. 2 correction inspected; no structural residue-position claim imported; original functional conclusion retained."
+  },
+  {
+    "claimId": "claim-ahus-v3-c3-surface-amplification",
+    "sourceId": "source-doi-4a7a2e6f943928c5d468",
+    "quote": "5 of these mutations are gain-of-function and 2 are inactivating",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human low-C3 aHUS mutation series and variant functional analysis",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-heme-convertase",
+    "sourceId": "source-doi-17fdc4147a986791fa89",
+    "quote": "promoted formation of an overactive C3/C5 convertase",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human serum and endothelial cells; heme/C3 biochemical experiments",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-heme-amplifies",
+    "sourceId": "source-doi-17fdc4147a986791fa89",
+    "quote": "heme activates complement AP in normal human serum",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human serum/endothelial assays",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-heme-mac",
+    "sourceId": "source-doi-17fdc4147a986791fa89",
+    "quote": "resulting in cell-bound C3 and C5b9",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human endothelial cells exposed to heme and complement-active serum",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-heme-cd46",
+    "sourceId": "source-doi-17fdc4147a986791fa89",
+    "quote": "Heme induced decreased membrane cofactor protein (MCP)",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human endothelial cell expression assays",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-hemolysis-heme",
+    "sourceId": "source-doi-17fdc4147a986791fa89",
+    "quote": "whether hemolysis-derived heme contributes to aHUS pathogenesis",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Primary report biological premise plus human serum/cell experiments",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-heme-vwf",
+    "sourceId": "source-doi-17fdc4147a986791fa89",
+    "quote": "the release of the prothrombotic von Willebrand factor",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human endothelial cells exposed to heme",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-ap-convertase",
+    "sourceId": "source-doi-54336a4bb12635f02233",
+    "quote": "able to form C3 convertases that cleave C3 into C3a and C3b",
+    "location": "PMC10634509 introduction, complement pathway paragraph",
+    "studySystem": "Mechanistic background in primary human endothelial assay report",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-convertase-c5",
+    "sourceId": "source-doi-54336a4bb12635f02233",
+    "quote": "C3b is an important opsonin, but also supports subsequent formation of C5 convertases that cleave C5 into C5a and C5b",
+    "location": "PMC10634509 introduction",
+    "studySystem": "Mechanistic background in primary endothelial assay report",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-c5-mac",
+    "sourceId": "source-ahus-soliris",
+    "quote": "inhibiting its cleavage to C5a and C5b and preventing the generation of the terminal complement complex C5b-9",
+    "location": "Soliris US label section 12.1",
+    "studySystem": "Established pharmacologic mechanism, US prescribing information",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-c5-c5ar",
+    "sourceId": "source-doi-54336a4bb12635f02233",
+    "quote": "C5 convertases that cleave C5 into C5a and C5b",
+    "location": "PMC10634509 introduction",
+    "studySystem": "Pathway background in endothelial assay report; C5aR1 perturbations retained in existing mouse evidence",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-mac-endothelial",
+    "sourceId": "source-doi-104423166f4e78a9f027",
+    "quote": "reflecting membrane leakage",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Healthy-donor and VWD blood-outgrowth endothelial cells sensitized to complement-active human serum",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-mac-repair-qualification",
+    "sourceId": "source-doi-104423166f4e78a9f027",
+    "quote": "membrane leakage ceased within 30",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human BOEC complement challenge; VWF/WPB-deficient and rescue comparisons",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-endothelial-vwf",
+    "sourceId": "source-doi-104423166f4e78a9f027",
+    "quote": "Extensive mobilization of Weibel-Palade bodies (WPBs) was observed along with secretion of von Willebrand factor",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human BOEC cultures challenged with complement",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-fh-platelets",
+    "sourceId": "source-doi-12d57b26e2f5373c39eb",
+    "quote": "Complement deposition and platelet activation were reduced when normal FH was preincubated with platelets",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Four patient FH mutations; patient serum/plasma and normal washed platelets",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-ap-platelets",
+    "sourceId": "source-doi-12d57b26e2f5373c39eb",
+    "quote": "CD40L and CD62P expression, aggregate formation",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human serum/plasma, four FH-mutant patients and normal washed platelets",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-platelets-thrombi",
+    "sourceId": "source-doi-12d57b26e2f5373c39eb",
+    "quote": "aggregate formation, and generation of tissue factor-expressing microparticles",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human washed-platelet assays with selected aHUS serum/plasma",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-mac-fibrin",
+    "sourceId": "source-doi-cb39069bae67e1239bb1",
+    "quote": "Significant fibrin formation was observed together with C5b-9 deposition",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "aHUS activated plasma on ADP-activated endothelial cells; other TMAs were comparators",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-endothelial-tma",
+    "sourceId": "source-doi-0b01b7ef080484bbdc31",
+    "quote": "Endothelial damage characteristic of thrombotic microangiopathy was evident",
+    "location": "Results and Figure 5, histology/electron microscopy",
+    "studySystem": "Transgenic FHΔ16–20 mice; renal histology and electron microscopy",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-thrombi-tma",
+    "sourceId": "source-doi-0b01b7ef080484bbdc31",
+    "quote": "These included glomerular microthrombi",
+    "location": "Figure 5A legend",
+    "studySystem": "FHΔ16–20 mouse kidney histology, Figure 5",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-tma-hemolysis",
+    "sourceId": "source-doi-0b01b7ef080484bbdc31",
+    "quote": "Red cell fragmentation was evident on the peripheral blood films",
+    "location": "Results following Figure 5",
+    "studySystem": "Transgenic FHΔ16–20 mouse: renal histology, blood smear, platelet counts and blood urea",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-tma-platelet-count",
+    "sourceId": "source-doi-0b01b7ef080484bbdc31",
+    "quote": "these mice had significantly reduced platelet counts",
+    "location": "Results following Figure 5",
+    "studySystem": "Transgenic FHΔ16–20 mouse: renal histology, blood smear, platelet counts and blood urea",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-tma-renal",
+    "sourceId": "source-doi-0b01b7ef080484bbdc31",
+    "quote": "there was significant elevation of blood urea",
+    "location": "Results following Figure 5",
+    "studySystem": "Transgenic FHΔ16–20 mouse: renal histology, blood smear, platelet counts and blood urea",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-trigger-onset",
+    "sourceId": "source-doi-0ba5547d7825a4cd9c58",
+    "quote": "In the majority (87%), disease onset was preceeded by a triggering event",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Human pediatric retrospective cohort, 45 patients",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-thbd-regulation",
+    "sourceId": "source-doi-d35bd66a5f6df7984009",
+    "quote": "accelerating factor I-mediated inactivation of C3b",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Purified proteins and cultured-cell expression of human THBD variants",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-thbd-risk",
+    "sourceId": "source-doi-d35bd66a5f6df7984009",
+    "quote": "7 unrelated patients had six different heterozygous missense THBD mutations",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "Original 152-patient/380-control THBD sequencing study",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  },
+  {
+    "claimId": "claim-ahus-v3-thbd-disputed",
+    "sourceId": "source-doi-059b3b913c79f8edaefb",
+    "quote": "the data generated do not support a significant contribution of the THBD variants",
+    "location": "Primary report discussion/conclusion, Kidney International 2023; DOI 10.1016/j.kint.2023.07.020",
+    "studySystem": "27 THBD-variant carriers among 1216 registry patients; population burden and retrospective clinical comparison",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Exact cached full-text excerpt / text"
+  },
+  {
+    "claimId": "claim-ahus-v3-vwf-convertase",
+    "sourceId": "source-doi-1d085cc2287a000424e0",
+    "quote": "non-functional FB blocked the formation of AP C3 convertase complexes",
+    "location": "Primary report abstract; Europe PMC core record",
+    "studySystem": "HUVEC-secreted ULVWF strings; ADAMTS13 inhibited experimentally",
+    "checkedBy": "Codex agent; not human domain approval",
+    "checkedAt": "2026-10-17",
+    "inspectedMaterial": "Primary-report abstract and core metadata"
+  }
+]

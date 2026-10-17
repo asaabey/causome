@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "diseaseId": "primary-fsgs",
+  "baseReleaseId": "primary-fsgs-appraised-candidate-0d151104a597",
+  "baseContentDigest": "f02b8d86337463bf507e6c46d7fb2008d5462e8f9ac70ec344299ed1e64186f9",
+  "scope": "Bounded circulating-factor/immune primary FSGS and separate APOL1-associated kidney injury branch; excludes other genetic, adaptive, viral and drug-associated FSGS. APOL1-associated disease is not classified as idiopathic primary FSGS.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "Circulating permeability activity was associated with FSGS recurrence after transplantation.",
+      "claimIds": [
+        "claim-fsgs-factor-recurrence"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Abstract-level inspection; no independent domain review or complete methods appraisal. In a single-group phase 2a study, 13 adherent participants with two APOL1 risk variants and biopsy-proven FSGS had a mean 47.6% proteinuria reduction at 13 weeks. Drug targeting and approval do not establish every proposed mechanism or benefit in every phenotype.",
+      "claimIds": [
+        "claim-fsgs-factor-recurrence",
+        "claim-fsgs-therapy-inax-protein"
+      ]
+    }
+  ]
+}

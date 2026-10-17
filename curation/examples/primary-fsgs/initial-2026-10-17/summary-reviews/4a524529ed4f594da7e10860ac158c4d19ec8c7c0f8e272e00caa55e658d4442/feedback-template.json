@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "primary-fsgs",
+  "candidateId": "primary-fsgs-summary-candidate-4ac0d3788313",
+  "contentDigest": "855bf0bb39139361ee08bf7c8662c7a3b3174ff84241081f751a895104f2f48e",
+  "summaryRevisionId": "summary-4ac0d3788313",
+  "summaryDigest": "eb102ec9cb595a7180d89714a7e782778db6789b7f0665da1657c1d5b54b826f",
+  "packetDigest": "4a524529ed4f594da7e10860ac158c4d19ec8c7c0f8e272e00caa55e658d4442",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

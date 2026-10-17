@@ -1,0 +1,127 @@
+[
+  {
+    "path": "sources/new-records.json",
+    "bytes": 59524,
+    "sha256": "65602786d9bc7c1cd7330f42d2096acfb7e2f236a919de71b7915110fbaa7621"
+  },
+  {
+    "path": "sources/consensus-fetch-cfhr3-1.json",
+    "bytes": 1888,
+    "sha256": "950dfd0833541e25dde6cd1a1727fe211da9967322e10c8fd66d6dee0c34f067"
+  },
+  {
+    "path": "sources/PMC2935536.xml",
+    "bytes": 77274,
+    "sha256": "bb05300bfe10c11fa2de7ea1dc9da3e9d567eaed5a4d3b308aea03b9437fed62"
+  },
+  {
+    "path": "sources/PMC4438675.xml",
+    "bytes": 99404,
+    "sha256": "500d07c4404b4a26e985de1c21ce3636d8ac781922fed7ac7602270f0b8f3481"
+  },
+  {
+    "path": "sources/consensus-mechanisms.json",
+    "bytes": 71397,
+    "sha256": "7538bf05a3a1497902b5474c55137ab56819b783ece40532afd40f5a431fd68d"
+  },
+  {
+    "path": "sources/consensus-challenges.json",
+    "bytes": 67741,
+    "sha256": "0c64ca1127553ad83f2fc5d615cc69758ac3930b68933a76729504f679559bba"
+  },
+  {
+    "path": "sources/empaveli-2026-label.pdf",
+    "bytes": 744889,
+    "sha256": "776f63dfbbcca4cdf5631b7847dec200fa9a082c5557d7204a6444490be78ad5"
+  },
+  {
+    "path": "sources/consensus-fetch-cfhr5.json",
+    "bytes": 1079,
+    "sha256": "11a925ab70c5d0a87ecc1a6b440a5e2c0389f331ea28747e316b8bbd7cb4b39a"
+  },
+  {
+    "path": "sources/PMC2935536.txt",
+    "bytes": 23170,
+    "sha256": "a3eaf459608a79ce815b1b2526bed41436dfe2c7ad4ff3dab1fbdc682426716e"
+  },
+  {
+    "path": "sources/PMC4438675.txt",
+    "bytes": 27391,
+    "sha256": "06ca28981dcb8a436dc71a9bdaecccf4839c6f4196736a2d5989bdb13f06f964"
+  },
+  {
+    "path": "sources/consensus-fetch-nephritic-cohort.json",
+    "bytes": 1026,
+    "sha256": "0e2dbad28f73c3b4acedb069c07da80c0bcc8476ba63248377ce13d6fb45d610"
+  },
+  {
+    "path": "sources/PMC3608896.xml",
+    "bytes": 142771,
+    "sha256": "ebceead0dceba5816c24cad35ae4869695fde646c8b46f5dc54da14b0d736fdd"
+  },
+  {
+    "path": "sources/consensus-trials.json",
+    "bytes": 83329,
+    "sha256": "8e4297ec065efd7cef79ec992c81cf6b715155e0b941b8622bdce39f3c4be7d4"
+  },
+  {
+    "path": "sources/consensus-followup-records.json",
+    "bytes": 18328,
+    "sha256": "3b98210e1392de5a4779256459483ec178a2575b2831fc48127ce2ff65b2efb0"
+  },
+  {
+    "path": "sources/PMC10851021.txt",
+    "bytes": 24853,
+    "sha256": "c3a1bf157bfaf8e13fd9b69fdf09dfb3685d1ab1336163aaa84333765c4ca834"
+  },
+  {
+    "path": "sources/consensus-fetch-eculizumab.json",
+    "bytes": 2947,
+    "sha256": "5801be2b33b9c95cba4d3b019adfe6a06fff2adb48c66ca26f812c78e9b9ced3"
+  },
+  {
+    "path": "sources/consensus-fetch-cfhr5-prognosis.json",
+    "bytes": 2926,
+    "sha256": "5d1767bd45cb1b52cc529400a948b28b8da9767851dc643e08b005fe8b8d9947"
+  },
+  {
+    "path": "sources/consensus-dispositions.json",
+    "bytes": 43059,
+    "sha256": "0598fa75dabe70185306904f554664a13805d7d9f6c392b36b4a69e1e08140e1"
+  },
+  {
+    "path": "sources/consensus-fetch-appear.json",
+    "bytes": 1067,
+    "sha256": "475dffb4a30079d52bdedeaacf16734b58cdf80c9cd226b6004d4289fcd8deba"
+  },
+  {
+    "path": "sources/PMC10851021.xml",
+    "bytes": 134163,
+    "sha256": "35b2b8f3414c0f833e070fb3ad9572575fb3df53c70c56d0e473bb137cc19cfe"
+  },
+  {
+    "path": "sources/PMC3608896.txt",
+    "bytes": 23405,
+    "sha256": "263c1e3a702073b101f01b6f77959461fbd1d814028720b0773b734949cd4489"
+  },
+  {
+    "path": "sources/fabhalta-2025-label.pdf",
+    "bytes": 657537,
+    "sha256": "a277ccc111cf1532fae1091189de9caa07868b9db253dbaec825840063bab154"
+  },
+  {
+    "path": "sources/consensus-eculizumab.json",
+    "bytes": 69845,
+    "sha256": "bb4d4ac03f0654b40c5b995d3ae07ea29d1e0bffae99bb529287c9b27691529b"
+  },
+  {
+    "path": "sources/consensus-fetch-valiant.json",
+    "bytes": 3899,
+    "sha256": "5c1bf5c4c087adf09f0496b0450ba1d3fd3c40df79b298d108aaa923dc9219a0"
+  },
+  {
+    "path": "sources/regulatory-checks.json",
+    "bytes": 1234,
+    "sha256": "e12ef3d2ca6ba6b1d4dda3acf09929e247917634b4dc9ba08255f98a18f13bdf"
+  }
+]

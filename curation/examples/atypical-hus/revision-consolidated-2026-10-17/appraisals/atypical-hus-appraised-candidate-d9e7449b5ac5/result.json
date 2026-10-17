@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "atypical-hus-consolidated-candidate-20261017-03",
+  "baseContentDigest": "c08505b986070d65955a0eea3175e672253f648370d613826c826953af728f32",
+  "candidateId": "atypical-hus-appraised-candidate-d9e7449b5ac5",
+  "contentDigest": "07539b89138d46402a446666ecdc0a1b55304643ce89e841094700115419074c",
+  "inputDigest": "d9e7449b5ac57057e5ab9b938c66bee36a4099b136ea52d35df5118b22f20db7",
+  "assessmentCount": 73,
+  "weightCount": 72,
+  "confidenceCount": 73,
+  "therapyCoverageCount": 73,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

@@ -1,0 +1,2664 @@
+{
+  "version": "6.9",
+  "hitCount": 7,
+  "request": {
+    "queryString": "TITLE:ravulizumab AND TITLE:\"atypical\" AND FIRST_PDATE:2020",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32444092",
+        "source": "MED",
+        "pmid": "32444092",
+        "doi": "10.1016/j.kint.2020.03.011",
+        "title": "Is ravulizumab the new treatment of choice for atypical hemolytic uremic syndrome (aHUS)?",
+        "authorString": "Menne J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Menne J",
+              "lastName": "Menne",
+              "firstName": "Jan",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nephrology and Hypertension, Medical School Hannover, Hannover, Germany. Electronic address: jan.menne@krh.de."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "97",
+          "journalIssueId": 2957571,
+          "dateOfPublication": "2020 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Kidney Int",
+            "title": "Kidney international",
+            "essn": "1523-1755",
+            "issn": "0085-2538",
+            "isoabbreviation": "Kidney Int",
+            "nlmid": "0323470"
+          },
+          "printPublicationDate": "2020-06-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "1106-1108",
+        "abstractText": "Ravulizumab, a new long-acting C5 inhibitor, recently received FDA approval for the treatment of aHUS. Rates of complete thrombotic microangiopathy response were similar to those observed in major eculizumab trials; however, fewer patients in the ravulizumab study were able to stop dialysis, probably due to differences in the study populations. Until additional data/analyses are available, eculizumab remains the drug of choice for an acute aHUS episode, whereas ravulizumab has several advantages in maintenance treatment.",
+        "affiliation": "Department of Nephrology and Hypertension, Medical School Hannover, Hannover, Germany. Electronic address: jan.menne@krh.de.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Medizinischen Hochschule Hannover",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Remission Induction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Renal Dialysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal, Humanized"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Atypical Hemolytic Uremic Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ravulizumab",
+              "registryNumber": "C3VX249T6L"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.kint.2020.03.011"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-06-21",
+        "dateOfCreation": "2020-05-24",
+        "dateOfRevision": "2021-06-21",
+        "firstPublicationDate": "2020-06-01",
+        "firstIndexDate": "2020-05-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33001704",
+        "source": "MED",
+        "pmid": "33001704",
+        "doi": "10.1080/13696998.2020.1831519",
+        "title": "A US cost-minimization model comparing ravulizumab versus eculizumab for the treatment of atypical hemolytic uremic syndrome.",
+        "authorString": "Wang Y, Johnston K, Popoff E, Myren KJ, Cheung A, Faria C, Tomazos I.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yan",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9578-4781"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Health Economics & Outcomes Research, Alexion Pharmaceuticals, Inc, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Johnston K",
+              "lastName": "Johnston",
+              "firstName": "Karissa",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Broadstreet HEOR, Vancouver, BC, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Popoff E",
+              "lastName": "Popoff",
+              "firstName": "Evan",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Broadstreet HEOR, Vancouver, BC, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Myren KJ",
+              "lastName": "Myren",
+              "firstName": "Karl-Johan",
+              "initials": "KJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Health Economics & Outcomes Research, Alexion Pharmaceuticals, Inc, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheung A",
+              "lastName": "Cheung",
+              "firstName": "Antoinette",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Broadstreet HEOR, Vancouver, BC, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Faria C",
+              "lastName": "Faria",
+              "firstName": "Claudio",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Health Economics & Outcomes Research, Alexion Pharmaceuticals, Inc, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tomazos I",
+              "lastName": "Tomazos",
+              "firstName": "Ioannis",
+              "initials": "I",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0290-4583"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Health Economics & Outcomes Research, Alexion Pharmaceuticals, Inc, Boston, MA, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9578-4781"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0290-4583"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "23",
+          "journalIssueId": 3125300,
+          "dateOfPublication": "2020 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "J Med Econ",
+            "title": "Journal of medical economics",
+            "essn": "1941-837X",
+            "issn": "1369-6998",
+            "isoabbreviation": "J Med Econ",
+            "nlmid": "9892255"
+          },
+          "printPublicationDate": "2020-12-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "1503-1515",
+        "abstractText": "<h4>Aims</h4>Ravulizumab, engineered from eculizumab, provides sustained C5 inhibition in atypical hemolytic uremic syndrome (aHUS) while reducing dosing frequency (every 8 vs 2\u2009weeks, respectively). Treatment choice often carries significant financial implications. This study compared the economic consequences of ravulizumab and eculizumab for treating aHUS.<h4>Materials and methods</h4>A cost-minimization model compared direct medical costs for ravulizumab and eculizumab in treating aHUS, assuming equivalent efficacy and safety, and took a US payer perspective, a lifetime horizon, and a 3.0% cost discount rate. The base case modeled adult and pediatric treatment-na\u00efve populations, with characteristics based on clinical trials, and treatment patterns (duration, discontinuation, re-initiation) derived from eculizumab studies with long-term follow-up. Treatment costs (2019\u2009US$) were based on wholesale drug acquisition costs, Centers for Medicare & Medicaid fee schedules, and published disease management studies. Sensitivity analyses were conducted by adjusting relevant variables.<h4>Results</h4>Ravulizumab provided lifetime per-patient cost reductions (discounted) of 32.4% and 35.5% vs eculizumab in adult and pediatric base cases, respectively. Total costs for ravulizumab vs eculizumab were $12,148,748 and $17,979,007, respectively, for adults, and $11,587,832 and $17,959,814, respectively, for children. Pre-discontinuation treatment contributed the largest proportion of total costs for ravulizumab (94.8% and 88.0%) and eculizumab (94.8% and 87.8%) in adults and children, respectively. Across sensitivity analyses, ravulizumab provided cost reductions vs eculizumab.<h4>Limitations</h4>The model included several typical assumptions. Base case patients with more severe stages of chronic kidney disease were assumed not to discontinue treatment, nor to experience an excess mortality risk in either treatment arm, which may not reflect real-world clinical observations. Additionally, rebates and discounts on medication acquisition or administration were not considered.<h4>Conclusions</h4>In US patients with aHUS, ravulizumab provided cost reductions of 32.4-35.5% vs eculizumab, with a reduced dosing frequency for ravulizumab. The magnitude of reductions was consistent across sensitivity analyses.",
+        "affiliation": "Health Economics & Outcomes Research, Alexion Pharmaceuticals, Inc, Boston, MA, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Medicare"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "United States"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal, Humanized",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Atypical Hemolytic Uremic Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Eculizumab",
+            "Cost-minimization Analysis",
+            "Ahus",
+            "H51",
+            "Economic Modeling",
+            "C51",
+            "Ravulizumab"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "eculizumab",
+              "registryNumber": "A3ULP0F556"
+            },
+            {
+              "name": "ravulizumab",
+              "registryNumber": "C3VX249T6L"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/13696998.2020.1831519"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 31,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-09-29",
+        "dateOfCreation": "2020-10-01",
+        "dateOfRevision": "2022-04-21",
+        "electronicPublicationDate": "2020-11-10",
+        "firstPublicationDate": "2020-11-10",
+        "firstIndexDate": "2020-10-15",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33307104",
+        "source": "MED",
+        "pmid": "33307104",
+        "doi": "10.1016/j.kint.2020.10.046",
+        "title": "The long-acting C5 inhibitor, ravulizumab, is effective and safe in pediatric patients with atypical hemolytic uremic syndrome na\u00efve to complement inhibitor treatment.",
+        "authorString": "Ariceta G, Dixon BP, Kim SH, Kapur G, Mauch T, Ortiz S, Vallee M, Denker AE, Kang HG, Greenbaum LA, 312 Study Group.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ariceta G",
+              "lastName": "Ariceta",
+              "firstName": "Gema",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Paediatric Nephrology Department, University Hospital Vall d'Hebron, Barcelona, Spain. Electronic address: gariceta@vhebron.net."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dixon BP",
+              "lastName": "Dixon",
+              "firstName": "Bradley P",
+              "initials": "BP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3704-0922"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Renal Section, Department of Pediatrics, University of Colorado School of Medicine, Aurora, Colorado, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim SH",
+              "lastName": "Kim",
+              "firstName": "Seong Heon",
+              "initials": "SH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8003-3010"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Pusan National University Children's Hospital, Yangsan, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kapur G",
+              "lastName": "Kapur",
+              "firstName": "Gaurav",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Pediatric Sciences, Central Michigan University, Mount Pleasant, Michigan, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mauch T",
+              "lastName": "Mauch",
+              "firstName": "Teri",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pediatric Nephrology, University of Nebraska Medical Center, Omaha Children's Hospital and Medical Center, Omaha, Nebraska, USA; Department of Nephrology and Hypertension, Division of Pediatrics, University of Utah, Salt Lake City, Utah, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ortiz S",
+              "lastName": "Ortiz",
+              "firstName": "Stephan",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical and Non-Clinical Pharmacology, Alexion Pharmaceuticals Inc., Boston, Massachusetts, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vallee M",
+              "lastName": "Vallee",
+              "firstName": "Marc",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biostatistics, Alexion Pharmaceuticals Inc., Boston, Massachusetts, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Denker AE",
+              "lastName": "Denker",
+              "firstName": "Andrew E",
+              "initials": "AE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Development, Alexion Pharmaceuticals Inc., Boston, Massachusetts, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kang HG",
+              "lastName": "Kang",
+              "firstName": "Hee Gyung",
+              "initials": "HG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pediatric Nephrology, Department of Pediatrics, Seoul National University College of Medicine, Seoul, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Greenbaum LA",
+              "lastName": "Greenbaum",
+              "firstName": "Larry A",
+              "initials": "LA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2490-021X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pediatric Nephrology, Emory University School of Medicine and Children's Healthcare of Atlanta, Atlanta, Georgia, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "collectiveName": "312 Study Group"
+            }
+          ]
+        },
+        "investigatorList": {
+          "investigator": [
+            {
+              "fullName": "Lovell H",
+              "lastName": "Lovell",
+              "firstName": "Helen",
+              "initials": "H"
+            },
+            {
+              "fullName": "Muff-Luett M",
+              "lastName": "Muff-Luett",
+              "firstName": "Melissa",
+              "initials": "M"
+            },
+            {
+              "fullName": "Malone K",
+              "lastName": "Malone",
+              "firstName": "Kristin",
+              "initials": "K"
+            },
+            {
+              "fullName": "Adeagbo O",
+              "lastName": "Adeagbo",
+              "firstName": "Oluwasegun",
+              "initials": "O"
+            },
+            {
+              "fullName": "Wilkerson A",
+              "lastName": "Wilkerson",
+              "firstName": "Alexandria",
+              "initials": "A"
+            },
+            {
+              "fullName": "Fraga G",
+              "lastName": "Fraga",
+              "firstName": "Gloria",
+              "initials": "G"
+            },
+            {
+              "fullName": "Sarri S",
+              "lastName": "Sarri",
+              "firstName": "Scherezade",
+              "initials": "S"
+            },
+            {
+              "fullName": "Cheong HI",
+              "lastName": "Cheong",
+              "firstName": "Hae Il",
+              "initials": "HI"
+            },
+            {
+              "fullName": "Ahn YH",
+              "lastName": "Ahn",
+              "firstName": "Yo Han",
+              "initials": "YH"
+            },
+            {
+              "fullName": "Han KH",
+              "lastName": "Han",
+              "firstName": "Kyoung Hee",
+              "initials": "KH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6830-7311"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8003-3010"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2490-021X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6830-7311"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1763-1098"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3704-0922"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0003-9148-5647"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "100",
+          "journalIssueId": 3190723,
+          "dateOfPublication": "2021 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Kidney Int",
+            "title": "Kidney international",
+            "essn": "1523-1755",
+            "issn": "0085-2538",
+            "isoabbreviation": "Kidney Int",
+            "nlmid": "0323470"
+          },
+          "printPublicationDate": "2021-07-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "225-237",
+        "abstractText": "Ravulizumab, a long-acting complement C5 inhibitor engineered from eculizumab, allows extending maintenance dosing from every 2-3 weeks to every 4-8 weeks depending on bodyweight. Here, we evaluated the efficacy and safety of ravulizumab in complement inhibitor-na\u00efve children (under 18 years) with atypical hemolytic uremic syndrome. In this phase III, single-arm trial, ravulizumab was administered every eight weeks in patients 20 kg and over, and four weeks in patients under 20 kg. The primary endpoint was a complete thrombotic microangiopathy response (normalization of platelet count and lactate dehydrogenase, and a 25% or more improvement in serum creatinine) through 26 weeks. Secondary endpoints included change in hematologic parameters and kidney function. 18 patients with a median age of 5.2 years were evaluated. At baseline, symptoms of atypical hemolytic uremic syndrome outside the kidney were present in 72.2% of patients and 38.9% had been in intensive care. Baseline estimated glomerular filtration rate was 22 mL/min/1.73 m<sup>2</sup>. By week 26, 77.8% of patients achieved a complete thrombotic microangiopathy response; 94.4%, 88.9% and 83.3% of patients achieved platelet normalization, lactate dehydrogenase normalization and a 25% or more improvement in serum creatinine, respectively. By week 50, 94.4% patients had achieved a complete thrombotic microangiopathy response. Median improvement in platelet count was 246 and 213 x10<sup>9</sup>/L through week 26 and week 50, respectively. The median increase above baseline in estimated glomerular filtration rate was 80 and 94 mL/min/1.73m<sup>2</sup> through week 26 and week 50, respectively. No unexpected adverse events, deaths, or meningococcal infections occurred. Thus, ravulizumab rapidly improved hematologic and kidney parameters with no unexpected safety concerns in complement inhibitor-na\u00efve children with atypical hemolytic uremic syndrome.",
+        "affiliation": "Paediatric Nephrology Department, University Hospital Vall d'Hebron, Barcelona, Spain. Electronic address: gariceta@vhebron.net.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase III",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Alexion Pharmaceuticals",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child, Preschool"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Complement C5"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Complement Inactivating Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Thrombotic Microangiopathies",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal, Humanized",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Atypical Hemolytic Uremic Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Complement",
+            "Hemolytic Uremic Syndrome",
+            "Thrombotic Microangiopathy",
+            "Atypical Hemolytic Uremic Syndrome",
+            "Eculizumab",
+            "Ravulizumab"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Complement C5",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Complement Inactivating Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ravulizumab",
+              "registryNumber": "C3VX249T6L"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.kidney-international.org/article/S0085253820314186/pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.kidney-international.org/article/S0085253820314186/pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.kidney-international.org/article/S0085253820314186/pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.kidney-international.org/article/S0085253820314186/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.kint.2020.10.046"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "37349053",
+              "reference": "Kidney Int. 2023 Jul;104(1):205. doi: 10.1016/j.kint.2023.04.010",
+              "type": "Erratum in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 80,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-06-28",
+        "dateOfCreation": "2020-12-11",
+        "dateOfRevision": "2023-06-22",
+        "electronicPublicationDate": "2020-12-08",
+        "firstPublicationDate": "2020-12-08",
+        "firstIndexDate": "2020-12-12",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33048203",
+        "source": "MED",
+        "pmid": "33048203",
+        "pmcid": "PMC7910247",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7910247"
+          ]
+        },
+        "doi": "10.1007/s00467-020-04774-2",
+        "title": "The long-acting C5 inhibitor, ravulizumab, is efficacious and safe in pediatric patients with atypical hemolytic uremic syndrome previously treated with eculizumab.",
+        "authorString": "Tanaka K, Adams B, Aris AM, Fujita N, Ogawa M, Ortiz S, Vallee M, Greenbaum LA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tanaka K",
+              "lastName": "Tanaka",
+              "firstName": "Kazuki",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nephrology, Aichi Children's Health and Medical Center, 7-426, Morioka-cho, Obu City, Aichi prefecture, 474-8710, Japan. kazuki.tanaka0505@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Adams B",
+              "lastName": "Adams",
+              "firstName": "Brigitte",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatric Nephrology, Children's Hospital Queen Fabiola, Universit\u00e9 libre de Bruxelles, Brussels, Belgium."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aris AM",
+              "lastName": "Aris",
+              "firstName": "Alvaro Madrid",
+              "initials": "AM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Children's Nephrology and Renal Transplantation Service, Children's Maternity Hospital Sant Joan de D\u00e9u, University of Barcelona, Barcelona, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fujita N",
+              "lastName": "Fujita",
+              "firstName": "Naoya",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nephrology, Aichi Children's Health and Medical Center, 7-426, Morioka-cho, Obu City, Aichi prefecture, 474-8710, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ogawa M",
+              "lastName": "Ogawa",
+              "firstName": "Masayo",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Alexion Pharmaceuticals Inc, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ortiz S",
+              "lastName": "Ortiz",
+              "firstName": "Stephan",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Alexion Pharmaceuticals Inc, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vallee M",
+              "lastName": "Vallee",
+              "firstName": "Marc",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Alexion Pharmaceuticals Inc, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Greenbaum LA",
+              "lastName": "Greenbaum",
+              "firstName": "Larry A",
+              "initials": "LA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pediatric Nephrology, Emory University School of Medicine and Children's Healthcare of Atlanta, Atlanta, GA, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "36",
+          "journalIssueId": 3119187,
+          "dateOfPublication": "2021 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Pediatr Nephrol",
+            "title": "Pediatric nephrology (Berlin, Germany)",
+            "essn": "1432-198X",
+            "issn": "0931-041X",
+            "isoabbreviation": "Pediatr Nephrol",
+            "nlmid": "8708728"
+          },
+          "printPublicationDate": "2021-04-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "889-898",
+        "abstractText": "<h4>Background</h4>Atypical hemolytic uremic syndrome (aHUS) is a rare, complement-mediated disease associated with poor outcomes if untreated. Ravulizumab, a long-acting C5 inhibitor developed through minimal, targeted modifications to eculizumab was recently approved for the treatment of aHUS. Here, we report outcomes from a pediatric patient cohort from the ravulizumab clinical trial (NCT03131219) who were switched from chronic eculizumab to ravulizumab treatment.<h4>Methods</h4>Ten patients received a loading dose of ravulizumab on Day 1, followed by maintenance doses administered initially on Day 15, and then, every 4-8 weeks thereafter, depending on body weight. All patients completed the initial evaluation period of 26 weeks and entered the extension period.<h4>Results</h4>No patients required dialysis at any point throughout the study. The median estimated glomerular filtration rate values remained stable during the trial: 99.8 mL/min/1.73m<sup>2</sup> at baseline, 93.5 mL/min/1.73m<sup>2</sup> at 26 weeks, and 104 mL/min/1.73m<sup>2</sup> at 52 weeks. At last available follow-up, all patients were in the same chronic kidney disease stage as recorded at baseline. Hematologic variables (platelets, lactate dehydrogenase, and hemoglobin) also remained stable throughout the initial evaluation period and up to the last available follow-up. All patients experienced adverse events; the most common were upper respiratory tract infection (40%) and oropharyngeal pain (30%). There were no meningococcal infections reported, no deaths occurred, and no patients discontinued during the study.<h4>Conclusions</h4>Overall, treatment with ravulizumab in pediatric patients with aHUS who were previously treated with eculizumab resulted in stable kidney and hematologic parameters, with no unexpected safety concerns when administered every 4-8 weeks.<h4>Trial registration</h4>Trial identifiers: Trial ID: ALXN1210-aHUS-312 Clinical trials.gov : NCT03131219 EudraCT number: 2016-002499-29 Graphical abstract.",
+        "affiliation": "Department of Nephrology, Aichi Children's Health and Medical Center, 7-426, Morioka-cho, Obu City, Aichi prefecture, 474-8710, Japan. kazuki.tanaka0505@gmail.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Alexion Pharmaceuticals",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Renal Dialysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antibodies, Monoclonal, Humanized",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Atypical Hemolytic Uremic Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Complement",
+            "Children",
+            "Hemolytic Uremic Syndrome",
+            "Thrombotic Microangiopathy",
+            "Atypical Hemolytic Uremic Syndrome",
+            "Eculizumab",
+            "Ravulizumab"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "eculizumab",
+              "registryNumber": "A3ULP0F556"
+            },
+            {
+              "name": "ravulizumab",
+              "registryNumber": "C3VX249T6L"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00467-020-04774-2"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7910247"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7910247?pdf=render"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "33296010",
+              "reference": "Pediatr Nephrol. 2021 Apr;36(4):1033. doi: 10.1007/s00467-020-04874-z",
+              "type": "Erratum in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 55,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "eudract",
+            "nct",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2022-02-09",
+        "dateOfCreation": "2020-10-13",
+        "dateOfRevision": "2024-03-31",
+        "electronicPublicationDate": "2020-10-13",
+        "firstPublicationDate": "2020-10-13",
+        "firstIndexDate": "2020-10-16",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "PPR251293",
+        "source": "PPR",
+        "doi": "10.21203/rs.3.rs-22103/v3",
+        "title": "Efficacy and safety of the long-acting C5 inhibitor ravulizumab in patients with atypical hemolytic uremic syndrome triggered by pregnancy: a subgroup analysis&nbsp;",
+        "authorString": "G\u00e4ckler A, Sch\u00f6nermarck U, Dobronravov V, Manna GL, Denker A, Liu P, Vinogradova M, Yoon S, Praga M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "G\u00e4ckler A",
+              "lastName": "G\u00e4ckler",
+              "firstName": "Anja",
+              "initials": "A"
+            },
+            {
+              "fullName": "Sch\u00f6nermarck U",
+              "lastName": "Sch\u00f6nermarck",
+              "firstName": "Ulf",
+              "initials": "U"
+            },
+            {
+              "fullName": "Dobronravov V",
+              "lastName": "Dobronravov",
+              "firstName": "Vladimir",
+              "initials": "V"
+            },
+            {
+              "fullName": "Manna GL",
+              "lastName": "Manna",
+              "firstName": "Gaetano La",
+              "initials": "GL"
+            },
+            {
+              "fullName": "Denker A",
+              "lastName": "Denker",
+              "firstName": "Andrew",
+              "initials": "A"
+            },
+            {
+              "fullName": "Liu P",
+              "lastName": "Liu",
+              "firstName": "Peng",
+              "initials": "P"
+            },
+            {
+              "fullName": "Vinogradova M",
+              "lastName": "Vinogradova",
+              "firstName": "Maria",
+              "initials": "M"
+            },
+            {
+              "fullName": "Yoon S",
+              "lastName": "Yoon",
+              "firstName": "Sung-Soo",
+              "initials": "S"
+            },
+            {
+              "fullName": "Praga M",
+              "lastName": "Praga",
+              "firstName": "Manuel",
+              "initials": "M"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3266-9791"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "pubYear": "2020",
+        "abstractText": "<h4>Background: </h4> Atypical hemolytic uremic syndrome (aHUS) triggered by pregnancy is a rare disease caused by dysregulation of the alternative complement pathway that occurs in approximately 1 in 25,000 pregnancies. The 311 phase 3 trial (NCT02949128) showed that ravulizumab, a long-acting C5 inhibitor obtained through selective modifications to eculizumab, is efficacious in inhibiting complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS. In this analysis, we report outcomes in a subgroup of patients from the 311 study who developed TMA postpartum. <h4>Methods: </h4>: This was a phase 3, multicenter trial evaluating efficacy and safety of ravulizumab in adults (\u226518 years of age) with aHUS na\u00efve to complement inhibitor treatment. The primary endpoint was complete TMA response (simultaneous platelet count normalization [\u2265150 x 10 9 /L], lactate dehydrogenase normalization [\u2264246 U/L] and 25% improvement in serum creatinine) through the 183-day initial evaluation period. Additional efficacy endpoints included time to complete TMA response, hematologic normalization, and dialysis requirement status. <h4>Results: </h4>: Eight patients presenting with TMA postpartum (median age of 37.7 [range; 22.1\u201345.2] years) were diagnosed with aHUS and received \u22651 dose of ravulizumab. Five patients (63%) were on dialysis at baseline. Complete TMA response was achieved in 7/8 patients (87.5%) in a median time of 31.5 days. Hematologic normalization was observed in all patients. All patients on dialysis at baseline discontinued dialysis within 21 days after treatment with ravulizumab. All patients showed continued improvements in the estimated glomerular filtration rate from baseline to Day 183. Three possible treatment-related adverse events were observed in 2 patients (arthralgia and nasopharyngitis [both non-severe]; urinary tract infection). No deaths or meningococcal infections occurred. <h4>Conclusions: </h4>: Treatment with ravulizumab provided immediate and complete C5 inhibition, resulting in rapid clinical and laboratory improvements and complete TMA response through 183 days in patients with aHUS triggered by pregnancy. The safety profile observed in this subset of patients analysed is consistent with the 311 study investigating ravulizumab in patients with aHUS na\u00efve to complement treatment.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "Research Square",
+          "yearOfPublication": 2020
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.researchsquare.com/article/rs-22103/v3.pdf?c=1631880930000"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.21203/rs.3.rs-22103/v3"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "33407224",
+              "reference": "BMC nephrology. 2021 Jan;22(1):5",
+              "type": "Preprint of",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10001
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCreation": "2020-12-11",
+        "firstPublicationDate": "2020-12-10",
+        "firstIndexDate": "2020-12-11",
+        "versionList": {
+          "version": [
+            {
+              "id": "PPR155772",
+              "source": "PPR",
+              "versionNumber": 1,
+              "firstPublishDate": "2020-04-27",
+              "pubTypeList": {
+                "pubType": [
+                  "preprint"
+                ]
+              },
+              "hasEvaluations": "N"
+            },
+            {
+              "id": "PPR196239",
+              "source": "PPR",
+              "versionNumber": 2,
+              "firstPublishDate": "2020-08-04",
+              "pubTypeList": {
+                "pubType": [
+                  "preprint"
+                ]
+              },
+              "hasEvaluations": "N"
+            },
+            {
+              "id": "PPR251293",
+              "source": "PPR",
+              "versionNumber": 3,
+              "firstPublishDate": "2020-12-10",
+              "pubTypeList": {
+                "pubType": [
+                  "preprint"
+                ]
+              },
+              "hasEvaluations": "N"
+            }
+          ]
+        },
+        "versionNumber": 3,
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32299680",
+        "source": "MED",
+        "pmid": "32299680",
+        "doi": "10.1016/j.kint.2020.01.035",
+        "title": "The long-acting C5 inhibitor, Ravulizumab, is effective and safe in adult patients with atypical hemolytic uremic syndrome na\u00efve to complement inhibitor treatment.",
+        "authorString": "Rondeau E, Scully M, Ariceta G, Barbour T, Cataland S, Heyne N, Miyakawa Y, Ortiz S, Swenson E, Vallee M, Yoon SS, Kavanagh D, Haller H, 311 Study Group.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rondeau E",
+              "lastName": "Rondeau",
+              "firstName": "Eric",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Intensive Care Nephrology and Transplantation Department, Assistance Publique, H\u00f4pitaux de Paris 6, Sorbonne Universit\u00e9, Paris, France. Electronic address: eric.rondeau@aphp.fr."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Scully M",
+              "lastName": "Scully",
+              "firstName": "Marie",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Haematology, University College London Hospitals (UCLH) and Cardio-metabolic Programme, National Institute for Health Research UCLH/UC Biomedical Research Centre, London, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ariceta G",
+              "lastName": "Ariceta",
+              "firstName": "Gema",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Paediatric Nephrology Department, University Hospital Vall d'Hebron, Barcelona, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barbour T",
+              "lastName": "Barbour",
+              "firstName": "Tom",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3610-5053"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kidney Care, Royal Melbourne Hospital, Melbourne, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cataland S",
+              "lastName": "Cataland",
+              "firstName": "Spero",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Hematology, The Ohio State University Medical Center, Columbus, Ohio, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Heyne N",
+              "lastName": "Heyne",
+              "firstName": "Nils",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Kidney and Hypertension Diseases, University Hospital T\u00fcbingen, T\u00fcbingen, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miyakawa Y",
+              "lastName": "Miyakawa",
+              "firstName": "Yoshitaka",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Internal Medicine, Saitama Medical University, Iruma, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ortiz S",
+              "lastName": "Ortiz",
+              "firstName": "Stephan",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Pharmacology, Alexion Pharmaceutical, Inc., Boston, Massachusetts, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Swenson E",
+              "lastName": "Swenson",
+              "firstName": "Eugene",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Development, Alexion Pharmaceutical, Inc., Boston, Massachusetts, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vallee M",
+              "lastName": "Vallee",
+              "firstName": "Marc",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biostatistics, Alexion Pharmaceutical, Inc., Boston, Massachusetts, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yoon SS",
+              "lastName": "Yoon",
+              "firstName": "Sung-Soo",
+              "initials": "SS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine, Seoul National University Hospital, Seoul, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kavanagh D",
+              "lastName": "Kavanagh",
+              "firstName": "David",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4718-0072"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Renal Complement Therapeutics Centre, Royal Victoria Hospital, Newcastle University, Newcastle upon Tyne, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Haller H",
+              "lastName": "Haller",
+              "firstName": "Hermann",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nephrology and Hypertension, Hannover Medical School, Hannover, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "collectiveName": "311 Study Group"
+            }
+          ]
+        },
+        "investigatorList": {
+          "investigator": [
+            {
+              "fullName": "Babu S",
+              "lastName": "Babu",
+              "firstName": "Sunil",
+              "initials": "S"
+            },
+            {
+              "fullName": "Broeders N",
+              "lastName": "Broeders",
+              "firstName": "Nilufer",
+              "initials": "N"
+            },
+            {
+              "fullName": "Lietar N",
+              "lastName": "Lietar",
+              "firstName": "Nicole",
+              "initials": "N"
+            },
+            {
+              "fullName": "Brown F",
+              "lastName": "Brown",
+              "firstName": "Fiona",
+              "initials": "F"
+            },
+            {
+              "fullName": "Campbell P",
+              "lastName": "Campbell",
+              "firstName": "Philip",
+              "initials": "P"
+            },
+            {
+              "fullName": "Chowdhury P",
+              "lastName": "Chowdhury",
+              "firstName": "Paramit",
+              "initials": "P"
+            },
+            {
+              "fullName": "Kasimatis T",
+              "lastName": "Kasimatis",
+              "firstName": "Theo",
+              "initials": "T"
+            },
+            {
+              "fullName": "Cirami L",
+              "lastName": "Cirami",
+              "firstName": "Lino",
+              "initials": "L"
+            },
+            {
+              "fullName": "Caroti L",
+              "lastName": "Caroti",
+              "firstName": "Leonardo",
+              "initials": "L"
+            },
+            {
+              "fullName": "Antognoli G",
+              "lastName": "Antognoli",
+              "firstName": "Guilia",
+              "initials": "G"
+            },
+            {
+              "fullName": "Delmas Y",
+              "lastName": "Delmas",
+              "firstName": "Yahsou",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Dobronravov V",
+              "lastName": "Dobronravov",
+              "firstName": "Vladimir",
+              "initials": "V"
+            },
+            {
+              "fullName": "Gaeckler A",
+              "lastName": "Gaeckler",
+              "firstName": "Anja",
+              "initials": "A"
+            },
+            {
+              "fullName": "Garrouste C",
+              "lastName": "Garrouste",
+              "firstName": "Cyril",
+              "initials": "C"
+            },
+            {
+              "fullName": "Greenwood G",
+              "lastName": "Greenwood",
+              "firstName": "Gregory",
+              "initials": "G"
+            },
+            {
+              "fullName": "Griffin S",
+              "lastName": "Griffin",
+              "firstName": "Si\u00e2n",
+              "initials": "S"
+            },
+            {
+              "fullName": "Huang CC",
+              "lastName": "Huang",
+              "firstName": "Chiu-Ching",
+              "initials": "CC"
+            },
+            {
+              "fullName": "Chen IR",
+              "lastName": "Chen",
+              "firstName": "I-Ru",
+              "initials": "IR"
+            },
+            {
+              "fullName": "Huang S",
+              "lastName": "Huang",
+              "firstName": "Susan",
+              "initials": "S"
+            },
+            {
+              "fullName": "Kim JS",
+              "lastName": "Kim",
+              "firstName": "Jin Seok",
+              "initials": "JS"
+            },
+            {
+              "fullName": "La Manna G",
+              "lastName": "La Manna",
+              "firstName": "Gaetano",
+              "initials": "G"
+            },
+            {
+              "fullName": "Comai G",
+              "lastName": "Comai",
+              "firstName": "Giorgia",
+              "initials": "G"
+            },
+            {
+              "fullName": "Cappuccilli M",
+              "lastName": "Cappuccilli",
+              "firstName": "Maria",
+              "initials": "M"
+            },
+            {
+              "fullName": "Le Quintrec M",
+              "lastName": "Le Quintrec",
+              "firstName": "Moglie",
+              "initials": "M"
+            },
+            {
+              "fullName": "Jeantet G",
+              "lastName": "Jeantet",
+              "firstName": "Guillaume",
+              "initials": "G"
+            },
+            {
+              "fullName": "Fumie I",
+              "lastName": "Fumie",
+              "firstName": "Iino",
+              "initials": "I"
+            },
+            {
+              "fullName": "Luque Y",
+              "lastName": "Luque",
+              "firstName": "Yosu",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Menne J",
+              "lastName": "Menne",
+              "firstName": "Jan",
+              "initials": "J"
+            },
+            {
+              "fullName": "Morelle J",
+              "lastName": "Morelle",
+              "firstName": "Johan",
+              "initials": "J"
+            },
+            {
+              "fullName": "Goffin E",
+              "lastName": "Goffin",
+              "firstName": "Eric",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9242-7148"
+              }
+            },
+            {
+              "fullName": "Muhlfeld A",
+              "lastName": "Muhlfeld",
+              "firstName": "Anja",
+              "initials": "A"
+            },
+            {
+              "fullName": "Nagaraj S",
+              "lastName": "Nagaraj",
+              "firstName": "Shashi",
+              "initials": "S"
+            },
+            {
+              "fullName": "Arepally G",
+              "lastName": "Arepally",
+              "firstName": "Gowthami",
+              "initials": "G"
+            },
+            {
+              "fullName": "Oh D",
+              "lastName": "Oh",
+              "firstName": "Doyeun",
+              "initials": "D"
+            },
+            {
+              "fullName": "Okumi M",
+              "lastName": "Okumi",
+              "firstName": "Masayoshi",
+              "initials": "M"
+            },
+            {
+              "fullName": "Terente MP",
+              "lastName": "Terente",
+              "firstName": "Manuel Praga",
+              "initials": "MP"
+            },
+            {
+              "fullName": "Gutierr\u00e9z E",
+              "lastName": "Gutierr\u00e9z",
+              "firstName": "Elena",
+              "initials": "E"
+            },
+            {
+              "fullName": "Rodriguez P",
+              "lastName": "Rodriguez",
+              "firstName": "Paola",
+              "initials": "P"
+            },
+            {
+              "fullName": "Provot F",
+              "lastName": "Provot",
+              "firstName": "Francois",
+              "initials": "F"
+            },
+            {
+              "fullName": "Sch\u00f6nermarck U",
+              "lastName": "Sch\u00f6nermarck",
+              "firstName": "Ulf",
+              "initials": "U",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3266-9791"
+              }
+            },
+            {
+              "fullName": "Fischereder M",
+              "lastName": "Fischereder",
+              "firstName": "Michael",
+              "initials": "M"
+            },
+            {
+              "fullName": "Terrada NR",
+              "lastName": "Terrada",
+              "firstName": "Natalia Ramos",
+              "initials": "NR"
+            },
+            {
+              "fullName": "Seitz-Polski B",
+              "lastName": "Seitz-Polski",
+              "firstName": "Barbara",
+              "initials": "B"
+            },
+            {
+              "fullName": "Favre G",
+              "lastName": "Favre",
+              "firstName": "Guillaume",
+              "initials": "G"
+            },
+            {
+              "fullName": "Boyer-Suavet S",
+              "lastName": "Boyer-Suavet",
+              "firstName": "Sonia",
+              "initials": "S"
+            },
+            {
+              "fullName": "Vinogradova M",
+              "lastName": "Vinogradova",
+              "firstName": "Maria",
+              "initials": "M"
+            },
+            {
+              "fullName": "Kirsanova T",
+              "lastName": "Kirsanova",
+              "firstName": "Tatiana",
+              "initials": "T"
+            },
+            {
+              "fullName": "Wong EKS",
+              "lastName": "Wong",
+              "firstName": "Edwin K S",
+              "initials": "EKS"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5166-5617"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9242-7148"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3266-9791"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3610-5053"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1763-1098"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4718-0072"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "97",
+          "journalIssueId": 2957571,
+          "dateOfPublication": "2020 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Kidney Int",
+            "title": "Kidney international",
+            "essn": "1523-1755",
+            "issn": "0085-2538",
+            "isoabbreviation": "Kidney Int",
+            "nlmid": "0323470"
+          },
+          "printPublicationDate": "2020-06-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "1287-1296",
+        "abstractText": "Ravulizumab is a long-acting C5 inhibitor engineered from eculizumab with increased elimination half-life, allowing an extended dosing interval from two to eight weeks. Here we evaluate the efficacy and safety of ravulizumab in adults with atypical hemolytic uremic syndrome presenting with thrombotic microangiopathy. In this global, phase 3, single arm study in complement inhibitor-na\u00efve adults (18 years and older) who fulfilled diagnostic criteria for atypical hemolytic uremic syndrome, enrolled patients received ravulizumab through a 26-week initial evaluation period. The primary endpoint was complete thrombotic microangiopathy response defined as normalization of platelet count and lactate dehydrogenase and 25% or more improvement in serum creatinine. Secondary endpoints included changes in hematologic variables and renal function. Safety was also evaluated. Ravulizumab treatment resulted in an immediate, complete, and sustained C5 inhibition in all patients. Complete thrombotic microangiopathy response was achieved in 53.6% of patients. Normalization of platelet count, lactate dehydrogenase and 25% or more improvement in serum creatinine was achieved in 83.9%, 76.8% and 58.9% of patients, respectively. Improvement in estimated glomerular filtration rate by one or more stage was achieved in 68.1% of patients by day 183. No unexpected adverse events were reported across a safety analysis set of 58 patients. Four deaths occurred (three within one month of study initiation, including one in a patient excluded based on eligibility criteria after the first dose) with none considered treatment-related by the study investigator. Thus, treatment with ravulizumab once every eight weeks resulted in rapidly improved hematologic and renal endpoints with no unexpected adverse events in adults with atypical hemolytic uremic syndrome.",
+        "affiliation": "Intensive Care Nephrology and Transplantation Department, Assistance Publique, H\u00f4pitaux de Paris 6, Sorbonne Universit\u00e9, Paris, France. Electronic address: eric.rondeau@aphp.fr.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase III",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Alexion Pharmaceuticals",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Complement System Proteins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Complement Inactivating Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Thrombotic Microangiopathies",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal, Humanized"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Atypical Hemolytic Uremic Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Complement",
+            "Hemolytic Uremic Syndrome",
+            "Thrombotic Microangiopathy",
+            "Atypical Hemolytic Uremic Syndrome",
+            "Eculizumab",
+            "Ravulizumab"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Complement System Proteins",
+              "registryNumber": "9007-36-7"
+            },
+            {
+              "name": "Complement Inactivating Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ravulizumab",
+              "registryNumber": "C3VX249T6L"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.kint.2020.01.035"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "33276869",
+              "reference": "Kidney Int. 2020 Dec;98(6):1621. doi: 10.1016/j.kint.2020.11.001",
+              "type": "Erratum in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "33892867",
+              "reference": "Kidney Int. 2021 May;99(5):1244. doi: 10.1016/j.kint.2021.03.008",
+              "type": "Erratum in",
+              "orderIn": 2
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 186,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-06-21",
+        "dateOfCreation": "2020-04-18",
+        "dateOfRevision": "2022-05-31",
+        "electronicPublicationDate": "2020-03-06",
+        "firstPublicationDate": "2020-03-06",
+        "firstIndexDate": "2020-04-18",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33276869",
+        "source": "MED",
+        "pmid": "33276869",
+        "doi": "10.1016/j.kint.2020.11.001",
+        "title": "Erratum to \"Rondeau E, Scully M, Ariceta G, Barbour T, Cataland S, Heyne N, Miyakawa Y, Ortiz S, Swenson E, Vallee M, Yoon S-S, Kavanagh D, Haller H; on behalf of the 311 Study Group. The long-acting C5 inhibitor, Ravulizumab, is effective and safe in adult patients with atypical hemolytic uremic syndrome na\u00efve to complement inhibitor treatment\" Kidney Int. 2020;97:1287-1296.",
+        "authorString": "Rondeau E, Scully M, Ariceta G, Barbour T, Cataland S, Heyne N, Miyakawa Y, Ortiz S, Swenson E, Vallee M, Yoon SS, Kavanagh D, Haller H, 311 Study Group.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rondeau E",
+              "lastName": "Rondeau",
+              "firstName": "Eric",
+              "initials": "E"
+            },
+            {
+              "fullName": "Scully M",
+              "lastName": "Scully",
+              "firstName": "Marie",
+              "initials": "M"
+            },
+            {
+              "fullName": "Ariceta G",
+              "lastName": "Ariceta",
+              "firstName": "Gema",
+              "initials": "G"
+            },
+            {
+              "fullName": "Barbour T",
+              "lastName": "Barbour",
+              "firstName": "Tom",
+              "initials": "T"
+            },
+            {
+              "fullName": "Cataland S",
+              "lastName": "Cataland",
+              "firstName": "Spero",
+              "initials": "S"
+            },
+            {
+              "fullName": "Heyne N",
+              "lastName": "Heyne",
+              "firstName": "Nils",
+              "initials": "N"
+            },
+            {
+              "fullName": "Miyakawa Y",
+              "lastName": "Miyakawa",
+              "firstName": "Yoshitaka",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Ortiz S",
+              "lastName": "Ortiz",
+              "firstName": "Stephan",
+              "initials": "S"
+            },
+            {
+              "fullName": "Swenson E",
+              "lastName": "Swenson",
+              "firstName": "Eugene",
+              "initials": "E"
+            },
+            {
+              "fullName": "Vallee M",
+              "lastName": "Vallee",
+              "firstName": "Marc",
+              "initials": "M"
+            },
+            {
+              "fullName": "Yoon SS",
+              "lastName": "Yoon",
+              "firstName": "Sung-Soo",
+              "initials": "SS"
+            },
+            {
+              "fullName": "Kavanagh D",
+              "lastName": "Kavanagh",
+              "firstName": "David",
+              "initials": "D"
+            },
+            {
+              "fullName": "Haller H",
+              "lastName": "Haller",
+              "firstName": "Hermann",
+              "initials": "H"
+            },
+            {
+              "collectiveName": "311 Study Group"
+            }
+          ]
+        },
+        "investigatorList": {
+          "investigator": [
+            {
+              "fullName": "Babu S",
+              "lastName": "Babu",
+              "firstName": "Sunil",
+              "initials": "S"
+            },
+            {
+              "fullName": "Broeders N",
+              "lastName": "Broeders",
+              "firstName": "Nilufer",
+              "initials": "N"
+            },
+            {
+              "fullName": "Lietar N",
+              "lastName": "Lietar",
+              "firstName": "Nicole",
+              "initials": "N"
+            },
+            {
+              "fullName": "Brown F",
+              "lastName": "Brown",
+              "firstName": "Fiona",
+              "initials": "F"
+            },
+            {
+              "fullName": "Campbell P",
+              "lastName": "Campbell",
+              "firstName": "Philip",
+              "initials": "P"
+            },
+            {
+              "fullName": "Chowdhury P",
+              "lastName": "Chowdhury",
+              "firstName": "Paramit",
+              "initials": "P"
+            },
+            {
+              "fullName": "Kasimatis T",
+              "lastName": "Kasimatis",
+              "firstName": "Theo",
+              "initials": "T"
+            },
+            {
+              "fullName": "Cirami L",
+              "lastName": "Cirami",
+              "firstName": "Lino",
+              "initials": "L"
+            },
+            {
+              "fullName": "Caroti L",
+              "lastName": "Caroti",
+              "firstName": "Leonardo",
+              "initials": "L"
+            },
+            {
+              "fullName": "Antognoli G",
+              "lastName": "Antognoli",
+              "firstName": "Guilia",
+              "initials": "G"
+            },
+            {
+              "fullName": "Delmas Y",
+              "lastName": "Delmas",
+              "firstName": "Yahsou",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Dobronravov V",
+              "lastName": "Dobronravov",
+              "firstName": "Vladimir",
+              "initials": "V"
+            },
+            {
+              "fullName": "Gaeckler A",
+              "lastName": "Gaeckler",
+              "firstName": "Anja",
+              "initials": "A"
+            },
+            {
+              "fullName": "Garrouste C",
+              "lastName": "Garrouste",
+              "firstName": "Cyril",
+              "initials": "C"
+            },
+            {
+              "fullName": "Greenwood G",
+              "lastName": "Greenwood",
+              "firstName": "Gregory",
+              "initials": "G"
+            },
+            {
+              "fullName": "Griffin S",
+              "lastName": "Griffin",
+              "firstName": "Si\u00e2n",
+              "initials": "S"
+            },
+            {
+              "fullName": "Huang CC",
+              "lastName": "Huang",
+              "firstName": "Chiu-Ching",
+              "initials": "CC"
+            },
+            {
+              "fullName": "Chen IR",
+              "lastName": "Chen",
+              "firstName": "I-Ru",
+              "initials": "IR"
+            },
+            {
+              "fullName": "Huang S",
+              "lastName": "Huang",
+              "firstName": "Susan",
+              "initials": "S"
+            },
+            {
+              "fullName": "Kim JS",
+              "lastName": "Kim",
+              "firstName": "Jin Seok",
+              "initials": "JS"
+            },
+            {
+              "fullName": "La Manna G",
+              "lastName": "La Manna",
+              "firstName": "Gaetano",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5473-8551"
+              }
+            },
+            {
+              "fullName": "Comai G",
+              "lastName": "Comai",
+              "firstName": "Giorgia",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4160-8840"
+              }
+            },
+            {
+              "fullName": "Cappuccilli M",
+              "lastName": "Cappuccilli",
+              "firstName": "Maria",
+              "initials": "M"
+            },
+            {
+              "fullName": "Le Quintrec M",
+              "lastName": "Le Quintrec",
+              "firstName": "Moglie",
+              "initials": "M"
+            },
+            {
+              "fullName": "Jeantet G",
+              "lastName": "Jeantet",
+              "firstName": "Guillaume",
+              "initials": "G"
+            },
+            {
+              "fullName": "Fumie I",
+              "lastName": "Fumie",
+              "firstName": "Iino",
+              "initials": "I"
+            },
+            {
+              "fullName": "Luque Y",
+              "lastName": "Luque",
+              "firstName": "Yosu",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Menne J",
+              "lastName": "Menne",
+              "firstName": "Jan",
+              "initials": "J"
+            },
+            {
+              "fullName": "Morelle J",
+              "lastName": "Morelle",
+              "firstName": "Johan",
+              "initials": "J"
+            },
+            {
+              "fullName": "Goffin E",
+              "lastName": "Goffin",
+              "firstName": "Eric",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9242-7148"
+              }
+            },
+            {
+              "fullName": "Muhlfeld A",
+              "lastName": "Muhlfeld",
+              "firstName": "Anja",
+              "initials": "A"
+            },
+            {
+              "fullName": "Nagaraj S",
+              "lastName": "Nagaraj",
+              "firstName": "Shashi",
+              "initials": "S"
+            },
+            {
+              "fullName": "Arepally G",
+              "lastName": "Arepally",
+              "firstName": "Gowthami",
+              "initials": "G"
+            },
+            {
+              "fullName": "Oh D",
+              "lastName": "Oh",
+              "firstName": "Doyeun",
+              "initials": "D"
+            },
+            {
+              "fullName": "Okumi M",
+              "lastName": "Okumi",
+              "firstName": "Masayoshi",
+              "initials": "M"
+            },
+            {
+              "fullName": "Terente MP",
+              "lastName": "Terente",
+              "firstName": "Manuel Praga",
+              "initials": "MP"
+            },
+            {
+              "fullName": "Gutierr\u00e9z E",
+              "lastName": "Gutierr\u00e9z",
+              "firstName": "Elena",
+              "initials": "E"
+            },
+            {
+              "fullName": "Rodriguez P",
+              "lastName": "Rodriguez",
+              "firstName": "Paola",
+              "initials": "P"
+            },
+            {
+              "fullName": "Provot F",
+              "lastName": "Provot",
+              "firstName": "Francois",
+              "initials": "F"
+            },
+            {
+              "fullName": "Sch\u00f6nermarck U",
+              "lastName": "Sch\u00f6nermarck",
+              "firstName": "Ulf",
+              "initials": "U",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3266-9791"
+              }
+            },
+            {
+              "fullName": "Fischereder M",
+              "lastName": "Fischereder",
+              "firstName": "Michael",
+              "initials": "M"
+            },
+            {
+              "fullName": "Terrada NR",
+              "lastName": "Terrada",
+              "firstName": "Natalia Ramos",
+              "initials": "NR"
+            },
+            {
+              "fullName": "Seitz-Polski B",
+              "lastName": "Seitz-Polski",
+              "firstName": "Barbara",
+              "initials": "B"
+            },
+            {
+              "fullName": "Favre G",
+              "lastName": "Favre",
+              "firstName": "Guillaume",
+              "initials": "G"
+            },
+            {
+              "fullName": "Boyer-Suavet S",
+              "lastName": "Boyer-Suavet",
+              "firstName": "Sonia",
+              "initials": "S"
+            },
+            {
+              "fullName": "Vinogradova M",
+              "lastName": "Vinogradova",
+              "firstName": "Maria",
+              "initials": "M"
+            },
+            {
+              "fullName": "Kirsanova T",
+              "lastName": "Kirsanova",
+              "firstName": "Tatiana",
+              "initials": "T"
+            },
+            {
+              "fullName": "Wong EKS",
+              "lastName": "Wong",
+              "firstName": "Edwin K S",
+              "initials": "EKS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4867-6117"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5473-8551"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9242-7148"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3266-9791"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1763-1098"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4160-8840"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4867-6117"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "98",
+          "journalIssueId": 3061261,
+          "dateOfPublication": "2020 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Kidney Int",
+            "title": "Kidney international",
+            "essn": "1523-1755",
+            "issn": "0085-2538",
+            "isoabbreviation": "Kidney Int",
+            "nlmid": "0323470"
+          },
+          "printPublicationDate": "2020-12-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "1621",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Published Erratum"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.kidney-international.org/article/S0085253820312679/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.kint.2020.11.001"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "32299680",
+              "reference": "Kidney Int. 2020 Jun;97(6):1287-1296. doi: 10.1016/j.kint.2020.01.035",
+              "type": "Erratum for",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2020-12-05",
+        "dateOfRevision": "2020-12-07",
+        "firstPublicationDate": "2020-12-01",
+        "firstIndexDate": "2020-12-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

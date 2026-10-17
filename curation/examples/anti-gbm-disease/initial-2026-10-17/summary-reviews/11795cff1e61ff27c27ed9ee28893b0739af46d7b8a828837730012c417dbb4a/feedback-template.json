@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "anti-gbm-disease",
+  "candidateId": "anti-gbm-disease-summary-candidate-23b7c3250603",
+  "contentDigest": "c0c4e34c7d72ffe8a02e78931ab80c8bd56846b860baab6654e59b2b2146ae8c",
+  "summaryRevisionId": "summary-23b7c3250603",
+  "summaryDigest": "43da50ea86152181ef89abdd91379c0bf7eee6419e0f32553ce20293c4708c40",
+  "packetDigest": "11795cff1e61ff27c27ed9ee28893b0739af46d7b8a828837730012c417dbb4a",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

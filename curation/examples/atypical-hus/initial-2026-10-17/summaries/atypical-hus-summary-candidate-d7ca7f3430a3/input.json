@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "diseaseId": "atypical-hus",
+  "baseReleaseId": "atypical-hus-appraised-candidate-6927e55c23f4",
+  "baseContentDigest": "1929cbb41ac6da73b4a722aa4f609a7b80cc607bdf5af7eb3c21d003c7e346b9",
+  "scope": "Bounded complement-mediated aHUS: inherited or acquired complement dysregulation at endothelial surfaces, terminal complement injury and thrombotic microangiopathy. Human cohorts, endothelial assays and animal experiments remain distinct. Excludes STEC-HUS, TTP, secondary TMA, DGKE and cobalamin-related TMA.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "Eculizumab dose-dependently inhibited activated-serum C5b-9 deposition on glomerular endothelial cultures. C6 or C9 deficiency markedly diminished renal TMA in factor H W1206R mutant mice. C5aR1 removal attenuated clinical disease risk in C3 D1115N mice but renal TMA still developed.",
+      "claimIds": [
+        "claim-ahus-ecu-mac",
+        "claim-ahus-fh-mac-tma",
+        "claim-ahus-c5ar-tma"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Zymosan may also activate endothelial cells; no clinical efficacy estimate from this experiment. Selected primary-source inspection by an agent; independent domain review pending. Treatment efficacy has not been synthesized in this summary.",
+      "claimIds": [
+        "claim-ahus-ecu-mac",
+        "claim-ahus-fh-mac-tma",
+        "claim-ahus-c5ar-tma"
+      ]
+    }
+  ]
+}

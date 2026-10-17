@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "labels": {
+    "entity-ap-c3-convertase": "C3bBb",
+    "entity-ap-dysregulation": "AP dysregulation",
+    "entity-complement-regulatory-variants": "Complement gene variants",
+    "entity-anti-factor-h": "Anti-FH antibodies",
+    "entity-factor-h": "Factor H",
+    "entity-glomerular-complement-deposits": "Complement deposits",
+    "entity-cfhr5-duplication": "CFHR5 duplication",
+    "entity-mutant-fhr5": "Mutant FHR5",
+    "entity-fhr5-surface-binding": "FHR5 binding",
+    "entity-kidney-function-loss": "Kidney function loss",
+    "entity-complement-autoantibodies": "Anti-complement Abs"
+  }
+}

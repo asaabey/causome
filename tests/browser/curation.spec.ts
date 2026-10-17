@@ -38,7 +38,7 @@ test('group expansion and search reveal the canonical entity while preserving th
   await page.getByRole('button', { name: /IL-6.*Cytokine/i }).click();
   await expect(page.locator('.react-flow__node')).toHaveCount(8);
   await expect(page.locator('.evidence-inspector__selection h2')).toHaveText('IL-6');
-  await expect(page.locator('#mechanism-outline #entity-entity-il6')).toBeVisible();
+  await expect(page.locator('#mechanism-outline #entity-entity-il6')).toBeAttached();
 });
 test('cross-disease comparisons preserve independent context and evidence links', async ({ page }) => {
   await page.goto('compare/');
@@ -98,4 +98,16 @@ test('a persisted finding with a stale source hash blocks export until it is rei
  await page.goto('curation/');await page.getByLabel('Disease workspace').selectOption('iga-nephropathy');await page.getByLabel('Abstain: evidence is insufficient').check();await page.getByLabel('Abstention reason').fill('Synthetic draft-integrity test');await page.getByRole('button',{name:'Stage finding',exact:true}).click();
  await page.evaluate(()=>{const key=Object.keys(localStorage).find(key=>key.startsWith('causome-draft:')&&!key.endsWith(':cutoff'))!;const saved=JSON.parse(localStorage.getItem(key)!);saved[0].paperDigest='0'.repeat(64);localStorage.setItem(key,JSON.stringify(saved));});
  await page.reload();await expect(page.getByRole('alert')).toContainText('changed or missing source snapshots');await expect(page.getByRole('button',{name:'Export extraction proposal'})).toBeDisabled();await page.getByRole('button',{name:/Remove finding/}).click();await expect(page.getByRole('heading',{name:'Staged findings (0)'})).toBeVisible();
+});
+
+test('the text outline collapses with JavaScript, reopens for in-page links and stays open without JavaScript', async ({ page, browser }) => {
+  await page.goto('diseases/iga-nephropathy/');
+  const sections = page.locator('#mechanism-outline > details');
+  await expect(page.locator('#mechanism-outline > details[open]')).toHaveCount(0);
+  await page.goto('diseases/iga-nephropathy/#entity-entity-il6');
+  await expect(page.locator('#mechanism-outline #entity-entity-il6')).toBeVisible();
+  const context = await browser.newContext({ javaScriptEnabled: false });
+  const static_ = await context.newPage(); await static_.goto(page.url().split('#')[0]);
+  await expect(static_.locator('#mechanism-outline > details[open]')).toHaveCount(await sections.count() - 1);
+  await context.close();
 });

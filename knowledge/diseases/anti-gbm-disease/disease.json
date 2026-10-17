@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "id": "anti-gbm-disease",
+  "label": "Anti-GBM disease",
+  "summary": "Bounded anti-GBM autoimmunity to alpha3/alpha5 type IV collagen NC1 epitopes, HLA-restricted T-cell responses, antibody-mediated renal and pulmonary injury; human observations and experimental models remain distinct. Excludes Alport post-transplant nephritis and atypical seronegative disease.",
+  "query": "(TITLE_ABS:\"anti-glomerular basement membrane\" OR TITLE_ABS:Goodpasture OR ((TITLE_ABS:\"anti-GBM\") AND (TITLE_ABS:glomerulonephritis OR TITLE_ABS:glomerular OR TITLE_ABS:nephritis))) NOT (TITLE_ABS:glioblastoma OR TITLE_ABS:glioma)",
+  "aliases": [
+    "Goodpasture disease",
+    "Goodpasture syndrome",
+    "anti-glomerular basement membrane disease",
+    "anti GBM disease"
+  ],
+  "overlapDays": 30,
+  "reconciliationDays": 90,
+  "previewCandidate": "anti-gbm-disease-summary-candidate-824d30740aae"
+}

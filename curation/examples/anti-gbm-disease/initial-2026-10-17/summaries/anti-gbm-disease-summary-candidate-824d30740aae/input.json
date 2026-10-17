@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "diseaseId": "anti-gbm-disease",
+  "baseReleaseId": "anti-gbm-disease-summary-candidate-23b7c3250603",
+  "baseContentDigest": "c0c4e34c7d72ffe8a02e78931ab80c8bd56846b860baab6654e59b2b2146ae8c",
+  "scope": "Bounded anti-GBM autoimmunity to alpha3/alpha5 type IV collagen NC1 epitopes, HLA-restricted T-cell responses, antibody-mediated renal and pulmonary injury; human observations and experimental models remain distinct. Excludes Alport post-transplant nephritis and atypical seronegative disease.",
+  "authoredBy": {
+    "id": "Codex agent",
+    "kind": "agent"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "Classical anti-GBM disease links autoimmunity against type IV collagen NC1 domains with antibody deposition and glomerular injury, sometimes accompanied by pulmonary haemorrhage. Patient antibodies recognize α3NC1 and α5NC1 conformations that are concealed in the native cross-linked α345NC1 hexamer in biochemical assays; the initiating disruption in patients remains unresolved. Human α3-specific CD4 T-cell expansion supports an autoimmune response, while peptide-immunized HLA-DR15 transgenic mice demonstrate nephritogenic T-cell responses and HLA-DR1-associated regulatory protection. Patient IgG transfer caused glomerulonephritis in monkeys. Human biopsies associate complement deposition with crescentic injury; separate heterologous-antibody models support complement-dependent neutrophil recruitment and renal injury in mice and complement/neutrophil contributions to haemorrhagic lung injury in rats. These findings form a contextual synthesis, rather than proof that every step occurs in one human causal sequence.",
+      "claimIds": [
+        "claim-gbm-crypticity",
+        "claim-gbm-antigen-binding",
+        "claim-gbm-renal-binding",
+        "claim-gbm-human-t",
+        "claim-gbm-dr15-t",
+        "claim-gbm-mouse-t",
+        "claim-gbm-treg-protection",
+        "claim-gbm-transfer",
+        "claim-gbm-deposits",
+        "claim-gbm-crescents",
+        "claim-gbm-complement-pmn",
+        "claim-gbm-complement-injury",
+        "claim-gbm-lung-pmn",
+        "claim-gbm-lung-complement"
+      ]
+    },
+    {
+      "text": "Important limits remain: complement-deficient mice lost protection at higher antibody doses, and human staining does not establish universal pathway dependence. The labelled ANCA/anti-GBM overlap has its own clinical context. Combined plasma exchange, cyclophosphamide and glucocorticoids is guideline-recommended treatment with defined exceptions; the selected historical cohort shows strong dependence of renal recovery on baseline severity and cannot isolate component effects. Imlifidase rapidly depleted circulating anti-GBM antibodies in a 15-adult uncontrolled phase 2a study, whose historical-control comparison suggested renal benefit. However, the sponsor subsequently reported that the 50-patient randomized GOOD-IDES-02 trial missed its six-month eGFR primary endpoint with similar responses in both arms. Antibody removal therefore cannot be equated with added clinical benefit. Imlifidase remains investigational for this mapped indication; its EU transplant indication is separate. This bounded draft relies predominantly on selected abstracts, omits newer antigen and targeted-cell-therapy branches, and requires independent scientific review.",
+      "claimIds": [
+        "claim-gbm-dose-qualification",
+        "claim-gbm-human-lung",
+        "claim-gbm-therapy-standard",
+        "claim-gbm-therapy-standard-limit",
+        "claim-gbm-guideline-regimen",
+        "claim-gbm-therapy-ide-clearance",
+        "claim-gbm-therapy-ide-outcome",
+        "claim-gbm-phase3-null"
+      ]
+    }
+  ]
+}

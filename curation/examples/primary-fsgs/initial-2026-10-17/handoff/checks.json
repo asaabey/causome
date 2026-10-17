@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-17",
+  "candidateId": "primary-fsgs-summary-candidate-c0afb63eed8a",
+  "digest": "aafab97ce80a809950be139d4fb14a56d1840cda978b7156b73aee99bf0b02f3",
+  "passed": [
+    {
+      "command": "node scripts/validate-release.mjs knowledge/diseases/primary-fsgs/candidates/primary-fsgs-summary-candidate-c0afb63eed8a.json",
+      "exitCode": 0
+    },
+    {
+      "command": "pnpm check",
+      "exitCode": 0,
+      "log": "check.log"
+    },
+    {
+      "command": "pnpm build",
+      "exitCode": 0,
+      "log": "build.log"
+    },
+    {
+      "command": "Playwright disease, eight routes and curation-page smoke inspection",
+      "exitCode": 0,
+      "log": "browser-check.json"
+    }
+  ],
+  "notRun": [
+    "Independent external scientific summary review",
+    "Human domain review",
+    "Appraisal calibration"
+  ],
+  "correctedFailures": [
+    "Initial seed rejected unsupported predicate spellings and a qualification-only edge. Used supported vocabulary; attached negative suPAR biomarker evidence as an explicitly indirect qualification of the supported culture-injury hypothesis. No negative finding converted to positive support. Rerun passed.",
+    "Initial therapy proposal rejected missing regulatory studyId; added FDA-FILSPARI-FSGS-2026 and reran successfully."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "diseaseId": "primary-fsgs",
+  "baseReleaseId": "primary-fsgs-appraised-candidate-0db3483728fb",
+  "baseContentDigest": "ae0e5917f565b183b40ade5ef4cd0451275afdc441748b88c100dbae028622e1",
+  "scope": "Bounded circulating-factor/immune primary FSGS and separate APOL1-associated kidney injury branch; excludes other genetic, adaptive, viral and drug-associated FSGS. APOL1-associated disease is not classified as idiopathic primary FSGS.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "IFNγ-induced APOL1 G1 in transgenic mouse podocytes produced ion-flux and injury phenotypes reversible by VX-147. Inaxaplin inhibited APOL1 channel function in preclinical cell assays. Induced G1 expression produced sodium import and potassium efflux in HEK293 experiments.",
+      "claimIds": [
+        "claim-fsgs-current-injury",
+        "claim-fsgs-inax-channel",
+        "claim-fsgs-apol1-current"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Abstract-level inspection; no independent domain review or complete methods appraisal. Overexpression system; G1 result does not by itself establish identical G2 effects or penetrance in humans. Treatment efficacy has not been synthesized in this summary.",
+      "claimIds": [
+        "claim-fsgs-current-injury",
+        "claim-fsgs-inax-channel",
+        "claim-fsgs-apol1-current"
+      ]
+    }
+  ]
+}

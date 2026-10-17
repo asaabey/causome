@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "diseaseId": "anti-gbm-disease",
+  "baseReleaseId": "anti-gbm-disease-appraised-candidate-4728a2195b1d",
+  "baseContentDigest": "2f7af7f0d2f70304680aa5a0c0f201b7c87a96107ef055d348070c108462595a",
+  "scope": "Bounded anti-GBM autoimmunity to alpha3/alpha5 type IV collagen NC1 epitopes, HLA-restricted T-cell responses, antibody-mediated renal and pulmonary injury; human observations and experimental models remain distinct. Excludes Alport post-transplant nephritis and atypical seronegative disease.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-17",
+  "paragraphs": [
+    {
+      "text": "Patient kidney/lung-bound autoantibodies recognized α3NC1 and α5NC1 monomers in antigen-specificity assays. In biochemical assays, the native cross-linked α345NC1 hexamer concealed antibody-reactive conformations present on α3NC1/α5NC1 monomers.",
+      "claimIds": [
+        "claim-gbm-antigen-binding",
+        "claim-gbm-crypticity"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Binding specificity does not show equal pathogenic contribution of α3 and α5 antibodies; Alport comparators are excluded as mapped disease. Does not establish the initiating in-vivo trigger or prove that hexamer disruption precedes human disease. In the 15-adult one-arm phase 2a trial, anti-GBM antibody levels were below the assay reference range six hours after imlifidase. Drug targeting and approval do not establish every proposed mechanism or benefit in every phenotype.",
+      "claimIds": [
+        "claim-gbm-antigen-binding",
+        "claim-gbm-crypticity",
+        "claim-gbm-therapy-ide-clearance"
+      ]
+    }
+  ]
+}

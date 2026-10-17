@@ -1,0 +1,23 @@
+{
+  "checkedBy": "Codex agent",
+  "checkedAt": "2026-10-15",
+  "checks": [
+    {
+      "drug": "iptacopan",
+      "labelUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/218276s004lbl.pdf",
+      "currentRegistryUrl": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=692819",
+      "indication": "US adults with C3G, to reduce proteinuria",
+      "scope": "Archived March 2025 label sections 1.3, 5.1, 12.1, 14.3; current FDA orphan approvals entry corroborates C3G indication. No claim this is the latest label for other indications."
+    },
+    {
+      "drug": "pegcetacoplan",
+      "labelUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215014s012lbl.pdf",
+      "currentRegistryUrl": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=633418",
+      "indication": "US age >=12 with C3G or primary IC-MPGN, to reduce proteinuria and loss of kidney function",
+      "scope": "August 2026 label sections 1.2, 5.1, 12.1 and 14.2; registry records updated indication approved 2026-08-20."
+    }
+  ],
+  "limitations": [
+    "No non-US indications reviewed. FDA status is not a recommendation or independent scientific appraisal."
+  ]
+}
