@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "minimal-change-nephropathy-candidate-0ee7283fab3d",
+  "baseContentDigest": "ad4955cddb16777ca5c95b6a6c37a8a969fb12f8b4c4b34502e3c1985961c95e",
+  "candidateId": "minimal-change-nephropathy-appraised-candidate-bb4c9bd6ada7",
+  "contentDigest": "79a9c7d7f04998627e376e53535a3a11503cde63215e3b87f29f4123a84bc990",
+  "inputDigest": "bb4c9bd6ada7f87bba2c927a63e3e745d33a0fbb4c903afb4d77ebc763f5040a",
+  "assessmentCount": 31,
+  "weightCount": 31,
+  "confidenceCount": 31,
+  "therapyCoverageCount": 31,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

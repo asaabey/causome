@@ -57,6 +57,7 @@
 .evidence-context { padding: 17px 0; border-bottom: 1px solid #e3e8dc; }
 .evidence-context p { font-size: 12px; margin: 7px 0 4px; line-height: 1.5; }
 .evidence-context small { color: #526d5d; font-size: 11px; }
+.evidence-context--default { margin: 0; color: #526d5d; font-size: 11px; }
 .evidence-scores { padding: 13px 0; margin: 0; }
 .evidence-scores > div { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 9px 0; }
 .evidence-scores dt { font-size: 12px; color: #526d5d; }
@@ -157,3 +158,8 @@
 .evidence-appraisal small { overflow-wrap: anywhere; }
 .evidence-appraisal button { min-height: 44px; padding: .5rem .7rem; border: 1px solid #adbeb0; border-radius: 4px; background: #f7f9ef; color: #264c40; font: inherit; cursor: pointer; }
 .evidence-appraisal-status { font-size: .85rem; line-height: 1.6; color: #264c40; }
+.mechanism-context { padding: 12px 28px; border-bottom: 1px solid #e1e7de; font-size: 12px; line-height: 1.5; }
+.mechanism-context summary { cursor: pointer; }
+.mechanism-context summary .graph-kicker { display: inline; margin-right: 8px; }
+.mechanism-context p { margin: 6px 0 0; color: #526d5d; font-size: 11px; }
+@media (max-width: 1100px) { .mechanism-context { padding-inline: 20px; } }

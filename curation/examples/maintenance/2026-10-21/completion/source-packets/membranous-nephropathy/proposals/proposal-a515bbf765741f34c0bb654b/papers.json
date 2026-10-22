@@ -1,0 +1,28 @@
+[
+  {
+    "key": "doi-ba79ad5b344da7266a95",
+    "identifiers": [
+      "DOI:10.1111/nep.70288",
+      "MED:42847324",
+      "PMID:42847324"
+    ],
+    "title": "Distinct Complement Activation Profiles Between NELL1- and PLA2R-Associated Membranous Nephropathy: A Clinicopathological and Proteomic Study.",
+    "authors": "Suzuki T, Dedong K, Kawanishi K, Ueda M, Kajio Y, Kobayashi K, Kanazawa N, Takahashi-Kobayashi M, Usui J, Baba M, Honda H, Honda K, Iyoda M.",
+    "publishedAt": "2026-10-01",
+    "journal": "Nephrology (Carlton, Vic.)",
+    "abstract": "Aim Primary membranous nephropathy (MN) is classified into antigen-defined subtypes, most commonly M-type phospholipase A2 receptor (PLA2R)-associated MN and neural epidermal growth factor-like 1 (NELL1)-associated MN. Whether complement activation differs between these subtypes remains unclear. This study compared their clinicopathological features and complement-related protein expression. Methods We retrospectively compared PLA2R-associated MN (n = 17) and NELL1-associated MN (n = 9), including five additional NELL1-associated MN cases from an external institution. Glomerular C3 and C4d deposition were assessed by immunostaining, with quantitative C4d analysis using digital pathology. Complement-related proteins were additionally evaluated by laser microdissection-assisted data-dependent acquisition mass spectrometry in cases with available proteomic data. Results Patients with NELL1-associated MN were older and showed greater interstitial fibrosis and tubular atrophy than those with PLA2R-associated MN. Glomerular IgG4 and C3 deposition were significantly lower in NELL1-associated MN. Quantitative analysis demonstrated lower glomerular C4d deposition in NELL1-associated MN at both the glomerulus and patient levels, whereas C4d intensity was not significantly correlated with serum anti-PLA2R antibody titres. In the proteomic analysis, C3, C5 and complement factor H were numerically more abundant in PLA2R-associated MN than in NELL1-associated MN, although these differences were not statistically significant. Conclusion NELL1-associated MN and PLA2R-associated MN differ not only in clinical and histological features but also in glomerular complement deposition. Reduced C3 and C4d deposition in NELL1-associated MN suggests less prominent glomerular complement activation than in PLA2R-associated MN, supporting biological heterogeneity among antigen-defined MN subtypes.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42847324/",
+    "doi": "10.1111/nep.70288",
+    "pmid": "42847324",
+    "pmcid": null,
+    "accessScope": "Agent-inspected Europe PMC primary-report abstract and bibliographic/notice metadata on 2026-10-20 UTC; publisher full text not accessed. PubMed browser access failed; exact provider abstract retained. No human review.",
+    "openAccess": false,
+    "license": "cc by-nc-nd",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-21",
+    "lastCheckedAt": "2026-10-21",
+    "reviewedAt": null
+  }
+]

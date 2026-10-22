@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "sle",
+    "candidateId": "sle-summary-candidate-904291fc29fb",
+    "contentDigest": "f9be34698291844f0295d2c302b4e4ca1bfeee108133e1108df67c245713f940",
+    "status": 200,
+    "mechanismCount": "Showing 22/22 entities · 28/28 relationships",
+    "summaryMatches": true,
+    "packetMatches": true,
+    "pageErrors": [],
+    "overflow": false
+  },
+  {
+    "slug": "anca-associated-vasculitis",
+    "candidateId": "anca-associated-vasculitis-summary-candidate-ca3e7a1d8c0d",
+    "contentDigest": "aba6adb1474288823c6d3b7f8dea0b95fb0a3d82281307d80f357b7f461be713",
+    "status": 200,
+    "mechanismCount": "Showing 11/19 entities · 13/21 relationships",
+    "summaryMatches": true,
+    "packetMatches": true,
+    "pageErrors": [],
+    "overflow": false
+  },
+  {
+    "slug": "calciphylaxis",
+    "candidateId": "calciphylaxis-summary-candidate-d5f1a8f06f12",
+    "contentDigest": "d0819a6282a2c4385789b82f2975a0ee36471893d30e42b43231ea643fd145e3",
+    "status": 200,
+    "mechanismCount": "Showing 25/25 entities · 30/30 relationships",
+    "summaryMatches": true,
+    "packetMatches": true,
+    "pageErrors": [],
+    "overflow": false
+  },
+  {
+    "mobile": "calciphylaxis",
+    "overflow": false
+  }
+]

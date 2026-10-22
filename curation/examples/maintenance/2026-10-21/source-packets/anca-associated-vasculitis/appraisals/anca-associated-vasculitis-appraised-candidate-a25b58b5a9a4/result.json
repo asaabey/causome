@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "anca-associated-vasculitis-candidate-42173efab580",
+  "baseContentDigest": "f2b18e8c5ca6c132b67d60950397d25edf91af361ebab9211b761a8e47f79431",
+  "candidateId": "anca-associated-vasculitis-appraised-candidate-a25b58b5a9a4",
+  "contentDigest": "902f020d5cccf7320022c7eff3f601cba8f8eb2686409435567316c4fb374b70",
+  "inputDigest": "a25b58b5a9a4143c70f765b9811733421983e4a1a724f5e95df8ab6eec13f513",
+  "assessmentCount": 42,
+  "weightCount": 42,
+  "confidenceCount": 42,
+  "therapyCoverageCount": 42,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

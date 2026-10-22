@@ -1,0 +1,28 @@
+[
+  {
+    "key": "doi-5d5660d642f0a30d1b11",
+    "identifiers": [
+      "DOI:10.1016/j.ekir.2026.107056",
+      "MED:42866688",
+      "PMID:42866688"
+    ],
+    "title": "Multimodal Profiling of Complement Expression and Association With Outcomes in ANCA-Associated Vasculitis With Glomerulonephritis.",
+    "authors": "Brilland B, Milon V, Vandenbussche C, Merillon N, Ourouda E, Boizard-Moracchini A, Roy M, Blanchet O, Vinatier E, Beauvillain C, Quéméneur T, Djema A, Henry N, Piccoli GB, Wacrenier S, Delneste Y, Blanco P, Langlais D, Gnemmi V, Copin MC, Augusto JF, RENVAS Registry Research Group15, Maine-Anjou Registry Research Group, RENVAS Registry Research Group.",
+    "publishedAt": "2026-08-26",
+    "journal": "Kidney international reports",
+    "abstract": "Introduction Antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis (AAV) with glomerulonephritis (AAV-GN) is classically considered pauci-immune, yet complement activation is a central pathogenic mechanism. Whether intrarenal complement-related transcriptional programs are reflected by conventional serum or immunofluorescence markers, and whether they are clinically informative, remains unclear. Methods In 369 patients with AAV-GN from 2 independent retrospective cohorts, complement was assessed across circulating, histopathologic, and transcriptomic layers (serum C3/C4, glomerular C1q/C3 deposition, and targeted kidney transcriptomics). Predefined classical and alternative pathway-related expression scores were derived from intrarenal gene expression. Associations with severity and outcomes were evaluated using multivariable Cox models. Public spatial transcriptomic data sets provided validation and localization. Results Below-normal serum C3/C4 levels were uncommon. Low serum C3, but not C4, was associated with more severe kidney involvement, kidney failure (adjusted hazard ratio [aHR]: 2.0 [1.1-3.7]), and mortality (aHR: 2.3 [1.3-4.0]). Both glomerular C3 (47%) and C1q (11%) deposition identified more severe pathology and adverse outcomes. Compared with controls, AAV-GN kidneys showed increased complement-related expression-including classical pathway components, proximal alternative pathway genes ( C3 , C5AR1) , and regulatory transcripts-that was only weakly concordant with serum or deposition markers. Low alternative pathway-related expression was independently associated with better kidney (aHR: 0.3 [0.1-0.7]) and overall (aHR: 0.4 [0.2-0.9]) survival. Spatial transcriptomics validated these signatures and suggested contributions from both immune and resident kidney compartments. Conclusion AAV-GN displays a reproducible intrarenal complement-related transcriptional program, only weakly captured by serum levels or routine immunofluorescence, associated with renal severity and outcomes. These findings support prospective studies integrating tissue complement transcriptomics for stratification and therapeutic hypothesis generation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42866688/",
+    "doi": "10.1016/j.ekir.2026.107056",
+    "pmid": "42866688",
+    "pmcid": null,
+    "accessScope": "Europe PMC full-text XML: Methods, Results and Discussion inspected by Codex agent on 2026-10-20 UTC (2026-10-21 Darwin). Supplementary methods not audited.",
+    "openAccess": false,
+    "license": "cc by",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-21",
+    "lastCheckedAt": "2026-10-21",
+    "reviewedAt": null
+  }
+]

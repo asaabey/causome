@@ -1,0 +1,6 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs reconcile --base knowledge/diseases/sle/candidates/sle-summary-candidate-f3c3742263d5.json --papers curation/workspace/maintenance-research/2026-10-21/sle-selected-papers.json --extraction curation/workspace/maintenance-research/2026-10-21/sle-extraction.json --cutoff 2026-10-21
+
+Appraisal date precedes the evidence cutoff
+ ELIFECYCLE  Command failed with exit code 1.

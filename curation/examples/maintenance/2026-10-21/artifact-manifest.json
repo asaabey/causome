@@ -1,0 +1,778 @@
+{
+  "version": 1,
+  "cycleDirectory": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58",
+  "researchDirectory": "curation/workspace/maintenance-research/2026-10-21",
+  "rawRetrievalCaches": "Workspace-only; actual original paths and queries in retrieval-index.json. No full-cache preservation is claimed.",
+  "files": [
+    {
+      "path": "anca-associated-vasculitis-final-diff.json",
+      "bytes": 653232,
+      "sha256": "2b89ede0cf61cac91e165bc7e862fc404428e7fb3dabdd1b2cb6d969ec4785b9"
+    },
+    {
+      "path": "calciphylaxis-final-diff.json",
+      "bytes": 887804,
+      "sha256": "ef668d972eca424b9662abe5423ee6086787557a409ab1e0dedb7b3d33bf864d"
+    },
+    {
+      "path": "candidate-bindings.json",
+      "bytes": 98572,
+      "sha256": "e5ad5a03ee01f7a32b47cbface2c0062bd84dfbf08edb6e94b96f2ae1763bc7b"
+    },
+    {
+      "path": "carried-backlog.json",
+      "bytes": 18872,
+      "sha256": "8fe716756fe3e3b44c803cdddfbcca8d3873864d1392d5ca5ad8883e5efab7e1"
+    },
+    {
+      "path": "cycle-status.json",
+      "bytes": 553,
+      "sha256": "a6cb77764e88c8653a92da9e1422274d39b40ac781d821a6adedc56d310a1c1e"
+    },
+    {
+      "path": "handoff.md",
+      "bytes": 20542,
+      "sha256": "1e11d8be6ab87823087876c0d353864c847edc655a65e1b971d7b1c2a86d56e1"
+    },
+    {
+      "path": "logs/aav-reconcile.log",
+      "bytes": 1141,
+      "sha256": "a14f72204ab55ab5f0d2100ae4c7b660f8f3625e231366171db5bd6ac39b0d31"
+    },
+    {
+      "path": "logs/browser.log",
+      "bytes": 1220,
+      "sha256": "43928a12379007ef206fda9ddd14f9d638af8808d1e7a38361482f44032ebbc2"
+    },
+    {
+      "path": "logs/check.log",
+      "bytes": 621,
+      "sha256": "48d379ba99539026f57f1c0f6dd67b7c2f1a75c656484b2b06f0ab5825b7e6ba"
+    },
+    {
+      "path": "logs/final-build.log",
+      "bytes": 25922,
+      "sha256": "d16b4d6dd2717b4c0b33d211c689183301a9e6c00aabfa789f5fda3c319a251e"
+    },
+    {
+      "path": "logs/final-validate.log",
+      "bytes": 161,
+      "sha256": "b9e2255588668ce4dee381e79924879e53a5c24ae936d35234fe7777a671fdb0"
+    },
+    {
+      "path": "logs/first-build.log",
+      "bytes": 25921,
+      "sha256": "a2c471398a3325114050b72903308dad1adbdab704092744ed48dcc9d01ee246"
+    },
+    {
+      "path": "logs/ppi-reconcile.log",
+      "bytes": 1011,
+      "sha256": "582c4f86906ce82ec30d02ecefe4cb545c5c3833b32133d248b66a78d72a93c5"
+    },
+    {
+      "path": "logs/short-labels.log",
+      "bytes": 305,
+      "sha256": "3df5f47a46efc71d5d0a640ed6c0396eb13d480e95eba172bbe99c19644245f6"
+    },
+    {
+      "path": "logs/sle-assess-local-date.log",
+      "bytes": 444,
+      "sha256": "6f88b34700304273a4a9f5313c606a65f90c73c13c6f4e9235cb072ce9e313a2"
+    },
+    {
+      "path": "logs/sle-reconcile-failed-local-date.log",
+      "bytes": 461,
+      "sha256": "6069007a9bf5d22e21d5ff4ac07a9ee9cee8831a6f0c46254e60b99e5f6d121e"
+    },
+    {
+      "path": "logs/sle-reconcile-utc.log",
+      "bytes": 915,
+      "sha256": "40fd869923ce7172ba78f6e000049b6ecf0b138afe68ee2de8fd852213a1b80c"
+    },
+    {
+      "path": "logs/triage.log",
+      "bytes": 1979,
+      "sha256": "2787bed17fed45de6d22232c552d5db7d64355ef5bedd571a48b3bf0910d3e4f"
+    },
+    {
+      "path": "logs/update-all.log",
+      "bytes": 21578,
+      "sha256": "3bed33271f1d7acb5ed13b9e9571f9b0e1cb6ebe1ff211f043db66feb51aba4d"
+    },
+    {
+      "path": "paper-dispositions.json",
+      "bytes": 6827983,
+      "sha256": "dc2f6d9b93f3af52b17595a43eb813d79a6cfc0cbc524a4357bf293e7d877cbd"
+    },
+    {
+      "path": "report.json",
+      "bytes": 21464,
+      "sha256": "7abec205f999c5627e87d38a180c2c65a7cbb46f41bfea8680fd9b72f7e45993"
+    },
+    {
+      "path": "report.md",
+      "bytes": 3410,
+      "sha256": "a44fb5a61cc9bbe4c514507f5da935b7613dee96ac7b19e3cf392dfe15b619ad"
+    },
+    {
+      "path": "research/Independently check BOTH exact disease-map summary packets separately against cu.md",
+      "bytes": 45787,
+      "sha256": "ef21258490291ff138e27ee5d671f20af8ccb208d653ab15306c951b3813eb74"
+    },
+    {
+      "path": "research/Review BOTH exact final summary snapshots below against literature through 2026-.md",
+      "bytes": 29216,
+      "sha256": "58a1dd9d6ef86a9e26956926c506c674abc9f10fffe6b14cb147dca44af642cd"
+    },
+    {
+      "path": "research/aav-complement-consensus-fetch.json",
+      "bytes": 1423,
+      "sha256": "0ea62246de4f15f1f5dbcb4bfdd2f91b17c789b61b31eb57026d5bd06bd96192"
+    },
+    {
+      "path": "research/aav-complement-consensus-search.json",
+      "bytes": 8843,
+      "sha256": "fa024d5532a7db7acb268cca31f1bf331b38f6e15f2e0e6b657c1cafeefe23bb"
+    },
+    {
+      "path": "research/aav-complement-primary.xml",
+      "bytes": 194409,
+      "sha256": "744ea4e9497f259d8f6c8aaae946c6227447327e8b3b1f4b4b6303ddb73a7218"
+    },
+    {
+      "path": "research/aav-extraction.json",
+      "bytes": 2518,
+      "sha256": "a19e5d96754466d0594c56c2844203c28c4e200614bb11449d3597632da4046a"
+    },
+    {
+      "path": "research/aav-feedback.json",
+      "bytes": 50437,
+      "sha256": "aec5a671a2dc3ce977885f8f026f05479e726b3a3c4bba14282284d6a0f41321"
+    },
+    {
+      "path": "research/aav-selected-papers.json",
+      "bytes": 3516,
+      "sha256": "9d4dda91621c0dca969f8e6c9a657c97d1e819c9a8c66b0f20d7559b01a5a455"
+    },
+    {
+      "path": "research/aav-summary-input.json",
+      "bytes": 4436,
+      "sha256": "1947c0bde1e08f37c5f6f243771505b53cddde6224fcb1b21519599bd348dc7e"
+    },
+    {
+      "path": "research/aav-summary-template.json",
+      "bytes": 1754,
+      "sha256": "94d6799f5349b934845f61830eacbf0edea14f972fe413ff63a22be26a7b0657"
+    },
+    {
+      "path": "research/anca-associated-vasculitis-consensus.json",
+      "bytes": 33215,
+      "sha256": "b0a0c3a0d96803c5cdca4bfc409d2b0d13d67027bfe758ef29d8b77f17f2a2fe"
+    },
+    {
+      "path": "research/anti-gbm-disease-consensus.json",
+      "bytes": 37580,
+      "sha256": "97c859bc81560d2e253eb789304846826cd0072492bcbc5d64686960977e3452"
+    },
+    {
+      "path": "research/archive.mjs",
+      "bytes": 3747,
+      "sha256": "30c8d2bfc39f70836a8932b8a1142f73af2d553a6d509a283b06e7940c199567"
+    },
+    {
+      "path": "research/atypical-hus-consensus-retry.json",
+      "bytes": 5467,
+      "sha256": "e2125a8f96399bb01432ebca52994137896bfc52d93593cbaecc72b3a583beaa"
+    },
+    {
+      "path": "research/atypical-hus-consensus.json",
+      "bytes": 174,
+      "sha256": "83a89498777e49c3d475009dcdeb6301ea01082dfacbf341d248a9b63c9ee6ec"
+    },
+    {
+      "path": "research/audit-cycle.mjs",
+      "bytes": 3931,
+      "sha256": "250ef38372fa7d86532dccb43c037b3a6056de27b447a9caa786333484168c43"
+    },
+    {
+      "path": "research/behcet-disease-consensus.json",
+      "bytes": 43170,
+      "sha256": "ee8158d460e3fc058c1f0137ac7368f1d3ee60c2965f93946e6d10692a184ff8"
+    },
+    {
+      "path": "research/behcet-sphk1-primary.html",
+      "bytes": 1051791,
+      "sha256": "af1b2518a8b2dfa60687194d463b5cb37d0e5b1744e7bd2b89d6e30c2cb212f1"
+    },
+    {
+      "path": "research/browser/anca-associated-vasculitis-graph.png",
+      "bytes": 87937,
+      "sha256": "319171a6ad0fec995af8b7ed2ac51d27fb98975134816478bef5fc88b15a24ab"
+    },
+    {
+      "path": "research/browser/anca-associated-vasculitis-map.png",
+      "bytes": 243901,
+      "sha256": "98ad1dea7612cd719f50c629fcdd99ddfb7c83b3a9a8d10a6073ba75bcdf3704"
+    },
+    {
+      "path": "research/browser/anca-associated-vasculitis-summary.png",
+      "bytes": 269335,
+      "sha256": "33bd208f03667bde282ae41a7c07b82d3c8b39d62f84c39fd39346d4c5fe6ee2"
+    },
+    {
+      "path": "research/browser/calciphylaxis-graph.png",
+      "bytes": 142094,
+      "sha256": "99f759762ae615d22dc46965c9c6b43e9621f2d8a7ecd10b5439e4b18e842a62"
+    },
+    {
+      "path": "research/browser/calciphylaxis-map.png",
+      "bytes": 229737,
+      "sha256": "3c12ecbb503742bbcbc216aa55c39912a90c91330869bd53945fdc8f25b1e268"
+    },
+    {
+      "path": "research/browser/calciphylaxis-summary.png",
+      "bytes": 182331,
+      "sha256": "56223b4543d307d0c458987f0d289d7015ecd97d2914d1ab8ddd103ec1af1539"
+    },
+    {
+      "path": "research/browser/mobile.png",
+      "bytes": 58895,
+      "sha256": "6a2d127c041f53a02c9ef4be1da9b1e65dc327ce0b652fb959b152e0da68d4f0"
+    },
+    {
+      "path": "research/browser/results.json",
+      "bytes": 1220,
+      "sha256": "43928a12379007ef206fda9ddd14f9d638af8808d1e7a38361482f44032ebbc2"
+    },
+    {
+      "path": "research/browser/sle-graph.png",
+      "bytes": 83517,
+      "sha256": "ca1b1fec9ed66d594e94d561b393c48ddf29cc2e7f831d9d97635a4331096c97"
+    },
+    {
+      "path": "research/browser/sle-map.png",
+      "bytes": 217250,
+      "sha256": "88b21e86780d6dc73c9132fa267674b761ac3d2897995d0f29176e78af2f157e"
+    },
+    {
+      "path": "research/browser/sle-summary.png",
+      "bytes": 168760,
+      "sha256": "5c4b58a0133a74b023e80ac4821c8350f8458146f848087cbb2596861a4e66dc"
+    },
+    {
+      "path": "research/browser-check.mjs",
+      "bytes": 2682,
+      "sha256": "c8a42541c69677d53cdde0dfc44793b54b136efaac2e884f3035241b894d5544"
+    },
+    {
+      "path": "research/c3-glomerulonephritis-consensus.json",
+      "bytes": 41795,
+      "sha256": "93b160d3ff74652e5ba4c914a763c410bfcf2d619a9e339725c8dc2be2258185"
+    },
+    {
+      "path": "research/c3-iptacopan-primary.xml",
+      "bytes": 64846,
+      "sha256": "bb6d882eda5cfdad8d693a41d0281768d49d2dae5791ff50d45ba9fcc91c3cb6"
+    },
+    {
+      "path": "research/calciphylaxis-consensus.json",
+      "bytes": 16426,
+      "sha256": "0026c033081386736fccf3ccb93aef4b388a5b3ed796f13991ec864c17516526"
+    },
+    {
+      "path": "research/calciphylaxis-ppi-primary.xml",
+      "bytes": 26670,
+      "sha256": "3f7cdc803beaa229223adef925b04bcd7b752c4bf238e4c2c8adb512c1a2bc83"
+    },
+    {
+      "path": "research/consensus-summary-review.json",
+      "bytes": 112675,
+      "sha256": "6174b51d00dec9c023a14e8259abbcd3b31296a374d596466d37d59e88b73641"
+    },
+    {
+      "path": "research/consolidate-ppi.mjs",
+      "bytes": 1316,
+      "sha256": "24973459ac4233fde1832533515171a7d81124f6752724a5f1fd4ffd4e4377c3"
+    },
+    {
+      "path": "research/consolidate-sle.mjs",
+      "bytes": 1462,
+      "sha256": "efe22c6f1ce04d9b0c8bed7c36b8f35ee41f7a7a4997d36b3c125fe2c74f1977"
+    },
+    {
+      "path": "research/crest-eustar-primary-abstract.json",
+      "bytes": 21122,
+      "sha256": "c9fd88a02a0727a24185be90a124e1200494d0182fcb7b9d9bfce85e4328fda0"
+    },
+    {
+      "path": "research/crest-syndrome-consensus.json",
+      "bytes": 296,
+      "sha256": "b0de748b89c812808e7fadb26839e70f9511e643f04267dcf80e6bd505cd023b"
+    },
+    {
+      "path": "research/decisions.json",
+      "bytes": 24088,
+      "sha256": "510e9736d423ef859581905bc146ef0f68769b9506190a47a78f57c52651d55b"
+    },
+    {
+      "path": "research/diffuse-systemic-sclerosis-consensus.json",
+      "bytes": 6039,
+      "sha256": "69b3862116b053d37e2e318c5b1aa3f96203675cb856e72d2c3d4a72fc57582e"
+    },
+    {
+      "path": "research/final-consensus-summary-review.json",
+      "bytes": 79888,
+      "sha256": "ee70aae86c16b882dde85f8345cbd2331dac95199853ea73065c6e643499d6a3"
+    },
+    {
+      "path": "research/handoff.mjs",
+      "bytes": 13815,
+      "sha256": "d664ead379cde4d2e91ddf5c14f09cbaf9612d588c7982a019112c5c43d53a0c"
+    },
+    {
+      "path": "research/iga-nephropathy-consensus.json",
+      "bytes": 38946,
+      "sha256": "5c6bdd6948079a379984b677eac68790b4dfded735cd8ea79af89448e8cfc123"
+    },
+    {
+      "path": "research/iga-qualifier-consensus-fetch.json",
+      "bytes": 881,
+      "sha256": "b18ff72f329bf3b750b2b14aec81825fca9783f4bd2f9e34dff5b5a14a7a63d1"
+    },
+    {
+      "path": "research/iga-qualifier-consensus-search.json",
+      "bytes": 2997,
+      "sha256": "9800981a054c8191d0b6f9455332739214cebca4d57b904e72c669499aca8248"
+    },
+    {
+      "path": "research/igg4-related-disease-consensus.json",
+      "bytes": 21395,
+      "sha256": "baa9a95dcdb3fa3f2ea2face3cd945bb688b719342a56c78c9b5ea8645e5b308"
+    },
+    {
+      "path": "research/membranous-nephropathy-consensus.json",
+      "bytes": 19292,
+      "sha256": "17ffbf79fdb5e31ff6d80fc8a4e29cf7a148df91d453d4f7ec8f9ca8bb8f6550"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-consensus.json",
+      "bytes": 24041,
+      "sha256": "12402493dbdd79b8d88447b29d4056823697886a71e8f687176ab63b519155cb"
+    },
+    {
+      "path": "research/ppi-consensus-fetch.json",
+      "bytes": 979,
+      "sha256": "8c50304f23f856865680afe040442f2de91574e8ea043d8b084764778b662ff7"
+    },
+    {
+      "path": "research/ppi-consensus-search.json",
+      "bytes": 22373,
+      "sha256": "dd3961f649156198c90f0d572675f94c0a8e2a10fe4d554643e56f6e82f67dc0"
+    },
+    {
+      "path": "research/ppi-extraction.json",
+      "bytes": 4178,
+      "sha256": "823c71d11b050be38156478be8a277bf6aa52c11daece9f9d05c72b04f320af0"
+    },
+    {
+      "path": "research/ppi-feedback.json",
+      "bytes": 33522,
+      "sha256": "c1467333b172f0157c4bfde33dd5c4f41bf89568dff7c932a43c01c639dac27d"
+    },
+    {
+      "path": "research/ppi-inspected-paragraphs.json",
+      "bytes": 6421,
+      "sha256": "32e4edbaba997bf40f644d286048b392ed1e44dd453f18042b249ab5c134b834"
+    },
+    {
+      "path": "research/ppi-overview-proposal.json",
+      "bytes": 631917,
+      "sha256": "937eb94ea50fc9ef011369773d2b238839001777c942adbf80cffc30311e828c"
+    },
+    {
+      "path": "research/ppi-review-resolution.md",
+      "bytes": 1791,
+      "sha256": "df6227ce870398f9d55d5b65f2545730d496393dec1b3d976333c551f921d3e0"
+    },
+    {
+      "path": "research/ppi-selected-papers.json",
+      "bytes": 7569,
+      "sha256": "77f99a837f9aec33792011bf3168ddad36f3fb3cffaff254792012cd68176e60"
+    },
+    {
+      "path": "research/ppi-summary-input.json",
+      "bytes": 3811,
+      "sha256": "bc4a92f7924596da489fd2ebc242952517767d4394954a5a4dcedf8c85c54bd4"
+    },
+    {
+      "path": "research/ppi-summary-template.json",
+      "bytes": 2656,
+      "sha256": "63fe36583bf43759d50bf893c3574e4953c7c178756b3ad5443c6530c6d9aa52"
+    },
+    {
+      "path": "research/pre-eclampsia-consensus.json",
+      "bytes": 72010,
+      "sha256": "6d7dc18ad2881bff32497da9e6d9d313e08bd1ab3be1339ed537a5b6ecc20248"
+    },
+    {
+      "path": "research/prepare-aav.mjs",
+      "bytes": 3013,
+      "sha256": "ed41a6afc8a99b5da7cfa6c556e8ab1b78a35e960cc3fc0cac526d75480c68b2"
+    },
+    {
+      "path": "research/prepare-ppi.mjs",
+      "bytes": 3984,
+      "sha256": "3eb447d020e2e2cdcb69962212642ae7dfa39170b2ceea360652ca33452afb53"
+    },
+    {
+      "path": "research/prepare-sle.mjs",
+      "bytes": 4668,
+      "sha256": "dd78a0f2a8108acab7cba9564009de5cdb08ce29b8e4f1b0ff243db202777bbf"
+    },
+    {
+      "path": "research/primary-fsgs-consensus.json",
+      "bytes": 25268,
+      "sha256": "3368be4444b8b8bc2175750ce8d1539e9e521b13c85d97a0f995cf937ac17db3"
+    },
+    {
+      "path": "research/record-feedback.mjs",
+      "bytes": 4968,
+      "sha256": "e77655844924fd90013750498f66403a1e8798d91c39c43878ba7449bc5d6599"
+    },
+    {
+      "path": "research/salmonella-consensus-fetch.json",
+      "bytes": 3099,
+      "sha256": "33b06ff515bcfa99d3abe81de88528745efea1509ad1d32b5acb4abe86315dea"
+    },
+    {
+      "path": "research/salmonella-europepmc.json",
+      "bytes": 10068,
+      "sha256": "1de670c870b356d421b9963e6d16815c1e690cb56dee3130c6de44b259b40c9e"
+    },
+    {
+      "path": "research/salmonella-primary.xml",
+      "bytes": 233961,
+      "sha256": "b3c3c7d5e809d24d976eca1aebf826820246c9547e9520da41f8c14ce791815c"
+    },
+    {
+      "path": "research/sjogren-disease-consensus.json",
+      "bytes": 11980,
+      "sha256": "56963a0a1ed3c5f008dee5753755e9559a3757240c50d2f6914317152e4ea9fb"
+    },
+    {
+      "path": "research/sle-automatic-appraisal.json",
+      "bytes": 280840,
+      "sha256": "64def65b3780465ac7314499669a1fdbef9a9ede931a19f77b25f91d1ef5abaa"
+    },
+    {
+      "path": "research/sle-consensus.json",
+      "bytes": 66589,
+      "sha256": "4c15ad9b752029dff77e5d2a6637d6d63fe3df16afc6b26291a73aac86566673"
+    },
+    {
+      "path": "research/sle-extraction-utc.json",
+      "bytes": 4294,
+      "sha256": "4c7d6527cb29448cf5c62dfc94575de807c4909c0e648908b1716b66c762b5de"
+    },
+    {
+      "path": "research/sle-extraction.json",
+      "bytes": 4294,
+      "sha256": "d26e9896601ceee2c7a0518189bb44e5a64432820a95952e55bdd431281fede1"
+    },
+    {
+      "path": "research/sle-final-feedback.json",
+      "bytes": 32838,
+      "sha256": "27e7a50985e06dbf20eb40e19b2b92cccc466b1ec420c35338374cb540a15ceb"
+    },
+    {
+      "path": "research/sle-initial-feedback.json",
+      "bytes": 49865,
+      "sha256": "b33362c6509e4947543b1969245815db05f8eecb6fbc8e54ccc8c40c059bfb81"
+    },
+    {
+      "path": "research/sle-overview-proposal.json",
+      "bytes": 487968,
+      "sha256": "4dbb8664ae2b8a8ba75e57c156f137da17b04b86d858dbce5ac461d563c59e3a"
+    },
+    {
+      "path": "research/sle-overview-summary-template.json",
+      "bytes": 1504,
+      "sha256": "4d5a2484c5d7acc2d930d5871cd35f6994a6f88ea457c54dc8888e22f0e7fd6e"
+    },
+    {
+      "path": "research/sle-selected-papers.json",
+      "bytes": 2928,
+      "sha256": "4c2828866a61616446d3e0efd3d69dac3c34538c7b710315d4d3927bb08ad40a"
+    },
+    {
+      "path": "research/sle-source-check.json",
+      "bytes": 824,
+      "sha256": "3daca23e244955d9654af4dfc0553ec0f217e4e2a50e524fd822e1dfd63cb313"
+    },
+    {
+      "path": "research/sle-summary-clarified-input.json",
+      "bytes": 3226,
+      "sha256": "4a58de78e20bae6ac59de130f767a3131874fef769e3154b4ca4cbcf6d82c750"
+    },
+    {
+      "path": "research/sle-summary-input.json",
+      "bytes": 3166,
+      "sha256": "629f5edb644fb59d84d6afe58defbaca73692207c0b57a95a5b33e3807cc051e"
+    },
+    {
+      "path": "research/sle-summary-template.json",
+      "bytes": 1507,
+      "sha256": "3974b53a1eac873d5bf77ebd12fc7b223bc9f32087e5a44ef58f13a70aa7c04d"
+    },
+    {
+      "path": "research/summarize-aav.mjs",
+      "bytes": 2540,
+      "sha256": "874c01c8d9838d4c16a62e90d0a79e9910b9c768d0a2ef8b2fc6025d9d66e406"
+    },
+    {
+      "path": "research/summarize-ppi.mjs",
+      "bytes": 2131,
+      "sha256": "824d6be1e103085ebe2198eabaf3edb5e1a594b24b1b2ff4fad23f68548903e8"
+    },
+    {
+      "path": "research/summarize-sle.mjs",
+      "bytes": 2635,
+      "sha256": "40ffe7f75781c85b4dbc43e496dc628ab2a9b17fe2784c274b75b0f719600466"
+    },
+    {
+      "path": "research/triage.mjs",
+      "bytes": 5242,
+      "sha256": "9c69530fa9e3b58159d782ffeea2cbb1b820c37e0ddb1e64ce7eacbf8104589d"
+    },
+    {
+      "path": "retrieval-index.json",
+      "bytes": 1225763,
+      "sha256": "3b7e8d52a8990de6dbe5b1d461d92dbd94a83ea7cf0ac81429121751ef2e9c45"
+    },
+    {
+      "path": "sle-final-diff.json",
+      "bytes": 744146,
+      "sha256": "8940ec399209b1a234b04c214d2efc6d2ab3c029abc664d9b07cdbbaf91a7367"
+    },
+    {
+      "path": "source-notice-audit.json",
+      "bytes": 37041,
+      "sha256": "0221f89989e12557176b8a8a0234debff66bb2cd9bdabeb512badad79076b64b"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/appraisals/anca-associated-vasculitis-appraised-candidate-a25b58b5a9a4/input.json",
+      "bytes": 239499,
+      "sha256": "130695207a601d917c7ae302edfa0586d1ab9ddd9b498b2e97d110da40e880cc"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/appraisals/anca-associated-vasculitis-appraised-candidate-a25b58b5a9a4/result.json",
+      "bytes": 977,
+      "sha256": "98a0128aee85827b84b03b2481158008dbacd0ae5eb86851b4331c7af06ccc9f"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/proposals/proposal-42173efab580cbda9165aeb4/changes.json",
+      "bytes": 386388,
+      "sha256": "726df7a9205bdce65c5b9c200232f41f5c426de9a75550d6d085bd37567c6097"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/proposals/proposal-42173efab580cbda9165aeb4/extraction.json",
+      "bytes": 2518,
+      "sha256": "a19e5d96754466d0594c56c2844203c28c4e200614bb11449d3597632da4046a"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/proposals/proposal-42173efab580cbda9165aeb4/papers.json",
+      "bytes": 3516,
+      "sha256": "9d4dda91621c0dca969f8e6c9a657c97d1e819c9a8c66b0f20d7559b01a5a455"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/proposals/proposal-42173efab580cbda9165aeb4/proposal.json",
+      "bytes": 149119,
+      "sha256": "dd19ca1435652cd34dea9deca1dd9f32f1dd8279aa36398a36780f31cb7d320e"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/proposals/proposal-42173efab580cbda9165aeb4/review.md",
+      "bytes": 11956,
+      "sha256": "57e766e895e58a2a90cf8da5354408455110c10949fca10e973f4a39088c172f"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/reviews/1a2ba45942afb86b665360ffb9cc756a2915d2ab5b58b0c162552fd492b5c411/feedback-template.json",
+      "bytes": 699,
+      "sha256": "53f171a279ba0ea5b60afcfd9485ce5d52f43a1177556cd3ef0839da790b182a"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/reviews/1a2ba45942afb86b665360ffb9cc756a2915d2ab5b58b0c162552fd492b5c411/packet.json",
+      "bytes": 24295,
+      "sha256": "d32024b7cbc5eab3ae910b7d9e192bddb4262fed7e1b6f518da206616f9c851e"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/reviews/1a2ba45942afb86b665360ffb9cc756a2915d2ab5b58b0c162552fd492b5c411/review.md",
+      "bytes": 8636,
+      "sha256": "c40fc4aebcad1639ffbc1f7af2dd9bdc3574a80a44465ce83b908cbbf6baaccc"
+    },
+    {
+      "path": "source-packets/anca-associated-vasculitis/summaries/anca-associated-vasculitis-summary-candidate-ca3e7a1d8c0d/input.json",
+      "bytes": 4436,
+      "sha256": "1947c0bde1e08f37c5f6f243771505b53cddde6224fcb1b21519599bd348dc7e"
+    },
+    {
+      "path": "source-packets/calciphylaxis/appraisals/calciphylaxis-appraised-candidate-409c9db87504/input.json",
+      "bytes": 331763,
+      "sha256": "b0b90bd76d487c06004be81dbb5aa9966996aed4a516651714305fac7c36a0d5"
+    },
+    {
+      "path": "source-packets/calciphylaxis/appraisals/calciphylaxis-appraised-candidate-409c9db87504/result.json",
+      "bytes": 951,
+      "sha256": "0db1292085b926ae99b4a7982d8df7773a78f34b5b661a8d904fac46229b1de4"
+    },
+    {
+      "path": "source-packets/calciphylaxis/proposals/proposal-3d7d79f8462241097815946c/changes.json",
+      "bytes": 505312,
+      "sha256": "4cac2ad8792c89c6fb8c8248c3118c5f1de2a6c31ad54d116a091e6b309a5a6a"
+    },
+    {
+      "path": "source-packets/calciphylaxis/proposals/proposal-3d7d79f8462241097815946c/extraction.json",
+      "bytes": 4178,
+      "sha256": "823c71d11b050be38156478be8a277bf6aa52c11daece9f9d05c72b04f320af0"
+    },
+    {
+      "path": "source-packets/calciphylaxis/proposals/proposal-3d7d79f8462241097815946c/papers.json",
+      "bytes": 7569,
+      "sha256": "77f99a837f9aec33792011bf3168ddad36f3fb3cffaff254792012cd68176e60"
+    },
+    {
+      "path": "source-packets/calciphylaxis/proposals/proposal-3d7d79f8462241097815946c/proposal.json",
+      "bytes": 272585,
+      "sha256": "8457b23c26049d12c1cd8e75d878ba55398d92ff95238845941aab98a1004bf3"
+    },
+    {
+      "path": "source-packets/calciphylaxis/proposals/proposal-3d7d79f8462241097815946c/review.md",
+      "bytes": 15871,
+      "sha256": "ab511295e3d3ba53c5b3f910dd7fbab0476e507ab37e05a80438444cd4eac528"
+    },
+    {
+      "path": "source-packets/calciphylaxis/proposals/proposal-6248a81063280d769d21aff1/changes.json",
+      "bytes": 19847,
+      "sha256": "6d29f2e15da6509dfb633ff472b971f454782abdf38432728703ac0369eac905"
+    },
+    {
+      "path": "source-packets/calciphylaxis/proposals/proposal-6248a81063280d769d21aff1/proposal.json",
+      "bytes": 658950,
+      "sha256": "603a71206abff60e32b30df93934fb44c56b89e03bc11f674d2582929431ecab"
+    },
+    {
+      "path": "source-packets/calciphylaxis/proposals/proposal-6248a81063280d769d21aff1/review.md",
+      "bytes": 986,
+      "sha256": "b6d47da29d5c30a9fb2fcd5cc638da306ae4d1ebf09cc543c3ac8dfa600b2360"
+    },
+    {
+      "path": "source-packets/calciphylaxis/reviews/63a4b811fc6cb26977b8f48358703cdfd447deeb6ceaa32e3fc9a27f6d06c25f/feedback-template.json",
+      "bytes": 673,
+      "sha256": "ae44d8ba36d527fb61229a76c2691b5d3e4b50f3d09f2513629dc29401af8382"
+    },
+    {
+      "path": "source-packets/calciphylaxis/reviews/63a4b811fc6cb26977b8f48358703cdfd447deeb6ceaa32e3fc9a27f6d06c25f/packet.json",
+      "bytes": 26552,
+      "sha256": "78254534962ce2b595a95e6ce15b5012d4e91401368a4ed82861e6b71c634f45"
+    },
+    {
+      "path": "source-packets/calciphylaxis/reviews/63a4b811fc6cb26977b8f48358703cdfd447deeb6ceaa32e3fc9a27f6d06c25f/review.md",
+      "bytes": 8227,
+      "sha256": "303cb0a98cf6344733c6af2cddba5dcd99335244590b88e373ea5861ce57a2ce"
+    },
+    {
+      "path": "source-packets/calciphylaxis/summaries/calciphylaxis-summary-candidate-d5f1a8f06f12/input.json",
+      "bytes": 3811,
+      "sha256": "bc4a92f7924596da489fd2ebc242952517767d4394954a5a4dcedf8c85c54bd4"
+    },
+    {
+      "path": "source-packets/sle/appraisals/sle-appraised-candidate-681273ee935d/input.json",
+      "bytes": 280840,
+      "sha256": "d8fa806979e0779dbe5e1942cbf8b805381417c3b3bcaa08459f2deae0598753"
+    },
+    {
+      "path": "source-packets/sle/appraisals/sle-appraised-candidate-681273ee935d/result.json",
+      "bytes": 931,
+      "sha256": "7376aaa2e6895d6efe98aa34e3d13943ee68a3165cecc5285df5c6fa264141b1"
+    },
+    {
+      "path": "source-packets/sle/proposals/proposal-55cd93d8e32b08ce24ce183f/changes.json",
+      "bytes": 15538,
+      "sha256": "96dbe807246327d8a70a5c4454bc193bff509031ae3c916637d14d3df5ff54c9"
+    },
+    {
+      "path": "source-packets/sle/proposals/proposal-55cd93d8e32b08ce24ce183f/proposal.json",
+      "bytes": 511579,
+      "sha256": "b0f31cd4c199db4f309ab8c3af2422999a04102d7cf474fd2f0ba11e51054963"
+    },
+    {
+      "path": "source-packets/sle/proposals/proposal-55cd93d8e32b08ce24ce183f/review.md",
+      "bytes": 943,
+      "sha256": "ada59a91f162817005922e710f4b79df74e678e42753edf458eb60d135c9dd16"
+    },
+    {
+      "path": "source-packets/sle/proposals/proposal-dc852eba510642ce8b2ae415/changes.json",
+      "bytes": 412333,
+      "sha256": "1f14ef0d6f74b1b0638ad2d50f2ca3a5886b099463e18ffbfdb27e176584c358"
+    },
+    {
+      "path": "source-packets/sle/proposals/proposal-dc852eba510642ce8b2ae415/extraction.json",
+      "bytes": 4294,
+      "sha256": "4c7d6527cb29448cf5c62dfc94575de807c4909c0e648908b1716b66c762b5de"
+    },
+    {
+      "path": "source-packets/sle/proposals/proposal-dc852eba510642ce8b2ae415/papers.json",
+      "bytes": 2928,
+      "sha256": "4c2828866a61616446d3e0efd3d69dac3c34538c7b710315d4d3927bb08ad40a"
+    },
+    {
+      "path": "source-packets/sle/proposals/proposal-dc852eba510642ce8b2ae415/proposal.json",
+      "bytes": 181098,
+      "sha256": "07db203286b254b4125c72a25e60ed198631eec8d55b1a71c2670cd1e95ffc67"
+    },
+    {
+      "path": "source-packets/sle/proposals/proposal-dc852eba510642ce8b2ae415/review.md",
+      "bytes": 14340,
+      "sha256": "81a5428f27e07f60f1b86c831dd87318db857e4d3f77a514e6d75800cc64a692"
+    },
+    {
+      "path": "source-packets/sle/reviews/7f2ea908983820474f4f4c8546d6dbb693a3af1b5735070047c5495f775df401/feedback-template.json",
+      "bytes": 653,
+      "sha256": "117bb26951d84d80f58c773bc3ed5187050b8136c33d740c740a86ed18c5cc46"
+    },
+    {
+      "path": "source-packets/sle/reviews/7f2ea908983820474f4f4c8546d6dbb693a3af1b5735070047c5495f775df401/packet.json",
+      "bytes": 18293,
+      "sha256": "61596cd3945e1517176d60cbb1ac8cda68dcee72aa4dbe1793ab17b6bfcb2938"
+    },
+    {
+      "path": "source-packets/sle/reviews/7f2ea908983820474f4f4c8546d6dbb693a3af1b5735070047c5495f775df401/review.md",
+      "bytes": 7141,
+      "sha256": "627ba3fb6dbf5a378740e8ee9c9642fdbc316e61b2ff8b7ebba3ee0def02b838"
+    },
+    {
+      "path": "source-packets/sle/reviews/815a4353e330742d6b27e55172d7e08fe5f4c95db9a4947b1e285e233a795d90/feedback-template.json",
+      "bytes": 653,
+      "sha256": "6dee7ca0058dc6777721ce07a7d6a7dbad4cfc65867d60570cb589f7831f0dcf"
+    },
+    {
+      "path": "source-packets/sle/reviews/815a4353e330742d6b27e55172d7e08fe5f4c95db9a4947b1e285e233a795d90/packet.json",
+      "bytes": 18175,
+      "sha256": "10e35b3ac8375b51b09ee7dc10c02f3c63ce34d08a712372c0652c0b7e627449"
+    },
+    {
+      "path": "source-packets/sle/reviews/815a4353e330742d6b27e55172d7e08fe5f4c95db9a4947b1e285e233a795d90/review.md",
+      "bytes": 7082,
+      "sha256": "807e51734e346cca03d5cba2109e2564fc716eafa595c16c515b5db193016d63"
+    },
+    {
+      "path": "source-packets/sle/summaries/sle-summary-candidate-904291fc29fb/input.json",
+      "bytes": 3226,
+      "sha256": "4a58de78e20bae6ac59de130f767a3131874fef769e3154b4ca4cbcf6d82c750"
+    },
+    {
+      "path": "source-packets/sle/summaries/sle-summary-candidate-ecc3504a7a24/input.json",
+      "bytes": 3166,
+      "sha256": "629f5edb644fb59d84d6afe58defbaca73692207c0b57a95a5b33e3807cc051e"
+    }
+  ]
+}

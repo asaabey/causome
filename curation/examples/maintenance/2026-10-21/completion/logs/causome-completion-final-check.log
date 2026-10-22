@@ -1,0 +1,22 @@
+
+> causome@ check /Users/asanga/Documents/Projects/causome
+> pnpm validate && pnpm --filter @causome/web check
+
+
+> causome@ validate /Users/asanga/Documents/Projects/causome
+> node scripts/validate-release.mjs
+
+Validated 170 disease candidates and their registry profiles.
+
+> @causome/web@0.1.0 check /Users/asanga/Documents/Projects/causome/web
+> astro check
+
+07:14:59 [content] Syncing content
+07:14:59 [content] Synced content
+07:14:59 [types] Generated 17ms
+07:14:59 [check] Getting diagnostics for Astro files in /Users/asanga/Documents/Projects/causome/web...
+Result (42 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+

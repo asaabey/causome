@@ -1,0 +1,1813 @@
+[
+  {
+    "diseaseId": "anca-associated-vasculitis",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-summary-candidate-12053b461b79.json",
+    "baseId": "anca-associated-vasculitis-summary-candidate-12053b461b79",
+    "baseDigest": "c46f06c3dee6188f1174d16859bda2fcfd2c38800039d0ff78db34af2bddff90",
+    "finalPath": "knowledge/diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-summary-candidate-ca3e7a1d8c0d.json",
+    "finalId": "anca-associated-vasculitis-summary-candidate-ca3e7a1d8c0d",
+    "finalDigest": "aba6adb1474288823c6d3b7f8dea0b95fb0a3d82281307d80f357b7f461be713",
+    "changed": true,
+    "entityCount": 19,
+    "relationshipCount": 21,
+    "claimCount": 26,
+    "sourceCount": 10,
+    "addedEntities": [],
+    "addedClaims": [
+      "claim-6f2942b97b1583df319c"
+    ],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 11,
+    "totalViewEntityCount": 19,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-ca3e7a1d8c0d",
+      "status": "pending_external_review",
+      "scope": "Selected MPO-/PR3-ANCA, neutrophil/complement and renal/pulmonary injury mechanisms for GPA/MPA-spectrum AAV, with a separate EGPA eosinophilic context. Historical abstract-level primary reports plus one full-text human complement study; excludes drug-induced disease, comprehensive organ/diagnostic coverage and treatment efficacy. ANCA-negative EGPA is included, not generalized to ANCA-negative GPA/MPA.",
+      "paragraphs": [
+        {
+          "text": "Within selected GPA/MPA-spectrum evidence, patient MPO-ANCA and PR3-ANCA IgG activated human neutrophils in vitro, with TNF priming enhancing oxidative burst and degranulation. Activated-neutrophil supernatants activated serum complement and generated C5a; C5a primed further ANCA responses. These experiments support a context-bound amplification model. Factor-B- and C5-deficient mice were protected from anti-MPO renal disease. Purified anti-MPO IgG caused necrotizing crescentic glomerulonephritis in mice; pulmonary capillaritis was reported in a separate splenocyte-transfer experiment. A newly added retrospective study of 369 patients links intrarenal complement-related expression to renal severity and outcomes, but transcript abundance does not establish biochemical activation or causation, and serum and tissue measurements were weakly concordant. The study did not test whether its expression scores predict treatment response. ANCA-stimulated neutrophils released NETs containing MPO and PR3, and NETs were observed in inflamed human kidneys. Tissue presence does not prove disease initiation; serum NET measurements in one cohort did not reliably distinguish active disease from remission or correlate with BVAS and renal indices.",
+          "claimIds": [
+            "claim-aav-mpo-neutrophil",
+            "claim-aav-pr3-neutrophil",
+            "claim-aav-tnf-primes",
+            "claim-aav-neutrophil-burst",
+            "claim-aav-neutrophil-complement",
+            "claim-aav-complement-c5a",
+            "claim-aav-c5a-primes",
+            "claim-aav-complement-renal",
+            "claim-aav-mpo-renal",
+            "claim-aav-mpo-lung",
+            "claim-aav-neutrophil-nets",
+            "claim-aav-nets-kidney",
+            "claim-aav-nets-null-activity",
+            "claim-6f2942b97b1583df319c"
+          ]
+        },
+        {
+          "text": "EGPA is represented separately rather than treated as an interchangeable ANCA-driven extension of that model. Its genetic study linked a tendency to eosinophilia with susceptibility and distinguished MPO-ANCA-positive from ANCA-negative subgroups. In selected EGPA tissue, lytic eosinophils and eosinophil extracellular traps were present in small-vessel thrombi; EETs supported platelet adhesion in vitro, but these findings do not establish the initiating cause of clinical thrombosis. In a small cohort, circulating cell-free DNA tracked activity only in the EGPA subgroup and was not shown to derive exclusively from EETs. Serum from patients in EGPA remission induced NET formation in healthy-donor neutrophils: the overall ANCA-positive/negative comparison was not significant, despite subgroup differences reported in the source. Eosinophil count correlated with NET formation without identifying the responsible serum factor. These culture, genetic and observational findings remain distinct from mouse experiments. Most historical sources were inspected at abstract level. The new complement study was inspected in full text, but its supplementary methods were not independently audited; residual selection bias, exploratory survival analyses and causal uncertainty remain. Therapy efficacy is outside this map; provisional automatic appraisals are uncalibrated, and independent domain and external summary review remain pending.",
+          "claimIds": [
+            "claim-egpa-eosinophilia-susceptibility",
+            "claim-egpa-anca-subgroups",
+            "claim-egpa-eosinophil-eets",
+            "claim-egpa-eets-thrombi",
+            "claim-egpa-eets-platelets",
+            "claim-egpa-cfdna-activity",
+            "claim-egpa-serum-nets",
+            "claim-egpa-serum-anca-qualifier",
+            "claim-egpa-eosinophils-nets"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "codex-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-20",
+      "evidenceCutoff": "2026-10-20",
+      "graphContentDigest": "02a474e8c8e01d6ef6ca45f9f58932857a1da6e4daa4188a01c07c2a9ff8ca9e",
+      "baseReleaseId": "anca-associated-vasculitis-appraised-candidate-a25b58b5a9a4",
+      "baseContentDigest": "902f020d5cccf7320022c7eff3f601cba8f8eb2686409435567316c4fb374b70",
+      "inputDigest": "ca3e7a1d8c0d264f43826c3ea46b4ed1c679366bfbee7f3e94bcc5bf36a7c564"
+    },
+    "views": [
+      {
+        "id": "view-anca-associated-vasculitis-overview",
+        "contextId": "context-aav-gpa-mpa",
+        "entityCount": 11
+      },
+      {
+        "id": "view-aav-egpa",
+        "contextId": "context-aav-egpa",
+        "entityCount": 10
+      },
+      {
+        "id": "view-research-context-aav-gpa-mpa",
+        "contextId": "context-aav-gpa-mpa",
+        "entityCount": 11
+      },
+      {
+        "id": "view-research-context-aav-egpa",
+        "contextId": "context-aav-egpa",
+        "entityCount": 10
+      }
+    ]
+  },
+  {
+    "diseaseId": "anti-gbm-disease",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/anti-gbm-disease/candidates/anti-gbm-disease-summary-candidate-824d30740aae.json",
+    "baseId": "anti-gbm-disease-summary-candidate-824d30740aae",
+    "baseDigest": "5a5e8930f929131c1c89050196e7466eaa3c4c7b5e06d029b46204df9698bedf",
+    "finalPath": "knowledge/diseases/anti-gbm-disease/candidates/anti-gbm-disease-summary-candidate-824d30740aae.json",
+    "finalId": "anti-gbm-disease-summary-candidate-824d30740aae",
+    "finalDigest": "5a5e8930f929131c1c89050196e7466eaa3c4c7b5e06d029b46204df9698bedf",
+    "changed": false,
+    "entityCount": 15,
+    "relationshipCount": 18,
+    "claimCount": 26,
+    "sourceCount": 12,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 3,
+    "totalViewEntityCount": 15,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-824d30740aae",
+      "status": "pending_external_review",
+      "scope": "Bounded anti-GBM autoimmunity to alpha3/alpha5 type IV collagen NC1 epitopes, HLA-restricted T-cell responses, antibody-mediated renal and pulmonary injury; human observations and experimental models remain distinct. Excludes Alport post-transplant nephritis and atypical seronegative disease.",
+      "paragraphs": [
+        {
+          "text": "Classical anti-GBM disease links autoimmunity against type IV collagen NC1 domains with antibody deposition and glomerular injury, sometimes accompanied by pulmonary haemorrhage. Patient antibodies recognize α3NC1 and α5NC1 conformations that are concealed in the native cross-linked α345NC1 hexamer in biochemical assays; the initiating disruption in patients remains unresolved. Human α3-specific CD4 T-cell expansion supports an autoimmune response, while peptide-immunized HLA-DR15 transgenic mice demonstrate nephritogenic T-cell responses and HLA-DR1-associated regulatory protection. Patient IgG transfer caused glomerulonephritis in monkeys. Human biopsies associate complement deposition with crescentic injury; separate heterologous-antibody models support complement-dependent neutrophil recruitment and renal injury in mice and complement/neutrophil contributions to haemorrhagic lung injury in rats. These findings form a contextual synthesis, rather than proof that every step occurs in one human causal sequence.",
+          "claimIds": [
+            "claim-gbm-crypticity",
+            "claim-gbm-antigen-binding",
+            "claim-gbm-renal-binding",
+            "claim-gbm-human-t",
+            "claim-gbm-dr15-t",
+            "claim-gbm-mouse-t",
+            "claim-gbm-treg-protection",
+            "claim-gbm-transfer",
+            "claim-gbm-deposits",
+            "claim-gbm-crescents",
+            "claim-gbm-complement-pmn",
+            "claim-gbm-complement-injury",
+            "claim-gbm-lung-pmn",
+            "claim-gbm-lung-complement"
+          ]
+        },
+        {
+          "text": "Important limits remain: complement-deficient mice lost protection at higher antibody doses, and human staining does not establish universal pathway dependence. The labelled ANCA/anti-GBM overlap has its own clinical context. Combined plasma exchange, cyclophosphamide and glucocorticoids is guideline-recommended treatment with defined exceptions; the selected historical cohort shows strong dependence of renal recovery on baseline severity and cannot isolate component effects. Imlifidase rapidly depleted circulating anti-GBM antibodies in a 15-adult uncontrolled phase 2a study, whose historical-control comparison suggested renal benefit. However, the sponsor subsequently reported that the 50-patient randomized GOOD-IDES-02 trial missed its six-month eGFR primary endpoint with similar responses in both arms. Antibody removal therefore cannot be equated with added clinical benefit. Imlifidase remains investigational for this mapped indication; its EU transplant indication is separate. This bounded draft relies predominantly on selected abstracts, omits newer antigen and targeted-cell-therapy branches, and requires independent scientific review.",
+          "claimIds": [
+            "claim-gbm-dose-qualification",
+            "claim-gbm-human-lung",
+            "claim-gbm-therapy-standard",
+            "claim-gbm-therapy-standard-limit",
+            "claim-gbm-guideline-regimen",
+            "claim-gbm-therapy-ide-clearance",
+            "claim-gbm-therapy-ide-outcome",
+            "claim-gbm-phase3-null"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "Codex agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-17",
+      "evidenceCutoff": "2026-10-17",
+      "graphContentDigest": "0c1c66e46b0790c66e1d5c58e74fecee6072db26d3829c1be4bb5aa430b7536b",
+      "baseReleaseId": "anti-gbm-disease-summary-candidate-23b7c3250603",
+      "baseContentDigest": "c0c4e34c7d72ffe8a02e78931ab80c8bd56846b860baab6654e59b2b2146ae8c",
+      "inputDigest": "824d30740aae790a53aaf6369c2e140b2337e6af27c1f66d49b25edd0ccdab68"
+    },
+    "views": [
+      {
+        "id": "view-context-gbm-biochemical",
+        "contextId": "context-gbm-biochemical",
+        "entityCount": 3
+      },
+      {
+        "id": "view-context-gbm-human",
+        "contextId": "context-gbm-human",
+        "entityCount": 6
+      },
+      {
+        "id": "view-context-gbm-monkey",
+        "contextId": "context-gbm-monkey",
+        "entityCount": 2
+      },
+      {
+        "id": "view-context-gbm-mouse-t",
+        "contextId": "context-gbm-mouse-t",
+        "entityCount": 4
+      },
+      {
+        "id": "view-context-gbm-mouse-complement",
+        "contextId": "context-gbm-mouse-complement",
+        "entityCount": 3
+      },
+      {
+        "id": "view-context-gbm-rat-lung",
+        "contextId": "context-gbm-rat-lung",
+        "entityCount": 3
+      },
+      {
+        "id": "view-context-gbm-overlap",
+        "contextId": "context-gbm-overlap",
+        "entityCount": 2
+      },
+      {
+        "id": "view-context-gbm-phase2",
+        "contextId": "context-gbm-phase2",
+        "entityCount": 3
+      },
+      {
+        "id": "view-context-gbm-standard",
+        "contextId": "context-gbm-standard",
+        "entityCount": 2
+      }
+    ]
+  },
+  {
+    "diseaseId": "atypical-hus",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/atypical-hus/candidates/atypical-hus-summary-candidate-d4ea04ecbc70.json",
+    "baseId": "atypical-hus-summary-candidate-d4ea04ecbc70",
+    "baseDigest": "9a1a7da24bfdca47a74b096feee5f7a5401c44a43769c3ca5f50e34805b52b35",
+    "finalPath": "knowledge/diseases/atypical-hus/candidates/atypical-hus-summary-candidate-d4ea04ecbc70.json",
+    "finalId": "atypical-hus-summary-candidate-d4ea04ecbc70",
+    "finalDigest": "9a1a7da24bfdca47a74b096feee5f7a5401c44a43769c3ca5f50e34805b52b35",
+    "changed": false,
+    "entityCount": 29,
+    "relationshipCount": 44,
+    "claimCount": 59,
+    "sourceCount": 23,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 29,
+    "totalViewEntityCount": 29,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-d4ea04ecbc70",
+      "status": "pending_external_review",
+      "scope": "Consolidated complement-mediated aHUS map: inherited and acquired regulatory defects, alternative-pathway amplification, terminal complement, endothelial and platelet injury, renal TMA, haemolysis, thrombocytopenia and kidney dysfunction, with haemolysis–heme feedback and verified C5 targets. Human associations, cell experiments and animal perturbations retain explicit study-system limits. THBD disease causality is disputed. Excludes STEC-HUS, TTP, secondary TMA as disease entities, DGKE and cobalamin-related TMA.",
+      "paragraphs": [
+        {
+          "text": "Complement-mediated aHUS can arise through converging inherited and acquired defects in complement control: altered factor H, factor I or CD46 function, selected C3 or factor B variants, and anti-factor H autoantibodies associated with CFHR1/CFHR3 deficiency. Impaired surface regulation allows alternative-pathway convertase amplification and C5 cleavage, generating C5a and terminal C5b-9. Endothelial complement deposition, membrane injury and activation connect with VWF release, platelet activation and fibrin-rich microthrombi. Human serum/cell experiments demonstrate several of these links; distinct complement-mutant mouse models support MAC-dependent renal TMA, accompanied by red-cell fragmentation, thrombocytopenia and renal dysfunction. Haemolysis-derived heme can amplify complement, reduce endothelial CD46 and stimulate VWF release in experiments, forming a plausible amplification loop. The consolidated map shows these routes together while retaining the actual human, cell, biochemical and mouse systems in each evidence item.",
+          "claimIds": [
+            "claim-ahus-v3-cfh-defect",
+            "claim-ahus-v3-cfi-defect",
+            "claim-ahus-v3-cd46-defect",
+            "claim-ahus-v3-cfb-convertase",
+            "claim-ahus-v3-c3-surface-amplification",
+            "claim-ahus-fh-block",
+            "claim-ahus-cfhr-antibody",
+            "claim-ahus-v3-fh-surface-control",
+            "claim-ahus-v3-ap-convertase",
+            "claim-ahus-v3-convertase-c5",
+            "claim-ahus-v3-c5-mac",
+            "claim-ahus-v3-c5-c5ar",
+            "claim-ahus-v3-mac-endothelial",
+            "claim-ahus-v3-endothelial-vwf",
+            "claim-ahus-v3-ap-platelets",
+            "claim-ahus-v3-platelets-thrombi",
+            "claim-ahus-v3-mac-fibrin",
+            "claim-ahus-mac-tma",
+            "claim-ahus-fh-mac-tma",
+            "claim-ahus-v3-tma-hemolysis",
+            "claim-ahus-v3-tma-platelet-count",
+            "claim-ahus-v3-tma-renal",
+            "claim-ahus-v3-hemolysis-heme",
+            "claim-ahus-v3-heme-convertase",
+            "claim-ahus-v3-heme-cd46",
+            "claim-ahus-v3-heme-vwf"
+          ]
+        },
+        {
+          "text": "Susceptibility is incompletely penetrant, and triggering events commonly precede onset; neither a variant nor an abnormal endothelial assay alone establishes active disease. C5aR1 effects differ across mouse models, and complement-challenged endothelial cells can repair membrane leakage rather than die. THBD altered complement regulation in original biochemical experiments, but a later human registry/population study did not support a significant THBD contribution to complement-mediated aHUS; this disputed branch remains visible with contrary evidence. Eculizumab and ravulizumab have verified US aHUS indications and target C5; selected uncontrolled eculizumab studies reported platelet and renal improvements but do not establish universal recovery or drug superiority. Their serious meningococcal infection risks remain explicit. Connecting supported edges provides an integrated disease explanation, not proof that every step or the complete heme feedback loop occurs in every patient. Some bridging biochemistry comes from explicitly identified primary-report background or regulatory mechanism text. Source access is predominantly abstract-level with selected full-text results; independent scientific review, calibration and comprehensive therapy appraisal remain pending.",
+          "claimIds": [
+            "claim-ahus-penetrance",
+            "claim-ahus-v3-trigger-onset",
+            "claim-ahus-carrier-mac",
+            "claim-ahus-remission-mac",
+            "claim-ahus-c5ar-tma",
+            "claim-ahus-fh-c5ar-renal",
+            "claim-ahus-v3-mac-repair-qualification",
+            "claim-ahus-v3-thbd-regulation",
+            "claim-ahus-v3-thbd-risk",
+            "claim-ahus-v3-thbd-disputed",
+            "claim-ahus-soliris-c5",
+            "claim-ahus-soliris-indication",
+            "claim-ahus-ultomiris-c5",
+            "claim-ahus-ultomiris-indication",
+            "claim-ahus-ecu-response",
+            "claim-ahus-ecu-renal"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "codex-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-17",
+      "evidenceCutoff": "2026-10-17",
+      "graphContentDigest": "4c13e46f28df45b4d2d1e515eb3f55215e6b187c9dca7c47f26dce412aa0b38b",
+      "baseReleaseId": "atypical-hus-summary-candidate-89b9ec28207f",
+      "baseContentDigest": "0454a43d226b949781a8a6b8397abb6d514097877cd97c5d0c7a18ee618f2608",
+      "inputDigest": "d4ea04ecbc70269009b20e17458c5d79305d847dc087dbef887ffcfe35e6b44b"
+    },
+    "views": [
+      {
+        "id": "view-ahus-consolidated",
+        "contextId": "context-ahus-consolidated",
+        "entityCount": 29
+      }
+    ]
+  },
+  {
+    "diseaseId": "behcet-disease",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/behcet-disease/candidates/behcet-disease-summary-candidate-d266780f35d0.json",
+    "baseId": "behcet-disease-summary-candidate-d266780f35d0",
+    "baseDigest": "41a7d7dd3035a960dd8bdca919760e90a5fd9e267f9b2e7b9b6767056d92e305",
+    "finalPath": "knowledge/diseases/behcet-disease/candidates/behcet-disease-summary-candidate-d266780f35d0.json",
+    "finalId": "behcet-disease-summary-candidate-d266780f35d0",
+    "finalDigest": "41a7d7dd3035a960dd8bdca919760e90a5fd9e267f9b2e7b9b6767056d92e305",
+    "changed": false,
+    "entityCount": 38,
+    "relationshipCount": 52,
+    "claimCount": 59,
+    "sourceCount": 18,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 38,
+    "totalViewEntityCount": 38,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-d266780f35d0",
+      "status": "pending_external_review",
+      "scope": "Bounded human Behçet disease overview: HLA/ERAP1 and cytokine-locus susceptibility, T-cell and neutrophil activation, NET/coagulation and endothelial injury, plus mucocutaneous, ocular, vascular, neurologic, joint and intestinal branches. Primary-report associations, culture mechanisms and intervention populations remain distinct. Excludes monogenic mimics, diagnostic criteria and comprehensive treatment guidance.",
+      "paragraphs": [
+        {
+          "text": "Behçet disease combines genetic susceptibility with recurrent inflammation affecting mucosa, skin, eyes and, in subsets, vessels, the nervous system, joints or bowel. HLA-B*51 and ERAP1 show a statistical interaction, while IL10 and IL23R–IL12RB2 associations implicate immune regulation without establishing a specific initiating antigen. Human blood and culture studies connect IL-21 with increased Th17 responses and fewer regulatory T cells; IL-23 can increase IL-17 production, and IL-17 and IFN-γ are elevated in active uveitis. In studied skin lesions, CD8/Tc17 cells predominated as the IL-17 source and IL-17 expression correlated with NET-forming neutrophil recruitment. A parallel neutrophil branch converges on extracellular traps (NETs): patient neutrophils form NETs, NET markers associate with vascular involvement, and DNase reduces thrombin generation in patient plasma ex vivo. A 2026 exploratory study links CD177-positive neutrophil-derived NETs and histone H3.1 to endothelial senescence and neutrophil recruitment in culture. In the intestinal subset, a separate PBMC–epithelial co-culture study links PLK1-dependent TNF release to IFI16–STING–TBK1 signalling and epithelial apoptosis. These findings connect selected immune and tissue-injury processes; phenotype links to aneurysms, neurologic injury and visual morbidity remain clinical observations.",
+          "claimIds": [
+            "claim-behcet-hla-risk",
+            "claim-behcet-il10-risk",
+            "claim-behcet-il23r-risk",
+            "claim-behcet-il10-expression",
+            "claim-behcet-erap1-risk",
+            "claim-behcet-erap1-hla",
+            "claim-behcet-il23-uveitis",
+            "claim-behcet-il17-uveitis",
+            "claim-behcet-ifng-uveitis",
+            "claim-behcet-il23-il17",
+            "claim-behcet-ifng-il17",
+            "claim-behcet-il21-th17",
+            "claim-behcet-il21-treg",
+            "claim-behcet-th17-il17",
+            "claim-behcet-th17-disease",
+            "claim-behcet-treg-disease",
+            "claim-behcet-il17-cns",
+            "claim-behcet-neutrophils-nets",
+            "claim-behcet-nets-thrombin",
+            "claim-behcet-nets-thrombosis",
+            "claim-behcet-nets-disease",
+            "claim-behcet-neutrophils-ros",
+            "claim-behcet-neutrophils-skin",
+            "claim-behcet-apremilast-neutrophils",
+            "claim-behcet-apremilast-nets",
+            "claim-behcet-apremilast-pde4",
+            "claim-behcet-nets-endothelium",
+            "claim-behcet-nets-histone",
+            "claim-behcet-histone-tlr4",
+            "claim-behcet-histone-senescence",
+            "claim-behcet-senescence-neutrophils",
+            "claim-behcet-disease-oral",
+            "claim-behcet-disease-genital",
+            "claim-behcet-disease-skin",
+            "claim-behcet-disease-eye",
+            "claim-behcet-disease-cns",
+            "claim-behcet-uveitis-vision",
+            "claim-behcet-cns-mortality",
+            "claim-behcet-disease-aneurysms",
+            "claim-behcet-disease-thrombosis",
+            "claim-behcet-apremilast-ulcers",
+            "claim-behcet-plk1-tnf",
+            "claim-behcet-tnf-ifi16",
+            "claim-behcet-ifi16-sting",
+            "claim-behcet-sting-apoptosis",
+            "claim-behcet-ifi16-ulcer",
+            "claim-behcet-tnf-ulcer",
+            "claim-behcet-hla-joint",
+            "claim-behcet-hla-eye",
+            "claim-behcet-disease-gut",
+            "claim-behcet-tc17-il17",
+            "claim-behcet-il17-neutrophils"
+          ]
+        },
+        {
+          "text": "The overview combines different patient subsets and experimental systems; it does not establish one causal circuit operating in every patient. Genetic cohorts overlap, most reports were inspected at abstract level, and the newer endothelial and intestinal mechanisms need independent replication. IFN-γ inhibited IL-17 production in one culture assay despite both cytokines being elevated in active uveitis. Subcutaneous secukinumab did not meet the primary endpoint in the Behçet uveitis SHIELD trial, qualifying the inference that IL-17 elevation predicts benefit from blockade. Apremilast reduced oral ulcers in a 207-person placebo-controlled trial and has a verified US adult oral-ulcer indication; that trial excluded major organ involvement and does not establish vascular or neurologic protection. In a separate 52-person severe vascular/CNS trial, infliximab produced more complete responses at week 22 than cyclophosphamide with glucocorticoids in both arms; this is indication-specific evidence, and Behçet is absent from the inspected US infliximab label. BIO-BEHÇET found comparable short-term outcomes for infliximab and IFN-α2a in refractory disease. Microbial triggers, broader immune pathways and treatment options remain incompletely curated. Historical cohort outcomes are not current-treated risk estimates. Independent scientific review and appraisal calibration remain pending.",
+          "claimIds": [
+            "claim-behcet-ifng-il17",
+            "claim-behcet-il17-uveitis-trial",
+            "claim-behcet-ap-trial",
+            "claim-behcet-ap-licensed",
+            "claim-behcet-inf-target",
+            "claim-behcet-inf-trial",
+            "claim-behcet-erap1-hla",
+            "claim-behcet-cns-mortality",
+            "claim-behcet-nets-endothelium",
+            "claim-behcet-sting-apoptosis",
+            "claim-behcet-infliximab-bio"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "Codex curation agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-17",
+      "evidenceCutoff": "2026-10-17",
+      "graphContentDigest": "42f896ba1ef8246713b881ec5be627fd3f9d091ebc592948757832ad3909bb91",
+      "baseReleaseId": "behcet-disease-summary-candidate-dffb3ec8962d",
+      "baseContentDigest": "b5e2568bb8166cee87bb4363c5d9c4702a7abfaa53ad57a490fdf4558e22f149",
+      "inputDigest": "d266780f35d02ccf75b1daffa02c9bc673cf36f8a9bb0ef12050df9f47cc3b92"
+    },
+    "views": [
+      {
+        "id": "view-behcet-disease-overview",
+        "contextId": "context-behcet-overview",
+        "entityCount": 38
+      }
+    ]
+  },
+  {
+    "diseaseId": "c3-glomerulonephritis",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-67b26c1308bd.json",
+    "baseId": "c3-glomerulonephritis-summary-candidate-67b26c1308bd",
+    "baseDigest": "364ebd83f67a1e9a45595a20a7c68e06348854625111a3fa943a944679482edf",
+    "finalPath": "knowledge/diseases/c3-glomerulonephritis/candidates/c3-glomerulonephritis-summary-candidate-67b26c1308bd.json",
+    "finalId": "c3-glomerulonephritis-summary-candidate-67b26c1308bd",
+    "finalDigest": "364ebd83f67a1e9a45595a20a7c68e06348854625111a3fa943a944679482edf",
+    "changed": false,
+    "entityCount": 18,
+    "relationshipCount": 17,
+    "claimCount": 29,
+    "sourceCount": 12,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 5,
+    "totalViewEntityCount": 18,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-67b26c1308bd",
+      "status": "pending_external_review",
+      "scope": "Bounded C3GN map: acquired convertase dysregulation, complement-regulatory and CFHR structural variants, glomerular complement deposition and variable renal course. Related mixed-C3G assay/cohort evidence and mixed-C3G/IC-MPGN trials retain separate contexts. Dense deposit disease and immune-complex GN are excluded as mapped phenotypes; their inclusion in cited studies is explicit. Selected proximal complement therapies include verified US indications through 2026-10-15; no universal causal circuit or comprehensive therapy catalog is claimed.",
+      "paragraphs": [
+        {
+          "text": "C3 glomerulonephritis comprises heterogeneous complement-associated kidney injury rather than a single universal circuit. C3GN biopsies and clinical series link alternative-pathway abnormalities with glomerular complement deposits, hematuria and proteinuria. Patient-IgG experiments show that nephritic factors can stabilize C3 convertase, but the classic assay cohort was predominantly dense deposit disease, and terminal-pathway activity varied between samples. Familial evidence identifies a different branch: a CFHR5 duplication cosegregated with C3GN and produced a protein with altered surface-complement binding; its increased cofactor activity argues against a simple loss of all function. CFHR3-1 rearrangements provide another familial association. These mechanisms remain incomplete: more than half of the C3GN subgroup in a modern comprehensively characterized cohort had no identifiable driver. Local glomerular dysregulation is a proposed explanation, not a demonstrated mechanism for that group.",
+          "claimIds": [
+            "claim-c3gn-deposits",
+            "claim-c3gn-renal-presentation",
+            "claim-c3gn-nephritic-stabilization",
+            "claim-c3gn-nephritic-terminal-qualification",
+            "claim-c3gn-cfhr5-protein",
+            "claim-c3gn-cfhr5-binding",
+            "claim-c3gn-cfhr5-not-loss",
+            "claim-c3gn-cfhr5-segregation",
+            "claim-c3gn-cfhr3-1-segregation",
+            "claim-c3gn-modern-unknown"
+          ]
+        },
+        {
+          "text": "Clinical course and treatment response also vary. Stable function in a small native-kidney C3GN series does not negate progression seen in the expanded CFHR5 founder cohort. In mixed-population randomized trials, iptacopan reduced proteinuria versus placebo by 35.1% at six months and pegcetacoplan by 68.1% at week 26; different populations and designs prevent a direct efficacy comparison or isolated C3GN estimate. The original VALIANT analysis did not show a significant histologic activity-score difference and did not formally test subsequent eGFR endpoints. Separately, the August 2026 US pegcetacoplan label includes reducing proteinuria and loss of kidney function in patients aged at least 12 with C3G or primary IC-MPGN; the inspected US iptacopan label covers proteinuria reduction in adults with C3G. Those regulatory statements do not establish lifelong prevention of kidney failure. Both labels warn of serious encapsulated-bacterial infections. This bounded, Consensus-assisted synthesis retains mixed-disease and assay limitations, incomplete screening and pending independent scientific review.",
+          "claimIds": [
+            "claim-c3gn-course-qualification",
+            "claim-c3gn-familial-progression",
+            "claim-c3gn-iptacopan-proteinuria",
+            "claim-c3gn-peg-proteinuria",
+            "claim-c3gn-peg-histology-qualification",
+            "claim-c3gn-peg-us-indication",
+            "claim-c3gn-ipt-us-indication",
+            "claim-c3gn-iptacopan-infection-limit",
+            "claim-c3gn-pegcetacoplan-infection-limit"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "codex-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-15",
+      "evidenceCutoff": "2026-10-15",
+      "graphContentDigest": "caf848e4f9d12aa14ed3614303fe7c6ab84857acf61351dd8e0fe20873f165ed",
+      "baseReleaseId": "c3-glomerulonephritis-summary-candidate-3495bfd77080",
+      "baseContentDigest": "1294baf56ff70975fc51947f6f08c1f0f7e89372b276db20848ad3f499a94946",
+      "inputDigest": "67b26c1308bd1a66a42313872a33dcbc17b899d58d84060b14737bd4f56a9c2f"
+    },
+    "views": [
+      {
+        "id": "view-c3-glomerulonephritis-overview",
+        "contextId": "context-c3gn-overview",
+        "entityCount": 5
+      },
+      {
+        "id": "view-context-c3gn-nephritic-assays",
+        "contextId": "context-c3gn-nephritic-assays",
+        "entityCount": 4
+      },
+      {
+        "id": "view-context-c3gn-anti-fh-assays",
+        "contextId": "context-c3gn-anti-fh-assays",
+        "entityCount": 2
+      },
+      {
+        "id": "view-context-c3gn-familial",
+        "contextId": "context-c3gn-familial",
+        "entityCount": 6
+      },
+      {
+        "id": "view-context-c3gn-modern-drivers",
+        "contextId": "context-c3gn-modern-drivers",
+        "entityCount": 2
+      },
+      {
+        "id": "view-context-c3gn-appear",
+        "contextId": "context-c3gn-appear",
+        "entityCount": 3
+      },
+      {
+        "id": "view-context-c3gn-valiant",
+        "contextId": "context-c3gn-valiant",
+        "entityCount": 4
+      }
+    ]
+  },
+  {
+    "diseaseId": "calciphylaxis",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/calciphylaxis/candidates/calciphylaxis-summary-candidate-9b1e60179c27.json",
+    "baseId": "calciphylaxis-summary-candidate-9b1e60179c27",
+    "baseDigest": "328e540a3c2ba5ec8e4b3ada6c2283f703aa6c6c56a0910bea3f1a7a7ed0090c",
+    "finalPath": "knowledge/diseases/calciphylaxis/candidates/calciphylaxis-summary-candidate-d5f1a8f06f12.json",
+    "finalId": "calciphylaxis-summary-candidate-d5f1a8f06f12",
+    "finalDigest": "d0819a6282a2c4385789b82f2975a0ee36471893d30e42b43231ea643fd145e3",
+    "changed": true,
+    "entityCount": 25,
+    "relationshipCount": 30,
+    "claimCount": 56,
+    "sourceCount": 37,
+    "addedEntities": [
+      "entity-pyrophosphate"
+    ],
+    "addedClaims": [
+      "claim-d817a99bb3f6b3dcca3a",
+      "claim-a2234e93c51e067a6dbd"
+    ],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 25,
+    "totalViewEntityCount": 25,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-d5f1a8f06f12",
+      "status": "pending_external_review",
+      "scope": "A bounded map of calcific uraemic arteriolopathy: mineral-metabolism drivers, calcification-inhibitor deficiency (MGP/vitamin K, fetuin-A), vascular smooth-muscle osteogenic change, arteriolar calcification, thrombosis and skin ischaemic necrosis, plus curated therapies.",
+      "paragraphs": [
+        {
+          "text": "This bounded calciphylaxis map centres on small-vessel calcification together with thrombosis and vascular narrowing in predominantly dialysis-related disease. Human studies associate disease with aspects of mineral metabolism, vitamin K antagonism and reduced calcification-inhibitor activity; cultured smooth-muscle-cell and animal experiments support mechanisms involving phosphate, matrix Gla protein and fetuin-A. Human skin studies link an osteogenic programme with arteriolar mineral deposition and show thrombosis/intimal hyperplasia in lesional skin. Endothelial culture experiments add an inflammatory tissue-factor route to coagulation. The resulting model proposes convergence of calcification and vascular occlusion rather than a sufficient explanation based on mineral deposition alone. A newly added human registry study found lower circulating pyrophosphate in 30 calciphylaxis cases than in 30 matched controls; in its 70-patient cohort, lower levels were also associated with higher short-term mortality. This adds an observational calcification-inhibitor signal without demonstrating that PPi deficiency causes calciphylaxis.",
+          "claimIds": [
+            "claim-cua-mgp-carboxylation-risk",
+            "claim-cua-vka-warfarin-casecontrol",
+            "claim-cua-pth-nigwekar",
+            "claim-cua-phosphate-vsmc-osteogenic",
+            "claim-cua-mgp-knockout-arterial-calcification",
+            "claim-cua-fetuin-a-knockout-calcification",
+            "claim-cua-skin-bmp2-runx2-glumgp",
+            "claim-cua-histo-thrombosis-lesional-only",
+            "claim-cua-histo-intimal-hyperplasia-specific",
+            "claim-cua-il6-tissue-factor-endothelium",
+            "claim-d817a99bb3f6b3dcca3a",
+            "claim-a2234e93c51e067a6dbd"
+          ]
+        },
+        {
+          "text": "Risk-factor findings vary across cohorts: phosphate and parathyroid-hormone results are not uniform, and vascular calcification can occur in clinically normal skin. Observational associations and experimental vascular calcification should not be equated with proven human calciphylaxis causation. Treatment signals are also limited: CALCIPHYX did not meet its wound or pain primary endpoints, uncontrolled sodium-thiosulfate improvement reports do not establish efficacy, and the cited vitamin K trial improved a biomarker without reducing coronary calcification progression. A secondary cinacalcet prevention analysis does not establish treatment of existing lesions. The pyrophosphate study was small, industry-funded and observational, with substantial within-person variability; PPi did not correlate with pain intensity. Raising PPi was not tested, and no treatment benefit is inferred. This is a selected-report local candidate with pending domain review.",
+          "claimIds": [
+            "claim-cua-phosphate-null-japan",
+            "claim-cua-pth-not-key-german-registry",
+            "claim-cua-histo-calcification-in-normal-skin",
+            "claim-hexasodium-fytate-calciphyx-primary",
+            "claim-sodium-thiosulfate-cohort",
+            "claim-vitamin-k1-mechanism-mgp",
+            "claim-cinacalcet-evolve-incidence",
+            "claim-cinacalcet-evolve-vka",
+            "claim-a2234e93c51e067a6dbd"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "codex-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-20",
+      "evidenceCutoff": "2026-10-20",
+      "graphContentDigest": "03e77b513fabd4597e0c16dfa7f79a43a8af32e27641bd788b7e09325c4bd4bb",
+      "baseReleaseId": "calciphylaxis-maintenance-overview-20261020",
+      "baseContentDigest": "7a54f44cd099b83b7e0a43319031beaede401598f3cccb6a215e271f473caa92",
+      "inputDigest": "d5f1a8f06f120a5f9311f62815a0a48a278422e15b1a2f8d2d9704a9c94ceb6b"
+    },
+    "views": [
+      {
+        "id": "view-calciphylaxis-overview",
+        "contextId": "context-calciphylaxis-overview",
+        "entityCount": 25
+      },
+      {
+        "id": "view-research-context-calciphylaxis-overview",
+        "contextId": "context-calciphylaxis-overview",
+        "entityCount": 24
+      }
+    ]
+  },
+  {
+    "diseaseId": "crest-syndrome",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/crest-syndrome/candidates/crest-syndrome-summary-candidate-b57a0717c4a3.json",
+    "baseId": "crest-syndrome-summary-candidate-b57a0717c4a3",
+    "baseDigest": "112a2f0704da6e4d745a823c1ceeaf954d5c59c2bd9b714543159032f6f19909",
+    "finalPath": "knowledge/diseases/crest-syndrome/candidates/crest-syndrome-summary-candidate-b57a0717c4a3.json",
+    "finalId": "crest-syndrome-summary-candidate-b57a0717c4a3",
+    "finalDigest": "112a2f0704da6e4d745a823c1ceeaf954d5c59c2bd9b714543159032f6f19909",
+    "changed": false,
+    "entityCount": 29,
+    "relationshipCount": 30,
+    "claimCount": 35,
+    "sourceCount": 29,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 29,
+    "totalViewEntityCount": 29,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-b57a0717c4a3",
+      "status": "pending_external_review",
+      "scope": "A bounded limited cutaneous systemic sclerosis map: anticentromere autoimmunity, endothelial vasculopathy with a pulmonary arterial hypertension branch, fibroblast activation and calcinosis associations. Raynaud's phenomenon has no supported edge yet. Diffuse cutaneous SSc-specific features, scleroderma renal crisis, morphea and overlap syndromes are out of scope.",
+      "paragraphs": [
+        {
+          "text": "This bounded CREST/limited cutaneous systemic sclerosis map brings together vascular injury, autoimmunity and fibrosis. In the cited cohorts, anticentromere antibodies mark particular clinical and genetic subsets; calcinosis is associated with digital ischaemia, ulcers and other vascular features. Plasmacytoid dendritic-cell activation and CXCL4/type I interferon findings connect immune activity with vascular and fibrotic abnormalities, while CXCL4 impaired endothelial-cell functions in culture. Fibroblast experiments implicate autocrine TGF-beta and integrin signalling in collagen production and the myofibroblast phenotype, with endothelin providing a further experimental connection to fibrosis. These observations suggest interacting vascular, immune and fibrotic processes rather than a demonstrated single initiating cause.",
+          "claimIds": [
+            "claim-crest-hla-ii-aca",
+            "claim-crest-aca-calcinosis",
+            "claim-crest-calcinosis-digital-ischaemia",
+            "claim-crest-calcinosis-digital-ulcers-sctc",
+            "claim-crest-pdc-produce-ifn",
+            "claim-crest-cxcl4-pah",
+            "claim-crest-cxcl4-inhibits-endothelial",
+            "claim-crest-tgfb-autocrine-collagen",
+            "claim-crest-avb3-myofibroblast-phenotype",
+            "claim-crest-et1-fibroblast-collagen"
+          ]
+        },
+        {
+          "text": "Much of this evidence is observational, and several functional experiments concern systemic sclerosis generally, diffuse disease or animal models rather than CREST specifically. Anticentromere positivity did not distinguish pulmonary arterial hypertension within one CREST cohort; other vascular associations should therefore not be promoted to universal causal or predictive rules. The links among ischaemia, calcinosis, fibrosis and organ manifestations remain incompletely established at whole-disease scale. This draft does not synthesize therapy efficacy and requires checking for major omissions within its declared CREST/limited-disease scope, especially where broader systemic-sclerosis findings have been transferred to this subset.",
+          "claimIds": [
+            "claim-crest-aca-pah-null-crest",
+            "claim-crest-il6-elevated-dcssc",
+            "claim-crest-aeca-transfer-ec-apoptosis",
+            "claim-crest-calcinosis-digital-ischaemia",
+            "claim-crest-tgfb-autocrine-collagen"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "causome-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-10",
+      "evidenceCutoff": "2026-10-10",
+      "graphContentDigest": "8b46131b4abd677579681cadece54647ffa6c4962e2eb813e72528a93539230d",
+      "baseReleaseId": "crest-syndrome-appraised-candidate-30d2fc09b9ce",
+      "baseContentDigest": "f0ce0ed21a86ea484954b7761c6ebc2995f7a8a41504daceeec1690b69866a67",
+      "inputDigest": "b57a0717c4a3f43589ab3eba9a980d1a44a75d61769facc93e7da49e40bf7907"
+    },
+    "views": [
+      {
+        "id": "view-crest-syndrome-overview",
+        "contextId": "context-crest-overview",
+        "entityCount": 29
+      }
+    ]
+  },
+  {
+    "diseaseId": "diffuse-systemic-sclerosis",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-summary-candidate-f7786448c91d.json",
+    "baseId": "diffuse-systemic-sclerosis-summary-candidate-f7786448c91d",
+    "baseDigest": "70bced4cbe985957ffdc3d459614c80efb68d9a63bcd97d922b0a7a6b05c7727",
+    "finalPath": "knowledge/diseases/diffuse-systemic-sclerosis/candidates/diffuse-systemic-sclerosis-summary-candidate-f7786448c91d.json",
+    "finalId": "diffuse-systemic-sclerosis-summary-candidate-f7786448c91d",
+    "finalDigest": "70bced4cbe985957ffdc3d459614c80efb68d9a63bcd97d922b0a7a6b05c7727",
+    "changed": false,
+    "entityCount": 31,
+    "relationshipCount": 44,
+    "claimCount": 63,
+    "sourceCount": 22,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 31,
+    "totalViewEntityCount": 31,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-f7786448c91d",
+      "status": "pending_external_review",
+      "scope": "Diffuse cutaneous systemic sclerosis: immune activation, vascular signalling, fibroblast and matrix responses, skin fibrosis, SSc-ILD and renal crisis. Cross-study synthesis retains culture, observation and trial populations; mixed-subset SSc studies are not diffuse-only evidence. Selected therapies; excludes limited cutaneous phenotype, morphea, overlap syndromes and comprehensive organ/therapy coverage.",
+      "paragraphs": [
+        {
+          "text": "Diffuse cutaneous systemic sclerosis combines immune dysregulation, vascular abnormalities and fibrosis, with heterogeneous organ involvement. In early diffuse disease, anti-topoisomerase I antibodies mark greater interstitial lung disease prevalence, while anti-RNA polymerase III antibodies mark more extensive skin involvement and renal crisis; these associations do not prove antibody causation. Patient immune-complex preparations activated endothelial cultures and altered IL-6, TGF-beta and endothelin responses, with important differences among antibody groups. A complementary innate route links plasmacytoid dendritic cells, CXCL4–DNA complexes and interferon amplification. Effector CD8 T-cell IL-13 production correlates with skin fibrosis. Dermal culture experiments connect IL-6 trans-signalling through STAT3 and TGF-beta/SMAD3 to collagen expression, while IL-13/STAT6 can act independently of TGF-beta1. Early untreated skin studies suggest a macrophage–PDGF/TGF-beta–fibroblast vascular niche, although much of that interaction is inferred from spatial and transcriptomic data. Fibroblast and myofibroblast responses converge on matrix production in skin and lung. Renal crisis represents a vascular and kidney-injury branch, often with hypertension; renin abnormalities alone do not predict it.",
+          "claimIds": [
+            "claim-dcssc-ata-ild",
+            "claim-dcssc-ara-skin",
+            "claim-dcssc-ara-src",
+            "claim-dcssc-ic-endothelium",
+            "claim-dcssc-endo-il6",
+            "claim-dcssc-endo-et1",
+            "claim-dcssc-endo-tgfb",
+            "claim-dcssc-pdc-cxcl4",
+            "claim-dcssc-complex-pdc",
+            "claim-dcssc-complex-ifn",
+            "claim-dcssc-cd8-il13",
+            "claim-dcssc-il13-skin",
+            "claim-dcssc-stat6-ecm",
+            "claim-dcssc-il6-stat3",
+            "claim-dcssc-stat3-tgfb",
+            "claim-dcssc-smad-ecm",
+            "claim-dcssc-mac-pdgf",
+            "claim-dcssc-mac-tgfb",
+            "claim-dcssc-pdgf-fibro",
+            "claim-dcssc-lung-ecm",
+            "claim-dcssc-renal-src",
+            "claim-dcssc-src-aki",
+            "claim-dcssc-src-htn",
+            "claim-dcssc-renin-not-predictive"
+          ]
+        },
+        {
+          "text": "This is a cross-study explanation, not a demonstrated universal causal circuit. Cell-culture activity and uncontrolled TGF-beta-blockade biomarkers cannot establish clinical benefit, and skin findings cannot automatically be transferred to lung or kidney. Nintedanib slowed FVC decline in the primary SENSCIS analysis, with missing-data sensitivity and gastrointestinal tolerability limits; skin benefit was not demonstrated. Tocilizumab missed its primary skin endpoint but showed secondary lung-function preservation in selected early inflammatory diffuse disease. Both have verified US adult SSc-ILD indications for slowing pulmonary-function decline. SLS II did not demonstrate mycophenolate superiority over cyclophosphamide; within-arm improvement is not proof of equivalence. ACE inhibitors are guideline-supported at established renal crisis, distinct from prophylaxis, and autologous transplantation has benefits and treatment-related mortality in carefully selected severe diffuse disease. The latter treatments are recorded without claiming SSc-specific regulatory approval. Most sources have abstract-level access; study independence is incompletely established. The IL-13 correction concerns attribution, while the tocilizumab trial has linked corrections requiring further appraisal; current prescribing information independently confirms its indication and overall FVC estimate. Independent scientific review and score calibration remain pending.",
+          "claimIds": [
+            "claim-dcssc-endo-et1-null",
+            "claim-dcssc-endo-tgfb-null",
+            "claim-dcssc-fibro-ecm-null",
+            "claim-dcssc-tgfb-myofibro",
+            "claim-dcssc-myofibro-skin",
+            "claim-dcssc-therapy-nint-fvc",
+            "claim-dcssc-therapy-nint-sensitivity",
+            "claim-dcssc-therapy-nint-skin-null",
+            "claim-dcssc-therapy-toci-fvc",
+            "claim-dcssc-therapy-toci-skin-null",
+            "claim-dcssc-therapy-mmf-fvc",
+            "claim-dcssc-therapy-mmf-comparison",
+            "claim-dcssc-therapy-cyc-toxicity",
+            "claim-dcssc-therapy-ace-src",
+            "claim-dcssc-therapy-hsct-global",
+            "claim-dcssc-therapy-hsct-harm"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "codex-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-17",
+      "evidenceCutoff": "2026-10-17",
+      "graphContentDigest": "8df167a66ca79392afbbd84950b92213c2aa955a2d3bd0388862f2372bf0f9e8",
+      "baseReleaseId": "diffuse-systemic-sclerosis-summary-candidate-a16fa175cddb",
+      "baseContentDigest": "09d332ff4fa37bdbcea1add026eff8270baa8705870d0eb21aea9bd06a164cd9",
+      "inputDigest": "f7786448c91dd9e94c56320d886603c0ef41d0007ac5746f82dbe1dbd2a41f16"
+    },
+    "views": [
+      {
+        "id": "view-diffuse-systemic-sclerosis-overview",
+        "contextId": "context-dcssc-overview",
+        "entityCount": 31
+      }
+    ]
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/iga-nephropathy/candidates/iga-nephropathy-summary-candidate-5bcf0968db75.json",
+    "baseId": "iga-nephropathy-summary-candidate-5bcf0968db75",
+    "baseDigest": "029b0fdd051fae92a8406ef781b72681d8bd5d39584afdb527d76fe7ca572b6b",
+    "finalPath": "knowledge/diseases/iga-nephropathy/candidates/iga-nephropathy-summary-candidate-5bcf0968db75.json",
+    "finalId": "iga-nephropathy-summary-candidate-5bcf0968db75",
+    "finalDigest": "029b0fdd051fae92a8406ef781b72681d8bd5d39584afdb527d76fe7ca572b6b",
+    "changed": false,
+    "entityCount": 8,
+    "relationshipCount": 8,
+    "claimCount": 10,
+    "sourceCount": 5,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 8,
+    "totalViewEntityCount": 8,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-5bcf0968db75",
+      "status": "pending_external_review",
+      "scope": "IgA1 glycosylation, antiglycan antibodies and mesangial signalling, with study-specific limits.",
+      "paragraphs": [
+        {
+          "text": "This bounded IgA nephropathy model follows galactose-deficient IgA1, glycan-specific IgG, immune-complex formation and mesangial responses. Patient-derived IgA1-secreting cultures produced galactose-deficient IgA1, and IL-6 accentuated that glycosylation abnormality in culture. Galactose-deficient IgA1 formed complexes with patient-derived glycan-specific IgG in vitro. Large IgA1-containing complex fractions stimulated cultured mesangial-cell proliferation and ERK signalling; stimulated mesangial cultures also secreted IL-6. These findings motivate a proposed connection between abnormal IgA1, complex-dependent mesangial activation and local inflammatory signalling.",
+          "claimIds": [
+            "claim-iga-cells-gd",
+            "claim-iga-il6-cells",
+            "claim-iga-gd-complex",
+            "claim-iga-igg-complex",
+            "claim-iga-complex-mesangial",
+            "claim-iga-complex-erk",
+            "claim-iga-mesangial-il6"
+          ]
+        },
+        {
+          "text": "Most functional links in this map come from cell-culture experiments rather than intervention in patients. Smaller complex fractions inhibited proliferation, and uncomplexed IgA1 did not significantly alter proliferation, so the complex effect cannot be attributed uniformly to IgA1 alone. Mesangial ERK activation in biopsies was associated with proteinuria and blood pressure, which does not establish its causal contribution to renal injury. The assembled pathway and any feedback interpretation remain provisional; this selected-report map is not a complete account of IgA nephropathy and does not synthesize treatment efficacy. An independent current-literature check should identify major missing mechanisms and any necessary expansion of its scope.",
+          "claimIds": [
+            "claim-iga-size-qualification",
+            "claim-6b874a35ea11211276d1",
+            "claim-iga-erk-kidney",
+            "claim-iga-mesangial-il6"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "causome-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-10",
+      "evidenceCutoff": "2026-10-10",
+      "graphContentDigest": "79961818539f93de0c2273a24344a4e703f084384b2e9c056b5e2717ac98358d",
+      "baseReleaseId": "iga-nephropathy-appraised-candidate-bf0656421814",
+      "baseContentDigest": "33faad932802923425cc2ccd575b2685541223176aeb75ad54e2d1615ece40e8",
+      "inputDigest": "5bcf0968db75e304d10c6528d0f48c942376ed3defd2e81f1bf437099a2c30a3"
+    },
+    "views": [
+      {
+        "id": "view-iga-nephropathy-overview",
+        "contextId": "context-iga-overview",
+        "entityCount": 8
+      },
+      {
+        "id": "view-research-context-iga-overview",
+        "contextId": "context-iga-overview",
+        "entityCount": 8
+      }
+    ]
+  },
+  {
+    "diseaseId": "igg4-related-disease",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/igg4-related-disease/candidates/igg4-related-disease-appraised-candidate-90d22ffa6cee.json",
+    "baseId": "igg4-related-disease-appraised-candidate-90d22ffa6cee",
+    "baseDigest": "bb4d3c665a3ab3745fd7fba00fec0d83511a42f16ae2daef0a9d17ecb6804d33",
+    "finalPath": "knowledge/diseases/igg4-related-disease/candidates/igg4-related-disease-appraised-candidate-90d22ffa6cee.json",
+    "finalId": "igg4-related-disease-appraised-candidate-90d22ffa6cee",
+    "finalDigest": "bb4d3c665a3ab3745fd7fba00fec0d83511a42f16ae2daef0a9d17ecb6804d33",
+    "changed": false,
+    "entityCount": 14,
+    "relationshipCount": 13,
+    "claimCount": 17,
+    "sourceCount": 7,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 14,
+    "totalViewEntityCount": 14,
+    "views": [
+      {
+        "id": "view-igg4-related-disease-overview",
+        "contextId": "context-igg4-immune-overview",
+        "entityCount": 14
+      }
+    ]
+  },
+  {
+    "diseaseId": "membranous-nephropathy",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-a6d97ad77a83.json",
+    "baseId": "membranous-nephropathy-summary-candidate-a6d97ad77a83",
+    "baseDigest": "ad55638557f0588b5b948ee5bfd7e8c088409c64ed3183d400941722dfdde2c2",
+    "finalPath": "knowledge/diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-6c64ff75abce.json",
+    "finalId": "membranous-nephropathy-summary-candidate-6c64ff75abce",
+    "finalDigest": "3df1e4da6b6d6f018a8f088a70f0eada4b028dc6fc77cbda8036781a626fd2be",
+    "changed": true,
+    "entityCount": 19,
+    "relationshipCount": 33,
+    "claimCount": 48,
+    "sourceCount": 22,
+    "addedEntities": [],
+    "addedClaims": [
+      "claim-447deef38fffa4d83328",
+      "claim-40c9c27b0960c6aac6ed"
+    ],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 19,
+    "totalViewEntityCount": 19,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-6c64ff75abce",
+      "status": "pending_external_review",
+      "scope": "Bounded primary (autoantibody-mediated) membranous nephropathy map: podocyte target antigens (PLA2R1, THSD7A and other recently described antigens) lumped as one shared antigen-antibody mechanism, subepithelial immune-complex formation, complement activation, podocyte injury and nephrotic proteinuria. Secondary membranous nephropathy (lupus, malignancy, infection, drug-associated) and therapy efficacy are excluded.",
+      "paragraphs": [
+        {
+          "text": "Primary membranous nephropathy shares an antigen-specific podocyte autoantibody principle, but antigen-defined subtypes differ in frequency, serology and clinical associations and are increasingly treated as partly distinct entities. Autoantibodies, IgG4-predominant though not IgG4-exclusive, bind a podocyte-associated antigen, not all of which are cell-surface proteins: PLA2R in most inspected adult cases, THSD7A in a smaller PLA2R-negative subgroup, NELL-1 in selected PLA2R-negative cases, and semaphorin 3B, HTRA1 or rarer putative targets beyond those. The evidence differs in kind by antigen: deposit-eluted IgG recognized PLA2R and THSD7A, patient sera recognized NELL-1, semaphorin 3B and HTRA1, and the seven putative mass-spectrometry targets were recovered from immune complexes and co-localized with IgG in the deposits without comparable serological evidence. Anti-PLA2R levels tracked clinical status and proteinuria, and epitope spreading beyond the cysteine-rich domain was an independent risk factor for poor renal outcome. HLA-DQA1 and PLA2R1 risk loci were associated with biopsy-proven disease in white-ancestry cohorts.",
+          "claimIds": [
+            "claim-065e1f1c23c5679f0e5d",
+            "claim-0e65740d949364fa04bd",
+            "claim-82c2f8d64ae5ce463e1d",
+            "claim-a6ad51744269d096b196",
+            "claim-aae28bbc8ee563aacf89",
+            "claim-bb2c8166601246cbeb2c",
+            "claim-mn-antigen-rarity-cohort",
+            "claim-mn-hla-risk",
+            "claim-mn-htra1-deposits",
+            "claim-mn-htra1-igg4",
+            "claim-mn-pla2r-eluate",
+            "claim-mn-pla2r-igg4",
+            "claim-mn-pla2r-podocyte",
+            "claim-mn-pla2r-tissue-serum",
+            "claim-mn-pla2r1-locus",
+            "claim-mn-sema3b-deposits",
+            "claim-mn-thsd7a-antibody",
+            "claim-mn-thsd7a-podocyte"
+          ]
+        },
+        {
+          "text": "Antigen-specific rodent models supply directional evidence: podocyte expression of human PLA2R1 produced antibodies, deposits and nephrotic syndrome, lymphocyte-deficient animals developed neither, and Thsd7a-knockout mice resisted antibody transfer. These do not establish one human effector route. Patient-biopsy assays detected all three complement initiation pathways, with proximity assays favouring the classical pathway; factor-B-null mice were protected and lectin-pathway blockade preserved slit proteins in culture. A newly added retrospective comparison of 17 PLA2R-associated and nine NELL1-associated cases found lower C3 and C4d deposition in NELL1 disease. Deposition is not functional activation, proteomic complement differences were not significant, and this study did not test slit-diaphragm injury. Effector evidence also differs by system: C5b-9 was required for slit-protein proteolysis in culture and C5 deficiency partly reduced albuminuria, while membrane-attack-complex inhibition did not restore albumin permselectivity on a glomerulus-on-a-chip and anti-THSD7A antibodies injured podocytes in C3-deficient mice. These non-exclusive pathways differ by subtype, assay and experimental system; none is established as universal. The under-1-to-4.9% frequencies concern seven putative targets, not NELL-1. In a separate 70-person NELL1 series only 11% lacked known secondary associations, including drugs, autoimmunity or malignancy. NELL1 identity does not establish primary disease; its inclusion is bounded and provisional against mixed literature, with secondary associations excluded. Evidence rests on agent-inspected abstracts; therapy efficacy and independent domain review remain outside the completed work.",
+          "claimIds": [
+            "claim-05e1cbbe5126050e880d",
+            "claim-0e7c34d3bd5609cd5a0c",
+            "claim-38142dc48a9ad32cd0aa",
+            "claim-a803298ba5f7d97ef850",
+            "claim-mn-alternative-in-tissue",
+            "claim-mn-c3ar-proteinuria",
+            "claim-mn-c3ar-proteolysis",
+            "claim-mn-c5-partial",
+            "claim-mn-c5b9-proteolysis",
+            "claim-mn-classical-dominant",
+            "claim-mn-complement-independent",
+            "claim-mn-complement-slit-loss",
+            "claim-mn-factor-b-c3",
+            "claim-mn-factor-b-deposition",
+            "claim-mn-lectin-in-tissue",
+            "claim-mn-lectin-slit-protection",
+            "claim-mn-lymphocyte-requirement",
+            "claim-mn-mac-dispensable",
+            "claim-mn-pla2r-deposit-formation",
+            "claim-mn-pla2r-transgenic",
+            "claim-mn-putative-rarity",
+            "claim-mn-thsd7a-required",
+            "claim-mn-thsd7a-slit-loss",
+            "claim-447deef38fffa4d83328",
+            "claim-40c9c27b0960c6aac6ed"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "codex-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-20",
+      "evidenceCutoff": "2026-10-20",
+      "graphContentDigest": "2d4f9f97ffe47b2403383c032f19e4c132d1fb1bff86c83b9d2e542563a4449a",
+      "baseReleaseId": "membranous-nephropathy-appraised-candidate-10418184175e",
+      "baseContentDigest": "8edabe662895f2037766ec51e78dac0818eaec23cd978813348797ac910c91c2",
+      "inputDigest": "6c64ff75abce08db46aaf001323b5daab38bf0f96b938b6839f59160d02a5023"
+    },
+    "views": [
+      {
+        "id": "view-membranous-nephropathy-overview",
+        "contextId": "context-mn-primary",
+        "entityCount": 19
+      },
+      {
+        "id": "view-research-context-mn-primary",
+        "contextId": "context-mn-primary",
+        "entityCount": 19
+      }
+    ]
+  },
+  {
+    "diseaseId": "minimal-change-nephropathy",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-08ba4223dd93.json",
+    "baseId": "minimal-change-nephropathy-summary-candidate-08ba4223dd93",
+    "baseDigest": "6b14c7cea37c38f58baf04e98bb927829699998d3286921191b371a42ebcfd51",
+    "finalPath": "knowledge/diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-a323b9cfac8b.json",
+    "finalId": "minimal-change-nephropathy-summary-candidate-a323b9cfac8b",
+    "finalDigest": "0583713c1ed4908abb441a7c257ac056ecf7f30e225e12996700ae14d3da330a",
+    "changed": true,
+    "entityCount": 11,
+    "relationshipCount": 15,
+    "claimCount": 23,
+    "sourceCount": 15,
+    "addedEntities": [
+      "entity-hemopexin-activity"
+    ],
+    "addedClaims": [
+      "claim-082fee567064e84da41d",
+      "claim-3816cebd7c651f8cd1f5",
+      "claim-735fc6733f590ae4742f",
+      "claim-e0af84816a76533ec517"
+    ],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 11,
+    "totalViewEntityCount": 11,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-a323b9cfac8b",
+      "status": "pending_external_review",
+      "scope": "A bounded immune-mediated podocytopathy map of primary minimal change nephropathy: anti-nephrin autoantibodies with humoral and Th2 associations, observational hemopexin activity, T-cell and cytokine (IL-8, IL-13) observations, experimental antibody and IL-13 models, foot-process effacement and nephrotic syndrome. Excludes secondary causes, genetics, other glomerulopathies and treatment efficacy; CD80, CTLA-4 and ANGPTL4 evidence is not yet curated.",
+      "paragraphs": [
+        {
+          "text": "Primary minimal change disease (MCD) is represented here as an immune-associated podocytopathy with heterogeneous upstream pathogenesis, foot-process effacement and nephrotic proteinuria. Anti-nephrin autoantibodies identify a subset: one multicentre cohort detected them in 44% of adults with MCD and 69% with active untreated disease. Levels tracked activity and proteinuria, fell during remission and reappeared before relapse; human antibody detection remains quantitatively inconsistent. A cell-based assay cohort detected antibodies in 7/36 adults with MCD (19.44%); another pediatric/young-adult cohort found 15% MCD and 11% FSGS positivity. Anti-nephrin is neither universal nor specific to MCD. Human biopsy findings associate antibodies with podocyte IgG. Nephrin immunization in mice induced an MCD-like syndrome, nephrin phosphorylation and podocyte cytoskeletal changes. Patient IgG transferred to a rabbit caused proteinuria, effacement without deposits and nephrin phosphorylation. These experiments demonstrate injury in selected models; human assay results do not establish a settled causal mechanism or explain antibody-negative disease. Anti-nephrin-positive patients also had IgG4 predominance, Th2-skewed cytokines and a non-significant plasmablast trend; their sequence is unresolved. A human study found higher hemopexin protease activity despite lower hemopexin concentration during MCD relapse, compared with remission. This supplies a separate observational circulating-factor signal, not proof that hemopexin causes human MCD.",
+          "claimIds": [
+            "claim-mcn-effacement",
+            "claim-mcn-proteinuria",
+            "claim-mcn-nephrin-binding",
+            "claim-a9c66d9c4dbf14e9c985",
+            "claim-752c0fa90752124ee5ac",
+            "claim-8629a80bf0b22765dbe0",
+            "claim-38f8b449b4f161ab7cc3",
+            "claim-mcn-podocyte-igg",
+            "claim-a199c497ee3d5f9a738f",
+            "claim-8d53c27ed61b9dd11dbf",
+            "claim-b8a151e40af92a23da1d",
+            "claim-mcn-b-cell-antibody",
+            "claim-291f597fce434705af39",
+            "claim-082fee567064e84da41d",
+            "claim-3816cebd7c651f8cd1f5",
+            "claim-735fc6733f590ae4742f"
+          ]
+        },
+        {
+          "text": "A two-cohort methodology study found method- and antigen-dependent false positives and negatives: approximately half of 24 MCD samples had weak signals detectable only by immunoprecipitation-Western blotting, while strong cross-assay signals occurred in two FSGS samples. Assay standardization and orthogonal confirmation therefore matter; human seropositivity cannot be equated with pathogenic antibody activity. The rabbit experiment used total IgG from one patient in one recipient, rather than purified nephrin-specific antibody. The hemopexin comparison included 18 relapsing patients and 23 in post-prednisolone remission, leaving treatment and stage confounding; its tissue assay did not establish in vivo causation. Peripheral CD4 activation remains associative. IL-13 overexpression caused albuminuria, effacement and nephrin/B7-1 changes in rats; effects remain model-dependent, not uniformly pathogenic or necessary in humans. Urinary IL-8 rose in relapse, yet the same report did not support a disease-specific IL-8/TNF-alpha role under tested conditions. No upstream factor is established as universal. Concurrent steroid-induced remission and antibody clearance do not isolate a treatment mediator. Secondary causes, other glomerulopathies and treatment efficacy are excluded. Human and animal graph contexts remain distinct; most sources were inspected at abstract level, with domain review and calibration pending.",
+          "claimIds": [
+            "claim-a9c66d9c4dbf14e9c985",
+            "claim-8d53c27ed61b9dd11dbf",
+            "claim-mcn-cd4-activation",
+            "claim-4c7839f11e1d778cd2e0",
+            "claim-1b2df1569d0306d35c74",
+            "claim-mcn-il8-relapse",
+            "claim-mcn-il8-qualification",
+            "claim-mcn-effacement",
+            "claim-0e1ac86fd026f4605e38",
+            "claim-082fee567064e84da41d",
+            "claim-e0af84816a76533ec517"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "codex-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-20",
+      "evidenceCutoff": "2026-10-20",
+      "graphContentDigest": "8be5d1c4a703f0bc0750cdd286a574f3c759ca426f86b3650f9edbb00760cdf6",
+      "baseReleaseId": "minimal-change-nephropathy-appraised-candidate-bb4c9bd6ada7",
+      "baseContentDigest": "79a9c7d7f04998627e376e53535a3a11503cde63215e3b87f29f4123a84bc990",
+      "inputDigest": "a323b9cfac8b4c29349c7cf4a40871fd45bdecfadc0790d1b1e489f090a51a43"
+    },
+    "views": [
+      {
+        "id": "view-minimal-change-nephropathy-overview",
+        "contextId": "context-mcn-overview",
+        "entityCount": 11
+      },
+      {
+        "id": "view-research-context-mcn-overview",
+        "contextId": "context-mcn-overview",
+        "entityCount": 11
+      },
+      {
+        "id": "view-research-context-mcn-experimental",
+        "contextId": "context-mcn-experimental",
+        "entityCount": 5
+      }
+    ]
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/pre-eclampsia/candidates/pre-eclampsia-summary-candidate-980515be46a7.json",
+    "baseId": "pre-eclampsia-summary-candidate-980515be46a7",
+    "baseDigest": "a958e582014c622f9f582fb36bea452e5ec7bca00dbf1195daf5c08e37781c4c",
+    "finalPath": "knowledge/diseases/pre-eclampsia/candidates/pre-eclampsia-summary-candidate-980515be46a7.json",
+    "finalId": "pre-eclampsia-summary-candidate-980515be46a7",
+    "finalDigest": "a958e582014c622f9f582fb36bea452e5ec7bca00dbf1195daf5c08e37781c4c",
+    "changed": false,
+    "entityCount": 26,
+    "relationshipCount": 31,
+    "claimCount": 41,
+    "sourceCount": 30,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 26,
+    "totalViewEntityCount": 26,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-980515be46a7",
+      "status": "pending_external_review",
+      "scope": "A bounded pre-eclampsia map: defective placentation and placental ischaemia/oxidative stress, the antiangiogenic sFlt-1/soluble endoglin/PlGF axis, maternal endothelial dysfunction with renal, hepatic and cerebral end-organ outcomes, and immune/complement/AT1 autoantibody contributions. Chronic hypertension without pre-eclampsia, gestational hypertension alone, postpartum-onset disease, screening performance and therapy efficacy are out of scope.",
+      "paragraphs": [
+        {
+          "text": "This bounded pre-eclampsia map connects placental dysfunction with maternal vascular and renal manifestations. Placental-bed biopsies associate affected pregnancies with impaired spiral-artery remodelling; maternal KIR/fetal HLA-C associations and decidual NK-cell experiments suggest immune contributions to placentation. Placental hypoxia-reoxygenation experiments generate oxidative stress and inflammatory output. Excess placental sFlt-1 and reduced free VEGF/PlGF are linked with the antiangiogenic state, while serum/cell experiments and pregnant-animal models support routes to endothelial dysfunction, hypertension, proteinuria and glomerular injury. Soluble endoglin, AT1-receptor agonistic antibodies and complement findings add candidate contributing pathways rather than establishing a single explanation for every case.",
+          "claimIds": [
+            "claim-pe-impaired-spiral-artery-remodelling",
+            "claim-pe-kir-aa-fetal-c2-risk",
+            "claim-pe-unk-kir2ds1-trophoblast-migration",
+            "claim-pe-ischaemia-reperfusion-oxidative-stress",
+            "claim-pe-hr-placental-tnf-secretion",
+            "claim-pe-sflt1-placental-excess",
+            "claim-pe-sflt1-endothelial-dysfunction-in-vitro",
+            "claim-pe-sflt1-rat-hypertension",
+            "claim-pe-seng-rat-hellp",
+            "claim-pe-at1aa-transfer-mice",
+            "claim-pe-complement-c5b9-urine"
+          ]
+        },
+        {
+          "text": "Human associations, cultured tissues and animal perturbations support different parts of this synthesis, but do not establish the assembled pathway as sufficient or universal in patients. The angiogenic disturbance is less pronounced in late-onset disease; isolated HELLP and some term eclampsia cases do not share the same circulating profile. Endotheliosis is not specific to pre-eclampsia, AT1 autoantibodies also occur in some normotensive pregnancies, and endothelial findings vary between studies. Several stored abstracts have missing statistical text or uninspected corrections, limiting interpretation. Treatment efficacy is outside this summary. A current-literature review should test the overall explanation, heterogeneity and missing central pathways while preserving these uncertainties.",
+          "claimIds": [
+            "claim-pe-sflt1-late-onset-weaker",
+            "claim-pe-isolated-hellp-low-angiogenic",
+            "claim-pe-eclampsia-term-normal-profile",
+            "claim-pe-endotheliosis-normal-pregnancy",
+            "claim-pe-at1aa-also-in-normotensive",
+            "claim-pe-fmd-not-attenuated",
+            "claim-pe-sflt1-prospective-rise",
+            "claim-pe-seng-prospective-rise"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "causome-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-10",
+      "evidenceCutoff": "2026-10-10",
+      "graphContentDigest": "47b1b0824ec95f6585c4c2267a8e432d6b3822ac668006a3eb36fc13d667624b",
+      "baseReleaseId": "pre-eclampsia-appraised-candidate-41278c06c087",
+      "baseContentDigest": "7f47946e9eefb4831f5bdeb673bfbc70ba68af7643e38d89e6c31e1fbad2aefb",
+      "inputDigest": "980515be46a794dcfe125e6d9a82d84f19ce1922c804d5e67c1e2a3354c66a07"
+    },
+    "views": [
+      {
+        "id": "view-pre-eclampsia-overview",
+        "contextId": "context-pre-eclampsia-overview",
+        "entityCount": 26
+      }
+    ]
+  },
+  {
+    "diseaseId": "primary-fsgs",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/primary-fsgs/candidates/primary-fsgs-summary-candidate-c0afb63eed8a.json",
+    "baseId": "primary-fsgs-summary-candidate-c0afb63eed8a",
+    "baseDigest": "aafab97ce80a809950be139d4fb14a56d1840cda978b7156b73aee99bf0b02f3",
+    "finalPath": "knowledge/diseases/primary-fsgs/candidates/primary-fsgs-summary-candidate-c0afb63eed8a.json",
+    "finalId": "primary-fsgs-summary-candidate-c0afb63eed8a",
+    "finalDigest": "aafab97ce80a809950be139d4fb14a56d1840cda978b7156b73aee99bf0b02f3",
+    "changed": false,
+    "entityCount": 17,
+    "relationshipCount": 14,
+    "claimCount": 23,
+    "sourceCount": 12,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 3,
+    "totalViewEntityCount": 17,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-c0afb63eed8a",
+      "status": "pending_external_review",
+      "scope": "Bounded circulating-factor/immune primary FSGS and separate APOL1-associated kidney injury branch; excludes other genetic, adaptive, viral and drug-associated FSGS. APOL1-associated disease is not classified as idiopathic primary FSGS.",
+      "paragraphs": [
+        {
+          "text": "This bounded map separates circulating-factor/immune primary FSGS from genetically susceptible APOL1-associated kidney injury. In recurrent primary FSGS, patient serum increased albumin permeability in isolated glomeruli, supporting a circulating-activity hypothesis without identifying a universal factor. Anti-nephrin reactivity was reported in a minority of primary FSGS patients, while suPAR and anti-CD40 pathways contributed to injury in selected human podocyte cultures. The separate APOL1 branch links interferon-induced channel activity in human podocytes and G1-associated sodium/potassium transport in experimental cells to injury in transgenic mouse models. Podocyte-depletion experiments in rats connect loss of these cells to proteinuria and segmental sclerosis as a final injury pathway; they do not establish the initiating cause in human primary FSGS.",
+          "claimIds": [
+            "claim-fsgs-serum-permeability",
+            "claim-fsgs-factor-recurrence",
+            "claim-fsgs-nephrin-fsgs",
+            "claim-fsgs-supar-culture",
+            "claim-fsgs-cd40-culture",
+            "claim-fsgs-ifng-current",
+            "claim-fsgs-apol1-current",
+            "claim-fsgs-current-injury",
+            "claim-fsgs-loss-sclerosis",
+            "claim-fsgs-loss-protein"
+          ]
+        },
+        {
+          "text": "These branches are provisional and cannot be assembled into one demonstrated human causal circuit. Anti-nephrin findings conflict across cohorts and assay systems: a 2026 study found similarly low reactivity in patients and controls with human-cell-derived antigen, challenging broad disease specificity. A negative serum suPAR study likewise limits biomarker generalization without directly refuting culture toxicity. Inaxaplin inhibited APOL1 channels experimentally and was associated with reduced proteinuria in a small, uncontrolled 13-week phase 2a trial; long-term randomized kidney benefit is not established by that report. DUPLEX showed greater proteinuria reduction with sparsentan but no significant overall eGFR-slope advantage. The verified US sparsentan indication covers patients aged eight years and older with FSGS without nephrotic syndrome, so it must not be extrapolated to nephrotic primary FSGS. Source inspection was predominantly at abstract level; the 2026-10-17 cutoff records retrieval, not exhaustive screening. Newer inaxaplin sponsor-reported results and comprehensive immunosuppressive therapy evidence remain uncurated, and independent current-literature review is pending.",
+          "claimIds": [
+            "claim-fsgs-nephrin-null",
+            "claim-fsgs-nephrin-china",
+            "claim-fsgs-supar-null",
+            "claim-fsgs-inax-channel",
+            "claim-fsgs-therapy-inax-protein",
+            "claim-fsgs-spar-protein",
+            "claim-fsgs-spar-egfr",
+            "claim-fsgs-spar-label"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "codex-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-17",
+      "evidenceCutoff": "2026-10-17",
+      "graphContentDigest": "28271cb3b09059a36dde90a03c2734408f0c7a136fada346912ea2eb9adbe83a",
+      "baseReleaseId": "primary-fsgs-summary-candidate-96cc690f2e0c",
+      "baseContentDigest": "bc3cccab542976e946924fe9649010affb68e75a480410eb2ec4814b37eb8f4a",
+      "inputDigest": "c0afb63eed8a5014412e19ebf5101204bb69ee84ede046ccbfcbe934293f7fd9"
+    },
+    "views": [
+      {
+        "id": "view-context-fsgs-serum",
+        "contextId": "context-fsgs-serum",
+        "entityCount": 3
+      },
+      {
+        "id": "view-context-fsgs-nephrin",
+        "contextId": "context-fsgs-nephrin",
+        "entityCount": 2
+      },
+      {
+        "id": "view-context-fsgs-immune",
+        "contextId": "context-fsgs-immune",
+        "entityCount": 5
+      },
+      {
+        "id": "view-context-fsgs-apol1",
+        "contextId": "context-fsgs-apol1",
+        "entityCount": 4
+      },
+      {
+        "id": "view-context-fsgs-apol1-mouse",
+        "contextId": "context-fsgs-apol1-mouse",
+        "entityCount": 2
+      },
+      {
+        "id": "view-context-fsgs-inaxaplin",
+        "contextId": "context-fsgs-inaxaplin",
+        "entityCount": 2
+      },
+      {
+        "id": "view-context-fsgs-depletion",
+        "contextId": "context-fsgs-depletion",
+        "entityCount": 3
+      },
+      {
+        "id": "view-context-fsgs-duplex",
+        "contextId": "context-fsgs-duplex",
+        "entityCount": 2
+      }
+    ]
+  },
+  {
+    "diseaseId": "sjogren-disease",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/sjogren-disease/candidates/sjogren-disease-summary-candidate-b62d8ddf75f2.json",
+    "baseId": "sjogren-disease-summary-candidate-b62d8ddf75f2",
+    "baseDigest": "3d35a4879fea41de595ad3bcf23ad15fdf137f5cde40f5af2ae998d9bea3162e",
+    "finalPath": "knowledge/diseases/sjogren-disease/candidates/sjogren-disease-summary-candidate-b62d8ddf75f2.json",
+    "finalId": "sjogren-disease-summary-candidate-b62d8ddf75f2",
+    "finalDigest": "3d35a4879fea41de595ad3bcf23ad15fdf137f5cde40f5af2ae998d9bea3162e",
+    "changed": false,
+    "entityCount": 17,
+    "relationshipCount": 21,
+    "claimCount": 31,
+    "sourceCount": 15,
+    "addedEntities": [],
+    "addedClaims": [],
+    "ratingChanges": [],
+    "defaultViewEntityCount": 17,
+    "totalViewEntityCount": 17,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-b62d8ddf75f2",
+      "status": "pending_external_review",
+      "scope": "Primary Sjögren glandular mechanisms, with explicitly labelled human-cell and mouse findings and selected treatment-trial evidence through 2026-10-17. Historical GC cohort primary-only composition is unresolved; dazodalibep includes associated RA/SLE. Excludes a complete lacrimal, genetic, stromal, lymphoma or extraglandular model and comprehensive therapy guidance.",
+      "paragraphs": [
+        {
+          "text": "This bounded Sjögren map connects epithelial and immune activation around type I interferon and BAFF. In human-cell experiments, patient-serum autoantibodies to RNA-binding proteins and dying-cell material generated an RNA-containing immune-complex stimulus for plasmacytoid dendritic cells. Interferon-producing cells and interferon-responsive gene expression were observed in affected glands, while interferons induced epithelial BAFF secretion in culture. BAFF regulates B-cell survival; glandular B-cell aggregates can organise into ectopic germinal centres associated with local anti-Ro/SSA and anti-La/SSB production in a subset of biopsies. Together these findings suggest amplification between immune cells and epithelium, rather than proving a complete causal loop in every patient. A complementary human tissue study found selective seromucous acinar-cell loss alongside GZMK-positive CD8 T-cell accumulation; functional assays linked GZMK to epithelial interferon signalling. Salivary dysfunction and clinical dryness are represented, but direct lacrimal mechanisms remain incompletely curated.",
+          "claimIds": [
+            "claim-sjd-antibody-complex",
+            "claim-sjd-debris-complex",
+            "claim-sjd-complex-pdc",
+            "claim-sjd-pdc-ifn",
+            "claim-sjd-ifn-epithelium",
+            "claim-sjd-epithelium-baff",
+            "claim-sjd-baff-bcells",
+            "claim-sjd-bcells-gc",
+            "claim-sjd-gc-ssa",
+            "claim-sjd-cd8-acinar",
+            "claim-sjd-gzmk-ifn",
+            "claim-sjd-epithelium-saliva",
+            "claim-sjd-saliva-sicca"
+          ]
+        },
+        {
+          "text": "Important limits remain: BAFF secretion after interferon stimulation did not significantly differ between patient and control cultures, BAFF/GC associations were not uniformly positive, and human AQP5 localisation studies conflicted. BAFF-overexpressing and early pDC-depletion mouse experiments support mechanisms in those systems, not sufficiency or reversibility in established human disease. Ianalumab met its phase 2b model-based dose-response objective, although the individual 300 mg comparison crossed the null. Dazodalibep improved phase 2 systemic activity and a symptom composite in populations partly including associated RA/SLE, limiting primary-only inference. Later sponsor phase III updates are development evidence, not complete peer-reviewed efficacy appraisals or approval. TRACTISS found no significant rituximab benefit for its primary fatigue/oral-dryness endpoint despite a secondary salivary-flow improvement. The selected therapies remain experimental for the mapped Sjögren indication; no treatment recommendation follows from targeting these pathways. Most sources were inspected at abstract level, study independence is incompletely established, and independent scientific review and score calibration remain pending.",
+          "claimIds": [
+            "claim-sjd-ifna-baff-null",
+            "claim-sjd-epithelium-aqp5",
+            "claim-sjd-epithelium-aqp5-null",
+            "claim-sjd-baff-saliva",
+            "claim-sjd-pdc-saliva",
+            "claim-sjd-ianalumab-activity",
+            "claim-sjd-ianalumab-comparison",
+            "claim-sjd-dazodalibep-activity",
+            "claim-sjd-dazodalibep-symptoms",
+            "claim-sjd-rituximab-null",
+            "claim-sjd-rituximab-saliva",
+            "claim-sjd-baff-ssa"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "codex-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-17",
+      "evidenceCutoff": "2026-10-17",
+      "graphContentDigest": "553900eb91edf5ccf80c8a1be2c627e10017d9b0b96a2c2ba3bf8465e115885f",
+      "baseReleaseId": "sjogren-disease-summary-candidate-32a3820313d7",
+      "baseContentDigest": "71d38b7a745fcb90404cdc23f3ae82e2a2426ced81d0508b223d74e5e2134e9e",
+      "inputDigest": "b62d8ddf75f270d6e663932acebd2380582d773ec2f6906545b33509e494a667"
+    },
+    "views": [
+      {
+        "id": "view-sjogren-disease-overview",
+        "contextId": "context-sjd-consolidated",
+        "entityCount": 17
+      }
+    ]
+  },
+  {
+    "diseaseId": "sle",
+    "basePath": "/Users/asanga/Documents/Projects/causome/knowledge/diseases/sle/candidates/sle-summary-candidate-f3c3742263d5.json",
+    "baseId": "sle-summary-candidate-f3c3742263d5",
+    "baseDigest": "838249cbf80a8a9de5bb0051d91d24bbc91fd9fa64aa013aa7c2b6543c720161",
+    "finalPath": "knowledge/diseases/sle/candidates/sle-summary-candidate-904291fc29fb.json",
+    "finalId": "sle-summary-candidate-904291fc29fb",
+    "finalDigest": "f9be34698291844f0295d2c302b4e4ca1bfeee108133e1108df67c245713f940",
+    "changed": true,
+    "entityCount": 22,
+    "relationshipCount": 28,
+    "claimCount": 42,
+    "sourceCount": 18,
+    "addedEntities": [
+      "entity-curli-dna"
+    ],
+    "addedClaims": [
+      "claim-d4e4e467a2d76a39ace2",
+      "claim-4d9c103b676f83c8bd56"
+    ],
+    "ratingChanges": [
+      {
+        "assessmentId": "assessment-entity-baff",
+        "before": {
+          "weight": 45,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 30,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-clearance",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 15,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-debris",
+        "before": {
+          "weight": 25,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 15,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-rna",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 30,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-dna",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 30,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-variant",
+        "before": {
+          "weight": 40,
+          "confidence": 2,
+          "leverage": null
+        },
+        "after": {
+          "weight": 30,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-tlr7",
+        "before": {
+          "weight": 55,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 40,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-tlr9",
+        "before": {
+          "weight": 40,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 30,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-pdc",
+        "before": {
+          "weight": 45,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 35,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-ifn",
+        "before": {
+          "weight": 45,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 40,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-ifnar",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": null,
+          "confidence": 0,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-monocytes",
+        "before": {
+          "weight": 35,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 30,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-b_cells",
+        "before": {
+          "weight": 40,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 35,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-plasmablasts",
+        "before": {
+          "weight": 40,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 30,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-plasma",
+        "before": {
+          "weight": 40,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 35,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-il6",
+        "before": {
+          "weight": 40,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 30,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-autoantibodies",
+        "before": {
+          "weight": 25,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 35,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-complexes",
+        "before": {
+          "weight": 45,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 40,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-fcr",
+        "before": {
+          "weight": 40,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 30,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-entity-kidney",
+        "before": {
+          "weight": 35,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 30,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-relationship-clearance-debris",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 15,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-relationship-debris-complexes",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 15,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-relationship-rna-complexes",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 35,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-relationship-dna-complexes",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 35,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-relationship-antibodies-complexes",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 35,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-relationship-ifn-ifnar",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": null,
+          "confidence": 0,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-relationship-variant-tlr7",
+        "before": {
+          "weight": 40,
+          "confidence": 2,
+          "leverage": null
+        },
+        "after": {
+          "weight": 35,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-relationship-plasma-antibodies",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 15,
+          "confidence": 1,
+          "leverage": null
+        }
+      },
+      {
+        "assessmentId": "assessment-relationship-complexes-kidney",
+        "before": {
+          "weight": 20,
+          "confidence": 1,
+          "leverage": null
+        },
+        "after": {
+          "weight": 10,
+          "confidence": 1,
+          "leverage": null
+        }
+      }
+    ],
+    "defaultViewEntityCount": 22,
+    "totalViewEntityCount": 22,
+    "summary": {
+      "version": 1,
+      "revisionId": "summary-904291fc29fb",
+      "status": "pending_external_review",
+      "scope": "A bounded nucleic-acid, interferon and B-cell circuit with a renal injury branch.",
+      "paragraphs": [
+        {
+          "text": "This bounded SLE model connects self-reactive antibodies and nucleic-acid-containing immune complexes with innate sensing and B-cell responses. In the cited culture systems, RNA- and DNA-containing complexes stimulate TLR7- or TLR9-dependent plasmacytoid dendritic-cell interferon production. Type I interferon can increase monocyte BAFF release and promote stages of B-cell differentiation; BAFF and enhanced TLR7 signalling support B-cell survival in the cited mouse models. Autoantibody-producing cells and immune complexes provide a proposed route connecting these processes. A newly added anti-C1q mouse study, distinct from the separate Z-DNA/curli preprint, shows that bacterial biofilm curli/DNA exposure can increase anti-C1q and selected anti-dsDNA responses, adding an experimental upstream route into autoantibody production. The existing renal branch places deposited immune complexes upstream of Fc-receptor-dependent inflammation in lupus-prone mice.",
+          "claimIds": [
+            "claim-antibodies-complexes",
+            "claim-complexes-tlr7",
+            "claim-complexes-tlr9",
+            "claim-pdc-ifn",
+            "claim-ifn-baff",
+            "claim-baff-bcells",
+            "claim-tlr7-bcells",
+            "claim-bcells-blasts",
+            "claim-il6-plasma",
+            "claim-plasma-antibodies",
+            "claim-complexes-fcr",
+            "claim-fcr-kidney",
+            "claim-d4e4e467a2d76a39ace2"
+          ]
+        },
+        {
+          "text": "The evidence spans human observations, cell cultures and animal models; it does not establish a universal, self-sufficient causal circuit for every SLE phenotype. Curli effects depended on mouse strain and disease stage: already-high responses in late-disease NZBxW/F1 mice did not increase further, and proteinuria did not significantly increase in either lupus-prone model at the measured timepoints. The biofilm experiment does not establish infection as a cause of human SLE or prove worsening nephritis. Reduced apoptotic clearance remains a proposed initiating route, TLR9 can have different effects across models, and renal immune-complex deposition alone did not produce severe nephritis in an Fc-receptor-deficient model. The cited belimumab and anifrolumab trials support selected clinical outcomes and populations, while anifrolumab and enpatoran programmes include negative primary endpoints. Target engagement, an approved indication and benefit across all manifestations remain distinct conclusions.",
+          "claimIds": [
+            "claim-clearance-debris",
+            "claim-debris-complexes",
+            "claim-tlr9-context",
+            "claim-renal-not-sufficient",
+            "claim-belimumab-trial",
+            "claim-anifrolumab-trial",
+            "claim-anifrolumab-negative",
+            "claim-enpatoran-negative",
+            "claim-4d9c103b676f83c8bd56"
+          ]
+        }
+      ],
+      "authoredBy": {
+        "id": "codex-curation-agent",
+        "kind": "agent"
+      },
+      "authoredAt": "2026-10-20",
+      "evidenceCutoff": "2026-10-20",
+      "graphContentDigest": "795559a0bab63ef43f3f8fae53b3af641fe22e60013cff7cb4620f6d3b3c1f5d",
+      "baseReleaseId": "sle-summary-candidate-ecc3504a7a24",
+      "baseContentDigest": "9784dcafda50b0cf259e11a3d9f7d0ef29ab29de312987ebcfdf2439edd4c204",
+      "inputDigest": "904291fc29fb78f624f67b8a99977f82d0e0b9c781d6526d7ed82cc55e9a6278"
+    },
+    "views": [
+      {
+        "id": "view-sle-overview",
+        "contextId": "context-sle-overview",
+        "entityCount": 22
+      },
+      {
+        "id": "view-sle-circuit",
+        "contextId": "context-sle-overview",
+        "entityCount": 9
+      },
+      {
+        "id": "view-sle-upstream",
+        "contextId": "context-sle-overview",
+        "entityCount": 9
+      },
+      {
+        "id": "view-sle-renal",
+        "contextId": "context-sle-overview",
+        "entityCount": 3
+      },
+      {
+        "id": "view-research-context-sle-overview",
+        "contextId": "context-sle-overview",
+        "entityCount": 22
+      }
+    ]
+  }
+]

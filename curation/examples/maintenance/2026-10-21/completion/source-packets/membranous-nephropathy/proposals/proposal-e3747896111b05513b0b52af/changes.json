@@ -1,0 +1,515 @@
+[
+  {
+    "collection": "release",
+    "id": "release-metadata",
+    "kind": "changed",
+    "fields": [
+      "id",
+      "revisionId",
+      "changeSetRevision",
+      "releaseNote",
+      "manifest"
+    ],
+    "before": {
+      "id": "membranous-nephropathy-appraised-candidate-49b97ca92fc2",
+      "revisionId": "membranous-nephropathy-appraised-candidate-49b97ca92fc2-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "membranous-nephropathy",
+      "title": "Membranous nephropathy",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Bounded primary membranous nephropathy map. PLA2R1, THSD7A and the further reported podocyte target antigens are lumped into one shared antigen-autoantibody mechanism because the inspected evidence describes the same route: IgG4-predominant autoantibodies against a podocyte antigen, subepithelial immune deposits, glomerular complement activation and slit-diaphragm injury with nephrotic proteinuria. Secondary membranous nephropathy, therapy efficacy, diagnostic validation and antigen-specific clinical associations are outside this scope, and the relative importance of the complement initiation and effector routes is contested in the cited evidence.",
+      "diseaseAliases": [
+        "MN",
+        "primary membranous nephropathy",
+        "idiopathic membranous nephropathy"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-20",
+      "changeSetRevision": "appraisal-49b97ca92fc27f18acf2836464e238d197e281471ff61ca36423a1995bb5f45e",
+      "releaseNote": "Provisional automatic appraisal of membranous-nephropathy-candidate-a515bbf76574. Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted. Independent review and calibration remain pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "2ab5bc4255cc8294242e99e0ba4513c4ba936abbb23af88b4c76c20d9c6bfc6d"
+      }
+    },
+    "after": {
+      "id": "membranous-nephropathy-maintenance-overview-20261020",
+      "revisionId": "membranous-nephropathy-maintenance-overview-20261020-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "membranous-nephropathy",
+      "title": "Membranous nephropathy",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Bounded primary membranous nephropathy map. PLA2R1, THSD7A and the further reported podocyte target antigens are lumped into one shared antigen-autoantibody mechanism because the inspected evidence describes the same route: IgG4-predominant autoantibodies against a podocyte antigen, subepithelial immune deposits, glomerular complement activation and slit-diaphragm injury with nephrotic proteinuria. Secondary membranous nephropathy, therapy efficacy, diagnostic validation and antigen-specific clinical associations are outside this scope, and the relative importance of the complement initiation and effector routes is contested in the cited evidence.",
+      "diseaseAliases": [
+        "MN",
+        "primary membranous nephropathy",
+        "idiopathic membranous nephropathy"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-20",
+      "changeSetRevision": "membranous-nephropathy-maintenance-overview-20261020",
+      "releaseNote": "Local maintenance: antigen-subtype complement-deposition qualification; complete overview. Abstract-level observational evidence; domain review pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "0e6ad944a622ba9055e30abfd3078446bd070fb0bfb2e9be99ea332dade3128f"
+      }
+    }
+  },
+  {
+    "collection": "mapViews",
+    "id": "view-membranous-nephropathy-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "entityIds",
+      "relationshipIds",
+      "assessmentIds"
+    ],
+    "before": {
+      "id": "view-membranous-nephropathy-overview",
+      "revisionId": "view-membranous-nephropathy-overview-67c4dfb19a8a",
+      "status": "candidate",
+      "label": "Antigen-antibody, complement and podocyte injury in primary membranous nephropathy",
+      "contextId": "context-mn-primary",
+      "entityIds": [
+        "entity-mn-pla2r1",
+        "entity-mn-thsd7a",
+        "entity-mn-minor-antigens",
+        "entity-mn-autoantibody",
+        "entity-mn-podocyte",
+        "entity-mn-deposits",
+        "entity-mn-classical-pathway",
+        "entity-mn-lectin-pathway",
+        "entity-mn-alternative-pathway",
+        "entity-mn-c3-activation",
+        "entity-mn-c3a-c3ar",
+        "entity-mn-c5b9",
+        "entity-mn-slit-diaphragm",
+        "entity-mn-proteinuria",
+        "entity-mn-hla-dqa1",
+        "entity-mn-lymphocytes"
+      ],
+      "relationshipIds": [
+        "relationship-bd26503b8dc0dca203c6",
+        "relationship-dece49645ef6c5fbb9c6",
+        "relationship-4f0e226828a899e6ee1f",
+        "relationship-2b5ae52029df4af679bf",
+        "relationship-dcf64ceb35f3e4df4d85",
+        "relationship-92888bde12691db506c9",
+        "relationship-c28cd2e0b126325c44e1",
+        "relationship-992946dbc723bd1a9920",
+        "relationship-280d55ed9fc211a28221",
+        "relationship-9588e53aa2133377ac2a",
+        "relationship-6256d08330977b4c1a1d",
+        "relationship-c99053f93263e9a95491",
+        "relationship-8a0e90b839827ece189f",
+        "relationship-151bc505e73d99873cb0",
+        "relationship-ad98d5484bbec72aa10a",
+        "relationship-8dc8c42f6a11343a9418",
+        "relationship-9355222a2bbffbc7b543",
+        "relationship-de0f70a846c7d4b59f30",
+        "relationship-5e8a829c1f2209427f54",
+        "relationship-81c615818715e053f200",
+        "relationship-69627f2436b5da3757e6",
+        "relationship-c1c4cfea37fdf1d5d3bd",
+        "relationship-9a0a50a5b4a17266260e",
+        "relationship-c037a7edcdfc8e660bbe",
+        "relationship-6f33b931e2668c14d038",
+        "relationship-42471227303d4340ff1f"
+      ],
+      "assessmentIds": [
+        "assessment-13564c0aa1e431e2ff16",
+        "assessment-a17eeb52dde0120b53de",
+        "assessment-a435afbde2b2b2363a73",
+        "assessment-b97113650d2777356d6d",
+        "assessment-52c8d5ea34daf970a799",
+        "assessment-eaa0dabae53fae24ddef",
+        "assessment-2a0f7658152aa7b7235b",
+        "assessment-a2a9e6ed9d7a165ca42d",
+        "assessment-3c3266178cf40047dd80",
+        "assessment-230af8cbf2e0ef22634d",
+        "assessment-2c8e3b1c339474a8030c",
+        "assessment-4167fe7faa1f5b2b2d8d",
+        "assessment-ec1407e7e8549e8de91b",
+        "assessment-daff9f2000baacdf13d5",
+        "assessment-6b0ac8be7d47b5aea986",
+        "assessment-b26e23250a71e93db5b6",
+        "assessment-2bca59c756bf92f29815",
+        "assessment-e83087c6ce4bdec728d6",
+        "assessment-522b0f96722fc795be35",
+        "assessment-1cc21e3e240872f33d5f",
+        "assessment-e808f1c321defe3efafd",
+        "assessment-7f32320c56b6a756c478",
+        "assessment-b2e9a3aadcc08a04dab9",
+        "assessment-1feb3e7ec6a4c5279aba",
+        "assessment-e5ff3aa5b5b68ba99386",
+        "assessment-5a5dd5fc9093c160c905",
+        "assessment-570eb7000e2bdd60f635",
+        "assessment-85b6a40bec4da4447562",
+        "assessment-860469db0e58e1d62865",
+        "assessment-ab3e2ab609cd8476cda9",
+        "assessment-86146b4af390b7b2b21b",
+        "assessment-d17595a9e259d9629994",
+        "assessment-b528f2c498ab21a8e40f",
+        "assessment-1372c1aec2dcfa1ea2a9",
+        "assessment-31cf822dcf8ab29ed0cd",
+        "assessment-656c18e5960a49d6d1e9",
+        "assessment-9e4e6ac3ccdf991763af",
+        "assessment-b85d6286104be3dd24a4",
+        "assessment-cf10b33123c6c1ef91d6",
+        "assessment-e49fb0a2fb92a6e619fd",
+        "assessment-6fb95784c415de23f345",
+        "assessment-1ad167c894a6598ef245"
+      ],
+      "layoutId": "layout-membranous-nephropathy-overview",
+      "groups": [
+        {
+          "id": "group-mn-complement-initiation",
+          "label": "Complement initiation pathways",
+          "entityIds": [
+            "entity-mn-classical-pathway",
+            "entity-mn-lectin-pathway",
+            "entity-mn-alternative-pathway"
+          ],
+          "collapsed": false
+        }
+      ]
+    },
+    "after": {
+      "id": "view-membranous-nephropathy-overview",
+      "revisionId": "view-membranous-nephropathy-overview-maintenance-20261020",
+      "status": "candidate",
+      "label": "Antigen-antibody, complement and podocyte injury in primary membranous nephropathy",
+      "contextId": "context-mn-primary",
+      "entityIds": [
+        "entity-mn-pla2r1",
+        "entity-mn-thsd7a",
+        "entity-mn-minor-antigens",
+        "entity-mn-autoantibody",
+        "entity-mn-podocyte",
+        "entity-mn-deposits",
+        "entity-mn-classical-pathway",
+        "entity-mn-lectin-pathway",
+        "entity-mn-alternative-pathway",
+        "entity-mn-c3-activation",
+        "entity-mn-c3a-c3ar",
+        "entity-mn-c5b9",
+        "entity-mn-slit-diaphragm",
+        "entity-mn-proteinuria",
+        "entity-mn-hla-dqa1",
+        "entity-mn-lymphocytes",
+        "entity-mn-nell1",
+        "entity-mn-epitope-spreading",
+        "entity-mn-igg1-3"
+      ],
+      "relationshipIds": [
+        "relationship-bd26503b8dc0dca203c6",
+        "relationship-dece49645ef6c5fbb9c6",
+        "relationship-4f0e226828a899e6ee1f",
+        "relationship-2b5ae52029df4af679bf",
+        "relationship-dcf64ceb35f3e4df4d85",
+        "relationship-92888bde12691db506c9",
+        "relationship-c28cd2e0b126325c44e1",
+        "relationship-992946dbc723bd1a9920",
+        "relationship-280d55ed9fc211a28221",
+        "relationship-9588e53aa2133377ac2a",
+        "relationship-6256d08330977b4c1a1d",
+        "relationship-c99053f93263e9a95491",
+        "relationship-8a0e90b839827ece189f",
+        "relationship-151bc505e73d99873cb0",
+        "relationship-ad98d5484bbec72aa10a",
+        "relationship-8dc8c42f6a11343a9418",
+        "relationship-9355222a2bbffbc7b543",
+        "relationship-de0f70a846c7d4b59f30",
+        "relationship-5e8a829c1f2209427f54",
+        "relationship-81c615818715e053f200",
+        "relationship-69627f2436b5da3757e6",
+        "relationship-c1c4cfea37fdf1d5d3bd",
+        "relationship-9a0a50a5b4a17266260e",
+        "relationship-c037a7edcdfc8e660bbe",
+        "relationship-6f33b931e2668c14d038",
+        "relationship-42471227303d4340ff1f",
+        "relationship-92a61c3760a7ca3d9cab",
+        "relationship-38ef4d229d2a5530c4d6",
+        "relationship-1da4f5f30d41f06e0463",
+        "relationship-ce4202af5bc9436d9446",
+        "relationship-b656fa621e4102bf722e",
+        "relationship-f9521db45b48305b494e",
+        "relationship-88ce6f501856ce1c370c"
+      ],
+      "assessmentIds": [
+        "assessment-13564c0aa1e431e2ff16",
+        "assessment-a17eeb52dde0120b53de",
+        "assessment-a435afbde2b2b2363a73",
+        "assessment-b97113650d2777356d6d",
+        "assessment-52c8d5ea34daf970a799",
+        "assessment-eaa0dabae53fae24ddef",
+        "assessment-2a0f7658152aa7b7235b",
+        "assessment-a2a9e6ed9d7a165ca42d",
+        "assessment-3c3266178cf40047dd80",
+        "assessment-230af8cbf2e0ef22634d",
+        "assessment-2c8e3b1c339474a8030c",
+        "assessment-4167fe7faa1f5b2b2d8d",
+        "assessment-ec1407e7e8549e8de91b",
+        "assessment-daff9f2000baacdf13d5",
+        "assessment-6b0ac8be7d47b5aea986",
+        "assessment-b26e23250a71e93db5b6",
+        "assessment-2bca59c756bf92f29815",
+        "assessment-e83087c6ce4bdec728d6",
+        "assessment-522b0f96722fc795be35",
+        "assessment-1cc21e3e240872f33d5f",
+        "assessment-e808f1c321defe3efafd",
+        "assessment-7f32320c56b6a756c478",
+        "assessment-b2e9a3aadcc08a04dab9",
+        "assessment-1feb3e7ec6a4c5279aba",
+        "assessment-e5ff3aa5b5b68ba99386",
+        "assessment-5a5dd5fc9093c160c905",
+        "assessment-570eb7000e2bdd60f635",
+        "assessment-85b6a40bec4da4447562",
+        "assessment-860469db0e58e1d62865",
+        "assessment-ab3e2ab609cd8476cda9",
+        "assessment-86146b4af390b7b2b21b",
+        "assessment-d17595a9e259d9629994",
+        "assessment-b528f2c498ab21a8e40f",
+        "assessment-1372c1aec2dcfa1ea2a9",
+        "assessment-31cf822dcf8ab29ed0cd",
+        "assessment-656c18e5960a49d6d1e9",
+        "assessment-9e4e6ac3ccdf991763af",
+        "assessment-b85d6286104be3dd24a4",
+        "assessment-cf10b33123c6c1ef91d6",
+        "assessment-e49fb0a2fb92a6e619fd",
+        "assessment-6fb95784c415de23f345",
+        "assessment-1ad167c894a6598ef245",
+        "assessment-relationship-92a61c3760a7ca3d9cab",
+        "assessment-3d1fe7d44b4aa7c7785a",
+        "assessment-relationship-38ef4d229d2a5530c4d6",
+        "assessment-relationship-1da4f5f30d41f06e0463",
+        "assessment-a7137d768989b50243e6",
+        "assessment-relationship-ce4202af5bc9436d9446",
+        "assessment-5aab5836eed496458e4a",
+        "assessment-relationship-b656fa621e4102bf722e",
+        "assessment-relationship-f9521db45b48305b494e",
+        "assessment-relationship-88ce6f501856ce1c370c"
+      ],
+      "layoutId": "layout-membranous-nephropathy-overview",
+      "groups": [
+        {
+          "id": "group-mn-complement-initiation",
+          "label": "Complement initiation pathways",
+          "entityIds": [
+            "entity-mn-classical-pathway",
+            "entity-mn-lectin-pathway",
+            "entity-mn-alternative-pathway"
+          ],
+          "collapsed": false
+        }
+      ]
+    }
+  },
+  {
+    "collection": "layouts",
+    "id": "layout-membranous-nephropathy-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "positions"
+    ],
+    "before": {
+      "id": "layout-membranous-nephropathy-overview",
+      "revisionId": "layout-membranous-nephropathy-overview-67c4dfb19a8a",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-mn-hla-dqa1",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-mn-pla2r1",
+          "x": 360,
+          "y": 0
+        },
+        {
+          "entityId": "entity-mn-thsd7a",
+          "x": 360,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-minor-antigens",
+          "x": 360,
+          "y": 300
+        },
+        {
+          "entityId": "entity-mn-lymphocytes",
+          "x": 0,
+          "y": 240
+        },
+        {
+          "entityId": "entity-mn-autoantibody",
+          "x": 740,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-podocyte",
+          "x": 740,
+          "y": 360
+        },
+        {
+          "entityId": "entity-mn-deposits",
+          "x": 1100,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-classical-pathway",
+          "x": 1460,
+          "y": 0
+        },
+        {
+          "entityId": "entity-mn-lectin-pathway",
+          "x": 1460,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-alternative-pathway",
+          "x": 1460,
+          "y": 300
+        },
+        {
+          "entityId": "entity-mn-c3-activation",
+          "x": 1820,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-c3a-c3ar",
+          "x": 2160,
+          "y": 40
+        },
+        {
+          "entityId": "entity-mn-c5b9",
+          "x": 2160,
+          "y": 260
+        },
+        {
+          "entityId": "entity-mn-slit-diaphragm",
+          "x": 2520,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-proteinuria",
+          "x": 2880,
+          "y": 150
+        }
+      ]
+    },
+    "after": {
+      "id": "layout-membranous-nephropathy-overview",
+      "revisionId": "layout-membranous-nephropathy-overview-maintenance-20261020",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-mn-hla-dqa1",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-mn-pla2r1",
+          "x": 360,
+          "y": 0
+        },
+        {
+          "entityId": "entity-mn-thsd7a",
+          "x": 360,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-minor-antigens",
+          "x": 360,
+          "y": 300
+        },
+        {
+          "entityId": "entity-mn-lymphocytes",
+          "x": 0,
+          "y": 240
+        },
+        {
+          "entityId": "entity-mn-autoantibody",
+          "x": 740,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-podocyte",
+          "x": 740,
+          "y": 360
+        },
+        {
+          "entityId": "entity-mn-deposits",
+          "x": 1100,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-classical-pathway",
+          "x": 1460,
+          "y": 0
+        },
+        {
+          "entityId": "entity-mn-lectin-pathway",
+          "x": 1460,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-alternative-pathway",
+          "x": 1460,
+          "y": 300
+        },
+        {
+          "entityId": "entity-mn-c3-activation",
+          "x": 1820,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-c3a-c3ar",
+          "x": 2160,
+          "y": 40
+        },
+        {
+          "entityId": "entity-mn-c5b9",
+          "x": 2160,
+          "y": 260
+        },
+        {
+          "entityId": "entity-mn-slit-diaphragm",
+          "x": 2520,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-proteinuria",
+          "x": 2880,
+          "y": 150
+        },
+        {
+          "entityId": "entity-mn-nell1",
+          "x": 360,
+          "y": 450
+        },
+        {
+          "entityId": "entity-mn-epitope-spreading",
+          "x": 740,
+          "y": -180
+        },
+        {
+          "entityId": "entity-mn-igg1-3",
+          "x": 1100,
+          "y": -180
+        }
+      ]
+    }
+  }
+]

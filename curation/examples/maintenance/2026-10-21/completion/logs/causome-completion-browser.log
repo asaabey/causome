@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "membranous-nephropathy",
+    "candidateId": "membranous-nephropathy-summary-candidate-32b3afbfc619",
+    "contentDigest": "9ef1d6d630b3a04cf05413a246905e421b8f921fdaf7e3441bbf00ccc6b06867",
+    "status": 200,
+    "mechanismCount": "Showing 19/19 entities · 33/33 relationships",
+    "summaryMatches": true,
+    "packetMatches": true,
+    "pageErrors": [],
+    "overflow": false
+  },
+  {
+    "slug": "minimal-change-nephropathy",
+    "candidateId": "minimal-change-nephropathy-summary-candidate-246a97550dfc",
+    "contentDigest": "9b24082847ca4943ba15577bc34a3dee20310ba2710040dad4080f44d2178fe9",
+    "status": 200,
+    "mechanismCount": "Showing 11/11 entities · 10/15 relationships",
+    "summaryMatches": true,
+    "packetMatches": true,
+    "pageErrors": [],
+    "overflow": false
+  },
+  {
+    "mobile": "calciphylaxis",
+    "overflow": false
+  }
+]

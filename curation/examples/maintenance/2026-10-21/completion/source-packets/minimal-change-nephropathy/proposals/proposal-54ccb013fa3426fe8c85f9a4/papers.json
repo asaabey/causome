@@ -1,0 +1,28 @@
+[
+  {
+    "key": "doi-f4022f33400ef1bb3784",
+    "identifiers": [
+      "DOI:10.1007/s00467-005-1936-3",
+      "MED:16079987",
+      "PMID:16079987"
+    ],
+    "title": "Altered activity of plasma hemopexin in patients with minimal change disease in relapse.",
+    "authors": "Bakker WW, van Dael CM, Pierik LJ, van Wijk JA, Nauta J, Borghuis T, Kapojos JJ.",
+    "publishedAt": "2005-08-04",
+    "journal": "Pediatric nephrology (Berlin, Germany)",
+    "abstract": "Since an active isoform of plasma hemopexin (Hx) has been proposed to be a potential effector molecule in minimal change disease (MCD), we tested plasma and urine samples from subjects with MCD in relapse (n = 18) or in remission (n = 23) (after treatment with prednisolone) for presence or activity of Hx. For comparison, plasma or urine from proteinuric subjects with focal and segmental glomerulosclerosis (FSGS, n = 11), membranoproliferative glomerulonephritis (MPGN, n = 9), IgA nephropathy (n = 5) or healthy control donors (n = 10), were incorporated into the study. Electrophoresis and Western blotting methods were used for evaluation of the Hx status, whereas protease activity of Hx was tested upon kidney tissue in vitro according to standard methods. The results show (1) a decreased mean titer of plasma Hx exclusively in MCD relapse subjects as compared with MCD in remission (0.21+/-0.14 mg/ml vs 0.44+/-0.06 mg/ml; p < 0.01). Mean Hx titers in other proteinuric subjects ranged from 0.38+/-0.05 mg/ml to 0.40+/- 0.06 mg/ml, whereas, the mean titer of healthy controls was 0.59+/-0.03 mg Hx/ml; (2) an increased Hx activity (expressed in arbitrary units) exclusively in plasma from MCD relapse subjects (3.3+/-0.72 vs 1.16+/-0.56, MCD remission; p < 0.01); (3) different Western blot patterns in MCD relapse vs remission plasma; (4) reduced stainability or virtual absence of the 80-kD Hx band in blots of urine from MCD relapse in contrast to urine samples from other proteinuric subjects with FSGS, MPGN, or IgA nephropathy. It is concluded that Hx in MCD relapse subjects may exist in an altered isoform, showing enhanced protease activity as compared with subjects in remission, subjects with other forms of primary glomerulopathy, or healthy control individuals.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16079987/",
+    "doi": "10.1007/s00467-005-1936-3",
+    "pmid": "16079987",
+    "pmcid": null,
+    "accessScope": "Agent-inspected Europe PMC primary-report abstract and bibliographic/notice metadata on 2026-10-20 UTC; publisher full text not accessed. PubMed browser access failed; exact provider abstract retained. No human review.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-21",
+    "lastCheckedAt": "2026-10-21",
+    "reviewedAt": null
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "diseaseId": "sle",
+  "baseReleaseId": "sle-maintenance-overview-20261020",
+  "baseContentDigest": "72a69a11381dd324494b3b824e20b657a426029c219c6e892f52ade049b0a926",
+  "scope": "A bounded nucleic-acid, interferon and B-cell circuit with a renal injury branch.",
+  "authoredBy": {
+    "id": "codex-curation-agent",
+    "kind": "agent"
+  },
+  "authoredAt": "2026-10-20",
+  "paragraphs": [
+    {
+      "text": "This bounded SLE model connects self-reactive antibodies and nucleic-acid-containing immune complexes with innate sensing and B-cell responses. In the cited culture systems, RNA- and DNA-containing complexes stimulate TLR7- or TLR9-dependent plasmacytoid dendritic-cell interferon production. Type I interferon can increase monocyte BAFF release and promote stages of B-cell differentiation; BAFF and enhanced TLR7 signalling support B-cell survival in the cited mouse models. Autoantibody-producing cells and immune complexes provide a proposed route connecting these processes. A newly added mouse study shows that bacterial biofilm curli/DNA exposure can increase anti-C1q and selected anti-dsDNA responses, adding an experimental upstream route into autoantibody production. The existing renal branch places deposited immune complexes upstream of Fc-receptor-dependent inflammation in lupus-prone mice.",
+      "claimIds": [
+        "claim-antibodies-complexes",
+        "claim-complexes-tlr7",
+        "claim-complexes-tlr9",
+        "claim-pdc-ifn",
+        "claim-ifn-baff",
+        "claim-baff-bcells",
+        "claim-tlr7-bcells",
+        "claim-bcells-blasts",
+        "claim-il6-plasma",
+        "claim-plasma-antibodies",
+        "claim-complexes-fcr",
+        "claim-fcr-kidney",
+        "claim-d4e4e467a2d76a39ace2"
+      ]
+    },
+    {
+      "text": "The evidence spans human observations, cell cultures and animal models; it does not establish a universal, self-sufficient causal circuit for every SLE phenotype. Curli effects depended on mouse strain and disease stage: already-high responses in late-disease NZBxW/F1 mice did not increase further, and proteinuria did not significantly increase in either lupus-prone model at the measured timepoints. The biofilm experiment does not establish infection as a cause of human SLE or prove worsening nephritis. Reduced apoptotic clearance remains a proposed initiating route, TLR9 can have different effects across models, and renal immune-complex deposition alone did not produce severe nephritis in an Fc-receptor-deficient model. The cited belimumab and anifrolumab trials support selected clinical outcomes and populations, while anifrolumab and enpatoran programmes include negative primary endpoints. Target engagement, an approved indication and benefit across all manifestations remain distinct conclusions.",
+      "claimIds": [
+        "claim-clearance-debris",
+        "claim-debris-complexes",
+        "claim-tlr9-context",
+        "claim-renal-not-sufficient",
+        "claim-belimumab-trial",
+        "claim-anifrolumab-trial",
+        "claim-anifrolumab-negative",
+        "claim-enpatoran-negative",
+        "claim-4d9c103b676f83c8bd56"
+      ]
+    }
+  ]
+}

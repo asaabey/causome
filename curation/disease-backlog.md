@@ -35,6 +35,8 @@ Behçet’s disease: [Local candidate selected 2026-10-17; 38 entities, 52 relat
 
 All 16 registered diseases have selected local candidates: ANCA-associated vasculitis, anti-GBM disease, atypical haemolytic uraemic syndrome, C3 glomerulonephritis, calciphylaxis, Behçet’s disease, CREST syndrome, diffuse cutaneous systemic sclerosis, IgA nephropathy, IgG4-related disease, membranous nephropathy, minimal change nephropathy, pre-eclampsia, primary FSGS with APOL1 branch, Sjögren disease, and SLE. The registry profiles under `knowledge/diseases/` identify the exact selected candidates. Review and consolidation gaps remain disease-specific; aHUS's cloud coverage has not been established for every older map.
 
+The [2026-10-21 continuation handoff](examples/maintenance/2026-10-21/completion/handoff.md) records successful retrieval for all 16 maps and selected local revisions for ANCA-associated vasculitis, calciphylaxis, SLE, membranous nephropathy and minimal change nephropathy. Final MN and MCD summaries received external feedback consistent with caveats after source-checked revisions. Scientific processing remains incomplete: 3,557 current records remain deferred, and 20 earlier deferred records are carried forward. Calciphylaxis source-access/citation disagreements are documented; domain review and calibration remain pending. The [first-pass handoff](examples/maintenance/2026-10-21/handoff.md) is preserved as history.
+
 ---
 
 ## 1. Sjögren disease

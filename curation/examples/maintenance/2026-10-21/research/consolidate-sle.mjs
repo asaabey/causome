@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import {contentDigest} from '../../../../scripts/validation.mjs';
+const d='curation/workspace/maintenance-research/2026-10-21';
+const b=JSON.parse(fs.readFileSync('knowledge/diseases/sle/candidates/sle-appraised-candidate-681273ee935d.json'));
+b.id='sle-maintenance-overview-20261020'; b.revisionId=b.id+'-r1'; b.changeSetRevision='sle-maintenance-overview-20261020';
+b.releaseNote='Local maintenance candidate: bacterial curli/DNA autoantibody induction in mouse experiments, with stage-dependent and renal null findings. Consolidated overview includes all entities; domain review remains pending.';
+const view=b.mapViews.find(v=>v.id==='view-sle-overview');
+view.label='Consolidated SLE mechanisms · mixed study systems';view.revisionId='view-sle-overview-maintenance-20261020';
+view.entityIds=b.entities.map(e=>e.id);
+view.relationshipIds=b.relationships.filter(r=>r.contextId===view.contextId).map(r=>r.id);
+view.assessmentIds=b.assessments.filter(a=>a.contextId===view.contextId && [...view.entityIds,...view.relationshipIds].includes(a.subjectId)).map(a=>a.id);
+const layout=b.layouts.find(l=>l.id===view.layoutId);layout.revisionId='layout-sle-overview-maintenance-20261020';layout.positions.push({entityId:'entity-curli-dna',x:1940,y:-250});
+b.mapViews=[view,...b.mapViews.filter(v=>v.id!==view.id)];
+b.manifest.contentDigest=contentDigest(b);
+fs.writeFileSync(`${d}/sle-overview-proposal.json`,JSON.stringify(b,null,2)+'\n');

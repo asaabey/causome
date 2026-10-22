@@ -1,0 +1,532 @@
+{
+  "anca-associated-vasculitis": {
+    "doi-b58d9cc9f925dd5f3995": [
+      "irrelevant/non-contributory",
+      "Adjunctive avacopan case series in eight adolescents; five improved and three progressed. Treatment efficacy is excluded from this map, and uncontrolled observations cannot establish efficacy or a new mechanism.",
+      "abstract"
+    ],
+    "doi-eae91fa70fe0773aa931": [
+      "irrelevant/non-contributory",
+      "Secondary pathogenesis and diagnostic review; no primary finding extracted.",
+      "abstract"
+    ],
+    "pmc-pmc13657220": [
+      "duplicate",
+      "Same title and PMC identity as the selected MED/DOI complement profiling record; one study, not independent replication.",
+      "metadata"
+    ],
+    "doi-5d5660d642f0a30d1b11": [
+      "qualifies/refines",
+      "Added a source-checked human observational qualification to the alternative-complement/renal-injury relationship. Tissue transcription is not a functional activation assay and does not establish causation or treatment response.",
+      "full text: Methods, Results, Discussion"
+    ],
+    "doi-3b2132160eb99529bf8a": [
+      "irrelevant/non-contributory",
+      "Retrospective radiomics/clinical prognosis model; predictive performance does not add a mechanistic assertion.",
+      "abstract"
+    ],
+    "doi-43d99d94dbad39530d26": [
+      "irrelevant/non-contributory",
+      "Observational avacopan cohort; treatment efficacy excluded from this map, concomitant treatment and lack of randomization limit causal attribution.",
+      "abstract"
+    ],
+    "doi-3c2666b887cd5faaea73": [
+      "irrelevant/non-contributory",
+      "EGPA anti-IL5 treatment cohort; therapy efficacy excluded. Steroid reduction and eosinophil counts do not require a new mechanistic node.",
+      "abstract"
+    ],
+    "doi-596e48089974156338f9": [
+      "supports an existing assertion",
+      "Small whole-blood transcriptomic comparison (12 AAV, 10 GCA) is compatible with shared innate/complement inflammation but did not explain disease-specific phenotypes; no functional pathway evidence or map change.",
+      "abstract"
+    ],
+    "doi-1516680a8d81f8961b41": [
+      "irrelevant/non-contributory",
+      "ANCA-positive lupus nephritis cohort, outside GPA/MPA and EGPA map populations; no transfer of association to primary AAV.",
+      "abstract"
+    ],
+    "doi-5e93559bfc468caa0e23": [
+      "irrelevant/non-contributory",
+      "Previously screened 2018 secondary review; retained provider preprint flag. No primary assertion or notice affecting a cited base claim.",
+      "abstract"
+    ]
+  },
+  "anti-gbm-disease": {
+    "doi-093b01ba16688695ae98": [
+      "supports an existing assertion",
+      "Autopsy double-positive case is compatible with existing renal and pulmonary injury branches. Single coexistent MPO-ANCA/anti-GBM case cannot isolate either mechanism; no new claim.",
+      "abstract"
+    ],
+    "doi-5e004ddf14585dd5dda1": [
+      "irrelevant/non-contributory",
+      "Sequential clinically presumed AAV/anti-GBM case without renal biopsy; proposed injury-to-autoimmunity mechanism remains hypothetical, insufficient for a new mechanistic edge.",
+      "abstract"
+    ],
+    "doi-7d0a2a247a67a0a6f201": [
+      "deferred",
+      "Adjunctive eculizumab series includes five anti-GBM patients but no control group, with nonsignificant proteinuria/hematuria changes. Cannot establish efficacy. Retain for future therapy-context evaluation; no new therapy or regulatory status asserted.",
+      "abstract"
+    ],
+    "doi-912aa4e782b8679785c9": [
+      "irrelevant/non-contributory",
+      "ICU mortality/outcomes cohort across decades; prognostic and service-treatment associations do not add a mechanism.",
+      "abstract"
+    ],
+    "doi-21b7cfc4826fa8546cea": [
+      "irrelevant/non-contributory",
+      "Mixed crescentic-GN demography/prognosis cohort; no distinct mechanistic finding. Provider preprint flag retained without assuming peer-review status.",
+      "abstract"
+    ],
+    "doi-3a8b629f58067ef40c9b": [
+      "irrelevant/non-contributory",
+      "RDF data-linkage technical proof of concept; anti-GBM is an example dataset, not a biological finding.",
+      "abstract"
+    ],
+    "doi-e423f7e56dcffc55d6d5": [
+      "irrelevant/non-contributory",
+      "Glioblastoma GBM acronym false positive; outside disease scope.",
+      "abstract"
+    ]
+  },
+  "atypical-hus": {
+    "med-42892718": [
+      "irrelevant/non-contributory",
+      "Pregnancy-associated case with only introductory abstract available; no source passage for a new complement mechanism.",
+      "abstract"
+    ],
+    "doi-ad93aa62ff28ddceb746": [
+      "irrelevant/non-contributory",
+      "Single complement-mediated TMA case with PLG variant of uncertain significance; improvement after eculizumab does not establish variant pathogenicity or a new causal pathway.",
+      "abstract"
+    ],
+    "doi-1f9eae82e3836a81bc50": [
+      "irrelevant/non-contributory",
+      "Presumed TMA during Legionella sepsis/ECMO with multiple diagnostic and treatment confounders; no isolated complement mechanism established.",
+      "abstract"
+    ],
+    "doi-fc2cf9d863e4f1304094": [
+      "irrelevant/non-contributory",
+      "Secondary synthesis of heterogeneous SLE-associated TMA, not primary aHUS. Very-low certainty and no estimable treatment comparison; no extrapolation to aHUS.",
+      "abstract"
+    ],
+    "doi-23b926a81c4dd05da314": [
+      "irrelevant/non-contributory",
+      "Secondary/commentary eculizumab record without abstract; not a primary mechanistic report.",
+      "metadata"
+    ],
+    "doi-7152d7638acf37c25181": [
+      "irrelevant/non-contributory",
+      "Clinical guide, no abstract; discovery/reference material rather than a new primary assertion.",
+      "metadata"
+    ],
+    "doi-fac47b4750e5becbc976": [
+      "irrelevant/non-contributory",
+      "Pediatric ocular manifestation case; no tested new mechanism and outside the bounded renal/endothelial pathway.",
+      "abstract"
+    ],
+    "pmc-pmc10669222": [
+      "irrelevant/non-contributory",
+      "STEC-HUS population explicitly excluded from the complement-mediated aHUS map.",
+      "title"
+    ],
+    "pmc-pmc13601826": [
+      "irrelevant/non-contributory",
+      "Pediatric complement review, already screened in earlier maintenance; not a new primary report.",
+      "metadata"
+    ],
+    "pmc-pmc13579427": [
+      "deferred",
+      "Transplant outcomes in complement dysregulation may bear on the existing transplant/recurrence context; metadata-only packet requires primary-text access and population verification.",
+      "metadata"
+    ],
+    "pmc-pmc13635699": [
+      "irrelevant/non-contributory",
+      "rAAV gene-therapy immunogenicity review, outside primary aHUS mechanism scope.",
+      "metadata"
+    ],
+    "doi-e561c492d55d326b654b": [
+      "irrelevant/non-contributory",
+      "Secondary acquired-thrombocytopenia review; no primary mechanism extracted, provider flags preserved.",
+      "abstract"
+    ]
+  },
+  "behcet-disease": {
+    "doi-511e9d0f830f373e4a2b": [
+      "irrelevant/non-contributory",
+      "Secondary annual review; no primary assertions extracted.",
+      "abstract"
+    ],
+    "doi-645e97ec4913dafeaf4b": [
+      "deferred",
+      "Publisher Discussion/limitations inspected: causal experiments used LPS-stimulated murine BMDMs, not human ocular tissue; human findings are blood expression associations. The current map is bounded to human evidence. A new model-specific context and assay-level extraction are required; no human uveitis causal edge inferred.",
+      "publisher Discussion and limitations; abstract"
+    ],
+    "doi-aa7ca070c3d33b5d3ae1": [
+      "irrelevant/non-contributory",
+      "Secondary pharmacology review; primary trials and regulatory verification required before therapy changes.",
+      "abstract"
+    ],
+    "doi-46e8d598d0ae9c007435": [
+      "irrelevant/non-contributory",
+      "Headache phenotype cohort; no tested mechanism or revision to existing neurologic branch.",
+      "abstract"
+    ],
+    "doi-1c63521ee24d927c6e23": [
+      "irrelevant/non-contributory",
+      "Retrospective risk model for DVT; APS and thrombophlebitis are predictors, not demonstrated new causal pathways.",
+      "abstract"
+    ],
+    "doi-752d2df612cb59503e1e": [
+      "irrelevant/non-contributory",
+      "Hughes-Stovin case excluded Behcet disease; not a Behcet mechanism source.",
+      "abstract"
+    ],
+    "med-42859990": [
+      "supports an existing assertion",
+      "Vascular cohort is compatible with existing vascular manifestations; male sex/ocular predictors do not establish mechanism and need no new node.",
+      "abstract"
+    ],
+    "doi-ace402ae48065c257092": [
+      "irrelevant/non-contributory",
+      "Secondary epidemiology/workforce planning; outside biological map.",
+      "abstract"
+    ],
+    "doi-08ae305a7b5c4b9add2d": [
+      "irrelevant/non-contributory",
+      "Secondary dermatology review; no primary mechanism extracted.",
+      "abstract"
+    ],
+    "doi-019b468651cc2ad295b2": [
+      "supports an existing assertion",
+      "Uncontrolled apremilast cohort compatible with existing ulcer therapy branch; no new causal efficacy conclusion. Provider preprint flag retained.",
+      "abstract"
+    ],
+    "doi-22044e03dd60f5022c0c": [
+      "irrelevant/non-contributory",
+      "Single interferon-associated Bell palsy case; not a demonstrated disease mechanism.",
+      "abstract"
+    ],
+    "doi-a00a73bd8f96cfb44af2": [
+      "deferred",
+      "Merged record carries PMIDs 28472775 and 28881647 and updated abstract. Primary identity and exact demethylation-assay interpretation need reconciliation before adding an epigenetic mechanism.",
+      "abstract"
+    ],
+    "doi-7e24e812a0a1f61424fa": [
+      "irrelevant/non-contributory",
+      "Secondary autoinflammatory overview.",
+      "abstract"
+    ],
+    "doi-bf8254896409a2a6648f": [
+      "irrelevant/non-contributory",
+      "Gemifloxacin tendinopathy case; no Behcet mechanism.",
+      "abstract"
+    ],
+    "pmc-pmc13619538": [
+      "irrelevant/non-contributory",
+      "HTLV-1 uveitis is an alternative diagnosis, not Behcet uveitis.",
+      "title"
+    ],
+    "pmc-pmc10671945": [
+      "irrelevant/non-contributory",
+      "Epidemiology/clinical manifestations study; no new mechanistic assertion identified at title triage.",
+      "title"
+    ]
+  },
+  "c3-glomerulonephritis": {
+    "pmc-pmc13661220": [
+      "duplicate",
+      "Same study as MED/DOI real-world iptacopan record.",
+      "metadata"
+    ],
+    "doi-844c1249e5d8ba19d5c8": [
+      "supports an existing assertion",
+      "Full-text results inspected: 28-person mixed C3G/IC-MPGN cohort, proteinuria reduction with variable response (seven nonresponders), stable eGFR and background treatment. Compatible with existing iptacopan branch; does not change US indication, establish efficacy in excluded IC-MPGN or justify a new mechanism.",
+      "full-text Results and Discussion"
+    ],
+    "doi-0c857c8eddd69c708578": [
+      "irrelevant/non-contributory",
+      "Bibliometric research-output analysis, not biological evidence.",
+      "abstract"
+    ],
+    "doi-53921636f6f9e0cc110c": [
+      "irrelevant/non-contributory",
+      "Previously screened secondary review; no new primary assertion.",
+      "abstract"
+    ],
+    "doi-e08fa293a0a2cd38e36a": [
+      "deferred",
+      "Author reply to pegcetacoplan report has no cached abstract. Previously screened title alone does not establish absence of corrections or qualifying data; keep correspondence pending primary-text access.",
+      "metadata"
+    ]
+  },
+  "diffuse-systemic-sclerosis": {
+    "doi-eddb42f8002f31c11717": [
+      "irrelevant/non-contributory",
+      "Exploratory retrospective cardiovascular risk model; predictors are not new mechanistic assertions, and external validation is pending.",
+      "abstract"
+    ]
+  },
+  "crest-syndrome": {
+    "doi-87cc74e645570da570de": [
+      "supports an existing assertion",
+      "Affected claim claim-crest-calcinosis-telangiectasia-eustar explicitly rechecked against original provider HTML abstract, preserving inequality symbols. Telangiectasia/digital-ischaemia associations and mixed-subset limits remain supported; dcSSc also predicts incident calcinosis. No material claim change.",
+      "primary-report original abstract"
+    ]
+  },
+  "igg4-related-disease": {
+    "doi-68d3ff8a873baf110308": [
+      "irrelevant/non-contributory",
+      "Possible organ-limited pediatric case with normal serum IgG4; no new tested immune mechanism.",
+      "abstract"
+    ],
+    "doi-49e651a39888e5b807db": [
+      "irrelevant/non-contributory",
+      "Head/neck pseudotumor case; diagnostic phenotype, not new immune mechanism.",
+      "abstract"
+    ],
+    "doi-17a20ad18385689e2118": [
+      "irrelevant/non-contributory",
+      "Treatment-standard review; treatment efficacy excluded by profile.",
+      "abstract"
+    ],
+    "doi-20b637e806d39b0cab3a": [
+      "deferred",
+      "Human ocular pathology study reports macrophage/fibrosis association, null IgG4-plasma-cell/FOXP3/EBV fibrosis associations and TGFB1 enrichment in lymphocyte-rich areas. Existing claim only records CTL TGFB1 expression, explicitly without a fibrosis causal edge. Full-text methods and organ-specific context needed before adding new macrophage associations.",
+      "abstract"
+    ],
+    "doi-f82a1cc0abf24d6d0a50": [
+      "irrelevant/non-contributory",
+      "Secondary imaging review; no primary mechanistic finding extracted.",
+      "abstract"
+    ],
+    "doi-62049c56c80e32030c54": [
+      "deferred",
+      "Bulk lesion age/exhaustion/fibrosis-signature correlations are plausible new context-specific observations. Pseudostaging and cellular-origin inference require primary methods; no causal ageing-to-fibrosis edge or cross-organ generalization.",
+      "abstract"
+    ],
+    "doi-7742d1b5cb314a31f33c": [
+      "irrelevant/non-contributory",
+      "Endoscopic response case does not establish rituximab causality or resolution of portal hypertension; therapy efficacy excluded.",
+      "abstract"
+    ],
+    "doi-8ccee7ad528aa5d54958": [
+      "irrelevant/non-contributory",
+      "Null malignancy-incidence cohort retained as a negative finding in ledger; outside map immune-mechanism scope, no contradiction to an existing cancer-risk claim (none curated).",
+      "abstract"
+    ],
+    "doi-1fd64206c6f746e72467": [
+      "irrelevant/non-contributory",
+      "Secondary auditory manifestations review, outside bounded immune map.",
+      "abstract"
+    ],
+    "doi-3172e6b9131b83e33b83": [
+      "irrelevant/non-contributory",
+      "Kidney/pulmonary case, no new tested mechanism; provider preprint flag retained.",
+      "abstract"
+    ],
+    "doi-93dc1d227b1fdda0bf41": [
+      "irrelevant/non-contributory",
+      "Secondary 2017 review, no primary assertion extracted.",
+      "abstract"
+    ]
+  },
+  "calciphylaxis": {
+    "doi-744ab78596dc4b7e587e": [
+      "adds a mechanism",
+      "Added circulating PPi as an observational entity linked by symmetric associations to disease and mortality. No causal deficiency or PPi-treatment claim. Main-body methods/results and disclosures inspected; external abstract-only review could not verify details, with disagreement preserved.",
+      "full-text main body and disclosures"
+    ],
+    "doi-4e7210ff514ce2d8c190": [
+      "duplicate",
+      "Nature Reviews Nephrology research highlight by Carney points to IL-6 mechanism already represented by the inspected primary source in the baseline; secondary discovery aid, not independent evidence.",
+      "title and journal metadata"
+    ],
+    "doi-3a1ff71a31355a12969c": [
+      "supports an existing assertion",
+      "VKA-associated case is compatible with existing VKA/MGP risk pathway; multimodal wound treatment cannot isolate drug effects.",
+      "abstract"
+    ],
+    "doi-20cb42863e9dedc5b18a": [
+      "irrelevant/non-contributory",
+      "Visceral gastric calciphylaxis case, outside cutaneous pathway; no tested mechanism.",
+      "abstract"
+    ],
+    "doi-2632ee413099650b653c": [
+      "irrelevant/non-contributory",
+      "Liver failure/AKI case with suspected calciphylaxis; no isolated new mechanism or controlled therapy evidence.",
+      "abstract"
+    ],
+    "doi-63b8aba4359060f3410b": [
+      "irrelevant/non-contributory",
+      "Superinfection/phage-antibiotic case; does not change the existing wound-infection branch or establish efficacy.",
+      "abstract"
+    ],
+    "doi-e0c83cb308532c915fd0": [
+      "irrelevant/non-contributory",
+      "Vitamin K review compatible with existing MGP pathway but not primary intervention evidence; retains lack of robust RCT efficacy.",
+      "abstract"
+    ],
+    "pmc-pmc13662476": [
+      "duplicate",
+      "Same vitamin K review as DOI record.",
+      "metadata"
+    ]
+  },
+  "membranous-nephropathy": {
+    "doi-ba79ad5b344da7266a95": [
+      "deferred",
+      "Human antigen-subtype comparison: 17 PLA2R versus 9 NELL1 cases, lower C3/C4d deposition in NELL1, nonsignificant proteomic differences. Important qualification to the grouped-antigen complement model. Primary full-text and antigen-specific context/proposal needed before changing the shared map; no uniform complement activation inferred.",
+      "abstract"
+    ],
+    "pmc-pmc13657889": [
+      "duplicate",
+      "Same NELL1 cancer-associated case as DOI record.",
+      "metadata"
+    ],
+    "doi-970399a8759c6828ca6e": [
+      "irrelevant/non-contributory",
+      "Cancer-associated NELL1 case falls under excluded secondary MN; no transfer of remission attribution to primary MN.",
+      "title"
+    ],
+    "doi-0ea04b6af2f018b6e058": [
+      "irrelevant/non-contributory",
+      "Relapse prediction using anti-PLA2R levels, not new causal mechanism.",
+      "title"
+    ],
+    "doi-9a451025ab4189925710": [
+      "irrelevant/non-contributory",
+      "Rituximab/glucocorticoid cohort; therapy efficacy explicitly excluded.",
+      "title"
+    ],
+    "doi-cc8c536ab3e1fd066ca6": [
+      "irrelevant/non-contributory",
+      "CD46 enteropathy/TMA rather than primary antigen-mediated MN.",
+      "title"
+    ],
+    "doi-174361c5da02f0a8d05e": [
+      "deferred",
+      "Antigen-expression and treatment-response study; source passages and primary-subtype selection need inspection before updating mechanism or qualifiers.",
+      "title"
+    ],
+    "doi-049b34fb88693d68a01a": [
+      "irrelevant/non-contributory",
+      "Secondary THSD7A commentary; antigen already curated.",
+      "title"
+    ]
+  },
+  "minimal-change-nephropathy": {
+    "doi-21eddcd662c2a7396430": [
+      "deferred",
+      "AA/PKM2 mechanism uses PAN-injured rats and human podocyte cultures. Requires assay-level extraction/new model context; not a demonstrated clinical infection-to-MCD mechanism.",
+      "abstract"
+    ],
+    "doi-d9bb424e5e3afb71a722": [
+      "deferred",
+      "Podocyte-exosome/CD8/DC model uses PAN and OVA-loaded exosomes in OT-I mice. Human associations do not establish endogenous MCD autoantigen identity; inspect cross-presentation controls and context before a new feedback mechanism.",
+      "abstract"
+    ],
+    "doi-5c4f52746179e171031b": [
+      "qualifies/refines",
+      "Negative pediatric SSNS plasmablast findings: normal versus matched controls and no proteinuria correlation. Retained in disposition; age- and population-specific, not all biopsy-proven MCD. No direct contradiction to the selected circulating-factor/T-cell map; no node/score change.",
+      "abstract"
+    ],
+    "doi-f4022f33400ef1bb3784": [
+      "supports an existing assertion",
+      "Relapse-associated hemopexin activity is compatible with existing hemopexin hypothesis. Observational and in-vitro findings do not prove causal sufficiency; no new distinct map assertion.",
+      "abstract"
+    ],
+    "doi-cb67c83e277118e6a9f3": [
+      "deferred",
+      "Actomyosin-stage preprint combines adriamycin mice with multiple human nephrotic conditions; peer-review status and study-specific extraction remain pending.",
+      "abstract"
+    ],
+    "doi-c00ff8e38e20f953d58c": [
+      "deferred",
+      "Proteomic MCD/FSGS overlap study: no distinct clustering, age-related heterogeneity. Cached record mixes preprint and MED identities; verify publication/version before a new claim.",
+      "abstract"
+    ]
+  },
+  "primary-fsgs": {
+    "doi-318e43c640442f5f1c5c": [
+      "deferred",
+      "PDGF-C interventions use nephrotoxic-nephritis and anti-Thy1.1 collapsing mouse models, with PEC cultures and human expression. Disease-specific transfer to circulating-factor primary FSGS/APOL1 branch is not established; primary model/context extraction required.",
+      "abstract"
+    ],
+    "doi-1ea898c2d1b669930bfe": [
+      "irrelevant/non-contributory",
+      "HIV/APOL1 review; viral FSGS excluded, and review is not primary evidence.",
+      "abstract"
+    ],
+    "doi-1e0e123791c56650e2e0": [
+      "irrelevant/non-contributory",
+      "NPHS2 inherited slit-diaphragm mechanism; genetic FSGS other than APOL1 is explicitly excluded.",
+      "abstract"
+    ],
+    "doi-3fd2a17cd1c8560f9255": [
+      "irrelevant/non-contributory",
+      "Mixed primary-GN age/outcomes cohort, not a new primary-FSGS/APOL1 mechanism.",
+      "abstract"
+    ],
+    "doi-1323dffe2e47e575b59d": [
+      "irrelevant/non-contributory",
+      "Urinary-proteomics narrative review despite missing provider secondary flag.",
+      "abstract"
+    ],
+    "doi-386244caae7c41d9792e": [
+      "irrelevant/non-contributory",
+      "Child dental-visit review, search false positive.",
+      "title"
+    ],
+    "doi-d02f479cd8d6aa2e6582": [
+      "irrelevant/non-contributory",
+      "Allograft pathology spectrum; no defined primary-FSGS mechanism at title triage.",
+      "title"
+    ],
+    "doi-e4a47c8f5d3a8f985da7": [
+      "irrelevant/non-contributory",
+      "Diabetic complications, excluded adaptive/secondary disease.",
+      "title"
+    ]
+  },
+  "iga-nephropathy": {
+    "doi-34aeff873b20c52c5fb5": [
+      "deferred",
+      "Consensus record fetched; no abstract. DOI open failed through web tool. Title suggests important Gd-IgA1 sufficiency qualification, but no exact source passage or study context was available; do not derive a claim from title.",
+      "metadata plus failed primary-source access"
+    ]
+  },
+  "sjogren-disease": {
+    "doi-a253a097bc0cf5b9ae46": [
+      "irrelevant/non-contributory",
+      "Pediatric small-fiber-neuropathy cohort includes only three Sjogren cases; no disease-specific gland mechanism or controlled IVIG effect.",
+      "abstract"
+    ],
+    "doi-fcd2609d22213cc226b9": [
+      "deferred",
+      "43-person B-cell-therapy transcriptomic substudy identifies different ESSDAI/STAR nonresponse signatures. Exploratory predictors and unadjusted differential-expression thresholds require methods/cohort/endpoint checks; no new causal B-cell-independent circuit inferred.",
+      "abstract"
+    ],
+    "doi-49cd7e039285221e7ed1": [
+      "deferred",
+      "CD25KO-to-Rag1KO adoptive transfer causes murine meibomian dysfunction, with WT Treg protection. Requires a model- and gland-specific context before expanding a predominantly human salivary/lacrimal mechanism map.",
+      "abstract"
+    ],
+    "doi-ba83a805f7c01275c7f8": [
+      "irrelevant/non-contributory",
+      "Autoimmune pancreatitis series with one comorbid Sjogren patient, not a primary Sjogren mechanism.",
+      "abstract"
+    ],
+    "pmc-pmc13646162": [
+      "irrelevant/non-contributory",
+      "Multi-autoimmune/SLE triple-immunotherapy case; does not isolate Sjogren mechanism or efficacy.",
+      "title"
+    ]
+  },
+  "sle": {
+    "doi-182cad0224e008dbc324": [
+      "adds a mechanism",
+      "Primary anti-C1q curli/DNA mouse paper inspected in publisher full text. Added one experimental upstream entity and route plus a qualifying claim retaining stage-dependent and renal null results. Distinct from unresolved Z-DNA preprint; no human causality or renal worsening inferred.",
+      "full text: Abstract, Results, figures 1-6 and Discussion"
+    ]
+  }
+}

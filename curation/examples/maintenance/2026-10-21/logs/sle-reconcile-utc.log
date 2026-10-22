@@ -1,0 +1,10 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs reconcile --base knowledge/diseases/sle/candidates/sle-summary-candidate-f3c3742263d5.json --papers curation/workspace/maintenance-research/2026-10-21/sle-selected-papers.json --extraction curation/workspace/maintenance-research/2026-10-21/sle-extraction-utc.json --cutoff 2026-10-20
+
+Automatic provisional appraisals: sle-appraised-candidate-681273ee935d
+Inputs and results: curation/workspace/sle/appraisals/sle-appraised-candidate-681273ee935d
+Select with curate preview --disease sle --candidate sle-appraised-candidate-681273ee935d
+Summary review packet: curation/workspace/sle/summary-reviews/17d607277dfac0fa0c9b0d3768ac524fbab3afc87b2e28236c82442aa93081ee
+Overall summary candidate: sle-summary-candidate-005745401298; current-literature review pending.
+curation/workspace/sle/proposals/proposal-dc852eba510642ce8b2ae415

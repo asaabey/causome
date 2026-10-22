@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "membranous-nephropathy-candidate-8d552d458576",
+  "baseContentDigest": "16f33f3375786564288c7e53ca26f496b69f26be0149c412a43f42b404ea1253",
+  "candidateId": "membranous-nephropathy-appraised-candidate-10418184175e",
+  "contentDigest": "8edabe662895f2037766ec51e78dac0818eaec23cd978813348797ac910c91c2",
+  "inputDigest": "10418184175e7c65a7cba6b628b699ffdcab636c8cace71d7bca3633c30c9fd3",
+  "assessmentCount": 52,
+  "weightCount": 52,
+  "confidenceCount": 52,
+  "therapyCoverageCount": 52,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

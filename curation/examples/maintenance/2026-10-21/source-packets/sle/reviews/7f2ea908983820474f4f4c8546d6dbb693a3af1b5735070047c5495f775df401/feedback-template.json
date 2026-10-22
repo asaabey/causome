@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "sle",
+  "candidateId": "sle-summary-candidate-904291fc29fb",
+  "contentDigest": "f9be34698291844f0295d2c302b4e4ca1bfeee108133e1108df67c245713f940",
+  "summaryRevisionId": "summary-904291fc29fb",
+  "summaryDigest": "277de8fdb6a32e073a83c9b3d29715d8d3098eb6b4c4aef47616a50787893e86",
+  "packetDigest": "7f2ea908983820474f4f4c8546d6dbb693a3af1b5735070047c5495f775df401",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

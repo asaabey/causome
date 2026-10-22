@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"id\": \"5a470fab04ca5005a12a952f0e5ca0cc\", \"title\": \"Contribution of IL-33/ILC2-mediated Th2 cytokines during the progression of minimal change disease.\", \"text\": \"Key takeaway: IL-33 treatment significantly alleviates kidney injury, inflammation, oxidative stress, and apoptosis in minimal change disease rat models, potentially through mediating ILC2s-secreted IL-13.\", \"url\": \"https://consensus.app/papers/contribution-of-il33ilc2mediated-th2-cytokines-during-liu-liu/5a470fab04ca5005a12a952f0e5ca0cc/?utm_source=chatgpt\", \"metadata\": {\"authors\": \"Cui Liu, Li Liu, Yan-Ping Huang, Rui-Zhen Shi, Yue Wu\", \"publish_year\": \"2023\", \"journal\": \"International immunopharmacology\", \"volume\": \"114\", \"pages\": \"\\n          109493\\n\", \"citation_count\": \"11\", \"doi\": \"10.1016/j.intimp.2022.109493\"}}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

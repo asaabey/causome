@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "diseaseId": "calciphylaxis",
+  "baseReleaseId": "calciphylaxis-maintenance-overview-20261020",
+  "baseContentDigest": "7a54f44cd099b83b7e0a43319031beaede401598f3cccb6a215e271f473caa92",
+  "scope": "A bounded map of calcific uraemic arteriolopathy: mineral-metabolism drivers, calcification-inhibitor deficiency (MGP/vitamin K, fetuin-A), vascular smooth-muscle osteogenic change, arteriolar calcification, thrombosis and skin ischaemic necrosis, plus curated therapies.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-20",
+  "paragraphs": [
+    {
+      "text": "In haemodialysis patients, a lower carboxylated fraction of circulating matrix Gla protein was associated with higher odds of calciphylaxis, each 0.1-unit fall in relative cMGP corresponding to more than a two-fold higher risk; the association persisted in patients not taking warfarin. Medial calcification and other historically 'characteristic' findings also occurred in viable skin of ESRD patients without calciphylaxis; only the combination of medial calcification with thrombosis was rare in unaffected patients (six-fold more prevalent in high-suspicion biopsies). Mice lacking matrix Gla protein develop spontaneous arterial and cartilage calcification and die of blood-vessel rupture within two months, establishing MGP as an active inhibitor of soft-tissue and arterial calcification produced by vascular smooth muscle cells.",
+      "claimIds": [
+        "claim-cua-mgp-carboxylation-risk",
+        "claim-cua-amputation-margin-calcification-nonspecific",
+        "claim-cua-mgp-knockout-arterial-calcification"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Very small case-control (n=40) from a single programme; wide uncertainty around the risk estimate MGP measured at or after diagnosis, so reverse causation and illness effects cannot be excluded In the phase 3 CALCIPHYX RCT (n=71), wound score (BWAT-CUA) and pain VAS improved similarly with hexasodium fytate and placebo at week 12 (BWAT-CUA LS mean difference 0.3, p=0.88; pain VAS difference 11.5, p=0.15); neither primary endpoint was met. Drug targeting and approval do not establish every proposed mechanism or benefit in every phenotype.",
+      "claimIds": [
+        "claim-cua-mgp-carboxylation-risk",
+        "claim-cua-amputation-margin-calcification-nonspecific",
+        "claim-cua-mgp-knockout-arterial-calcification",
+        "claim-hexasodium-fytate-calciphyx-primary"
+      ]
+    }
+  ]
+}

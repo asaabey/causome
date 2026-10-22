@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "diseaseId": "calciphylaxis",
+  "baseReleaseId": "calciphylaxis-maintenance-overview-20261020",
+  "baseContentDigest": "7a54f44cd099b83b7e0a43319031beaede401598f3cccb6a215e271f473caa92",
+  "scope": "A bounded map of calcific uraemic arteriolopathy: mineral-metabolism drivers, calcification-inhibitor deficiency (MGP/vitamin K, fetuin-A), vascular smooth-muscle osteogenic change, arteriolar calcification, thrombosis and skin ischaemic necrosis, plus curated therapies.",
+  "authoredBy": {
+    "id": "codex-curation-agent",
+    "kind": "agent"
+  },
+  "authoredAt": "2026-10-20",
+  "paragraphs": [
+    {
+      "text": "This bounded calciphylaxis map centres on small-vessel calcification together with thrombosis and vascular narrowing in predominantly dialysis-related disease. Human studies associate disease with aspects of mineral metabolism, vitamin K antagonism and reduced calcification-inhibitor activity; cultured smooth-muscle-cell and animal experiments support mechanisms involving phosphate, matrix Gla protein and fetuin-A. Human skin studies link an osteogenic programme with arteriolar mineral deposition and show thrombosis/intimal hyperplasia in lesional skin. Endothelial culture experiments add an inflammatory tissue-factor route to coagulation. The resulting model proposes convergence of calcification and vascular occlusion rather than a sufficient explanation based on mineral deposition alone. A newly added human registry study found lower circulating pyrophosphate in 30 calciphylaxis cases than in 30 matched controls; in its 70-patient cohort, lower levels were also associated with higher short-term mortality. This adds an observational calcification-inhibitor signal without demonstrating that PPi deficiency causes calciphylaxis.",
+      "claimIds": [
+        "claim-cua-mgp-carboxylation-risk",
+        "claim-cua-vka-warfarin-casecontrol",
+        "claim-cua-pth-nigwekar",
+        "claim-cua-phosphate-vsmc-osteogenic",
+        "claim-cua-mgp-knockout-arterial-calcification",
+        "claim-cua-fetuin-a-knockout-calcification",
+        "claim-cua-skin-bmp2-runx2-glumgp",
+        "claim-cua-histo-thrombosis-lesional-only",
+        "claim-cua-histo-intimal-hyperplasia-specific",
+        "claim-cua-il6-tissue-factor-endothelium",
+        "claim-d817a99bb3f6b3dcca3a",
+        "claim-a2234e93c51e067a6dbd"
+      ]
+    },
+    {
+      "text": "Risk-factor findings vary across cohorts: phosphate and parathyroid-hormone results are not uniform, and vascular calcification can occur in clinically normal skin. Observational associations and experimental vascular calcification should not be equated with proven human calciphylaxis causation. Treatment signals are also limited: CALCIPHYX did not meet its wound or pain primary endpoints, uncontrolled sodium-thiosulfate improvement reports do not establish efficacy, and the cited vitamin K trial improved a biomarker without reducing coronary calcification progression. A secondary cinacalcet prevention analysis does not establish treatment of existing lesions. The pyrophosphate study was small, industry-funded and observational, with substantial within-person variability; PPi did not correlate with pain intensity. Raising PPi was not tested, and no treatment benefit is inferred. This is a selected-report local candidate with pending domain review.",
+      "claimIds": [
+        "claim-cua-phosphate-null-japan",
+        "claim-cua-pth-not-key-german-registry",
+        "claim-cua-histo-calcification-in-normal-skin",
+        "claim-hexasodium-fytate-calciphyx-primary",
+        "claim-sodium-thiosulfate-cohort",
+        "claim-vitamin-k1-mechanism-mgp",
+        "claim-cinacalcet-evolve-incidence",
+        "claim-cinacalcet-evolve-vka",
+        "claim-a2234e93c51e067a6dbd"
+      ]
+    }
+  ]
+}

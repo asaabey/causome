@@ -1,0 +1,378 @@
+{
+  "id": "38707817",
+  "source": "MED",
+  "pmid": "38707817",
+  "pmcid": "PMC11068956",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC11068956"
+    ]
+  },
+  "doi": "10.1016/j.ekir.2024.02.1401",
+  "title": "Characteristics and Outcomes of NELL1 Membranous Nephropathy in Lipoic Acid Users and Nonusers.",
+  "authorString": "Avasare RS, Clark S, Spain RI, Wusirika R, Rope R, Gurley S, Stanaway M, Sekulic M, Santoriello D, Bomback AS, Canetta P, Iyer SJ, Kung V, Charu V, Troxell ML, Kudose S, Andeen NK.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Avasare RS",
+        "lastName": "Avasare",
+        "firstName": "Rupali S",
+        "initials": "RS",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8432-2186"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology and Hypertension, Department of Medicine, Oregon Health and Science University, Portland, Oregon, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Clark S",
+        "lastName": "Clark",
+        "firstName": "Samantha",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Medicine, Oregon Health and Science University, Portland, Oregon, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Spain RI",
+        "lastName": "Spain",
+        "firstName": "Rebecca I",
+        "initials": "RI",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Neurology, Oregon Health and Science University, Portland, Oregon, USA."
+            },
+            {
+              "affiliation": "Veterans Administration Portland Healthcare System, Portland, Oregon, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wusirika R",
+        "lastName": "Wusirika",
+        "firstName": "Raghav",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology and Hypertension, Department of Medicine, Oregon Health and Science University, Portland, Oregon, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Rope R",
+        "lastName": "Rope",
+        "firstName": "Robert",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology and Hypertension, Department of Medicine, Oregon Health and Science University, Portland, Oregon, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gurley S",
+        "lastName": "Gurley",
+        "firstName": "Susan",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology and Hypertension, Department of Medicine, Oregon Health and Science University, Portland, Oregon, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Stanaway M",
+        "lastName": "Stanaway",
+        "firstName": "Madison",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology and Hypertension, Department of Medicine, Oregon Health and Science University, Portland, Oregon, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sekulic M",
+        "lastName": "Sekulic",
+        "firstName": "Miroslav",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pathology and Cell Biology, Columbia University Irving Medical Center, New York, New York, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Santoriello D",
+        "lastName": "Santoriello",
+        "firstName": "Dominick",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pathology and Cell Biology, Columbia University Irving Medical Center, New York, New York, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bomback AS",
+        "lastName": "Bomback",
+        "firstName": "Andrew S",
+        "initials": "AS",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Department of Medicine, Columbia University Irving Medical Center, New York, New York, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Canetta P",
+        "lastName": "Canetta",
+        "firstName": "Pietro",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Department of Medicine, Columbia University Irving Medical Center, New York, New York, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Iyer SJ",
+        "lastName": "Iyer",
+        "firstName": "Sitalakshmi J",
+        "initials": "SJ",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Kidney Care Physicians, LLC, Salem, Oregon, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kung V",
+        "lastName": "Kung",
+        "firstName": "Vanderlene",
+        "initials": "V",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pathology and Laboratory Medicine, Oregon Health and Science University, Portland, Oregon, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Charu V",
+        "lastName": "Charu",
+        "firstName": "Vivek",
+        "initials": "V",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pathology, Stanford University, Palo Alto, California, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Troxell ML",
+        "lastName": "Troxell",
+        "firstName": "Megan L",
+        "initials": "ML",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pathology, Stanford University, Palo Alto, California, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kudose S",
+        "lastName": "Kudose",
+        "firstName": "Satoru",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pathology and Cell Biology, Columbia University Irving Medical Center, New York, New York, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Andeen NK",
+        "lastName": "Andeen",
+        "firstName": "Nicole K",
+        "initials": "NK",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4882-6640"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pathology and Laboratory Medicine, Oregon Health and Science University, Portland, Oregon, USA."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0001-8432-2186"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-4882-6640"
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "altmetrics",
+      "supporting_data"
+    ]
+  },
+  "journalInfo": {
+    "issue": "5",
+    "volume": "9",
+    "journalIssueId": 3766596,
+    "dateOfPublication": "2024 May",
+    "monthOfPublication": 5,
+    "yearOfPublication": 2024,
+    "journal": {
+      "medlineAbbreviation": "Kidney Int Rep",
+      "title": "Kidney international reports",
+      "essn": "2468-0249",
+      "issn": "2468-0249",
+      "nlmid": "101684752",
+      "isoabbreviation": "Kidney Int Rep"
+    },
+    "printPublicationDate": "2024-05-01"
+  },
+  "pubYear": "2024",
+  "pageInfo": "1379-1386",
+  "abstractText": "<h4>Introduction</h4>Neural epidermal growth factor like 1 membranous nephropathy (NELL1 MN) is associated with various secondary etiologies. However, previous studies on the frequency of these associations and their impact on outcomes are limited. We report a large multiinstitutional series of patients with NELL1 MN with a focus on secondary associations, pathology findings, and their impact on outcome.<h4>Methods</h4>We retrospectively reviewed clinicopathologic features of NELL1 MN from 3 institutions and analyzed clinical and histologic associations with outcome.<h4>Results</h4>Of 70 patients, 53% were male with a median age of 66 years; median proteinuria was 5.9 g/d. NELL1 MN was associated with lipoic acid (36%), heavy nonsteroidal antiinflammatory drug (NSAID) use (27%), autoimmune disease (23%), malignancy (10% recent, 23% any), mercury exposure (1%), and 11% had no known secondary association. At median follow-up of 11 months, 72% achieved complete or partial remission. Remission rate was 91% in patients with lipoic acid-associated NELL1 MN and\u00a0\u22656 months of follow-up. On multivariable analyses, patients with primary NELL1 MN (adjusted odds ratio [OR]: 19.7, <i>P</i>\u00a0= 0.01) and increasing degree of tubular atrophy and interstitial fibrosis (IFTA) (adjusted OR 1.1, <i>P</i>\u00a0= 0.01) were less likely to achieve any remission, whereas complete remission (CR) was associated with lipoic acid use (adjusted OR: 10.9, <i>P</i>\u00a0= 0.04, 95% confidence interval [CI]: 1.2-100) and lesser degrees of IFTA (adjusted OR: 0.79, <i>P</i>\u00a0= 0.16, 95% CI: 0.66-0.96).<h4>Conclusion</h4>Our findings strengthen the association between lipoic acid and NELL1 MN. Furthermore, our findings suggest that discontinuation of lipoic acid without immunosuppression should be considered as the first-line treatment.",
+  "affiliation": "Division of Nephrology and Hypertension, Department of Medicine, Oregon Health and Science University, Portland, Oregon, USA.",
+  "publicationStatus": "epublish",
+  "language": "eng",
+  "pubModel": "Electronic-eCollection",
+  "pubTypeList": {
+    "pubType": [
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "National Kidney Foundation",
+        "orderIn": 0
+      },
+      {
+        "agency": "Oregon Health &amp; Science University",
+        "orderIn": 0
+      }
+    ]
+  },
+  "keywordList": {
+    "keyword": [
+      "NSAID",
+      "Lipoic acid",
+      "Glomerular Disease",
+      "Membranous Nephropathy",
+      "Nell1",
+      "Drug-induced Kidney Disease"
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1016/j.ekir.2024.02.1401"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC11068956"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC11068956?pdf=render"
+      }
+    ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 15,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "license": "cc by-nc-nd",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "Y",
+  "tmAccessionTypeList": {
+    "accessionType": [
+      "gen",
+      "hpa",
+      "nct"
+    ]
+  },
+  "dateOfCreation": "2024-05-06",
+  "dateOfRevision": "2024-05-07",
+  "electronicPublicationDate": "2024-02-24",
+  "firstPublicationDate": "2024-02-24",
+  "firstIndexDate": "2024-05-06",
+  "fullTextReceivedDate": "2025-02-05",
+  "hasEvaluations": "N",
+  "inspectionNote": "Primary abstract inspected by agent, full text not yet inspected",
+  "retrievedAtUTC": "2026-10-20"
+}

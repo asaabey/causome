@@ -1,0 +1,28 @@
+[
+  {
+    "key": "doi-b3792ba42918e2ada62a",
+    "identifiers": [
+      "DOI:10.1016/j.ekir.2024.02.1401",
+      "PMID:38707817",
+      "PMCID:PMC11068956"
+    ],
+    "title": "Characteristics and Outcomes of NELL1 Membranous Nephropathy in Lipoic Acid Users and Nonusers.",
+    "authors": "Avasare RS, Clark S, Spain RI, Wusirika R, Rope R, Gurley S, Stanaway M, Sekulic M, Santoriello D, Bomback AS, Canetta P, Iyer SJ, Kung V, Charu V, Troxell ML, Kudose S, Andeen NK.",
+    "publishedAt": "2024-02-24",
+    "journal": "Kidney international reports",
+    "abstract": " Introduction Neural epidermal growth factor like 1 membranous nephropathy (NELL1 MN) is associated with various secondary etiologies. However, previous studies on the frequency of these associations and their impact on outcomes are limited. We report a large multiinstitutional series of patients with NELL1 MN with a focus on secondary associations, pathology findings, and their impact on outcome. Methods We retrospectively reviewed clinicopathologic features of NELL1 MN from 3 institutions and analyzed clinical and histologic associations with outcome. Results Of 70 patients, 53% were male with a median age of 66 years; median proteinuria was 5.9 g/d. NELL1 MN was associated with lipoic acid (36%), heavy nonsteroidal antiinflammatory drug (NSAID) use (27%), autoimmune disease (23%), malignancy (10% recent, 23% any), mercury exposure (1%), and 11% had no known secondary association. At median follow-up of 11 months, 72% achieved complete or partial remission. Remission rate was 91% in patients with lipoic acid-associated NELL1 MN and ≥6 months of follow-up. On multivariable analyses, patients with primary NELL1 MN (adjusted odds ratio [OR]: 19.7,  P  = 0.01) and increasing degree of tubular atrophy and interstitial fibrosis (IFTA) (adjusted OR 1.1,  P  = 0.01) were less likely to achieve any remission, whereas complete remission (CR) was associated with lipoic acid use (adjusted OR: 10.9,  P  = 0.04, 95% confidence interval [CI]: 1.2-100) and lesser degrees of IFTA (adjusted OR: 0.79,  P  = 0.16, 95% CI: 0.66-0.96). Conclusion Our findings strengthen the association between lipoic acid and NELL1 MN. Furthermore, our findings suggest that discontinuation of lipoic acid without immunosuppression should be considered as the first-line treatment.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38707817/",
+    "doi": "10.1016/j.ekir.2024.02.1401",
+    "pmid": "38707817",
+    "pmcid": "PMC11068956",
+    "accessScope": "Primary report abstract and bibliographic metadata inspected by Codex agent on 2026-10-20 UTC; full text not inspected; no human approval.",
+    "openAccess": false,
+    "license": "cc by-nc-nd",
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-21",
+    "lastCheckedAt": "2026-10-21",
+    "reviewedAt": null
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "diseaseId": "membranous-nephropathy",
+  "baseReleaseId": "membranous-nephropathy-summary-candidate-a6d97ad77a83",
+  "baseContentDigest": "ad55638557f0588b5b948ee5bfd7e8c088409c64ed3183d400941722dfdde2c2",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "codex-agent-manual-source-curation-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "paperKey": "doi-ba79ad5b344da7266a95",
+      "paperDigest": "4f0424f6287860164f22fe99581c0218beedc21df92d98e2379287b03e985cdd",
+      "sourceCheck": {
+        "checkedBy": "codex-agent-source-check",
+        "checkedAt": "2026-10-20"
+      },
+      "evidenceType": "human_observational",
+      "distinctFindingRationale": "Newly screened primary report; one study, not independent replication of its multiple readouts.",
+      "id": "mn-complement-subtype-qualification-20261020",
+      "category": "qualifying",
+      "subject": "entity-mn-c3-activation",
+      "object": "entity-mn-slit-diaphragm",
+      "predicate": "inhibits",
+      "contextId": "context-mn-primary",
+      "causalInterpretation": "hypothesis",
+      "text": "In a small retrospective antigen-subtype comparison, NELL1-associated membranous nephropathy showed lower glomerular C3 and C4d deposition than PLA2R-associated disease. This qualifies extrapolation of a uniform complement-injury pathway across antigen subtypes; deposition differences do not directly establish functional complement activity or slit-diaphragm injury.",
+      "quote": "Glomerular IgG4 and C3 deposition were significantly lower in NELL1-associated MN.",
+      "quoteLocation": "Primary-report Abstract: Results and Conclusion.",
+      "studySystem": "Human retrospective kidney-biopsy comparison: 17 PLA2R-associated and 9 NELL1-associated MN cases; immunostaining and available glomerular proteomics.",
+      "limitations": [
+        "Small retrospective cohort with antigen-associated differences in age and chronic damage; residual confounding remains.",
+        "C3, C5 and factor H proteomic differences were numerically higher in PLA2R-associated MN but not statistically significant.",
+        "C4d did not significantly correlate with serum anti-PLA2R titres. C4d deposition alone does not identify classical versus lectin pathway activity.",
+        "The study did not directly test complement-mediated slit-diaphragm damage; the finding is a scope qualification to that branch, not a new causal experiment."
+      ]
+    }
+  ]
+}

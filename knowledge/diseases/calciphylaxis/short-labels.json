@@ -12,6 +12,7 @@
     "entity-thrombosis": "Microthrombosis",
     "entity-skin-necrosis": "Skin necrosis",
     "entity-wound-infection": "Infection / sepsis",
-    "entity-casr": "CaSR"
+    "entity-casr": "CaSR",
+    "entity-pyrophosphate": "Pyrophosphate (PPi)"
   }
 }

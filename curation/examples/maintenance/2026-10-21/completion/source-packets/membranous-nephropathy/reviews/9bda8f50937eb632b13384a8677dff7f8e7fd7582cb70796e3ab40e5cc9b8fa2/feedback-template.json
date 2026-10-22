@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "membranous-nephropathy",
+  "candidateId": "membranous-nephropathy-summary-candidate-6c64ff75abce",
+  "contentDigest": "3df1e4da6b6d6f018a8f088a70f0eada4b028dc6fc77cbda8036781a626fd2be",
+  "summaryRevisionId": "summary-6c64ff75abce",
+  "summaryDigest": "4122be5583ed272456b0159f2aafd3c953d267a8e7195e2ba1378b7eee5f9de1",
+  "packetDigest": "9bda8f50937eb632b13384a8677dff7f8e7fd7582cb70796e3ab40e5cc9b8fa2",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

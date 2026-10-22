@@ -1,0 +1,559 @@
+{
+  "id": "40490077",
+  "source": "MED",
+  "pmid": "40490077",
+  "pmcid": "PMC12354293",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC12354293"
+    ]
+  },
+  "doi": "10.1016/j.kint.2025.05.018",
+  "title": "Evaluation of methodologies in anti-nephrin autoantibody detection.",
+  "authorString": "Liu P, Liu S, Dalal V, Lane J, Cravedi P, Campbell K, Angeletti A, Xie X, Gessaroli E, Forte E, Gallon L, Jin J.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Liu P",
+        "lastName": "Liu",
+        "firstName": "Pan",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Medicine, Division of Nephrology and Hypertension, Feinberg Cardiovascular and Renal Research Institute, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu S",
+        "lastName": "Liu",
+        "firstName": "Shuping",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Medicine, Division of Nephrology and Hypertension, Feinberg Cardiovascular and Renal Research Institute, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dalal V",
+        "lastName": "Dalal",
+        "firstName": "Vidhi",
+        "initials": "V",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, Illinois, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lane J",
+        "lastName": "Lane",
+        "firstName": "Jerome",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, Illinois, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cravedi P",
+        "lastName": "Cravedi",
+        "firstName": "Paolo",
+        "initials": "P",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-7837-0923"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Translational Transplant Research Center (TTRC) and Department of Medicine-Nephrology, Icahn School of Medicine at Mount Sinai, New York, New York, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Campbell K",
+        "lastName": "Campbell",
+        "firstName": "Kirk",
+        "initials": "K",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3855-8651"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Translational Transplant Research Center (TTRC) and Department of Medicine-Nephrology, Icahn School of Medicine at Mount Sinai, New York, New York, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Angeletti A",
+        "lastName": "Angeletti",
+        "firstName": "Andrea",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Nephrology, Dialysis, and Transplantation Unit, IRCCS Istituto Giannina Gaslini, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xie X",
+        "lastName": "Xie",
+        "firstName": "Xinfang",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, the First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gessaroli E",
+        "lastName": "Gessaroli",
+        "firstName": "Elisa",
+        "initials": "E",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0004-7355-4888"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Medicine, Division of Nephrology, University of Illinois College of Medicine, Chicago, Illinois, USA; Department of Medical and Surgical Sciences (DIMEC), Alma Mater Studiorum-University of Bologna, Bologna, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Forte E",
+        "lastName": "Forte",
+        "firstName": "Eleonora",
+        "initials": "E",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6095-2797"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Medicine, Division of Nephrology, University of Illinois College of Medicine, Chicago, Illinois, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gallon L",
+        "lastName": "Gallon",
+        "firstName": "Lorenzo",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Medicine, Division of Nephrology, University of Illinois College of Medicine, Chicago, Illinois, USA. Electronic address: lgallon@uic.edu."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jin J",
+        "lastName": "Jin",
+        "firstName": "Jing",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Medicine, Division of Nephrology and Hypertension, Feinberg Cardiovascular and Renal Research Institute, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA. Electronic address: jing.jin@northwestern.edu."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0001-7837-0923"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-3066-652X"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-6095-2797"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0003-3855-8651"
+      },
+      {
+        "type": "ORCID",
+        "value": "0009-0004-7355-4888"
+      }
+    ]
+  },
+  "journalInfo": {
+    "issue": "3",
+    "volume": "108",
+    "journalIssueId": 4001346,
+    "dateOfPublication": "2025 Sep",
+    "monthOfPublication": 9,
+    "yearOfPublication": 2025,
+    "journal": {
+      "medlineAbbreviation": "Kidney Int",
+      "title": "Kidney international",
+      "essn": "1523-1755",
+      "issn": "0085-2538",
+      "isoabbreviation": "Kidney Int",
+      "nlmid": "0323470"
+    },
+    "printPublicationDate": "2025-09-01"
+  },
+  "pubYear": "2025",
+  "pageInfo": "485-490",
+  "abstractText": "<h4>Introduction</h4>Recent studies discovered the prominent presence of anti-nephrin autoantibodies in minimal change disease (MCD) and focal segmental glomerulosclerosis (FSGS). However, widely different and often unconventional autoantibody detection methods were used in these studies, making it challenging to standardize anti-nephrin antibody detection and quantification across different studies.<h4>Methods</h4>Here, we compare methods of conventional ELISA, immunoprecipitation (IP)-based on-beads ELISA, immunoprecipitation-Western blotting (IP-WB), and cell- and tissue-based immunofluorescence staining with two cohorts totaling 169 patients and control individuals.<h4>Results</h4>Different assay methods and antigen preparations led to method-specific false-positive and false-negative results. In general, high-quality antigens produced in human cells, combined with IP-based assays, yielded the most robust and reliable results. Among 63 and 24 samples from patients with FSGS or MCD, respectively, two patients with FSGS showed strong antibody signals in both ELISA-based assays and IP-WB, while approximately half of patients with MCD had weak signals detectable only by IP-WB.<h4>Conclusions</h4>These findings highlight the importance of standardizing antibody detection methods.",
+  "affiliation": "Department of Medicine, Division of Nephrology and Hypertension, Feinberg Cardiovascular and Renal Research Institute, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA.",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "Comparative Study",
+      "research-article",
+      "Evaluation Study",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "NIBIB NIH HHS",
+        "acronym": "EB",
+        "grantId": "R01 EB033377",
+        "orderIn": 0
+      },
+      {
+        "agency": "Icahn School of Medicine at Mount Sinai",
+        "orderIn": 0
+      },
+      {
+        "agency": "National Institutes of Health",
+        "grantId": "R01EB033377",
+        "orderIn": 0
+      },
+      {
+        "agency": "University of Chicago",
+        "orderIn": 0
+      }
+    ]
+  },
+  "meshHeadingList": {
+    "meshHeading": [
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Humans"
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Nephrosis, Lipoid",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "BL",
+              "qualifierName": "blood"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "DI",
+              "qualifierName": "diagnosis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "IM",
+              "qualifierName": "immunology"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Membrane Proteins",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "IM",
+              "qualifierName": "immunology"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Autoantibodies",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "AN",
+              "qualifierName": "analysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "BL",
+              "qualifierName": "blood"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "False Negative Reactions"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Fluorescent Antibody Technique",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ST",
+              "qualifierName": "standards"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Blotting, Western",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "MT",
+              "qualifierName": "methods"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ST",
+              "qualifierName": "standards"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Enzyme-Linked Immunosorbent Assay",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "MT",
+              "qualifierName": "methods"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ST",
+              "qualifierName": "standards"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Case-Control Studies"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Reproducibility of Results"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Predictive Value of Tests"
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Immunoprecipitation",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "MT",
+              "qualifierName": "methods"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ST",
+              "qualifierName": "standards"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Adult"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Middle Aged"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Female"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Male"
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Glomerulosclerosis, Focal Segmental",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "BL",
+              "qualifierName": "blood"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "DI",
+              "qualifierName": "diagnosis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "IM",
+              "qualifierName": "immunology"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "keywordList": {
+    "keyword": [
+      "Focal Segmental Glomerulosclerosis (Fsgs)",
+      "Minimal Change Disease (Mcd)",
+      "Recombinant Nephrin",
+      "Antigen Epitope Mapping",
+      "Antinephrin Autoantibody"
+    ]
+  },
+  "chemicalList": {
+    "chemical": [
+      {
+        "name": "Membrane Proteins",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Autoantibodies",
+        "registryNumber": "0"
+      }
+    ]
+  },
+  "subsetList": {
+    "subset": [
+      {
+        "code": "IM",
+        "name": "Index Medicus"
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1016/j.kint.2025.05.018"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12354293"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12354293?pdf=render"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1016/j.kint.2025.05.018"
+      }
+    ]
+  },
+  "commentCorrectionList": {
+    "commentCorrection": [
+      {
+        "source": "MED",
+        "id": "39211159",
+        "reference": "bioRxiv. 2024 Jul 25:2024.07.25.605154. doi: 10.1101/2024.07.25.605154.",
+        "type": "Update of",
+        "orderIn": 1
+      },
+      {
+        "source": "PPR",
+        "id": "PPR887406",
+        "type": "Preprint in",
+        "note": "CrossRef Pre-print loader",
+        "orderIn": 10002
+      }
+    ]
+  },
+  "isOpenAccess": "N",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 18,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "N",
+  "hasData": "Y",
+  "license": "cc by",
+  "authMan": "Y",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "Y",
+  "manuscriptId": "NIHMS2088572",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCompletion": "2025-08-22",
+  "dateOfCreation": "2025-06-09",
+  "dateOfRevision": "2026-09-23",
+  "electronicPublicationDate": "2025-06-07",
+  "firstPublicationDate": "2025-06-07",
+  "firstIndexDate": "2025-06-12",
+  "fullTextReceivedDate": "2026-06-08",
+  "hasEvaluations": "N"
+}

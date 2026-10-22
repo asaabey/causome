@@ -1,0 +1,315 @@
+[
+  {
+    "collection": "release",
+    "id": "release-metadata",
+    "kind": "changed",
+    "fields": [
+      "id",
+      "revisionId",
+      "changeSetRevision",
+      "releaseNote",
+      "manifest"
+    ],
+    "before": {
+      "id": "minimal-change-nephropathy-appraised-candidate-2391a4e992e9",
+      "revisionId": "minimal-change-nephropathy-appraised-candidate-2391a4e992e9-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "minimal-change-nephropathy",
+      "title": "Minimal change nephropathy",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Bounded human minimal change nephropathy observations: nephrin-reactive antibodies, immune-cell and urinary IL-8 associations, foot-process effacement and nephrotic presentation. Not a complete causal circuit or comprehensive literature synthesis. Secondary causes and FSGS are not modeled; the effacement case has an infection-associated course.",
+      "diseaseAliases": [
+        "minimal change disease",
+        "MCD",
+        "MCN",
+        "nil disease"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-20",
+      "changeSetRevision": "appraisal-2391a4e992e92146d1517b55b10e53a53f2f8b669ba267f9ac78241148f36477",
+      "releaseNote": "Provisional automatic appraisal of minimal-change-nephropathy-candidate-54ccb013fa34. Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted. Independent review and calibration remain pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "832bd15e940858fce796263b53c8a5b7c3360bb51d0211f2ea0e66d696ea64a2"
+      }
+    },
+    "after": {
+      "id": "minimal-change-nephropathy-maintenance-overview-20261020",
+      "revisionId": "minimal-change-nephropathy-maintenance-overview-20261020-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "minimal-change-nephropathy",
+      "title": "Minimal change nephropathy",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Bounded human minimal change nephropathy observations: nephrin-reactive antibodies, immune-cell and urinary IL-8 associations, foot-process effacement and nephrotic presentation. Not a complete causal circuit or comprehensive literature synthesis. Secondary causes and FSGS are not modeled; the effacement case has an infection-associated course.",
+      "diseaseAliases": [
+        "minimal change disease",
+        "MCD",
+        "MCN",
+        "nil disease"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-20",
+      "changeSetRevision": "minimal-change-nephropathy-maintenance-overview-20261020",
+      "releaseNote": "Local maintenance: human hemopexin activity association in relapsing minimal change disease; complete human overview. No universal causal permeability factor asserted; domain review pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "53fe2317bc5c9d33a5db3b008ea7ea0989869615cc02d2a03873bb3f190c4de0"
+      }
+    }
+  },
+  {
+    "collection": "mapViews",
+    "id": "view-minimal-change-nephropathy-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "entityIds",
+      "relationshipIds",
+      "assessmentIds"
+    ],
+    "before": {
+      "id": "view-minimal-change-nephropathy-overview",
+      "revisionId": "view-minimal-change-nephropathy-overview-ea826765a33b",
+      "status": "candidate",
+      "label": "Human evidence · immune findings to podocyte injury",
+      "contextId": "context-mcn-overview",
+      "entityIds": [
+        "entity-anti-nephrin",
+        "entity-nephrin",
+        "entity-podocyte",
+        "entity-b_cells",
+        "entity-effacement",
+        "entity-nephrotic",
+        "entity-proteinuria",
+        "entity-il8",
+        "entity-cd4",
+        "entity-il13"
+      ],
+      "relationshipIds": [
+        "relationship-5e4a01ac746d7f3d09ed",
+        "relationship-b8f71c9844f22dbdf3f2",
+        "relationship-1487cd703cbb302068a1",
+        "relationship-b0808621e80d99c03539",
+        "relationship-804a23faee376abd6e4a",
+        "relationship-e907461764fadf2e2927",
+        "relationship-fecb79600249706d791f",
+        "relationship-b4da49f547f1e1ff6463",
+        "relationship-2c17b829e6fd6e4a7809"
+      ],
+      "assessmentIds": [
+        "assessment-c429868574abcc36faed",
+        "assessment-7e02f7d817a16c873ed1",
+        "assessment-1d311a57fa1460446c34",
+        "assessment-e76ac0de12ddcb4ad089",
+        "assessment-55805516ef06765b0251",
+        "assessment-6a63fb100d0bb898cdf5",
+        "assessment-344add2f8abf2b3074bb",
+        "assessment-b21bc8578b5235a7daad",
+        "assessment-78a44195d9e24eb7786c",
+        "assessment-627c43d51057b517dd7a",
+        "assessment-9a133703ea12617df914",
+        "assessment-d64cae894df3e534d6dc",
+        "assessment-080a50b4d3abe6071da5",
+        "assessment-5730ff1a368f445a0b3f",
+        "assessment-3c02c8f256f38fea3d38",
+        "assessment-695de07372651cf96314",
+        "assessment-relationship-b4da49f547f1e1ff6463",
+        "assessment-relationship-2c17b829e6fd6e4a7809",
+        "assessment-8937997115abe53dfd40"
+      ],
+      "layoutId": "layout-minimal-change-nephropathy-overview"
+    },
+    "after": {
+      "id": "view-minimal-change-nephropathy-overview",
+      "revisionId": "view-minimal-change-nephropathy-overview-maintenance-20261020",
+      "status": "candidate",
+      "label": "Human evidence · immune findings to podocyte injury",
+      "contextId": "context-mcn-overview",
+      "entityIds": [
+        "entity-anti-nephrin",
+        "entity-nephrin",
+        "entity-podocyte",
+        "entity-b_cells",
+        "entity-effacement",
+        "entity-nephrotic",
+        "entity-proteinuria",
+        "entity-il8",
+        "entity-cd4",
+        "entity-il13",
+        "entity-hemopexin-activity"
+      ],
+      "relationshipIds": [
+        "relationship-5e4a01ac746d7f3d09ed",
+        "relationship-b8f71c9844f22dbdf3f2",
+        "relationship-1487cd703cbb302068a1",
+        "relationship-b0808621e80d99c03539",
+        "relationship-804a23faee376abd6e4a",
+        "relationship-e907461764fadf2e2927",
+        "relationship-fecb79600249706d791f",
+        "relationship-b4da49f547f1e1ff6463",
+        "relationship-2c17b829e6fd6e4a7809",
+        "relationship-acfacadb19cdc4af8a64"
+      ],
+      "assessmentIds": [
+        "assessment-c429868574abcc36faed",
+        "assessment-7e02f7d817a16c873ed1",
+        "assessment-1d311a57fa1460446c34",
+        "assessment-e76ac0de12ddcb4ad089",
+        "assessment-55805516ef06765b0251",
+        "assessment-6a63fb100d0bb898cdf5",
+        "assessment-344add2f8abf2b3074bb",
+        "assessment-b21bc8578b5235a7daad",
+        "assessment-78a44195d9e24eb7786c",
+        "assessment-627c43d51057b517dd7a",
+        "assessment-9a133703ea12617df914",
+        "assessment-d64cae894df3e534d6dc",
+        "assessment-080a50b4d3abe6071da5",
+        "assessment-5730ff1a368f445a0b3f",
+        "assessment-3c02c8f256f38fea3d38",
+        "assessment-695de07372651cf96314",
+        "assessment-relationship-b4da49f547f1e1ff6463",
+        "assessment-relationship-2c17b829e6fd6e4a7809",
+        "assessment-8937997115abe53dfd40",
+        "assessment-relationship-acfacadb19cdc4af8a64",
+        "assessment-37972a0affac8e042b3c"
+      ],
+      "layoutId": "layout-minimal-change-nephropathy-overview"
+    }
+  },
+  {
+    "collection": "layouts",
+    "id": "layout-minimal-change-nephropathy-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "positions"
+    ],
+    "before": {
+      "id": "layout-minimal-change-nephropathy-overview",
+      "revisionId": "layout-minimal-change-nephropathy-overview-ea826765a33b",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-b_cells",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-il13",
+          "x": 300,
+          "y": 0
+        },
+        {
+          "entityId": "entity-anti-nephrin",
+          "x": 600,
+          "y": 0
+        },
+        {
+          "entityId": "entity-nephrin",
+          "x": 900,
+          "y": 0
+        },
+        {
+          "entityId": "entity-podocyte",
+          "x": 1200,
+          "y": 0
+        },
+        {
+          "entityId": "entity-cd4",
+          "x": 0,
+          "y": 400
+        },
+        {
+          "entityId": "entity-il8",
+          "x": 300,
+          "y": 400
+        },
+        {
+          "entityId": "entity-nephrotic",
+          "x": 600,
+          "y": 400
+        },
+        {
+          "entityId": "entity-effacement",
+          "x": 900,
+          "y": 400
+        },
+        {
+          "entityId": "entity-proteinuria",
+          "x": 1200,
+          "y": 400
+        }
+      ]
+    },
+    "after": {
+      "id": "layout-minimal-change-nephropathy-overview",
+      "revisionId": "layout-minimal-change-nephropathy-overview-maintenance-20261020",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-b_cells",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-il13",
+          "x": 300,
+          "y": 0
+        },
+        {
+          "entityId": "entity-anti-nephrin",
+          "x": 600,
+          "y": 0
+        },
+        {
+          "entityId": "entity-nephrin",
+          "x": 900,
+          "y": 0
+        },
+        {
+          "entityId": "entity-podocyte",
+          "x": 1200,
+          "y": 0
+        },
+        {
+          "entityId": "entity-cd4",
+          "x": 0,
+          "y": 400
+        },
+        {
+          "entityId": "entity-il8",
+          "x": 300,
+          "y": 400
+        },
+        {
+          "entityId": "entity-nephrotic",
+          "x": 600,
+          "y": 400
+        },
+        {
+          "entityId": "entity-effacement",
+          "x": 900,
+          "y": 400
+        },
+        {
+          "entityId": "entity-proteinuria",
+          "x": 1200,
+          "y": 400
+        },
+        {
+          "entityId": "entity-hemopexin-activity",
+          "x": 600,
+          "y": 800
+        }
+      ]
+    }
+  }
+]

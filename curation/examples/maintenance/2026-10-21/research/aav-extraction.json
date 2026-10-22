@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "diseaseId": "anca-associated-vasculitis",
+  "baseReleaseId": "anca-associated-vasculitis-summary-candidate-12053b461b79",
+  "baseContentDigest": "c46f06c3dee6188f1174d16859bda2fcfd2c38800039d0ff78db34af2bddff90",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "codex-agent-manual-source-curation-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "aav-complement-transcript-qualification-20261020",
+      "paperKey": "doi-5d5660d642f0a30d1b11",
+      "paperDigest": "8c56b4a83b0d7f849f2dfeb5ee1d2be378f78d47607c88de9e24d2deb145dfe6",
+      "subject": "entity-alternative-complement",
+      "object": "entity-kidney",
+      "predicate": "contributes_to",
+      "contextId": "context-aav-gpa-mpa",
+      "category": "qualifying",
+      "causalInterpretation": "hypothesis",
+      "evidenceType": "human_observational",
+      "text": "In two retrospective AAV-GN cohorts totaling 369 patients, tissue complement-related expression was associated with renal severity and outcomes but weakly concordant with serum or deposition markers. These human associations do not establish biochemical complement activation or prove the causal renal pathway represented by the mouse experiments.",
+      "quote": "only weakly concordant with serum or deposition markers.",
+      "quoteLocation": "Abstract Results; main-text Methods (transcriptomic pathway-score definition), Results (199 biopsy transcriptomes) and Discussion Limitations.",
+      "studySystem": "Two retrospective human AAV-GN registries (369 patients; 199 kidney transcriptomes); spatial transcriptomic validation. Includes a minority of ANCA-negative cases; not an EGPA analysis.",
+      "limitations": [
+        "Complement transcript abundance is not a direct measurement of biochemical complement activity. No functional assays or complement-fragment measurements were performed.",
+        "Available-case subsets and incomplete modalities permit selection bias; survival models were exploratory, without competing-risk regression or multiplicity correction across all survival contrasts.",
+        "Cohort association does not establish causation, predict response to a complement inhibitor or demonstrate treatment efficacy.",
+        "Expression scores were not meaningfully correlated with BVAS; serum C4 was not associated with outcomes after adjustment."
+      ],
+      "sourceCheck": {
+        "checkedBy": "codex-agent-source-check",
+        "checkedAt": "2026-10-20"
+      }
+    }
+  ]
+}

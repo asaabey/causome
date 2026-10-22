@@ -1,0 +1,528 @@
+[
+  {
+    "collection": "release",
+    "id": "release-metadata",
+    "kind": "changed",
+    "fields": [
+      "id",
+      "revisionId",
+      "changeSetRevision",
+      "releaseNote",
+      "manifest"
+    ],
+    "before": {
+      "id": "sle-appraised-candidate-681273ee935d",
+      "revisionId": "sle-appraised-candidate-681273ee935d-r1",
+      "status": "candidate",
+      "formatVersion": "0.3.0",
+      "diseaseId": "sle",
+      "title": "SLE nucleic-acid / interferon / B-cell circuit — scientific candidate",
+      "illustrative": false,
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-20",
+      "changeSetRevision": "appraisal-681273ee935d6c5c89ace50f9abec11e9abb67b37bba03c5de4f527b46f08f65",
+      "releaseNote": "Provisional automatic appraisal of sle-candidate-dc852eba5106. Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted. Independent review and calibration remain pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "e8601ec06615bf20f5a93576029cbc83bbc6a060aff27116f66514257a8d616c"
+      }
+    },
+    "after": {
+      "id": "sle-maintenance-overview-20261020",
+      "revisionId": "sle-maintenance-overview-20261020-r1",
+      "status": "candidate",
+      "formatVersion": "0.3.0",
+      "diseaseId": "sle",
+      "title": "SLE nucleic-acid / interferon / B-cell circuit — scientific candidate",
+      "illustrative": false,
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-20",
+      "changeSetRevision": "sle-maintenance-overview-20261020",
+      "releaseNote": "Local maintenance candidate: bacterial curli/DNA autoantibody induction in mouse experiments, with stage-dependent and renal null findings. Consolidated overview includes all entities; domain review remains pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "72a69a11381dd324494b3b824e20b657a426029c219c6e892f52ade049b0a926"
+      }
+    }
+  },
+  {
+    "collection": "mapViews",
+    "id": "view-sle-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "label",
+      "entityIds",
+      "relationshipIds",
+      "assessmentIds"
+    ],
+    "before": {
+      "id": "view-sle-overview",
+      "revisionId": "view-sle-overview-r1",
+      "status": "candidate",
+      "label": "Complete candidate · 21 entities",
+      "contextId": "context-sle-overview",
+      "entityIds": [
+        "entity-baff",
+        "entity-clearance",
+        "entity-debris",
+        "entity-rna",
+        "entity-dna",
+        "entity-variant",
+        "entity-tlr7",
+        "entity-tlr9",
+        "entity-pdc",
+        "entity-ifn",
+        "entity-ifnar",
+        "entity-monocytes",
+        "entity-b_cells",
+        "entity-plasmablasts",
+        "entity-plasma",
+        "entity-il6",
+        "entity-autoantibodies",
+        "entity-complexes",
+        "entity-fcr",
+        "entity-kidney",
+        "entity-activity"
+      ],
+      "relationshipIds": [
+        "relationship-clearance-debris",
+        "relationship-debris-complexes",
+        "relationship-rna-complexes",
+        "relationship-dna-complexes",
+        "relationship-antibodies-complexes",
+        "relationship-complexes-tlr7",
+        "relationship-complexes-tlr9",
+        "relationship-tlr7-pdc",
+        "relationship-tlr9-pdc",
+        "relationship-pdc-ifn",
+        "relationship-ifn-ifnar",
+        "relationship-ifn-baff",
+        "relationship-monocytes-baff",
+        "relationship-complexes-baff",
+        "relationship-baff-bcells",
+        "relationship-variant-tlr7",
+        "relationship-tlr7-bcells",
+        "relationship-bcells-blasts",
+        "relationship-ifn-blasts",
+        "relationship-pdc-il6",
+        "relationship-il6-plasma",
+        "relationship-blasts-plasma",
+        "relationship-plasma-antibodies",
+        "relationship-complexes-fcr",
+        "relationship-fcr-kidney",
+        "relationship-complexes-kidney",
+        "relationship-ifn-activity"
+      ],
+      "assessmentIds": [
+        "assessment-entity-baff",
+        "assessment-entity-clearance",
+        "assessment-entity-debris",
+        "assessment-entity-rna",
+        "assessment-entity-dna",
+        "assessment-entity-variant",
+        "assessment-entity-tlr7",
+        "assessment-entity-tlr9",
+        "assessment-entity-pdc",
+        "assessment-entity-ifn",
+        "assessment-entity-ifnar",
+        "assessment-entity-monocytes",
+        "assessment-entity-b_cells",
+        "assessment-entity-plasmablasts",
+        "assessment-entity-plasma",
+        "assessment-entity-il6",
+        "assessment-entity-autoantibodies",
+        "assessment-entity-complexes",
+        "assessment-entity-fcr",
+        "assessment-entity-kidney",
+        "assessment-entity-activity",
+        "assessment-relationship-clearance-debris",
+        "assessment-relationship-debris-complexes",
+        "assessment-relationship-rna-complexes",
+        "assessment-relationship-dna-complexes",
+        "assessment-relationship-antibodies-complexes",
+        "assessment-relationship-complexes-tlr7",
+        "assessment-relationship-complexes-tlr9",
+        "assessment-relationship-tlr7-pdc",
+        "assessment-relationship-tlr9-pdc",
+        "assessment-relationship-pdc-ifn",
+        "assessment-relationship-ifn-ifnar",
+        "assessment-relationship-ifn-baff",
+        "assessment-relationship-monocytes-baff",
+        "assessment-relationship-complexes-baff",
+        "assessment-relationship-baff-bcells",
+        "assessment-relationship-variant-tlr7",
+        "assessment-relationship-tlr7-bcells",
+        "assessment-relationship-bcells-blasts",
+        "assessment-relationship-ifn-blasts",
+        "assessment-relationship-pdc-il6",
+        "assessment-relationship-il6-plasma",
+        "assessment-relationship-blasts-plasma",
+        "assessment-relationship-plasma-antibodies",
+        "assessment-relationship-complexes-fcr",
+        "assessment-relationship-fcr-kidney",
+        "assessment-relationship-complexes-kidney",
+        "assessment-relationship-ifn-activity"
+      ],
+      "layoutId": "layout-sle-overview"
+    },
+    "after": {
+      "id": "view-sle-overview",
+      "revisionId": "view-sle-overview-maintenance-20261020",
+      "status": "candidate",
+      "label": "Consolidated SLE mechanisms · mixed study systems",
+      "contextId": "context-sle-overview",
+      "entityIds": [
+        "entity-baff",
+        "entity-clearance",
+        "entity-debris",
+        "entity-rna",
+        "entity-dna",
+        "entity-variant",
+        "entity-tlr7",
+        "entity-tlr9",
+        "entity-pdc",
+        "entity-ifn",
+        "entity-ifnar",
+        "entity-monocytes",
+        "entity-b_cells",
+        "entity-plasmablasts",
+        "entity-plasma",
+        "entity-il6",
+        "entity-autoantibodies",
+        "entity-complexes",
+        "entity-fcr",
+        "entity-kidney",
+        "entity-activity",
+        "entity-curli-dna"
+      ],
+      "relationshipIds": [
+        "relationship-clearance-debris",
+        "relationship-debris-complexes",
+        "relationship-rna-complexes",
+        "relationship-dna-complexes",
+        "relationship-antibodies-complexes",
+        "relationship-complexes-tlr7",
+        "relationship-complexes-tlr9",
+        "relationship-tlr7-pdc",
+        "relationship-tlr9-pdc",
+        "relationship-pdc-ifn",
+        "relationship-ifn-ifnar",
+        "relationship-ifn-baff",
+        "relationship-monocytes-baff",
+        "relationship-complexes-baff",
+        "relationship-baff-bcells",
+        "relationship-variant-tlr7",
+        "relationship-tlr7-bcells",
+        "relationship-bcells-blasts",
+        "relationship-ifn-blasts",
+        "relationship-pdc-il6",
+        "relationship-il6-plasma",
+        "relationship-blasts-plasma",
+        "relationship-plasma-antibodies",
+        "relationship-complexes-fcr",
+        "relationship-fcr-kidney",
+        "relationship-complexes-kidney",
+        "relationship-ifn-activity",
+        "relationship-c3293bcb1ac098447d7d"
+      ],
+      "assessmentIds": [
+        "assessment-entity-baff",
+        "assessment-entity-clearance",
+        "assessment-entity-debris",
+        "assessment-entity-rna",
+        "assessment-entity-dna",
+        "assessment-entity-variant",
+        "assessment-entity-tlr7",
+        "assessment-entity-tlr9",
+        "assessment-entity-pdc",
+        "assessment-entity-ifn",
+        "assessment-entity-ifnar",
+        "assessment-entity-monocytes",
+        "assessment-entity-b_cells",
+        "assessment-entity-plasmablasts",
+        "assessment-entity-plasma",
+        "assessment-entity-il6",
+        "assessment-entity-autoantibodies",
+        "assessment-entity-complexes",
+        "assessment-entity-fcr",
+        "assessment-entity-kidney",
+        "assessment-entity-activity",
+        "assessment-relationship-clearance-debris",
+        "assessment-relationship-debris-complexes",
+        "assessment-relationship-rna-complexes",
+        "assessment-relationship-dna-complexes",
+        "assessment-relationship-antibodies-complexes",
+        "assessment-relationship-complexes-tlr7",
+        "assessment-relationship-complexes-tlr9",
+        "assessment-relationship-tlr7-pdc",
+        "assessment-relationship-tlr9-pdc",
+        "assessment-relationship-pdc-ifn",
+        "assessment-relationship-ifn-ifnar",
+        "assessment-relationship-ifn-baff",
+        "assessment-relationship-monocytes-baff",
+        "assessment-relationship-complexes-baff",
+        "assessment-relationship-baff-bcells",
+        "assessment-relationship-variant-tlr7",
+        "assessment-relationship-tlr7-bcells",
+        "assessment-relationship-bcells-blasts",
+        "assessment-relationship-ifn-blasts",
+        "assessment-relationship-pdc-il6",
+        "assessment-relationship-il6-plasma",
+        "assessment-relationship-blasts-plasma",
+        "assessment-relationship-plasma-antibodies",
+        "assessment-relationship-complexes-fcr",
+        "assessment-relationship-fcr-kidney",
+        "assessment-relationship-complexes-kidney",
+        "assessment-relationship-ifn-activity",
+        "assessment-relationship-c3293bcb1ac098447d7d",
+        "assessment-78cc28ac57d8b2ff73e4"
+      ],
+      "layoutId": "layout-sle-overview"
+    }
+  },
+  {
+    "collection": "layouts",
+    "id": "layout-sle-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "positions"
+    ],
+    "before": {
+      "id": "layout-sle-overview",
+      "revisionId": "layout-sle-overview-r1",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-baff",
+          "x": 980,
+          "y": 330
+        },
+        {
+          "entityId": "entity-clearance",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-debris",
+          "x": 300,
+          "y": 0
+        },
+        {
+          "entityId": "entity-rna",
+          "x": 300,
+          "y": 220
+        },
+        {
+          "entityId": "entity-dna",
+          "x": 300,
+          "y": 470
+        },
+        {
+          "entityId": "entity-variant",
+          "x": 0,
+          "y": 760
+        },
+        {
+          "entityId": "entity-tlr7",
+          "x": 640,
+          "y": 730
+        },
+        {
+          "entityId": "entity-tlr9",
+          "x": 640,
+          "y": 1030
+        },
+        {
+          "entityId": "entity-pdc",
+          "x": 980,
+          "y": 800
+        },
+        {
+          "entityId": "entity-ifn",
+          "x": 1300,
+          "y": 680
+        },
+        {
+          "entityId": "entity-ifnar",
+          "x": 1620,
+          "y": 950
+        },
+        {
+          "entityId": "entity-monocytes",
+          "x": 1300,
+          "y": 330
+        },
+        {
+          "entityId": "entity-b_cells",
+          "x": 1300,
+          "y": 0
+        },
+        {
+          "entityId": "entity-plasmablasts",
+          "x": 1620,
+          "y": 0
+        },
+        {
+          "entityId": "entity-plasma",
+          "x": 1940,
+          "y": 0
+        },
+        {
+          "entityId": "entity-il6",
+          "x": 1620,
+          "y": 450
+        },
+        {
+          "entityId": "entity-autoantibodies",
+          "x": 1940,
+          "y": 300
+        },
+        {
+          "entityId": "entity-complexes",
+          "x": 640,
+          "y": 330
+        },
+        {
+          "entityId": "entity-fcr",
+          "x": 1940,
+          "y": 700
+        },
+        {
+          "entityId": "entity-kidney",
+          "x": 2260,
+          "y": 700
+        },
+        {
+          "entityId": "entity-activity",
+          "x": 2260,
+          "y": 1050
+        }
+      ]
+    },
+    "after": {
+      "id": "layout-sle-overview",
+      "revisionId": "layout-sle-overview-maintenance-20261020",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-baff",
+          "x": 980,
+          "y": 330
+        },
+        {
+          "entityId": "entity-clearance",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "entityId": "entity-debris",
+          "x": 300,
+          "y": 0
+        },
+        {
+          "entityId": "entity-rna",
+          "x": 300,
+          "y": 220
+        },
+        {
+          "entityId": "entity-dna",
+          "x": 300,
+          "y": 470
+        },
+        {
+          "entityId": "entity-variant",
+          "x": 0,
+          "y": 760
+        },
+        {
+          "entityId": "entity-tlr7",
+          "x": 640,
+          "y": 730
+        },
+        {
+          "entityId": "entity-tlr9",
+          "x": 640,
+          "y": 1030
+        },
+        {
+          "entityId": "entity-pdc",
+          "x": 980,
+          "y": 800
+        },
+        {
+          "entityId": "entity-ifn",
+          "x": 1300,
+          "y": 680
+        },
+        {
+          "entityId": "entity-ifnar",
+          "x": 1620,
+          "y": 950
+        },
+        {
+          "entityId": "entity-monocytes",
+          "x": 1300,
+          "y": 330
+        },
+        {
+          "entityId": "entity-b_cells",
+          "x": 1300,
+          "y": 0
+        },
+        {
+          "entityId": "entity-plasmablasts",
+          "x": 1620,
+          "y": 0
+        },
+        {
+          "entityId": "entity-plasma",
+          "x": 1940,
+          "y": 0
+        },
+        {
+          "entityId": "entity-il6",
+          "x": 1620,
+          "y": 450
+        },
+        {
+          "entityId": "entity-autoantibodies",
+          "x": 1940,
+          "y": 300
+        },
+        {
+          "entityId": "entity-complexes",
+          "x": 640,
+          "y": 330
+        },
+        {
+          "entityId": "entity-fcr",
+          "x": 1940,
+          "y": 700
+        },
+        {
+          "entityId": "entity-kidney",
+          "x": 2260,
+          "y": 700
+        },
+        {
+          "entityId": "entity-activity",
+          "x": 2260,
+          "y": 1050
+        },
+        {
+          "entityId": "entity-curli-dna",
+          "x": 1940,
+          "y": -250
+        }
+      ]
+    }
+  }
+]

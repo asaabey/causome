@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "calciphylaxis-candidate-3d7d79f84622",
+  "baseContentDigest": "267ce9e566cdfeec31a4febd01012e47cc888996af3fb17db3fce30e0cf0c12b",
+  "candidateId": "calciphylaxis-appraised-candidate-409c9db87504",
+  "contentDigest": "9450169030f87f318175b1e09c012e41f0925b6c118f79117c0d48893bea0805",
+  "inputDigest": "409c9db87504bdc02497af70e6d0fee456a8bbb2286e24bd5d219806c8d7dfd4",
+  "assessmentCount": 55,
+  "weightCount": 54,
+  "confidenceCount": 55,
+  "therapyCoverageCount": 55,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

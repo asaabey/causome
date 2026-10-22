@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "diseaseId": "anca-associated-vasculitis",
+  "baseReleaseId": "anca-associated-vasculitis-appraised-candidate-a25b58b5a9a4",
+  "baseContentDigest": "902f020d5cccf7320022c7eff3f601cba8f8eb2686409435567316c4fb374b70",
+  "scope": "Selected MPO-/PR3-ANCA, neutrophil/complement and renal/pulmonary injury mechanisms for GPA/MPA-spectrum AAV, with a separate EGPA eosinophilic context. Historical abstract-level primary reports plus one full-text human complement study; excludes drug-induced disease, comprehensive organ/diagnostic coverage and treatment efficacy. ANCA-negative EGPA is included, not generalized to ANCA-negative GPA/MPA.",
+  "authoredBy": {
+    "id": "codex-curation-agent",
+    "kind": "agent"
+  },
+  "authoredAt": "2026-10-20",
+  "paragraphs": [
+    {
+      "text": "Within selected GPA/MPA-spectrum evidence, patient MPO-ANCA and PR3-ANCA IgG activated human neutrophils in vitro, with TNF priming enhancing oxidative burst and degranulation. Activated-neutrophil supernatants activated serum complement and generated C5a; C5a primed further ANCA responses. These experiments support a context-bound amplification model. Factor-B- and C5-deficient mice were protected from anti-MPO renal disease. Purified anti-MPO IgG caused necrotizing crescentic glomerulonephritis in mice; pulmonary capillaritis was reported in a separate splenocyte-transfer experiment. A newly added retrospective study of 369 patients links intrarenal complement-related expression to renal severity and outcomes, but transcript abundance does not establish biochemical activation or causation, and serum and tissue measurements were weakly concordant. The study did not test whether its expression scores predict treatment response. ANCA-stimulated neutrophils released NETs containing MPO and PR3, and NETs were observed in inflamed human kidneys. Tissue presence does not prove disease initiation; serum NET measurements in one cohort did not reliably distinguish active disease from remission or correlate with BVAS and renal indices.",
+      "claimIds": [
+        "claim-aav-mpo-neutrophil",
+        "claim-aav-pr3-neutrophil",
+        "claim-aav-tnf-primes",
+        "claim-aav-neutrophil-burst",
+        "claim-aav-neutrophil-complement",
+        "claim-aav-complement-c5a",
+        "claim-aav-c5a-primes",
+        "claim-aav-complement-renal",
+        "claim-aav-mpo-renal",
+        "claim-aav-mpo-lung",
+        "claim-aav-neutrophil-nets",
+        "claim-aav-nets-kidney",
+        "claim-aav-nets-null-activity",
+        "claim-6f2942b97b1583df319c"
+      ]
+    },
+    {
+      "text": "EGPA is represented separately rather than treated as an interchangeable ANCA-driven extension of that model. Its genetic study linked a tendency to eosinophilia with susceptibility and distinguished MPO-ANCA-positive from ANCA-negative subgroups. In selected EGPA tissue, lytic eosinophils and eosinophil extracellular traps were present in small-vessel thrombi; EETs supported platelet adhesion in vitro, but these findings do not establish the initiating cause of clinical thrombosis. In a small cohort, circulating cell-free DNA tracked activity only in the EGPA subgroup and was not shown to derive exclusively from EETs. Serum from patients in EGPA remission induced NET formation in healthy-donor neutrophils: the overall ANCA-positive/negative comparison was not significant, despite subgroup differences reported in the source. Eosinophil count correlated with NET formation without identifying the responsible serum factor. These culture, genetic and observational findings remain distinct from mouse experiments. Most historical sources were inspected at abstract level. The new complement study was inspected in full text, but its supplementary methods were not independently audited; residual selection bias, exploratory survival analyses and causal uncertainty remain. Therapy efficacy is outside this map; provisional automatic appraisals are uncalibrated, and independent domain and external summary review remain pending.",
+      "claimIds": [
+        "claim-egpa-eosinophilia-susceptibility",
+        "claim-egpa-anca-subgroups",
+        "claim-egpa-eosinophil-eets",
+        "claim-egpa-eets-thrombi",
+        "claim-egpa-eets-platelets",
+        "claim-egpa-cfdna-activity",
+        "claim-egpa-serum-nets",
+        "claim-egpa-serum-anca-qualifier",
+        "claim-egpa-eosinophils-nets"
+      ]
+    }
+  ]
+}

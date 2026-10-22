@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "diseaseId": "calciphylaxis",
+  "baseReleaseId": "calciphylaxis-summary-candidate-9b1e60179c27",
+  "baseContentDigest": "328e540a3c2ba5ec8e4b3ada6c2283f703aa6c6c56a0910bea3f1a7a7ed0090c",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "codex-agent-manual-source-curation-v1",
+  "newEntities": [
+    {
+      "id": "entity-pyrophosphate",
+      "label": "Circulating pyrophosphate",
+      "synonyms": [
+        "Inorganic pyrophosphate",
+        "PPi"
+      ],
+      "entityClass": "metabolite",
+      "description": "Circulating calcification inhibitor measured in a human calciphylaxis registry; lower levels were associated with case status and outcomes, without establishing causal deficiency.",
+      "externalIds": []
+    }
+  ],
+  "findings": [
+    {
+      "paperKey": "doi-744ab78596dc4b7e587e",
+      "paperDigest": "0787f34be913b5c682911161c915b326dbd39a42eb8efc6a850c0d6190b6b9ef",
+      "subject": "entity-pyrophosphate",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "category": "novel",
+      "causalInterpretation": "association",
+      "evidenceType": "human_observational",
+      "studySystem": "Human calciphylaxis registry: 30 matched case-control pairs; 70-patient cohort, 67% ESKD. Fasting circulating PPi assay, predialysis in dialysis patients.",
+      "sourceCheck": {
+        "checkedBy": "codex-agent-source-check",
+        "checkedAt": "2026-10-20"
+      },
+      "id": "calciphylaxis-ppi-case-association-20261020",
+      "object": "entity-calciphylaxis",
+      "text": "Circulating pyrophosphate was lower in 30 patients with calciphylaxis than in 30 matched controls; lower PPi was associated with higher odds of calciphylaxis after adjustment for ALP, phosphate and BMI.",
+      "quote": "PPi levels were significantly lower among patients with calciphylaxis compared to matched controls",
+      "quoteLocation": "Main text, case-control results paragraph; table 1.",
+      "limitations": [
+        "Small observational matched case-control study; measurement after diagnosis cannot establish temporal direction or causation.",
+        "Only 67% had ESKD; findings must not be treated as a dialysis-only population.",
+        "Industry funded, with several authors employed by the sponsor. No PPi-raising intervention was tested."
+      ]
+    },
+    {
+      "paperKey": "doi-744ab78596dc4b7e587e",
+      "paperDigest": "0787f34be913b5c682911161c915b326dbd39a42eb8efc6a850c0d6190b6b9ef",
+      "subject": "entity-pyrophosphate",
+      "predicate": "is_associated_with",
+      "contextId": "context-calciphylaxis-overview",
+      "category": "novel",
+      "causalInterpretation": "association",
+      "evidenceType": "human_observational",
+      "studySystem": "Human calciphylaxis registry: 30 matched case-control pairs; 70-patient cohort, 67% ESKD. Fasting circulating PPi assay, predialysis in dialysis patients.",
+      "sourceCheck": {
+        "checkedBy": "codex-agent-source-check",
+        "checkedAt": "2026-10-20"
+      },
+      "id": "calciphylaxis-ppi-mortality-association-20261020",
+      "object": "entity-mortality",
+      "text": "In the calciphylaxis cohort, lower enrollment PPi was associated with higher short-term mortality; PPi also correlated with lesion count but not pain intensity. These observations do not establish that raising PPi improves outcomes.",
+      "quote": "At enrollment, PPi levels negatively correlated with the number of skin lesions",
+      "quoteLocation": "Main text, cohort severity and mortality results paragraph.",
+      "limitations": [
+        "Seventy-patient cohort, short follow-up, substantial within-person PPi variability and possible residual confounding.",
+        "The adjusted mortality association was reported in the ESKD subgroup; no universal mortality effect is asserted.",
+        "No significant association with pain intensity; biomarker association does not demonstrate treatment benefit."
+      ],
+      "distinctFindingRationale": "Separate cohort outcome finding, rather than counting the matched case-control comparison as an independent replication."
+    }
+  ]
+}

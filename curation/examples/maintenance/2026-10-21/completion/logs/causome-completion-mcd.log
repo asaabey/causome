@@ -1,0 +1,10 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs reconcile --base knowledge/diseases/minimal-change-nephropathy/candidates/minimal-change-nephropathy-summary-candidate-08ba4223dd93.json --papers curation/workspace/maintenance-completion/2026-10-21/minimal-change-nephropathy-selected-papers.json --extraction curation/workspace/maintenance-completion/2026-10-21/minimal-change-nephropathy-extraction.json --cutoff 2026-10-20
+
+Automatic provisional appraisals: minimal-change-nephropathy-appraised-candidate-2391a4e992e9
+Inputs and results: curation/workspace/minimal-change-nephropathy/appraisals/minimal-change-nephropathy-appraised-candidate-2391a4e992e9
+Select with curate preview --disease minimal-change-nephropathy --candidate minimal-change-nephropathy-appraised-candidate-2391a4e992e9
+Summary review packet: curation/workspace/minimal-change-nephropathy/summary-reviews/5c34bd4aa07af879d00bfde551772ca14f548f162c9dd9b5954f189962ea2ebf
+Overall summary candidate: minimal-change-nephropathy-summary-candidate-8b197a38a9d6; current-literature review pending.
+curation/workspace/minimal-change-nephropathy/proposals/proposal-54ccb013fa3426fe8c85f9a4

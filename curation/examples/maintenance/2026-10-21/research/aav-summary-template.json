@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "diseaseId": "anca-associated-vasculitis",
+  "baseReleaseId": "anca-associated-vasculitis-appraised-candidate-a25b58b5a9a4",
+  "baseContentDigest": "902f020d5cccf7320022c7eff3f601cba8f8eb2686409435567316c4fb374b70",
+  "scope": "Bounded MPO-/PR3-ANCA, neutrophil activation, complement/C5a and renal/pulmonary small-vessel injury map for GPA/MPA, with a separate EGPA eosinophilic branch. Human observations and experimental models remain distinct; excludes drug-induced disease and comprehensive diagnostic or therapy coverage.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-20",
+  "paragraphs": [
+    {
+      "text": "Patient MPO-ANCA IgG stimulated human neutrophils to release complement-activating factors in vitro. Supernatants from ANCA-activated neutrophils activated complement in normal serum. C3a did not show the C5a priming effect in the reported assay, limiting a generic anaphylatoxin-priming interpretation.",
+      "claimIds": [
+        "claim-aav-mpo-neutrophil",
+        "claim-aav-neutrophil-complement",
+        "claim-aav-c3a-negative-control"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Abstract-only inspection; full methods, controls, effect sizes and source-quality appraisal remain unverified. Human culture/serum assay; does not prove whole-disease causation or treatment efficacy. Treatment efficacy has not been synthesized in this summary.",
+      "claimIds": [
+        "claim-aav-mpo-neutrophil",
+        "claim-aav-neutrophil-complement",
+        "claim-aav-c3a-negative-control"
+      ]
+    }
+  ]
+}

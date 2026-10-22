@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "calciphylaxis",
+  "candidateId": "calciphylaxis-summary-candidate-d5f1a8f06f12",
+  "contentDigest": "d0819a6282a2c4385789b82f2975a0ee36471893d30e42b43231ea643fd145e3",
+  "summaryRevisionId": "summary-d5f1a8f06f12",
+  "summaryDigest": "f4686f1cbc126d0bcc52d44e29075d669f1c4b28e2f2989542fcc00966fd9b66",
+  "packetDigest": "63a4b811fc6cb26977b8f48358703cdfd447deeb6ceaa32e3fc9a27f6d06c25f",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

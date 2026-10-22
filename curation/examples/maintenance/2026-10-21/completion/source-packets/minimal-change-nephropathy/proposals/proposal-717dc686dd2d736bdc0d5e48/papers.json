@@ -1,0 +1,54 @@
+[
+  {
+    "key": "doi-b5192804f31c6e5663bf",
+    "identifiers": [
+      "DOI:10.1016/j.jtauto.2025.100307",
+      "PMID:41473788",
+      "PMCID:PMC12745956"
+    ],
+    "title": "Afucosylated IgG in idiopathic nephrotic syndrome patients with anti-nephrin autoantibodies correlate with disease activity.",
+    "authors": "Spinelli S, Garbarino A, Lugani F, La Porta E, Rumeo N, Piaggio G, Magnasco A, Trivelli A, Degl'Innocenti ML, Tripodi G, Granata S, Leone F, Zocchi E, Gallon L, Ghiggeri GM, Verrina E, Zaza G, Candiano G, Bruschi M.",
+    "publishedAt": "2025-08-08",
+    "journal": "Journal of translational autoimmunity",
+    "abstract": " Background Idiopathic nephrotic syndrome (INS) is a glomerular disorder characterized by podocyte injury and proteinuria. Emerging evidence suggests that anti-nephrin autoantibodies (Abs) may contribute to disease pathogenesis in a subset of INS patients. Variation in techniques for detecting anti-nephrin Abs and lack of urinary data contribute to uncertainties of results.While reduced IgG fucosylation is known to enhance antibody-dependent cellular cytotoxicity in non-INS autoimmune diseases, its role in modulating anti-nephrin autoantibody function and disease severity in INS remains unexplored. Methods We studied serum and urine of pediatric and young adult patients with biopsy-proven focal segmental glomerulosclerosis (FSGS) or minimal change disease (MCD) with different disease activity (proteinuria +  vs  proteinuria-). Anti-nephrin autoantibodies were evaluated with either conventional ELISA and immunoprecipitation using recombinant full-length extracellular domain of FLAG tagged human nephrin. Aleuria Aurantia Lectin (AAL) and Ulex Europaeus Agglutinin I (UEA-I) Lectins assessed IgG autoantibody fucosylation. Results Anti-nephrin autoantibodies were detected in serum of 11 % of FSGS and 15 % of MCD patients, with a higher prevalence among those with nephrotic-range proteinuria. These autoantibodies were absent in healthy controls as well as in patients with primary membranous nephropathy and class V lupus nephritis. Autoantibody titers correlated with disease activity, decreasing during remission. Immunoprecipitation confirmed results obtained with ELISA. In a subset of anti-nephrin positive patients, the autoantibodies were also detected in urine. Circulating anti-nephrin autoantibodies showed significantly reduced antennary and core fucosylation of IgG. Conclusions Our findings confirmed the significance of anti-nephrin autoantibodies as markers of active disease in a small subset of INS patients and showed their presence in urine. ELISA and Immunoprecipitation results correlated. Molecular studies showed that altered IgG fucosylation may contribute to immune-mediated podocyte injury. These insights provide potential biomarkers for disease monitoring and therapeutic targets in INS.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41473788/",
+    "doi": "10.1016/j.jtauto.2025.100307",
+    "pmid": "41473788",
+    "pmcid": "PMC12745956",
+    "accessScope": "Primary report abstract and bibliographic metadata inspected by Codex agent on 2026-10-20 UTC; full text not inspected; no human approval.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-21",
+    "lastCheckedAt": "2026-10-21",
+    "reviewedAt": null
+  },
+  {
+    "key": "doi-08c0eadda9f6de793bca",
+    "identifiers": [
+      "DOI:10.1093/ckj/sfaf012",
+      "PMID:40046822",
+      "PMCID:PMC11879414"
+    ],
+    "title": "Anti-nephrin antibody: a potential biomarker of minimal change disease.",
+    "authors": "Chen Q, Chen S, Ye Q, Lin W, Liao Y, Xiong Y, Xu J, Gao R, Li B, Liu L, Wei L.",
+    "publishedAt": "2025-01-20",
+    "journal": "Clinical kidney journal",
+    "abstract": " Background Minimal change disease (MCD) is a common pathological type of nephrotic syndrome in children and adults, and the mechanisms remain obscure. The diagnosis of MCD still relies on renal biopsy, lacking effective biological markers. This study explores the diagnostic value of circulating anti-nephrin antibody in MCD patients and evaluates the correlation with disease activity indicators such as proteinuria. Methods The study included 108 adult patients with glomerular disease, including 36 with MCD, 16 with primary focal segmental glomerulosclerosis (FSGS), 20 with primary membranous nephropathy (MN), 17 with diabetic nephropathy (DN) and 19 with immunoglobulin A nephropathy (IgAN). Twenty healthy volunteers were included. Circulating anti-nephrin antibody was detected by indirect immunofluorescence method of cell-based assay. The receiver-operating characteristic (ROC) curve was used to evaluate the role of circulating anti-nephrin antibody in the diagnosis of MCD. The correlations between anti-nephrin antibody and clinical parameters were analyzed. Results The prevalence of circulating anti-nephrin antibody was 19.44% (7 of 36) in MCD and 26.92% (7 of 26) in MCD patients with nephrotic proteinuria, which was higher than in FSGS, PMN, DN, IgAN and healthy volunteers. The ROC curve showed that the sensitivity of anti-nephrin antibody used in the diagnosis of MCD was 19.4% and the specificity was 97.8%. The MCD patients with positive anti-nephrin antibody had heavier proteinuria and higher serum lipid levels, while having lower serum albumin and blood IgG levels. Anti-nephrin antibody might turn to negative when the MCD patient had a response to therapy. Conclusions Circulating anti-nephrin antibody may be a potential biomarker of MCD and may play a role in the MCD diagnosis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40046822/",
+    "doi": "10.1093/ckj/sfaf012",
+    "pmid": "40046822",
+    "pmcid": "PMC11879414",
+    "accessScope": "Primary report abstract and bibliographic metadata inspected by Codex agent on 2026-10-20 UTC; full text not inspected; no human approval.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-21",
+    "lastCheckedAt": "2026-10-21",
+    "reviewedAt": null
+  }
+]

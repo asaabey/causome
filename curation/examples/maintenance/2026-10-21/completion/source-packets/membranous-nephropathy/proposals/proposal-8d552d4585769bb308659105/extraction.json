@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "diseaseId": "membranous-nephropathy",
+  "baseReleaseId": "membranous-nephropathy-summary-candidate-32b3afbfc619",
+  "baseContentDigest": "9ef1d6d630b3a04cf05413a246905e421b8f921fdaf7e3441bbf00ccc6b06867",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "codex-agent-manual-source-curation-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "nell1-mixed-secondary-scope-20261020",
+      "paperKey": "doi-b3792ba42918e2ada62a",
+      "paperDigest": "95e65aae041cc9eee1e7f1da06cc0125672e54c41d95ba19b205d69b7d4f5fcb",
+      "sourceCheck": {
+        "checkedBy": "codex-agent-source-check",
+        "checkedAt": "2026-10-20"
+      },
+      "category": "qualifying",
+      "subject": "entity-mn-nell1",
+      "object": "entity-mn-proteinuria",
+      "predicate": "is_associated_with",
+      "contextId": "context-mn-primary",
+      "causalInterpretation": "association",
+      "text": "In a 70-person NELL1-associated MN series, only 11% had no known secondary association; lipoic acid, NSAID use, autoimmune disease and malignancy were frequent associations. NELL1 antigen identity alone does not establish primary disease, qualifying generalization of NELL1 findings to this primary-only map.",
+      "quote": "11% had no known secondary association.",
+      "quoteLocation": "Primary-report Abstract: Results.",
+      "studySystem": "Human retrospective three-institution NELL1-associated MN series of 70 patients; mixed secondary associations used solely to qualify primary-scope applicability.",
+      "evidenceType": "human_observational",
+      "limitations": [
+        "Mixed secondary-associated cohort is outside the core primary-only population; retained as an applicability qualification, not a causal primary-disease route.",
+        "Exposures may overlap; associations do not prove causation.",
+        "No treatment recommendation or benefit claim imported."
+      ],
+      "distinctFindingRationale": "Separate cohort added following actual external summary feedback; not independent replication of multiple readouts from the same paper."
+    }
+  ]
+}

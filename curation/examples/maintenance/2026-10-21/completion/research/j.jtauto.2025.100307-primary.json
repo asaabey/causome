@@ -1,0 +1,404 @@
+{
+  "id": "41473788",
+  "source": "MED",
+  "pmid": "41473788",
+  "pmcid": "PMC12745956",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC12745956"
+    ]
+  },
+  "doi": "10.1016/j.jtauto.2025.100307",
+  "title": "Afucosylated IgG in idiopathic nephrotic syndrome patients with anti-nephrin autoantibodies correlate with disease activity.",
+  "authorString": "Spinelli S, Garbarino A, Lugani F, La Porta E, Rumeo N, Piaggio G, Magnasco A, Trivelli A, Degl'Innocenti ML, Tripodi G, Granata S, Leone F, Zocchi E, Gallon L, Ghiggeri GM, Verrina E, Zaza G, Candiano G, Bruschi M.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Spinelli S",
+        "lastName": "Spinelli",
+        "firstName": "Sonia",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9847-4308"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Garbarino A",
+        "lastName": "Garbarino",
+        "firstName": "Andrea",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lugani F",
+        "lastName": "Lugani",
+        "firstName": "Francesca",
+        "initials": "F",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4189-8561"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "La Porta E",
+        "lastName": "La Porta",
+        "firstName": "Edoardo",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Rumeo N",
+        "lastName": "Rumeo",
+        "firstName": "Noemi",
+        "initials": "N",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Piaggio G",
+        "lastName": "Piaggio",
+        "firstName": "Giorgio",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Magnasco A",
+        "lastName": "Magnasco",
+        "firstName": "Alberto",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Trivelli A",
+        "lastName": "Trivelli",
+        "firstName": "Antonella",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Degl'Innocenti ML",
+        "lastName": "Degl'Innocenti",
+        "firstName": "Maria Ludovica",
+        "initials": "ML",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Tripodi G",
+        "lastName": "Tripodi",
+        "firstName": "Gino",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Immunohematology and Transfusion Medicine Unit, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Granata S",
+        "lastName": "Granata",
+        "firstName": "Simona",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biology, Ecology and Earth Sciences, University of Calabria, Rende, Italy."
+            },
+            {
+              "affiliation": "Nephrology, Dialysis and Transplantation Unit, Department of Medical and Surgical Sciences, University of Foggia, Foggia, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Leone F",
+        "lastName": "Leone",
+        "firstName": "Francesca",
+        "initials": "F",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation, Annunziata Hospital, Cosenza, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zocchi E",
+        "lastName": "Zocchi",
+        "firstName": "Elena",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Experimental Medicine (DIMES), University of Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gallon L",
+        "lastName": "Gallon",
+        "firstName": "Lorenzo",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Medicine, University of Illinois Chicago, Chicago, IL, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ghiggeri GM",
+        "lastName": "Ghiggeri",
+        "firstName": "Gian Marco",
+        "initials": "GM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Verrina E",
+        "lastName": "Verrina",
+        "firstName": "Enrico",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zaza G",
+        "lastName": "Zaza",
+        "firstName": "Gianluigi",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation, Annunziata Hospital, Cosenza, Italy."
+            },
+            {
+              "affiliation": "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Candiano G",
+        "lastName": "Candiano",
+        "firstName": "Giovanni",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bruschi M",
+        "lastName": "Bruschi",
+        "firstName": "Maurizio",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy."
+            },
+            {
+              "affiliation": "Department of Experimental Medicine (DIMES), University of Genoa, Italy."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0001-9847-4308"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-4189-8561"
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "supporting_data"
+    ]
+  },
+  "journalInfo": {
+    "volume": "11",
+    "journalIssueId": 3962669,
+    "dateOfPublication": "2025 Dec",
+    "monthOfPublication": 12,
+    "yearOfPublication": 2025,
+    "journal": {
+      "medlineAbbreviation": "J Transl Autoimmun",
+      "title": "Journal of translational autoimmunity",
+      "essn": "2589-9090",
+      "issn": "2589-9090",
+      "nlmid": "101759413",
+      "isoabbreviation": "J Transl Autoimmun"
+    },
+    "printPublicationDate": "2025-12-01"
+  },
+  "pubYear": "2025",
+  "pageInfo": "100307",
+  "abstractText": "<h4>Background</h4>Idiopathic nephrotic syndrome (INS) is a glomerular disorder characterized by podocyte injury and proteinuria. Emerging evidence suggests that anti-nephrin autoantibodies (Abs) may contribute to disease pathogenesis in a subset of INS patients. Variation in techniques for detecting anti-nephrin Abs and lack of urinary data contribute to uncertainties of results.While reduced IgG fucosylation is known to enhance antibody-dependent cellular cytotoxicity in non-INS autoimmune diseases, its role in modulating anti-nephrin autoantibody function and disease severity in INS remains unexplored.<h4>Methods</h4>We studied serum and urine of pediatric and young adult patients with biopsy-proven focal segmental glomerulosclerosis (FSGS) or minimal change disease (MCD) with different disease activity (proteinuria\u00a0+\u00a0<i>vs</i> proteinuria-). Anti-nephrin autoantibodies were evaluated with either conventional ELISA and immunoprecipitation using recombinant full-length extracellular domain of FLAG tagged human nephrin. Aleuria Aurantia Lectin (AAL) and Ulex Europaeus Agglutinin I (UEA-I) Lectins assessed IgG autoantibody fucosylation.<h4>Results</h4>Anti-nephrin autoantibodies were detected in serum of 11\u00a0% of FSGS and 15\u00a0% of MCD patients, with a higher prevalence among those with nephrotic-range proteinuria. These autoantibodies were absent in healthy controls as well as in patients with primary membranous nephropathy and class V lupus nephritis. Autoantibody titers correlated with disease activity, decreasing during remission. Immunoprecipitation confirmed results obtained with ELISA. In a subset of anti-nephrin positive patients, the autoantibodies were also detected in urine. Circulating anti-nephrin autoantibodies showed significantly reduced antennary and core fucosylation of IgG.<h4>Conclusions</h4>Our findings confirmed the significance of anti-nephrin autoantibodies as markers of active disease in a small subset of INS patients and showed their presence in urine. ELISA and Immunoprecipitation results correlated. Molecular studies showed that altered IgG fucosylation may contribute to immune-mediated podocyte injury. These insights provide potential biomarkers for disease monitoring and therapeutic targets in INS.",
+  "affiliation": "Division of Nephrology, Dialysis and Transplantation and Laboratory of Molecular Nephrology, Istituto Giannina Gaslini, IRCCS, Genoa, Italy.",
+  "publicationStatus": "epublish",
+  "language": "eng",
+  "pubModel": "Electronic-eCollection",
+  "pubTypeList": {
+    "pubType": [
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "Active and Assisted Living Programme",
+        "orderIn": 0
+      },
+      {
+        "agency": "University of East Anglia",
+        "orderIn": 0
+      },
+      {
+        "agency": "European Commission",
+        "grantId": "2022FH7889",
+        "orderIn": 0
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1016/j.jtauto.2025.100307"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12745956"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12745956?pdf=render"
+      }
+    ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 2,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "license": "cc by-nc-nd",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "Y",
+  "tmAccessionTypeList": {
+    "accessionType": [
+      "gen",
+      "uniprot",
+      "doi"
+    ]
+  },
+  "dateOfCompletion": "2025-12-31",
+  "dateOfCreation": "2025-12-31",
+  "dateOfRevision": "2026-01-02",
+  "electronicPublicationDate": "2025-08-08",
+  "firstPublicationDate": "2025-08-08",
+  "firstIndexDate": "2026-01-02",
+  "fullTextReceivedDate": "2025-12-30",
+  "hasEvaluations": "N",
+  "inspectionNote": "Primary abstract inspected by agent, full text not yet inspected",
+  "retrievedAtUTC": "2026-10-20"
+}

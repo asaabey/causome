@@ -1,0 +1,10 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs reconcile --base knowledge/diseases/anca-associated-vasculitis/candidates/anca-associated-vasculitis-summary-candidate-12053b461b79.json --papers curation/workspace/maintenance-research/2026-10-21/aav-selected-papers.json --extraction curation/workspace/maintenance-research/2026-10-21/aav-extraction.json --cutoff 2026-10-20
+
+Automatic provisional appraisals: anca-associated-vasculitis-appraised-candidate-a25b58b5a9a4
+Inputs and results: curation/workspace/anca-associated-vasculitis/appraisals/anca-associated-vasculitis-appraised-candidate-a25b58b5a9a4
+Select with curate preview --disease anca-associated-vasculitis --candidate anca-associated-vasculitis-appraised-candidate-a25b58b5a9a4
+Summary review packet: curation/workspace/anca-associated-vasculitis/summary-reviews/f583c1614089eecc272886618791d6ed363a3cac081a74968dd19d1608df1565
+Overall summary candidate: anca-associated-vasculitis-summary-candidate-c5311342f16b; current-literature review pending.
+curation/workspace/anca-associated-vasculitis/proposals/proposal-42173efab580cbda9165aeb4

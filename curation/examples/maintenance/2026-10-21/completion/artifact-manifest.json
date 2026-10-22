@@ -1,0 +1,1052 @@
+{
+  "version": 1,
+  "cycleDirectory": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58",
+  "firstPassArchive": "../handoff.md",
+  "files": [
+    {
+      "path": "anca-associated-vasculitis-final-diff.json",
+      "bytes": 653232,
+      "sha256": "2b89ede0cf61cac91e165bc7e862fc404428e7fb3dabdd1b2cb6d969ec4785b9"
+    },
+    {
+      "path": "calciphylaxis-final-diff.json",
+      "bytes": 887804,
+      "sha256": "ef668d972eca424b9662abe5423ee6086787557a409ab1e0dedb7b3d33bf864d"
+    },
+    {
+      "path": "candidate-bindings.json",
+      "bytes": 99385,
+      "sha256": "bc649cf2435c1570f52c2929ba45b4fd4e61563aaa703b2b95534edc59f20db5"
+    },
+    {
+      "path": "cycle-status.json",
+      "bytes": 662,
+      "sha256": "60fa83fc724c048c3e152aee276c8701e1cec34d02542513d578a893be4a857a"
+    },
+    {
+      "path": "disposition-revisions.json",
+      "bytes": 15700,
+      "sha256": "4b88a97c0956340277e9dd2e42e4383197c919dec14e62b1409447b074f5ba5d"
+    },
+    {
+      "path": "handoff.md",
+      "bytes": 26069,
+      "sha256": "a3562db55b64a3feb649783faa69e4d7d0dbdbb0318634a7f5a60ef872eda155"
+    },
+    {
+      "path": "logs/causome-completion-browser.log",
+      "bytes": 875,
+      "sha256": "4fee4f51d8833ff765dd8cbac4b76b21d3b2bafb76befe9a0193cbbdd8a43dc3"
+    },
+    {
+      "path": "logs/causome-completion-build.log",
+      "bytes": 27595,
+      "sha256": "3e02ea7580ea1a8f0a3c0bf4de668b20a4bd7eed029dc0071c2c4b18ca856dad"
+    },
+    {
+      "path": "logs/causome-completion-check.log",
+      "bytes": 621,
+      "sha256": "2bb5cc432ed01d627d2568e1720aa6c089b474d2ca50ab1bb6cb5d082e18b2cb"
+    },
+    {
+      "path": "logs/causome-completion-final-audit.log",
+      "bytes": 671,
+      "sha256": "c779c2983b6363749af0c80973c3f444a6075f85a1809f9c9d00021d33978bfb"
+    },
+    {
+      "path": "logs/causome-completion-final-browser.log",
+      "bytes": 875,
+      "sha256": "061bf7b86931aef61fb77584d198b30f3c6eb30309dc063d23896b180c405398"
+    },
+    {
+      "path": "logs/causome-completion-final-build.log",
+      "bytes": 28980,
+      "sha256": "3ec4ecca1eefdecb479a4ba74bc7ef3900c517f38685e298d8b240ef232bfe81"
+    },
+    {
+      "path": "logs/causome-completion-final-check.log",
+      "bytes": 621,
+      "sha256": "492dbe241e00b025fcd4decfd57c88f206a187d746de1d3ecfb2d397f607ab92"
+    },
+    {
+      "path": "logs/causome-completion-final-short-labels.log",
+      "bytes": 307,
+      "sha256": "42f593e97736f5540743667afd9f3f8e5eab86fc43e435be644859d0578048bb"
+    },
+    {
+      "path": "logs/causome-completion-mcd-assay.log",
+      "bytes": 1194,
+      "sha256": "0d5b491e6392b3e06c5533f671260eb2944a8898d862855a73209983fed8072e"
+    },
+    {
+      "path": "logs/causome-completion-mcd-review.log",
+      "bytes": 1196,
+      "sha256": "2ce63bb293a4cbce026b77b09ee4ff0e644256d3b9d11733dec7e15f00f81053"
+    },
+    {
+      "path": "logs/causome-completion-mcd.log",
+      "bytes": 1191,
+      "sha256": "8541b5d4d97041fd026a64891c33b009aada09e2a050b2cb293b3bd49afaacc3"
+    },
+    {
+      "path": "logs/causome-completion-mn-review.log",
+      "bytes": 1148,
+      "sha256": "58f0a4431a4c8032fdebdfe41514a9548cae3120ecc871d58ce1dcba8e58ce88"
+    },
+    {
+      "path": "logs/causome-completion-mn.log",
+      "bytes": 1143,
+      "sha256": "73d4a5cd04cd781efcfb2ce2e6e7c0fea42c91a64ef791b98de209bae786e0fe"
+    },
+    {
+      "path": "logs/causome-completion-short-labels.log",
+      "bytes": 307,
+      "sha256": "f455b70ab5271cb336f4f45b869e24a0589bf648fc3296b3226eed00eb7ac963"
+    },
+    {
+      "path": "logs/causome-completion-verified-audit.log",
+      "bytes": 671,
+      "sha256": "a65606b2499fc914e8b3e2cc2a63716e04abf415da3b825a19cd0caa82807c13"
+    },
+    {
+      "path": "logs/causome-completion-verified-browser.log",
+      "bytes": 875,
+      "sha256": "cc8bc09d3a8a5ece10af034f6306973cf3600fc5f39a72da1dd908ee3a49e285"
+    },
+    {
+      "path": "logs/causome-completion-verified-build.log",
+      "bytes": 29548,
+      "sha256": "9d11a269d78ff4c4773c2c2ff4c89f8f99d4c31b85826abbe7e811a67a503fb4"
+    },
+    {
+      "path": "logs/causome-completion-verified-check.log",
+      "bytes": 621,
+      "sha256": "6443cc9593f18cb03da07d043c8b59f41e566ad80e435da79553d5fccb599fb5"
+    },
+    {
+      "path": "logs/causome-completion-verified-short-labels.log",
+      "bytes": 307,
+      "sha256": "3fbd8f5005af72b7bfff333e24c373d7ed0ad96e72c5484b262477bc541cd91d"
+    },
+    {
+      "path": "logs/causome-completion-verified-validate.log",
+      "bytes": 62,
+      "sha256": "28e2dc30de54217823474dd651d447c78a788b5180df062ee3f56da66641e0a8"
+    },
+    {
+      "path": "membranous-nephropathy-final-diff.json",
+      "bytes": 880080,
+      "sha256": "dcb860685f8a64ef46534ceb916460db6345745c1bfa68e049b47abcb9eacf19"
+    },
+    {
+      "path": "minimal-change-nephropathy-final-diff.json",
+      "bytes": 517823,
+      "sha256": "37c40490e4c53cefaeae2ea6ee9d59d1d9903ff734b11d72aac602366f55ee15"
+    },
+    {
+      "path": "paper-dispositions.json",
+      "bytes": 6829375,
+      "sha256": "e3b47177f2818e2f110b347dee07a514947afde82940f774bba99136617559d9"
+    },
+    {
+      "path": "research/Complete research for a bounded16-disease atlas maintenance cycle through2026-10.md",
+      "bytes": 8608,
+      "sha256": "8d25fc56c09fc9e4e8edaa1daf79181b95f8bc87854fdceea351e81d5e4cceec"
+    },
+    {
+      "path": "research/Independently review BOTH exact local candidate summaries against primary litera.md",
+      "bytes": 42102,
+      "sha256": "96efa018dba098896a6caf792704c3943061774b9c243d8d9199413f62b39b89"
+    },
+    {
+      "path": "research/Independently review this exact calciphylaxis summary against literature through.md",
+      "bytes": 29336,
+      "sha256": "37d3841c1b4d98e98564c0a89b2bbc131b51f31e9e993fc548d1692f34eff673"
+    },
+    {
+      "path": "research/Review BOTH exact REVISED local map summaries through 2026-10-20. Independently.md",
+      "bytes": 31079,
+      "sha256": "ea48563e963493d839f6a826918841e36db93278c2396a3908dd40bc141a6f25"
+    },
+    {
+      "path": "research/Review this EXACT final MCD summary against literature through 2026-10-20. Searc.md",
+      "bytes": 32939,
+      "sha256": "5b3599fbae90906ec91807a89b9e83ed787dc60d47fbcfd9fe5ef56cadebdcb2"
+    },
+    {
+      "path": "research/archive-completion.mjs",
+      "bytes": 2945,
+      "sha256": "1cd8ea9d778a6ee5de4548065f78c8b172e332bec12528c4dff2bd234603a6bf"
+    },
+    {
+      "path": "research/author-summaries.mjs",
+      "bytes": 5398,
+      "sha256": "c737506eaf92a8ac5779be0063d9fb1f68eceec358590a6220bc13d764192196"
+    },
+    {
+      "path": "research/browser/membranous-nephropathy-diagram.png",
+      "bytes": 73183,
+      "sha256": "db3c35dace10d671e0aac87293b7932cfc7c6f82bcafe6e5e84029f965b9a7d4"
+    },
+    {
+      "path": "research/browser/membranous-nephropathy-map.png",
+      "bytes": 252389,
+      "sha256": "7b1c3f64e49cab6b507b100f2166e70a2bc86bd770ca984430415ce1866f0d14"
+    },
+    {
+      "path": "research/browser/membranous-nephropathy-summary.png",
+      "bytes": 253747,
+      "sha256": "54d3ffc077486ebb6b91614f6ca431b48db639307ab598978eb5c1276587e2b7"
+    },
+    {
+      "path": "research/browser/minimal-change-nephropathy-diagram.png",
+      "bytes": 73839,
+      "sha256": "253eadf29a896da897fc3d4d6ad044846affc7be36c2c4a9cbd7f44e8550f5d5"
+    },
+    {
+      "path": "research/browser/minimal-change-nephropathy-map.png",
+      "bytes": 232203,
+      "sha256": "bc24c454dc1e6811134035de2ac26d2f62a74b7f90f952bee6705ca519b09fb8"
+    },
+    {
+      "path": "research/browser/minimal-change-nephropathy-summary.png",
+      "bytes": 295252,
+      "sha256": "3f9a91bbc5f31c1c6d77e4f347bc2527644734538677190ad4053aafbfb41d87"
+    },
+    {
+      "path": "research/browser/mobile.png",
+      "bytes": 58895,
+      "sha256": "6a2d127c041f53a02c9ef4be1da9b1e65dc327ce0b652fb959b152e0da68d4f0"
+    },
+    {
+      "path": "research/browser/results.json",
+      "bytes": 875,
+      "sha256": "cc8bc09d3a8a5ece10af034f6306973cf3600fc5f39a72da1dd908ee3a49e285"
+    },
+    {
+      "path": "research/browser-check.mjs",
+      "bytes": 2687,
+      "sha256": "6efe10bc73a585b99cb173639077b617abba4734af092bf3ead503fc52755ac2"
+    },
+    {
+      "path": "research/calciphylaxis-historical-feedback.json",
+      "bytes": 33530,
+      "sha256": "3a8b924e11a48ef4393920acdfa7d45137a2c989f28c806c4ff10b68f91c43c4"
+    },
+    {
+      "path": "research/consensus-completion-review.json",
+      "bytes": 31503,
+      "sha256": "cd69f9d27c10f8ea4d95bdbf4fb5e81fcf3a47d233d9d62d809906af352ed25c"
+    },
+    {
+      "path": "research/consensus-fetch-0a427db927e2531a92e37234791014e3.json",
+      "bytes": 1125,
+      "sha256": "d066cd10c8ead65b4224de93dc962337c481ad3a0a3478bf1036e55b56a62e95"
+    },
+    {
+      "path": "research/consensus-fetch-2aaa6d869bba58d493fe87e4c9139130.json",
+      "bytes": 1216,
+      "sha256": "6a53fe98f781bb2b32037151d0576bb59f5f782c6a02123364b260858954268f"
+    },
+    {
+      "path": "research/consensus-fetch-3ea75cbcca89598685d73c443ad7d179.json",
+      "bytes": 2815,
+      "sha256": "8bbc1c13cc31943c8c8d980539217456751723e7e00847dc0db43596d9de8c76"
+    },
+    {
+      "path": "research/consensus-fetch-528b51735c095b98a8c141c62e6bb79e.json",
+      "bytes": 988,
+      "sha256": "2779811a5d5ca3d413b5b26ebd229c155aef2537fad21607b23d6e66407d377e"
+    },
+    {
+      "path": "research/consensus-fetch-5a470fab04ca5005a12a952f0e5ca0cc.json",
+      "bytes": 962,
+      "sha256": "978164df38d9e4d1cfea030de8d5079b81d0cae964c7dc5e275a27f222736fea"
+    },
+    {
+      "path": "research/correct-reviewed.mjs",
+      "bytes": 1109,
+      "sha256": "582e3dd9877fa5b9cda5e76aa92553102b57030d6e99a8da92a8e2299d8cd67b"
+    },
+    {
+      "path": "research/cycle-status.json",
+      "bytes": 662,
+      "sha256": "60fa83fc724c048c3e152aee276c8701e1cec34d02542513d578a893be4a857a"
+    },
+    {
+      "path": "research/disposition-revisions.json",
+      "bytes": 15700,
+      "sha256": "4b88a97c0956340277e9dd2e42e4383197c919dec14e62b1409447b074f5ba5d"
+    },
+    {
+      "path": "research/fetch_missing.py",
+      "bytes": 1190,
+      "sha256": "7d6a575ec86008f65ad52587591ff80bcc7b366db695986501e6c58a4e1fd4f4"
+    },
+    {
+      "path": "research/final-summary-review.json",
+      "bytes": 107770,
+      "sha256": "364a24e11c922bb25e2d43ba660c20e3965d9f73e01b35866a61273f2702856b"
+    },
+    {
+      "path": "research/finalize-overviews.mjs",
+      "bytes": 1678,
+      "sha256": "7b11b7a06cf88132af3e602991d11818d92ced0bb056f5b681962487b9123cad"
+    },
+    {
+      "path": "research/handoff.md",
+      "bytes": 26069,
+      "sha256": "a3562db55b64a3feb649783faa69e4d7d0dbdbb0318634a7f5a60ef872eda155"
+    },
+    {
+      "path": "research/inspect-diagrams.mjs",
+      "bytes": 470,
+      "sha256": "154cac60118b0f8011b8eced9520af407c6262068c3af0bb4b51afaddfd58f20"
+    },
+    {
+      "path": "research/inventory.json",
+      "bytes": 13844826,
+      "sha256": "47ed5d3d3431291940e9665deefbed3051897b1b2dd6e01fa4330d071f1e75b3"
+    },
+    {
+      "path": "research/inventory.mjs",
+      "bytes": 2155,
+      "sha256": "17acd1a58f15d0977c597f0ec2fd4bb06406ae405f18c4400c10008323521f2c"
+    },
+    {
+      "path": "research/ipack-hd-primary.json",
+      "bytes": 11988,
+      "sha256": "9cbc9df9060bd080febb0be5c59d41fb811b55db61237824b3f3d8e125d106d8"
+    },
+    {
+      "path": "research/j.ekir.2024.02.1401-primary.json",
+      "bytes": 12685,
+      "sha256": "aed4ef70ccd7d6c727a9af19e334b0ed331f0c9aa578559f843ccf0f4c2851ff"
+    },
+    {
+      "path": "research/j.intimp.2022.109493-primary.json",
+      "bytes": 9429,
+      "sha256": "ace07572d3f82222f21114ee2b235d7389791be4da948dc6b32f82214d44a9b4"
+    },
+    {
+      "path": "research/j.jtauto.2025.100307-primary.json",
+      "bytes": 14658,
+      "sha256": "c7ba39aa337f7d49ddec7664bdf8fc23baf5eb13002d015f2f1f15606182671c"
+    },
+    {
+      "path": "research/j.kint.2025.05.018-primary.json",
+      "bytes": 16619,
+      "sha256": "9c9d9867cd59d85f5997d2e6e5611f3d5127d7efb7255dc87c9fe8b6dd027175"
+    },
+    {
+      "path": "research/mcd-context-proposal.json",
+      "bytes": 324223,
+      "sha256": "95aa69b4692aa52cae2768822d1dccc437f759167536c4fc4e39376db57f70d7"
+    },
+    {
+      "path": "research/mcd-final-review-brief.txt",
+      "bytes": 4343,
+      "sha256": "4225943197deb6e7b62bd9a70bb8e3e8a0c88539d790429fa1921083824c5383"
+    },
+    {
+      "path": "research/mcd-final-summary-review.json",
+      "bytes": 88050,
+      "sha256": "1458c6c4219111c9eff61af721721d28f6c254fc982cf6fe26be802351ab2a1d"
+    },
+    {
+      "path": "research/membranous-nephropathy-extraction.json",
+      "bytes": 2487,
+      "sha256": "87103a8f6c076e9a846aaaefa62108d6081ec8cf3ad4865e0d5be4838720aea6"
+    },
+    {
+      "path": "research/membranous-nephropathy-historical-feedback.json",
+      "bytes": 46434,
+      "sha256": "c3023f86324bf58ec2f5af1779ff7d4f4aa15084d4ff558b08cc16a4bcbfbb9d"
+    },
+    {
+      "path": "research/membranous-nephropathy-overview-proposal.json",
+      "bytes": 579527,
+      "sha256": "fac9d64ef6f303db742953cb21c697929dece9b9a3c58bf6de90cea9620db914"
+    },
+    {
+      "path": "research/membranous-nephropathy-review-extraction.json",
+      "bytes": 2127,
+      "sha256": "8e1af38601e05b83a918bbfebc537545e2847dcbec1ac02877c10e45ee8bdd46"
+    },
+    {
+      "path": "research/membranous-nephropathy-review-papers.json",
+      "bytes": 2904,
+      "sha256": "944083164a8a76698182f8cd42ce6f987196d554f6a1c09a8369da797813fabb"
+    },
+    {
+      "path": "research/membranous-nephropathy-revised-feedback.json",
+      "bytes": 35375,
+      "sha256": "9637c3f07adb6bbde5402d529ee5e19c889b45497a8bc7729f83328fdbc72ad4"
+    },
+    {
+      "path": "research/membranous-nephropathy-revised-summary-input.json",
+      "bytes": 5390,
+      "sha256": "dbcf670e72eff144405ad3f0dcfe7aa39cf50c4331afece642711263eafb21a6"
+    },
+    {
+      "path": "research/membranous-nephropathy-selected-papers.json",
+      "bytes": 3077,
+      "sha256": "579746017d492348886b5751d98d0d54156087825df3e7970086dbd6c53910fa"
+    },
+    {
+      "path": "research/membranous-nephropathy-summary-input.json",
+      "bytes": 5171,
+      "sha256": "616839cb6d69501c1c5a7cc5dcf9255beca26542fc6f624d3414f74f1fb9b154"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-assay-extraction.json",
+      "bytes": 2287,
+      "sha256": "d610d63e624810abb8b0525ea4bb5e79843927b667010b6808062b2b02a8de84"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-assay-papers.json",
+      "bytes": 2281,
+      "sha256": "617324aeadc104a1979547a2633186915ffe650e8f0aa962487dbc7764f5011f"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-extraction.json",
+      "bytes": 2676,
+      "sha256": "a32cd0ded1f56e3067bb81e8b8b2b018a3aad411222d85f89357cade182da5d5"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-final-feedback.json",
+      "bytes": 37142,
+      "sha256": "161620182f655b8ef1d4483f2bdab3d15d67cd73f1f23856906f7d2a47e8c575"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-final-summary-input.json",
+      "bytes": 4930,
+      "sha256": "e8908b8a3eab7f6b3c6d411617cee58b8f77ee7dee5a98411c8030c25109fd96"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-historical-feedback.json",
+      "bytes": 46478,
+      "sha256": "91d3cab5c17bbb38132434c2a552a3946714b21630d7756d3cd5263f75ec2298"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-overview-proposal.json",
+      "bytes": 313056,
+      "sha256": "5a66e7a4b0ceafe7d3a9f451b9102f9f0815d3484038e49bb0daba29e222385f"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-review-extraction.json",
+      "bytes": 3524,
+      "sha256": "aeac2c1bcc1b08edf1e8c8731a66c1d956479220b966a7a333143accf6a9c994"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-review-papers.json",
+      "bytes": 6205,
+      "sha256": "af5034d5eddc3111bc685786e45478c7c971566cd3d9b41d03597fda2714d3e0"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-revised-feedback.json",
+      "bytes": 35373,
+      "sha256": "413d49a8aa74cf6f450da54e1200247ecf20248784a48b638c931f04a8fbb881"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-revised-summary-input.json",
+      "bytes": 4947,
+      "sha256": "5e8f34bf4bd213d0fcb40604f675c518764237206b3bbd4241ff80fcd3a45152"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-selected-papers.json",
+      "bytes": 2865,
+      "sha256": "a2b222597d6e2adb486a080bf805110d1c2941f57994dc0db61f3b8063952e43"
+    },
+    {
+      "path": "research/minimal-change-nephropathy-summary-input.json",
+      "bytes": 4533,
+      "sha256": "a6352f3ccf770e884bff5eaca446e1f43db6a9810d4b456f3842f93c16d221fc"
+    },
+    {
+      "path": "research/missing-primary-access.json",
+      "bytes": 17739,
+      "sha256": "48e6888c3a6cfad8443a5211882d28d9632fed834ec97d3375b030b643721686"
+    },
+    {
+      "path": "research/paper-dispositions.json",
+      "bytes": 6829375,
+      "sha256": "e3b47177f2818e2f110b347dee07a514947afde82940f774bba99136617559d9"
+    },
+    {
+      "path": "research/ppi-fulltext-recheck.json",
+      "bytes": 77035,
+      "sha256": "383c89ddd1bfc7c50c4b96dddb1e5944f970f17e517c09a896f9cdd860e923be"
+    },
+    {
+      "path": "research/prepare-assay-qualification.mjs",
+      "bytes": 3379,
+      "sha256": "13c71e471ff49f2d2115aaab0e16953d88652d90cbf4aebc5d307fd09ac7ac40"
+    },
+    {
+      "path": "research/prepare-review-corrections.mjs",
+      "bytes": 4839,
+      "sha256": "8dcf72dd2a8e5784228fc072322f794ca4d9d3abf6f3fafbbbfab3c549e9652e"
+    },
+    {
+      "path": "research/prepare-updates.mjs",
+      "bytes": 4960,
+      "sha256": "a3c7bde583e193aba5b1be9533fb2294b1a92bac7c9cf47eebea794455f40ce9"
+    },
+    {
+      "path": "research/primary/PMC10244189.xml",
+      "bytes": 15264,
+      "sha256": "4c640e54a8edc1b953927b5f323b7ea4b07aef396c5cba692169b5c4de0bcef4"
+    },
+    {
+      "path": "research/primary/PMC11608863.xml",
+      "bytes": 43108,
+      "sha256": "27ddb631c5b104bb59f34a86de10189f989e48a51cc3c1147932ba24a2b0bbce"
+    },
+    {
+      "path": "research/primary/PMC12301640.xml",
+      "bytes": 22313,
+      "sha256": "e40cb73f0aa8d8317fbbad50eac346e0ee89a8c70c499fa51ce30028c894875b"
+    },
+    {
+      "path": "research/primary/PMC12483291.xml",
+      "bytes": 38510,
+      "sha256": "c24dbc1794f44fd187da9cabb1b813c1d47930e74a162bc04d6f5f98ec8e24cf"
+    },
+    {
+      "path": "research/primary/PMC12577990.xml",
+      "bytes": 15961,
+      "sha256": "0290731e12bab4e55a257e4c5da4e39c43f11b849875034bc13e2e475225a3fd"
+    },
+    {
+      "path": "research/primary/PMC12585834.xml",
+      "bytes": 19860,
+      "sha256": "c6ac3a76fbe8a84734123613a1a6739e98abd0806c9be2101589abd69318ac44"
+    },
+    {
+      "path": "research/primary/PMC12711232.xml",
+      "bytes": 22428,
+      "sha256": "d9eb505e651e0c65bce1270ced5af7bf5d7d60a55c39df8b62e7e259a14901c7"
+    },
+    {
+      "path": "research/primary/PMC12767960.xml",
+      "bytes": 18491,
+      "sha256": "1fa60bc9765bb2dbc5ee8518a5b02cd535a02648b5ea4f384f4e036f891c4b98"
+    },
+    {
+      "path": "research/primary/PMC12935379.xml",
+      "bytes": 150567,
+      "sha256": "7d269fb30c9ca8563b63917bbf1e8f64746060a4ff9441eb854d274907961979"
+    },
+    {
+      "path": "research/primary/PMC12958380.xml",
+      "bytes": 14928,
+      "sha256": "3e6a277790b0477ea79faf3802fac8123854e1d5bec655cf50c021ab0946d27c"
+    },
+    {
+      "path": "research/primary/PMC12976205.xml",
+      "bytes": 17101,
+      "sha256": "ff56e2df05e4678910c86783e79188216cc4cfe2ed96f8e0901ab8c48d15c878"
+    },
+    {
+      "path": "research/primary/PMC12997465.xml",
+      "bytes": 12729,
+      "sha256": "2506d267dd4aadc086bf032889ef9c3184c4d3d48209fee83b42d1dce4fe943d"
+    },
+    {
+      "path": "research/primary/PMC13078508.xml",
+      "bytes": 58635,
+      "sha256": "e87099de8cd7664ade21c365a5d96e9152b30bb0b2f9d8a559df7dabc949617d"
+    },
+    {
+      "path": "research/primary/PMC13103656.xml",
+      "bytes": 18519,
+      "sha256": "3345b5e713911bc43d4d7cb506ea844b62f02dbcbda56d7c42d7a131614a17b2"
+    },
+    {
+      "path": "research/primary/PMC13110455.xml",
+      "bytes": 27206,
+      "sha256": "bf97a16562504bbad05e81e2274c3b8dac98e5188cf108dfb9758abe149b3f21"
+    },
+    {
+      "path": "research/primary/PMC13120512.xml",
+      "bytes": 27379,
+      "sha256": "fd00ca3182b763d3f8ecd5cb940de627ffef375c958a51464d68258e928d8c35"
+    },
+    {
+      "path": "research/primary/PMC13120583.xml",
+      "bytes": 27568,
+      "sha256": "2aa39ba323c5a22872f35a05f86222ebe758b0287829db578df20a6694f03ee6"
+    },
+    {
+      "path": "research/primary/PMC13120892.xml",
+      "bytes": 119120,
+      "sha256": "f8993d0dc0371b85d9ad186bdc2c5e67f2486778d2fb9ce666c05309b89fb64a"
+    },
+    {
+      "path": "research/primary/PMC13524444.xml",
+      "bytes": 9546,
+      "sha256": "55ab33f7d0befec32d2fb48d90c94baddeb517e5b3c28ff28d67d88995c891cd"
+    },
+    {
+      "path": "research/primary/PMC13579427.xml",
+      "bytes": 88534,
+      "sha256": "ad55524069dcf04e97358268326b1a04ea84e96e8d9e246ec301d8420c522331"
+    },
+    {
+      "path": "research/primary/PMC13600263.xml",
+      "bytes": 22459,
+      "sha256": "4753e1c67a36842c796063a0c051768d5bd44c1777f4394b95859eecc7de59aa"
+    },
+    {
+      "path": "research/primary/PMC13601829.xml",
+      "bytes": 72263,
+      "sha256": "27df632fd6e76a6868f2d3672cb281aaf597ab750828aa56111d06dcf481d3a0"
+    },
+    {
+      "path": "research/primary/PMC13613285.xml",
+      "bytes": 14291,
+      "sha256": "dacde83d11a2b7b1e27c977ca3f45b87739a3e06b56851df8ee0b9a75afcc4f1"
+    },
+    {
+      "path": "research/primary/PMC13614856.xml",
+      "bytes": 11593,
+      "sha256": "0f301303dc1ade386bf917602fcbb55e4686b3afa07a90d741bc9fcf7dbc9477"
+    },
+    {
+      "path": "research/primary/PMC13627829.xml",
+      "bytes": 26282,
+      "sha256": "9e9b61b616b1a386bd964f987d5a272717663195f3399fe6a30740627c9612ef"
+    },
+    {
+      "path": "research/primary/PMC13645445.xml",
+      "bytes": 91084,
+      "sha256": "3005a1841c436237034a65eeedfe9126bb9e36ebc11ad7b175c98882464659ab"
+    },
+    {
+      "path": "research/primary/PMC13656147.xml",
+      "bytes": 142653,
+      "sha256": "da3dfa6c200692b1c50f47bc7a31af23a0d045b85a325f3f8dad8434ac2e87bf"
+    },
+    {
+      "path": "research/primary/PMC13656159.xml",
+      "bytes": 114403,
+      "sha256": "f0698873ae0bc4d4c846bdce0776547fed45917157ee9dcbd6798128eb9e962f"
+    },
+    {
+      "path": "research/primary/PMC2833536.xml",
+      "bytes": 7143,
+      "sha256": "4185645cad6054f3fa238247541eaccdb46c39722a78274aad39b06825a941bb"
+    },
+    {
+      "path": "research/primary/PMC2834099.xml",
+      "bytes": 8132,
+      "sha256": "4368d01d6f577619aafecb753f842d06f79e849cb62c11600b686e4781ec45d6"
+    },
+    {
+      "path": "research/primary/PMC2834157.xml",
+      "bytes": 11234,
+      "sha256": "62ad1993b081f13f3ada28842bccdaaffae387357b8518f568812478fe8d8760"
+    },
+    {
+      "path": "research/primary/PMC2991019.xml",
+      "bytes": 12433,
+      "sha256": "273d5c1a7b3b9e48fcf2cae4b9bab87ae88796c93193a0ebc8b621aa7419af29"
+    },
+    {
+      "path": "research/primary/PMC3007821.xml",
+      "bytes": 12887,
+      "sha256": "8c65316d234f3a8dfbecb91c2aeab35b7a123206a1f4114e999a29a6f36b8a21"
+    },
+    {
+      "path": "research/primary/PMC6595856.xml",
+      "bytes": 32528,
+      "sha256": "a620a6e51a4af1032bf3bf299e7f61b0fe0d0930dc32df0ae6d21d5a0936de5b"
+    },
+    {
+      "path": "research/primary/PMC7519824.xml",
+      "bytes": 14287,
+      "sha256": "72758f14d577ebd8ec574d3678c1fc7091310dc8da803624e305ecac2753359d"
+    },
+    {
+      "path": "research/primary/PMC8213876.xml",
+      "bytes": 17610,
+      "sha256": "a689c88fee4a4a02697bd7e2a88377bbb4c82f2b1587e6b4482214bd78382254"
+    },
+    {
+      "path": "research/primary/PMC9266661.xml",
+      "bytes": 17764,
+      "sha256": "bc1e1be81a00f824bbec103a83e818118fcdb64ce71cff1b8c73219a6d6cb8f1"
+    },
+    {
+      "path": "research/record-dispositions.mjs",
+      "bytes": 5658,
+      "sha256": "219fb6f4dae71ec397c1a5c4b75a6c3afc960b6b4381c75a6026feac74897948"
+    },
+    {
+      "path": "research/record-final-feedback.mjs",
+      "bytes": 1756,
+      "sha256": "bbd0c228b1ab4dd201b8f46e0328283637141ccc1c125c17d8c00b30a0914281"
+    },
+    {
+      "path": "research/record-reviews.mjs",
+      "bytes": 3062,
+      "sha256": "86b96ce8eb9b539815bab4b25a99bc8c846fc101f767fda56337dae36bf93f82"
+    },
+    {
+      "path": "research/record-revised-reviews.mjs",
+      "bytes": 2322,
+      "sha256": "5d4a32e37a9c5c831879d3c6318f6d6d46cf647667413960d03c61588d1dfacc"
+    },
+    {
+      "path": "research/research-brief-context.txt",
+      "bytes": 7855,
+      "sha256": "974e4541c8508191351d255b99fb8bf03757df57e9d3e7b6302ced380911b91e"
+    },
+    {
+      "path": "research/retrieved-abstracts.json",
+      "bytes": 36771,
+      "sha256": "3c6199f9d9b1b8546e46d654e8a7638ff25e261ddfec2c053f05008b0ca4d540"
+    },
+    {
+      "path": "research/review-resolution.md",
+      "bytes": 4273,
+      "sha256": "ce6edebcf4162b8bbb3d11ab862bbe5e33b36699aa5a8c7577ad11e0957016d5"
+    },
+    {
+      "path": "research/revise-summaries.mjs",
+      "bytes": 2619,
+      "sha256": "82d7a4b1a86fa721e3c4df2a0cfc2c20e8f2a4c693ac6141e2b7f150101913ac"
+    },
+    {
+      "path": "research/revised-review-brief.txt",
+      "bytes": 7923,
+      "sha256": "c09d242d3445ca503ebc02e8b65150eb9c1493fd45752f781d48d68f9641fd83"
+    },
+    {
+      "path": "research/revised-summary-review.json",
+      "bytes": 85228,
+      "sha256": "af057d9c1da201b63d589bf322e49b5dc1b059424f9686871f34ea93542d5d34"
+    },
+    {
+      "path": "research/sfaf012-primary.json",
+      "bytes": 10120,
+      "sha256": "e819c6863fc94ed1d6717288e367e275d30944e881b49320f3972c98db60e958"
+    },
+    {
+      "path": "research/summary-review-brief.txt",
+      "bytes": 11252,
+      "sha256": "fd725effc3848cbb11616d39e751b3cd4f14e607c01689d489dd58e8c9f47d61"
+    },
+    {
+      "path": "research/write-handoff.mjs",
+      "bytes": 11032,
+      "sha256": "f87594f59c753edab1a8feaefe7cd9a5240ad693edcca27239cec9b87e1e46b9"
+    },
+    {
+      "path": "sle-final-diff.json",
+      "bytes": 744146,
+      "sha256": "8940ec399209b1a234b04c214d2efc6d2ab3c029abc664d9b07cdbbaf91a7367"
+    },
+    {
+      "path": "source-notice-audit.json",
+      "bytes": 37041,
+      "sha256": "0221f89989e12557176b8a8a0234debff66bb2cd9bdabeb512badad79076b64b"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/appraisals/membranous-nephropathy-appraised-candidate-10418184175e/input.json",
+      "bytes": 317870,
+      "sha256": "2a983b62ce5e6c244ca91f78e8e10b0b7f22f6eeac9458452c49ed25c5d4f157"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/appraisals/membranous-nephropathy-appraised-candidate-10418184175e/result.json",
+      "bytes": 969,
+      "sha256": "deb6cd76e326aaba593fa54a2daff2d32e824f4f9f62516f3098263042696886"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/appraisals/membranous-nephropathy-appraised-candidate-49b97ca92fc2/input.json",
+      "bytes": 317036,
+      "sha256": "55c1c50374a965293ed17da023b966b43ad7c2da69d663c13afaf6ed22a22dd7"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/appraisals/membranous-nephropathy-appraised-candidate-49b97ca92fc2/result.json",
+      "bytes": 969,
+      "sha256": "3d2e98ea587a889b91ebf7aea9db5e22889818bee1b35036e79b299d1b0792d3"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-8d552d4585769bb308659105/changes.json",
+      "bytes": 505597,
+      "sha256": "2ba12bc82c29e4ef85d7b6bba1b80b47a833d55ce8fdd0e50a9e6a65e33fff7b"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-8d552d4585769bb308659105/extraction.json",
+      "bytes": 2127,
+      "sha256": "8e1af38601e05b83a918bbfebc537545e2847dcbec1ac02877c10e45ee8bdd46"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-8d552d4585769bb308659105/papers.json",
+      "bytes": 2904,
+      "sha256": "944083164a8a76698182f8cd42ce6f987196d554f6a1c09a8369da797813fabb"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-8d552d4585769bb308659105/proposal.json",
+      "bytes": 244966,
+      "sha256": "ba0fb7ead0226baa6a25ddb8d2e6e7bb313f28349bbf8fc931e62de226eeed46"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-8d552d4585769bb308659105/review.md",
+      "bytes": 14023,
+      "sha256": "b04266d48c628c3b7ed21a3738463c1e8b7c917c45c1975d3a5a19e42e057287"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-a515bbf765741f34c0bb654b/changes.json",
+      "bytes": 505456,
+      "sha256": "f8c3f479d2c8b7374ecd18e80aa070434b3cdbd0c8c11fb8a94e95b8cf932245"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-a515bbf765741f34c0bb654b/extraction.json",
+      "bytes": 2487,
+      "sha256": "87103a8f6c076e9a846aaaefa62108d6081ec8cf3ad4865e0d5be4838720aea6"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-a515bbf765741f34c0bb654b/papers.json",
+      "bytes": 3077,
+      "sha256": "579746017d492348886b5751d98d0d54156087825df3e7970086dbd6c53910fa"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-a515bbf765741f34c0bb654b/proposal.json",
+      "bytes": 236644,
+      "sha256": "7fd88d4c21181db99116a502d63b034af727ceea0d8ceaeacdcd6fc89cca28c5"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-a515bbf765741f34c0bb654b/review.md",
+      "bytes": 14058,
+      "sha256": "e989e180732c51bede61e2e7fa2de906d242ffbe38e6cb50a11d82852426dd21"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-e3747896111b05513b0b52af/changes.json",
+      "bytes": 18220,
+      "sha256": "3d43b17dd7221851ff0aa74acbee850da1b062897d491a72f5f778aa50ebb584"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-e3747896111b05513b0b52af/proposal.json",
+      "bytes": 605174,
+      "sha256": "1770bb18ea21f010b470e621f90b9f5f9dd4dacdcdcf85872c8ab5d7ec23e80b"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/proposals/proposal-e3747896111b05513b0b52af/review.md",
+      "bytes": 1031,
+      "sha256": "2c63e69edd09e94f68eefc39f1b0fcfe3e4709d9f09fa74f705f7917cab68375"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/reviews/385a7ba39a901621bc56f37cbaf8411ec3b98777de253edd046baeb451c68824/feedback-template.json",
+      "bytes": 691,
+      "sha256": "d87a90a4f75590c0df670637e4b0cc13c86eb1ece40cf88e38e617f6deadac7d"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/reviews/385a7ba39a901621bc56f37cbaf8411ec3b98777de253edd046baeb451c68824/packet.json",
+      "bytes": 39225,
+      "sha256": "c3890975a02b72206880c3e19828e53dc9c63fca9a7b3059b2d4beeeb24ced84"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/reviews/385a7ba39a901621bc56f37cbaf8411ec3b98777de253edd046baeb451c68824/review.md",
+      "bytes": 12168,
+      "sha256": "f4b35db797150ef6faac46525fc6b3cae7ce7643298b7a81b7a3f648b44b3ce9"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/reviews/9bda8f50937eb632b13384a8677dff7f8e7fd7582cb70796e3ab40e5cc9b8fa2/feedback-template.json",
+      "bytes": 691,
+      "sha256": "08bbbf50eb9bffc889a4f6b21809465fc029074ea3b2334fdebf0fd1804ea419"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/reviews/9bda8f50937eb632b13384a8677dff7f8e7fd7582cb70796e3ab40e5cc9b8fa2/packet.json",
+      "bytes": 40970,
+      "sha256": "722af86919d92147d09f6e5c479c6f5957baed2be46972e7e01b05be2cc63bd9"
+    },
+    {
+      "path": "source-packets/membranous-nephropathy/reviews/9bda8f50937eb632b13384a8677dff7f8e7fd7582cb70796e3ab40e5cc9b8fa2/review.md",
+      "bytes": 12660,
+      "sha256": "1e9ad71738c7e36e46c85697fb4044edf58af7ebc859aa1f8ad4757ddfd113ff"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/appraisals/minimal-change-nephropathy-appraised-candidate-14335747226e/input.json",
+      "bytes": 181236,
+      "sha256": "41da2894d73c661cf717ac145c32238d311252ba49770666662eb5d0c826572b"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/appraisals/minimal-change-nephropathy-appraised-candidate-14335747226e/result.json",
+      "bytes": 977,
+      "sha256": "3573e15554422d7b68580d21c498c4db425cfdca510cfb93edf04236ce1743eb"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/appraisals/minimal-change-nephropathy-appraised-candidate-2391a4e992e9/input.json",
+      "bytes": 179652,
+      "sha256": "4f942b127e979c2e1cb50483b4167f2582833a0dcaa5515f22a54b078862bcdb"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/appraisals/minimal-change-nephropathy-appraised-candidate-2391a4e992e9/result.json",
+      "bytes": 977,
+      "sha256": "0d041d102d466545ebc4d2c4bd6c46a9539aa5a7c8fc6be57cd71270bde14138"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/appraisals/minimal-change-nephropathy-appraised-candidate-bb4c9bd6ada7/input.json",
+      "bytes": 182028,
+      "sha256": "18f317ff815796fdfc23066ba760f0f235687618700ef079d44aabf8cb08b9f3"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/appraisals/minimal-change-nephropathy-appraised-candidate-bb4c9bd6ada7/result.json",
+      "bytes": 977,
+      "sha256": "6036b50044a6a70400dc933715d780ebd7fa149f9703b0a73952b3bfb364ae7b"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-02e7fa81117ce69730b42769/changes.json",
+      "bytes": 5088,
+      "sha256": "4e1ef36b9af4f5028f8c06d3b6461a94dc3bf14c95a19b432a6116b21024a237"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-02e7fa81117ce69730b42769/proposal.json",
+      "bytes": 339020,
+      "sha256": "211ba6a67eb17735d400e7a10814986d37a36ba02f067664e3108a5bcc0b6072"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-02e7fa81117ce69730b42769/review.md",
+      "bytes": 923,
+      "sha256": "dfe929f4fcc6778b2c9bcedd2759d28f86b239f7c36b5c0a4807ed5c989cdfd9"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-0ee7283fab3d85a535186068/changes.json",
+      "bytes": 300859,
+      "sha256": "91ed9844d1dec5ecbdda00ded41dae7702d8791cdf364dca57fbffcfacbcb86a"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-0ee7283fab3d85a535186068/extraction.json",
+      "bytes": 2287,
+      "sha256": "d610d63e624810abb8b0525ea4bb5e79843927b667010b6808062b2b02a8de84"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-0ee7283fab3d85a535186068/papers.json",
+      "bytes": 2281,
+      "sha256": "617324aeadc104a1979547a2633186915ffe650e8f0aa962487dbc7764f5011f"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-0ee7283fab3d85a535186068/proposal.json",
+      "bytes": 134335,
+      "sha256": "8386029fcd19dd5a9400608cf7966c8846b74282e71de5a1c0f54ec008057e06"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-0ee7283fab3d85a535186068/review.md",
+      "bytes": 9239,
+      "sha256": "077d10f326a24c5cc2f7ba65c2014b77d3942d803a0d93619c71a9c92954e5fc"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-3f1b02c5badb511f5daf6326/changes.json",
+      "bytes": 10591,
+      "sha256": "2bdaef7d10f89f2f435f239186f4ed7d980bbecce65b966c59456f3816a22e15"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-3f1b02c5badb511f5daf6326/proposal.json",
+      "bytes": 327393,
+      "sha256": "4290446e0a9b6b831d2ae7e82a935de56aca073608a00ddd4c40efeabb2a949d"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-3f1b02c5badb511f5daf6326/review.md",
+      "bytes": 1051,
+      "sha256": "d95dcb52f3b6c683289a5c2c54000f1c488cac9c562a1b835eda12e2f7850a8b"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-54ccb013fa3426fe8c85f9a4/changes.json",
+      "bytes": 281671,
+      "sha256": "178c0a99afcbd3a03272b442e4e3a4ebf8d83ed266b70f49342e27fb75b87648"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-54ccb013fa3426fe8c85f9a4/extraction.json",
+      "bytes": 2676,
+      "sha256": "a32cd0ded1f56e3067bb81e8b8b2b018a3aad411222d85f89357cade182da5d5"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-54ccb013fa3426fe8c85f9a4/papers.json",
+      "bytes": 2865,
+      "sha256": "a2b222597d6e2adb486a080bf805110d1c2941f57994dc0db61f3b8063952e43"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-54ccb013fa3426fe8c85f9a4/proposal.json",
+      "bytes": 117002,
+      "sha256": "d062b6e5a08620e889ea0896a3d9320a6f73973e7006312cb0cf5922defa7689"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-54ccb013fa3426fe8c85f9a4/review.md",
+      "bytes": 9764,
+      "sha256": "7b7e4330b81de44302378c0990a9c0fe34651813879ebace8f38a6a9f9529333"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-717dc686dd2d736bdc0d5e48/changes.json",
+      "bytes": 301908,
+      "sha256": "6d648f3acf192db5e7b76df9aa9b526ede3756f27ee63bc96eb290ab971ec97d"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-717dc686dd2d736bdc0d5e48/extraction.json",
+      "bytes": 3524,
+      "sha256": "aeac2c1bcc1b08edf1e8c8731a66c1d956479220b966a7a333143accf6a9c994"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-717dc686dd2d736bdc0d5e48/papers.json",
+      "bytes": 6205,
+      "sha256": "af5034d5eddc3111bc685786e45478c7c971566cd3d9b41d03597fda2714d3e0"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-717dc686dd2d736bdc0d5e48/proposal.json",
+      "bytes": 127427,
+      "sha256": "7eac92f40b36a2da604123c502d0b98bcc9243a875dffd642a620e31c985c235"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/proposals/proposal-717dc686dd2d736bdc0d5e48/review.md",
+      "bytes": 9821,
+      "sha256": "5e46d6c1dddd7ab96660b3b311ab07974be7f0e09a0e656941de72b43755e7a6"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/reviews/768735ce93eec027c094c39b32a42d0e7a605132317a8a747c74a6e43404530d/feedback-template.json",
+      "bytes": 699,
+      "sha256": "94b6f42e72339fd8eb4228a25fa508961c481e8fe43fc2b63812befee9ebf800"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/reviews/768735ce93eec027c094c39b32a42d0e7a605132317a8a747c74a6e43404530d/packet.json",
+      "bytes": 30840,
+      "sha256": "74811e6711e9a434617cb8fe1133170c4404669067baffe7bbb752819aef895b"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/reviews/768735ce93eec027c094c39b32a42d0e7a605132317a8a747c74a6e43404530d/review.md",
+      "bytes": 10299,
+      "sha256": "5a8c4ee9df8a6af8865066014f0b24d6fa04f6fd6e317d2a6b6872540c842b60"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/reviews/b5fafd2ede34204f7ef084e646bb53bfede4c7aec2708ecadc58967ed2d01a3a/feedback-template.json",
+      "bytes": 699,
+      "sha256": "7acfa9d62c0bf5428e6405038d33ec66df6fd6d1c55705164d28427ee01b7eeb"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/reviews/b5fafd2ede34204f7ef084e646bb53bfede4c7aec2708ecadc58967ed2d01a3a/packet.json",
+      "bytes": 26329,
+      "sha256": "cfe888c35314fcf1536df82ec6b0c8e5ae7fa47c9f580800054f17cc5f852b31"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/reviews/b5fafd2ede34204f7ef084e646bb53bfede4c7aec2708ecadc58967ed2d01a3a/review.md",
+      "bytes": 9100,
+      "sha256": "190bd2f1ad60896e36741c7b0cfabfe043f09468ddee3bda0bf708ed5a4c92f6"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/reviews/e179debdda2f3e15af2a44b511b45c44632775c49b5ec332676a29df5cfe3cf0/feedback-template.json",
+      "bytes": 699,
+      "sha256": "5e5a75e3e55b4ab7bf46e3a6c7b51ed83377b094b19979748d33ecbff34d32f8"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/reviews/e179debdda2f3e15af2a44b511b45c44632775c49b5ec332676a29df5cfe3cf0/packet.json",
+      "bytes": 29730,
+      "sha256": "1112f521b850815dc0173b55982ca9c826528631e599be25f33e930d4f320c92"
+    },
+    {
+      "path": "source-packets/minimal-change-nephropathy/reviews/e179debdda2f3e15af2a44b511b45c44632775c49b5ec332676a29df5cfe3cf0/review.md",
+      "bytes": 10072,
+      "sha256": "e4a7c804da48e0b772ea37b5c92c676b5638f54e04fa66e09b908653dccf269b"
+    }
+  ]
+}

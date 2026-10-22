@@ -1,0 +1,4793 @@
+{
+  "version": 1,
+  "id": "proposal-dc852eba510642ce8b2ae415",
+  "diseaseId": "sle",
+  "reconciliationVersion": "causome-reconciliation-v1",
+  "baseReleaseId": "sle-summary-candidate-f3c3742263d5",
+  "baseContentDigest": "838249cbf80a8a9de5bb0051d91d24bbc91fd9fa64aa013aa7c2b6543c720161",
+  "extractionDigest": "714e9840b43fe90036f940371793c4759655fc702548b15a6fff0e1a10c008dc",
+  "sourceDigest": "324aea9b8ee3126d2726ad569e870b20e2cab2e3a2e0b8996d8c4a9cb09cc64c",
+  "cutoff": "2026-10-20",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "codex-agent-manual-source-curation-v1",
+  "mode": "manual",
+  "findings": [
+    {
+      "id": "sle-curli-autoantibodies-20261021",
+      "outcome": "novel",
+      "claimId": "claim-d4e4e467a2d76a39ace2",
+      "relationshipId": "relationship-c3293bcb1ac098447d7d",
+      "sourceId": "source-43ffa8d6e6e72a9276db"
+    },
+    {
+      "id": "sle-curli-stage-null-20261021",
+      "outcome": "qualifying",
+      "claimId": "claim-4d9c103b676f83c8bd56",
+      "relationshipId": "relationship-c3293bcb1ac098447d7d",
+      "sourceId": "source-43ffa8d6e6e72a9276db"
+    }
+  ],
+  "pendingSourceChecks": [],
+  "warnings": [],
+  "candidate": {
+    "id": "sle-candidate-dc852eba5106",
+    "revisionId": "sle-candidate-dc852eba5106-r1",
+    "status": "candidate",
+    "formatVersion": "0.3.0",
+    "diseaseId": "sle",
+    "title": "SLE nucleic-acid / interferon / B-cell circuit — scientific candidate",
+    "illustrative": false,
+    "parentReleaseId": null,
+    "parentContentDigest": null,
+    "createdAt": "2026-10-20T00:00:00.000Z",
+    "evidenceCutoff": "2026-10-20",
+    "changeSetRevision": "proposal-dc852eba510642ce8b2ae415",
+    "releaseNote": "Candidate reconciled against sle-summary-candidate-f3c3742263d5 (838249cbf80a8a9de5bb0051d91d24bbc91fd9fa64aa013aa7c2b6543c720161). 2 extracted findings; independent domain review is pending.",
+    "entities": [
+      {
+        "id": "entity-baff",
+        "revisionId": "entity-baff-r1",
+        "status": "candidate",
+        "label": "BAFF / BLyS",
+        "synonyms": [
+          "BLyS",
+          "TNFSF13B"
+        ],
+        "entityClass": "cytokine",
+        "description": "B-cell survival factor; inspect the linked model and human-label evidence.",
+        "biologicalRoleClaimIds": [
+          "claim-ifn-baff",
+          "claim-monocytes-baff",
+          "claim-complexes-baff",
+          "claim-baff-bcells",
+          "claim-belimumab-mechanism",
+          "claim-belimumab-status"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-clearance",
+        "revisionId": "entity-clearance-r1",
+        "status": "candidate",
+        "label": "Impaired apoptotic clearance",
+        "synonyms": [],
+        "entityClass": "process",
+        "description": "Upstream clearance disturbance investigated in patient-derived macrophages.",
+        "biologicalRoleClaimIds": [
+          "claim-clearance-debris"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-debris",
+        "revisionId": "entity-debris-r1",
+        "status": "candidate",
+        "label": "Apoptotic material",
+        "synonyms": [],
+        "entityClass": "substrate",
+        "description": "Dying-cell material considered as a source of autoantigens.",
+        "biologicalRoleClaimIds": [
+          "claim-clearance-debris",
+          "claim-debris-complexes"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-rna",
+        "revisionId": "entity-rna-r1",
+        "status": "candidate",
+        "label": "Self RNA",
+        "synonyms": [],
+        "entityClass": "substrate",
+        "description": "RNA-containing antigen in the nucleic-acid immune-complex experiments.",
+        "biologicalRoleClaimIds": [
+          "claim-rna-complexes"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-dna",
+        "revisionId": "entity-dna-r1",
+        "status": "candidate",
+        "label": "Self DNA",
+        "synonyms": [],
+        "entityClass": "substrate",
+        "description": "DNA-containing antigen in the nucleic-acid immune-complex experiments.",
+        "biologicalRoleClaimIds": [
+          "claim-dna-complexes"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-variant",
+        "revisionId": "entity-variant-r1",
+        "status": "candidate",
+        "label": "TLR7 gain-of-function variant",
+        "synonyms": [],
+        "entityClass": "genetic_variant",
+        "description": "Rare genetic disturbance; the Y264H case is not a universal SLE mechanism.",
+        "biologicalRoleClaimIds": [
+          "claim-variant-tlr7"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-tlr7",
+        "revisionId": "entity-tlr7-r1",
+        "status": "candidate",
+        "label": "TLR7",
+        "synonyms": [],
+        "entityClass": "receptor",
+        "description": "RNA-sensing receptor studied in cultures and a rare genetic lupus model.",
+        "biologicalRoleClaimIds": [
+          "claim-complexes-tlr7",
+          "claim-tlr7-pdc",
+          "claim-variant-tlr7",
+          "claim-tlr7-bcells",
+          "claim-enpatoran-mechanism",
+          "claim-enpatoran-status"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-tlr9",
+        "revisionId": "entity-tlr9-r1",
+        "status": "candidate",
+        "label": "TLR9",
+        "synonyms": [],
+        "entityClass": "receptor",
+        "description": "DNA-sensing receptor in the immune-complex culture experiments.",
+        "biologicalRoleClaimIds": [
+          "claim-complexes-tlr9",
+          "claim-tlr9-pdc",
+          "claim-tlr9-context"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-pdc",
+        "revisionId": "entity-pdc-r1",
+        "status": "candidate",
+        "label": "Plasmacytoid DCs",
+        "synonyms": [],
+        "entityClass": "cell",
+        "description": "pDCs studied as cytokine-producing cells in nucleic-acid sensing and B-cell cultures.",
+        "biologicalRoleClaimIds": [
+          "claim-tlr7-pdc",
+          "claim-tlr9-pdc",
+          "claim-pdc-ifn",
+          "claim-pdc-il6",
+          "claim-tlr9-context"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-ifn",
+        "revisionId": "entity-ifn-r1",
+        "status": "candidate",
+        "label": "IFN-α / type I IFN",
+        "synonyms": [],
+        "entityClass": "cytokine",
+        "description": "IFN-α evidence and type I IFN experiments are distinguished in individual claims.",
+        "biologicalRoleClaimIds": [
+          "claim-pdc-ifn",
+          "claim-ifn-ifnar",
+          "claim-ifn-baff",
+          "claim-ifn-blasts",
+          "claim-ifn-activity"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-ifnar",
+        "revisionId": "entity-ifnar-r1",
+        "status": "candidate",
+        "label": "IFNAR1",
+        "synonyms": [],
+        "entityClass": "receptor",
+        "description": "Subunit 1 of the type I interferon receptor; the direct anifrolumab target.",
+        "biologicalRoleClaimIds": [
+          "claim-ifn-ifnar",
+          "claim-anifrolumab-mechanism",
+          "claim-anifrolumab-status"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-monocytes",
+        "revisionId": "entity-monocytes-r1",
+        "status": "candidate",
+        "label": "Monocytes",
+        "synonyms": [],
+        "entityClass": "cell",
+        "description": "Human monocytes studied for IFN-α-induced BLyS mobilization.",
+        "biologicalRoleClaimIds": [
+          "claim-monocytes-baff"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-b_cells",
+        "revisionId": "entity-b_cells-r1",
+        "status": "candidate",
+        "label": "B cells",
+        "synonyms": [],
+        "entityClass": "cell",
+        "description": "B-cell survival and differentiation are represented with study-specific limits.",
+        "biologicalRoleClaimIds": [
+          "claim-baff-bcells",
+          "claim-tlr7-bcells",
+          "claim-bcells-blasts"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-plasmablasts",
+        "revisionId": "entity-plasmablasts-r1",
+        "status": "candidate",
+        "label": "Plasmablasts",
+        "synonyms": [],
+        "entityClass": "cell",
+        "description": "Differentiation intermediate in the human B-cell culture experiments.",
+        "biologicalRoleClaimIds": [
+          "claim-bcells-blasts",
+          "claim-ifn-blasts",
+          "claim-blasts-plasma"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-plasma",
+        "revisionId": "entity-plasma-r1",
+        "status": "candidate",
+        "label": "Plasma cells / ASCs",
+        "synonyms": [],
+        "entityClass": "cell",
+        "description": "Antibody-secreting cells; the human SLE study identifies autoreactive clones.",
+        "biologicalRoleClaimIds": [
+          "claim-il6-plasma",
+          "claim-blasts-plasma",
+          "claim-plasma-antibodies"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-il6",
+        "revisionId": "entity-il6-r1",
+        "status": "candidate",
+        "label": "IL-6",
+        "synonyms": [],
+        "entityClass": "cytokine",
+        "description": "Cytokine required for Ig-secreting differentiation in the cited culture system.",
+        "biologicalRoleClaimIds": [
+          "claim-pdc-il6",
+          "claim-il6-plasma"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-autoantibodies",
+        "revisionId": "entity-autoantibodies-r1",
+        "status": "candidate",
+        "label": "Autoantibodies",
+        "synonyms": [],
+        "entityClass": "antibody",
+        "description": "Self-reactive antibodies linked to human ASC and immune-complex studies.",
+        "biologicalRoleClaimIds": [
+          "claim-antibodies-complexes",
+          "claim-plasma-antibodies"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-complexes",
+        "revisionId": "entity-complexes-r1",
+        "status": "candidate",
+        "label": "Nucleic-acid immune complexes",
+        "synonyms": [],
+        "entityClass": "immune_complex",
+        "description": "Antibody–antigen complexes; the renal experiment uses deposited ICs without specifying the same nucleic-acid composition.",
+        "biologicalRoleClaimIds": [
+          "claim-debris-complexes",
+          "claim-rna-complexes",
+          "claim-dna-complexes",
+          "claim-antibodies-complexes",
+          "claim-complexes-tlr7",
+          "claim-complexes-tlr9",
+          "claim-complexes-baff",
+          "claim-complexes-fcr",
+          "claim-complexes-kidney",
+          "claim-renal-not-sufficient"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-fcr",
+        "revisionId": "entity-fcr-r1",
+        "status": "candidate",
+        "label": "Activating Fc receptors",
+        "synonyms": [],
+        "entityClass": "receptor",
+        "description": "Fc-receptor γ-chain-dependent pathway in the renal mouse experiment; not a claim about a specific human Fc receptor.",
+        "biologicalRoleClaimIds": [
+          "claim-complexes-fcr",
+          "claim-fcr-kidney"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-kidney",
+        "revisionId": "entity-kidney-r1",
+        "status": "candidate",
+        "label": "Renal inflammation / injury",
+        "synonyms": [],
+        "entityClass": "clinical_outcome",
+        "description": "Organ-injury branch supported by a lupus-nephritis mouse experiment.",
+        "biologicalRoleClaimIds": [
+          "claim-fcr-kidney",
+          "claim-complexes-kidney",
+          "claim-renal-not-sufficient"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-activity",
+        "revisionId": "entity-activity-r1",
+        "status": "candidate",
+        "label": "SLE disease activity",
+        "synonyms": [],
+        "entityClass": "clinical_outcome",
+        "description": "Clinical disease activity; trial endpoints are study-specific.",
+        "biologicalRoleClaimIds": [
+          "claim-ifn-activity",
+          "claim-belimumab-trial",
+          "claim-anifrolumab-trial",
+          "claim-anifrolumab-negative",
+          "claim-enpatoran-trial",
+          "claim-enpatoran-negative"
+        ],
+        "externalIds": []
+      },
+      {
+        "id": "entity-curli-dna",
+        "label": "Bacterial curli/DNA",
+        "synonyms": [
+          "Biofilm curli/DNA complexes"
+        ],
+        "entityClass": "process",
+        "description": "Purified bacterial biofilm curli/DNA exposure studied as an upstream autoantibody stimulus in mice; not an established cause of human SLE.",
+        "externalIds": [],
+        "revisionId": "entity-curli-dna-dc852eba5106",
+        "status": "candidate",
+        "biologicalRoleClaimIds": [
+          "claim-d4e4e467a2d76a39ace2",
+          "claim-4d9c103b676f83c8bd56"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "id": "relationship-clearance-debris",
+        "revisionId": "relationship-clearance-debris-r1",
+        "status": "candidate",
+        "sourceId": "entity-clearance",
+        "targetId": "entity-debris",
+        "predicate": "increases_availability_of",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-clearance-debris",
+        "supportingClaimIds": [
+          "claim-clearance-debris"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-debris-complexes",
+        "revisionId": "relationship-debris-complexes-r1",
+        "status": "candidate",
+        "sourceId": "entity-debris",
+        "targetId": "entity-complexes",
+        "predicate": "contributes_to",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-debris-complexes",
+        "supportingClaimIds": [
+          "claim-debris-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-rna-complexes",
+        "revisionId": "relationship-rna-complexes-r1",
+        "status": "candidate",
+        "sourceId": "entity-rna",
+        "targetId": "entity-complexes",
+        "predicate": "forms",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-rna-complexes",
+        "supportingClaimIds": [
+          "claim-rna-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-dna-complexes",
+        "revisionId": "relationship-dna-complexes-r1",
+        "status": "candidate",
+        "sourceId": "entity-dna",
+        "targetId": "entity-complexes",
+        "predicate": "forms",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-dna-complexes",
+        "supportingClaimIds": [
+          "claim-dna-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-antibodies-complexes",
+        "revisionId": "relationship-antibodies-complexes-r1",
+        "status": "candidate",
+        "sourceId": "entity-autoantibodies",
+        "targetId": "entity-complexes",
+        "predicate": "forms",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-antibodies-complexes",
+        "supportingClaimIds": [
+          "claim-antibodies-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-complexes-tlr7",
+        "revisionId": "relationship-complexes-tlr7-r1",
+        "status": "candidate",
+        "sourceId": "entity-complexes",
+        "targetId": "entity-tlr7",
+        "predicate": "activates",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-complexes-tlr7",
+        "supportingClaimIds": [
+          "claim-complexes-tlr7"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-complexes-tlr9",
+        "revisionId": "relationship-complexes-tlr9-r1",
+        "status": "candidate",
+        "sourceId": "entity-complexes",
+        "targetId": "entity-tlr9",
+        "predicate": "activates",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-complexes-tlr9",
+        "supportingClaimIds": [
+          "claim-complexes-tlr9"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-tlr7-pdc",
+        "revisionId": "relationship-tlr7-pdc-r1",
+        "status": "candidate",
+        "sourceId": "entity-tlr7",
+        "targetId": "entity-pdc",
+        "predicate": "activates",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-tlr7-pdc",
+        "supportingClaimIds": [
+          "claim-tlr7-pdc"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-tlr9-pdc",
+        "revisionId": "relationship-tlr9-pdc-r1",
+        "status": "candidate",
+        "sourceId": "entity-tlr9",
+        "targetId": "entity-pdc",
+        "predicate": "activates",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-tlr9-pdc",
+        "supportingClaimIds": [
+          "claim-tlr9-pdc"
+        ],
+        "qualifyingClaimIds": [
+          "claim-tlr9-context"
+        ],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-pdc-ifn",
+        "revisionId": "relationship-pdc-ifn-r1",
+        "status": "candidate",
+        "sourceId": "entity-pdc",
+        "targetId": "entity-ifn",
+        "predicate": "produces",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-pdc-ifn",
+        "supportingClaimIds": [
+          "claim-pdc-ifn"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-ifn-ifnar",
+        "revisionId": "relationship-ifn-ifnar-r1",
+        "status": "candidate",
+        "sourceId": "entity-ifn",
+        "targetId": "entity-ifnar",
+        "predicate": "activates",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-ifn-ifnar",
+        "supportingClaimIds": [
+          "claim-ifn-ifnar"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": false
+      },
+      {
+        "id": "relationship-ifn-baff",
+        "revisionId": "relationship-ifn-baff-r1",
+        "status": "candidate",
+        "sourceId": "entity-ifn",
+        "targetId": "entity-baff",
+        "predicate": "increases_availability_of",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-ifn-baff",
+        "supportingClaimIds": [
+          "claim-ifn-baff"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-monocytes-baff",
+        "revisionId": "relationship-monocytes-baff-r1",
+        "status": "candidate",
+        "sourceId": "entity-monocytes",
+        "targetId": "entity-baff",
+        "predicate": "produces",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-monocytes-baff",
+        "supportingClaimIds": [
+          "claim-monocytes-baff"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-complexes-baff",
+        "revisionId": "relationship-complexes-baff-r1",
+        "status": "candidate",
+        "sourceId": "entity-complexes",
+        "targetId": "entity-baff",
+        "predicate": "increases_availability_of",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-complexes-baff",
+        "supportingClaimIds": [
+          "claim-complexes-baff"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-baff-bcells",
+        "revisionId": "relationship-baff-bcells-r1",
+        "status": "candidate",
+        "sourceId": "entity-baff",
+        "targetId": "entity-b_cells",
+        "predicate": "promotes_survival_of",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-baff-bcells",
+        "supportingClaimIds": [
+          "claim-baff-bcells"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-variant-tlr7",
+        "revisionId": "relationship-variant-tlr7-r1",
+        "status": "candidate",
+        "sourceId": "entity-variant",
+        "targetId": "entity-tlr7",
+        "predicate": "activates",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-variant-tlr7",
+        "supportingClaimIds": [
+          "claim-variant-tlr7"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-tlr7-bcells",
+        "revisionId": "relationship-tlr7-bcells-r1",
+        "status": "candidate",
+        "sourceId": "entity-tlr7",
+        "targetId": "entity-b_cells",
+        "predicate": "promotes_survival_of",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-tlr7-bcells",
+        "supportingClaimIds": [
+          "claim-tlr7-bcells"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-bcells-blasts",
+        "revisionId": "relationship-bcells-blasts-r1",
+        "status": "candidate",
+        "sourceId": "entity-b_cells",
+        "targetId": "entity-plasmablasts",
+        "predicate": "differentiates_into",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-bcells-blasts",
+        "supportingClaimIds": [
+          "claim-bcells-blasts"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-ifn-blasts",
+        "revisionId": "relationship-ifn-blasts-r1",
+        "status": "candidate",
+        "sourceId": "entity-ifn",
+        "targetId": "entity-plasmablasts",
+        "predicate": "contributes_to",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-ifn-blasts",
+        "supportingClaimIds": [
+          "claim-ifn-blasts"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-pdc-il6",
+        "revisionId": "relationship-pdc-il6-r1",
+        "status": "candidate",
+        "sourceId": "entity-pdc",
+        "targetId": "entity-il6",
+        "predicate": "produces",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-pdc-il6",
+        "supportingClaimIds": [
+          "claim-pdc-il6"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-il6-plasma",
+        "revisionId": "relationship-il6-plasma-r1",
+        "status": "candidate",
+        "sourceId": "entity-il6",
+        "targetId": "entity-plasma",
+        "predicate": "contributes_to",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-il6-plasma",
+        "supportingClaimIds": [
+          "claim-il6-plasma"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-blasts-plasma",
+        "revisionId": "relationship-blasts-plasma-r1",
+        "status": "candidate",
+        "sourceId": "entity-plasmablasts",
+        "targetId": "entity-plasma",
+        "predicate": "differentiates_into",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-blasts-plasma",
+        "supportingClaimIds": [
+          "claim-blasts-plasma"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-plasma-antibodies",
+        "revisionId": "relationship-plasma-antibodies-r1",
+        "status": "candidate",
+        "sourceId": "entity-plasma",
+        "targetId": "entity-autoantibodies",
+        "predicate": "produces",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-plasma-antibodies",
+        "supportingClaimIds": [
+          "claim-plasma-antibodies"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-complexes-fcr",
+        "revisionId": "relationship-complexes-fcr-r1",
+        "status": "candidate",
+        "sourceId": "entity-complexes",
+        "targetId": "entity-fcr",
+        "predicate": "activates",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-complexes-fcr",
+        "supportingClaimIds": [
+          "claim-complexes-fcr"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-fcr-kidney",
+        "revisionId": "relationship-fcr-kidney-r1",
+        "status": "candidate",
+        "sourceId": "entity-fcr",
+        "targetId": "entity-kidney",
+        "predicate": "contributes_to",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-fcr-kidney",
+        "supportingClaimIds": [
+          "claim-fcr-kidney"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-complexes-kidney",
+        "revisionId": "relationship-complexes-kidney-r1",
+        "status": "candidate",
+        "sourceId": "entity-complexes",
+        "targetId": "entity-kidney",
+        "predicate": "contributes_to",
+        "directionality": "directed",
+        "polarity": "positive",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-complexes-kidney",
+        "supportingClaimIds": [
+          "claim-complexes-kidney"
+        ],
+        "qualifyingClaimIds": [
+          "claim-renal-not-sufficient"
+        ],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-ifn-activity",
+        "revisionId": "relationship-ifn-activity-r1",
+        "status": "candidate",
+        "sourceId": "entity-activity",
+        "targetId": "entity-ifn",
+        "predicate": "is_associated_with",
+        "directionality": "symmetric",
+        "polarity": "not_applicable",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-ifn-activity",
+        "supportingClaimIds": [
+          "claim-ifn-activity"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "provisional": true
+      },
+      {
+        "id": "relationship-c3293bcb1ac098447d7d",
+        "revisionId": "relationship-c3293bcb1ac098447d7d-dc852eba5106",
+        "status": "candidate",
+        "sourceId": "entity-curli-dna",
+        "targetId": "entity-autoantibodies",
+        "predicate": "stimulates",
+        "contextId": "context-sle-overview",
+        "assessmentId": "assessment-relationship-c3293bcb1ac098447d7d",
+        "directionality": "directed",
+        "polarity": "positive",
+        "supportingClaimIds": [
+          "claim-d4e4e467a2d76a39ace2"
+        ],
+        "qualifyingClaimIds": [
+          "claim-4d9c103b676f83c8bd56"
+        ],
+        "contradictingClaimIds": []
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim-clearance-debris",
+        "revisionId": "claim-clearance-debris-r1",
+        "status": "candidate",
+        "text": "Reduced engulfment in SLE-derived macrophage cultures could leave apoptotic material available.",
+        "subjectId": "entity-clearance",
+        "objectId": "entity-debris",
+        "predicate": "increases_availability_of",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-clearance-debris"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "hypothesis",
+        "limitations": [
+          "Persistence in vivo is a proposed consequence, not directly measured by this assay."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-debris-complexes",
+        "revisionId": "claim-debris-complexes-r1",
+        "status": "candidate",
+        "text": "Persistent apoptotic material was proposed as antigen for immune-complex formation.",
+        "subjectId": "entity-debris",
+        "objectId": "entity-complexes",
+        "predicate": "contributes_to",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-debris-complexes"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "hypothesis",
+        "limitations": [
+          "The paper discusses this route; it does not experimentally establish the complete downstream circuit."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-rna-complexes",
+        "revisionId": "claim-rna-complexes-r1",
+        "status": "candidate",
+        "text": "RNA-containing self-antigen is a component of the stimulatory immune complexes.",
+        "subjectId": "entity-rna",
+        "objectId": "entity-complexes",
+        "predicate": "forms",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-rna-complexes"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "A component relationship; antigen alone does not establish a pathogenic complex."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-dna-complexes",
+        "revisionId": "claim-dna-complexes-r1",
+        "status": "candidate",
+        "text": "DNA-containing self-antigen is a component of the stimulatory immune complexes.",
+        "subjectId": "entity-dna",
+        "objectId": "entity-complexes",
+        "predicate": "forms",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-dna-complexes"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "A component relationship; not every self-DNA molecule is immunostimulatory."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-antibodies-complexes",
+        "revisionId": "claim-antibodies-complexes-r1",
+        "status": "candidate",
+        "text": "Self-reactive antibodies participate in nucleic-acid-containing immune complexes.",
+        "subjectId": "entity-autoantibodies",
+        "objectId": "entity-complexes",
+        "predicate": "forms",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-antibodies-complexes"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Complex composition and delivery determine activity."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-complexes-tlr7",
+        "revisionId": "claim-complexes-tlr7-r1",
+        "status": "candidate",
+        "text": "RNA-containing immune complexes stimulate the TLR7-dependent culture response.",
+        "subjectId": "entity-complexes",
+        "objectId": "entity-tlr7",
+        "predicate": "activates",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-complexes-tlr7"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Inhibitor-based culture experiments; not evidence that all SLE is TLR7-dependent."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-complexes-tlr9",
+        "revisionId": "claim-complexes-tlr9-r1",
+        "status": "candidate",
+        "text": "DNA-containing immune complexes stimulate the TLR9-dependent culture response.",
+        "subjectId": "entity-complexes",
+        "objectId": "entity-tlr9",
+        "predicate": "activates",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-complexes-tlr9"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Does not establish that TLR9 has only disease-promoting effects in vivo."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-tlr7-pdc",
+        "revisionId": "claim-tlr7-pdc-r1",
+        "status": "candidate",
+        "text": "TLR7 sensing contributes to activation of pDC interferon production in the assay.",
+        "subjectId": "entity-tlr7",
+        "objectId": "entity-pdc",
+        "predicate": "activates",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-tlr7-pdc"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "The node compresses intracellular steps; the arrow is not a direct cell-to-cell interaction."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-tlr9-pdc",
+        "revisionId": "claim-tlr9-pdc-r1",
+        "status": "candidate",
+        "text": "TLR9 sensing contributes to activation of pDC interferon production in the assay.",
+        "subjectId": "entity-tlr9",
+        "objectId": "entity-pdc",
+        "predicate": "activates",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-tlr9-pdc"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Culture context; this branch is not interchangeable with TLR7 in every disease model."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-pdc-ifn",
+        "revisionId": "claim-pdc-ifn-r1",
+        "status": "candidate",
+        "text": "Stimulated pDCs release IFN-α in the nucleic-acid immune-complex cultures.",
+        "subjectId": "entity-pdc",
+        "objectId": "entity-ifn",
+        "predicate": "produces",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-pdc-ifn"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "pDCs are not asserted to be the sole interferon source in SLE."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-ifn-ifnar",
+        "revisionId": "claim-ifn-ifnar-r1",
+        "status": "candidate",
+        "text": "Type I interferons signal through the IFNAR receptor complex, which includes IFNAR1.",
+        "subjectId": "entity-ifn",
+        "objectId": "entity-ifnar",
+        "predicate": "activates",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-ifn-ifnar"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "The label supplies receptor pharmacology, not a causal SLE experiment."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-ifn-baff",
+        "revisionId": "claim-ifn-baff-r1",
+        "status": "candidate",
+        "text": "IFN-α increased BLyS surface mobilization and release in human monocyte cultures.",
+        "subjectId": "entity-ifn",
+        "objectId": "entity-baff",
+        "predicate": "increases_availability_of",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-ifn-baff"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Magnitude depended on cell source and disease activity; not proof of a complete in vivo loop."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-monocytes-baff",
+        "revisionId": "claim-monocytes-baff-r1",
+        "status": "candidate",
+        "text": "IFN-α-treated SLE monocytes mobilized intracellular BLyS to the surface and released it.",
+        "subjectId": "entity-monocytes",
+        "objectId": "entity-baff",
+        "predicate": "produces",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-monocytes-baff"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Cultured monocytes; release differs from transcription and systemic circulating concentration."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-complexes-baff",
+        "revisionId": "claim-complexes-baff-r1",
+        "status": "candidate",
+        "text": "SLE immune complexes increased surface BLyS in healthy monocyte cultures.",
+        "subjectId": "entity-complexes",
+        "objectId": "entity-baff",
+        "predicate": "increases_availability_of",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-complexes-baff"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Indirect route through monocytes; not direct IC–BAFF binding."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-baff-bcells",
+        "revisionId": "claim-baff-bcells-r1",
+        "status": "candidate",
+        "text": "BAFF overexpression expanded mature B-cell populations in transgenic mice.",
+        "subjectId": "entity-baff",
+        "objectId": "entity-b_cells",
+        "predicate": "promotes_survival_of",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-baff-bcells",
+          "evidence-baff-survival-label"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "A gain-of-expression mouse model; human autoreactive-cell survival also has regulatory-label support."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-variant-tlr7",
+        "revisionId": "claim-variant-tlr7-r1",
+        "status": "candidate",
+        "text": "The rare TLR7 Y264H variant increased ligand sensing and caused lupus in the engineered model.",
+        "subjectId": "entity-variant",
+        "objectId": "entity-tlr7",
+        "predicate": "activates",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-variant-tlr7"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "causal",
+        "limitations": [
+          "Rare human case plus mouse experiments; not a prevalence estimate or general cause of SLE."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-tlr7-bcells",
+        "revisionId": "claim-tlr7-bcells-r1",
+        "status": "candidate",
+        "text": "Enhanced TLR7 signaling increased survival of BCR-activated B cells in Y264H mice.",
+        "subjectId": "entity-tlr7",
+        "objectId": "entity-b_cells",
+        "predicate": "promotes_survival_of",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-tlr7-bcells"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Functional phenotype is from engineered mice, not a direct survival measurement across human SLE."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-bcells-blasts",
+        "revisionId": "claim-bcells-blasts-r1",
+        "status": "candidate",
+        "text": "Type I IFN promoted plasmablast differentiation of CD40-activated human B cells.",
+        "subjectId": "entity-b_cells",
+        "objectId": "entity-plasmablasts",
+        "predicate": "differentiates_into",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-bcells-blasts"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Virus-stimulated culture system; B-cell activation is a prerequisite, and SLE transfer is a hypothesis."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-ifn-blasts",
+        "revisionId": "claim-ifn-blasts-r1",
+        "status": "candidate",
+        "text": "Type I IFN generated non-Ig-secreting plasmablasts in the B-cell culture system.",
+        "subjectId": "entity-ifn",
+        "objectId": "entity-plasmablasts",
+        "predicate": "contributes_to",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-ifn-blasts"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Does not imply IFN alone creates autoreactive plasma cells."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-pdc-il6",
+        "revisionId": "claim-pdc-il6-r1",
+        "status": "candidate",
+        "text": "Virus-stimulated pDC cultures supplied IL-6 during B-cell differentiation.",
+        "subjectId": "entity-pdc",
+        "objectId": "entity-il6",
+        "predicate": "produces",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-pdc-il6"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Viral stimulus, not a lupus-specific induction experiment."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-il6-plasma",
+        "revisionId": "claim-il6-plasma-r1",
+        "status": "candidate",
+        "text": "IL-6 enabled Ig-secreting plasma-cell differentiation after the type I IFN step.",
+        "subjectId": "entity-il6",
+        "objectId": "entity-plasma",
+        "predicate": "contributes_to",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-il6-plasma"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Sequential and activation-dependent culture mechanism."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-blasts-plasma",
+        "revisionId": "claim-blasts-plasma-r1",
+        "status": "candidate",
+        "text": "The IFN-generated plasmablasts matured into Ig-secreting cells with IL-6.",
+        "subjectId": "entity-plasmablasts",
+        "objectId": "entity-plasma",
+        "predicate": "differentiates_into",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-blasts-plasma"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Culture-defined stages; does not establish long-lived plasma-cell maintenance in SLE."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-plasma-antibodies",
+        "revisionId": "claim-plasma-antibodies-r1",
+        "status": "candidate",
+        "text": "Expanded ASC clones contributed serum autoantibodies during acute human SLE.",
+        "subjectId": "entity-plasma",
+        "objectId": "entity-autoantibodies",
+        "predicate": "produces",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-plasma-antibodies"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Observational clonal analysis; not every ASC clone is autoreactive."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-complexes-fcr",
+        "revisionId": "claim-complexes-fcr-r1",
+        "status": "candidate",
+        "text": "Deposited immune complexes engage an Fc-receptor-dependent inflammatory pathway in the renal mouse model.",
+        "subjectId": "entity-complexes",
+        "objectId": "entity-fcr",
+        "predicate": "activates",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-complexes-fcr"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Pathway inferred from γ-chain deletion; renal complexes are not shown to match the pDC assay complexes."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-fcr-kidney",
+        "revisionId": "claim-fcr-kidney-r1",
+        "status": "candidate",
+        "text": "Fc-receptor γ-chain deficiency protected lupus-prone mice from severe nephritis.",
+        "subjectId": "entity-fcr",
+        "objectId": "entity-kidney",
+        "predicate": "contributes_to",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-fcr-kidney"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Mouse knockout evidence; does not identify a single human receptor or justify human inhibition."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-complexes-kidney",
+        "revisionId": "claim-complexes-kidney-r1",
+        "status": "candidate",
+        "text": "Renal immune-complex deposition is upstream of the inflammatory pathway investigated in lupus-prone mice.",
+        "subjectId": "entity-complexes",
+        "objectId": "entity-kidney",
+        "predicate": "contributes_to",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-complexes-kidney"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "hypothesis",
+        "limitations": [
+          "Deposition alone is insufficient for severe nephritis in this model."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-renal-not-sufficient",
+        "revisionId": "claim-renal-not-sufficient-r1",
+        "status": "candidate",
+        "text": "Mice lacking the Fc-receptor γ chain deposited complexes and activated complement without severe nephritis.",
+        "subjectId": "entity-complexes",
+        "objectId": "entity-kidney",
+        "predicate": "contributes_to",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-renal-not-sufficient"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Qualifies any claim that deposition alone is sufficient."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-ifn-activity",
+        "revisionId": "claim-ifn-activity-r1",
+        "status": "candidate",
+        "text": "SLE sera with interferon-inducing activity were especially found in active disease.",
+        "subjectId": "entity-activity",
+        "objectId": "entity-ifn",
+        "predicate": "is_associated_with",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-ifn-activity"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "association",
+        "limitations": [
+          "Cross-sectional correlation and healthy-donor culture response do not establish causal direction."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-belimumab-mechanism",
+        "revisionId": "claim-belimumab-mechanism-r1",
+        "status": "candidate",
+        "text": "Binds soluble BLyS and limits its receptor engagement on B cells.",
+        "subjectId": "therapy-belimumab",
+        "objectId": "entity-baff",
+        "predicate": "inhibits",
+        "contextId": "context-sle-treatment",
+        "evidenceItemIds": [
+          "evidence-belimumab-mechanism"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Severe active CNS lupus was not evaluated; infection, hypersensitivity and SJS/TEN risks. Approval does not establish benefit for every phenotype."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-belimumab-status",
+        "revisionId": "claim-belimumab-status-r1",
+        "status": "candidate",
+        "text": "Active SLE or active lupus nephritis in patients aged 5 years and older receiving standard therapy. US licensed indication.",
+        "subjectId": "therapy-belimumab",
+        "objectId": "entity-baff",
+        "predicate": "contributes_to",
+        "contextId": "context-sle-treatment",
+        "evidenceItemIds": [
+          "evidence-belimumab-status"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "interventional",
+        "limitations": [
+          "Jurisdiction and indication are specific to the cited source."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-belimumab-trial",
+        "revisionId": "claim-belimumab-trial-r1",
+        "status": "candidate",
+        "text": "BLISS-52 reported a higher week-52 SRI response with belimumab plus standard care than placebo plus standard care.",
+        "subjectId": "therapy-belimumab",
+        "objectId": "entity-activity",
+        "predicate": "efficacy_on",
+        "contextId": "context-sle-treatment",
+        "evidenceItemIds": [
+          "evidence-belimumab-trial"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "interventional",
+        "limitations": [
+          "Trial-specific endpoint and background care; not universal response or a direct measure of mechanistic weight."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-anifrolumab-mechanism",
+        "revisionId": "claim-anifrolumab-mechanism-r1",
+        "status": "candidate",
+        "text": "Binds IFNAR1 and inhibits type I interferon signaling.",
+        "subjectId": "therapy-anifrolumab",
+        "objectId": "entity-ifnar",
+        "predicate": "inhibits",
+        "contextId": "context-sle-treatment",
+        "evidenceItemIds": [
+          "evidence-anifrolumab-mechanism"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Severe active lupus nephritis and severe active CNS lupus were not evaluated; infection and herpes-zoster risks."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-anifrolumab-status",
+        "revisionId": "claim-anifrolumab-status-r1",
+        "status": "candidate",
+        "text": "Adults with moderate-to-severe SLE receiving standard therapy. US licensed indication.",
+        "subjectId": "therapy-anifrolumab",
+        "objectId": "entity-ifnar",
+        "predicate": "contributes_to",
+        "contextId": "context-sle-treatment",
+        "evidenceItemIds": [
+          "evidence-anifrolumab-status"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "interventional",
+        "limitations": [
+          "Jurisdiction and indication are specific to the cited source."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-anifrolumab-trial",
+        "revisionId": "claim-anifrolumab-trial-r1",
+        "status": "candidate",
+        "text": "TULIP-2 met its BICLA response endpoint with anifrolumab plus standard therapy.",
+        "subjectId": "therapy-anifrolumab",
+        "objectId": "entity-activity",
+        "predicate": "efficacy_on",
+        "contextId": "context-sle-treatment",
+        "evidenceItemIds": [
+          "evidence-anifrolumab-trial"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "interventional",
+        "limitations": [
+          "Trial-specific endpoint and background care; not universal response or a direct measure of mechanistic weight."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-anifrolumab-negative",
+        "revisionId": "claim-anifrolumab-negative-r1",
+        "status": "candidate",
+        "text": "TULIP-1 did not meet its SRI-4 primary endpoint; efficacy depends on the outcome definition.",
+        "subjectId": "therapy-anifrolumab",
+        "objectId": "entity-activity",
+        "predicate": "efficacy_on",
+        "contextId": "context-sle-treatment",
+        "evidenceItemIds": [
+          "evidence-anifrolumab-negative"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "interventional",
+        "limitations": [
+          "Negative primary endpoint limits efficacy interpretation; it does not negate target binding."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-enpatoran-mechanism",
+        "revisionId": "claim-enpatoran-mechanism-r1",
+        "status": "candidate",
+        "text": "Inhibits TLR7/8 signaling; TLR8 is outside this bounded map.",
+        "subjectId": "therapy-enpatoran",
+        "objectId": "entity-tlr7",
+        "predicate": "inhibits",
+        "contextId": "context-sle-skin",
+        "evidenceItemIds": [
+          "evidence-enpatoran-mechanism"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "WILLOW Cohort B missed the primary dose-response objective. Skin-trial development is not proof of broad systemic efficacy."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-enpatoran-status",
+        "revisionId": "claim-enpatoran-status-r1",
+        "status": "candidate",
+        "text": "Phase 3 ELOWEN program studies active cutaneous lupus manifestations with or without systemic disease. Investigational phase 3 program; no approval asserted.",
+        "subjectId": "therapy-enpatoran",
+        "objectId": "entity-tlr7",
+        "predicate": "contributes_to",
+        "contextId": "context-sle-skin",
+        "evidenceItemIds": [
+          "evidence-enpatoran-status"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "interventional",
+        "limitations": [
+          "Sponsor status report is not evidence of efficacy or regulatory approval."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-enpatoran-trial",
+        "revisionId": "claim-enpatoran-trial-r1",
+        "status": "candidate",
+        "text": "WILLOW Cohort B reported numerically higher BICLA responses in the enpatoran groups.",
+        "subjectId": "therapy-enpatoran",
+        "objectId": "entity-activity",
+        "predicate": "efficacy_on",
+        "contextId": "context-sle-treatment",
+        "evidenceItemIds": [
+          "evidence-enpatoran-trial"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "interventional",
+        "limitations": [
+          "Trial-specific endpoint and background care; not universal response or a direct measure of mechanistic weight."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-enpatoran-negative",
+        "revisionId": "claim-enpatoran-negative-r1",
+        "status": "candidate",
+        "text": "WILLOW Cohort B failed its primary statistically significant dose-dependent BICLA objective.",
+        "subjectId": "therapy-enpatoran",
+        "objectId": "entity-activity",
+        "predicate": "efficacy_on",
+        "contextId": "context-sle-treatment",
+        "evidenceItemIds": [
+          "evidence-enpatoran-negative"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "interventional",
+        "limitations": [
+          "Negative primary endpoint limits efficacy interpretation; it does not negate target binding."
+        ],
+        "sourceCheckedAt": "2026-10-09",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-tlr9-context",
+        "revisionId": "claim-tlr9-context-r1",
+        "status": "candidate",
+        "text": "TLR9-deficient lupus-prone mice had increased pDC activation and IFN-α, qualifying a uniformly disease-promoting interpretation of TLR9 sensing.",
+        "subjectId": "entity-tlr9",
+        "objectId": "entity-pdc",
+        "predicate": "activates",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-tlr9-context"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Does not contradict the culture sensing result; deletion experiments reveal a different net regulatory role in a mouse disease model."
+        ],
+        "sourceCheckedAt": "2026-10-10",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-d4e4e467a2d76a39ace2",
+        "revisionId": "claim-d4e4e467a2d76a39ace2-dc852eba5106",
+        "status": "candidate",
+        "text": "Purified bacterial curli/DNA exposure increased anti-C1q autoantibodies in wild-type and lupus-prone mice; anti-dsDNA responses also increased in young NZBxW/F1 mice. Effects depended on model and disease stage.",
+        "subjectId": "entity-curli-dna",
+        "objectId": "entity-autoantibodies",
+        "predicate": "stimulates",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-d4e4e467a2d76a39ace2"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "Purified material was administered intraperitoneally; infection experiments are separate and do not establish a human gut-to-SLE pathway.",
+          "The Luminex C57BL/6 comparison was not significant, whereas separate anti-C1q ELISA experiments supported induction.",
+          "Proteinuria, kidney pathology and circulating C1q did not differ significantly at the measured timepoints; increased autoantibodies or glomerular C1q deposition do not establish worsened nephritis."
+        ],
+        "sourceCheckedAt": "2026-10-20",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      },
+      {
+        "id": "claim-4d9c103b676f83c8bd56",
+        "revisionId": "claim-4d9c103b676f83c8bd56-dc852eba5106",
+        "status": "candidate",
+        "text": "Curli did not further increase already-high autoantibody responses in late-disease NZBxW/F1 mice; the study also found no significant proteinuria increase in either lupus-prone model, limiting translation from autoantibody induction to renal disease.",
+        "subjectId": "entity-curli-dna",
+        "objectId": "entity-autoantibodies",
+        "predicate": "stimulates",
+        "contextId": "context-sle-overview",
+        "evidenceItemIds": [
+          "evidence-4d9c103b676f83c8bd56"
+        ],
+        "verification": "source_checked",
+        "causalInterpretation": "mechanistic",
+        "limitations": [
+          "A null difference at selected ages and timepoints does not prove absence of an effect at later stages or in humans.",
+          "MRL/lpr mice retained an anti-C1q response; the stage limit is not uniform across models."
+        ],
+        "sourceCheckedAt": "2026-10-20",
+        "reviewDisposition": {
+          "decision": "pending_domain_review",
+          "reviewerId": null,
+          "reviewedAt": null
+        }
+      }
+    ],
+    "evidenceItems": [
+      {
+        "id": "evidence-clearance-debris",
+        "revisionId": "evidence-clearance-debris-r1",
+        "status": "candidate",
+        "sourceId": "source-clearance",
+        "summary": "Reduced engulfment in SLE-derived macrophage cultures could leave apoptotic material available.",
+        "location": "Abstract: Results and Conclusion",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "SLE patient-derived monocytes/macrophages; in vitro apoptotic-cell phagocytosis",
+        "evidenceType": "human_observational"
+      },
+      {
+        "id": "evidence-debris-complexes",
+        "revisionId": "evidence-debris-complexes-r1",
+        "status": "candidate",
+        "sourceId": "source-clearance",
+        "summary": "Persistent apoptotic material was proposed as antigen for immune-complex formation.",
+        "location": "Abstract: Conclusion",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "SLE patient-derived monocytes/macrophages; in vitro apoptotic-cell phagocytosis",
+        "evidenceType": "human_observational"
+      },
+      {
+        "id": "evidence-rna-complexes",
+        "revisionId": "evidence-rna-complexes-r1",
+        "status": "candidate",
+        "sourceId": "source-barrat",
+        "summary": "RNA-containing self-antigen is a component of the stimulatory immune complexes.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Human pDC cultures stimulated with mammalian nucleic-acid immune complexes",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-dna-complexes",
+        "revisionId": "evidence-dna-complexes-r1",
+        "status": "candidate",
+        "sourceId": "source-barrat",
+        "summary": "DNA-containing self-antigen is a component of the stimulatory immune complexes.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Human pDC cultures stimulated with mammalian nucleic-acid immune complexes",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-antibodies-complexes",
+        "revisionId": "evidence-antibodies-complexes-r1",
+        "status": "candidate",
+        "sourceId": "source-barrat",
+        "summary": "Self-reactive antibodies participate in nucleic-acid-containing immune complexes.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Human pDC cultures stimulated with mammalian nucleic-acid immune complexes",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-complexes-tlr7",
+        "revisionId": "evidence-complexes-tlr7-r1",
+        "status": "candidate",
+        "sourceId": "source-barrat",
+        "summary": "RNA-containing immune complexes stimulate the TLR7-dependent culture response.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Human pDC cultures stimulated with mammalian nucleic-acid immune complexes",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-complexes-tlr9",
+        "revisionId": "evidence-complexes-tlr9-r1",
+        "status": "candidate",
+        "sourceId": "source-barrat",
+        "summary": "DNA-containing immune complexes stimulate the TLR9-dependent culture response.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Human pDC cultures stimulated with mammalian nucleic-acid immune complexes",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-tlr7-pdc",
+        "revisionId": "evidence-tlr7-pdc-r1",
+        "status": "candidate",
+        "sourceId": "source-barrat",
+        "summary": "TLR7 sensing contributes to activation of pDC interferon production in the assay.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Human pDC cultures stimulated with mammalian nucleic-acid immune complexes",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-tlr9-pdc",
+        "revisionId": "evidence-tlr9-pdc-r1",
+        "status": "candidate",
+        "sourceId": "source-barrat",
+        "summary": "TLR9 sensing contributes to activation of pDC interferon production in the assay.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Human pDC cultures stimulated with mammalian nucleic-acid immune complexes",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-pdc-ifn",
+        "revisionId": "evidence-pdc-ifn-r1",
+        "status": "candidate",
+        "sourceId": "source-barrat",
+        "summary": "Stimulated pDCs release IFN-α in the nucleic-acid immune-complex cultures.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Human pDC cultures stimulated with mammalian nucleic-acid immune complexes",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-ifn-ifnar",
+        "revisionId": "evidence-ifn-ifnar-r1",
+        "status": "candidate",
+        "sourceId": "source-saphnelo-label",
+        "summary": "Type I interferons signal through the IFNAR receptor complex, which includes IFNAR1.",
+        "location": "Section 12.1, PDF page 10",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "US adult moderate-to-severe SLE indication; label revised April 2026",
+        "evidenceType": "regulatory_label"
+      },
+      {
+        "id": "evidence-ifn-baff",
+        "revisionId": "evidence-ifn-baff-r1",
+        "status": "candidate",
+        "sourceId": "source-monocytes",
+        "summary": "IFN-α increased BLyS surface mobilization and release in human monocyte cultures.",
+        "location": "Abstract: Results",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Healthy and SLE monocyte cultures; ex vivo cohort of 23 SLE patients and 16 controls",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-monocytes-baff",
+        "revisionId": "evidence-monocytes-baff-r1",
+        "status": "candidate",
+        "sourceId": "source-monocytes",
+        "summary": "IFN-α-treated SLE monocytes mobilized intracellular BLyS to the surface and released it.",
+        "location": "Abstract: Results",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Healthy and SLE monocyte cultures; ex vivo cohort of 23 SLE patients and 16 controls",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-complexes-baff",
+        "revisionId": "evidence-complexes-baff-r1",
+        "status": "candidate",
+        "sourceId": "source-monocytes",
+        "summary": "SLE immune complexes increased surface BLyS in healthy monocyte cultures.",
+        "location": "Abstract: Results",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Healthy and SLE monocyte cultures; ex vivo cohort of 23 SLE patients and 16 controls",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-baff-bcells",
+        "revisionId": "evidence-baff-bcells-r1",
+        "status": "candidate",
+        "sourceId": "source-baff",
+        "summary": "BAFF overexpression expanded mature B-cell populations in transgenic mice.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "BAFF-transgenic mice; mature B-cell expansion and autoimmune manifestations",
+        "evidenceType": "animal_experiment"
+      },
+      {
+        "id": "evidence-variant-tlr7",
+        "revisionId": "evidence-variant-tlr7-r1",
+        "status": "candidate",
+        "sourceId": "source-tlr7",
+        "summary": "The rare TLR7 Y264H variant increased ligand sensing and caused lupus in the engineered model.",
+        "location": "Abstract; main text: TLR7 variants in patients with SLE",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Rare human childhood-onset SLE; engineered Tlr7 Y264H mice for functional phenotypes",
+        "evidenceType": "human_genetic"
+      },
+      {
+        "id": "evidence-tlr7-bcells",
+        "revisionId": "evidence-tlr7-bcells-r1",
+        "status": "candidate",
+        "sourceId": "source-tlr7",
+        "summary": "Enhanced TLR7 signaling increased survival of BCR-activated B cells in Y264H mice.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Rare human childhood-onset SLE; engineered Tlr7 Y264H mice for functional phenotypes",
+        "evidenceType": "human_genetic"
+      },
+      {
+        "id": "evidence-bcells-blasts",
+        "revisionId": "evidence-bcells-blasts-r1",
+        "status": "candidate",
+        "sourceId": "source-jego",
+        "summary": "Type I IFN promoted plasmablast differentiation of CD40-activated human B cells.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Virus-triggered human pDC and CD40-activated B-cell cultures; not an SLE cohort",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-ifn-blasts",
+        "revisionId": "evidence-ifn-blasts-r1",
+        "status": "candidate",
+        "sourceId": "source-jego",
+        "summary": "Type I IFN generated non-Ig-secreting plasmablasts in the B-cell culture system.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Virus-triggered human pDC and CD40-activated B-cell cultures; not an SLE cohort",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-pdc-il6",
+        "revisionId": "evidence-pdc-il6-r1",
+        "status": "candidate",
+        "sourceId": "source-jego",
+        "summary": "Virus-stimulated pDC cultures supplied IL-6 during B-cell differentiation.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Virus-triggered human pDC and CD40-activated B-cell cultures; not an SLE cohort",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-il6-plasma",
+        "revisionId": "evidence-il6-plasma-r1",
+        "status": "candidate",
+        "sourceId": "source-jego",
+        "summary": "IL-6 enabled Ig-secreting plasma-cell differentiation after the type I IFN step.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Virus-triggered human pDC and CD40-activated B-cell cultures; not an SLE cohort",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-blasts-plasma",
+        "revisionId": "evidence-blasts-plasma-r1",
+        "status": "candidate",
+        "sourceId": "source-jego",
+        "summary": "The IFN-generated plasmablasts matured into Ig-secreting cells with IL-6.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Virus-triggered human pDC and CD40-activated B-cell cultures; not an SLE cohort",
+        "evidenceType": "human_in_vitro"
+      },
+      {
+        "id": "evidence-plasma-antibodies",
+        "revisionId": "evidence-plasma-antibodies-r1",
+        "status": "candidate",
+        "sourceId": "source-tipton",
+        "summary": "Expanded ASC clones contributed serum autoantibodies during acute human SLE.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Human circulating antibody-secreting cells during acute SLE",
+        "evidenceType": "human_observational"
+      },
+      {
+        "id": "evidence-complexes-fcr",
+        "revisionId": "evidence-complexes-fcr-r1",
+        "status": "candidate",
+        "sourceId": "source-renal",
+        "summary": "Deposited immune complexes engage an Fc-receptor-dependent inflammatory pathway in the renal mouse model.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "NZB/NZW lupus-prone mice lacking the activating Fc-receptor γ chain",
+        "evidenceType": "animal_experiment"
+      },
+      {
+        "id": "evidence-fcr-kidney",
+        "revisionId": "evidence-fcr-kidney-r1",
+        "status": "candidate",
+        "sourceId": "source-renal",
+        "summary": "Fc-receptor γ-chain deficiency protected lupus-prone mice from severe nephritis.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "NZB/NZW lupus-prone mice lacking the activating Fc-receptor γ chain",
+        "evidenceType": "animal_experiment"
+      },
+      {
+        "id": "evidence-complexes-kidney",
+        "revisionId": "evidence-complexes-kidney-r1",
+        "status": "candidate",
+        "sourceId": "source-renal",
+        "summary": "Renal immune-complex deposition is upstream of the inflammatory pathway investigated in lupus-prone mice.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "NZB/NZW lupus-prone mice lacking the activating Fc-receptor γ chain",
+        "evidenceType": "animal_experiment"
+      },
+      {
+        "id": "evidence-renal-not-sufficient",
+        "revisionId": "evidence-renal-not-sufficient-r1",
+        "status": "candidate",
+        "sourceId": "source-renal",
+        "summary": "Mice lacking the Fc-receptor γ chain deposited complexes and activated complement without severe nephritis.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "NZB/NZW lupus-prone mice lacking the activating Fc-receptor γ chain",
+        "evidenceType": "animal_experiment"
+      },
+      {
+        "id": "evidence-ifn-activity",
+        "revisionId": "evidence-ifn-activity-r1",
+        "status": "candidate",
+        "sourceId": "source-vallin",
+        "summary": "SLE sera with interferon-inducing activity were especially found in active disease.",
+        "location": "Abstract",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "SLE sera and healthy-donor PBMC cultures; active disease correlations",
+        "evidenceType": "human_observational"
+      },
+      {
+        "id": "evidence-belimumab-mechanism",
+        "revisionId": "evidence-belimumab-mechanism-r1",
+        "status": "candidate",
+        "sourceId": "source-benlysta-label",
+        "summary": "Binds soluble BLyS and limits its receptor engagement on B cells.",
+        "location": "Section 12.1",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "US licensed indication and pharmacology; label revised August 2026",
+        "evidenceType": "regulatory_label"
+      },
+      {
+        "id": "evidence-belimumab-status",
+        "revisionId": "evidence-belimumab-status-r1",
+        "status": "candidate",
+        "sourceId": "source-benlysta-label",
+        "summary": "Active SLE or active lupus nephritis in patients aged 5 years and older receiving standard therapy. US licensed indication.",
+        "location": "Sections 1 and 5",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "US licensed indication and pharmacology; label revised August 2026",
+        "evidenceType": "regulatory_label"
+      },
+      {
+        "id": "evidence-belimumab-trial",
+        "revisionId": "evidence-belimumab-trial-r1",
+        "status": "candidate",
+        "sourceId": "source-bliss52",
+        "summary": "BLISS-52 reported a higher week-52 SRI response with belimumab plus standard care than placebo plus standard care.",
+        "location": "Abstract: Findings / Results",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "BLISS-52: active autoantibody-positive SLE on standard therapy",
+        "evidenceType": "randomized_trial"
+      },
+      {
+        "id": "evidence-anifrolumab-mechanism",
+        "revisionId": "evidence-anifrolumab-mechanism-r1",
+        "status": "candidate",
+        "sourceId": "source-saphnelo-label",
+        "summary": "Binds IFNAR1 and inhibits type I interferon signaling.",
+        "location": "Section 12.1",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "US adult moderate-to-severe SLE indication; label revised April 2026",
+        "evidenceType": "regulatory_label"
+      },
+      {
+        "id": "evidence-anifrolumab-status",
+        "revisionId": "evidence-anifrolumab-status-r1",
+        "status": "candidate",
+        "sourceId": "source-saphnelo-label",
+        "summary": "Adults with moderate-to-severe SLE receiving standard therapy. US licensed indication.",
+        "location": "Sections 1 and 5",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "US adult moderate-to-severe SLE indication; label revised April 2026",
+        "evidenceType": "regulatory_label"
+      },
+      {
+        "id": "evidence-anifrolumab-trial",
+        "revisionId": "evidence-anifrolumab-trial-r1",
+        "status": "candidate",
+        "sourceId": "source-tulip2",
+        "summary": "TULIP-2 met its BICLA response endpoint with anifrolumab plus standard therapy.",
+        "location": "Abstract: Findings / Results",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "TULIP-2: moderate-to-severe active SLE on standard therapy",
+        "evidenceType": "randomized_trial"
+      },
+      {
+        "id": "evidence-anifrolumab-negative",
+        "revisionId": "evidence-anifrolumab-negative-r1",
+        "status": "candidate",
+        "sourceId": "source-tulip1",
+        "summary": "TULIP-1 did not meet its SRI-4 primary endpoint; efficacy depends on the outcome definition.",
+        "location": "Abstract: Interpretation",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "TULIP-1: active SLE on standard therapy; SRI-4 primary endpoint",
+        "evidenceType": "randomized_trial"
+      },
+      {
+        "id": "evidence-enpatoran-mechanism",
+        "revisionId": "evidence-enpatoran-mechanism-r1",
+        "status": "candidate",
+        "sourceId": "source-willow",
+        "summary": "Inhibits TLR7/8 signaling; TLR8 is outside this bounded map.",
+        "location": "Abstract: Background",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "WILLOW Cohort B: adults 18–75 with moderate-to-severe SLE; 24-week dose-finding study",
+        "evidenceType": "randomized_trial"
+      },
+      {
+        "id": "evidence-enpatoran-status",
+        "revisionId": "evidence-enpatoran-status-r1",
+        "status": "candidate",
+        "sourceId": "source-enpatoran-status",
+        "summary": "Phase 3 ELOWEN program studies active cutaneous lupus manifestations with or without systemic disease. Investigational phase 3 program; no approval asserted.",
+        "location": "Announcement: first patient dosed, 30 April 2026",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "Sponsor report of first dosing in phase 3 ELOWEN skin-manifestation trials",
+        "evidenceType": "development_status"
+      },
+      {
+        "id": "evidence-enpatoran-trial",
+        "revisionId": "evidence-enpatoran-trial-r1",
+        "status": "candidate",
+        "sourceId": "source-willow",
+        "summary": "WILLOW Cohort B reported numerically higher BICLA responses in the enpatoran groups.",
+        "location": "Abstract: Findings / Results",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "WILLOW Cohort B: adults 18–75 with moderate-to-severe SLE; 24-week dose-finding study",
+        "evidenceType": "randomized_trial"
+      },
+      {
+        "id": "evidence-enpatoran-negative",
+        "revisionId": "evidence-enpatoran-negative-r1",
+        "status": "candidate",
+        "sourceId": "source-willow",
+        "summary": "WILLOW Cohort B failed its primary statistically significant dose-dependent BICLA objective.",
+        "location": "Abstract: Interpretation",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "WILLOW Cohort B: adults 18–75 with moderate-to-severe SLE; 24-week dose-finding study",
+        "evidenceType": "randomized_trial"
+      },
+      {
+        "id": "evidence-tlr9-context",
+        "revisionId": "evidence-tlr9-context-r1",
+        "status": "candidate",
+        "sourceId": "source-tlr9-regulation",
+        "summary": "TLR9-deficient lupus-prone mice had increased pDC activation and IFN-α, qualifying a uniformly disease-promoting interpretation of TLR9 sensing.",
+        "location": "Abstract: TLR9-deficiency findings",
+        "retrievedAt": "2026-10-10",
+        "studySystem": "TLR7- or TLR9-deficient lupus-prone mice",
+        "evidenceType": "animal_experiment"
+      },
+      {
+        "id": "evidence-baff-survival-label",
+        "revisionId": "evidence-baff-survival-label-r1",
+        "status": "candidate",
+        "sourceId": "source-benlysta-label",
+        "summary": "Soluble BLyS is a B-cell survival factor; binding it reduces survival, including autoreactive B cells.",
+        "location": "Section 12.1 Mechanism of Action",
+        "retrievedAt": "2026-10-09",
+        "studySystem": "US BENLYSTA pharmacology, label revised August 2026",
+        "evidenceType": "regulatory_label"
+      },
+      {
+        "id": "evidence-d4e4e467a2d76a39ace2",
+        "revisionId": "evidence-d4e4e467a2d76a39ace2-dc852eba5106",
+        "status": "candidate",
+        "sourceId": "source-43ffa8d6e6e72a9276db",
+        "summary": "Purified bacterial curli/DNA exposure increased anti-C1q autoantibodies in wild-type and lupus-prone mice; anti-dsDNA responses also increased in young NZBxW/F1 mice. Effects depended on model and disease stage.",
+        "location": "Publisher Abstract; Results: Curli treatment or infection with STm induces anti-C1q autoantibodies; figures 1, 3 and 4.",
+        "retrievedAt": "2026-10-20",
+        "studySystem": "Purified biofilm curli/DNA exposure in C57BL/6, NZBxW/F1 and MRL/lpr mice; Salmonella infection in wild-type mice. No human intervention.",
+        "evidenceType": "animal_experiment"
+      },
+      {
+        "id": "evidence-4d9c103b676f83c8bd56",
+        "revisionId": "evidence-4d9c103b676f83c8bd56-dc852eba5106",
+        "status": "candidate",
+        "sourceId": "source-43ffa8d6e6e72a9276db",
+        "summary": "Curli did not further increase already-high autoantibody responses in late-disease NZBxW/F1 mice; the study also found no significant proteinuria increase in either lupus-prone model, limiting translation from autoantibody induction to renal disease.",
+        "location": "Publisher Abstract; Results: Curli induces anti-C1q autoantibodies in NZBxW/F1 mice (figure 3); renal function results and figure 5.",
+        "retrievedAt": "2026-10-20",
+        "studySystem": "Purified biofilm curli/DNA exposure in C57BL/6, NZBxW/F1 and MRL/lpr mice; Salmonella infection in wild-type mice. No human intervention.",
+        "evidenceType": "animal_experiment"
+      }
+    ],
+    "sources": [
+      {
+        "id": "source-clearance",
+        "revisionId": "source-clearance-r1",
+        "status": "candidate",
+        "title": "Impaired phagocytosis of apoptotic cell material by monocyte-derived macrophages from patients with SLE",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9663482/",
+        "kind": "publication",
+        "studyId": "PMID:9663482",
+        "citation": "Herrmann et al. Arthritis Rheum. 1998;41:1241–1250.",
+        "accessScope": "Abstract"
+      },
+      {
+        "id": "source-barrat",
+        "revisionId": "source-barrat-r1",
+        "status": "candidate",
+        "title": "Nucleic acids of mammalian origin can act as endogenous ligands for Toll-like receptors and may promote SLE",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16230478/",
+        "kind": "publication",
+        "studyId": "PMID:16230478",
+        "citation": "Barrat et al. J Exp Med. 2005;202:1131–1139.",
+        "accessScope": "Abstract"
+      },
+      {
+        "id": "source-tlr7",
+        "revisionId": "source-tlr7-r1",
+        "status": "candidate",
+        "title": "TLR7 gain-of-function genetic variation causes human lupus",
+        "url": "https://www.nature.com/articles/s41586-022-04642-z",
+        "kind": "publication",
+        "studyId": "DOI:10.1038/s41586-022-04642-z",
+        "citation": "Brown et al. Nature. 2022;605:349–356.",
+        "accessScope": "Abstract and main text: TLR7 variants in patients with SLE"
+      },
+      {
+        "id": "source-baff",
+        "revisionId": "source-baff-r1",
+        "status": "candidate",
+        "title": "Mice transgenic for BAFF develop lymphocytic disorders along with autoimmune manifestations",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10587360/",
+        "kind": "publication",
+        "studyId": "PMID:10587360",
+        "citation": "Mackay et al. J Exp Med. 1999;190:1697–1710.",
+        "accessScope": "Abstract"
+      },
+      {
+        "id": "source-monocytes",
+        "revisionId": "source-monocytes-r1",
+        "status": "candidate",
+        "title": "Interferon-α-induced B-lymphocyte stimulator expression and mobilization in healthy and systemic lupus erthymatosus monocytes",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24942493/",
+        "kind": "publication",
+        "studyId": "PMID:24942493",
+        "citation": "López et al. Rheumatology. 2014. DOI:10.1093/rheumatology/keu249.",
+        "accessScope": "Abstract"
+      },
+      {
+        "id": "source-jego",
+        "revisionId": "source-jego-r1",
+        "status": "candidate",
+        "title": "Plasmacytoid dendritic cells induce plasma cell differentiation through type I interferon and interleukin 6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12932356/",
+        "kind": "publication",
+        "studyId": "PMID:12932356",
+        "citation": "Jego et al. Immunity. 2003;19:225–234.",
+        "accessScope": "Abstract"
+      },
+      {
+        "id": "source-tipton",
+        "revisionId": "source-tipton-r1",
+        "status": "candidate",
+        "title": "Diversity, cellular origin and autoreactivity of antibody-secreting cell population expansions in acute SLE",
+        "url": "https://www.nature.com/articles/ni.3175",
+        "kind": "publication",
+        "studyId": "DOI:10.1038/ni.3175",
+        "citation": "Tipton et al. Nat Immunol. 2015;16:755–765.",
+        "accessScope": "Abstract"
+      },
+      {
+        "id": "source-renal",
+        "revisionId": "source-renal-r1",
+        "status": "candidate",
+        "title": "Uncoupling of immune complex formation and kidney damage in autoimmune glomerulonephritis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9461440/",
+        "kind": "publication",
+        "studyId": "PMID:9461440",
+        "citation": "Clynes, Dumitru & Ravetch. Science. 1998;279:1052–1054.",
+        "accessScope": "Abstract"
+      },
+      {
+        "id": "source-vallin",
+        "revisionId": "source-vallin-r1",
+        "status": "candidate",
+        "title": "Patients with SLE have a circulating inducer of interferon-alpha production acting on leucocytes resembling immature dendritic cells",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9933442/",
+        "kind": "publication",
+        "studyId": "PMID:9933442",
+        "citation": "Vallin et al. Clin Exp Immunol. 1999;115:196–202.",
+        "accessScope": "Abstract"
+      },
+      {
+        "id": "source-benlysta-label",
+        "revisionId": "source-benlysta-label-r1",
+        "status": "candidate",
+        "title": "BENLYSTA (belimumab) — US prescribing information, August 2026",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3",
+        "kind": "regulatory",
+        "studyId": "US-label:BENLYSTA:2026-08",
+        "citation": "GlaxoSmithKline. US prescribing information, revised 08/2026.",
+        "accessScope": "Sections 1, 5, 12.1 and 12.2"
+      },
+      {
+        "id": "source-saphnelo-label",
+        "revisionId": "source-saphnelo-label-r1",
+        "status": "candidate",
+        "title": "SAPHNELO (anifrolumab-fnia) — FDA label, April 2026",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761451Orig1s000lbl.pdf",
+        "kind": "regulatory",
+        "studyId": "US-label:SAPHNELO:2026-04",
+        "citation": "AstraZeneca. FDA prescribing information, revised 04/2026.",
+        "accessScope": "Sections 1, 5 and 12.1; PDF pages 2, 4–5 and 10"
+      },
+      {
+        "id": "source-bliss52",
+        "revisionId": "source-bliss52-r1",
+        "status": "candidate",
+        "title": "Efficacy and safety of belimumab in active SLE: BLISS-52",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21296403/",
+        "kind": "trial",
+        "studyId": "NCT00424476",
+        "citation": "Navarra et al. Lancet. 2011;377:721–731.",
+        "accessScope": "Abstract: Findings"
+      },
+      {
+        "id": "source-tulip2",
+        "revisionId": "source-tulip2-r1",
+        "status": "candidate",
+        "title": "Trial of Anifrolumab in Active Systemic Lupus Erythematosus (TULIP-2)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31851795/",
+        "kind": "trial",
+        "studyId": "NCT02446899",
+        "citation": "Morand et al. N Engl J Med. 2020;382:211–221.",
+        "accessScope": "Abstract: Results and Conclusions"
+      },
+      {
+        "id": "source-tulip1",
+        "revisionId": "source-tulip1-r1",
+        "status": "candidate",
+        "title": "Type I interferon inhibitor anifrolumab in active SLE (TULIP-1)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38229377/",
+        "kind": "trial",
+        "studyId": "NCT02446912",
+        "citation": "Furie et al. Lancet Rheumatol. 2019;1:e208–e219.",
+        "accessScope": "Abstract: Findings and Interpretation"
+      },
+      {
+        "id": "source-willow",
+        "revisionId": "source-willow-r1",
+        "status": "candidate",
+        "title": "Enpatoran in moderate-to-severe SLE: WILLOW Cohort B, phase 2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42107374/",
+        "kind": "trial",
+        "studyId": "NCT05162586:Cohort-B",
+        "citation": "Morand et al. Lancet. 2026;407:1809–1824. DOI:10.1016/S0140-6736(26)00463-0.",
+        "accessScope": "Abstract: Background, Methods, Findings and Interpretation"
+      },
+      {
+        "id": "source-enpatoran-status",
+        "revisionId": "source-enpatoran-status-r1",
+        "status": "candidate",
+        "title": "Enpatoran phase 3 initiation in lupus — sponsor status report",
+        "url": "https://www.emdgroup.com/en/news/enpatoran-phase-3-first-dose-30-04-26.html",
+        "kind": "sponsor_status",
+        "studyId": "ELOWEN:NCT07332481:NCT07355218",
+        "citation": "Merck KGaA / EMD. First patient dosed announcement, 30 April 2026.",
+        "accessScope": "Announcement: phase 3 program and eligibility; status evidence only"
+      },
+      {
+        "id": "source-tlr9-regulation",
+        "revisionId": "source-tlr9-regulation-r1",
+        "status": "candidate",
+        "title": "Toll-like receptor 7 and TLR9 dictate autoantibody specificity and have opposing inflammatory and regulatory roles in a murine model of lupus",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16973389/",
+        "kind": "publication",
+        "studyId": "PMID:16973389",
+        "citation": "Christensen et al. Immunity. 2006;25:417–428.",
+        "accessScope": "Abstract"
+      },
+      {
+        "id": "source-43ffa8d6e6e72a9276db",
+        "revisionId": "source-43ffa8d6e6e72a9276db-dc852eba5106",
+        "status": "candidate",
+        "title": "Salmonella infection and biofilms drive anti-C1q and anti-dsDNA autoantibodies in systemic autoimmunity.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42821613/",
+        "kind": "publication",
+        "studyId": "PMID:42821613",
+        "citation": "Grando K, Elkins M, Nicastro L, Bessho S, Olubajo S, Kowal A, Tam V, Caricchio R, Pisetsky D, Silverman GJ, Tükel Ç.. Salmonella infection and biofilms drive anti-C1q and anti-dsDNA autoantibodies in systemic autoimmunity.. PLoS pathogens. 2026-10-01",
+        "accessScope": "Publisher full text: abstract, Results, figures 1–6 and Discussion inspected by Codex agent on 2026-10-21; methods details and supplements not independently audited. Publisher XML cached alongside extraction.",
+        "identifiers": [
+          "DOI:10.1371/journal.ppat.1014666",
+          "MED:42821613",
+          "PMCID:PMC13652334",
+          "PMID:42821613"
+        ],
+        "flags": []
+      }
+    ],
+    "therapies": [
+      {
+        "id": "therapy-belimumab",
+        "revisionId": "therapy-belimumab-r1",
+        "status": "candidate",
+        "name": "Belimumab (Benlysta)",
+        "modality": "Monoclonal antibody",
+        "directTargetIds": [
+          "entity-baff"
+        ],
+        "indirectTargetIds": [
+          "entity-b_cells"
+        ],
+        "mechanismOfAction": "Binds soluble BLyS and limits its receptor engagement on B cells.",
+        "indicationContextId": "context-sle-treatment",
+        "developmentStatus": "approved",
+        "trialSourceIds": [
+          "source-bliss52"
+        ],
+        "supportingClaimIds": [
+          "claim-belimumab-mechanism",
+          "claim-belimumab-status",
+          "claim-belimumab-trial"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "lastVerifiedAt": "2026-10-09",
+        "indication": "Active SLE or active lupus nephritis in patients aged 5 years and older receiving standard therapy.",
+        "jurisdiction": "United States (FDA)",
+        "trialPhase": "Phase 3 evidence; licensed",
+        "verificationSourceIds": [
+          "source-benlysta-label"
+        ],
+        "limitations": [
+          "Severe active CNS lupus was not evaluated; infection, hypersensitivity and SJS/TEN risks. Approval does not establish benefit for every phenotype."
+        ]
+      },
+      {
+        "id": "therapy-anifrolumab",
+        "revisionId": "therapy-anifrolumab-r1",
+        "status": "candidate",
+        "name": "Anifrolumab (Saphnelo)",
+        "modality": "Monoclonal antibody",
+        "directTargetIds": [
+          "entity-ifnar"
+        ],
+        "indirectTargetIds": [
+          "entity-ifn"
+        ],
+        "mechanismOfAction": "Binds IFNAR1 and inhibits type I interferon signaling.",
+        "indicationContextId": "context-sle-treatment",
+        "developmentStatus": "approved",
+        "trialSourceIds": [
+          "source-tulip2",
+          "source-tulip1"
+        ],
+        "supportingClaimIds": [
+          "claim-anifrolumab-mechanism",
+          "claim-anifrolumab-status",
+          "claim-anifrolumab-trial"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [
+          "claim-anifrolumab-negative"
+        ],
+        "lastVerifiedAt": "2026-10-09",
+        "indication": "Adults with moderate-to-severe SLE receiving standard therapy.",
+        "jurisdiction": "United States (FDA)",
+        "trialPhase": "Phase 3 evidence; licensed",
+        "verificationSourceIds": [
+          "source-saphnelo-label"
+        ],
+        "limitations": [
+          "Severe active lupus nephritis and severe active CNS lupus were not evaluated; infection and herpes-zoster risks."
+        ]
+      },
+      {
+        "id": "therapy-enpatoran",
+        "revisionId": "therapy-enpatoran-r1",
+        "status": "candidate",
+        "name": "Enpatoran",
+        "modality": "Oral small molecule",
+        "directTargetIds": [
+          "entity-tlr7"
+        ],
+        "indirectTargetIds": [
+          "entity-ifn"
+        ],
+        "mechanismOfAction": "Inhibits TLR7/8 signaling; TLR8 is outside this bounded map.",
+        "indicationContextId": "context-sle-skin",
+        "developmentStatus": "experimental",
+        "trialSourceIds": [
+          "source-willow"
+        ],
+        "supportingClaimIds": [
+          "claim-enpatoran-mechanism",
+          "claim-enpatoran-status",
+          "claim-enpatoran-trial"
+        ],
+        "qualifyingClaimIds": [
+          "claim-enpatoran-negative"
+        ],
+        "contradictingClaimIds": [],
+        "lastVerifiedAt": "2026-10-09",
+        "indication": "Phase 3 ELOWEN program studies active cutaneous lupus manifestations with or without systemic disease.",
+        "jurisdiction": "Investigational multinational trials; no jurisdictional approval asserted",
+        "trialPhase": "Phase 3 underway for skin manifestations; phase 2 SLE efficacy report",
+        "verificationSourceIds": [
+          "source-willow",
+          "source-enpatoran-status"
+        ],
+        "limitations": [
+          "WILLOW Cohort B missed the primary dose-response objective. Skin-trial development is not proof of broad systemic efficacy."
+        ]
+      }
+    ],
+    "contexts": [
+      {
+        "id": "context-sle-overview",
+        "revisionId": "context-sle-overview-r1",
+        "status": "candidate",
+        "diseaseId": "sle",
+        "label": "SLE mechanism synthesis; study-specific organism, cells and phenotype are recorded with each evidence item",
+        "organism": "Mixed evidence systems — see individual studies",
+        "phenotype": "SLE; renal branch is model-specific",
+        "tissue": "Blood / kidney",
+        "stage": "Initiation and maintenance hypotheses"
+      },
+      {
+        "id": "context-sle-treatment",
+        "revisionId": "context-sle-treatment-r1",
+        "status": "candidate",
+        "diseaseId": "sle",
+        "label": "Active SLE on background standard therapy",
+        "organism": "Human",
+        "phenotype": "Trial-specific active SLE",
+        "tissue": null,
+        "stage": "Treatment"
+      },
+      {
+        "id": "context-sle-skin",
+        "revisionId": "context-sle-skin-r1",
+        "status": "candidate",
+        "diseaseId": "sle",
+        "label": "Investigational lupus with active skin manifestations",
+        "organism": "Human",
+        "phenotype": "Cutaneous lupus with or without systemic disease",
+        "tissue": null,
+        "stage": "Treatment"
+      }
+    ],
+    "assessments": [
+      {
+        "id": "assessment-entity-baff",
+        "revisionId": "assessment-entity-baff-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-baff",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-ifn-baff",
+          "claim-monocytes-baff",
+          "claim-complexes-baff",
+          "claim-baff-bcells"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-clearance",
+        "revisionId": "assessment-entity-clearance-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-clearance",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-clearance-debris"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-debris",
+        "revisionId": "assessment-entity-debris-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-debris",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-clearance-debris",
+          "claim-debris-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-rna",
+        "revisionId": "assessment-entity-rna-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-rna",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-rna-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-dna",
+        "revisionId": "assessment-entity-dna-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-dna",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-dna-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-variant",
+        "revisionId": "assessment-entity-variant-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-variant",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-variant-tlr7"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-tlr7",
+        "revisionId": "assessment-entity-tlr7-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-tlr7",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-complexes-tlr7",
+          "claim-tlr7-pdc",
+          "claim-variant-tlr7",
+          "claim-tlr7-bcells"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-tlr9",
+        "revisionId": "assessment-entity-tlr9-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-tlr9",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-complexes-tlr9",
+          "claim-tlr9-pdc",
+          "claim-tlr9-context"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-pdc",
+        "revisionId": "assessment-entity-pdc-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-pdc",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-tlr7-pdc",
+          "claim-tlr9-pdc",
+          "claim-pdc-ifn",
+          "claim-pdc-il6",
+          "claim-tlr9-context"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-ifn",
+        "revisionId": "assessment-entity-ifn-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-ifn",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-pdc-ifn",
+          "claim-ifn-ifnar",
+          "claim-ifn-baff",
+          "claim-ifn-blasts",
+          "claim-ifn-activity"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-ifnar",
+        "revisionId": "assessment-entity-ifnar-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-ifnar",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-ifn-ifnar"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-monocytes",
+        "revisionId": "assessment-entity-monocytes-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-monocytes",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-monocytes-baff"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-b_cells",
+        "revisionId": "assessment-entity-b_cells-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-b_cells",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-baff-bcells",
+          "claim-tlr7-bcells",
+          "claim-bcells-blasts"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-plasmablasts",
+        "revisionId": "assessment-entity-plasmablasts-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-plasmablasts",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-bcells-blasts",
+          "claim-ifn-blasts",
+          "claim-blasts-plasma"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-plasma",
+        "revisionId": "assessment-entity-plasma-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-plasma",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-il6-plasma",
+          "claim-blasts-plasma",
+          "claim-plasma-antibodies"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-il6",
+        "revisionId": "assessment-entity-il6-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-il6",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-pdc-il6",
+          "claim-il6-plasma"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-autoantibodies",
+        "revisionId": "assessment-entity-autoantibodies-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-autoantibodies",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-antibodies-complexes",
+          "claim-plasma-antibodies"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-complexes",
+        "revisionId": "assessment-entity-complexes-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-complexes",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-debris-complexes",
+          "claim-rna-complexes",
+          "claim-dna-complexes",
+          "claim-antibodies-complexes",
+          "claim-complexes-tlr7",
+          "claim-complexes-tlr9",
+          "claim-complexes-baff",
+          "claim-complexes-fcr",
+          "claim-complexes-kidney",
+          "claim-renal-not-sufficient"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-fcr",
+        "revisionId": "assessment-entity-fcr-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-fcr",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-complexes-fcr",
+          "claim-fcr-kidney"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-kidney",
+        "revisionId": "assessment-entity-kidney-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-kidney",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-fcr-kidney",
+          "claim-complexes-kidney",
+          "claim-renal-not-sufficient"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-entity-activity",
+        "revisionId": "assessment-entity-activity-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-activity",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-ifn-activity"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-clearance-debris",
+        "revisionId": "assessment-relationship-clearance-debris-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-clearance-debris",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-clearance-debris"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-debris-complexes",
+        "revisionId": "assessment-relationship-debris-complexes-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-debris-complexes",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-debris-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-rna-complexes",
+        "revisionId": "assessment-relationship-rna-complexes-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-rna-complexes",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-rna-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-dna-complexes",
+        "revisionId": "assessment-relationship-dna-complexes-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-dna-complexes",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-dna-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-antibodies-complexes",
+        "revisionId": "assessment-relationship-antibodies-complexes-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-antibodies-complexes",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-antibodies-complexes"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-complexes-tlr7",
+        "revisionId": "assessment-relationship-complexes-tlr7-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-complexes-tlr7",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-complexes-tlr7"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-complexes-tlr9",
+        "revisionId": "assessment-relationship-complexes-tlr9-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-complexes-tlr9",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-complexes-tlr9"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-tlr7-pdc",
+        "revisionId": "assessment-relationship-tlr7-pdc-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-tlr7-pdc",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-tlr7-pdc"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-tlr9-pdc",
+        "revisionId": "assessment-relationship-tlr9-pdc-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-tlr9-pdc",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-tlr9-pdc"
+        ],
+        "qualifyingClaimIds": [
+          "claim-tlr9-context"
+        ],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-pdc-ifn",
+        "revisionId": "assessment-relationship-pdc-ifn-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-pdc-ifn",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-pdc-ifn"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-ifn-ifnar",
+        "revisionId": "assessment-relationship-ifn-ifnar-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-ifn-ifnar",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-ifn-ifnar"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-ifn-baff",
+        "revisionId": "assessment-relationship-ifn-baff-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-ifn-baff",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-ifn-baff"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-monocytes-baff",
+        "revisionId": "assessment-relationship-monocytes-baff-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-monocytes-baff",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-monocytes-baff"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-complexes-baff",
+        "revisionId": "assessment-relationship-complexes-baff-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-complexes-baff",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-complexes-baff"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-baff-bcells",
+        "revisionId": "assessment-relationship-baff-bcells-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-baff-bcells",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-baff-bcells"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-variant-tlr7",
+        "revisionId": "assessment-relationship-variant-tlr7-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-variant-tlr7",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-variant-tlr7"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-tlr7-bcells",
+        "revisionId": "assessment-relationship-tlr7-bcells-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-tlr7-bcells",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-tlr7-bcells"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-bcells-blasts",
+        "revisionId": "assessment-relationship-bcells-blasts-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-bcells-blasts",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-bcells-blasts"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-ifn-blasts",
+        "revisionId": "assessment-relationship-ifn-blasts-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-ifn-blasts",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-ifn-blasts"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-pdc-il6",
+        "revisionId": "assessment-relationship-pdc-il6-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-pdc-il6",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-pdc-il6"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-il6-plasma",
+        "revisionId": "assessment-relationship-il6-plasma-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-il6-plasma",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-il6-plasma"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-blasts-plasma",
+        "revisionId": "assessment-relationship-blasts-plasma-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-blasts-plasma",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-blasts-plasma"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-plasma-antibodies",
+        "revisionId": "assessment-relationship-plasma-antibodies-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-plasma-antibodies",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-plasma-antibodies"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-complexes-fcr",
+        "revisionId": "assessment-relationship-complexes-fcr-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-complexes-fcr",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-complexes-fcr"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-fcr-kidney",
+        "revisionId": "assessment-relationship-fcr-kidney-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-fcr-kidney",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-fcr-kidney"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-complexes-kidney",
+        "revisionId": "assessment-relationship-complexes-kidney-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-complexes-kidney",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-complexes-kidney"
+        ],
+        "qualifyingClaimIds": [
+          "claim-renal-not-sufficient"
+        ],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-ifn-activity",
+        "revisionId": "assessment-relationship-ifn-activity-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-ifn-activity",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "model-provisional-df64ccfede54",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-ifn-activity"
+        ],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "Evidence changed during reconciliation. Earlier appraisals remain in the frozen base; this candidate requires a new editorial appraisal.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-relationship-c3293bcb1ac098447d7d",
+        "revisionId": "assessment-relationship-c3293bcb1ac098447d7d-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "relationship-c3293bcb1ac098447d7d",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "scoring-unassessed",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [
+          "claim-d4e4e467a2d76a39ace2"
+        ],
+        "qualifyingClaimIds": [
+          "claim-4d9c103b676f83c8bd56"
+        ],
+        "contradictingClaimIds": [],
+        "rationale": "New candidate finding. Source interpretation, context and domain review are pending; no score was inferred.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      },
+      {
+        "id": "assessment-78cc28ac57d8b2ff73e4",
+        "revisionId": "assessment-78cc28ac57d8b2ff73e4-dc852eba5106",
+        "status": "candidate",
+        "subjectId": "entity-curli-dna",
+        "contextId": "context-sle-overview",
+        "scoringModelId": "scoring-unassessed",
+        "metricStatus": {
+          "mechanisticWeight": "unassessed",
+          "evidenceConfidence": "unassessed",
+          "therapeuticLeverage": "unassessed"
+        },
+        "mechanisticWeight": null,
+        "evidenceConfidence": null,
+        "therapeuticLeverage": null,
+        "supportingClaimIds": [],
+        "qualifyingClaimIds": [],
+        "contradictingClaimIds": [],
+        "rationale": "New candidate finding. Source interpretation, context and domain review are pending; no score was inferred.",
+        "reviewerDecision": null,
+        "reviewedAt": null
+      }
+    ],
+    "scoringModels": [
+      {
+        "id": "scoring-unassessed",
+        "revisionId": "scoring-unassessed-r1",
+        "status": "candidate",
+        "label": "Not assessed",
+        "calibrated": false,
+        "description": "No calibrated numerical values; baseline sizes and neutral outlines."
+      },
+      {
+        "id": "model-provisional-df64ccfede54",
+        "revisionId": "model-provisional-df64ccfede54-r1",
+        "status": "candidate",
+        "label": "Provisional contextual appraisal",
+        "calibrated": false,
+        "provisional": true,
+        "rubric": {
+          "version": "causome-scoring-v0.1",
+          "weights": {
+            "causalConfidence": 35,
+            "networkInfluence": 25,
+            "interventionalValidation": 20,
+            "diseaseCoverage": 15,
+            "independentReplication": 5
+          },
+          "anchors": {
+            "causalConfidence": [
+              "Appraised evidence does not establish a causal role",
+              "Indirect causal hypothesis",
+              "Direct functional perturbation supports a contextual contribution",
+              "Converging human and functional causal evidence",
+              "Independently corroborated human causal evidence in the stated context"
+            ],
+            "networkInfluence": [
+              "No supported role in the reviewed circuit",
+              "One local downstream effect",
+              "One supported branch or feedback connection",
+              "Links multiple supported branches or sustains a major feedback loop",
+              "Connects multiple branches and sustains the principal reviewed circuit"
+            ],
+            "interventionalValidation": [
+              "No qualifying intervention evidence found in the appraised set",
+              "Preclinical target perturbation",
+              "Human target engagement or biomarker change",
+              "Controlled human intervention links target modulation to a relevant disease outcome",
+              "Independently corroborated controlled human outcomes with target attribution"
+            ],
+            "diseaseCoverage": [
+              "No demonstrated coverage in the appraised set",
+              "Rare or narrowly defined subgroup",
+              "Multiple defined subgroups or one major phenotype",
+              "Broad involvement across multiple major phenotypes",
+              "Broad involvement across the major phenotypes and stages covered by the release"
+            ],
+            "independentReplication": [
+              "No independent corroboration",
+              "Replication within one research group or dataset family",
+              "Two independent groups and non-overlapping datasets",
+              "At least three independent groups across two evidence modalities",
+              "At least three independent groups across human and functional modalities with consistent findings"
+            ]
+          },
+          "rounding": "nearest-5-half-up",
+          "boundaries": [
+            20,
+            40,
+            60,
+            80
+          ],
+          "weightAreaRatios": [
+            1,
+            1.5,
+            2,
+            3,
+            4
+          ],
+          "confidenceStyles": [
+            "dotted",
+            "dashed",
+            "solid",
+            "double",
+            "heavy"
+          ]
+        },
+        "description": "Agent or human editorial draft using the explicit v0.1 anchors; not calibrated or independently reviewed. Agent-authored preliminary appraisal of the frozen selected reports, not a systematic review. Abstract-only access limits critical quality assessment; independent study groups and dataset families have not been established. Weight concerns this bounded mechanism context, not clinical effectiveness or disease-wide importance. Context-mismatched treatment claims are excluded from mechanistic ratings. No calibration or independent reviewer decision is asserted."
+      }
+    ],
+    "mapViews": [
+      {
+        "id": "view-sle-circuit",
+        "revisionId": "view-sle-circuit-r1",
+        "status": "candidate",
+        "label": "Proposed maintaining circuit",
+        "contextId": "context-sle-overview",
+        "entityIds": [
+          "entity-complexes",
+          "entity-tlr7",
+          "entity-pdc",
+          "entity-ifn",
+          "entity-baff",
+          "entity-b_cells",
+          "entity-plasmablasts",
+          "entity-plasma",
+          "entity-autoantibodies"
+        ],
+        "relationshipIds": [
+          "relationship-complexes-tlr7",
+          "relationship-tlr7-pdc",
+          "relationship-pdc-ifn",
+          "relationship-ifn-baff",
+          "relationship-baff-bcells",
+          "relationship-bcells-blasts",
+          "relationship-blasts-plasma",
+          "relationship-plasma-antibodies",
+          "relationship-antibodies-complexes"
+        ],
+        "assessmentIds": [
+          "assessment-entity-complexes",
+          "assessment-entity-tlr7",
+          "assessment-entity-pdc",
+          "assessment-entity-ifn",
+          "assessment-entity-baff",
+          "assessment-entity-b_cells",
+          "assessment-entity-plasmablasts",
+          "assessment-entity-plasma",
+          "assessment-entity-autoantibodies",
+          "assessment-relationship-complexes-tlr7",
+          "assessment-relationship-tlr7-pdc",
+          "assessment-relationship-pdc-ifn",
+          "assessment-relationship-ifn-baff",
+          "assessment-relationship-baff-bcells",
+          "assessment-relationship-bcells-blasts",
+          "assessment-relationship-blasts-plasma",
+          "assessment-relationship-plasma-antibodies",
+          "assessment-relationship-antibodies-complexes"
+        ],
+        "layoutId": "layout-sle-circuit"
+      },
+      {
+        "id": "view-sle-upstream",
+        "revisionId": "view-sle-upstream-r1",
+        "status": "candidate",
+        "label": "Upstream disturbances & nucleic-acid sensing",
+        "contextId": "context-sle-overview",
+        "entityIds": [
+          "entity-clearance",
+          "entity-debris",
+          "entity-complexes",
+          "entity-rna",
+          "entity-dna",
+          "entity-variant",
+          "entity-tlr7",
+          "entity-tlr9",
+          "entity-pdc"
+        ],
+        "relationshipIds": [
+          "relationship-clearance-debris",
+          "relationship-debris-complexes",
+          "relationship-rna-complexes",
+          "relationship-dna-complexes",
+          "relationship-complexes-tlr7",
+          "relationship-complexes-tlr9",
+          "relationship-variant-tlr7",
+          "relationship-tlr7-pdc",
+          "relationship-tlr9-pdc"
+        ],
+        "assessmentIds": [
+          "assessment-entity-clearance",
+          "assessment-entity-debris",
+          "assessment-entity-complexes",
+          "assessment-entity-rna",
+          "assessment-entity-dna",
+          "assessment-entity-variant",
+          "assessment-entity-tlr7",
+          "assessment-entity-tlr9",
+          "assessment-entity-pdc",
+          "assessment-relationship-clearance-debris",
+          "assessment-relationship-debris-complexes",
+          "assessment-relationship-rna-complexes",
+          "assessment-relationship-dna-complexes",
+          "assessment-relationship-complexes-tlr7",
+          "assessment-relationship-complexes-tlr9",
+          "assessment-relationship-variant-tlr7",
+          "assessment-relationship-tlr7-pdc",
+          "assessment-relationship-tlr9-pdc"
+        ],
+        "layoutId": "layout-sle-upstream"
+      },
+      {
+        "id": "view-sle-renal",
+        "revisionId": "view-sle-renal-r1",
+        "status": "candidate",
+        "label": "Renal injury branch · mouse-model evidence",
+        "contextId": "context-sle-overview",
+        "entityIds": [
+          "entity-complexes",
+          "entity-fcr",
+          "entity-kidney"
+        ],
+        "relationshipIds": [
+          "relationship-complexes-fcr",
+          "relationship-fcr-kidney",
+          "relationship-complexes-kidney"
+        ],
+        "assessmentIds": [
+          "assessment-entity-complexes",
+          "assessment-entity-fcr",
+          "assessment-entity-kidney",
+          "assessment-relationship-complexes-fcr",
+          "assessment-relationship-fcr-kidney",
+          "assessment-relationship-complexes-kidney"
+        ],
+        "layoutId": "layout-sle-renal"
+      },
+      {
+        "id": "view-sle-overview",
+        "revisionId": "view-sle-overview-r1",
+        "status": "candidate",
+        "label": "Complete candidate · 21 entities",
+        "contextId": "context-sle-overview",
+        "entityIds": [
+          "entity-baff",
+          "entity-clearance",
+          "entity-debris",
+          "entity-rna",
+          "entity-dna",
+          "entity-variant",
+          "entity-tlr7",
+          "entity-tlr9",
+          "entity-pdc",
+          "entity-ifn",
+          "entity-ifnar",
+          "entity-monocytes",
+          "entity-b_cells",
+          "entity-plasmablasts",
+          "entity-plasma",
+          "entity-il6",
+          "entity-autoantibodies",
+          "entity-complexes",
+          "entity-fcr",
+          "entity-kidney",
+          "entity-activity"
+        ],
+        "relationshipIds": [
+          "relationship-clearance-debris",
+          "relationship-debris-complexes",
+          "relationship-rna-complexes",
+          "relationship-dna-complexes",
+          "relationship-antibodies-complexes",
+          "relationship-complexes-tlr7",
+          "relationship-complexes-tlr9",
+          "relationship-tlr7-pdc",
+          "relationship-tlr9-pdc",
+          "relationship-pdc-ifn",
+          "relationship-ifn-ifnar",
+          "relationship-ifn-baff",
+          "relationship-monocytes-baff",
+          "relationship-complexes-baff",
+          "relationship-baff-bcells",
+          "relationship-variant-tlr7",
+          "relationship-tlr7-bcells",
+          "relationship-bcells-blasts",
+          "relationship-ifn-blasts",
+          "relationship-pdc-il6",
+          "relationship-il6-plasma",
+          "relationship-blasts-plasma",
+          "relationship-plasma-antibodies",
+          "relationship-complexes-fcr",
+          "relationship-fcr-kidney",
+          "relationship-complexes-kidney",
+          "relationship-ifn-activity"
+        ],
+        "assessmentIds": [
+          "assessment-entity-baff",
+          "assessment-entity-clearance",
+          "assessment-entity-debris",
+          "assessment-entity-rna",
+          "assessment-entity-dna",
+          "assessment-entity-variant",
+          "assessment-entity-tlr7",
+          "assessment-entity-tlr9",
+          "assessment-entity-pdc",
+          "assessment-entity-ifn",
+          "assessment-entity-ifnar",
+          "assessment-entity-monocytes",
+          "assessment-entity-b_cells",
+          "assessment-entity-plasmablasts",
+          "assessment-entity-plasma",
+          "assessment-entity-il6",
+          "assessment-entity-autoantibodies",
+          "assessment-entity-complexes",
+          "assessment-entity-fcr",
+          "assessment-entity-kidney",
+          "assessment-entity-activity",
+          "assessment-relationship-clearance-debris",
+          "assessment-relationship-debris-complexes",
+          "assessment-relationship-rna-complexes",
+          "assessment-relationship-dna-complexes",
+          "assessment-relationship-antibodies-complexes",
+          "assessment-relationship-complexes-tlr7",
+          "assessment-relationship-complexes-tlr9",
+          "assessment-relationship-tlr7-pdc",
+          "assessment-relationship-tlr9-pdc",
+          "assessment-relationship-pdc-ifn",
+          "assessment-relationship-ifn-ifnar",
+          "assessment-relationship-ifn-baff",
+          "assessment-relationship-monocytes-baff",
+          "assessment-relationship-complexes-baff",
+          "assessment-relationship-baff-bcells",
+          "assessment-relationship-variant-tlr7",
+          "assessment-relationship-tlr7-bcells",
+          "assessment-relationship-bcells-blasts",
+          "assessment-relationship-ifn-blasts",
+          "assessment-relationship-pdc-il6",
+          "assessment-relationship-il6-plasma",
+          "assessment-relationship-blasts-plasma",
+          "assessment-relationship-plasma-antibodies",
+          "assessment-relationship-complexes-fcr",
+          "assessment-relationship-fcr-kidney",
+          "assessment-relationship-complexes-kidney",
+          "assessment-relationship-ifn-activity"
+        ],
+        "layoutId": "layout-sle-overview"
+      },
+      {
+        "id": "view-research-context-sle-overview",
+        "revisionId": "view-research-context-sle-overview-dc852eba5106",
+        "status": "candidate",
+        "label": "Research additions · domain review pending",
+        "contextId": "context-sle-overview",
+        "entityIds": [
+          "entity-clearance",
+          "entity-debris",
+          "entity-complexes",
+          "entity-rna",
+          "entity-dna",
+          "entity-autoantibodies",
+          "entity-tlr7",
+          "entity-tlr9",
+          "entity-pdc",
+          "entity-ifn",
+          "entity-ifnar",
+          "entity-baff",
+          "entity-monocytes",
+          "entity-b_cells",
+          "entity-variant",
+          "entity-plasmablasts",
+          "entity-il6",
+          "entity-plasma",
+          "entity-fcr",
+          "entity-kidney",
+          "entity-activity",
+          "entity-curli-dna"
+        ],
+        "relationshipIds": [
+          "relationship-clearance-debris",
+          "relationship-debris-complexes",
+          "relationship-rna-complexes",
+          "relationship-dna-complexes",
+          "relationship-antibodies-complexes",
+          "relationship-complexes-tlr7",
+          "relationship-complexes-tlr9",
+          "relationship-tlr7-pdc",
+          "relationship-tlr9-pdc",
+          "relationship-pdc-ifn",
+          "relationship-ifn-ifnar",
+          "relationship-ifn-baff",
+          "relationship-monocytes-baff",
+          "relationship-complexes-baff",
+          "relationship-baff-bcells",
+          "relationship-variant-tlr7",
+          "relationship-tlr7-bcells",
+          "relationship-bcells-blasts",
+          "relationship-ifn-blasts",
+          "relationship-pdc-il6",
+          "relationship-il6-plasma",
+          "relationship-blasts-plasma",
+          "relationship-plasma-antibodies",
+          "relationship-complexes-fcr",
+          "relationship-fcr-kidney",
+          "relationship-complexes-kidney",
+          "relationship-ifn-activity",
+          "relationship-c3293bcb1ac098447d7d"
+        ],
+        "assessmentIds": [
+          "assessment-entity-baff",
+          "assessment-entity-clearance",
+          "assessment-entity-debris",
+          "assessment-entity-rna",
+          "assessment-entity-dna",
+          "assessment-entity-variant",
+          "assessment-entity-tlr7",
+          "assessment-entity-tlr9",
+          "assessment-entity-pdc",
+          "assessment-entity-ifn",
+          "assessment-entity-ifnar",
+          "assessment-entity-monocytes",
+          "assessment-entity-b_cells",
+          "assessment-entity-plasmablasts",
+          "assessment-entity-plasma",
+          "assessment-entity-il6",
+          "assessment-entity-autoantibodies",
+          "assessment-entity-complexes",
+          "assessment-entity-fcr",
+          "assessment-entity-kidney",
+          "assessment-entity-activity",
+          "assessment-relationship-clearance-debris",
+          "assessment-relationship-debris-complexes",
+          "assessment-relationship-rna-complexes",
+          "assessment-relationship-dna-complexes",
+          "assessment-relationship-antibodies-complexes",
+          "assessment-relationship-complexes-tlr7",
+          "assessment-relationship-complexes-tlr9",
+          "assessment-relationship-tlr7-pdc",
+          "assessment-relationship-tlr9-pdc",
+          "assessment-relationship-pdc-ifn",
+          "assessment-relationship-ifn-ifnar",
+          "assessment-relationship-ifn-baff",
+          "assessment-relationship-monocytes-baff",
+          "assessment-relationship-complexes-baff",
+          "assessment-relationship-baff-bcells",
+          "assessment-relationship-variant-tlr7",
+          "assessment-relationship-tlr7-bcells",
+          "assessment-relationship-bcells-blasts",
+          "assessment-relationship-ifn-blasts",
+          "assessment-relationship-pdc-il6",
+          "assessment-relationship-il6-plasma",
+          "assessment-relationship-blasts-plasma",
+          "assessment-relationship-plasma-antibodies",
+          "assessment-relationship-complexes-fcr",
+          "assessment-relationship-fcr-kidney",
+          "assessment-relationship-complexes-kidney",
+          "assessment-relationship-ifn-activity",
+          "assessment-relationship-c3293bcb1ac098447d7d",
+          "assessment-78cc28ac57d8b2ff73e4"
+        ],
+        "layoutId": "layout-research-context-sle-overview"
+      }
+    ],
+    "layouts": [
+      {
+        "id": "layout-sle-overview",
+        "revisionId": "layout-sle-overview-r1",
+        "status": "candidate",
+        "positions": [
+          {
+            "entityId": "entity-baff",
+            "x": 980,
+            "y": 330
+          },
+          {
+            "entityId": "entity-clearance",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "entityId": "entity-debris",
+            "x": 300,
+            "y": 0
+          },
+          {
+            "entityId": "entity-rna",
+            "x": 300,
+            "y": 220
+          },
+          {
+            "entityId": "entity-dna",
+            "x": 300,
+            "y": 470
+          },
+          {
+            "entityId": "entity-variant",
+            "x": 0,
+            "y": 760
+          },
+          {
+            "entityId": "entity-tlr7",
+            "x": 640,
+            "y": 730
+          },
+          {
+            "entityId": "entity-tlr9",
+            "x": 640,
+            "y": 1030
+          },
+          {
+            "entityId": "entity-pdc",
+            "x": 980,
+            "y": 800
+          },
+          {
+            "entityId": "entity-ifn",
+            "x": 1300,
+            "y": 680
+          },
+          {
+            "entityId": "entity-ifnar",
+            "x": 1620,
+            "y": 950
+          },
+          {
+            "entityId": "entity-monocytes",
+            "x": 1300,
+            "y": 330
+          },
+          {
+            "entityId": "entity-b_cells",
+            "x": 1300,
+            "y": 0
+          },
+          {
+            "entityId": "entity-plasmablasts",
+            "x": 1620,
+            "y": 0
+          },
+          {
+            "entityId": "entity-plasma",
+            "x": 1940,
+            "y": 0
+          },
+          {
+            "entityId": "entity-il6",
+            "x": 1620,
+            "y": 450
+          },
+          {
+            "entityId": "entity-autoantibodies",
+            "x": 1940,
+            "y": 300
+          },
+          {
+            "entityId": "entity-complexes",
+            "x": 640,
+            "y": 330
+          },
+          {
+            "entityId": "entity-fcr",
+            "x": 1940,
+            "y": 700
+          },
+          {
+            "entityId": "entity-kidney",
+            "x": 2260,
+            "y": 700
+          },
+          {
+            "entityId": "entity-activity",
+            "x": 2260,
+            "y": 1050
+          }
+        ]
+      },
+      {
+        "id": "layout-sle-circuit",
+        "revisionId": "layout-sle-circuit-r1",
+        "status": "candidate",
+        "positions": [
+          {
+            "entityId": "entity-complexes",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "entityId": "entity-tlr7",
+            "x": 300,
+            "y": 0
+          },
+          {
+            "entityId": "entity-pdc",
+            "x": 600,
+            "y": 0
+          },
+          {
+            "entityId": "entity-ifn",
+            "x": 600,
+            "y": 230
+          },
+          {
+            "entityId": "entity-baff",
+            "x": 300,
+            "y": 230
+          },
+          {
+            "entityId": "entity-b_cells",
+            "x": 0,
+            "y": 230
+          },
+          {
+            "entityId": "entity-plasmablasts",
+            "x": 0,
+            "y": 470
+          },
+          {
+            "entityId": "entity-plasma",
+            "x": 300,
+            "y": 470
+          },
+          {
+            "entityId": "entity-autoantibodies",
+            "x": 600,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "id": "layout-sle-upstream",
+        "revisionId": "layout-sle-upstream-r1",
+        "status": "candidate",
+        "positions": [
+          {
+            "entityId": "entity-clearance",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "entityId": "entity-debris",
+            "x": 300,
+            "y": 0
+          },
+          {
+            "entityId": "entity-complexes",
+            "x": 600,
+            "y": 230
+          },
+          {
+            "entityId": "entity-rna",
+            "x": 300,
+            "y": 230
+          },
+          {
+            "entityId": "entity-dna",
+            "x": 300,
+            "y": 470
+          },
+          {
+            "entityId": "entity-variant",
+            "x": 0,
+            "y": 730
+          },
+          {
+            "entityId": "entity-tlr7",
+            "x": 600,
+            "y": 0
+          },
+          {
+            "entityId": "entity-tlr9",
+            "x": 600,
+            "y": 470
+          },
+          {
+            "entityId": "entity-pdc",
+            "x": 920,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "id": "layout-sle-renal",
+        "revisionId": "layout-sle-renal-r1",
+        "status": "candidate",
+        "positions": [
+          {
+            "entityId": "entity-complexes",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "entityId": "entity-fcr",
+            "x": 320,
+            "y": 240
+          },
+          {
+            "entityId": "entity-kidney",
+            "x": 640,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "layout-research-context-sle-overview",
+        "revisionId": "layout-research-context-sle-overview-dc852eba5106",
+        "status": "candidate",
+        "positions": [
+          {
+            "entityId": "entity-clearance",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "entityId": "entity-debris",
+            "x": 340,
+            "y": 0
+          },
+          {
+            "entityId": "entity-complexes",
+            "x": 680,
+            "y": 0
+          },
+          {
+            "entityId": "entity-rna",
+            "x": 1020,
+            "y": 0
+          },
+          {
+            "entityId": "entity-dna",
+            "x": 0,
+            "y": 240
+          },
+          {
+            "entityId": "entity-autoantibodies",
+            "x": 340,
+            "y": 240
+          },
+          {
+            "entityId": "entity-tlr7",
+            "x": 680,
+            "y": 240
+          },
+          {
+            "entityId": "entity-tlr9",
+            "x": 1020,
+            "y": 240
+          },
+          {
+            "entityId": "entity-pdc",
+            "x": 0,
+            "y": 480
+          },
+          {
+            "entityId": "entity-ifn",
+            "x": 340,
+            "y": 480
+          },
+          {
+            "entityId": "entity-ifnar",
+            "x": 680,
+            "y": 480
+          },
+          {
+            "entityId": "entity-baff",
+            "x": 1020,
+            "y": 480
+          },
+          {
+            "entityId": "entity-monocytes",
+            "x": 0,
+            "y": 720
+          },
+          {
+            "entityId": "entity-b_cells",
+            "x": 340,
+            "y": 720
+          },
+          {
+            "entityId": "entity-variant",
+            "x": 680,
+            "y": 720
+          },
+          {
+            "entityId": "entity-plasmablasts",
+            "x": 1020,
+            "y": 720
+          },
+          {
+            "entityId": "entity-il6",
+            "x": 0,
+            "y": 960
+          },
+          {
+            "entityId": "entity-plasma",
+            "x": 340,
+            "y": 960
+          },
+          {
+            "entityId": "entity-fcr",
+            "x": 680,
+            "y": 960
+          },
+          {
+            "entityId": "entity-kidney",
+            "x": 1020,
+            "y": 960
+          },
+          {
+            "entityId": "entity-activity",
+            "x": 0,
+            "y": 1200
+          },
+          {
+            "entityId": "entity-curli-dna",
+            "x": 340,
+            "y": 1200
+          }
+        ]
+      }
+    ],
+    "manifest": {
+      "algorithm": "sha256",
+      "schemaVersion": "0.3.0",
+      "contentDigest": "549f83a511a2d0853fd96fe18c1bfcad602925b76b1c5d0fd86fcaefb5cd6ae9"
+    }
+  },
+  "publicationChanged": false,
+  "reviewRequired": true
+}

@@ -76,7 +76,9 @@ export default function EvidenceInspector({ release, contextId, assessmentIds, s
         <p>{entity?.description ?? (relationship ? `${sourceEntity?.label} ${relationship.directionality === 'symmetric' ? '—' : '→'} ${targetEntity?.label}` : 'Select an entity or relationship to inspect its claims, context, and sources.')}</p>
       </div>
       {subject && <>
-        <div className="evidence-context"><span className="graph-kicker">Biological context</span><p>{context?.label ?? 'Not specified'}</p><small>{[context?.organism, context?.phenotype, context?.tissue, context?.stage].filter(Boolean).join(' · ')}</small></div>
+        {context && context.id === contextId
+          ? <p className="evidence-context evidence-context--default">Context: map-wide overview</p>
+          : <div className="evidence-context"><span className="graph-kicker">Biological context</span><p>{context?.label ?? 'Not specified'}</p><small>{[context?.organism, context?.phenotype, context?.tissue, context?.stage].filter(Boolean).join(' · ')}</small></div>}
         <dl className="evidence-scores">
           <div><dt>Mechanistic weight</dt><dd>{metricLabel(assessment, 'mechanisticWeight')}</dd></div>
           <div><dt>Evidence confidence</dt><dd>{metricLabel(assessment, 'evidenceConfidence')}</dd></div>

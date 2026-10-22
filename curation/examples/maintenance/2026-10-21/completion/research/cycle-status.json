@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "cycleDate": "2026-10-21",
+  "scientificAuthoringDateUTC": "2026-10-20",
+  "retrievalComplete": true,
+  "registeredMaps": 16,
+  "localCandidateUpdatesComplete": true,
+  "scientificProcessingComplete": false,
+  "currentDeltaRecords": 5884,
+  "currentDeferredRecords": 3557,
+  "priorDeferredRecordsCarried": 20,
+  "completionPassDispositionRevisions": 12,
+  "updatedDiseases": [
+    "anca-associated-vasculitis",
+    "calciphylaxis",
+    "membranous-nephropathy",
+    "minimal-change-nephropathy",
+    "sle"
+  ],
+  "mcdFinalReview": "consistent_with_caveats; original report retained",
+  "domainReview": "pending",
+  "calibration": "pending"
+}

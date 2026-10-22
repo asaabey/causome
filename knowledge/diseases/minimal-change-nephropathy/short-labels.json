@@ -1,6 +1,7 @@
 {
   "version": 1,
   "labels": {
-    "entity-anti-nephrin": "Anti-nephrin"
+    "entity-anti-nephrin": "Anti-nephrin",
+    "entity-hemopexin-activity": "Hemopexin activity"
   }
 }

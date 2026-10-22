@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rulesVersion": "causome-auto-appraisal-v1",
+  "baseReleaseId": "sle-candidate-dc852eba5106",
+  "baseContentDigest": "549f83a511a2d0853fd96fe18c1bfcad602925b76b1c5d0fd86fcaefb5cd6ae9",
+  "candidateId": "sle-appraised-candidate-681273ee935d",
+  "contentDigest": "e8601ec06615bf20f5a93576029cbc83bbc6a060aff27116f66514257a8d616c",
+  "inputDigest": "681273ee935d6c5c89ace50f9abec11e9abb67b37bba03c5de4f527b46f08f65",
+  "assessmentCount": 50,
+  "weightCount": 48,
+  "confidenceCount": 50,
+  "therapyCoverageCount": 50,
+  "limitations": "Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted.",
+  "publicationChanged": false
+}

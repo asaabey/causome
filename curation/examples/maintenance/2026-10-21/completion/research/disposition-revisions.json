@@ -1,0 +1,289 @@
+[
+  {
+    "diseaseId": "membranous-nephropathy",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-ba79ad5b344da7266a95",
+    "identifiers": [
+      "DOI:10.1111/nep.70288",
+      "MED:42847324",
+      "PMID:42847324"
+    ],
+    "sourceContentHash": "5ae62f884fff9fc316385a6a616c96f7970f3563f6977bfe5f623f148b77635d",
+    "title": "Distinct Complement Activation Profiles Between NELL1- and PLA2R-Associated Membranous Nephropathy: A Clinicopathological and Proteomic Study.",
+    "changeKind": "new",
+    "knownSource": false,
+    "decision": "qualifies/refines",
+    "reason": "Primary abstract inspected: 17 PLA2R/9 NELL1 comparison, lower C3/C4d deposition in NELL1; proteomic differences not significant, no direct functional activation or slit injury test. Added a bounded qualifying claim.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [
+      "claim-447deef38fffa4d83328"
+    ],
+    "affectedEntityIds": [],
+    "proposalPath": "curation/workspace/membranous-nephropathy/proposals/proposal-a515bbf765741f34c0bb654b",
+    "scientificProcessingComplete": true,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/membranous-nephropathy/papers.json"
+  },
+  {
+    "diseaseId": "minimal-change-nephropathy",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-f4022f33400ef1bb3784",
+    "identifiers": [
+      "DOI:10.1007/s00467-005-1936-3",
+      "MED:16079987",
+      "PMID:16079987"
+    ],
+    "sourceContentHash": "366e2ff2e362b11acb81574ad5db157297478742909db4d9094ccfe3e01bbbda",
+    "title": "Altered activity of plasma hemopexin in patients with minimal change disease in relapse.",
+    "changeKind": "new",
+    "knownSource": false,
+    "decision": "adds a mechanism",
+    "reason": "Primary abstract inspected and Consensus record fetched: hemopexin activity association in relapse, lower concentration despite greater activity. Corrects the first-pass claim that this hypothesis was already in the map: it was not. New symmetric human association only; no causal permeability-factor assertion.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [
+      "claim-082fee567064e84da41d"
+    ],
+    "affectedEntityIds": [
+      "entity-hemopexin-activity"
+    ],
+    "proposalPath": "curation/workspace/minimal-change-nephropathy/proposals/proposal-54ccb013fa3426fe8c85f9a4",
+    "scientificProcessingComplete": true,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/minimal-change-nephropathy/papers.json"
+  },
+  {
+    "diseaseId": "membranous-nephropathy",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-174361c5da02f0a8d05e",
+    "identifiers": [
+      "DOI:10.1007/s10157-020-02011-6",
+      "MED:33459908",
+      "PMID:33459908"
+    ],
+    "sourceContentHash": "1de7dbf26ec227193624d3ae455081aa367a758b77b91b3a9fc964cfe6e8ea2c",
+    "title": "Effects of phospholipase A&lt;sub&gt;2&lt;/sub&gt; receptor and thrombospondin type-1 domain-containing 7A expression in glomerular basement membranes on treatment response and renal outcome in membranous nephropathy.",
+    "changeKind": "updated",
+    "knownSource": false,
+    "decision": "supports an existing assertion",
+    "reason": "Primary abstract: PLA2R75%/THSD7A3.5% biopsy prevalence and treatment-course associations. Compatible with existing antigen heterogeneity; no novel mechanistic experiment. Overall remission/renal outcomes not different, treatment associations confounded. No additional mechanism or efficacy assertion.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [],
+    "affectedEntityIds": [],
+    "proposalPath": null,
+    "scientificProcessingComplete": true,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/membranous-nephropathy/papers.json"
+  },
+  {
+    "diseaseId": "primary-fsgs",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-318e43c640442f5f1c5c",
+    "identifiers": [
+      "DOI:10.1681/asn.0000001274",
+      "MED:42853622",
+      "PMID:42853622"
+    ],
+    "sourceContentHash": "96f43c4a4a68ec8b5b7025dd1cb87681abd930c0b1e5dfca5b69e78663aa34ad",
+    "title": "Epithelial PDGF-C Contributes to Crescentic Glomerulonephritis and FSGS in Part via Activation of Parietal Epithelial Cells.",
+    "changeKind": "new",
+    "knownSource": false,
+    "decision": "irrelevant/non-contributory",
+    "reason": "Primary abstract inspected: functional PDGF-C perturbations concern nephrotoxic nephritis and anti-Thy1.1 collapsing mouse disease, not the bound circulating-factor primary-FSGS or APOL1 systems. Human expression does not establish those etiologies. No expansion of existing scope.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [],
+    "affectedEntityIds": [],
+    "proposalPath": null,
+    "scientificProcessingComplete": true,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/primary-fsgs/papers.json"
+  },
+  {
+    "diseaseId": "primary-fsgs",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-52790c284f1988db4ecf",
+    "identifiers": [
+      "DOI:10.12688/f1000research.19997.2",
+      "MED:31781368",
+      "PMCID:PMC6854873",
+      "PMID:31781368",
+      "PPR:PPR101289"
+    ],
+    "sourceContentHash": "51023757eb668d00f42918da0c0751050a844cfb0456a0534a49572f5f8e7f43",
+    "title": "The use of electron microscopy in the diagnosis of focal segmental glomerulosclerosis: are current pathological techniques missing important abnormalities in the glomerular basement membrane?",
+    "changeKind": "updated",
+    "knownSource": false,
+    "decision": "irrelevant/non-contributory",
+    "reason": "Primary abstract inspected: diagnostic EM audit for occult COL4A disorders, explicitly outside the map scope excluding other genetic FSGS. No primary circulating-factor or APOL1 assertion changed.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [],
+    "affectedEntityIds": [],
+    "proposalPath": null,
+    "scientificProcessingComplete": true,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/primary-fsgs/papers.json"
+  },
+  {
+    "diseaseId": "sjogren-disease",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-fcd2609d22213cc226b9",
+    "identifiers": [
+      "DOI:10.1002/art.70354",
+      "MED:42781881",
+      "PMID:42781881"
+    ],
+    "sourceContentHash": "207de3fe2c1e538e9ff814cfefbf57fc2da2d5634e53aa89c76461b60e0fabf1",
+    "title": "Treatment-Driven Peripheral Blood Transcriptomic Remodeling and Baseline Predictors of ESSDAI and STAR Response to B Cell Therapy in Sjögren's Disease.",
+    "changeKind": "new",
+    "knownSource": false,
+    "decision": "deferred",
+    "reason": "Primary abstract inspected: exploratory 43-participant whole-blood RNA-seq with unadjusted significance; response-definition-specific signatures are not established causal B-cell-independent circuits. Full methods, multiplicity and independent validation need review before adding new treatment-predictor or pathway claims.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [],
+    "affectedEntityIds": [],
+    "proposalPath": null,
+    "scientificProcessingComplete": false,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/sjogren-disease/papers.json"
+  },
+  {
+    "diseaseId": "sjogren-disease",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-49cd7e039285221e7ed1",
+    "identifiers": [
+      "DOI:10.1016/j.mucimm.2026.100419",
+      "MED:42849738",
+      "PMID:42849738"
+    ],
+    "sourceContentHash": "be5c6c31336fc9aa7cee91527a33f88b45ea3439047a9417f321166aa3c75a17",
+    "title": "Autoimmune CD4&lt;sup&gt;+&lt;/sup&gt;T cells cause Meibomian gland dysfunction in an adoptive transfer model.",
+    "changeKind": "updated",
+    "knownSource": false,
+    "decision": "deferred",
+    "reason": "Primary abstract inspected: autoimmune CD25KO CD4 transfer into Rag1KO causes meibomian-gland injury, with Treg rescue. Distinct mouse genotype/gland context requires full-source and organ-context proposal; not imported into existing human salivary or other mouse gland context.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [],
+    "affectedEntityIds": [],
+    "proposalPath": null,
+    "scientificProcessingComplete": false,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/sjogren-disease/papers.json"
+  },
+  {
+    "diseaseId": "igg4-related-disease",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-20b637e806d39b0cab3a",
+    "identifiers": [
+      "DOI:10.1111/pin.70193",
+      "MED:42847433",
+      "PMID:42847433"
+    ],
+    "sourceContentHash": "555e19b5cbfd373b0249dc263dd4165746fff34866b5dac4165c7fd6a13457c3",
+    "title": "Pathological Evolution of Fibrosis in IgG4-Related Ophthalmic Disease: A Retrospective Study of 100 Cases.",
+    "changeKind": "new",
+    "knownSource": false,
+    "decision": "deferred",
+    "reason": "Primary abstract inspected: 100 ophthalmic cases, CD68/CD163 accumulation associates with fibrosis; IgG4 plasma cells/FOXP3/EBV do not, TGFB1 higher in lymphocyte-rich than fibrotic areas. New organ-specific association needs full report/context qualification, not proof macrophages cause generalized IgG4 fibrosis.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [],
+    "affectedEntityIds": [],
+    "proposalPath": null,
+    "scientificProcessingComplete": false,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/igg4-related-disease/papers.json"
+  },
+  {
+    "diseaseId": "igg4-related-disease",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-62049c56c80e32030c54",
+    "identifiers": [
+      "DOI:10.1093/rheumatology/keag480",
+      "MED:42693941",
+      "PMCID:PMC13641169",
+      "PMID:42693941"
+    ],
+    "sourceContentHash": "b1f43db60852f25bc7be7693438d127127465060782b1eba07303cb53d3fc251",
+    "title": "Inflammaging reshapes the immune ecosystem in IgG4-related dacryoadenitis and sialadenitis.",
+    "changeKind": "updated",
+    "knownSource": false,
+    "decision": "deferred",
+    "reason": "Primary abstract inspected: age-associated bulk lesion signatures and fibrosis pseudo-staging are correlations, not longitudinal histologic evolution or cell-specific causation. Full report, sample composition and age confounding need review before a distinct gland/age context is added.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [],
+    "affectedEntityIds": [],
+    "proposalPath": null,
+    "scientificProcessingComplete": false,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/igg4-related-disease/papers.json"
+  },
+  {
+    "diseaseId": "behcet-disease",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-645e97ec4913dafeaf4b",
+    "identifiers": [
+      "DOI:10.3389/fimmu.2026.1764448",
+      "MED:42870831",
+      "PMID:42870831"
+    ],
+    "sourceContentHash": "f4bcc4f893c6cdfdfbc7bb9bb9d31c37cb081f290959dce88657597c45d0ec67",
+    "title": "SPHK1 drives pyroptosis via ROS-dependent activation of the NLRP3 inflammasome in non-infectious uveitis.",
+    "changeKind": "new",
+    "knownSource": false,
+    "decision": "deferred",
+    "reason": "Primary abstract inspected: human BU gene-expression validation mixed with non-infectious uveitis datasets and perturbation experiments. Experimental species/cell identity requires primary methods to avoid converting murine BMDM pyroptosis to a causal human ocular pathway. Docking is not drug efficacy.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [],
+    "affectedEntityIds": [],
+    "proposalPath": null,
+    "scientificProcessingComplete": false,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/behcet-disease/papers.json"
+  },
+  {
+    "diseaseId": "behcet-disease",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "doi-a00a73bd8f96cfb44af2",
+    "identifiers": [
+      "DOI:10.18632/oncotarget.17235",
+      "MED:28472775",
+      "MED:28881647",
+      "PMCID:PMC5584248",
+      "PMID:28472775",
+      "PMID:28881647"
+    ],
+    "sourceContentHash": "319aed9ed966bb40b7ace5b14941cd5096a6b4d0c951f3ae45c483aa28ea1e3f",
+    "title": "Ocular Behcet's disease is associated with aberrant methylation of interferon regulatory factor 8 (IRF8) in monocyte-derived dendritic cells.",
+    "changeKind": "updated",
+    "knownSource": false,
+    "decision": "deferred",
+    "reason": "Primary abstract inspected: active ocular BD IRF8 methylation association and non-specific demethylation experiments. Merged record contains two PMIDs; source identity/notice relationship and specificity of DAC intervention require primary reconciliation.",
+    "screeningLevel": "primary abstract",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [],
+    "affectedEntityIds": [],
+    "proposalPath": null,
+    "scientificProcessingComplete": false,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/behcet-disease/papers.json"
+  },
+  {
+    "diseaseId": "atypical-hus",
+    "cycleDate": "2026-10-21",
+    "sourceKey": "pmc-pmc13579427",
+    "identifiers": [
+      "PMC:PMC13579427",
+      "PMCID:PMC13579427"
+    ],
+    "sourceContentHash": "9c5cb019bf3aee64a7039b8d74c05916671a6c1c624ac959b2bbfd549242b14e",
+    "title": "Kidney transplant outcomes in patients with complement dysregulation",
+    "changeKind": "new",
+    "knownSource": false,
+    "decision": "deferred",
+    "reason": "Primary XML abstract inspected after metadata-only first pass: 38 selected transplant recipients, 7 early recurrences, complement/anti-factor-H profiling and infection harms. Genetic classification, selected mixed complement-dysregulation cohort and concomitant treatments prevent direct efficacy or aHUS-wide risk claims; primary methods/genotype adjudication required.",
+    "screeningLevel": "abstract extracted from retrieved primary XML",
+    "method": "agent-authored paper disposition after completion-pass abstract inspection",
+    "affectedClaimIds": [],
+    "affectedEntityIds": [],
+    "proposalPath": null,
+    "scientificProcessingComplete": false,
+    "sourceSnapshot": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58/atypical-hus/papers.json"
+  }
+]

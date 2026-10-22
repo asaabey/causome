@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "diseaseId": "sle",
+  "baseReleaseId": "sle-appraised-candidate-32a52e130f7b",
+  "baseContentDigest": "974dd02f5670ea58efb373e3f0f9d205b5687b79de9727de5e1392837f5dc70e",
+  "scope": "A bounded nucleic-acid, interferon and B-cell circuit with a renal injury branch.",
+  "authoredBy": {
+    "id": "causome-extractive-summary-v1",
+    "kind": "system"
+  },
+  "authoredAt": "2026-10-20",
+  "paragraphs": [
+    {
+      "text": "SLE immune complexes increased surface BLyS in healthy monocyte cultures. Self-reactive antibodies participate in nucleic-acid-containing immune complexes. Persistent apoptotic material was proposed as antigen for immune-complex formation.",
+      "claimIds": [
+        "claim-complexes-baff",
+        "claim-antibodies-complexes",
+        "claim-debris-complexes"
+      ]
+    },
+    {
+      "text": "These selected findings describe a bounded candidate, whose overall explanation has not been independently checked against current literature. Indirect route through monocytes; not direct IC–BAFF binding. Complex composition and delivery determine activity. Active SLE or active lupus nephritis in patients aged 5 years and older receiving standard therapy. US licensed indication. Drug targeting and approval do not establish every proposed mechanism or benefit in every phenotype.",
+      "claimIds": [
+        "claim-complexes-baff",
+        "claim-antibodies-complexes",
+        "claim-debris-complexes",
+        "claim-belimumab-status"
+      ]
+    }
+  ]
+}

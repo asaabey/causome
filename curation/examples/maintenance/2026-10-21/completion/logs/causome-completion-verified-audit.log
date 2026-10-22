@@ -1,0 +1,36 @@
+{
+  "notices": 45,
+  "noticeMatchesBase": 0,
+  "changed": [
+    {
+      "diseaseId": "anca-associated-vasculitis",
+      "ratingChanges": 0,
+      "entities": 19,
+      "claims": 26
+    },
+    {
+      "diseaseId": "calciphylaxis",
+      "ratingChanges": 0,
+      "entities": 25,
+      "claims": 56
+    },
+    {
+      "diseaseId": "membranous-nephropathy",
+      "ratingChanges": 0,
+      "entities": 19,
+      "claims": 48
+    },
+    {
+      "diseaseId": "minimal-change-nephropathy",
+      "ratingChanges": 0,
+      "entities": 11,
+      "claims": 23
+    },
+    {
+      "diseaseId": "sle",
+      "ratingChanges": 29,
+      "entities": 22,
+      "claims": 42
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs reconcile --base knowledge/diseases/calciphylaxis/candidates/calciphylaxis-summary-candidate-9b1e60179c27.json --papers curation/workspace/maintenance-research/2026-10-21/ppi-selected-papers.json --extraction curation/workspace/maintenance-research/2026-10-21/ppi-extraction.json --cutoff 2026-10-20
+
+Automatic provisional appraisals: calciphylaxis-appraised-candidate-409c9db87504
+Inputs and results: curation/workspace/calciphylaxis/appraisals/calciphylaxis-appraised-candidate-409c9db87504
+Select with curate preview --disease calciphylaxis --candidate calciphylaxis-appraised-candidate-409c9db87504
+Summary review packet: curation/workspace/calciphylaxis/summary-reviews/a1014f82a60adbe720db681abd7fbb8dd28c4d3538ad4b486d47d91ccea5c921
+Overall summary candidate: calciphylaxis-summary-candidate-9fd6577c981d; current-literature review pending.
+curation/workspace/calciphylaxis/proposals/proposal-3d7d79f8462241097815946c

@@ -1,0 +1,100 @@
+[
+  {
+    "collection": "release",
+    "id": "release-metadata",
+    "kind": "changed",
+    "fields": [
+      "id",
+      "revisionId",
+      "changeSetRevision",
+      "releaseNote",
+      "manifest"
+    ],
+    "before": {
+      "id": "minimal-change-nephropathy-appraised-candidate-14335747226e",
+      "revisionId": "minimal-change-nephropathy-appraised-candidate-14335747226e-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "minimal-change-nephropathy",
+      "title": "Minimal change nephropathy",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Bounded human minimal change nephropathy observations: nephrin-reactive antibodies, immune-cell and urinary IL-8 associations, foot-process effacement and nephrotic presentation. Not a complete causal circuit or comprehensive literature synthesis. Secondary causes and FSGS are not modeled; the effacement case has an infection-associated course.",
+      "diseaseAliases": [
+        "minimal change disease",
+        "MCD",
+        "MCN",
+        "nil disease"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-20",
+      "changeSetRevision": "appraisal-14335747226ef3dfa08e6d0a9004c86f6e011d4ea4052953f1a7136eb23333ab",
+      "releaseNote": "Provisional automatic appraisal of minimal-change-nephropathy-candidate-717dc686dd2d. Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted. Independent review and calibration remain pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "0036869c7b02c8a03d1bac5247df8da4965e8551ba5ec689c38abb4520eacc79"
+      }
+    },
+    "after": {
+      "id": "minimal-change-nephropathy-maintenance-context-20261020",
+      "revisionId": "minimal-change-nephropathy-maintenance-context-20261020-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "minimal-change-nephropathy",
+      "title": "Minimal change nephropathy",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Bounded human minimal change nephropathy observations: nephrin-reactive antibodies, immune-cell and urinary IL-8 associations, foot-process effacement and nephrotic presentation. Not a complete causal circuit or comprehensive literature synthesis. Secondary causes and FSGS are not modeled; the effacement case has an infection-associated course.",
+      "diseaseAliases": [
+        "minimal change disease",
+        "MCD",
+        "MCN",
+        "nil disease"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-20",
+      "changeSetRevision": "minimal-change-nephropathy-maintenance-context-20261020",
+      "releaseNote": "Local maintenance: hemopexin activity association; assay/cohort-dependent anti-nephrin prevalence including FSGS overlap; correct experimental context to explicitly include the already-curated IL-13 rat studies. Domain review pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "3b527972f254957791fe7a1c3f9fbe545633e42d242eb30b375d5085803a25ef"
+      }
+    }
+  },
+  {
+    "collection": "contexts",
+    "id": "context-mcn-experimental",
+    "kind": "changed",
+    "fields": [
+      "label",
+      "organism",
+      "revisionId"
+    ],
+    "before": {
+      "id": "context-mcn-experimental",
+      "label": "Experimental anti-nephrin models (animal); not human prevalence or universal mechanism",
+      "organism": "Mouse (active nephrin immunization); rabbit (passive transfer of patient IgG)",
+      "phenotype": "Experimental MCD-like podocytopathy with nephrotic syndrome or proteinuria",
+      "tissue": "Kidney glomerulus / podocyte slit diaphragm",
+      "stage": "Experimental induction; does not establish the mechanism in every human case",
+      "revisionId": "context-mcn-experimental-5855e3a9d51f",
+      "status": "candidate",
+      "diseaseId": "minimal-change-nephropathy"
+    },
+    "after": {
+      "id": "context-mcn-experimental",
+      "label": "Experimental anti-nephrin and IL-13 models (animal); not universal human mechanisms",
+      "organism": "Mouse (active nephrin immunization); rabbit (passive patient IgG transfer); rat (IL-13 overexpression)",
+      "phenotype": "Experimental MCD-like podocytopathy with nephrotic syndrome or proteinuria",
+      "tissue": "Kidney glomerulus / podocyte slit diaphragm",
+      "stage": "Experimental induction; does not establish the mechanism in every human case",
+      "revisionId": "context-mcn-experimental-maintenance-20261020",
+      "status": "candidate",
+      "diseaseId": "minimal-change-nephropathy"
+    }
+  }
+]

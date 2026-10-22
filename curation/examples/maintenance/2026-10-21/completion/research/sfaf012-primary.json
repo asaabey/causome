@@ -1,0 +1,294 @@
+{
+  "id": "40046822",
+  "source": "MED",
+  "pmid": "40046822",
+  "pmcid": "PMC11879414",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC11879414"
+    ]
+  },
+  "doi": "10.1093/ckj/sfaf012",
+  "title": "Anti-nephrin antibody: a potential biomarker of minimal change disease.",
+  "authorString": "Chen Q, Chen S, Ye Q, Lin W, Liao Y, Xiong Y, Xu J, Gao R, Li B, Liu L, Wei L.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Chen Q",
+        "lastName": "Chen",
+        "firstName": "Qiaoling",
+        "initials": "Q",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            },
+            {
+              "affiliation": "Fujian Institute of Clinical Immunology, Fuzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chen S",
+        "lastName": "Chen",
+        "firstName": "Sihui",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ye Q",
+        "lastName": "Ye",
+        "firstName": "Qiuping",
+        "initials": "Q",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            },
+            {
+              "affiliation": "Fujian Institute of Clinical Immunology, Fuzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lin W",
+        "lastName": "Lin",
+        "firstName": "Wanjun",
+        "initials": "W",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            },
+            {
+              "affiliation": "Fujian Institute of Clinical Immunology, Fuzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liao Y",
+        "lastName": "Liao",
+        "firstName": "Yonggen",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            },
+            {
+              "affiliation": "Fujian Institute of Clinical Immunology, Fuzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xiong Y",
+        "lastName": "Xiong",
+        "firstName": "Yunfeng",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xu J",
+        "lastName": "Xu",
+        "firstName": "Jiaming",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gao R",
+        "lastName": "Gao",
+        "firstName": "Ruiyu",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Li B",
+        "lastName": "Li",
+        "firstName": "Binbin",
+        "initials": "B",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            },
+            {
+              "affiliation": "Fujian Institute of Clinical Immunology, Fuzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu L",
+        "lastName": "Liu",
+        "firstName": "Lifang",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            },
+            {
+              "affiliation": "Fujian Institute of Clinical Immunology, Fuzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wei L",
+        "lastName": "Wei",
+        "firstName": "Lixin",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China."
+            },
+            {
+              "affiliation": "Fujian Institute of Clinical Immunology, Fuzhou, China."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "altmetrics",
+      "supporting_data"
+    ]
+  },
+  "journalInfo": {
+    "issue": "3",
+    "volume": "18",
+    "journalIssueId": 3910691,
+    "dateOfPublication": "2025 Mar",
+    "monthOfPublication": 3,
+    "yearOfPublication": 2025,
+    "journal": {
+      "medlineAbbreviation": "Clin Kidney J",
+      "title": "Clinical kidney journal",
+      "essn": "2048-8513",
+      "issn": "2048-8505",
+      "nlmid": "101579321",
+      "isoabbreviation": "Clin Kidney J"
+    },
+    "printPublicationDate": "2025-03-01"
+  },
+  "pubYear": "2025",
+  "pageInfo": "sfaf012",
+  "abstractText": "<h4>Background</h4>Minimal change disease (MCD) is a common pathological type of nephrotic syndrome in children and adults, and the mechanisms remain obscure. The diagnosis of MCD still relies on renal biopsy, lacking effective biological markers. This study explores the diagnostic value of circulating anti-nephrin antibody in MCD patients and evaluates the correlation with disease activity indicators such as proteinuria.<h4>Methods</h4>The study included 108 adult patients with glomerular disease, including 36 with MCD, 16 with primary focal segmental glomerulosclerosis (FSGS), 20 with primary membranous nephropathy (MN), 17 with diabetic nephropathy (DN) and 19 with immunoglobulin A nephropathy (IgAN). Twenty healthy volunteers were included. Circulating anti-nephrin antibody was detected by indirect immunofluorescence method of cell-based assay. The receiver-operating characteristic (ROC) curve was used to evaluate the role of circulating anti-nephrin antibody in the diagnosis of MCD. The correlations between anti-nephrin antibody and clinical parameters were analyzed.<h4>Results</h4>The prevalence of circulating anti-nephrin antibody was 19.44% (7 of 36) in MCD and 26.92% (7 of 26) in MCD patients with nephrotic proteinuria, which was higher than in FSGS, PMN, DN, IgAN and healthy volunteers. The ROC curve showed that the sensitivity of anti-nephrin antibody used in the diagnosis of MCD was 19.4% and the specificity was 97.8%. The MCD patients with positive anti-nephrin antibody had heavier proteinuria and higher serum lipid levels, while having lower serum albumin and blood IgG levels. Anti-nephrin antibody might turn to negative when the MCD patient had a response to therapy.<h4>Conclusions</h4>Circulating anti-nephrin antibody may be a potential biomarker of MCD and may play a role in the MCD diagnosis.",
+  "affiliation": "Department of Nephrology, Fujian Medical University Union Hospital, Fuzhou, China.",
+  "publicationStatus": "epublish",
+  "language": "eng",
+  "pubModel": "Electronic-eCollection",
+  "pubTypeList": {
+    "pubType": [
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "Fujian Provincial Health Technology Project",
+        "grantId": "2023GGA013",
+        "orderIn": 0
+      }
+    ]
+  },
+  "keywordList": {
+    "keyword": [
+      "Biomarker",
+      "Podocyte damage",
+      "Nephrin",
+      "Minimal Change Disease",
+      "Anti-nephrin Antibody"
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Unpaywall",
+        "url": "https://academic.oup.com/ckj/advance-article-pdf/doi/10.1093/ckj/sfaf012/61522158/sfaf012.pdf"
+      },
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1093/ckj/sfaf012"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC11879414"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC11879414?pdf=render"
+      }
+    ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 13,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "license": "cc by-nc",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCreation": "2025-03-06",
+  "dateOfRevision": "2025-04-05",
+  "electronicPublicationDate": "2025-01-20",
+  "firstPublicationDate": "2025-01-20",
+  "firstIndexDate": "2025-03-06",
+  "fullTextReceivedDate": "2025-11-28",
+  "hasEvaluations": "N",
+  "inspectionNote": "Primary abstract inspected by agent, full text not yet inspected",
+  "retrievedAtUTC": "2026-10-20"
+}

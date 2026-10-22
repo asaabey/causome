@@ -1,0 +1,1147 @@
+[
+  {
+    "diseaseId": "iga-nephropathy",
+    "key": "doi-c886088317a9aefecf3a",
+    "sourceContentHash": "ec9b2347c7e3f9257288508c94fa6780c5c85369dd658fcc8a252426ea3ffe9d",
+    "identifiers": [
+      "DOI:10.1186/s12882-026-05382-2",
+      "MED:42773425",
+      "PMCID:PMC13595627",
+      "PMID:42773425"
+    ],
+    "title": "Correction: A comparative study on the clinicopathological features and short-term prognosis of IgA-dominant infection-related glomerulonephritis and IgA nephropathy.",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "42642725",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "key": "doi-db77ceb697785bbba331",
+    "sourceContentHash": "5a83ff7da511c50a27c5820bfa98c1f469ea420c9a6b70cc012bd1354abebf75",
+    "identifiers": [
+      "DOI:10.1016/j.kint.2026.06.005",
+      "MED:42760012",
+      "PMID:42760012"
+    ],
+    "title": "Corrigendum to \"Kidney injury and colocalization of complement C3, IgA, and IgG in glomerular immune-complex deposits of patients with IgA nephropathy or IgA vasculitis with nephritis.\" Kidney International 2025;108:1158-1169.",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "40992572",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "key": "doi-6bfca2b186fc555ba613",
+    "sourceContentHash": "ca7f213b7acb0c6b7253773f52f25daf80ea1748194bef3e6c8672d58851404c",
+    "identifiers": [
+      "DOI:10.1016/j.ijbiomac.2026.153641",
+      "MED:42493263",
+      "PMID:42493263"
+    ],
+    "title": "Retraction notice to \"Genotype distribution and clinical association SNP in IgA nephropathy patients: The role of macromolecular protein complements C3\" [Int. J. Biol. Macromol. 311 (2025) 144062].",
+    "flags": [
+      "retraction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction of",
+        "id": "40348232",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "key": "doi-29d0de097c30cfccb74e",
+    "sourceContentHash": "d1313774de4be09236fe4d2d40263ec60bab001e505fd95886010fec1ee6b66c",
+    "identifiers": [
+      "DOI:10.1016/j.kint.2025.09.003",
+      "MED:41271308",
+      "PMID:41271308"
+    ],
+    "title": "Corrigendum to \"Treatment of patients with IgA nephropathy: a call for a new paradigm.\" Kidney International 2025;107:640-651.",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "39894081",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "key": "doi-b31d7fb0a555df1e69e6",
+    "sourceContentHash": "27be30d50c0462cb0c278551744c1fd5e1f7c49397c5fa0f360698b8b7b4ba18",
+    "identifiers": [
+      "DOI:10.1016/j.ijbiomac.2025.144062",
+      "MED:40348232",
+      "PMID:40348232"
+    ],
+    "title": "Genotype distribution and clinical association SNP in IgA nephropathy patients: The role of macromolecular protein complements C3.",
+    "flags": [
+      "retracted",
+      "retraction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction in",
+        "id": "42493263",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "key": "doi-cc30bdf297de7aecf6ee",
+    "sourceContentHash": "018cfe616b00cdf23d186f942ee7037e6a0e0f1ba9c34e097eacaddf9e6ee7e2",
+    "identifiers": [
+      "DOI:10.1186/s12882-026-05208-1",
+      "MED:42642725",
+      "PMCID:PMC13508348",
+      "PMID:42642725"
+    ],
+    "title": "A comparative study on the clinicopathological features and short-term prognosis of IgA-dominant infection-related glomerulonephritis and IgA nephropathy.",
+    "flags": [
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "42773425",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "key": "doi-e46b0483b6dcae5f0bbf",
+    "sourceContentHash": "b67757d81a53665d36bd14903e977352eb532d49c125531aa00aa57358590d9a",
+    "identifiers": [
+      "DOI:10.1111/srt.13915",
+      "MED:39121008",
+      "PMCID:PMC11314360",
+      "PMID:39121008"
+    ],
+    "title": "Causal relationship between inflammatory skin diseases and immunoglobulin A nephropathy: A Mendelian randomization and enrichment analysis study.",
+    "flags": [
+      "retracted"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction in",
+        "id": "41063494",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "key": "doi-a84b96aa388362c1ff3a",
+    "sourceContentHash": "cefd66a6c810ce94da69bd5e5f8d8873bef0e1d777d3bbff19d94083b81992ba",
+    "identifiers": [
+      "DOI:10.1016/j.kint.2025.01.014",
+      "MED:39894081",
+      "PMID:39894081"
+    ],
+    "title": "Treatment of patients with IgA nephropathy: a call for a new paradigm.",
+    "flags": [
+      "correction-linked",
+      "secondary-or-commentary"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "41271308",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "key": "doi-9fa3ad77738a5e3e75c1",
+    "sourceContentHash": "150bc396a680334ac56856af5a72179ea3dc488959269f8bbf19abe889e278de",
+    "identifiers": [
+      "DOI:10.1016/j.kint.2025.07.038",
+      "MED:40992572",
+      "PMCID:PMC12626161",
+      "PMID:40992572"
+    ],
+    "title": "Kidney injury and colocalization of complement C3, IgA, and IgG in glomerular immune-complex deposits of patients with IgA nephropathy or IgA vasculitis with nephritis.",
+    "flags": [
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "42760012",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-04d501a6192b929a35e2",
+    "sourceContentHash": "591c40d5955c66e9e461cc17134707cbc3f638e98497bc2c0fa982c980750cd6",
+    "identifiers": [
+      "DOI:10.1080/21655979.2026.2729820",
+      "MED:42821410",
+      "PMCID:PMC13641556",
+      "PMID:42821410"
+    ],
+    "title": "Statement of Retraction: Sufentanil alleviates pre-eclampsia via silencing microRNA-24-3p to target 11β-Hydroxysteroid dehydrogenase type 2.",
+    "flags": [
+      "retraction-linked",
+      "retraction-notice"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction of",
+        "id": "35506414",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-774042ac495266d3fdf6",
+    "sourceContentHash": "191d4ea7a4c3f7575bfa13d69abe77f97674113689a985ae93da326405b4534a",
+    "identifiers": [
+      "DOI:10.1080/10641955.2026.2739067",
+      "MED:42817218",
+      "PMID:42817218"
+    ],
+    "title": "Expression of concern: Maternal and fetal outcome in de novo preeclampsia in comparison to superimposed preeclampsia: a two-year observational study.",
+    "flags": [
+      "concern-linked",
+      "expression-of-concern"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Expression of concern for",
+        "id": "25548836",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-51bad011af664efecf7b",
+    "sourceContentHash": "6621aca2e943a761c39de9d8f4e0069c20e8e815d9d59d3f0bf5df667d5d1dca",
+    "identifiers": [
+      "DOI:10.1016/j.preghy.2026.101485",
+      "MED:42364970",
+      "PMID:42364970"
+    ],
+    "title": "Retraction notice to \"Prognostic accuracy of cerebroplacental ratio for adverse perinatal outcomes in pregnancies complicated with severe pre-eclampsia; a prospective cohort study\" [Pregnancy Hypertension 14 (2018) 86-89].",
+    "flags": [
+      "retraction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction of",
+        "id": "30527124",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-a4504f41c1b44a13b833",
+    "sourceContentHash": "5e84ca20dad336187259799b66a2c44288db927968396a89dfc4ad111962b822",
+    "identifiers": [
+      "DOI:10.1080/21655979.2026.2730808",
+      "MED:42826079",
+      "PMCID:PMC13644590",
+      "PMID:42826079"
+    ],
+    "title": "Statement of retraction: MicroRNA-135b-5p regulates trophoblast cell function by targeting phosphoinositide-3-kinase regulatory subunit 2 in preeclampsia.",
+    "flags": [
+      "retraction-linked",
+      "retraction-notice"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction of",
+        "id": "35588255",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-1fa122dca1cc30c28e0a",
+    "sourceContentHash": "5ea113a2eea4012fa58ee7ade2f01d6499da8f4fb49284fb5b56d13e20dbdd83",
+    "identifiers": [
+      "DOI:10.1080/21655979.2026.2731272",
+      "MED:42826092",
+      "PMCID:PMC13644603",
+      "PMID:42826092"
+    ],
+    "title": "Statement of retraction: Bone marrow stromal cell antigen 2(BST2) suppresses the migration and invasion of trophoblasts in preeclampsia by downregulating matrix metallopeptidase 2(MMP2).",
+    "flags": [
+      "retraction-linked",
+      "retraction-notice"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction of",
+        "id": "35635087",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-ea31c64875d7f8b58702",
+    "sourceContentHash": "db344dc3d2adf034b6b592e6c5123591277398079810d0e1032ff3e28770c75c",
+    "identifiers": [
+      "DOI:10.1016/j.ejogrb.2026.115447",
+      "MED:42791123",
+      "PMID:42791123"
+    ],
+    "title": "Corrigendum to \"Comparison of proteinuria assessment methods and their association with maternal-fetal outcomes in preeclampsia\" [Eur. J. Obstetr. Gynecol. Reproduct. Biol. 311 (2025) 114010].",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "40311385",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-c427f566f670df15ffa8",
+    "sourceContentHash": "5e6c3d162d9d512a18b61fac437139ee0b2d0edfcd9d2a525d3f3c8a3faa2c53",
+    "identifiers": [
+      "DOI:10.1016/j.trsl.2026.09.003",
+      "MED:42743798",
+      "PMID:42743798"
+    ],
+    "title": "Corrigendum to \"Elevated circulating AIF1L as a cell-free RNA biomarker of preeclampsia impairs trophoblast function via mitochondrial dysregulation\" [Translational Research 296 (2026) 198-212].",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "42526532",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-04088d20ea7bac92a0d1",
+    "sourceContentHash": "754fa32dc0ba4085d76afce4df7ce522c1037173f3282bb3427bc7e19d105438",
+    "identifiers": [
+      "DOI:10.3389/ftox.2026.1953267",
+      "MED:42780941",
+      "PMCID:PMC13599728",
+      "PMID:42780941"
+    ],
+    "title": "Correction: Hypoxia-induced metabolic shifting and AHR/BCRP axis impairment drive placental dysfunction in early-onset preeclampsia and FGR.",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "42403681",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-1ae986c8a7b22c30c31e",
+    "sourceContentHash": "115fc452d750d5419837c252502b9e3387f22022987aa4ca0a8619bfcf92a609",
+    "identifiers": [
+      "DOI:10.3389/ftox.2026.1782187",
+      "MED:42403681",
+      "PMCID:PMC13333173",
+      "PMID:42403681"
+    ],
+    "title": "Hypoxia-induced metabolic shifting and AHR/BCRP axis impairment drive placental dysfunction in early-onset preeclampsia and FGR.",
+    "flags": [
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "42780941",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-db5b2b01005fa5a72129",
+    "sourceContentHash": "4510ceff6cd0f8ba475570d081e5332dd9fae321b63feb6cdaef6bf6d1adcdb6",
+    "identifiers": [
+      "DOI:10.1016/j.trsl.2026.07.014",
+      "MED:42526532",
+      "PMID:42526532"
+    ],
+    "title": "Elevated circulating AIF1L as a cell-free RNA biomarker of preeclampsia impairs trophoblast function via mitochondrial dysregulation.",
+    "flags": [
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "42743798",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-8f3b54229b2cbdbd89b2",
+    "sourceContentHash": "8fdaf1e01fcd33d545ccc01c2fcde326c3e91834881599d094ea23dbe17ad4f7",
+    "identifiers": [
+      "DOI:10.1371/journal.pone.0344715",
+      "MED:41805949",
+      "PMCID:PMC12974850",
+      "PMID:41805949"
+    ],
+    "title": "Correction: Hematological and biochemical alterations in preeclampsia: Readings from cord blood analysis.",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "40446190",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-74c64a8e24075666ab77",
+    "sourceContentHash": "330b4a2458eb74a3a25c52a9538e81804a1c4d4f43bd60a428a18f2e9728781b",
+    "identifiers": [
+      "DOI:10.1371/journal.pone.0344272",
+      "MED:41785183",
+      "PMCID:PMC12962504",
+      "PMID:41785183"
+    ],
+    "title": "Retraction: Short communication: Upregulation of hypoxia/reoxygenation-induced Shc3 by downregulated miR-455-5p, suppresses trophoblast invasion and is associated with placental inflammation and angiogenesis in preeclampsia.",
+    "flags": [
+      "retraction-notice"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction of",
+        "id": "39792965",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-e9a3460b823d0789d821",
+    "sourceContentHash": "d1705eb9d361f3f3e7fdf6bfd1ad6e6d580f59d13c8ba4c73164ee01d027801a",
+    "identifiers": [
+      "DOI:10.1016/j.ejogrb.2025.114010",
+      "MED:40311385",
+      "PMID:40311385"
+    ],
+    "title": "Comparison of proteinuria assessment methods and their association with maternal-fetal outcomes in preeclampsia.",
+    "flags": [
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "42791123",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-0e07f10258085b04a01f",
+    "sourceContentHash": "42cf2606c8b61ea1ec195f0eda73372a37c05c567e961a25cbd688846f733c87",
+    "identifiers": [
+      "DOI:10.1371/journal.pone.0324460",
+      "MED:40446190",
+      "PMCID:PMC12124850",
+      "PMID:40446190"
+    ],
+    "title": "Hematological and biochemical alterations in preeclampsia: Readings from cord blood analysis.",
+    "flags": [
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "41805949",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-4d36d065eeba7230edf9",
+    "sourceContentHash": "600590e1b26b9e3c2c8f01ebbaf79ba5d0746acc592aa3bdf673cf24494edfcb",
+    "identifiers": [
+      "DOI:10.1080/21655979.2022.2066753",
+      "MED:35506414",
+      "PMCID:PMC9275916",
+      "PMID:35506414"
+    ],
+    "title": "Sufentanil alleviates pre-eclampsia via silencing microRNA-24-3p to target 11β-Hydroxysteroid dehydrogenase type 2.",
+    "flags": [
+      "retracted",
+      "retraction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction in",
+        "id": "42821410",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-d91a83fea132a918265d",
+    "sourceContentHash": "73dd9bac2cf6a7186421e902b94069aa9e2feb8fbd8c7ea2022f9203474fcee6",
+    "identifiers": [
+      "DOI:10.1080/21655979.2022.2074712",
+      "MED:35635087",
+      "PMCID:PMC9276030",
+      "PMID:35635087"
+    ],
+    "title": "Bone marrow stromal cell antigen 2(BST2) suppresses the migration and invasion of trophoblasts in preeclampsia by downregulating matrix metallopeptidase 2(MMP2).",
+    "flags": [
+      "retracted",
+      "retraction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction in",
+        "id": "42826092",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-c76b0ec8796e9c5c61c3",
+    "sourceContentHash": "871f0e12b28640db9389d95140cd5d195050e32e7e667ba1506c78aa6075cabd",
+    "identifiers": [
+      "DOI:10.1016/j.preghy.2018.08.446",
+      "MED:30527124",
+      "PMID:30527124"
+    ],
+    "title": "Prognostic accuracy of cerebroplacental ratio for adverse perinatal outcomes in pregnancies complicated with severe pre-eclampsia; a prospective cohort study.",
+    "flags": [
+      "retracted",
+      "retraction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction in",
+        "id": "42364970",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-9c9d1895a3a6fd701c6d",
+    "sourceContentHash": "0a62c8c7015a8674c48b61a55d18f62a57d414774ea3de864ee68f4e0eaeb6eb",
+    "identifiers": [
+      "DOI:10.1080/21655979.2022.2073655",
+      "MED:35588255",
+      "PMCID:PMC9275860",
+      "PMID:35588255"
+    ],
+    "title": "MicroRNA-135b-5p regulates trophoblast cell function by targeting phosphoinositide-3-kinase regulatory subunit 2 in preeclampsia.",
+    "flags": [
+      "retracted",
+      "retraction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction in",
+        "id": "42826079",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-81978623228881835645",
+    "sourceContentHash": "0f5358015caf097da29ec8ee6c4ed00bfcd1673600e9f842351b4c02384f9291",
+    "identifiers": [
+      "DOI:10.1007/s11626-023-00751-9",
+      "MED:36847889",
+      "PMID:36847889"
+    ],
+    "title": "CD142 promotes trophoblast cell migration by inhibiting BCL2-related autophagic degradation of IL-8.",
+    "flags": [
+      "retracted"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "38030872",
+        "source": "MED"
+      },
+      {
+        "type": "Retraction in",
+        "id": "41037251",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "key": "doi-51c4625481dbffd7186c",
+    "sourceContentHash": "7889a2d941cb73c6198e5e44d816ccb872b1467c43c649e3a67321c1268b0ebe",
+    "identifiers": [
+      "DOI:10.3109/10641955.2014.982329",
+      "MED:25548836",
+      "PMID:25548836"
+    ],
+    "title": "Maternal and fetal outcome in de novo preeclampsia in comparison to superimposed preeclampsia: a two-year observational study.",
+    "flags": [
+      "concern-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Expression of concern in",
+        "id": "42817218",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-f9f87bff8c99fadf50b2",
+    "sourceContentHash": "8b89bb074c7d8426c2b4d6d13989faf50f6c9bd3695b50fd53deba163ec1202b",
+    "identifiers": [
+      "DOI:10.1186/s12944-026-03061-7",
+      "MED:42811352",
+      "PMCID:PMC13621498",
+      "PMID:42811352"
+    ],
+    "title": "Correction: Dyslipidemia and metabolic syndrome in childhood-onset systemic lupus erythematosus: is it time to screen?",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "39696576",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "pmc-pmc13658859",
+    "sourceContentHash": "ce64dab26839829cf0da91749cb913a781752ae7704ac374376ea6cedf220e7a",
+    "identifiers": [
+      "PMC:PMC13658859",
+      "PMCID:PMC13658859"
+    ],
+    "title": "Correction: Systemic lupus erythematosus complicated by refractory Mycobacterium avium complex infection involving bilateral lower extremities: a case report and literature review",
+    "flags": [
+      "correction"
+    ],
+    "relatedRecords": [],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "pmc-pmc13583188",
+    "sourceContentHash": "92aaf40b558a3572d8ac48f713547a1c07bc6db969e69f1f324ccb347f48041a",
+    "identifiers": [
+      "PMC:PMC13583188",
+      "PMCID:PMC13583188"
+    ],
+    "title": "Correction: Quality and reliability assessment of systemic lupus erythematosus related health information on short video platforms",
+    "flags": [
+      "correction"
+    ],
+    "relatedRecords": [],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-46de8c9b9dbeb4be6217",
+    "sourceContentHash": "00cba6c74cf101adcff511b8d85cb75ca75444be7cbd521382e71cb56b1a3d32",
+    "identifiers": [
+      "DOI:10.1111/1756-185x.70920",
+      "MED:42885141",
+      "PMID:42885141"
+    ],
+    "title": "Correction to \"Risk of New-Onset Glaucoma in Patients with Systemic Lupus Erythematosus: A Nationwide, Population-Based Cohort Study\".",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "37101208",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-e7b9ab1b26e11f754953",
+    "sourceContentHash": "a4e1e52ca19c58ce1d3682d562ac0413746d6c8e4c81051304e6b61015666fe9",
+    "identifiers": [
+      "DOI:10.1080/21655979.2026.2728942",
+      "MED:42821781",
+      "PMCID:PMC13641478",
+      "PMID:42821781"
+    ],
+    "title": "Statement of Retraction: Gypenosides regulate autophagy through Sirt1 pathway and the anti-inflammatory mechanism of mitochondrial autophagy in systemic lupus erythematosus.",
+    "flags": [
+      "retraction-linked",
+      "retraction-notice"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction of",
+        "id": "36700474",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-d15e6abcbcce3fd1971f",
+    "sourceContentHash": "10b3392af863c77df55330364cd854d60c9c1d0ede14ef36596b7a6db591cd0f",
+    "identifiers": [
+      "DOI:10.3389/fdgth.2026.1970952",
+      "MED:42756338",
+      "PMID:42756338"
+    ],
+    "title": "Correction: Quality and reliability assessment of systemic lupus erythematosus related health information on short video platforms.",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "42661773",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-3b5c5113c7f881129c5d",
+    "sourceContentHash": "1e737e21556c59f249a3a190b0291e3f694471f258682bf3bf3e5525b1132265",
+    "identifiers": [
+      "DOI:10.3389/fmed.2026.1999626",
+      "MED:42871338",
+      "PMID:42871338"
+    ],
+    "title": "Correction: Systemic lupus erythematosus complicated by refractory &lt;i&gt;Mycobacterium avium complex&lt;/i&gt; infection involving bilateral lower extremities: a case report and literature review.",
+    "flags": [
+      "correction",
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "42807220",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-a3c6522632bcb04ae139",
+    "sourceContentHash": "edbad47d3821e0cc24ef83acfdd0195bbd6b7459b031f8e926e4e727eaad1517",
+    "identifiers": [
+      "DOI:10.3389/fmed.2026.1936197",
+      "MED:42807220",
+      "PMCID:PMC13616700",
+      "PMID:42807220"
+    ],
+    "title": "Systemic lupus erythematosus complicated by refractory &lt;i&gt;Mycobacterium avium complex&lt;/i&gt; infection involving bilateral lower extremities: a case report and literature review.",
+    "flags": [
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "42871338",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-58efcdaa9cd8c8882b18",
+    "sourceContentHash": "20b7547fb0af9616f1be9fd2df13a08b7a88b7f7324c16b221d182de421c743e",
+    "identifiers": [
+      "DOI:10.1016/j.compbiomed.2026.111963",
+      "MED:42830242",
+      "PMID:42830242"
+    ],
+    "title": "Retraction notice to \"Evolving fuzzy k-nearest neighbors using an enhanced sine cosine algorithm: Case study of lupus nephritis\" [Computers in Biology and Medicine 135 (2021) 104582].",
+    "flags": [
+      "correction",
+      "correction-linked",
+      "retraction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum for",
+        "id": "34214940",
+        "source": "MED"
+      },
+      {
+        "type": "Retraction of",
+        "id": "34214940",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-767f5ec9087e2bea380a",
+    "sourceContentHash": "b2a3768f4521a2bee0813e02cb8426167f694fd96486aae8edf4da13eaf9aae6",
+    "identifiers": [
+      "DOI:10.3389/fdgth.2026.1875817",
+      "MED:42661773",
+      "PMCID:PMC13518323",
+      "PMID:42661773"
+    ],
+    "title": "Quality and reliability assessment of systemic lupus erythematosus related health information on short video platforms.",
+    "flags": [
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "42756338",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-783271ef5f599f467c85",
+    "sourceContentHash": "28364bcd6903e1ff6ee82343176910f0aee1b22945c52c8c04253140e77f247f",
+    "identifiers": [
+      "DOI:10.1093/rheumatology/keae662",
+      "MED:39656824",
+      "PMCID:PMC12107082",
+      "PMID:39656824"
+    ],
+    "title": "Targeting mechanistic target of rapamycin complex 2 attenuates immunopathology in systemic lupus erythematosus.",
+    "flags": [
+      "retracted"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Update of",
+        "id": "39131369",
+        "source": "MED"
+      },
+      {
+        "type": "Retraction in",
+        "id": "40966663",
+        "source": "MED"
+      },
+      {
+        "type": "Preprint in",
+        "id": "PPR890529",
+        "source": "PPR"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-a3b90d97fa8d8cbe3a45",
+    "sourceContentHash": "48ee3c1a0438a614a6bdc5e227191aa75d03c882886c3c11c7efeda957cdbe18",
+    "identifiers": [
+      "DOI:10.1186/s12944-024-02395-4",
+      "MED:39696576",
+      "PMCID:PMC11654144",
+      "PMID:39696576"
+    ],
+    "title": "Dyslipidemia and metabolic syndrome in childhood-onset systemic lupus erythematosus: is it time to screen?",
+    "flags": [
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "39891154",
+        "source": "MED"
+      },
+      {
+        "type": "Erratum in",
+        "id": "42811352",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-d66b72fe384c10d1c0ec",
+    "sourceContentHash": "4c84985002bb2d98d88cd2075565b3f6f4014b94e71409e0f7f8d8a21248cc04",
+    "identifiers": [
+      "DOI:10.1111/1756-185x.14698",
+      "MED:37101208",
+      "PMID:37101208"
+    ],
+    "title": "Risk of new-onset glaucoma in patients with systemic lupus erythematosus: A nationwide, population-based cohort study.",
+    "flags": [
+      "correction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "42885141",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-37788d234abac86eaec7",
+    "sourceContentHash": "2347bec5ef060cc12ff154e12c3ea618b9cfdd2eea38927fb04555659ede089d",
+    "identifiers": [
+      "DOI:10.1080/21655979.2022.2066749",
+      "MED:36700474",
+      "PMCID:PMC9275881",
+      "PMID:36700474"
+    ],
+    "title": "Gypenosides regulate autophagy through Sirt1 pathway and the anti-inflammatory mechanism of mitochondrial autophagy in systemic lupus erythematosus.",
+    "flags": [
+      "retracted",
+      "retraction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction in",
+        "id": "42821781",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-fbb5ff51dc3bd23ebf5c",
+    "sourceContentHash": "44d7ae5340f79e35a713de4d89169588eff3c765d1bd5149f663c3776c5e0ac6",
+    "identifiers": [
+      "DOI:10.1016/j.prp.2021.153653",
+      "MED:34763954",
+      "PMID:34763954"
+    ],
+    "title": "WITHDRAWN: Kdm5a promotes B cell activation in systemic lupus erythematosus via downregulation of A20 by histone modification.",
+    "flags": [
+      "retracted"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Retraction in",
+        "id": null,
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  },
+  {
+    "diseaseId": "sle",
+    "key": "doi-c8b12f5392d14b362d8e",
+    "sourceContentHash": "73b0414b1871bfaedf0d9729bd356b7e1f60f66f1c5a413b7f4971b47be224d1",
+    "identifiers": [
+      "DOI:10.1016/j.compbiomed.2021.104582",
+      "MED:34214940",
+      "PMID:34214940"
+    ],
+    "title": "Evolving fuzzy k-nearest neighbors using an enhanced sine cosine algorithm: Case study of lupus nephritis.",
+    "flags": [
+      "correction-linked",
+      "retracted",
+      "retraction-linked"
+    ],
+    "relatedRecords": [
+      {
+        "type": "Erratum in",
+        "id": "42830242",
+        "source": "MED"
+      },
+      {
+        "type": "Retraction in",
+        "id": "42830242",
+        "source": "MED"
+      }
+    ],
+    "matchesBase": false,
+    "baseClaimIds": [],
+    "disposition": "Quarantined for notice/original-source review; no positive finding imported from this record."
+  }
+]

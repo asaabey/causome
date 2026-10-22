@@ -1,0 +1,5 @@
+import fs from 'node:fs';import {contentDigest} from '../../../../scripts/validation.mjs';
+const d='curation/workspace/maintenance-completion/2026-10-21',s='minimal-change-nephropathy';const b=JSON.parse(fs.readFileSync(`knowledge/diseases/${s}/candidates/${s}-appraised-candidate-14335747226e.json`));
+b.id=s+'-maintenance-context-20261020';b.revisionId=b.id+'-r1';b.changeSetRevision=b.id;delete b.scientificSummary;
+const c=b.contexts.find(c=>c.id==='context-mcn-experimental');c.label='Experimental anti-nephrin and IL-13 models (animal); not universal human mechanisms';c.organism='Mouse (active nephrin immunization); rabbit (passive patient IgG transfer); rat (IL-13 overexpression)';c.revisionId=c.id+'-maintenance-20261020';
+b.releaseNote='Local maintenance: hemopexin activity association; assay/cohort-dependent anti-nephrin prevalence including FSGS overlap; correct experimental context to explicitly include the already-curated IL-13 rat studies. Domain review pending.';b.manifest.contentDigest=contentDigest(b);fs.writeFileSync(`${d}/mcd-context-proposal.json`,JSON.stringify(b,null,2)+'\n');

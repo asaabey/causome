@@ -1,0 +1,291 @@
+{
+  "id": "36527879",
+  "source": "MED",
+  "pmid": "36527879",
+  "doi": "10.1016/j.intimp.2022.109493",
+  "title": "Contribution of IL-33/ILC2-mediated Th2 cytokines during the progression of minimal change disease.",
+  "authorString": "Liu C, Liu L, Huang Y, Shi R, Wu Y, Hakimah Binti Ismail I.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Liu C",
+        "lastName": "Liu",
+        "firstName": "Cui",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pediatrics, Xi'an International Medical Center Hospital, Xi'an, Shaanxi 710100, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu L",
+        "lastName": "Liu",
+        "firstName": "Li",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pediatrics, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi 710061, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Huang Y",
+        "lastName": "Huang",
+        "firstName": "Yanping",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pediatrics, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi 710061, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Shi R",
+        "lastName": "Shi",
+        "firstName": "Ruiming",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pediatrics, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi 710061, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wu Y",
+        "lastName": "Wu",
+        "firstName": "Yue",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Cardiovascular Medicine, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi 710061, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hakimah Binti Ismail I",
+        "lastName": "Hakimah Binti Ismail",
+        "firstName": "Intan",
+        "initials": "I",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pediatrics, Faculty of Medicine and Health Sciences, University Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia. Electronic address: intanhakimah@163.com."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "journalInfo": {
+    "volume": "114",
+    "journalIssueId": 3482620,
+    "dateOfPublication": "2023 Jan",
+    "monthOfPublication": 1,
+    "yearOfPublication": 2023,
+    "journal": {
+      "medlineAbbreviation": "Int Immunopharmacol",
+      "title": "International immunopharmacology",
+      "essn": "1878-1705",
+      "issn": "1567-5769",
+      "isoabbreviation": "Int Immunopharmacol",
+      "nlmid": "100965259"
+    },
+    "printPublicationDate": "2023-01-01"
+  },
+  "pubYear": "2023",
+  "pageInfo": "109493",
+  "abstractText": "Minimal change disease (MCD) is a common type of nephrotic syndrome with high recurrence rate. This study aims to explore the impacts of interleukin (IL)-33 in MCD and to discuss its potential mechanism. In adriamycin (ADM) and puromycin aminonucleoside (PAN)-induced MCD rat model, IL-33 was used for treatment. H&E staining was applied for detecting histological changes. Critical proteins were examined by western blot. Corresponding commercial kits tested oxidative stress- and inflammation-related factors. Cell apoptosis was measured by TUNEL assay. ADM-induced podocyte injury model was establish to mimic MCD in vitro. Cell proliferation and apoptosis were detected by CCK-8 and TUNEL assays. Finally, podocyte was stimulated by innate lymphoid type-2 cells-secreted Th2 cytokines (ILC2s: IL-13 and IL-5 respectively), with or without incubation with M1 macrophage medium to further explore the immune-regulation of ILC2s behind the inflammatory environment of MCD. It was found that PAN-induced kidney jury, inflammation, oxidative stress and apoptosis were severer than ADM, and IL-33 treatment significantly alleviated the above injuries in PAN and ADM-induced MCD rat model. Moreover, IL-33 reversed the reduced viability and increased oxidative stress and apoptosis in ADM-induced podocyte injury model. Further, the capacities of IL-13 alone in inducing M1/M2 macrophage polarization, apoptosis, inflammation, kidney injury and reducing cell viability are stronger than IL-5. However, IL-13 reversed reduced cell viability and stimulated apoptosis, inflammation, kidney injury mediated by co-incubation with M1-conditioned medium. Collectively, IL-33 might protect against immunologic injury in MCD via mediating ILC2s-secreted IL-13.",
+  "affiliation": "Department of Pediatrics, Xi'an International Medical Center Hospital, Xi'an, Shaanxi 710100, China.",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "Journal Article"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "National Key Research and Development Program of China",
+        "grantId": "2019YFA0802300",
+        "orderIn": 0
+      }
+    ]
+  },
+  "meshHeadingList": {
+    "meshHeading": [
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Lymphocytes"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Th2 Cells"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Animals"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Rats"
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Nephrosis, Lipoid",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "CI",
+              "qualifierName": "chemically induced"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "PA",
+              "qualifierName": "pathology"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Inflammation"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Interleukin-5"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Interleukin-13",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "Y",
+        "descriptorName": "Cytokines"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Immunity, Innate"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Interleukin-33"
+      }
+    ]
+  },
+  "keywordList": {
+    "keyword": [
+      "Inflammation",
+      "IL-13",
+      "Minimal Change Disease",
+      "Il-33",
+      "Ilc2s"
+    ]
+  },
+  "chemicalList": {
+    "chemical": [
+      {
+        "name": "Interleukin-5",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Cytokines",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Interleukin-13",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Interleukin-33",
+        "registryNumber": "0"
+      }
+    ]
+  },
+  "subsetList": {
+    "subset": [
+      {
+        "code": "IM",
+        "name": "Index Medicus"
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "doi",
+        "site": "Unpaywall",
+        "url": "https://doi.org/10.1016/j.intimp.2022.109493"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "doi",
+        "site": "Unpaywall",
+        "url": "https://doi.org/10.1016/j.intimp.2022.109493"
+      },
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1016/j.intimp.2022.109493"
+      }
+    ]
+  },
+  "isOpenAccess": "N",
+  "inEPMC": "N",
+  "inPMC": "N",
+  "citedByCount": 9,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "N",
+  "hasBook": "N",
+  "hasSuppl": "N",
+  "hasLabsLinks": "N",
+  "hasData": "N",
+  "license": "cc by-nc-nd",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCompletion": "2023-01-10",
+  "dateOfCreation": "2022-12-17",
+  "dateOfRevision": "2023-01-11",
+  "electronicPublicationDate": "2022-12-15",
+  "firstPublicationDate": "2022-12-15",
+  "firstIndexDate": "2022-12-23",
+  "hasEvaluations": "N",
+  "inspectionNote": "Primary abstract inspected by agent, full text not yet inspected",
+  "retrievedAtUTC": "2026-10-20"
+}

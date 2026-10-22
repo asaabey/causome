@@ -1,0 +1,10 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs reconcile --base knowledge/diseases/membranous-nephropathy/candidates/membranous-nephropathy-summary-candidate-32b3afbfc619.json --papers curation/workspace/maintenance-completion/2026-10-21/membranous-nephropathy-review-papers.json --extraction curation/workspace/maintenance-completion/2026-10-21/membranous-nephropathy-review-extraction.json --cutoff 2026-10-20
+
+Automatic provisional appraisals: membranous-nephropathy-appraised-candidate-10418184175e
+Inputs and results: curation/workspace/membranous-nephropathy/appraisals/membranous-nephropathy-appraised-candidate-10418184175e
+Select with curate preview --disease membranous-nephropathy --candidate membranous-nephropathy-appraised-candidate-10418184175e
+Summary review packet: curation/workspace/membranous-nephropathy/summary-reviews/7c7b7845a50cdf5afa18a9d72c6cd7825dcf5ecef3b326699a608ad2757abccc
+Overall summary candidate: membranous-nephropathy-summary-candidate-1117b8196b9d; current-literature review pending.
+curation/workspace/membranous-nephropathy/proposals/proposal-8d552d4585769bb308659105

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "anca-associated-vasculitis",
+  "candidateId": "anca-associated-vasculitis-summary-candidate-ca3e7a1d8c0d",
+  "contentDigest": "aba6adb1474288823c6d3b7f8dea0b95fb0a3d82281307d80f357b7f461be713",
+  "summaryRevisionId": "summary-ca3e7a1d8c0d",
+  "summaryDigest": "62408fd97ebfae8f181e0de6745d48bfd811b982d587782a77fc3e1e0f35694b",
+  "packetDigest": "1a2ba45942afb86b665360ffb9cc756a2915d2ab5b58b0c162552fd492b5c411",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

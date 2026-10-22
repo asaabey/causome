@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "diseaseId": "minimal-change-nephropathy",
+  "baseReleaseId": "minimal-change-nephropathy-summary-candidate-246a97550dfc",
+  "baseContentDigest": "9b24082847ca4943ba15577bc34a3dee20310ba2710040dad4080f44d2178fe9",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "codex-agent-manual-source-curation-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "anti-nephrin-low-prevalence-20261020",
+      "paperKey": "doi-b5192804f31c6e5663bf",
+      "paperDigest": "1be4c7dc9a4395395c50a2c30a73aa013a6a29915b9350e39c1359b9f55522b9",
+      "sourceCheck": {
+        "checkedBy": "codex-agent-source-check",
+        "checkedAt": "2026-10-20"
+      },
+      "category": "qualifying",
+      "subject": "entity-anti-nephrin",
+      "object": "entity-nephrotic",
+      "predicate": "is_associated_with",
+      "contextId": "context-mcn-overview",
+      "causalInterpretation": "association",
+      "text": "A pediatric and young-adult idiopathic nephrotic syndrome cohort detected anti-nephrin antibodies in 15% of MCD and 11% of FSGS patients. This qualifies the higher adult MCD prevalence reported in another cohort: positivity is assay-, population- and activity-dependent and is not specific to MCD.",
+      "quote": "with a higher prevalence among those with nephrotic-range proteinuria.",
+      "quoteLocation": "Primary-report Abstract: Results.",
+      "studySystem": "Human pediatric and young-adult biopsy-proven MCD/FSGS; ELISA with immunoprecipitation confirmation.",
+      "evidenceType": "human_observational",
+      "limitations": [
+        "Cross-cohort prevalence comparisons are not controlled head-to-head assay comparisons.",
+        "Association with activity and glycosylation does not establish causal sufficiency."
+      ],
+      "distinctFindingRationale": "Separate cohort added following actual external summary feedback; not independent replication of multiple readouts from the same paper."
+    },
+    {
+      "id": "anti-nephrin-cba-prevalence-20261020",
+      "paperKey": "doi-08c0eadda9f6de793bca",
+      "paperDigest": "b1ab667af2e8a049b677cb04f33796e7fa57aed27df10f1d698f316e5447cd18",
+      "sourceCheck": {
+        "checkedBy": "codex-agent-source-check",
+        "checkedAt": "2026-10-20"
+      },
+      "category": "qualifying",
+      "subject": "entity-anti-nephrin",
+      "object": "entity-nephrotic",
+      "predicate": "is_associated_with",
+      "contextId": "context-mcn-overview",
+      "causalInterpretation": "association",
+      "text": "A cell-based assay study detected anti-nephrin antibodies in 7/36 adults with MCD (19.44%) and 7/26 with nephrotic proteinuria (26.92%). This qualifies higher prevalence from other assays/cohorts; a negative test does not exclude MCD.",
+      "quote": "The prevalence of circulating anti-nephrin antibody was 19.44% (7 of 36) in MCD",
+      "quoteLocation": "Primary-report Abstract: Results.",
+      "studySystem": "Human adult cohort: 36 MCD among 108 glomerular disease patients plus 20 healthy controls; cell-based indirect immunofluorescence.",
+      "evidenceType": "human_observational",
+      "limitations": [
+        "Small selected cohort and assay-specific diagnostic estimates; not population prevalence.",
+        "The study does not identify why prevalence differs across cohorts."
+      ],
+      "distinctFindingRationale": "Separate cohort added following actual external summary feedback; not independent replication of multiple readouts from the same paper."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+
+> causome@ curate /Users/asanga/Documents/Projects/causome
+> node scripts/curate.mjs assess --base knowledge/diseases/sle/candidates/sle-candidate-8135b1e2daf0.json --input curation/workspace/maintenance-research/2026-10-21/sle-automatic-appraisal.json
+
+/Users/asanga/Documents/Projects/causome/knowledge/diseases/sle/candidates/sle-appraised-candidate-32a52e130f7b.json
+Provisional only. Select with curate preview; public pointer unchanged.

@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+const d='curation/workspace/maintenance-research/2026-10-21';
+const input=JSON.parse(fs.readFileSync(`${d}/ppi-summary-template.json`));
+const old=JSON.parse(fs.readFileSync('knowledge/diseases/calciphylaxis/candidates/calciphylaxis-summary-candidate-9b1e60179c27.json')).scientificSummary;
+input.authoredBy={id:'codex-curation-agent',kind:'agent'};input.authoredAt='2026-10-20';input.paragraphs=structuredClone(old.paragraphs);
+input.paragraphs[0].text+=' A newly added human registry study found lower circulating pyrophosphate in 30 calciphylaxis cases than in 30 matched controls; in its 70-patient cohort, lower levels were also associated with higher short-term mortality. This adds an observational calcification-inhibitor signal without demonstrating that PPi deficiency causes calciphylaxis.';
+input.paragraphs[0].claimIds.push('claim-d817a99bb3f6b3dcca3a','claim-a2234e93c51e067a6dbd');
+input.paragraphs[1].text=input.paragraphs[1].text.replace('This selected-report summary requires an independent current-literature check of the combined mechanism, important omissions and therapeutic interpretation.','The pyrophosphate study was small, industry-funded and observational, with substantial within-person variability; PPi did not correlate with pain intensity. Raising PPi was not tested, and no treatment benefit is inferred. This is a selected-report local candidate with pending domain review.');input.paragraphs[1].claimIds.push('claim-a2234e93c51e067a6dbd');
+fs.writeFileSync(`${d}/ppi-summary-input.json`,JSON.stringify(input,null,2)+'\n');
+const sle=JSON.parse(fs.readFileSync(`${d}/sle-summary-input.json`));
+const current=JSON.parse(fs.readFileSync('knowledge/diseases/sle/candidates/sle-summary-candidate-ecc3504a7a24.json'));
+sle.baseReleaseId=current.id;sle.baseContentDigest=current.manifest.contentDigest;
+sle.paragraphs[0].text=sle.paragraphs[0].text.replace('A newly added mouse study shows','A newly added anti-C1q mouse study, distinct from the separate Z-DNA/curli preprint, shows');
+fs.writeFileSync(`${d}/sle-summary-clarified-input.json`,JSON.stringify(sle,null,2)+'\n');

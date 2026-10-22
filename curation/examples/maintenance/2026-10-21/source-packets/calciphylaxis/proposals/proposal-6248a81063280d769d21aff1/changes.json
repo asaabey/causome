@@ -1,0 +1,589 @@
+[
+  {
+    "collection": "release",
+    "id": "release-metadata",
+    "kind": "changed",
+    "fields": [
+      "id",
+      "revisionId",
+      "changeSetRevision",
+      "releaseNote",
+      "manifest"
+    ],
+    "before": {
+      "id": "calciphylaxis-appraised-candidate-409c9db87504",
+      "revisionId": "calciphylaxis-appraised-candidate-409c9db87504-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "calciphylaxis",
+      "title": "Calciphylaxis",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Calciphylaxis (calcific uraemic arteriolopathy): ischaemic skin necrosis from calcification, intimal thickening and thrombosis of small cutaneous arterioles, mainly in people on dialysis. This bounded map covers dialysis and clinical risk factors (phosphate, calcium load, PTH, obesity, diabetes, corticosteroids, hypoalbuminaemia, female sex), calcification-inhibitor deficiency (vitamin K status, warfarin, matrix Gla protein, fetuin-A), vascular smooth-muscle osteogenic change, arteriolar calcification, thrombophilia and microthrombosis, skin necrosis, sepsis and mortality. Most human links are associations from case-control studies and biopsy series; causal links rest on rodent knockout/warfarin models and in vitro work. Contradicting and qualifying results are retained.",
+      "diseaseAliases": [
+        "calcific uremic arteriolopathy",
+        "calcific uraemic arteriolopathy",
+        "CUA",
+        "uremic calciphylaxis"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-20",
+      "changeSetRevision": "appraisal-409c9db87504bdc02497af70e6d0fee456a8bbb2286e24bd5d219806c8d7dfd4",
+      "releaseNote": "Provisional automatic appraisal of calciphylaxis-candidate-3d7d79f84622. Automatic conservative metadata appraisal. Source entailment, study quality, broad disease coverage, circuit causation and independent replication require review. Confidence is capped at 1/4 until explicit editorial appraisal; therapeutic categories describe curated target coverage, not efficacy. No calibration or human approval is asserted. Independent review and calibration remain pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "9450169030f87f318175b1e09c012e41f0925b6c118f79117c0d48893bea0805"
+      }
+    },
+    "after": {
+      "id": "calciphylaxis-maintenance-overview-20261020",
+      "revisionId": "calciphylaxis-maintenance-overview-20261020-r1",
+      "formatVersion": "0.3.0",
+      "diseaseId": "calciphylaxis",
+      "title": "Calciphylaxis",
+      "status": "candidate",
+      "illustrative": false,
+      "diseaseDescription": "Calciphylaxis (calcific uraemic arteriolopathy): ischaemic skin necrosis from calcification, intimal thickening and thrombosis of small cutaneous arterioles, mainly in people on dialysis. This bounded map covers dialysis and clinical risk factors (phosphate, calcium load, PTH, obesity, diabetes, corticosteroids, hypoalbuminaemia, female sex), calcification-inhibitor deficiency (vitamin K status, warfarin, matrix Gla protein, fetuin-A), vascular smooth-muscle osteogenic change, arteriolar calcification, thrombophilia and microthrombosis, skin necrosis, sepsis and mortality. Most human links are associations from case-control studies and biopsy series; causal links rest on rodent knockout/warfarin models and in vitro work. Contradicting and qualifying results are retained.",
+      "diseaseAliases": [
+        "calcific uremic arteriolopathy",
+        "calcific uraemic arteriolopathy",
+        "CUA",
+        "uremic calciphylaxis"
+      ],
+      "parentReleaseId": null,
+      "parentContentDigest": null,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "evidenceCutoff": "2026-10-20",
+      "changeSetRevision": "calciphylaxis-maintenance-overview-20261020",
+      "releaseNote": "Local maintenance: human circulating pyrophosphate associations with calciphylaxis and short-term mortality. Observational findings do not establish causal deficiency or benefit of PPi-raising therapy. Overview includes the new entity; domain review pending.",
+      "manifest": {
+        "algorithm": "sha256",
+        "schemaVersion": "0.3.0",
+        "contentDigest": "7a54f44cd099b83b7e0a43319031beaede401598f3cccb6a215e271f473caa92"
+      }
+    }
+  },
+  {
+    "collection": "mapViews",
+    "id": "view-calciphylaxis-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "entityIds",
+      "relationshipIds",
+      "assessmentIds"
+    ],
+    "before": {
+      "id": "view-calciphylaxis-overview",
+      "revisionId": "view-calciphylaxis-overview-r2",
+      "status": "candidate",
+      "label": "Mineral risk, calcification-inhibitor loss, arteriolar lesion & outcomes",
+      "contextId": "context-calciphylaxis-overview",
+      "entityIds": [
+        "entity-calciphylaxis",
+        "entity-vitamin-k",
+        "entity-vka",
+        "entity-mgp",
+        "entity-fetuin-a",
+        "entity-phosphate",
+        "entity-vsmc-osteogenic",
+        "entity-arteriolar-calcification",
+        "entity-ckd-dialysis",
+        "entity-calcium-load",
+        "entity-pth",
+        "entity-obesity",
+        "entity-diabetes",
+        "entity-corticosteroids",
+        "entity-hypoalbuminaemia",
+        "entity-female-sex",
+        "entity-intimal-hyperplasia",
+        "entity-thrombosis",
+        "entity-thrombophilia",
+        "entity-inflammation",
+        "entity-skin-necrosis",
+        "entity-wound-infection",
+        "entity-mortality",
+        "entity-casr"
+      ],
+      "relationshipIds": [
+        "relationship-a4454746b0f191ab74f5",
+        "relationship-a91eaa28411cdbb636fd",
+        "relationship-bde9b3d5209fff4b3ad6",
+        "relationship-ded97be29973451f1670",
+        "relationship-a849c82f4248136786f4",
+        "relationship-2aa6ff3dc31d6323c15b",
+        "relationship-68430fc167a853ce593e",
+        "relationship-4e269b95808386badf28",
+        "relationship-9028d2af3cbbe60fd4ef",
+        "relationship-155674ee9065118a8501",
+        "relationship-b2d7ca2cbb44fef01b6c",
+        "relationship-d8610bd54f9fd1aa7e78",
+        "relationship-cdb6e334dfefe23991e9",
+        "relationship-8424a802222aa23bb811",
+        "relationship-57466b6768fabed35a4b",
+        "relationship-0bb211be1315fc1ad4f8",
+        "relationship-4f0da8537703f87c08ef",
+        "relationship-fff95805a7ddd949d119",
+        "relationship-18e77c90566e7891c20e",
+        "relationship-0da5496298970c971718",
+        "relationship-6fb5f1dafeb1b8a1f03e",
+        "relationship-76bd5d2ae3e47abb43cc",
+        "relationship-faa5d585a8b287f44fe2",
+        "relationship-78a2bc40d8ad350986ee",
+        "relationship-d6eafebfcef5d48330cd",
+        "relationship-83166202c6cd88799d3b",
+        "relationship-a9b56e770b2c035cbef4",
+        "relationship-bc44ebf6f1e45bde0d8f"
+      ],
+      "assessmentIds": [
+        "assessment-159931276b34f8374c30",
+        "assessment-71ebd9265c8a92c867a0",
+        "assessment-7390d4ca71dad0cd1937",
+        "assessment-173ba9680ba1a3988693",
+        "assessment-3d93910c01d0181e6c04",
+        "assessment-b99fba7cd30eee54ef09",
+        "assessment-5d1b3c31de7a5fcf51ce",
+        "assessment-32d1d7604c9641ded7a6",
+        "assessment-95fd4ce03be73773fc49",
+        "assessment-5dee5212cda5c072b83d",
+        "assessment-43f1ee29b13646b9312f",
+        "assessment-ba1251804996de8c73bd",
+        "assessment-52a2937d93b1ae7c0676",
+        "assessment-3e97b53b7cd6a5cd578a",
+        "assessment-ec696990d9f239d2ee55",
+        "assessment-32db7397ac644a99e97a",
+        "assessment-ccdc32af3a278f1b03d0",
+        "assessment-3f2d602d14151181c550",
+        "assessment-964fee1d6473b3ef777f",
+        "assessment-a401b9754dd284cc135e",
+        "assessment-42f2a89774d60d4be454",
+        "assessment-47a4feccbf8c8adf13ad",
+        "assessment-f1c1b7178d64b5b5f669",
+        "assessment-5a6bd05f13849b6ebb9e",
+        "assessment-15a2585870e163675d24",
+        "assessment-4d3473ec3112ce35c94e",
+        "assessment-fc042518602b45cc0920",
+        "assessment-b5fae692dbe0d77983c7",
+        "assessment-a17196a60c97015419fd",
+        "assessment-e586a3e7ef56f1d9b72d",
+        "assessment-ab465ffa11af14063c9d",
+        "assessment-84dafb46653f1d5e0529",
+        "assessment-233b656c256b7dfde824",
+        "assessment-d9c627b79746fdd6f5ac",
+        "assessment-7bccee68bf262559321b",
+        "assessment-45a06bfd85bbd442ad8a",
+        "assessment-06a8393bb0b846570269",
+        "assessment-22c2c43987eb3f69c99e",
+        "assessment-7a0bc73aef81dc6c3848",
+        "assessment-85e5759784d10935c3f9",
+        "assessment-7d8783bde87a4ac233ad",
+        "assessment-e407b5de2ce91282e71c",
+        "assessment-1e454c0be2e2b4f5ee28",
+        "assessment-cc38dce3b81515e7c2e6",
+        "assessment-df1ab2e2827bdfc62642",
+        "assessment-0b7d62b68a4e8ced45e3",
+        "assessment-899b1c6db080329c9a71",
+        "assessment-0fa1e9f159bd4c16ee01",
+        "assessment-6689472cf256f51b80f6",
+        "assessment-d5c8cf271bc659344975",
+        "assessment-610ed2b01e35a5a911c4",
+        "assessment-entity-casr"
+      ],
+      "layoutId": "layout-calciphylaxis-overview"
+    },
+    "after": {
+      "id": "view-calciphylaxis-overview",
+      "revisionId": "view-calciphylaxis-overview-maintenance-20261020",
+      "status": "candidate",
+      "label": "Mineral risk, calcification-inhibitor loss, arteriolar lesion & outcomes",
+      "contextId": "context-calciphylaxis-overview",
+      "entityIds": [
+        "entity-calciphylaxis",
+        "entity-vitamin-k",
+        "entity-vka",
+        "entity-mgp",
+        "entity-fetuin-a",
+        "entity-phosphate",
+        "entity-vsmc-osteogenic",
+        "entity-arteriolar-calcification",
+        "entity-ckd-dialysis",
+        "entity-calcium-load",
+        "entity-pth",
+        "entity-obesity",
+        "entity-diabetes",
+        "entity-corticosteroids",
+        "entity-hypoalbuminaemia",
+        "entity-female-sex",
+        "entity-intimal-hyperplasia",
+        "entity-thrombosis",
+        "entity-thrombophilia",
+        "entity-inflammation",
+        "entity-skin-necrosis",
+        "entity-wound-infection",
+        "entity-mortality",
+        "entity-casr",
+        "entity-pyrophosphate"
+      ],
+      "relationshipIds": [
+        "relationship-a4454746b0f191ab74f5",
+        "relationship-a91eaa28411cdbb636fd",
+        "relationship-bde9b3d5209fff4b3ad6",
+        "relationship-ded97be29973451f1670",
+        "relationship-a849c82f4248136786f4",
+        "relationship-2aa6ff3dc31d6323c15b",
+        "relationship-68430fc167a853ce593e",
+        "relationship-4e269b95808386badf28",
+        "relationship-9028d2af3cbbe60fd4ef",
+        "relationship-155674ee9065118a8501",
+        "relationship-b2d7ca2cbb44fef01b6c",
+        "relationship-d8610bd54f9fd1aa7e78",
+        "relationship-cdb6e334dfefe23991e9",
+        "relationship-8424a802222aa23bb811",
+        "relationship-57466b6768fabed35a4b",
+        "relationship-0bb211be1315fc1ad4f8",
+        "relationship-4f0da8537703f87c08ef",
+        "relationship-fff95805a7ddd949d119",
+        "relationship-18e77c90566e7891c20e",
+        "relationship-0da5496298970c971718",
+        "relationship-6fb5f1dafeb1b8a1f03e",
+        "relationship-76bd5d2ae3e47abb43cc",
+        "relationship-faa5d585a8b287f44fe2",
+        "relationship-78a2bc40d8ad350986ee",
+        "relationship-d6eafebfcef5d48330cd",
+        "relationship-83166202c6cd88799d3b",
+        "relationship-a9b56e770b2c035cbef4",
+        "relationship-bc44ebf6f1e45bde0d8f",
+        "relationship-a51dbf313ca98c574cb4",
+        "relationship-7101d3e15ed241d8e567"
+      ],
+      "assessmentIds": [
+        "assessment-159931276b34f8374c30",
+        "assessment-71ebd9265c8a92c867a0",
+        "assessment-7390d4ca71dad0cd1937",
+        "assessment-173ba9680ba1a3988693",
+        "assessment-3d93910c01d0181e6c04",
+        "assessment-b99fba7cd30eee54ef09",
+        "assessment-5d1b3c31de7a5fcf51ce",
+        "assessment-32d1d7604c9641ded7a6",
+        "assessment-95fd4ce03be73773fc49",
+        "assessment-5dee5212cda5c072b83d",
+        "assessment-43f1ee29b13646b9312f",
+        "assessment-ba1251804996de8c73bd",
+        "assessment-52a2937d93b1ae7c0676",
+        "assessment-3e97b53b7cd6a5cd578a",
+        "assessment-ec696990d9f239d2ee55",
+        "assessment-32db7397ac644a99e97a",
+        "assessment-ccdc32af3a278f1b03d0",
+        "assessment-3f2d602d14151181c550",
+        "assessment-964fee1d6473b3ef777f",
+        "assessment-a401b9754dd284cc135e",
+        "assessment-42f2a89774d60d4be454",
+        "assessment-47a4feccbf8c8adf13ad",
+        "assessment-f1c1b7178d64b5b5f669",
+        "assessment-5a6bd05f13849b6ebb9e",
+        "assessment-15a2585870e163675d24",
+        "assessment-4d3473ec3112ce35c94e",
+        "assessment-fc042518602b45cc0920",
+        "assessment-b5fae692dbe0d77983c7",
+        "assessment-a17196a60c97015419fd",
+        "assessment-e586a3e7ef56f1d9b72d",
+        "assessment-ab465ffa11af14063c9d",
+        "assessment-84dafb46653f1d5e0529",
+        "assessment-233b656c256b7dfde824",
+        "assessment-d9c627b79746fdd6f5ac",
+        "assessment-7bccee68bf262559321b",
+        "assessment-45a06bfd85bbd442ad8a",
+        "assessment-06a8393bb0b846570269",
+        "assessment-22c2c43987eb3f69c99e",
+        "assessment-7a0bc73aef81dc6c3848",
+        "assessment-85e5759784d10935c3f9",
+        "assessment-7d8783bde87a4ac233ad",
+        "assessment-e407b5de2ce91282e71c",
+        "assessment-1e454c0be2e2b4f5ee28",
+        "assessment-cc38dce3b81515e7c2e6",
+        "assessment-df1ab2e2827bdfc62642",
+        "assessment-0b7d62b68a4e8ced45e3",
+        "assessment-899b1c6db080329c9a71",
+        "assessment-0fa1e9f159bd4c16ee01",
+        "assessment-6689472cf256f51b80f6",
+        "assessment-d5c8cf271bc659344975",
+        "assessment-610ed2b01e35a5a911c4",
+        "assessment-entity-casr",
+        "assessment-relationship-a51dbf313ca98c574cb4",
+        "assessment-21e56e027d9290be42f7",
+        "assessment-relationship-7101d3e15ed241d8e567"
+      ],
+      "layoutId": "layout-calciphylaxis-overview"
+    }
+  },
+  {
+    "collection": "layouts",
+    "id": "layout-calciphylaxis-overview",
+    "kind": "changed",
+    "fields": [
+      "revisionId",
+      "positions"
+    ],
+    "before": {
+      "id": "layout-calciphylaxis-overview",
+      "revisionId": "layout-calciphylaxis-overview-r2",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-ckd-dialysis",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-obesity",
+          "x": 200,
+          "y": 200
+        },
+        {
+          "entityId": "entity-diabetes",
+          "x": 50,
+          "y": 350
+        },
+        {
+          "entityId": "entity-corticosteroids",
+          "x": 200,
+          "y": 500
+        },
+        {
+          "entityId": "entity-hypoalbuminaemia",
+          "x": 50,
+          "y": 650
+        },
+        {
+          "entityId": "entity-female-sex",
+          "x": 200,
+          "y": 800
+        },
+        {
+          "entityId": "entity-vka",
+          "x": 50,
+          "y": 950
+        },
+        {
+          "entityId": "entity-phosphate",
+          "x": 430,
+          "y": 50
+        },
+        {
+          "entityId": "entity-calcium-load",
+          "x": 580,
+          "y": 200
+        },
+        {
+          "entityId": "entity-pth",
+          "x": 430,
+          "y": 350
+        },
+        {
+          "entityId": "entity-vitamin-k",
+          "x": 580,
+          "y": 500
+        },
+        {
+          "entityId": "entity-mgp",
+          "x": 430,
+          "y": 650
+        },
+        {
+          "entityId": "entity-fetuin-a",
+          "x": 580,
+          "y": 800
+        },
+        {
+          "entityId": "entity-vsmc-osteogenic",
+          "x": 810,
+          "y": 50
+        },
+        {
+          "entityId": "entity-arteriolar-calcification",
+          "x": 960,
+          "y": 200
+        },
+        {
+          "entityId": "entity-intimal-hyperplasia",
+          "x": 810,
+          "y": 350
+        },
+        {
+          "entityId": "entity-thrombophilia",
+          "x": 960,
+          "y": 500
+        },
+        {
+          "entityId": "entity-thrombosis",
+          "x": 810,
+          "y": 650
+        },
+        {
+          "entityId": "entity-inflammation",
+          "x": 960,
+          "y": 800
+        },
+        {
+          "entityId": "entity-calciphylaxis",
+          "x": 1190,
+          "y": 50
+        },
+        {
+          "entityId": "entity-skin-necrosis",
+          "x": 1340,
+          "y": 200
+        },
+        {
+          "entityId": "entity-wound-infection",
+          "x": 1190,
+          "y": 350
+        },
+        {
+          "entityId": "entity-mortality",
+          "x": 1340,
+          "y": 500
+        },
+        {
+          "entityId": "entity-casr",
+          "x": 580,
+          "y": 350
+        }
+      ]
+    },
+    "after": {
+      "id": "layout-calciphylaxis-overview",
+      "revisionId": "layout-calciphylaxis-overview-maintenance-20261020",
+      "status": "candidate",
+      "positions": [
+        {
+          "entityId": "entity-ckd-dialysis",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "entityId": "entity-obesity",
+          "x": 200,
+          "y": 200
+        },
+        {
+          "entityId": "entity-diabetes",
+          "x": 50,
+          "y": 350
+        },
+        {
+          "entityId": "entity-corticosteroids",
+          "x": 200,
+          "y": 500
+        },
+        {
+          "entityId": "entity-hypoalbuminaemia",
+          "x": 50,
+          "y": 650
+        },
+        {
+          "entityId": "entity-female-sex",
+          "x": 200,
+          "y": 800
+        },
+        {
+          "entityId": "entity-vka",
+          "x": 50,
+          "y": 950
+        },
+        {
+          "entityId": "entity-phosphate",
+          "x": 430,
+          "y": 50
+        },
+        {
+          "entityId": "entity-calcium-load",
+          "x": 580,
+          "y": 200
+        },
+        {
+          "entityId": "entity-pth",
+          "x": 430,
+          "y": 350
+        },
+        {
+          "entityId": "entity-vitamin-k",
+          "x": 580,
+          "y": 500
+        },
+        {
+          "entityId": "entity-mgp",
+          "x": 430,
+          "y": 650
+        },
+        {
+          "entityId": "entity-fetuin-a",
+          "x": 580,
+          "y": 800
+        },
+        {
+          "entityId": "entity-vsmc-osteogenic",
+          "x": 810,
+          "y": 50
+        },
+        {
+          "entityId": "entity-arteriolar-calcification",
+          "x": 960,
+          "y": 200
+        },
+        {
+          "entityId": "entity-intimal-hyperplasia",
+          "x": 810,
+          "y": 350
+        },
+        {
+          "entityId": "entity-thrombophilia",
+          "x": 960,
+          "y": 500
+        },
+        {
+          "entityId": "entity-thrombosis",
+          "x": 810,
+          "y": 650
+        },
+        {
+          "entityId": "entity-inflammation",
+          "x": 960,
+          "y": 800
+        },
+        {
+          "entityId": "entity-calciphylaxis",
+          "x": 1190,
+          "y": 50
+        },
+        {
+          "entityId": "entity-skin-necrosis",
+          "x": 1340,
+          "y": 200
+        },
+        {
+          "entityId": "entity-wound-infection",
+          "x": 1190,
+          "y": 350
+        },
+        {
+          "entityId": "entity-mortality",
+          "x": 1340,
+          "y": 500
+        },
+        {
+          "entityId": "entity-casr",
+          "x": 580,
+          "y": 350
+        },
+        {
+          "entityId": "entity-pyrophosphate",
+          "x": 1190,
+          "y": 800
+        }
+      ]
+    }
+  }
+]

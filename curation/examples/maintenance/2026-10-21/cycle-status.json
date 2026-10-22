@@ -1,0 +1,20 @@
+{
+  "retrievalComplete": true,
+  "scientificProcessingComplete": false,
+  "localCandidateUpdatesComplete": true,
+  "registeredMaps": 16,
+  "updatedDiseases": [
+    "anca-associated-vasculitis",
+    "calciphylaxis",
+    "sle"
+  ],
+  "currentDeltaRecords": 5884,
+  "agentAuthoredDispositions": 100,
+  "automatedTitleMetadataDispositions": 5784,
+  "currentDeferredRecords": 3561,
+  "priorDeferredRecordsCarried": 20,
+  "sourceNoticeRecords": 45,
+  "sourceNoticeMatchesToBase": 0,
+  "cycleDate": "2026-10-21",
+  "scientificAuthoringDateUTC": "2026-10-20"
+}

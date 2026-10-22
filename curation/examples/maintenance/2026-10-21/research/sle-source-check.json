@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-21",
+  "checkedBy": {
+    "id": "codex-agent-source-check",
+    "kind": "agent"
+  },
+  "doi": "10.1371/journal.ppat.1014666",
+  "publisherUrl": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014666",
+  "access": "Publisher full text: abstract, Results, figures 1–6 and Discussion inspected by Codex agent on 2026-10-21; methods details and supplements not independently audited. Publisher XML cached alongside extraction.",
+  "noticeCheck": "Publisher research article, accepted 2026-08-27, published 2026-10-01; no correction/retraction notice seen in inspected publisher page or Europe PMC correction metadata.",
+  "limits": "Not human approval. Not a systematic source audit. The previous backlog Z-DNA/curli preprint is a different paper and remains unresolved."
+}

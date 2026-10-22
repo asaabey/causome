@@ -1,0 +1,101 @@
+{
+  "cycle": "curation/workspace/maintenance/2026-10-21/update-2026-10-21-8a7698af-ea14-4c41-bcd4-8770c8d42b58",
+  "counts": {
+    "anca-associated-vasculitis": {
+      "total": 10,
+      "deferred": 0,
+      "manual": 10,
+      "automatic": 0
+    },
+    "anti-gbm-disease": {
+      "total": 7,
+      "deferred": 1,
+      "manual": 7,
+      "automatic": 0
+    },
+    "atypical-hus": {
+      "total": 12,
+      "deferred": 1,
+      "manual": 12,
+      "automatic": 0
+    },
+    "behcet-disease": {
+      "total": 16,
+      "deferred": 2,
+      "manual": 16,
+      "automatic": 0
+    },
+    "c3-glomerulonephritis": {
+      "total": 5,
+      "deferred": 1,
+      "manual": 5,
+      "automatic": 0
+    },
+    "calciphylaxis": {
+      "total": 37,
+      "deferred": 16,
+      "manual": 8,
+      "automatic": 29
+    },
+    "crest-syndrome": {
+      "total": 36,
+      "deferred": 25,
+      "manual": 1,
+      "automatic": 35
+    },
+    "diffuse-systemic-sclerosis": {
+      "total": 1,
+      "deferred": 0,
+      "manual": 1,
+      "automatic": 0
+    },
+    "iga-nephropathy": {
+      "total": 561,
+      "deferred": 331,
+      "manual": 1,
+      "automatic": 560
+    },
+    "igg4-related-disease": {
+      "total": 11,
+      "deferred": 2,
+      "manual": 11,
+      "automatic": 0
+    },
+    "membranous-nephropathy": {
+      "total": 8,
+      "deferred": 2,
+      "manual": 8,
+      "automatic": 0
+    },
+    "minimal-change-nephropathy": {
+      "total": 65,
+      "deferred": 38,
+      "manual": 6,
+      "automatic": 59
+    },
+    "pre-eclampsia": {
+      "total": 1842,
+      "deferred": 1140,
+      "manual": 0,
+      "automatic": 1842
+    },
+    "primary-fsgs": {
+      "total": 15,
+      "deferred": 2,
+      "manual": 8,
+      "automatic": 7
+    },
+    "sjogren-disease": {
+      "total": 12,
+      "deferred": 2,
+      "manual": 5,
+      "automatic": 7
+    },
+    "sle": {
+      "total": 3246,
+      "deferred": 1998,
+      "manual": 1,
+      "automatic": 3245
+    }
+  }
+}

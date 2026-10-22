@@ -1,0 +1,250 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ski2467" xml:lang="en" article-type="brief-report" dtd-version="1.4"><?da-xref-anchor-style superscripted?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Skin Health Dis</journal-id><journal-id journal-id-type="iso-abbrev">Skin Health Dis</journal-id><journal-id journal-id-type="pmc-domain-id">4198</journal-id><journal-id journal-id-type="pmc-domain">skinhlthdis</journal-id><journal-id journal-id-type="nlm-id">9918227353706676</journal-id><journal-id journal-id-type="publisher-id">SKI2</journal-id><journal-title-group><journal-title>Skin Health and Disease</journal-title></journal-title-group><issn pub-type="epub">2690-442X</issn><?publisher_abbrev oup?><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11608863</article-id><article-id pub-id-type="pmcid-ver">PMC11608863.1</article-id><article-id pub-id-type="pmcaid">11608863</article-id><article-id pub-id-type="pmcaiid">11608863</article-id><article-id pub-id-type="pmid">39624760</article-id><article-id pub-id-type="doi">10.1002/ski2.467</article-id><article-id pub-id-type="publisher-id">SKI2467</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Letter</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Letters</subject></subj-group></article-categories><title-group><article-title>Outcomes in an educational skin‐model session on point‐of‐care ultrasound for diagnosing calciphylaxis</article-title></title-group><contrib-group><contrib id="ski2467-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Oscherwitz</surname><given-names initials="ME">Max E.</given-names></name><xref rid="ski2467-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ski2467-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>moscherw@wakehealth.edu</email></address></contrib><contrib id="ski2467-cr-0002" contrib-type="author"><name name-style="western"><surname>Kelly</surname><given-names initials="CT">Christopher T.</given-names></name><xref rid="ski2467-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ski2467-cr-0003" contrib-type="author"><name name-style="western"><surname>Francis</surname><given-names initials="B">Bridget</given-names></name><xref rid="ski2467-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="ski2467-cr-0004" contrib-type="author"><name name-style="western"><surname>Glass</surname><given-names initials="C">Casey</given-names></name><xref rid="ski2467-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="ski2467-cr-0005" contrib-type="author"><name name-style="western"><surname>Edminister</surname><given-names initials="JR">John R.</given-names></name><xref rid="ski2467-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ski2467-cr-0006" contrib-type="author"><name name-style="western"><surname>Feldman</surname><given-names initials="S">Steven</given-names></name><xref rid="ski2467-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ski2467-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><xref rid="ski2467-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref><xref rid="ski2467-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="ski2467-cr-0007" contrib-type="author"><name name-style="western"><surname>Strowd</surname><given-names initials="LC">Lindsay C.</given-names></name><xref rid="ski2467-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="ski2467-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Center for Dermatology Research</named-content>
+<named-content content-type="organisation-division">Department of Dermatology</named-content>
+<institution>Wake Forest School of Medicine</institution>
+<city>Winston‐Salem</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="ski2467-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>UAB Heersink School of Medicine</institution>
+<city>Birmingham</city>
+<named-content content-type="country-part">Alabama</named-content>
+<country country="US">USA</country>
+</aff><aff id="ski2467-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Internal Medicine</named-content>
+<institution>Wake Forest School of Medicine</institution>
+<city>Winston‐Salem</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="ski2467-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Wake Forest School of Medicine</named-content>
+<institution>Center for Experiential and Applied Learning</institution>
+<city>Winston‐Salem</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="ski2467-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Emergency Medicine</named-content>
+<institution>Wake Forest School of Medicine</institution>
+<city>Winston‐Salem</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="ski2467-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pathology</named-content>
+<institution>Wake Forest School of Medicine</institution>
+<city>Winston‐Salem</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="ski2467-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Social Sciences &amp; Health Policy</named-content>
+<institution>Wake Forest School of Medicine</institution>
+<city>Winston‐Salem</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="ski2467-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Department of Dermatology</named-content>
+<institution>University of Southern Denmark</institution>
+<city>Odense</city>
+<country country="DK">Denmark</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Max E. Oscherwitz.<break/>
+Email: <email>moscherw@wakehealth.edu</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>28</day><month>10</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2024</year></pub-date><volume>4</volume><issue seq="360">6</issue><issue-id pub-id-type="pmc-issue-id">476111</issue-id><issue-id pub-id-type="doi">10.1002/ski2.v4.6</issue-id><elocation-id>e467</elocation-id><pub-history><event event-type="pmc-release"><date><day>28</day><month>10</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>02</day><month>12</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-22 12:58:05.330"><day>22</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Author(s). Skin Health and Disease published by John Wiley &amp; Sons Ltd on behalf of British Association of Dermatologists.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="SKI2-4-e467.pdf"><?pdf-name SKI2-4-e467.pdf?><?pdf-size 222518?><?pdf-md5 3a8ffc34500410bb324b9045ebc16e57?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:3ac0/11608863/3a8ffc345004/SKI2-4-e467.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:SKI2-4-e467.pdf"/><funding-group><award-group id="funding-0001"><funding-source>This article received no specific grant from any funding agency in the public, commercial or not‐for‐profit sectors</funding-source></award-group></funding-group><counts><fig-count count="0"/><table-count count="2"/><page-count count="4"/><word-count count="2051"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.1 mode:remove_FC converted:01.12.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ski2467-cit-0007">
+<string-name name-style="western">
+<surname>Oscherwitz</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kelly</surname>
+<given-names>CT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Francis</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Glass</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Edminister</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feldman</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Outcomes in an educational skin‐model session on point‐of‐care ultrasound for diagnosing calciphylaxis</article-title>. <source>Skin Health Dis</source>. <year>2024</year>;<volume>4</volume>(<issue>6</issue>):<elocation-id>e467</elocation-id>. <pub-id pub-id-type="doi">10.1002/ski2.467</pub-id>
+<pub-id pub-id-type="pmcid">PMC11608863</pub-id><pub-id pub-id-type="pmid">39624760</pub-id></mixed-citation>
+</p></notes></front><body id="ski2467-body-0001"><p>Dear Editor,</p><p>Calciphylaxis is a disorder of vascular calcification that is generally seen in patients with kidney failure.<xref rid="ski2467-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="ski2467-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> Two sub‐types of calciphylaxis exist: uraemic and non‐uraemic. Uraemic calciphylaxis exclusively affects patients with advanced end‐stage renal disease (ESRD) and has an incidence of 35 cases per 10,000 patients receiving dialysis in the United States.<xref rid="ski2467-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="ski2467-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Although the incidence of non‐uraemic calciphylaxis is not known, it appears rare and may be found in patients with normal renal function, less advanced ESRD, and other conditions including hyperparathyroidism, malignant neoplasm, alcoholic liver disease and autoimmune disorders.<xref rid="ski2467-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="ski2467-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>
+</p><p>If not diagnosed and treated promptly, the disease can result in significant tissue damage and has a 1‐year mortality rate of over 50%.<xref rid="ski2467-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> Current techniques used to diagnose calciphylaxis rely heavily on clinical suspicion and skin biopsy; however, limitations associated with histopathologic examination limit the utility of this diagnostic tool.<xref rid="ski2467-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>
+</p><p>Point‐of‐care ultrasound (POCUS) has emerged as a powerful and non‐invasive diagnostic tool utilized by multiple medical subspecialities. POCUS has many advantages, including ease of use, cost‐effectiveness and lack of ionizing radiation. Advances in technology have refined POCUS's ability to visualize the skin and cutaneous pathology. POCUS is now utilized to detect cysts, tumours, vascular lesions and inflammatory conditions, and recent studies have described the diagnostic potential of POCUS for calciphylaxis.<xref rid="ski2467-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="ski2467-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="ski2467-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="ski2467-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> Here, we describe the outcomes of an educational session on POCUS for diagnosing calciphylaxis among dermatology residents.</p><sec id="ski2467-sec-0020"><label>1</label><title>METHODS</title><p>Twelve dermatology residents attended a two‐part workshop facilitated by dermatology, internal medicine and emergency medicine faculty. They first participated in a lecture on calciphylaxis pathophysiology and clinical presentation, as well as POCUS techniques and principles. Immediately following this didactic content, they participated in a hands‐on station‐based workshop where they were able to practice scanning using different high‐frequency ultrasound machines on normal skin, calciphylaxis skin models and water bath scanning of digits. The calciphylaxis skin model was previously created by the authors and mimics arterioles lined with calcium using ballistic gel, fishing line and crushed‐up seashells (Supplemental Figure <xref rid="ski2467-sup-0001" ref-type="supplementary-material">1a,b</xref>). Residents were given a pre‐ and post‐workshop survey to assess their attitudes towards POCUS as a diagnostic modality and efficacy of the workshop. Statistical analysis was conducted via Fisher’s exact test.</p></sec><sec id="ski2467-sec-0030"><label>2</label><title>RESULTS</title><p>Nine and 12 residents completed the pre‐ and post‐workshop survey, respectively. The components of resident performance were analyzed by subjective (Table <xref rid="ski2467-tbl-0001" ref-type="table">1</xref>) and objective (Table <xref rid="ski2467-tbl-0002" ref-type="table">2</xref>) measures. Regarding subjective performance, residents' attitudes shifted towards higher rates of agreement for utilizing POCUS in a dermatologic setting, feeling more comfortable operating and interpreting results from POCUS studies and being more likely to consider utilizing POCUS in cases of suspected calciphylaxis after participating in the workshop. Regarding objective performance, residents demonstrated improvement in all assessment categories apart from their ability to describe a characteristic POCUS finding in calciphylaxis.</p><table-wrap position="float" id="ski2467-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Attitudes towards POCUS and calciphylaxis.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Statement</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pre‐workshop</th><th align="left" valign="bottom" rowspan="1" colspan="1">Post‐workshop</th><th align="left" valign="bottom" rowspan="1" colspan="1">Fisher exact test</th></tr></thead><tbody valign="top"><tr><td rowspan="5" align="left" valign="top" colspan="1">POCUS is a valuable diagnostic tool in the outpatient dermatology setting</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 2/12 (16.7%)</td><td rowspan="5" align="left" valign="top" colspan="1">
+<italic toggle="yes">p</italic> = 0.0006*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">A: 2/9 (22.2%)</td><td align="left" valign="top" rowspan="1" colspan="1">A: 10/12 (83.3%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">N: 4/9 (44.4%)</td><td align="left" valign="top" rowspan="1" colspan="1">N: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">D: 3/9 (33.3%)</td><td align="left" valign="top" rowspan="1" colspan="1">D: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/12 (0%)</td></tr><tr><td rowspan="5" align="left" valign="top" colspan="1">POCUS is a valuable diagnostic tool in the inpatient dermatology setting</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 10/12 (83.3%)</td><td rowspan="5" align="left" valign="top" colspan="1">
+<italic toggle="yes">p</italic> = 0.0004*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">A: 8/9 (88.9%)</td><td align="left" valign="top" rowspan="1" colspan="1">A: 2/12 (16.7%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">N: 1/9 (11.1%)</td><td align="left" valign="top" rowspan="1" colspan="1">N: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">D: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">D: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/12 (0%)</td></tr><tr><td rowspan="5" align="left" valign="top" colspan="1">I feel confident in my ability to correctly perform a POCUS scan of skin/soft tissue</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 1/12 (8.3%)</td><td rowspan="5" align="left" valign="top" colspan="1">
+<italic toggle="yes">p</italic> = 0.0002*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">A: 1/9 (11.1%)</td><td align="left" valign="top" rowspan="1" colspan="1">A: 8/12 (66.7%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">N: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">N: 3/12 (25%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">D: 6/9 (66.7%)</td><td align="left" valign="top" rowspan="1" colspan="1">D: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SD: 2/9 (22.2%)</td><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/12 (0%)</td></tr><tr><td rowspan="5" align="left" valign="top" colspan="1">I feel confident in my ability to correctly interpret skin and soft tissue ultrasound findings</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 1/12 (8.3%)</td><td rowspan="5" align="left" valign="top" colspan="1">
+<italic toggle="yes">p</italic> &lt; 0.0001*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">A: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">A: 7/12 (58.3%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">N: 1/9 (11.1%)</td><td align="left" valign="top" rowspan="1" colspan="1">N: 4/12 (33.3%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">D: 6/9 (66.7%)</td><td align="left" valign="top" rowspan="1" colspan="1">D: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SD: 2/9 (22.2%)</td><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/12 (0%)</td></tr><tr><td rowspan="5" align="left" valign="top" colspan="1">I feel confident in my ability to operate an ultrasound machine by controlling depth and gain for image optimization</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 5/12 (41.2%)</td><td rowspan="5" align="left" valign="top" colspan="1">
+<italic toggle="yes">p</italic> = 0.0003*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">A: 1/9 (11.1%)</td><td align="left" valign="top" rowspan="1" colspan="1">A: 7/12 (58.3%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">N: 2/9 (22.2%)</td><td align="left" valign="top" rowspan="1" colspan="1">N: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">D: 3/9 (33.3%)</td><td align="left" valign="top" rowspan="1" colspan="1">D: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SD: 3/9 (33.3%)</td><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/12 (0%)</td></tr><tr><td rowspan="5" align="left" valign="top" colspan="1">I feel confident in my ability to use POCUS to augment my history and traditional physical exam to obtain additional clinically relevant information that can be incorporated into my clinical reasoning</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 3/12 (25%)</td><td rowspan="5" align="left" valign="top" colspan="1">
+<italic toggle="yes">p</italic> = 0.0011*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">A: 1/9 (11.1%)</td><td align="left" valign="top" rowspan="1" colspan="1">A: 7/12 (58.3%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">N: 1/9 (11.1%)</td><td align="left" valign="top" rowspan="1" colspan="1">N: 2/12 (16.7%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">D: 6/9 (66.7%)</td><td align="left" valign="top" rowspan="1" colspan="1">D: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SD: 1/9 (11.1%)</td><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/12 (0%)</td></tr><tr><td rowspan="6" align="left" valign="top" colspan="1">I would consider utilizing POCUS in any case of suspected dermatologic disease to help in my clinical evaluation and assessment</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 1/7 (14.3%)</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 2/12 (16.7%)</td><td rowspan="6" align="left" valign="top" colspan="1">
+<italic toggle="yes">p</italic> = 0.075</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">A: 1/7 (14.3%)</td><td align="left" valign="top" rowspan="1" colspan="1">A: 8/12 (66.7%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">N: 3/7 (42.9%)</td><td align="left" valign="top" rowspan="1" colspan="1">N: 1/12 (8.3%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">D: 2/7 (28.6%)</td><td align="left" valign="top" rowspan="1" colspan="1">D: 1/12 (8.3%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/7 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">^2 responses left blank</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td rowspan="5" align="left" valign="top" colspan="1">I would consider utilizing POCUS in cases of suspected calciphylaxis to assist in the clinical evaluation, diagnostic process and management decisions</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 5/9 (55.6%)</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 10/12 (83.3%)</td><td rowspan="5" align="left" valign="top" colspan="1">
+<italic toggle="yes">p</italic> = 0.33</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">A: 4/9 (44.4%)</td><td align="left" valign="top" rowspan="1" colspan="1">A: 2/12 (16.7%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">N: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">N: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">D: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">D: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/12 (0%)</td></tr><tr><td rowspan="5" align="left" valign="top" colspan="1">I am interested in receiving further specialized training in the use of POCUS to help identify other dermatological diseases</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 2/9 (22.2%)</td><td align="left" valign="top" rowspan="1" colspan="1">SA: 5/12 (41.2%)</td><td rowspan="5" align="left" valign="top" colspan="1">
+<italic toggle="yes">p</italic> = 0.44</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">A: 4/9 (44.4%)</td><td align="left" valign="top" rowspan="1" colspan="1">A: 6/12 (50%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">N: 3/9 (33.3%)</td><td align="left" valign="top" rowspan="1" colspan="1">N: 1/12 (8.3%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">D: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">D: 0/12 (0%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/9 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1">SD: 0/12 (0%)</td></tr></tbody></table><table-wrap-foot id="ski2467-ntgp-0001"><fn id="ski2467-note-0003"><p>Abbreviations: A, Agree; D, Disagree; N, Neutral; SA, Strongly agree; SD, Strongly Disagree.</p></fn><fn id="ski2467-note-0103"><p>*Statistically significant.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="ski2467-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Knowledge of POCUS and calciphylaxis concepts.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Question topic</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pre‐workshop # correct</th><th align="left" valign="bottom" rowspan="1" colspan="1">Post‐workshop # correct</th><th align="left" valign="bottom" rowspan="1" colspan="1">Fisher exact test</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Ability to define general echogenicity</td><td align="char" char="( (" valign="top" rowspan="1" colspan="1">6/8 (75%) (1 left blank)</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">9/12 (75%)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> = 1.0</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Ability to define hyperechogenicity and hypoechogenicity</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">7/9 (77.8%)</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">11/12 (91.2%)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> = 0.55</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Ability to choose which POCUS probe would be most appropriate for examining a patient in the case of suspected calciphylaxis</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">4/9 (44.4%)</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">12/12 (100%)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> = 0.005*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Ability to discern the optimal POCUS depth to look for affected vessels in calciphylaxis</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">7/9 (77.8%)</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">12/12 (100%)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> = 0.17</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Ability to discern a characteristic POCUS finding in calciphyalxis</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">8/9 (88.9%)</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">9/12 (75%)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> = 0.60</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Ability to ID the presence of calciphylaxis when shown a POCUS image (with at least 50% accuracy)</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">3/9 (33.3%)</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">8/12 (66.7%)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> = 0.19</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Ability to ID the absence of calciphylaxis when shown a POCUS image (with at least 50% accuracy)</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">3/9 (33.3%)</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">5/12 (41.2%)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> = 1.0</td></tr></tbody></table><table-wrap-foot id="ski2467-ntgp-0002"><fn id="ski2467-note-0004"><p>*Statistically significant.</p></fn></table-wrap-foot></table-wrap></sec><sec id="ski2467-sec-0040"><label>3</label><title>DISCUSSION</title><p>Calciphylaxis is a disease which requires expedient and accurate diagnosis to minimize morbidity and mortality. POCUS, while historically underutilized in dermatology, is gaining popularity for cutaneous use as the technology advances and resolution of skin structures improves. Due to its non‐invasive nature, POCUS may be an optimal tool to detect calciphylaxis, especially given the classic signs of hyperechoic calcium in dermal vessels coupled with a hypoechoic shadow. (Supplemental Figure <xref rid="ski2467-sup-0001" ref-type="supplementary-material">2a,b</xref>) Barriers to use POCUS include accessibility of high‐frequency ultrasound machines and lack of training in dermatology programmes.</p><p>The residents who attended the workshop had a range of POCUS experience (no formal training to medical school longitudinal training). The main objective of the workshop was to introduce basic concepts and techniques of POCUS and train residents on how to identify ultrasonographic features of calciphylaxis. The workshop was a success as residents reported enjoying the team‐building and hands‐on components of the workshop, and their survey results reflect an improvement in their attitudes, confidence and knowledge regarding ultrasound, calciphylaxis and the ability to detect calciphylaxis using POCUS.</p><p>The study's principal limitation was its small sample size, which resulted in low statistical power. Furthermore, the model we created has not been formally validated as a diagnostic tool for calciphylaxis, emphasizing the importance of using POCUS as a supplemental tool. We recommend the utilization of POCUS in combination with other diagnostic modalities (i.e., skin biopsy, the current gold standard of diagnosis) when assessing for calciphylaxis. Future studies may incorporate data from multiple sites (i.e., a summation of multiple residency programmes' results) and longitudinal workshop training.</p></sec><sec sec-type="COI-statement" id="ski2467-sec-0050"><title>CONFLICT OF INTEREST STATEMENT</title><p>Steven Feldman has received research, speaking and/or consulting support from a variety of companies including Galderma, GSK/Stiefel, Almirall, Leo Pharma, Boehringer Ingelheim, Mylan, Celgene, Pfizer, Valeant, Abbvie, Samsung, Janssen, Lilly, Menlo, Merck, Novartis, Regeneron, Sanofi, Novan, Qurient, National Biological Corporation, Caremark, Advance Medical, Sun Pharma, Suncare Research, Informa, UpToDate and National Psoriasis Foundation. He is founder and majority owner of <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.DrScore.com" ext-link-type="uri">www.DrScore.com</ext-link> and founder and part owner of Causa Research, a company dedicated to enhancing patients' adherence to treatment. Lindsay Strowd has received research, speaking and/or consulting support from Galderma, Pfizer, Sanofi, Regeneron. The remaining authors have no conflicts to disclose.</p></sec><sec id="ski2467-sec-0070"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Max E. Oscherwitz</bold>: Conceptualization (equal); data curation (equal); formal analysis (equal); funding acquisition (equal); investigation (equal); methodology (equal); project administration (equal); resources (equal); validation (equal); visualization (equal); writing—original draft (equal); writing—review and editing (equal). <bold>Christopher T. Kelly</bold>: Conceptualization (lead); data curation (equal); formal analysis (equal); funding acquisition (lead); investigation (lead); methodology (lead); project administration (lead); resources (equal); software (equal); supervision (equal); validation (equal); visualization (equal); writing—original draft (equal); writing—review and editing (equal). <bold>Bridget Francis</bold>: Conceptualization (equal); funding acquisition (equal); investigation (equal); project administration (equal); writing—original draft (equal); writing—review and editing (equal). <bold>Casey Glass</bold>: Project administration (equal); writing—original draft (equal); writing—review and editing (equal). <bold>John R. Edminister</bold>: Project administration (equal); writing—original draft (equal); writing—review and editing (equal). <bold>Steven Feldman</bold>: Project administration (equal); writing—original draft (equal); writing—review and editing (equal). <bold>Lindsay C. Strowd</bold>: Conceptualization (lead); data curation (equal); formal analysis (equal); funding acquisition (lead); investigation (lead); methodology (lead); project administration (lead); resources (equal); software (equal); supervision (equal); validation (equal); visualization (equal); writing—original draft (equal); writing—review and editing (equal).</p></sec><sec id="ski2467-sec-0080"><title>FUNDING INFORMATION</title><p>This article received no specific grant from any funding agency in the public, commercial, or not‐for‐profit sectors.</p></sec><sec id="ski2467-sec-0110"><title>ETHICS STATEMENT</title><p>Not applicable.</p></sec><sec id="ski2467-sec-0120"><title>PATIENT CONSENT</title><p>Not applicable.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ski2467-sup-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information S1</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SKI2-4-e467-s001.docx" position="float" orientation="portrait"><?suppdata-name SKI2-4-e467-s001.docx?><?suppdata-size 2707199?><?suppdata-md5 5749e131be5622e13e8a316b939c8ee6?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:3ac0/11608863/5749e131be56/SKI2-4-e467-s001.docx?></media></supplementary-material></sec></body><back><ack id="ski2467-sec-0060"><title>ACKNOWLEDGEMENTS</title><p>Not applicable.</p></ack><sec sec-type="data-availability" id="ski2467-sec-0100"><title>DATA AVAILABILITY STATEMENT</title><p>Research data are not shared.</p></sec><ref-list content-type="cited-references" id="ski2467-bibl-0001"><title>REFERENCES</title><ref id="ski2467-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="ski2467-cit-0001">
+<string-name name-style="western">
+<surname>Hilton</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bowers</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strowd</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kelly</surname>
+<given-names>CT</given-names>
+</string-name>. <article-title>Point‐of‐care ultrasound: an emerging tool for diagnosing calciphylaxis</article-title>. <source>AIM ClinicalCases</source>. <year>2022</year>;<volume>1</volume>(<issue>9</issue>):<elocation-id>e220441</elocation-id>. <pub-id pub-id-type="doi">10.7326/aimcc.2022.0441</pub-id>
+</mixed-citation></ref><ref id="ski2467-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="ski2467-cit-0002">
+<string-name name-style="western">
+<surname>Nigwekar</surname>
+<given-names>SU</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thadhani</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brandenburg</surname>
+<given-names>VM</given-names>
+</string-name>. <article-title>Calciphylaxis</article-title>. <source>N Engl J Med</source>. <year>2018</year>;<volume>378</volume>(<issue>18</issue>):<fpage>1704</fpage>–<lpage>1714</lpage>. PMID: 29719190. <pub-id pub-id-type="doi">10.1056/NEJMra1505292</pub-id>
+<pub-id pub-id-type="pmid">29719190</pub-id>
+</mixed-citation></ref><ref id="ski2467-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="ski2467-cit-0003">
+<string-name name-style="western">
+<surname>Altman</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shinohara</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Demographics, comorbid conditions, and outcomes of patients with nonuremic calciphylaxis</article-title>. <source>JAMA Dermatol</source>. <year>2019</year>;<volume>155</volume>(<issue>2</issue>):<fpage>251</fpage>–<lpage>252</lpage>. <pub-id pub-id-type="doi">10.1001/jamadermatol.2018.4937</pub-id>
+<pub-id pub-id-type="pmid">30601879</pub-id>
+<pub-id pub-id-type="pmcid">PMC6439536</pub-id></mixed-citation></ref><ref id="ski2467-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="ski2467-cit-0004">
+<string-name name-style="western">
+<surname>Bhambri</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Del Rosso</surname>
+<given-names>JQ</given-names>
+</string-name>. <article-title>Calciphylaxis: a review</article-title>. <source>J Clin Aesthet Dermatol</source>. <year>2008</year>;<volume>1</volume>(<issue>2</issue>):<fpage>38</fpage>–<lpage>41</lpage>. PMID: 21103322; PMCID: PMC2989826.<pub-id pub-id-type="pmcid">PMC2989826</pub-id><pub-id pub-id-type="pmid">21103322</pub-id></mixed-citation></ref><ref id="ski2467-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="ski2467-cit-0005">
+<string-name name-style="western">
+<surname>Almuhanna</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wortsman</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wohlmuth‐Wieser</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kinoshita‐Ise</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alhusayen</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Overview of ultrasound imaging applications in dermatology [formula: see text]</article-title>. <source>J Cutan Med Surg</source>. <year>2021</year>;<volume>25</volume>(<issue>5</issue>):<fpage>521</fpage>–<lpage>529</lpage>. Epub 2021 Mar 7. PMID: 33682489; PMCID: PMC8474315. <pub-id pub-id-type="doi">10.1177/1203475421999326</pub-id>
+<pub-id pub-id-type="pmid">33682489</pub-id>
+<pub-id pub-id-type="pmcid">PMC8474315</pub-id></mixed-citation></ref><ref id="ski2467-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="ski2467-cit-0006">
+<string-name name-style="western">
+<surname>Levy</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barrett</surname>
+<given-names>DL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harris</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jeong</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>SC</given-names>
+</string-name>. <article-title>High‐frequency ultrasound in clinical dermatology: a review</article-title>. <source>Ultrasound J</source>. <year>2021</year>;<volume>13</volume>(<issue>1</issue>):<fpage>24</fpage>. <pub-id pub-id-type="doi">10.1186/s13089-021-00222-w</pub-id>
+<pub-id pub-id-type="pmid">33877462</pub-id>
+<pub-id pub-id-type="pmcid">PMC8058126</pub-id></mixed-citation></ref></ref-list></back></article>

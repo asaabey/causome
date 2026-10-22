@@ -1,0 +1,343 @@
+[
+  {
+    "diseaseId": "iga-nephropathy",
+    "sourceKey": "pmc-pmc13647163",
+    "identifiers": [
+      "PMC:PMC13647163",
+      "PMCID:PMC13647163"
+    ],
+    "sourceContentHash": "b981721e8e7a302a28e94de144510b65fd9c334e52745e509cb0741059668e1a",
+    "previousHashPrefix": "b981721e8e7a302a",
+    "decision": "deferred",
+    "reason": "Complement biomarker review. Complement is absent from the 5-source IgAN map; a scope gap that needs primary sources, not this review. No abstract cached",
+    "title": "Complement biomarkers in IgA nephropathy: current insights and clinical relevance",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "sourceKey": "med-41849643",
+    "identifiers": [
+      "MED:41849643",
+      "PMID:41849643"
+    ],
+    "sourceContentHash": "99d36765f8233aa2965fc14a4fb40a1a4814ab4e2095771d45634a5e5f269a6d",
+    "previousHashPrefix": "99d36765f8233aa2",
+    "decision": "deferred",
+    "reason": "NICE TA: targeted-release budesonide. Map has no therapies; adding therapy layer needs primary trial (NefIgArd) and scope decision",
+    "title": "Targeted-release budesonide for treating primary IgA nephropathy",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "sourceKey": "med-40763234",
+    "identifiers": [
+      "MED:40763234",
+      "PMID:40763234"
+    ],
+    "sourceContentHash": "8261a11ac1dd4f14809dd925f4690c8d077a61fb4908ae043b8e514f0460cc30",
+    "previousHashPrefix": "8261a11ac1dd4f14",
+    "decision": "deferred",
+    "reason": "NICE TA: sparsentan. Therapy-scope deferral (needs PROTECT primary source)",
+    "title": "Sparsentan for treating primary IgA nephropathy",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "iga-nephropathy",
+    "sourceKey": "med-40245201",
+    "identifiers": [
+      "MED:40245201",
+      "PMID:40245201"
+    ],
+    "sourceContentHash": "4806f2b991247e358e5c9cbc08035ab79f0c39155e4cafda0c1fa909aeb62694",
+    "previousHashPrefix": "4806f2b991247e35",
+    "decision": "deferred",
+    "reason": "NICE TA: targeted-release budesonide (earlier). Same therapy-scope deferral",
+    "title": "Targeted-release budesonide for treating primary IgA nephropathy",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "membranous-nephropathy",
+    "sourceKey": "pmc-pmc13602309",
+    "identifiers": [
+      "PMC:PMC13602309",
+      "PMCID:PMC13602309"
+    ],
+    "sourceContentHash": "c568e3e77388a2cfab96874a44e1d0af1da9c6ef6097aa3fd847b93e3d8dc0df",
+    "previousHashPrefix": "c568e3e77388a2cf",
+    "decision": "deferred",
+    "reason": "Anti-contactin-1 MN case report. CNTN1 is not named in the \"Further podocyte target antigens\" grouping; a single case is insufficient. Needs the primary CNTN1 antigen source before any change",
+    "title": "Anti-Contactin-1-Associated Membranous Nephropathy Presenting With Subsequent Autoimmune Nodopathy",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "minimal-change-nephropathy",
+    "sourceKey": "pmc-pmc10914286",
+    "identifiers": [
+      "PMC:PMC10914286",
+      "PMCID:PMC10914286"
+    ],
+    "sourceContentHash": "9674dca314f22c61c27a41f63d3e048eb6e2789a2509e203c1fc3b733c96e212",
+    "previousHashPrefix": "9674dca314f22c61",
+    "decision": "deferred",
+    "reason": "Systematic review of MCD after COVID-19 vaccination. Map has no trigger/context nodes; scope decision needed. No abstract cached",
+    "title": "Minimal change disease following COVID-19 vaccination: A systematic review",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "sourceKey": "doi-53529762c5e10f3e4b1d",
+    "identifiers": [
+      "DOI:10.1101/2024.03.20.586039",
+      "PPR:PPR826237"
+    ],
+    "sourceContentHash": "1b6385ab90237a69f29580cc2cb2ae37bc1d20490a5efc9574010773696e8401",
+    "previousHashPrefix": "1b6385ab90237a69",
+    "decision": "deferred",
+    "reason": "Preprint (bioRxiv 2024, still preprint-only per Europe PMC check on 2026-10-15): fetal APOL1-G1 causes maternal hypertension and FGR in mice; placental endothelial Spp1. Would add a fetal APOL1 genotype mechanism; wait for peer review and pair with human genetic-association evidence",
+    "title": "Preeclampsia in mice carrying fetuses with APOL1 risk variants",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "sourceKey": "med-35050561",
+    "identifiers": [
+      "MED:35050561",
+      "PMID:35050561"
+    ],
+    "sourceContentHash": "230922224466c33f37a462c304fddb1caf29bcd175778e77642c878eef2ff012",
+    "previousHashPrefix": "230922224466c33f",
+    "decision": "deferred",
+    "reason": "WHO aspirin recommendation; prevention-layer scope deferral",
+    "title": "WHO recommendations on antiplatelet agents for the prevention of pre-eclampsia",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "sourceKey": "med-32343507",
+    "identifiers": [
+      "MED:32343507",
+      "PMID:32343507"
+    ],
+    "sourceContentHash": "99ec6b080874540a6480a392b7e42eedc036eb51a0738abc115ff7828139d5e5",
+    "previousHashPrefix": "99ec6b080874540a",
+    "decision": "deferred",
+    "reason": "WHO preconception calcium recommendation; prevention-layer scope deferral",
+    "title": "WHO recommendation on Calcium supplementation before pregnancy for the prevention of pre-eclampsia and its complications",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "sourceKey": "med-34644040",
+    "identifiers": [
+      "MED:34644040",
+      "PMID:34644040"
+    ],
+    "sourceContentHash": "4c2b7f4d63b5bee55a1a29e02c67d58f1673b9196b3d1a32d594d42572d44bb2",
+    "previousHashPrefix": "4c2b7f4d63b5bee5",
+    "decision": "deferred",
+    "reason": "USPSTF aspirin update; prevention-layer scope deferral",
+    "title": "Aspirin Use to Prevent Preeclampsia and Related Morbidity and Mortality",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "sourceKey": "med-30629391",
+    "identifiers": [
+      "MED:30629391",
+      "PMID:30629391"
+    ],
+    "sourceContentHash": "e7e8cb32bc700136856a93c9abb7ad16d1557adfb08d8b3df94cb8d1d34b9a22",
+    "previousHashPrefix": "e7e8cb32bc700136",
+    "decision": "deferred",
+    "reason": "WHO calcium recommendation; prevention-layer scope deferral",
+    "title": "WHO recommendation: Calcium supplementation during pregnancy for the prevention of pre-eclampsia and its complications",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "pre-eclampsia",
+    "sourceKey": "doi-c491d26b312a0a4d2121",
+    "identifiers": [
+      "DOI:10.7326/m13-2844",
+      "MED:24783270",
+      "PMID:24783270"
+    ],
+    "sourceContentHash": "835939e6c30c98792164a96ef9e71ed927337b03edd8781e4aa5cf3c3db1a817",
+    "previousHashPrefix": "835939e6c30c9879",
+    "decision": "deferred",
+    "reason": "USPSTF aspirin evidence review. Map has no therapy/prevention layer; scope decision (aspirin, calcium) needed with primary trials",
+    "title": "Low-Dose Aspirin for the Prevention of Morbidity and Mortality From Preeclampsia: A Systematic Evidence Review for the U.S. Preventive Services Task Force",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "sle",
+    "sourceKey": "pmc-pmc13649430",
+    "identifiers": [
+      "PMC:PMC13649430",
+      "PMCID:PMC13649430"
+    ],
+    "sourceContentHash": "13372e44d2d8888e976c488dbf9f524fa6426ac1a32e0b8b6b68e86a947d6094",
+    "previousHashPrefix": "13372e44d2d8888e",
+    "decision": "deferred",
+    "reason": "Telitacicept (TACI-Fc; BAFF/APRIL) meta-analysis. New therapy against the existing BAFF node; needs primary phase 3 sources and a scope decision. No abstract cached",
+    "title": "Efficacy and safety of telitacicept in adults with systemic lupus erythematosus: a systematic review and stratified meta-analysis",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "sle",
+    "sourceKey": "doi-b63fefe7b20ebddce8e8",
+    "identifiers": [
+      "DOI:10.20944/preprints202609.0900.v1",
+      "PPR:PPR1316993"
+    ],
+    "sourceContentHash": "235a40aa2ad74dc9f46514fee3a28fa8f96ccfae1d50e55261cc2881d3bf4d18",
+    "previousHashPrefix": "235a40aa2ad74dc9",
+    "decision": "deferred",
+    "reason": "Tacrolimus/voclosporin LN induction meta-analysis (preprint). LN therapy-scope deferral",
+    "title": "Use of Tacrolimus and Voclosporin as Induction Therapy in Lupus Nephritis: A Focused Systematic Review and Meta-Analysis of Randomized Evidence",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "sle",
+    "sourceKey": "pmc-pmc13646173",
+    "identifiers": [
+      "PMC:PMC13646173",
+      "PMCID:PMC13646173"
+    ],
+    "sourceContentHash": "2cd6e5f8314ac0f3c450b486664f8e2debccce4aed9185853a883fae998d7e2a",
+    "previousHashPrefix": "2cd6e5f8314ac0f3",
+    "decision": "deferred",
+    "reason": "CAR-T timing perspective in SLE/LN; CAR-T is not in map therapy scope; deferral pending scope decision",
+    "title": "When too late is too late: timing of CAR T-cell therapy in SLE & lupus nephritis",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "sle",
+    "sourceKey": "med-42641035",
+    "identifiers": [
+      "MED:42641035",
+      "PMID:42641035"
+    ],
+    "sourceContentHash": "1e90fba334d4c3d869c742855927298f92c2e1b4882ed3ac9235e5ac04b39ee7",
+    "previousHashPrefix": "1e90fba334d4c3d8",
+    "decision": "deferred",
+    "reason": "Obinutuzumab LN reimbursement review. New LN therapy (anti-CD20; REGENCY); map has no LN therapy context. Scope deferral",
+    "title": "Obinutuzumab (Gazyva): Therapeutic area: Lupus nephritis: Reimbursement Review",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "sle",
+    "sourceKey": "med-42330146",
+    "identifiers": [
+      "MED:42330146",
+      "PMID:42330146"
+    ],
+    "sourceContentHash": "ea99d55648128ed7a6ceea3fbb8def92954ecd6f35a094376d611f7fa2816260",
+    "previousHashPrefix": "ea99d55648128ed7",
+    "decision": "deferred",
+    "reason": "Obinutuzumab LN reimbursement recommendation; same deferral",
+    "title": "Obinutuzumab (Gazyva): Indication: For the treatment of adult patients with active lupus nephritis who are receiving standard therapy: Reimbursement Recommendation",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "sle",
+    "sourceKey": "med-41838837",
+    "identifiers": [
+      "MED:41838837",
+      "PMID:41838837"
+    ],
+    "sourceContentHash": "83ac0569d2a9784a7814e6c1cce55f639c91788c91869cd0d39ae02c142aaed7",
+    "previousHashPrefix": "83ac0569d2a9784a",
+    "decision": "deferred",
+    "reason": "NICE TA obinutuzumab + MMF in LN; same deferral",
+    "title": "Obinutuzumab with mycophenolate mofetil for treating lupus nephritis",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "sle",
+    "sourceKey": "doi-76b410a7ceb94ed7f944",
+    "identifiers": [
+      "DOI:10.64898/2026.03.02.708989",
+      "PPR:PPR1221403"
+    ],
+    "sourceContentHash": "a9fbdaa8d56ac26032845704630e593f464ca409ae2e5daf284111f2b4a7b3c5",
+    "previousHashPrefix": "a9fbdaa8d56ac260",
+    "decision": "deferred",
+    "reason": "Preprint: Salmonella biofilm Z-DNA/curli elicits anti-DNA antibodies (mouse). Possible exogenous nucleic-acid antigen route to the existing Self DNA/Autoantibodies path; no human causal evidence. Wait for peer review",
+    "title": "Biofilm-Derived Curli and Z-DNA Shape Anti-DNA Antibody Responses During Salmonella Infections",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  },
+  {
+    "diseaseId": "sle",
+    "sourceKey": "med-40127165",
+    "identifiers": [
+      "MED:40127165",
+      "PMID:40127165"
+    ],
+    "sourceContentHash": "33aa1ca14f69673621aac22804ed98adbe03595e52ba95a35173f6ead10538e6",
+    "previousHashPrefix": "33aa1ca14f696736",
+    "decision": "deferred",
+    "reason": "NICE TA voclosporin in LN; LN therapy-scope deferral",
+    "title": "Voclosporin with mycophenolate mofetil for treating lupus nephritis",
+    "previousCycle": "2026-10-15",
+    "cycleDate": "2026-10-21",
+    "currentDisposition": "Carried unresolved; not replaced by the different anti-C1q curli paper or by current retrieval. A matching current record does not establish resolution.",
+    "previousHandoff": "curation/workspace/maintenance/2026-10-15/update-2026-10-15-8a049ba4-cb2d-4c67-a20c-af5e47b22016/handoff.md"
+  }
+]

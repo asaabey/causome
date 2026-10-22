@@ -24,6 +24,7 @@ function GraphWorkspace({ release, shortLabels }: { release: ReleaseBundle; shor
   const [viewId, setViewId] = useState(release.mapViews[0]?.id);
   const view = release.mapViews.find(item => item.id === viewId) ?? release.mapViews[0];
   const layout = release.layouts.find(item => item.id === view?.layoutId);
+  const mapContext = release.contexts.find(item => item.id === view?.contextId);
   const [groupState, setGroupState] = useState<Record<string, boolean>>({});
   const hiddenIds = useMemo(() => new Set((view.groups ?? []).filter(group => groupState[`${view.id}:${group.id}`] ?? group.collapsed).flatMap(group => group.entityIds)), [view, groupState]);
   const entities = useMemo(() => release.entities.filter(item => view?.entityIds.includes(item.id) && !hiddenIds.has(item.id)), [release, view, hiddenIds]);
@@ -110,6 +111,7 @@ function GraphWorkspace({ release, shortLabels }: { release: ReleaseBundle; shor
     <p className="graph-sr-only" role="status" aria-live="polite" aria-atomic="true">{selectionAnnouncement ? `Selected ${selectionAnnouncement}. Evidence is available in the evidence inspector.` : 'No selection. Select an entity, relationship or therapy.'}</p>
     <div className="mechanism-main">
       <div className="mechanism-heading"><div><span className="graph-kicker">Mechanism overview</span><h2>{view?.label ?? release.title}</h2></div><span className="mechanism-count">Showing {entities.length}/{release.entities.length} entities · {relationships.length}/{release.relationships.length} relationships</span></div>
+      {mapContext && <details className="mechanism-context"><summary><span className="graph-kicker">Biological context</span>{mapContext.label}</summary><p>{[mapContext.organism, mapContext.phenotype, mapContext.tissue, mapContext.stage].filter(Boolean).join(' · ')}</p></details>}
       {release.mapViews.length > 1 && <div className="mechanism-view-picker"><label htmlFor="mechanism-view">Explore a route</label><select id="mechanism-view" value={view.id} onChange={event => { setViewId(event.target.value); setSelection(null); }}>{release.mapViews.map(item => <option key={item.id} value={item.id}>{item.label.replace(/ · domain review pending$/i, '')}</option>)}</select><a href="#mechanism-outline">Complete evidence outline</a></div>}
       <MechanismSearch release={release} onSelect={next => inspect(next, true)} />
       {!!view.groups?.length && <div className="mechanism-groups" aria-label="Mechanism groups">{view.groups.map(group => {

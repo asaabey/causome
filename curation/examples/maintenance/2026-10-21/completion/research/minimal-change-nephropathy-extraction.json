@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "diseaseId": "minimal-change-nephropathy",
+  "baseReleaseId": "minimal-change-nephropathy-summary-candidate-08ba4223dd93",
+  "baseContentDigest": "6b14c7cea37c38f58baf04e98bb927829699998d3286921191b371a42ebcfd51",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "codex-agent-manual-source-curation-v1",
+  "newEntities": [
+    {
+      "id": "entity-hemopexin-activity",
+      "label": "Hemopexin protease activity",
+      "synonyms": [
+        "Active hemopexin",
+        "Hx activity"
+      ],
+      "entityClass": "process",
+      "description": "Circulating hemopexin-associated protease activity measured in human MCD relapse and remission; observational evidence does not establish causal sufficiency.",
+      "externalIds": []
+    }
+  ],
+  "findings": [
+    {
+      "paperKey": "doi-f4022f33400ef1bb3784",
+      "paperDigest": "b0e5aa2e08e72e696b0a0e7fe0b1bca0e928df78c18e068b880a38bcb9768ce3",
+      "sourceCheck": {
+        "checkedBy": "codex-agent-source-check",
+        "checkedAt": "2026-10-20"
+      },
+      "evidenceType": "human_observational",
+      "distinctFindingRationale": "Newly screened primary report; one study, not independent replication of its multiple readouts.",
+      "id": "mcd-hemopexin-relapse-association-20261020",
+      "category": "novel",
+      "subject": "entity-hemopexin-activity",
+      "object": "entity-nephrotic",
+      "predicate": "is_associated_with",
+      "contextId": "context-mcn-overview",
+      "causalInterpretation": "association",
+      "text": "Plasma hemopexin protease activity was higher in patients with minimal change disease in relapse than in remission after prednisolone, and differed from selected other proteinuric diseases and healthy controls. This supports a circulating-factor hypothesis without establishing hemopexin as a cause of human MCD.",
+      "quote": "an increased Hx activity",
+      "quoteLocation": "Primary-report Abstract: Results, item 2, and Conclusion.",
+      "studySystem": "Human MCD relapse (18) versus post-prednisolone remission (23), with selected FSGS, MPGN, IgAN and healthy comparators; hemopexin activity assayed on kidney tissue in vitro.",
+      "limitations": [
+        "Observational disease-state comparison with treatment differences and small comparator groups; temporal direction and causal sufficiency are not established.",
+        "The activity assay does not identify a universal circulating factor or establish that hemopexin causes all human MCD.",
+        "Lower measured hemopexin concentration coexisted with greater activity; abundance and protease activity must not be conflated."
+      ]
+    }
+  ]
+}

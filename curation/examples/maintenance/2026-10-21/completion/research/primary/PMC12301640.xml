@@ -1,0 +1,136 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ped70094" xml:lang="en" article-type="other" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Pediatr Int</journal-id><journal-id journal-id-type="iso-abbrev">Pediatr Int</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">100886002</journal-id><journal-id journal-id-type="publisher-id">PED</journal-id><journal-title-group><journal-title>Pediatrics International</journal-title></journal-title-group><issn pub-type="ppub">1328-8067</issn><issn pub-type="epub">1442-200X</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12301640</article-id><article-id pub-id-type="pmcid-ver">PMC12301640.1</article-id><article-id pub-id-type="pmcaid">12301640</article-id><article-id pub-id-type="pmcaiid">12301640</article-id><article-id pub-id-type="pmid">40717359</article-id><article-id pub-id-type="doi">10.1111/ped.70094</article-id><article-id pub-id-type="publisher-id">PED70094</article-id><article-id pub-id-type="other">PED-00629-2024.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Clinical Note</subject></subj-group><subj-group subj-group-type="heading"><subject>Clinical Note</subject></subj-group></article-categories><title-group><article-title>An infant with cutis marmorata telangiectatica congenita born to a mother with systemic lupus erythematosus</article-title><alt-title alt-title-type="right-running-head">An infant with <styled-content style="fixed-case" toggle="no">CMTC</styled-content> born to a mother with <styled-content style="fixed-case" toggle="no">SLE</styled-content>
+</alt-title><alt-title alt-title-type="left-running-head">Makii et al.</alt-title></title-group><contrib-group><contrib id="ped70094-cr-0001" contrib-type="author"><name name-style="western"><surname>Makii</surname><given-names initials="R">Risa</given-names></name><xref rid="ped70094-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ped70094-cr-0002" contrib-type="author" corresp="yes"><name name-style="western"><surname>Mukai</surname><given-names initials="T">Takeo</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6648-1271</contrib-id><xref rid="ped70094-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>mukait-ped@h.u-tokyo.ac.jp</email></address></contrib><contrib id="ped70094-cr-0003" contrib-type="author"><name name-style="western"><surname>Kobayashi</surname><given-names initials="M">Mami</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8544-4326</contrib-id><xref rid="ped70094-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ped70094-cr-0004" contrib-type="author"><name name-style="western"><surname>Sugimoto</surname><given-names initials="E">Eiki</given-names></name><xref rid="ped70094-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ped70094-cr-0005" contrib-type="author"><name name-style="western"><surname>Omatsu</surname><given-names initials="J">Jun</given-names></name><xref rid="ped70094-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ped70094-cr-0006" contrib-type="author"><name name-style="western"><surname>Yamashita</surname><given-names initials="T">Takashi</given-names></name><xref rid="ped70094-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ped70094-cr-0007" contrib-type="author"><name name-style="western"><surname>Takahashi</surname><given-names initials="N">Naoto</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2353-4430</contrib-id><xref rid="ped70094-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="ped70094-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pediatrics</named-content>
+<institution>The University of Tokyo Hospital</institution>
+<city>Tokyo</city>
+<country country="JP">Japan</country>
+</aff><aff id="ped70094-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Dermatology</named-content>
+<institution>The University of Tokyo Hospital</institution>
+<city>Tokyo</city>
+<country country="JP">Japan</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Takeo Mukai, Department of Pediatrics, The University of Tokyo Hospital, Hongo, Bunkyo‐ku, Tokyo 113‐8655, Japan.<break/>
+Email: <email>mukait-ped@h.u-tokyo.ac.jp</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>27</day><month>7</month><year>2025</year></pub-date><pub-date pub-type="ppub"><season>Jan-Dec</season><year>2025</year></pub-date><volume>67</volume><issue seq="3570">1</issue><issue-id pub-id-type="pmc-issue-id">493882</issue-id><issue-id pub-id-type="doi">10.1111/ped.v67.1</issue-id><elocation-id>e70094</elocation-id><history>
+<date date-type="rev-recd"><day>30</day><month>1</month><year>2025</year></date>
+<date date-type="received"><day>24</day><month>9</month><year>2024</year></date>
+<date date-type="accepted"><day>10</day><month>3</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>28</day><month>07</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>29</day><month>07</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-24 11:37:37.907"><day>24</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Pediatrics International</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of Japan Pediatric Society.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="PED-67-e70094.pdf"><?pdf-name PED-67-e70094.pdf?><?pdf-size 447050?><?pdf-md5 7608ad4a91b41b15a1f76bd69c0fc284?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:6f93/12301640/7608ad4a91b4/PED-67-e70094.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:PED-67-e70094.pdf"/><kwd-group kwd-group-type="author-generated"><kwd id="ped70094-kwd-0001">cutis marmorata telangiectatica congenita</kwd><kwd id="ped70094-kwd-0002">neonatal lupus</kwd><kwd id="ped70094-kwd-0003">SLE</kwd></kwd-group><counts><fig-count count="1"/><table-count count="0"/><page-count count="3"/><word-count count="1000"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January/December 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.9 mode:remove_FC converted:28.07.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="PED70094-cit-2001">
+<string-name name-style="western">
+<surname>Makii</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mukai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kobayashi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sugimoto</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Omatsu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yamashita</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>An infant with cutis marmorata telangiectatica congenita born to a mother with systemic lupus erythematosus</article-title>. <source>Pediatr Int</source>. <year>2025</year>;<volume>67</volume>:<elocation-id>e70094</elocation-id>. <pub-id pub-id-type="doi">10.1111/ped.70094</pub-id>
+<pub-id pub-id-type="pmcid">PMC12301640</pub-id><pub-id pub-id-type="pmid">40717359</pub-id></mixed-citation>
+</p></notes></front><body id="ped70094-body-0001"><p>Cutis marmorata telangiectatica congenita (CMTC) is a rare and benign capillary disease of unknown cause, characterized by marbled skin patches accompanied by body asymmetry, neurological disorders, and ophthalmological complications.<xref rid="ped70094-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> Although diagnostic criteria have been defined for CMTC, the diagnosis of CMTC is one of exclusion and differentiation from other underlying diseases is important.<xref rid="ped70094-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> Here, we report the case of a newborn with CMTC in which a skin biopsy was required for differentiation from neonatal lupus, as the mother had a history of systemic lupus erythematosus (SLE) and Sjögren's syndrome.</p><p>The female neonate was noted to have reticulated marbled erythema and body asymmetry between the left and right feet on the first day of life. Her 30‐year‐old mother had been diagnosed with SLE and Sjögren's syndrome at 17 years old and was being treated with prednisone, hydroxychloroquine, and belimumab. The infant was born by vaginal delivery at 37 weeks of gestation. Apgar score was 8 at 1 min and 9 at 5 min, and body weight was 2574 g. On physical examination, cutis marmoratus lesions were observed on the right face, right abdomen, right upper extremity, and lower extremity. No atrophy and ulcers were observed. In addition, the circumference of the thigh was 1 cm smaller on the right than on the left (Figure <xref rid="ped70094-fig-0001" ref-type="fig">1</xref>, panels a and b). Laboratory tests were notable for elevated anti‐SS‐A antibody (210 U/mL). ECG showed no atrioventricular block. On day 9, anti‐SS‐A antibody was over 240 U/mL, and skin biopsy was performed to rule out neonatal lupus. The results showed no lymphocyte infiltration (c), which would be seen in neonatal lupus, and direct immunofluorescence was negative for IgG, IgA, IgM, and C‐1q. In addition, dilated blood vessels were observed in the subcutaneous adipose tissue (panel d, arrow). Based on these pathological findings consistent with CMTC, a diagnosis of CMTC was made. Brain MRI and MRA suggested no cerebrovascular malformations, and no evidence of congenital glaucoma was observed. At a 2‐month check‐up, the patient was developmentally normal. The cutis marmoratus lesions still remain faintly, and although there is no difference in leg length between the left and right legs, the circumference of the thigh was 1 cm smaller on the right than on the left (panels e and f). In addition, anti‐SS‐A antibody decreased to 8.7 U/mL at a 6‐month check‐up.</p><fig position="float" fig-type="FIGURE" id="ped70094-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>(a) Cutis marmoratus lesions on the right abdomen, right upper extremity and lower extremity. (b) Gross appearance of the body. (c) Skin pathology. Scale bar, 200 μm. (d) Skin pathology. Scale bar, 200 μm. (e) Both lower extremities at a 6‐month check‐up. (f) Cutis marmoratus lesions at a 6‐month check‐up.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="PED-67-e70094-g001.jpg"><?image-name PED-67-e70094-g001.jpg?><?image-size 98809?><?image-md5 df468097934e116521f155510a7a6e45?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 653?><?image-original-width 1064?><?image-scaled-height 435?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/6f93/12301640/df468097934e/PED-67-e70094-g001.jpg?><?thumb-name PED-67-e70094-g001.gif?><?thumb-size 9915?><?thumb-md5 171d1c6683bdd4022cea8b1f1b491a49?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 130?><?thumb-cloudpmc-urn urn:cdn:blobs/6f93/12301640/171d1c6683bd/PED-67-e70094-g001.gif?></graphic></fig><p>CMTC is an uncommon and distinctive vascular malformation, and its etiology remains unknown. CMTC is frequently accompanied by body asymmetry (asymmetry of the limbs, trunk and face) in 37.7%, neurological defects (seizures and developmental delay) in 10.1%, and ophthalmological complications (congenital glaucoma) in 9.9%.<xref rid="ped70094-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> Given these complications, follow‐up differs from that for spontaneously resolving neonatal lupus, and differential diagnosis is important. Distinguishing between CMTC and neonatal lupus is often difficult, but the skin biopsy in this case allowed us to rapidly rule out neonatal lupus, as a previous paper has reported the pathological findings of CMTC, in which multiple dilated capillaries and veins are within the dermis.<xref rid="ped70094-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Similar to our present report, some previous papers about CMTC have reported differentiation from neonatal lupus.<xref rid="ped70094-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="ped70094-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> Based on these case reports, it may be possible that CMTC is more likely to occur in cases of maternal SLE, but the reasons for this remain unclear. CMTC infants born to mothers with a history of SLE may have specific complications and require unique outpatient follow‐up, so we conclude that skin biopsy is not necessary but can be useful in differentiation from neonatal lupus and diagnosis of CMTC.</p><sec id="ped70094-sec-0003"><title>AUTHOR CONTRIBUTIONS</title><p>R.M. and T.M. drafted the manuscript. M.K., E.S., J.O., T.Y., and N.T. revised the manuscript for intellectual content. All authors have read and approved the final version of the manuscript.</p></sec><sec id="ped70094-sec-0005"><title>INFORMED CONSENT</title><p>Informed consent for publication of this case report was obtained from the parents of the patient.</p></sec><sec sec-type="COI-statement" id="ped70094-sec-0002"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflict of interest.</p></sec></body><back><ack id="ped70094-sec-0004"><title>ACKNOWLEDGMENTS</title><p>The authors would like to thank Dr. Atsushi Kondo in the Department of Pathology, The University of Tokyo Hospital, for the skin pathology.</p></ack><sec sec-type="data-availability" id="ped70094-sec-0007"><title>DATA AVAILABILITY STATEMENT</title><p>Data sharing not applicable to this article as no datasets were generated or analysed during the current study.</p></sec><ref-list content-type="cited-references" id="ped70094-bibl-0001"><title>REFERENCES</title><ref id="ped70094-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="ped70094-cit-0001">
+<string-name name-style="western">
+<surname>Bui</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Corap</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bygum</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Cutis marmorata telangiectatica congenita: a literature review</article-title>. <source>Orphanet J Rare Dis</source>. <year>2019</year>;<volume>14</volume>:<fpage>283</fpage>.<pub-id pub-id-type="pmid">31801575</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13023-019-1229-8</pub-id><pub-id pub-id-type="pmcid">PMC6894123</pub-id></mixed-citation></ref><ref id="ped70094-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="ped70094-cit-0002">
+<string-name name-style="western">
+<surname>Kienast</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoeger</surname>
+<given-names>PH</given-names>
+</string-name>. <article-title>Cutis marmorata telangiectatica congenita: a prospective study of 27 cases and review of the literature with proposal of diagnostic criteria</article-title>. <source>Clin Exp Dermatol</source>. <year>2009</year>;<volume>34</volume>:<fpage>319</fpage>–<lpage>323</lpage>.<pub-id pub-id-type="pmid">19196300</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1365-2230.2008.03074.x</pub-id></mixed-citation></ref><ref id="ped70094-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="ped70094-cit-0003">
+<string-name name-style="western">
+<surname>Fujita</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Darmstadt</surname>
+<given-names>GL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dinulos</surname>
+<given-names>JG</given-names>
+</string-name>. <article-title>Cutis marmorata telangiectatica congenita with hemangiomatous histopathologic features</article-title>. <source>J Am Acad Dermatol</source>. <year>2003</year>;<volume>48</volume>:<fpage>950</fpage>–<lpage>954</lpage>.<pub-id pub-id-type="pmid">12789192</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1067/mjd.2003.301</pub-id></mixed-citation></ref><ref id="ped70094-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="ped70094-cit-0004">
+<string-name name-style="western">
+<surname>Ghotbabadi</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barzegar</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abdolvand</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Generalized cutis marmorata telangiectatica congenita or neonatal lupus? A case report and literature review</article-title>. <source>Clin Case Rep</source>. <year>2024</year>;<volume>12</volume>(<issue>5</issue>):<elocation-id>e8898</elocation-id>. <pub-id pub-id-type="doi">10.1002/ccr3.8898</pub-id>
+<pub-id pub-id-type="pmid">38721566</pub-id>
+<pub-id pub-id-type="pmcid">PMC11077185</pub-id></mixed-citation></ref><ref id="ped70094-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="ped70094-cit-0005">
+<string-name name-style="western">
+<surname>Trevisan</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cunha</surname>
+<given-names>PR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pinto</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cattete</surname>
+<given-names>FG</given-names>
+</string-name>. <article-title>Cutaneous neonatal lupus with cutis marmorata telangiectatica congenita‐like lesions</article-title>. <source>An Bras Dermatol</source>. <year>2013</year>;<volume>88</volume>:<fpage>428</fpage>–<lpage>431</lpage>.<pub-id pub-id-type="pmid">23793203</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1590/abd1806-4841.20131832</pub-id><pub-id pub-id-type="pmcid">PMC3754378</pub-id></mixed-citation></ref></ref-list></back></article>

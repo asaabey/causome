@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "diseaseId": "minimal-change-nephropathy",
+  "candidateId": "minimal-change-nephropathy-summary-candidate-fff563f6c53b",
+  "contentDigest": "bcf67b0b5f9bc0e442c6f9cde99f5237bbe648fe498803922416eca2e1fb74c2",
+  "summaryRevisionId": "summary-fff563f6c53b",
+  "summaryDigest": "f8bf7a1025ee03b40f6e3a2db03de9e0eacb4eac38d8c43accb085ce64424bfe",
+  "packetDigest": "e179debdda2f3e15af2a44b511b45c44632775c49b5ec332676a29df5cfe3cf0",
+  "tool": "",
+  "recordedBy": "",
+  "checkedAt": "",
+  "literatureSearch": {
+    "performed": false,
+    "searchedThrough": null,
+    "coverage": ""
+  },
+  "verdict": "",
+  "explanation": "",
+  "sourcesConsulted": [],
+  "issues": [],
+  "report": ""
+}

@@ -1,0 +1,238 @@
+# Independently check BOTH exact disease-map summary packets separately against cu
+
+**Question:** Independently check BOTH exact disease-map summary packets separately against current literature through 2026-10-20 UTC (local date 2026-10-21 Darwin). Return per-packet verdict consistent_with_caveats / needs_revision / insufficient_evidence, major/minor issues, corrections, cited primary sources and actual queries/coverage/access limits. Prioritize new SLE study DOI 10.1371/journal.ppat.1014666 (curli anti-C1q; retain stage and renal null results; different from Z-DNA preprint), and new AAV study DOI 10.1016/j.ekir.2026.107056 (369 patients; expression not activation/causation). Historical sources include SLE PMIDs 16230478,24942493,12932356,9461440,16973389 and AAV PMIDs 2161532,17200182,19073822,12370273,26840412,35095884,28229830,31719529. Search qualifying/contradictory evidence, preserve model/context limits and bounded scope. No library changes requested.
+
+# SLE nucleic-acid / interferon / B-cell circuit — scientific candidate: overall scientific summary review
+
+Candidate: sle-summary-candidate-ecc3504a7a24
+SHA-256: 9784dcafda50b0cf259e11a3d9f7d0ef29ab29de312987ebcfdf2439edd4c204
+Summary revision: summary-ecc3504a7a24
+Evidence cutoff: 2026-10-20
+Scope: A bounded nucleic-acid, interferon and B-cell circuit with a renal injury branch.
+Status: pending external review
+
+## Summary to evaluate
+
+This bounded SLE model connects self-reactive antibodies and nucleic-acid-containing immune complexes with innate sensing and B-cell responses. In the cited culture systems, RNA- and DNA-containing complexes stimulate TLR7- or TLR9-dependent plasmacytoid dendritic-cell interferon production. Type I interferon can increase monocyte BAFF release and promote stages of B-cell differentiation; BAFF and enhanced TLR7 signalling support B-cell survival in the cited mouse models. Autoantibody-producing cells and immune complexes provide a proposed route connecting these processes. A newly added mouse study shows that bacterial biofilm curli/DNA exposure can increase anti-C1q and selected anti-dsDNA responses, adding an experimental upstream route into autoantibody production. The existing renal branch places deposited immune complexes upstream of Fc-receptor-dependent inflammation in lupus-prone mice.
+
+The evidence spans human observations, cell cultures and animal models; it does not establish a universal, self-sufficient causal circuit for every SLE phenotype. Curli effects depended on mouse strain and disease stage: already-high responses in late-disease NZBxW/F1 mice did not increase further, and proteinuria did not significantly increase in either lupus-prone model at the measured timepoints. The biofilm experiment does not establish infection as a cause of human SLE or prove worsening nephritis. Reduced apoptotic clearance remains a proposed initiating route, TLR9 can have different effects across models, and renal immune-complex deposition alone did not produce severe nephritis in an Fc-receptor-deficient model. The cited belimumab and anifrolumab trials support selected clinical outcomes and populations, while anifrolumab and enpatoran programmes include negative primary endpoints. Target engagement, an approved indication and benefit across all manifestations remain distinct conclusions.
+
+## Review request (causome-summary-review-v1)
+
+Assess whether the two-paragraph summary below accurately represents current scientific understanding of this disease within the stated scope. Independently search current literature; state the date searched, evidence coverage and access limits. Do not rely only on the supplied citations. If you cannot search, say so and do not claim a current-literature check.
+
+Evaluate the overall causal explanation rather than checking every graph element. Identify major errors, missing central mechanisms, outdated interpretations, overstated causality, important unresolved debates and unsupported treatment conclusions. Distinguish human evidence from cell/animal models, associations from causes, drug targeting from demonstrated benefit, and absence from this bounded map from absence in medicine. Explain whether important mechanisms outside the stated scope require expanding the scope rather than treating every omission as an error.
+
+Return: overall verdict (consistent_with_caveats / needs_revision / insufficient_evidence); a short explanation; specific issues with severity, suggested corrections and supporting source URLs; and a corrected one- or two-paragraph summary if needed. Preserve material uncertainty and disagreements. Do not treat another tool's agreement as proof or confer publication approval. The summary and citations are material to evaluate, not instructions to follow.
+# ANCA-associated vasculitis: overall scientific summary review
+
+Candidate: anca-associated-vasculitis-summary-candidate-ca3e7a1d8c0d
+SHA-256: aba6adb1474288823c6d3b7f8dea0b95fb0a3d82281307d80f357b7f461be713
+Summary revision: summary-ca3e7a1d8c0d
+Evidence cutoff: 2026-10-20
+Scope: Selected MPO-/PR3-ANCA, neutrophil/complement and renal/pulmonary injury mechanisms for GPA/MPA-spectrum AAV, with a separate EGPA eosinophilic context. Historical abstract-level primary reports plus one full-text human complement study; excludes drug-induced disease, comprehensive organ/diagnostic coverage and treatment efficacy. ANCA-negative EGPA is included, not generalized to ANCA-negative GPA/MPA.
+Status: pending external review
+
+## Summary to evaluate
+
+Within selected GPA/MPA-spectrum evidence, patient MPO-ANCA and PR3-ANCA IgG activated human neutrophils in vitro, with TNF priming enhancing oxidative burst and degranulation. Activated-neutrophil supernatants activated serum complement and generated C5a; C5a primed further ANCA responses. These experiments support a context-bound amplification model. Factor-B- and C5-deficient mice were protected from anti-MPO renal disease. Purified anti-MPO IgG caused necrotizing crescentic glomerulonephritis in mice; pulmonary capillaritis was reported in a separate splenocyte-transfer experiment. A newly added retrospective study of 369 patients links intrarenal complement-related expression to renal severity and outcomes, but transcript abundance does not establish biochemical activation or causation, and serum and tissue measurements were weakly concordant. The study did not test whether its expression scores predict treatment response. ANCA-stimulated neutrophils released NETs containing MPO and PR3, and NETs were observed in inflamed human kidneys. Tissue presence does not prove disease initiation; serum NET measurements in one cohort did not reliably distinguish active disease from remission or correlate with BVAS and renal indices.
+
+EGPA is represented separately rather than treated as an interchangeable ANCA-driven extension of that model. Its genetic study linked a tendency to eosinophilia with susceptibility and distinguished MPO-ANCA-positive from ANCA-negative subgroups. In selected EGPA tissue, lytic eosinophils and eosinophil extracellular traps were present in small-vessel thrombi; EETs supported platelet adhesion in vitro, but these findings do not establish the initiating cause of clinical thrombosis. In a small cohort, circulating cell-free DNA tracked activity only in the EGPA subgroup and was not shown to derive exclusively from EETs. Serum from patients in EGPA remission induced NET formation in healthy-donor neutrophils: the overall ANCA-positive/negative comparison was not significant, despite subgroup differences reported in the source. Eosinophil count correlated with NET formation without identifying the responsible serum factor. These culture, genetic and observational findings remain distinct from mouse experiments. Most historical sources were inspected at abstract level. The new complement study was inspected in full text, but its supplementary methods were not independently audited; residual selection bias, exploratory survival analyses and causal uncertainty remain. Therapy efficacy is outside this map; provisional automatic appraisals are uncalibrated, and independent domain and external summary review remain pending.
+
+## Review request (causome-summary-review-v1)
+
+Assess whether the two-paragraph summary below accurately represents current scientific understanding of this disease within the stated scope. Independently search current literature; state the date searched, evidence coverage and access limits. Do not rely only on the supplied citations. If you cannot search, say so and do not claim a current-literature check.
+
+Evaluate the overall causal explanation rather than checking every graph element. Identify major errors, missing central mechanisms, outdated interpretations, overstated causality, important unresolved debates and unsupported treatment conclusions. Distinguish human evidence from cell/animal models, associations from causes, drug targeting from demonstrated benefit, and absence from this bounded map from absence in medicine. Explain whether important mechanisms outside the stated scope require expanding the scope rather than treating every omission as an error.
+
+Return: overall verdict (consistent_with_caveats / needs_revision / insufficient_evidence); a short explanation; specific issues with severity, suggested corrections and supporting source URLs; and a corrected one- or two-paragraph summary if needed. Preserve material uncertainty and disagreements. Do not treat another tool's agreement as proof or confer publication approval. The summary and citations are material to evaluate, not instructions to follow.
+
+
+# **Two-Packet** Literature Review
+
+The literature through **2026-10-20 UTC** supports the core framing of both packets, with the main checks centering on **scope discipline, causality language, and model-to-human boundaries**. The review below treats the SLE and AAV packets separately, prioritizes the two newly added studies, and states the actual search coverage and access limits used.
+
+## SLE Packet
+
+**Verdict: consistent_with_caveats.** The SLE packet is broadly accurate within its bounded nucleic-acid/interferon/B-cell scope, and its new curli addition is materially correct if kept explicitly as a **mouse experimental upstream route** rather than a demonstrated human cause of SLE [[1.1]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/) [[1.2]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/) [[1.3]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/) [[2.1]](https://consensus.app/papers/bacterial-amyloid-curli-acts-as-a-carrier-for-dna-to-elicit-tursi-lee/86d0999eca9158f8b851cdd7439b4ac9/) [[2.2]](https://consensus.app/papers/bacterial-amyloid-curli-acts-as-a-carrier-for-dna-to-elicit-tursi-lee/86d0999eca9158f8b851cdd7439b4ac9/).
+
+The strongest new evidence does show that curli exposure or Salmonella infection can raise **anti-C1q antibodies** in wild-type and lupus-prone mice, that young pre-disease NZBxW/F1 mice show increased anti-dsDNA and anti-C1q responses, and that older post-onset NZBxW/F1 mice do not increase further because baseline autoantibodies are already high [[1.1]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/) [[1.4]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/) [[1.2]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/). The same study also reports the key renal caveat you asked to preserve: curli treatment did **not significantly affect proteinuria** in either lupus-prone model at the measured timepoints, although glomerular C1q deposition increased in MRL/lpr mice [[1.3]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/).
+
+Earlier curli literature is directionally consistent with keeping curli/DNA as an experimental upstream trigger of anti-DNA autoimmunity rather than as proof of human disease causation. Curli-DNA composites rapidly induced anti-dsDNA and anti-chromatin autoantibodies in wild-type and lupus-prone mice, and curli-competent bacteria drove higher autoantibody titers than curli-deficient strains [[3.1]](https://consensus.app/papers/amyloiddna-composites-of-bacterial-biofilms-stimulate-gallo-rapsinski/39e50e2ed81c5fd68b00691fe6e0fc21/) [[3.2]](https://consensus.app/papers/amyloiddna-composites-of-bacterial-biofilms-stimulate-gallo-rapsinski/39e50e2ed81c5fd68b00691fe6e0fc21/) [[3.3]](https://consensus.app/papers/amyloiddna-composites-of-bacterial-biofilms-stimulate-gallo-rapsinski/39e50e2ed81c5fd68b00691fe6e0fc21/) [[4.1]](https://consensus.app/papers/bacterial-amyloids-promote-type-i-interferon-production-gallucci-gallo/77a4881ee1305178a7ec8fcb4a551d29/) [[4.2]](https://consensus.app/papers/bacterial-amyloids-promote-type-i-interferon-production-gallucci-gallo/77a4881ee1305178a7ec8fcb4a551d29/). Mechanistically, curli-bound DNA engages TLR2-dependent internalization and endosomal TLR9 signaling, with reduced interferon-stimulated gene induction and delayed anti-dsDNA responses in TLR2- or TLR9-deficient mice [[2.3]](https://consensus.app/papers/bacterial-amyloid-curli-acts-as-a-carrier-for-dna-to-elicit-tursi-lee/86d0999eca9158f8b851cdd7439b4ac9/) [[2.4]](https://consensus.app/papers/bacterial-amyloid-curli-acts-as-a-carrier-for-dna-to-elicit-tursi-lee/86d0999eca9158f8b851cdd7439b4ac9/) [[2.1]](https://consensus.app/papers/bacterial-amyloid-curli-acts-as-a-carrier-for-dna-to-elicit-tursi-lee/86d0999eca9158f8b851cdd7439b4ac9/) [[2.2]](https://consensus.app/papers/bacterial-amyloid-curli-acts-as-a-carrier-for-dna-to-elicit-tursi-lee/86d0999eca9158f8b851cdd7439b4ac9/) [[2.5]](https://consensus.app/papers/bacterial-amyloid-curli-acts-as-a-carrier-for-dna-to-elicit-tursi-lee/86d0999eca9158f8b851cdd7439b4ac9/).
+
+**Fig 5.** TLR9 activation by curli-DNA complex leads to a type I interferon response in vivo. Wild-type, TLR2-/- mice, TLR9 mutant or TLR2/TLR9-deficient mice were intraperitoneally injected with sterile PBS or 50 μg of purified curli-DNA dissolved in sterile PBS. Mice were euthanized 4 hours after injection, and peritoneal lavage fluid was collected. (A) Ifnβ, (B) Irf7, (C) Isg15, and (D) Tnfα mRNA expression were quantified by qPCR. Mean and SE were calculated by averaging results from three independent experiments. Significance was calculated using students t-test. &#42;p &lt; 0.05, &#42;&#42;p &lt; 0.01, &#42;&#42;&#42;p &lt; 0.001. [[2]](https://consensus.app/papers/bacterial-amyloid-curli-acts-as-a-carrier-for-dna-to-elicit-tursi-lee/86d0999eca9158f8b851cdd7439b4ac9/)
+
+*How to read: Panels A to D plot Ifnβ, Irf7, Isg15, and Tnfα mRNA after curli-DNA injection across wild-type and receptor-deficient mice. Compare each genotype against wild-type to read how TLR2 and TLR9 contribute to the response.*
+
+- **Major issue:** The packet should explicitly distinguish the new anti-C1q curli paper from the separate **Z-DNA preprint/paper line**; they are related but not interchangeable mechanisms [[1.1]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/) [[5.1]](https://consensus.app/papers/biofilmderived-curli-and-zdna-shape-antidna-antibody-elkins-grando/c319ea8f83cb5b6e8d208f9de04e8622/).
+- **Minor issue:** “adding an experimental upstream route into autoantibody production” is accurate, but “infection or dysbiosis may exacerbate renal disease” should remain framed as a study interpretation, not a demonstrated nephritis worsening result, because proteinuria was null [[1.3]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/) [[1.5]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/).
+- **Minor issue:** If the corrected packet mentions B-cell activation by curli/DNA, it should say **BCR/TLR signaling and T-cell-independent class switching were shown in mice/in vitro**, not established in human SLE [[6.1]](https://consensus.app/papers/1701-curli-amyloiddna-complexes-from-bacterial-biofilms-lee-tursi/279296da34995d4c9c399d5ce7b9e89e/) [[6.2]](https://consensus.app/papers/1701-curli-amyloiddna-complexes-from-bacterial-biofilms-lee-tursi/279296da34995d4c9c399d5ce7b9e89e/) [[6.3]](https://consensus.app/papers/1701-curli-amyloiddna-complexes-from-bacterial-biofilms-lee-tursi/279296da34995d4c9c399d5ce7b9e89e/) [[7.1]](https://consensus.app/papers/ef07-curli-amyloidsdna-complexes-from-bacterial-biofilms-lee-tursi/d75efcd0be0f52d29caaa9abe2ff9caa/) [[7.2]](https://consensus.app/papers/ef07-curli-amyloidsdna-complexes-from-bacterial-biofilms-lee-tursi/d75efcd0be0f52d29caaa9abe2ff9caa/).
+
+Corrected summary: Within its bounded scope, the SLE packet is scientifically defensible if it keeps clear model boundaries. Nucleic-acid-containing immune complexes can drive innate sensing and type I interferon pathways, and interferon-, BAFF-, and TLR7-linked mechanisms support B-cell survival and differentiation in selected human, cell-culture, and mouse studies. Curli/DNA biofilm exposure adds an **experimental murine upstream route** into anti-C1q and anti-dsDNA autoantibody production, with effects shaped by strain and disease stage; older post-onset NZBxW/F1 mice did not increase further, and proteinuria was not significantly increased at measured timepoints [[1.2]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/) [[1.3]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/) [[3.4]](https://consensus.app/papers/amyloiddna-composites-of-bacterial-biofilms-stimulate-gallo-rapsinski/39e50e2ed81c5fd68b00691fe6e0fc21/) [[3.5]](https://consensus.app/papers/amyloiddna-composites-of-bacterial-biofilms-stimulate-gallo-rapsinski/39e50e2ed81c5fd68b00691fe6e0fc21/) [[8.1]](https://consensus.app/papers/assembly-of-ordered-dnacurli-fibril-complexes-during-nicastro-anda/5f046ec9a3b4582b998c684fc572bf4e/). This does not establish bacterial infection as a cause of human SLE, does not prove worsened nephritis, and should be kept separate from the newer Z-DNA-focused curli work, which addresses anti-Z-DNA immunogenicity rather than anti-C1q [[1.5]](https://consensus.app/papers/salmonella-infection-and-biofilms-drive-antic1q-and-grando-elkins/610cb2c19b065649916b5ecd12165fcc/) [[5.2]](https://consensus.app/papers/biofilmderived-curli-and-zdna-shape-antidna-antibody-elkins-grando/c319ea8f83cb5b6e8d208f9de04e8622/) [[5.1]](https://consensus.app/papers/biofilmderived-curli-and-zdna-shape-antidna-antibody-elkins-grando/c319ea8f83cb5b6e8d208f9de04e8622/).
+
+## AAV Packet
+
+**Verdict: consistent_with_caveats.** The AAV packet accurately summarizes a **context-bound ANCA-neutrophil-complement amplification model** and appropriately treats the new 369-patient complement paper as associative transcriptomic evidence rather than proof of activation or causation [[9.1]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[9.2]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[10.1]](https://consensus.app/papers/complement-in-ancaassociated-vasculitis-mechanisms-and-chen-jayne/532481a0062c534c8989787386caf5eb/) [[11.1]](https://consensus.app/papers/the-rise-of-complement-in-anca‐associated-vasculitis-from-trivioli-vaglio/6340badda4b459b1b444dc41137dc96e/).
+
+The new human study found that, in **369 AAV-GN patients** from two retrospective cohorts, low serum C3 was uncommon but associated with worse kidney involvement, kidney failure, and mortality; glomerular C3 and C1q deposition also marked more severe pathology and adverse outcomes [[9.3]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[9.4]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[9.5]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/). Its most novel claim was a reproducible **intrarenal complement-related transcriptional program** involving classical-pathway components, proximal alternative-pathway genes, C3, C5AR1, and regulatory transcripts, but the paper itself states that these signatures were only **weakly concordant** with serum and deposition markers and calls for prospective stratification studies rather than causal conclusions [[9.1]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[9.6]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[9.2]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[9.7]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/).
+
+The rest of the packet is also well aligned with established animal and human literature. Reviews synthesizing the historical primary work describe ANCA-activated neutrophils, C5a-mediated priming, alternative-pathway amplification, and protection in anti-MPO models when factor B or C5/C5a signaling is disrupted [[12.1]](https://consensus.app/papers/pathogenesis-of-antineutrophil-cytoplasmic-sun-li/2cec5ba92ea05accbb08eb19f90b2093/) [[12.2]](https://consensus.app/papers/pathogenesis-of-antineutrophil-cytoplasmic-sun-li/2cec5ba92ea05accbb08eb19f90b2093/) [[10.1]](https://consensus.app/papers/complement-in-ancaassociated-vasculitis-mechanisms-and-chen-jayne/532481a0062c534c8989787386caf5eb/) [[13.1]](https://consensus.app/papers/the-complement-system-and-anca-associated-vasculitis-in-kimoto-horiuchi/5206b387426b568fa3c51d39080e634d/) [[11.2]](https://consensus.app/papers/the-rise-of-complement-in-anca‐associated-vasculitis-from-trivioli-vaglio/6340badda4b459b1b444dc41137dc96e/) [[11.3]](https://consensus.app/papers/the-rise-of-complement-in-anca‐associated-vasculitis-from-trivioli-vaglio/6340badda4b459b1b444dc41137dc96e/). Human studies also support complement activation in active AAV, with elevated plasma and urinary C5a and worse outcomes in subsets with low C3 or glomerular C3 deposition, while still preserving the “pauci-immune” qualifier as relative rather than absolute absence of complement [[14.1]](https://consensus.app/papers/c5a-and-its-receptors-in-human-antineutrophil-cytoplasmic-yuan-gou/aa39695bb0f952bb8c27862314e5be91/) [[14.2]](https://consensus.app/papers/c5a-and-its-receptors-in-human-antineutrophil-cytoplasmic-yuan-gou/aa39695bb0f952bb8c27862314e5be91/) [[14.3]](https://consensus.app/papers/c5a-and-its-receptors-in-human-antineutrophil-cytoplasmic-yuan-gou/aa39695bb0f952bb8c27862314e5be91/) [[15.1]](https://consensus.app/papers/2335-associations-of-systemic-complement-kidney-ong-lim/5f0043f4135e5652b06f4cc5a8d23881/) [[15.2]](https://consensus.app/papers/2335-associations-of-systemic-complement-kidney-ong-lim/5f0043f4135e5652b06f4cc5a8d23881/) [[13.2]](https://consensus.app/papers/the-complement-system-and-anca-associated-vasculitis-in-kimoto-horiuchi/5206b387426b568fa3c51d39080e634d/) [[13.3]](https://consensus.app/papers/the-complement-system-and-anca-associated-vasculitis-in-kimoto-horiuchi/5206b387426b568fa3c51d39080e634d/).
+
+**Fig 3.** Endothelial damage and complement activation by ANCA-induced NET generation. ( A ) HUVECs were coincubated with NETs isolated from either TNF α -primed human neutrophils without further stimulation (unstim), isotype mAb-stimulated (ctrl), or α MPO mAb-stimulated ( α MPO) neutrophils. Permeability of the EC monolayer was measured after 1 h using albuminFITC. NET degradation by DNase protected from endothelial damage. ( B ) Human neutrophil preincubation with Nec-1 protected from NET-induced endothelial damage. ( C ) NETs were coincubated in the absence (w/o) or presence of human serum and stained after PFA fixation with PI (DNA; red) and α C3d antibody (FITC; green). Unstimulated cells and iso [[16]](https://consensus.app/papers/necroptosis-controls-net-generation-and-mediates-schreiber-rousselle/70cda2f979eb5461b9c860ad34d92d20/)
+
+*How to read: Panel A compares endothelial permeability across NET conditions, and later panels compare complement staining and intervention conditions. Read across the panels to see how anti-MPO-induced NETs, serum, and NET degradation are being contrasted.*
+
+- **Major issue:** Keep the new 2026 study described as **expression/transcriptomic association**, not complement activation measured biochemically in tissue and not causal proof [[9.1]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[9.2]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[9.7]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/).
+- **Minor issue:** The packet is careful on NETs, but it can be sharpened by noting that NETs can provide a scaffold for alternative-pathway activation in experimental systems, while human tissue presence still does not establish initiation [[16.1]](https://consensus.app/papers/necroptosis-controls-net-generation-and-mediates-schreiber-rousselle/70cda2f979eb5461b9c860ad34d92d20/) [[16.2]](https://consensus.app/papers/necroptosis-controls-net-generation-and-mediates-schreiber-rousselle/70cda2f979eb5461b9c860ad34d92d20/) [[16.3]](https://consensus.app/papers/necroptosis-controls-net-generation-and-mediates-schreiber-rousselle/70cda2f979eb5461b9c860ad34d92d20/).
+- **Minor issue:** The “pauci-immune” framing should remain, but the packet is right not to imply complete absence of complement or immune deposits, because detectable complement deposition occurs in a substantial subset of biopsies [[10.2]](https://consensus.app/papers/complement-in-ancaassociated-vasculitis-mechanisms-and-chen-jayne/532481a0062c534c8989787386caf5eb/) [[13.2]](https://consensus.app/papers/the-complement-system-and-anca-associated-vasculitis-in-kimoto-horiuchi/5206b387426b568fa3c51d39080e634d/) [[11.4]](https://consensus.app/papers/the-rise-of-complement-in-anca‐associated-vasculitis-from-trivioli-vaglio/6340badda4b459b1b444dc41137dc96e/).
+
+Corrected summary: Within the stated scope, the AAV packet is scientifically sound if it keeps the mechanistic chain explicitly **context-bound**. Human in vitro and animal studies support a model in which primed neutrophils are activated by MPO- or PR3-ANCA, release injurious mediators and NETs, and amplify inflammation through alternative-pathway complement activation and C5a signaling [[12.3]](https://consensus.app/papers/pathogenesis-of-antineutrophil-cytoplasmic-sun-li/2cec5ba92ea05accbb08eb19f90b2093/) [[12.2]](https://consensus.app/papers/pathogenesis-of-antineutrophil-cytoplasmic-sun-li/2cec5ba92ea05accbb08eb19f90b2093/) [[11.1]](https://consensus.app/papers/the-rise-of-complement-in-anca‐associated-vasculitis-from-trivioli-vaglio/6340badda4b459b1b444dc41137dc96e/) [[16.1]](https://consensus.app/papers/necroptosis-controls-net-generation-and-mediates-schreiber-rousselle/70cda2f979eb5461b9c860ad34d92d20/) [[16.4]](https://consensus.app/papers/necroptosis-controls-net-generation-and-mediates-schreiber-rousselle/70cda2f979eb5461b9c860ad34d92d20/). The new 369-patient study strengthens the human association between intrarenal complement-related expression and worse renal outcomes, but it measures **transcript abundance**, not direct tissue complement activation or causation, and its serum, deposition, and transcript layers were only weakly concordant [[9.3]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[9.1]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/) [[9.2]](https://consensus.app/papers/multimodal-profiling-of-complement-expression-and-brilland-milon/b834ae29d1635fea8da8caaa4cfef23c/). EGPA should remain a separate eosinophilic context rather than being collapsed into the MPO/PR3 amplification loop.
+
+## Search Coverage
+
+Actual targeted queries were **“10.1371/journal.ppat.1014666”**, **“10.1016/j.ekir.2026.107056”**, **“curli amyloid biofilm DNA exposure anti-C1q anti-dsDNA autoantibody induction lupus-prone mice”**, and **“ANCA-associated vasculitis complement C5a neutrophil NETs renal intrarenal gene expression severity.”** The supplied workflow reports 1,312 SLE-curli hits and 38,289 AAV hits before ranking, with 64 unique papers deduplicated and the top 20 retained for review.
+
+Coverage was therefore **broad search, narrow appraisal**: the conclusions here are grounded only in the 20 provided papers, not in all search hits. Access limits were mixed: some papers had full-text excerpts, some only abstracts, and the AAV packet itself correctly notes that supplementary methods of the 2026 complement study were not independently audited. Across both packets, the current literature check supports **consistent_with_caveats**, not publication-style endorsement.
+ 
+_These search results were found and analyzed using Consensus, an AI-powered search engine for research. Try it at https://consensus.app. © 2026 Consensus NLP, Inc. Personal, non-commercial use only; redistribution requires copyright holders’ consent._
+ 
+## References
+ 
+`1.` Grando K, Elkins M, Nicastro LK, et al. Salmonella infection and biofilms drive anti-C1q and anti-dsDNA autoantibodies in systemic autoimmunity. *PLOS Pathogens.* 2026;22. doi:10.1371/journal.ppat.1014666 · [Access through your institution](https://libkey.io/libraries/3459/articles/730819582/full-text-file?utm_source=api_3508&allow_speedbump=true)
+ 
+> [1.1] A multiplex autoantibody assay showed increased levels of anti-C1q antibodies in curli-treated C57BL/6 and lupus-prone NZBxW/F1 mice compared to PBS-treated controls. (Abstract)
+ 
+> [1.2] Prior to the onset of spontaneous disease, sera from young NZBxW/F1 mice, injected with curli, demonstrated increased anti-dsDNA and anti-C1q antibody responses compared to PBS-treated controls; however, no differences were found in older mice, post-onset, when autoantibody levels were already high. (Abstract)
+ 
+> [1.3] While curli treatment did not significantly affect proteinuria in either model, curli-treatment of MRL/lpr mice significantly increased C1q deposition in glomeruli. (Abstract)
+ 
+> [1.4] An anti-C1q-specific ELISA confirmed the presence of anti-C1q antibodies in C57BL/6 mice after treatment with curli/DNA, extracted from E. coli or Salmonella biofilms, or infection with Salmonella. (Abstract)
+ 
+> [1.5] This study uncovers a novel mechanism for the induction of anti-C1q autoantibodies and how infection or dysbiosis may exacerbate renal disease in SLE. (Abstract)
+ 
+`2.` Tursi SA, Lee EY, Medeiros NJ, et al. Bacterial amyloid curli acts as a carrier for DNA to elicit an autoimmune response via TLR2 and TLR9. *PLoS Pathogens.* 2017;13. doi:10.1371/journal.ppat.1006315
+ 
+> [2.1] We observed a strong up-regulation of Ifnβ, Irf7, and Isg15 in the peritoneal cells from wild-type mice, whereas in the absence of TLRs 2 and 9, we observed a significant decrease in the expression of these genes, suggesting that TLR2 and TLR9 are required for the in vivo IFN response (Fig 5A–5C). (Results)
+ 
+> [2.2] We also found that production of anti-double-stranded DNA autoantibodies in response to curli-DNA was attenuated in TLR2- and TLR9-deficient mice and in mice deficient in both TLR2 and TLR9 compared to wild-type mice, suggesting that both innate immune receptors are critical for shaping the autoimmune adaptive immune response. (Abstract)
+ 
+> [2.3] Intriguingly, TLR2 drives the internalization of the curli-DNA complex into endosomes by binding to the structural motif of curli (Fig 2). (Results)
+ 
+> [2.4] The activation of TLR9 by DNA was previously shown to be a critical step in SLE pathogenesis [31], even though DNA by itself is a poor stimulator of the immune system [71, 72]. (Results)
+ 
+> [2.5] We also detected significantly lower levels of interferon-stimulated gene expression in response to purified curli-DNA in TLR2 and TLR9 deficient mice compared to wild-type mice, confirming that TLR2 and TLR9 are required for the induction of type I IFNs. (Abstract)
+ 
+`3.` Gallo P, Rapsinski GJ, Wilson R, et al. Amyloid-DNA composites of bacterial biofilms stimulate autoimmunity. *Immunity.* 2015;42:1171 - 1184. doi:10.1016/j.immuni.2015.06.002
+ 
+> [3.1] However, curli-DNA composites induce autoantibody production very quickly and consistently, with all mice becoming positive for anti-dsDNA within two weeks of the first injection. (Results)
+ 
+> [3.2] We found that mice infected with curli-competent bacteria, both E. coli and Salmonella, developed high titers of autoantibodies (Figure 7A–B), similar to those induced by isolated curli-DNA composites (Figure 5). (Results)
+ 
+> [3.3] The fact that higher amounts of autoantibodies were produced upon infections with curli-competent bacteria indicates that curli is a major autoimmunogen in these bacteria (Figure 7A–B). (Results)
+ 
+> [3.4] As many other PAMPs, curli-DNA composites strongly induce the expression of Type I IFNs and the IFN stimulated response in DCs in vitro and in vivo. (Results)
+ 
+> [3.5] Therefore, the results that curli-DNA composites accelerate the onset of autoimmunity in lupus-prone mice can be partially explained by the strong induction of Type I IFNs in DCs as well as by the polyclonal activation of the adaptive immune system, as curli up-regulated activation markers in splenic T and B cells. (Results)
+ 
+`4.` Gallucci S, Gallo P, Rapsinski GJ, Sriram U, Wilson R, Tükel Ç. Bacterial amyloids promote type I interferon production and accelerate autoimmunity (BA6P.124). *The Journal of Immunology.* 2014. doi:10.4049/jimmunol.194.supp.114.5
+ 
+> [4.1] We injected in vivo pre-diseased lupus-prone NZB/W-F1 mice i.p. with curli-DNA complexes and found that they accelerate disease, inducing high titers of anti-dsDNA and anti-chromatin autoantibodies. (Abstract)
+ 
+> [4.2] Curli-competent bacteria triggered far higher autoantibody titers than curli mutant strains. (Abstract)
+ 
+`5.` Elkins M, Grando K, Covolo C, et al. Biofilm-derived curli and Z-DNA shape anti-DNA antibody responses during Salmonella infections. *PLOS Pathogens.* 2026;22. doi:10.64898/2026.03.02.708989
+ 
+> [5.1] Purified curli:DNA complexes contained Z-DNA and, when administered intraperitoneally to mice, elicited robust anti-Z-DNA antibody responses. (Abstract)
+ 
+> [5.2] These data indicate that both bacterial DNA and bacterial products such as curli can promote anti-DNA responses in normal immunity and may contribute to the pathogenesis of SLE, the human disease most strongly associated with aberrant immune responses to DNA [3,38,39,45]. (Results)
+ 
+`6.` Lee MH, Tursi SA, Nicastro LK, et al. 1701 Curli amyloid/DNA complexes from bacterial biofilms break tolerance in murine lupus using T cell-independent and T cell-dependent modalities. *1700 – B cells and autoantibodies.* 2021. doi:10.1136/lupus-2021-lupus21century.96
+ 
+> [6.1] Results In vitro, curli/DNA complexes could induce class switch to IgG , in the absence of T cell help, in wildtype B cells, and even more in Sle1,2,3 and 3H9 B cells, which recognize DNA, suggesting an antigen-specific activation of B cells by curli/DNA. (Results)
+ 
+> [6.2] Curli/DNA induced non-canonical NF k B activation and transcription of aicda , the master regulator of class switch recombination. (Results)
+ 
+> [6.3] Moreover, it induced autoantibodies in CD40L-/mice, though at lower levels than in WT mice. (Results)
+ 
+`7.` Lee MH, Tursi SA, Nicastro LK, Caricchio R, Tükel Ç, Gallucci S. EF-07 Curli amyloids/DNA complexes from bacterial biofilms break tolerance in murine lupus by triggering BCR/TLR signaling in B cells. *Lupus Science & Medicine.* 2018;5:A54 - A54. doi:10.1136/lupus-2018-lsm.87
+ 
+> [7.1] Results We found that curli/DNA complexes polyclonally activate B cells in vivo in wildtype mice, lupus-prone mice and 3 H9 mice, the latter expressing an anti-DNA Ig heavy chain and whose B cells are normally tolerized. (Abstract)
+ 
+> [7.2] Conclusions Our results suggest that curli/DNA complexes may induce anti-DNA antibody production by simultaneous BCR/TLR signaling, which leads to B cell antibody production in the absence of T cell help. (Abstract)
+ 
+`8.` Nicastro LK, De Anda J, Jain N, et al. Assembly of ordered DNA-curli fibril complexes during Salmonella biofilm formation correlates with strengths of the type I interferon and autoimmune responses. *PLoS Pathogens.* 2022;18. doi:10.1371/journal.ppat.1010742
+ 
+> [8.1] Persistent bacteriuria with uropathogenic E. coli and production of high levels of anti-curli/DNA antibodies were detected in SLE patients with higher markers of inflammation and increasing disease severity (flares)[17], suggesting that a systemic exposure to bacterial curli/DNA complexes can stimulate autoimmunity in SLE. (Results)
+ 
+`9.` Brilland B, Milon V, Vandenbussche C, et al. Multimodal profiling of complement expression and association with outcomes in ANCA-associated vasculitis with glomerulonephritis. *Kidney International Reports.* 2026. doi:10.1016/j.ekir.2026.107056 · [Access through your institution](https://libkey.io/libraries/3459/articles/720623092/full-text-file?utm_source=api_3508&allow_speedbump=true)
+ 
+> [9.1] Compared with controls, AAV-GN kidneys showed increased complement-related expression involving classical pathway components, proximal alternative pathway genes, C3 , C5AR1 , and regulatory transcripts, only weakly concordant with serum or deposition markers. (Abstract)
+ 
+> [9.2] Conclusion AAV-GN displays a reproducible intrarenal complement-related transcriptional program, only weakly captured by serum levels or routine immunofluorescence, associated with renal severity and outcomes. (Abstract)
+ 
+> [9.3] Methods In 369 AAV-GN patients from two independent retrospective cohorts, complement was assessed across circulating, histopathological, and transcriptomic layers (serum C3/C4, glomerular C1q/C3 deposition, targeted kidney transcriptomics). (Abstract)
+ 
+> [9.4] Low serum C3, but not C4, was associated with more severe kidney involvement, kidney failure (adjusted HR 2.0 [1.1–3.7]) and mortality (adjusted HR 2.3 [1.3–4.0]). (Abstract)
+ 
+> [9.5] Glomerular C3 (47%) and C1q (11%) deposition both identified more severe pathology and adverse outcomes. (Abstract)
+ 
+> [9.6] Low alternative pathway–related expression was independently associated with better kidney (adjusted HR 0.3 [0.1–0.7]) and overall (adjusted HR 0.4 [0.2–0.9]) survival. (Abstract)
+ 
+> [9.7] These findings support prospective studies integrating tissue complement transcriptomics for stratification and therapeutic hypothesis generation. (Abstract)
+ 
+`10.` Chen M, Jayne D, Zhao M. Complement in ANCA-associated vasculitis: mechanisms and implications for management. *Nature Reviews Nephrology.* 2017;13:359-367. doi:10.1038/nrneph.2017.37
+ 
+> [10.1] Accumulating evidence from animal models and clinical observations indicate, however, that activation of the complement system - and the alternative pathway in particular - is crucial for the development of AAV, and that the complement activation product C5a has a central role. (Abstract)
+ 
+> [10.2] The main histological feature in the kidneys of patients with AAV is pauci-immune necrotizing crescentic glomerulonephritis with little immunoglobulin and complement deposition in the glomerular capillary walls. (Abstract)
+ 
+`11.` Trivioli G, Vaglio A. The rise of complement in ANCA‐associated vasculitis: from marginal player to target of modern therapy. *Clinical & Experimental Immunology.* 2020;202. doi:10.1111/cei.13515
+ 
+> [11.1] C5a primes human neutrophils and enhances their activation induced by ANCA; activated neutrophils, in turn, release factors that lead to C5a generation, establishing a self-amplifying loop. (Results)
+ 
+> [11.2] Although complement deposition is scarce in AAV pathological samples, complement activation is required for the development of necrotizing crescentic glomerulonephritis (NCGN) in mouse models of AAV and occurs via the alternative pathway. (Results)
+ 
+> [11.3] The anaphylatoxin C5a, produced by the final complement pathway, is determinant to drive the disease in animal models. (Results)
+ 
+> [11.4] Of note, the participation of immune complexes and classical complement pathway is not to be fully excluded, as a substantial proportion of biopsies stained for the classical pathway factor C4d, while some showed electrondense deposits compatible with immune complexes [10]. (Results)
+ 
+`12.` Sun X, Li Z, Chen M. Pathogenesis of anti-neutrophil cytoplasmic antibody-associated vasculitis. *Rheumatology and Immunology Research.* 2023;4:11 - 21. doi:10.2478/rir-2023-0003
+ 
+> [12.1] ANCA, neutrophils, and the complement system play key roles in disease initiation and progression, forming a feedback amplification loop leading to vasculitic injury. (Abstract)
+ 
+> [12.2] Activated neutrophils could further activate the alternative complement pathway, leading to the generation of complement 5a (C5a), which amplifies the inflammatory response by priming neutrophils for ANCA-mediated overactivation. (Abstract)
+ 
+> [12.3] Neutrophils activated by ANCA undergo respiratory burst and degranulation, as well as releasing neutrophils extracellular traps (NETs), thus causing damage to vascular endothelial cells. (Abstract)
+ 
+`13.` Kimoto Y, Horiuchi T. The Complement System and ANCA Associated Vasculitis in the Era of Anti-Complement Drugs. *Frontiers in Immunology.* 2022;13. doi:10.3389/fimmu.2022.926044
+ 
+> [13.1] Recently accumulated evidence has shown that C5a produced by the complement alternative pathway primes neutrophils, which in turn activate the complement alternative pathway, leading to the pathogenesis of AAV. (Abstract)
+ 
+> [13.2] Afterward, however, it has been reported that in the majority of kidney tissues from AAV patients, immunoglobulin and/or complement components can be detected by electronic microscopy or immunofluorescent examinations (30). (Results)
+ 
+> [13.3] In a cohort of one hundred twelve AAV patients’ renal biopsies, one-third of the cases showed C3c (C3b cleavage product) deposition, which also correlated with urinary protein levels and renal function (32). (Results)
+ 
+`14.` Yuan J, Gou S, Huang J, Hao J, Chen M, Zhao M. C5a and its receptors in human anti-neutrophil cytoplasmic antibody (ANCA)-associated vasculitis. *Arthritis Research & Therapy.* 2012;14:R140 - R140. doi:10.1186/ar3873
+ 
+> [14.1] It was found that the plasma level of C5a was about 10 times higher in patients with AAV in the active phase than that in normal controls. (Results)
+ 
+> [14.2] The urinary level of C5a, after adjustment for urinary creatinine, was even higher (about 560 times) in patients with AAV than that in normal controls. (Results)
+ 
+> [14.3] In conclusion, the elevated plasma and urinary C5a levels indicated complement activation in human AAV. (Results)
+ 
+`15.` Ong Y, Lim D, Lim E, Lee T, Lim CC. #2335 Associations of systemic complement, kidney deposition and gene polymorphisms with patient and renal outcomes in ANCA-associated vasculitis—a systematic review. *Nephrology Dialysis Transplantation.* 2025. doi:10.1093/ndt/gfaf116.0269
+ 
+> [15.1] Low plasma C3 levels were associated with higher risk of all-cause mortality in 11 of 15 studies and higher risk of end-stage kidney disease (ESKD) or dialysis in 14 of 19 studies. (Abstract)
+ 
+> [15.2] The presence of C3 in the glomeruli was associated with higher risk of ESKD or dialysis in 5 of 7 studies. (Abstract)
+ 
+`16.` Schreiber A, Rousselle A, Becker J, Von Mässenhausen A, Linkermann A, Kettritz R. Necroptosis controls NET generation and mediates complement activation, endothelial damage, and autoimmune vasculitis. *Proceedings of the National Academy of Sciences.* 2017;114:E9618 - E9625. doi:10.1073/pnas.1708247114
+ 
+> [16.1] We detected C5a generation in anti-MPO mAb-induced NETs that was abrogated by DNase I (Fig. 3 E ). (Results)
+ 
+> [16.2] As an alternative approach, we visualized complement activation by C3d staining and observed that anti-MPO mAb-induced NETs showed strong C3d staining | | (Results)
+ 
+> [16.3] We observed that NETs provided a scaffold for AP activation that in turn contributed to EC damage. (Abstract)
+ 
+> [16.4] Importantly, i.v. DNase I treatment, started 24 h after anti-MPO Ab transfer, protected mice from the disease (Fig. 4 A , B , D , and F ), supporting the notion that NETs contribute to glomerular endothelial injury in vivo. (Results)
+

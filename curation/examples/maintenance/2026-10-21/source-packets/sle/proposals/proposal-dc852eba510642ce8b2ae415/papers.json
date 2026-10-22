@@ -1,0 +1,26 @@
+[
+  {
+    "key": "doi-182cad0224e008dbc324",
+    "identifiers": [
+      "DOI:10.1371/journal.ppat.1014666",
+      "MED:42821613",
+      "PMCID:PMC13652334",
+      "PMID:42821613"
+    ],
+    "title": "Salmonella infection and biofilms drive anti-C1q and anti-dsDNA autoantibodies in systemic autoimmunity.",
+    "authors": "Grando K, Elkins M, Nicastro L, Bessho S, Olubajo S, Kowal A, Tam V, Caricchio R, Pisetsky D, Silverman GJ, Tükel Ç.",
+    "publishedAt": "2026-10-01",
+    "journal": "PLoS pathogens",
+    "abstract": "Systemic lupus erythematosus (SLE) is characterized by autoantibody production alongside inflammatory manifestations, including nephritis. In SLE, infections are frequent and associated with disease flares, increasing morbidity and mortality. Additionally, dysbiosis, often marked by overgrowth of Pseudomonadota, is a prominent feature of SLE and lupus nephritis. We previously demonstrated that complexes of DNA and curli, an amyloidogenic protein from biofilms of Pseudomonadota, including Salmonella Typhimurium and E. coli, can induce anti-dsDNA and anti-chromatin autoantibody responses. Here, we assessed the effects of curli administration or Salmonella infection on autoimmune manifestations in wild-type and lupus-prone mice. A multiplex autoantibody assay showed increased levels of anti-C1q antibodies in curli-treated C57BL/6 and lupus-prone NZBxW/F1 mice compared to PBS-treated controls. An anti-C1q-specific ELISA confirmed the presence of anti-C1q antibodies in C57BL/6 mice after treatment with curli/DNA, extracted from E. coli or Salmonella biofilms, or infection with Salmonella. Prior to the onset of spontaneous disease, sera from young NZBxW/F1 mice, injected with curli, demonstrated increased anti-dsDNA and anti-C1q antibody responses compared to PBS-treated controls; however, no differences were found in older mice, post-onset, when autoantibody levels were already high. In MRL/lpr mice, curli treatment significantly exacerbated anti-C1q antibody production regardless of age and disease stage, compared to PBS-treated controls. While curli treatment did not significantly affect proteinuria in either model, curli-treatment of MRL/lpr mice significantly increased C1q deposition in glomeruli. This study uncovers a novel mechanism for the induction of anti-C1q autoantibodies and how infection or dysbiosis may exacerbate renal disease in SLE.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42821613/",
+    "doi": "10.1371/journal.ppat.1014666",
+    "pmid": "42821613",
+    "pmcid": "PMC13652334",
+    "accessScope": "Publisher full text: abstract, Results, figures 1–6 and Discussion inspected by Codex agent on 2026-10-21; methods details and supplements not independently audited. Publisher XML cached alongside extraction.",
+    "openAccess": true,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "diseaseId": "minimal-change-nephropathy",
+  "baseReleaseId": "minimal-change-nephropathy-summary-candidate-fff563f6c53b",
+  "baseContentDigest": "bcf67b0b5f9bc0e442c6f9cde99f5237bbe648fe498803922416eca2e1fb74c2",
+  "mode": "manual",
+  "promptVersion": "causome-extraction-v1",
+  "modelVersion": "codex-agent-manual-source-curation-v1",
+  "newEntities": [],
+  "findings": [
+    {
+      "id": "anti-nephrin-assay-validity-20261020",
+      "paperKey": "doi-9f75d42e8aa26e094f35",
+      "paperDigest": "8010e1cd859727e4e691fbc0a1f589a20e3c03844d1dd647d169a8650048a28f",
+      "sourceCheck": {
+        "checkedBy": "codex-agent-source-check",
+        "checkedAt": "2026-10-20"
+      },
+      "category": "qualifying",
+      "subject": "entity-anti-nephrin",
+      "object": "entity-nephrotic",
+      "predicate": "is_associated_with",
+      "contextId": "context-mcn-overview",
+      "causalInterpretation": "association",
+      "text": "A two-cohort assay comparison found method- and antigen-dependent false-positive and false-negative anti-nephrin antibody results. Approximately half of 24 MCD samples had weak signals detectable only by immunoprecipitation-Western blotting; strong cross-assay signals occurred in two FSGS samples. This qualifies the comparability and specificity of human seropositivity estimates without negating experimental antibody effects.",
+      "quote": "Different assay methods and antigen preparations led to method-specific false-positive and false-negative results.",
+      "quoteLocation": "Primary-report Abstract: Results.",
+      "studySystem": "Human assay-method comparison across two cohorts totaling 169 patients and controls; 24 MCD and 63 FSGS samples; ELISA, IP-based ELISA, IP-WB and cell/tissue immunofluorescence.",
+      "evidenceType": "human_observational",
+      "limitations": [
+        "Methodological assay comparison, not a controlled clinical causation study or a population-prevalence estimate.",
+        "Weak assay-specific signals do not establish pathogenicity; orthogonal confirmation and antigen quality matter."
+      ],
+      "distinctFindingRationale": "Separate cohort added following actual external summary feedback; not independent replication of multiple readouts from the same paper."
+    }
+  ]
+}

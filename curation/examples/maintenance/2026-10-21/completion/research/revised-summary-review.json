@@ -1,0 +1,783 @@
+{
+  "thread_id": "71XqXEShQjCSLmp0JyZ4KA",
+  "title": "Review BOTH exact REVISED local map summaries through 2026-10-20. Independently",
+  "filename": "Review BOTH exact REVISED local map summaries through 2026-10-20. Independently.md",
+  "status": "idle",
+  "url": "https://consensus.app/search/review-both-exact-revised-local-map-summaries-thro/71XqXEShQjCSLmp0JyZ4KA/",
+  "message_for_user": "Your Consensus research thread is ready. [View this in Consensus](https://consensus.app/search/review-both-exact-revised-local-map-summaries-thro/71XqXEShQjCSLmp0JyZ4KA/)",
+  "display_first": true,
+  "interactions": [
+    {
+      "interaction_id": "1UTelErPS6-Bo36msIj4jA",
+      "input_message": "Review BOTH exact REVISED local map summaries through 2026-10-20. Independently search current literature, null findings and contradictions. Prior feedback requested NELL1 secondary-association limits and heterogeneous anti-nephrin prevalence. Graph now has source-checked qualifying claims from DOI10.1016/j.ekir.2024.02.1401, 10.1093/ckj/sfaf012 and 10.1016/j.jtauto.2025.100307, inspected primary abstracts. IL-13 section explicitly restricted to overexpression model; broader context-dependent culture study DOI10.1016/j.intimp.2022.109493 inspected abstract but not imported into a different study context. Do not treat already stated safeguards as missing. Identify actual remaining errors versus optional scope expansion. Return separate verdicts, concrete major/minor issues, citations and source access limits; no human approval implied.\n\nminimal-change-nephropathy-summary-candidate-fff563f6c53b\nDigest: bcf67b0b5f9bc0e442c6f9cde99f5237bbe648fe498803922416eca2e1fb74c2\nScope:A bounded immune-mediated podocytopathy map of primary minimal change nephropathy: anti-nephrin autoantibodies with humoral and Th2 associations, observational hemopexin activity, T-cell and cytokine (IL-8, IL-13) observations, experimental antibody and IL-13 models, foot-process effacement and nephrotic syndrome. Excludes secondary causes, genetics, other glomerulopathies and treatment efficacy; CD80, CTLA-4 and ANGPTL4 evidence is not yet curated.\nPrimary minimal change disease (MCD) is represented here as an immune-associated podocytopathy with heterogeneous upstream pathogenesis, foot-process effacement and nephrotic proteinuria. Anti-nephrin autoantibodies identify a subset: one multicentre cohort detected them in 44% of adults with MCD and 69% with active untreated disease. Levels tracked activity and proteinuria, fell during remission and reappeared before relapse; replication supports a subset but prevalence is quantitatively inconsistent. A cell-based assay cohort detected antibodies in 7/36 adults with MCD (19.44%); another pediatric/young-adult cohort found 15% MCD and 11% FSGS positivity. Anti-nephrin is neither universal nor specific to MCD. Human biopsy findings associate antibodies with podocyte IgG. Nephrin immunization in mice induced an MCD-like syndrome, nephrin phosphorylation and podocyte cytoskeletal changes. Patient IgG transferred to a rabbit caused proteinuria, effacement without deposits and nephrin phosphorylation. These experiments support a pathogenic antibody route in selected systems, without establishing each intracellular step or explaining antibody-negative disease. Anti-nephrin-positive patients also had IgG4 predominance, Th2-skewed cytokines and a non-significant plasmablast trend; their sequence is unresolved. A newly added human study found higher hemopexin protease activity despite lower hemopexin concentration during MCD relapse, compared with remission. This supplies a separate observational circulating-factor signal, not proof that hemopexin causes human MCD.\n\nThe antibody-transfer experiment used total IgG from one patient in one rabbit, rather than purified nephrin-specific antibody; animal sufficiency does not establish universal human necessity. The hemopexin study compared 18 relapsing patients, 23 patients in remission after prednisolone, other glomerulopathies and controls; treatment and disease-stage confounding remain. Its kidney-tissue activity assay did not establish in vivo permeability-factor causation. Peripheral CD4 activation at onset remains an association. IL-13 overexpression in rats caused albuminuria, foot-process fusion and changes in nephrin and B7-1 expression, supporting an overexpression-model route. IL-13 effects remain model-dependent; this does not establish uniform pathogenicity or human necessity. Urinary IL-8 rose in relapse, yet that study did not support a disease-specific pathogenic role for IL-8 or TNF-alpha under its tested conditions. No single upstream factor is established as necessary or sufficient across primary MCD. Concurrent steroid-induced remission and antibody clearance do not isolate the mediator of treatment response. Secondary causes, other glomerulopathies and treatment efficacy are excluded from this synthesis. Human observations and animal experiments retain separate graph contexts; most sources, including the newly added hemopexin report, were inspected at abstract level. Independent domain review and calibrated appraisals remain pending.\n\nmembranous-nephropathy-summary-candidate-6c64ff75abce\nDigest: 3df1e4da6b6d6f018a8f088a70f0eada4b028dc6fc77cbda8036781a626fd2be\nScope:Bounded primary (autoantibody-mediated) membranous nephropathy map: podocyte target antigens (PLA2R1, THSD7A and other recently described antigens) lumped as one shared antigen-antibody mechanism, subepithelial immune-complex formation, complement activation, podocyte injury and nephrotic proteinuria. Secondary membranous nephropathy (lupus, malignancy, infection, drug-associated) and therapy efficacy are excluded.\nPrimary membranous nephropathy shares an antigen-specific podocyte autoantibody principle, but antigen-defined subtypes differ in frequency, serology and clinical associations and are increasingly treated as partly distinct entities. Autoantibodies, IgG4-predominant though not IgG4-exclusive, bind a podocyte-associated antigen, not all of which are cell-surface proteins: PLA2R in most inspected adult cases, THSD7A in a smaller PLA2R-negative subgroup, NELL-1 in selected PLA2R-negative cases, and semaphorin 3B, HTRA1 or rarer putative targets beyond those. The evidence differs in kind by antigen: deposit-eluted IgG recognized PLA2R and THSD7A, patient sera recognized NELL-1, semaphorin 3B and HTRA1, and the seven putative mass-spectrometry targets were recovered from immune complexes and co-localized with IgG in the deposits without comparable serological evidence. Anti-PLA2R levels tracked clinical status and proteinuria, and epitope spreading beyond the cysteine-rich domain was an independent risk factor for poor renal outcome. HLA-DQA1 and PLA2R1 risk loci were associated with biopsy-proven disease in white-ancestry cohorts.\n\nAntigen-specific rodent models supply directional evidence: podocyte expression of human PLA2R1 produced antibodies, deposits and nephrotic syndrome, lymphocyte-deficient animals developed neither, and Thsd7a-knockout mice resisted antibody transfer. These do not establish one human effector route. Patient-biopsy assays detected all three complement initiation pathways, with proximity assays favouring the classical pathway; factor-B-null mice were protected and lectin-pathway blockade preserved slit proteins in culture. A newly added retrospective comparison of 17 PLA2R-associated and nine NELL1-associated cases found lower C3 and C4d deposition in NELL1 disease. Deposition is not functional activation, proteomic complement differences were not significant, and this study did not test slit-diaphragm injury. Effector evidence also differs by system: C5b-9 was required for slit-protein proteolysis in culture and C5 deficiency partly reduced albuminuria, while membrane-attack-complex inhibition did not restore albumin permselectivity on a glomerulus-on-a-chip and anti-THSD7A antibodies injured podocytes in C3-deficient mice. These non-exclusive pathways differ by subtype, assay and experimental system; none is established as universal. The under-1-to-4.9% frequencies concern seven putative targets, not NELL-1. In a separate 70-person NELL1 series only 11% lacked known secondary associations, including drugs, autoimmunity or malignancy. NELL1 identity does not establish primary disease; its inclusion is bounded and provisional against mixed literature, with secondary associations excluded. Evidence rests on agent-inspected abstracts; therapy efficacy and independent domain review remain outside the completed work.\n\n",
+      "created_at": "2026-10-20T21:44:46.578565Z",
+      "search_mode": "PRO_ANALYSIS",
+      "mode": "pro",
+      "status": "idle",
+      "filters": null,
+      "full_text_paper_ids": [
+        "3ea75cbcca89598685d73c443ad7d179",
+        "2aaa6d869bba58d493fe87e4c9139130",
+        "0a427db927e2531a92e37234791014e3",
+        "d1d2d372c036545f99356be364d7b3c4",
+        "528b51735c095b98a8c141c62e6bb79e",
+        "67dfa88e640159f3849589f08e191d9c",
+        "870feb4bd6a45f0ab64a8148c1b8488b",
+        "48a0fa42e4315055b1545af2f1827aba",
+        "fd2f0765b42859a8abf043014ff34743",
+        "67bf82f788365ef08e572e82dcde424f",
+        "a7a552de70685fc59a24250555f44823"
+      ],
+      "response": "# **Both revised** summaries are **mostly accurate**; the main remaining issue is overstated mechanistic confidence in anti-nephrin MCD.\n\nThe two sub-questions are the **remaining errors** in each revised summary and the **optional expansions/source limits** that should be separated from true mistakes.\n\n## Minimal Change Disease\n\n**Verdict:** **Mostly sound, but not cleanly up to 2026-10-20** because newer contradictory assay literature makes the anti-nephrin section slightly too confident on pathogenic generalization, even though the prevalence-heterogeneity safeguard is now appropriate [[1.1]](https://consensus.app/papers/autoantibodies-targeting-nephrin-in-podocytopathies-hengel-dehde/fcc175416c5b5f038c8845dab4644dd2/) [[1.2]](https://consensus.app/papers/autoantibodies-targeting-nephrin-in-podocytopathies-hengel-dehde/fcc175416c5b5f038c8845dab4644dd2/) [[2.1]](https://consensus.app/papers/evaluation-of-methodologies-in-antinephrin-autoantibody-liu-liu/528b51735c095b98a8c141c62e6bb79e/) [[3.1]](https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/) [[4.1]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/) [[4.2]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/).\n\n- **Major issue:** “These experiments support a pathogenic antibody route in selected systems” is fair, but the surrounding narrative still leans too close to a settled mechanism despite strong assay-dependence and later null/near-null signals in some orthogonal human-based approaches [[2.2]](https://consensus.app/papers/evaluation-of-methodologies-in-antinephrin-autoantibody-liu-liu/528b51735c095b98a8c141c62e6bb79e/) [[2.3]](https://consensus.app/papers/evaluation-of-methodologies-in-antinephrin-autoantibody-liu-liu/528b51735c095b98a8c141c62e6bb79e/) [[2.1]](https://consensus.app/papers/evaluation-of-methodologies-in-antinephrin-autoantibody-liu-liu/528b51735c095b98a8c141c62e6bb79e/) [[4.3]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/) [[4.1]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/) [[4.2]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/).\n- **Major issue:** the anti-nephrin prevalence sentence is no longer wrong, but it is incomplete without noting that heterogeneity is extreme across studies and remains largely unexplained, even in meta-analysis [[5.1]](https://consensus.app/papers/antinephrin-antibody-a-potential-biomarker-of-minimal-chen-chen/3ea75cbcca89598685d73c443ad7d179/) [[6.1]](https://consensus.app/papers/afucosylated-igg-in-idiopathic-nephrotic-syndrome-spinelli-garbarino/2aaa6d869bba58d493fe87e4c9139130/) [[7.1]](https://consensus.app/papers/3131-multicenter-study-of-antinephrin-antibodies-in-corona-alonso/22b64865e4a95782a16f6c595208d326/) [[8.1]](https://consensus.app/papers/association-between-antinephrin-autoantibodies-and-guo-yan/d1d2d372c036545f99356be364d7b3c4/) [[3.2]](https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/) [[3.1]](https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/).\n- **Major issue:** “Anti-nephrin is neither universal nor specific to MCD” is directionally right, but newer evidence suggests the non-specificity may extend beyond FSGS into some overlap/other podocytopathy states, so the present wording slightly understates cross-entity complexity [[1.1]](https://consensus.app/papers/autoantibodies-targeting-nephrin-in-podocytopathies-hengel-dehde/fcc175416c5b5f038c8845dab4644dd2/) [[3.3]](https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/) [[9.1]](https://consensus.app/papers/autoantibodies-against-nephrin-and-podocin-are-hayashi-akai/67dfa88e640159f3849589f08e191d9c/) [[10.1]](https://consensus.app/papers/how-to-identify-iga-nephropathy-presenting-as-nephrotic-yang-duan/48a0fa42e4315055b1545af2f1827aba/) [[11.1]](https://consensus.app/papers/antislit-diaphragm-antibodies-on-kidney-biopsy-identify-raglianti-angelotti/0a50ec9d9955545ba56b638bc2cc1ccb/) [[11.2]](https://consensus.app/papers/antislit-diaphragm-antibodies-on-kidney-biopsy-identify-raglianti-angelotti/0a50ec9d9955545ba56b638bc2cc1ccb/).\n\n## Membranous Nephropathy\n\n**Verdict:** **Substantively sound** on NELL1 limits and complement heterogeneity, with no major factual error evident from the supplied literature; remaining changes are mostly calibration and optional scope expansion [[12.1]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[12.2]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[12.3]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/).\n\n- **No major error found:** the revised NELL1 language now correctly avoids treating NELL1 as straightforwardly primary, and the 70-patient series supports that only **11%** lacked a known secondary association [[12.4]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[12.2]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[12.3]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/).\n- **Minor issue:** “PLA2R in most inspected adult cases” is likely acceptable as a high-level statement, but the summary would be sharper if it explicitly said that antigen-defined MN entities are increasingly handled as partially distinct clinicopathologic groups rather than one pooled mechanism with small frequency differences [[12.1]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[4.4]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/).\n- **Minor issue:** the complement paragraph is careful, but “patient-biopsy assays detected all three complement initiation pathways” should remain explicitly bounded to the cited assay systems, because the same corpus supports **non-exclusive** and subtype-dependent effector routes rather than a universal cascade [[12.5]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[13.1]](https://consensus.app/papers/passive-transfer-of-patientderived-antinephrin-hengel-dehde/67bf82f788365ef08e572e82dcde424f/).\n\n## Optional Expansions\n\nThese are **scope expansions**, not remaining errors. The MCD map could optionally mention that steroid-responsive pediatric disease shows much higher anti-nephrin prevalence than genetic or multidrug-resistant SRNS, which reinforces subtype restriction rather than universality [[14.1]](https://consensus.app/papers/antinephrin-autoantibodies-in-steroidresistant-hengel-dehde/2ecc0c7dd8d9589c8cce970c5bc99d6c/) [[14.2]](https://consensus.app/papers/antinephrin-autoantibodies-in-steroidresistant-hengel-dehde/2ecc0c7dd8d9589c8cce970c5bc99d6c/) [[14.3]](https://consensus.app/papers/antinephrin-autoantibodies-in-steroidresistant-hengel-dehde/2ecc0c7dd8d9589c8cce970c5bc99d6c/).\n\nIt could also mention that steroid treatment itself can drive rapid seronegativity and B-cell changes, which helps explain why post-treatment sampling depresses measured prevalence across cohorts [[15.1]](https://consensus.app/papers/diseasespecific-prevalence-and-clinical-significance-of-nakai-manabe/628cfb77e979564ba9575f2daed7d052/) [[15.2]](https://consensus.app/papers/diseasespecific-prevalence-and-clinical-significance-of-nakai-manabe/628cfb77e979564ba9575f2daed7d052/) [[16.1]](https://consensus.app/papers/effect-of-steroids-on-antinephrin-autoantibodies-and-b-hengel-beldi-ferchiou/fd2f0765b42859a8abf043014ff34743/) [[16.2]](https://consensus.app/papers/effect-of-steroids-on-antinephrin-autoantibodies-and-b-hengel-beldi-ferchiou/fd2f0765b42859a8abf043014ff34743/) [[16.3]](https://consensus.app/papers/effect-of-steroids-on-antinephrin-autoantibodies-and-b-hengel-beldi-ferchiou/fd2f0765b42859a8abf043014ff34743/).\n\n## Source Limits\n\nMost anti-nephrin contradiction papers here are abstracts, conference abstracts, reviews, or methodology papers rather than uniformly full primary datasets, so confidence is highest for the large multicenter studies and lower for some late-2025 to 2026 prevalence refinements [[1.3]](https://consensus.app/papers/autoantibodies-targeting-nephrin-in-podocytopathies-hengel-dehde/fcc175416c5b5f038c8845dab4644dd2/) [[17.1]](https://consensus.app/papers/antinephrin-antibodies-in-adult-chinese-patients-with-shu-huang/52ec93daf84c5bcf9cb0eb4187a0c871/) [[3.4]](https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/) [[7.1]](https://consensus.app/papers/3131-multicenter-study-of-antinephrin-antibodies-in-corona-alonso/22b64865e4a95782a16f6c595208d326/) [[15.3]](https://consensus.app/papers/diseasespecific-prevalence-and-clinical-significance-of-nakai-manabe/628cfb77e979564ba9575f2daed7d052/) [[18.1]](https://consensus.app/papers/prevalence-and-clinical-correlates-of-antinephrin-tu-hsueh/6672dfb9d2805932bded3bba4d16b93f/).\n\nOverall, the **membranous nephropathy** summary has no clear remaining factual error from this corpus, while the **minimal change disease** summary mainly needs one further downgrade in mechanistic certainty around anti-nephrin because the 2025-2026 literature adds real assay-driven contradiction, not just prevalence spread.",
+      "citations": [
+        {
+          "n": 1,
+          "title": "Autoantibodies Targeting Nephrin in Podocytopathies.",
+          "authors": [
+            "Felicitas E. Hengel",
+            "Silke Dehde",
+            "G. Zahner",
+            "Larissa Seifert",
+            "Annabel Schnarre",
+            "Oliver Kretz",
+            "Fatih Demir",
+            "H. Pinnschmidt",
+            "F. Grahammer",
+            "Renke Lucas",
+            "Lea Maxima Mehner",
+            "Tom Zimmermann",
+            "Anja M. Billing",
+            "Jun Oh",
+            "A. Mitrotti",
+            "P. Pontrelli",
+            "Hanna Debiec",
+            "C. Dossier",
+            "M. Colucci",
+            "Francesco Emma",
+            "W. Smoyer",
+            "Astrid Weins",
+            "Franz Schaefer",
+            "N. Alachkar",
+            "A. Diemert",
+            "Julien Hogan",
+            "E. Hoxha",
+            "T. Wiech",
+            "Markus M. Rinschen",
+            "Pierre Ronco",
+            "M. Vivarelli",
+            "L. Gesualdo",
+            "N. Tomas",
+            "Tobias B. Huber"
+          ],
+          "year": 2024,
+          "journal": "The New England journal of medicine",
+          "doi": "10.1056/nejmoa2314471",
+          "url": "https://consensus.app/papers/autoantibodies-targeting-nephrin-in-podocytopathies-hengel-dehde/fcc175416c5b5f038c8845dab4644dd2/",
+          "paper_id": "fcc175416c5b5f038c8845dab4644dd2",
+          "snippets": [
+            {
+              "marker": "1.1",
+              "quote": "Among the adults, antinephrin autoantibodies were found in 46 of the 105 patients (44%) with minimal change disease, 7 of 74 (9%) with primary focal segmental glomerulosclerosis, and only in rare cases among the patients with other conditions.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "1.2",
+              "quote": "In the subgroup of patients with active minimal change disease or idiopathic nephrotic syndrome who were not receiving immunosuppressive treatment, the prevalence of antinephrin autoantibodies was as high as 69% and 90%, respectively.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "1.3",
+              "quote": "Results: The study included 539 patients (357 adults and 182 children) and 117 controls.",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Evaluation of Methodologies in Anti-nephrin Autoantibody Detection",
+          "authors": [
+            "Pan Liu",
+            "Shuping Liu",
+            "Vidhi Dalal",
+            "Jerome Lane",
+            "P. Cravedi",
+            "Kirk N. Campbell",
+            "Andrea Angeletti",
+            "Xinfang Xie",
+            "E. Gessaroli",
+            "Eleonora Forte",
+            "Lorenzo Gallon",
+            "Jing Jin"
+          ],
+          "year": 2025,
+          "journal": "Kidney international",
+          "doi": "10.1016/j.kint.2025.05.018",
+          "url": "https://consensus.app/papers/evaluation-of-methodologies-in-antinephrin-autoantibody-liu-liu/528b51735c095b98a8c141c62e6bb79e/",
+          "paper_id": "528b51735c095b98a8c141c62e6bb79e",
+          "snippets": [
+            {
+              "marker": "2.1",
+              "quote": "Among 63 and 24 samples from patients with FSGS or MCD, respectively, two patients with FSGS showed strong antibody signals in both ELISA-based assays and IP-WB, while approximately half of patients with MCD had weak signals detectable only by IP-WB.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "2.2",
+              "quote": "Results: Different assay methods and antigen preparations led to method-specific false-positive and false-negative results.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "2.3",
+              "quote": "In general, high-quality antigens produced in human cells, combined with IP-based assays, yielded the most robust and reliable results.",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Association between Anti-Nephrin Antibodies and Podocytopathies: A Systematic Review and Meta-Analysis",
+          "authors": [
+            "Ju'an Wang",
+            "Jinglei Chen",
+            "Zi-Ge Chen",
+            "Zhao-Chen Guo",
+            "Hao Bao"
+          ],
+          "year": 2026,
+          "journal": "Nephron",
+          "doi": "10.1159/000550052",
+          "url": "https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/",
+          "paper_id": "e465899ffc5456fbabc5fc8943f8444e",
+          "snippets": [
+            {
+              "marker": "3.1",
+              "quote": "The heterogeneity of the positive rate results of anti-nephrin antibodies in the literature is very high (I2 >80%), and most subgroup analyses cannot explore the source of the heterogeneity.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "3.2",
+              "quote": "The positive rates of anti-nephrin antibodies in adult patients with primary podocytopathies, minimal change disease, primary focal segmental glomerulosclerosis (FSGS), and children with idiopathic nephrotic syndrome (NS) were 41%, 51%, 32%, and 39%, respectively.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "3.3",
+              "quote": "Anti-nephrin antibodies are almost undetectable in patients with secondary FSGS, membranous nephropathy and other glomerular diseases.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "3.4",
+              "quote": "Results: A meta-analysis included a total of 1,567 patients from 15 studies.",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Nephrin autoimmunity: signal, noise, and a path to clarity",
+          "authors": [
+            "Dhruti P. Chen",
+            "Ronald J. Falk"
+          ],
+          "year": 2026,
+          "journal": "The Journal of Clinical Investigation",
+          "doi": "10.1172/jci208243",
+          "url": "https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/",
+          "paper_id": "870feb4bd6a45f0ab64a8148c1b8488b",
+          "snippets": [
+            {
+              "marker": "4.1",
+              "quote": "Their findings suggest that anti-nephrin autoantibodies do not represent a unifying pathogenic mechanism or a reliable biomarker across podocytopathies; indeed, anti-nephrin autoantibody positivity was highest in the control group of healthy volunteers when using murine-derived nephrin.",
+              "section": "Body"
+            },
+            {
+              "marker": "4.2",
+              "quote": "Using human-derived nephrin, immunoprecipitation, and high-resolution kidney biopsy imaging, they demonstrated a paucity of circulating or tissue anti-nephrin IgG.",
+              "section": "Body"
+            },
+            {
+              "marker": "4.3",
+              "quote": "This controversy is driven largely by limitations of available antibody assays and differences in patient cohort composition.",
+              "section": "Body"
+            },
+            {
+              "marker": "4.4",
+              "quote": "More recently, mass spectrometry–based approaches have expanded the antigen spectrum to almost 30 different antigens (e.g., EXT1/EXT2, NELL-1), blurring the distinction between what was previously designated as “primary” membranous nephropathy and autoimmune-associated forms (7, 8).",
+              "section": "Body"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Anti-nephrin antibody: a potential biomarker of minimal change disease",
+          "authors": [
+            "Qiaoling Chen",
+            "Sihui Chen",
+            "Qiuping Ye",
+            "Wanjun Lin",
+            "Yonggen Liao",
+            "Yunfeng Xiong",
+            "Jiaming Xu",
+            "Ruiyu Gao",
+            "Binbin Li",
+            "Lifang Liu",
+            "Lixin Wei"
+          ],
+          "year": 2025,
+          "journal": "Clinical Kidney Journal",
+          "doi": "10.1093/ckj/sfaf012",
+          "url": "https://consensus.app/papers/antinephrin-antibody-a-potential-biomarker-of-minimal-chen-chen/3ea75cbcca89598685d73c443ad7d179/",
+          "paper_id": "3ea75cbcca89598685d73c443ad7d179",
+          "snippets": [
+            {
+              "marker": "5.1",
+              "quote": "Results: The prevalence of circulating anti-nephrin antibody was 19.44% (7 of 36) in MCD and 26.92% (7 of 26) in MCD patients with nephrotic proteinuria, which was higher than in FSGS, PMN, DN, IgAN and healthy volunteers.",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Afucosylated IgG in idiopathic nephrotic syndrome patients with anti-nephrin autoantibodies correlate with disease activity",
+          "authors": [
+            "Sonia Spinelli",
+            "Andrea Garbarino",
+            "Francesca Lugani",
+            "E. La Porta",
+            "Noemi Rumeo",
+            "G. Piaggio",
+            "A. Magnasco",
+            "Antonella Trivelli",
+            "M. L. degl'Innocenti",
+            "Gino Tripodi",
+            "S. Granata",
+            "Francesca Leone",
+            "Elena Zocchi",
+            "Lorenzo Gallon",
+            "G. Ghiggeri",
+            "E. Verrina",
+            "Gianluigi Zaza",
+            "Giovanni Candiano",
+            "Maurizio Bruschi"
+          ],
+          "year": 2025,
+          "journal": "Journal of Translational Autoimmunity",
+          "doi": "10.1016/j.jtauto.2025.100307",
+          "url": "https://consensus.app/papers/afucosylated-igg-in-idiopathic-nephrotic-syndrome-spinelli-garbarino/2aaa6d869bba58d493fe87e4c9139130/",
+          "paper_id": "2aaa6d869bba58d493fe87e4c9139130",
+          "snippets": [
+            {
+              "marker": "6.1",
+              "quote": "Results: Anti-nephrin autoantibodies were detected in serum of 11 % of FSGS and 15 % of MCD patients, with a higher prevalence among those with nephrotic-range proteinuria.",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "#3131 Multi-center study of anti-nephrin antibodies in minimal change disease and focal segmental glomerulosclerosis",
+          "authors": [
+            "C. Corona",
+            "Patricia Alonso",
+            "Beatriz Sánchez Alamo",
+            "E. M. Garcia",
+            "Laura Garcia-Bermejo",
+            "G. F. Juarez"
+          ],
+          "year": 2025,
+          "journal": "Nephrology Dialysis Transplantation",
+          "doi": "10.1093/ndt/gfaf116.0334",
+          "url": "https://consensus.app/papers/3131-multicenter-study-of-antinephrin-antibodies-in-corona-alonso/22b64865e4a95782a16f6c595208d326/",
+          "paper_id": "22b64865e4a95782a16f6c595208d326",
+          "snippets": [
+            {
+              "marker": "7.1",
+              "quote": "Based on this threshold, the presence of anti-nephrin antibodies was confirmed in 18% of MCD samples and 12.1% of FSGS samples.",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Association between anti-nephrin autoantibodies and disease activity in minimal change disease",
+          "authors": [
+            "Ming Guo",
+            "Lei Yan",
+            "Jiagen Zhao",
+            "Xiaoxiao Liu",
+            "Haiyu Zhang",
+            "Mengfei Li",
+            "Keying Zhang",
+            "Jing Cui",
+            "Yong Wang",
+            "Xiangmei Chen",
+            "Zhe-Yi Dong",
+            "Qing-Gang Li"
+          ],
+          "year": 2026,
+          "journal": "Annals of Medicine",
+          "doi": "10.1080/07853890.2026.2661115",
+          "url": "https://consensus.app/papers/association-between-antinephrin-autoantibodies-and-guo-yan/d1d2d372c036545f99356be364d7b3c4/",
+          "paper_id": "d1d2d372c036545f99356be364d7b3c4",
+          "snippets": [
+            {
+              "marker": "8.1",
+              "quote": "Results: Among 60 biopsy-confirmed MCD patients, circulating anti-nephrin autoantibodies were detected in 50% of cases.",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 9,
+          "title": "Autoantibodies against nephrin and podocin are associated with disease severity and steroid dependence in adult-onset nephrotic syndrome",
+          "authors": [
+            "Norifumi Hayashi",
+            "R. Akai",
+            "Yutaka Kagaya",
+            "Keiji Fujimoto",
+            "Takao Iwawaki",
+            "Hitoshi Yokoyama",
+            "Kengo Furuichi"
+          ],
+          "year": 2026,
+          "journal": "Scientific Reports",
+          "doi": "10.1038/s41598-026-43612-7",
+          "url": "https://consensus.app/papers/autoantibodies-against-nephrin-and-podocin-are-hayashi-akai/67dfa88e640159f3849589f08e191d9c/",
+          "paper_id": "67dfa88e640159f3849589f08e191d9c",
+          "snippets": [
+            {
+              "marker": "9.1",
+              "quote": "Anti-nephrin autoantibodies were detected predominantly in minimal change nephrotic syndrome (38.2%) and less frequently in focal segmental glomerulosclerosis (14.3%), but were rare in membranous nephropathy.",
+              "section": "Body"
+            }
+          ]
+        },
+        {
+          "n": 10,
+          "title": "How to identify IgA nephropathy presenting as nephrotic syndrome coexisting with minimal change disease? A 15-year single-center clinicopathological analysis",
+          "authors": [
+            "Yue Yang",
+            "L. Duan",
+            "Ying Wang",
+            "Zheng Zhang",
+            "Qian-qian Xu",
+            "Li Zhuo",
+            "Wen-ge Li"
+          ],
+          "year": 2025,
+          "journal": "Frontiers in Immunology",
+          "doi": "10.3389/fimmu.2025.1669276",
+          "url": "https://consensus.app/papers/how-to-identify-iga-nephropathy-presenting-as-nephrotic-yang-duan/48a0fa42e4315055b1545af2f1827aba/",
+          "paper_id": "48a0fa42e4315055b1545af2f1827aba",
+          "snippets": [
+            {
+              "marker": "10.1",
+              "quote": "Strikingly, an identical pattern of nephrin-IgG co-localization was identified in 54.2% (13/24) of patients in the CR group, mirroring the MCD phenotype.",
+              "section": "Body"
+            }
+          ]
+        },
+        {
+          "n": 11,
+          "title": "Anti-slit diaphragm antibodies on kidney biopsy identify pediatric patients with steroid-resistant nephrotic syndrome responsive to second-line immunosuppressants.",
+          "authors": [
+            "Valentina Raglianti",
+            "M. Angelotti",
+            "L. Cirillo",
+            "Fiammetta Ravaglia",
+            "Samuela Landini",
+            "Viviana Palazzo",
+            "M. Melica",
+            "Giulia Antonelli",
+            "Carolina Conte",
+            "E. Buti",
+            "Carmela Errichiello",
+            "Letizia De Chiara",
+            "A. Peired",
+            "L. Lasagni",
+            "A. Buccoliero",
+            "M. Allinovi",
+            "A. M. Montero",
+            "J. M. Cruzado",
+            "M. Bruschi",
+            "G. Ghiggeri",
+            "A. Angeletti",
+            "Hans-Joachim Anders",
+            "E. Lazzeri",
+            "B. Mazzinghi",
+            "F. Becherucci",
+            "P. Romagnani"
+          ],
+          "year": 2024,
+          "journal": "Kidney international",
+          "doi": "10.1016/j.kint.2024.09.006",
+          "url": "https://consensus.app/papers/antislit-diaphragm-antibodies-on-kidney-biopsy-identify-raglianti-angelotti/0a50ec9d9955545ba56b638bc2cc1ccb/",
+          "paper_id": "0a50ec9d9955545ba56b638bc2cc1ccb",
+          "snippets": [
+            {
+              "marker": "11.1",
+              "quote": "High resolution confocal microscopy on kidney biopsies of a cohort of 128 pediatric patients revealed localization of IgG along the slit diaphragm in 30% of patients with MC and 25% of those with FSGS, but not in other lesion patterns.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "11.2",
+              "quote": "Similar observations were obtained in a cohort of 48 adult patients with MC or FSGS at kidney biopsy, where IgG-nephrin colocalization was only 44.4%, suggesting the existence of autoantibodies binding to other slit proteins.",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 12,
+          "title": "Characteristics and Outcomes of NELL1 Membranous Nephropathy in Lipoic Acid Users and Nonusers",
+          "authors": [
+            "Rupali S. Avasare",
+            "S. Clark",
+            "Rebecca I. Spain",
+            "R. Wusirika",
+            "Robert Rope",
+            "S. Gurley",
+            "Madison Stanaway",
+            "M. Sekulic",
+            "D. Santoriello",
+            "A. Bomback",
+            "P. Canetta",
+            "Sitalakshmi J Iyer",
+            "Vanderlene L. Kung",
+            "Vivek Charu",
+            "M. L. Troxell",
+            "Satoru Kudose",
+            "Nicole K. Andeen"
+          ],
+          "year": 2024,
+          "journal": "Kidney International Reports",
+          "doi": "10.1016/j.ekir.2024.02.1401",
+          "url": "https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/",
+          "paper_id": "0a427db927e2531a92e37234791014e3",
+          "snippets": [
+            {
+              "marker": "12.1",
+              "quote": "Membranous nephropathy (MN) is an autoimmune disease caused by circulating antibodies directed against podocyte antigens.1, 2, 3 In 2019, 2 groups identified the NELL1 podocyte antigen in a subset of MN with distinct histologic and immunologic features, namely segmental or incomplete glomerular capillary loop involvement with predominant IgG1 staining.4,5 NELL1 MN has also been identified in association with thiol-containing medications, namely lipoic acid,6,7 bucillamine,8 and tiopronin9; traditional indigenous medications, including those with high mercury content10; and with underlying conditions, including malignancy,5 infections (including HIV11), sarcoidosis,12 hematopoietic stem cell transplant and graft-versus-host disease,13 and rheumatoid arthritis.8",
+              "section": "Body"
+            },
+            {
+              "marker": "12.2",
+              "quote": "NELL1 MN was associated with lipoic acid (36%), heavy nonsteroidal antiinflammatory drug (NSAID) use (27%), autoimmune disease (23%), malignancy (10% recent, 23% any), mercury exposure (1%), and 11% had no known secondary association.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "12.3",
+              "quote": "Conclusion: Our findings strengthen the association between lipoic acid and NELL1 MN.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "12.4",
+              "quote": "Introduction: Neural epidermal growth factor like 1 membranous nephropathy (NELL1 MN) is associated with various secondary etiologies.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "12.5",
+              "quote": "We demonstrate a high rate of remission for lipoic acid-associated NELL1 MN without immunosuppressive use; however, we cannot draw further conclusions about the utility of immunosuppression for all-comers with NELL1 MN, particularly those not associated with thiol-containing medications.",
+              "section": "Body"
+            }
+          ]
+        },
+        {
+          "n": 13,
+          "title": "Passive transfer of patient-derived anti-nephrin autoantibodies causes a podocytopathy with minimal change lesions",
+          "authors": [
+            "Felicitas E. Hengel",
+            "Silke Dehde",
+            "Oliver Kretz",
+            "Jonas Engesser",
+            "Tom Zimmermann",
+            "T. Huber",
+            "N. Tomas"
+          ],
+          "year": 2025,
+          "journal": "The Journal of Clinical Investigation",
+          "doi": "10.1172/jci186769",
+          "url": "https://consensus.app/papers/passive-transfer-of-patientderived-antinephrin-hengel-dehde/67bf82f788365ef08e572e82dcde424f/",
+          "paper_id": "67bf82f788365ef08e572e82dcde424f",
+          "snippets": [
+            {
+              "marker": "13.1",
+              "quote": "Importantly, we did not find complement consumption in the sera of the injected rabbits (Supplemental Figure 2D), which, together with the absence of homologous rabbit IgG and complement deposition (Figure 1F and Supplemental Figure 2C, middle and right), argues against the development of serum sickness",
+              "section": "Body"
+            }
+          ]
+        },
+        {
+          "n": 14,
+          "title": "Anti-nephrin autoantibodies in steroid-resistant nephrotic syndrome may inform treatment strategy.",
+          "authors": [
+            "Felicitas E. Hengel",
+            "Silke Dehde",
+            "A. Yilmaz",
+            "A. Bayazıt",
+            "F. Ozaltin",
+            "D. Paripović",
+            "Francesco Emma",
+            "P. Ronco",
+            "M. Vivarelli",
+            "Julien Hogan",
+            "Franz Schaefer",
+            "N. Tomas",
+            "Tobias B. Huber"
+          ],
+          "year": 2025,
+          "journal": "Kidney international",
+          "doi": "10.1016/j.kint.2025.01.019",
+          "url": "https://consensus.app/papers/antinephrin-autoantibodies-in-steroidresistant-hengel-dehde/2ecc0c7dd8d9589c8cce970c5bc99d6c/",
+          "paper_id": "2ecc0c7dd8d9589c8cce970c5bc99d6c",
+          "snippets": [
+            {
+              "marker": "14.1",
+              "quote": "Results: Sixty-nine of 101 (68%) patients with SSNS, 19 of 67 (28%) patients with SDNS, 14 of 103 patients (14%) with non-genetic SRNS, and 1 of 62 patients (2%) with genetic SRNS were positive for anti-nephrin autoantibodies.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "14.2",
+              "quote": "Within the group of non-genetic SRNS patients with active disease, anti-nephrin positivity was found in 13 of 74 (18%) patients responding to intensified immunosuppression compared to none of 17 patients with multidrug-resistant SRNS.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "14.3",
+              "quote": "Conclusions: The prevalence of anti-nephrin antibodies is substantially higher in children with steroid responsive NS than in those with SRNS, suggesting that anti-nephrin antibodies primarily drive SSNS/SDNS.",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 15,
+          "title": "Disease-Specific Prevalence and Clinical Significance of Antinephrin Autoantibodies in Adult Japanese Patients with Podocytopathy: A Single-Center Cohort Study, 2016-2024",
+          "authors": [
+            "Anna Nakai",
+            "Shun Manabe",
+            "Momoko Seki",
+            "Yusuke Ushio",
+            "Naoko Ito",
+            "Hiroshi Kataoka",
+            "S. Taneda",
+            "Junichi Hoshino"
+          ],
+          "year": 2025,
+          "journal": "Journal of the American Society of Nephrology",
+          "doi": "10.1681/asn.2025tncwrycb",
+          "url": "https://consensus.app/papers/diseasespecific-prevalence-and-clinical-significance-of-nakai-manabe/628cfb77e979564ba9575f2daed7d052/",
+          "paper_id": "628cfb77e979564ba9575f2daed7d052",
+          "snippets": [
+            {
+              "marker": "15.1",
+              "quote": "In MCNS, no patients were positive pre-therapy (0/4), while 21% were positive post-therapy (6/28).",
+              "section": "Abstract"
+            },
+            {
+              "marker": "15.2",
+              "quote": "Conclusion: Most ANeph-Ab-positive MCNS cases were identified post-therapy, suggesting treatment-induced seronegativity and potential underestimation of true prevalence.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "15.3",
+              "quote": "Results: ANeph-Ab positivity was 18.8% in MCNS, 20.0% in secondary FSGS, and 60.0% in primary FSGS (p = 0.12).",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 16,
+          "title": "Effect of Steroids on Anti-nephrin Autoantibodies and B cells in Minimal Change Disease",
+          "authors": [
+            "Felicitas E. Hengel",
+            "Asma Beldi-Ferchiou",
+            "Hamza Sakhi",
+            "N. Liaukouskaya",
+            "Silke Dehde",
+            "Alexandre Karras",
+            "Emmanuel Esteve",
+            "J. Oniszczuk",
+            "S. le Gouvello",
+            "L. Herrera-Marcos",
+            "Nizar Joher",
+            "Eric Daugas",
+            "M. Zaidan",
+            "K. El Karoui",
+            "Bertrand Knebelmann",
+            "Myriam Dao",
+            "A. Moktefi",
+            "Dil Sahali",
+            "Tobias B Huber",
+            "Mario Ollero",
+            "Nicola M. Tomas",
+            "V. Audard"
+          ],
+          "year": 2026,
+          "journal": "Kidney International Reports",
+          "doi": "10.1016/j.ekir.2026.103794",
+          "url": "https://consensus.app/papers/effect-of-steroids-on-antinephrin-autoantibodies-and-b-hengel-beldi-ferchiou/fd2f0765b42859a8abf043014ff34743/",
+          "paper_id": "fd2f0765b42859a8abf043014ff34743",
+          "snippets": [
+            {
+              "marker": "16.1",
+              "quote": "Results: We detected anti-nephrin antibodies in 12 of 17 (70.6%) therapy-naïve patients with MCD at t0.",
+              "section": "Abstract"
+            },
+            {
+              "marker": "16.2",
+              "quote": "All 12 patients (100%) positive for anti-nephrin antibodies achieved complete remission with no anti-nephrin antibodies detectable after 8 weeks of steroid treatment (t1).",
+              "section": "Abstract"
+            },
+            {
+              "marker": "16.3",
+              "quote": "Plasmablasts, naïve B cells, and transitional B cells significantly decreased, whereas marginal zone-like B cells increased within 8 weeks of steroid treatment in anti-nephrin positive patients (t1).",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 17,
+          "title": "Anti-Nephrin Antibodies in Adult Chinese Patients with Minimal Change Disease and Primary Focal Segmental Glomerulosclerosis.",
+          "authors": [
+            "Yue Shu",
+            "Jing Huang",
+            "Lei Jiang",
+            "Yi-miao Zhang",
+            "Fang Wang",
+            "Xin Wang",
+            "Li-qiang Meng",
+            "Xu-yang Cheng",
+            "Gang Liu",
+            "Su-Xia Wang",
+            "Ming-Hui Zhao",
+            "P. Ronco",
+            "Zhao Cui"
+          ],
+          "year": 2025,
+          "journal": "Kidney international",
+          "doi": "10.1016/j.kint.2025.02.028",
+          "url": "https://consensus.app/papers/antinephrin-antibodies-in-adult-chinese-patients-with-shu-huang/52ec93daf84c5bcf9cb0eb4187a0c871/",
+          "paper_id": "52ec93daf84c5bcf9cb0eb4187a0c871",
+          "snippets": [
+            {
+              "marker": "17.1",
+              "quote": "Methods: Here, we investigated the prevalence and clinical significance of anti-nephrin antibodies in 596 adult Chinese patients (436 with MCD and 160 with primary FSGS) diagnosed by kidney biopsy.",
+              "section": "Abstract"
+            }
+          ]
+        },
+        {
+          "n": 18,
+          "title": "Prevalence and Clinical Correlates of Antinephrin Antibodies in Minimal Change Disease: Single-Center Biopsy-Based Study in Taiwan",
+          "authors": [
+            "Kun-Hua Tu",
+            "Chih-Fang Hsueh",
+            "Tsai-Yi Wu",
+            "Yi-Ran Tu",
+            "Li-Yi Ma",
+            "Tai-Di Chen",
+            "Cheng-Lung Ku"
+          ],
+          "year": 2025,
+          "journal": "Journal of the American Society of Nephrology",
+          "doi": "10.1681/asn.2025zc7sn7xh",
+          "url": "https://consensus.app/papers/prevalence-and-clinical-correlates-of-antinephrin-tu-hsueh/6672dfb9d2805932bded3bba4d16b93f/",
+          "paper_id": "6672dfb9d2805932bded3bba4d16b93f",
+          "snippets": [
+            {
+              "marker": "18.1",
+              "quote": "Results: Anti-nephrin antibodies were detected in 55% (55/100) of patients.",
+              "section": "Abstract"
+            }
+          ]
+        }
+      ],
+      "cited_papers": [
+        {
+          "rank": 1,
+          "paper_id": "fcc175416c5b5f038c8845dab4644dd2"
+        },
+        {
+          "rank": 2,
+          "paper_id": "528b51735c095b98a8c141c62e6bb79e"
+        },
+        {
+          "rank": 3,
+          "paper_id": "e465899ffc5456fbabc5fc8943f8444e"
+        },
+        {
+          "rank": 4,
+          "paper_id": "870feb4bd6a45f0ab64a8148c1b8488b"
+        },
+        {
+          "rank": 5,
+          "paper_id": "3ea75cbcca89598685d73c443ad7d179"
+        },
+        {
+          "rank": 6,
+          "paper_id": "2aaa6d869bba58d493fe87e4c9139130"
+        },
+        {
+          "rank": 7,
+          "paper_id": "22b64865e4a95782a16f6c595208d326"
+        },
+        {
+          "rank": 8,
+          "paper_id": "d1d2d372c036545f99356be364d7b3c4"
+        },
+        {
+          "rank": 9,
+          "paper_id": "67dfa88e640159f3849589f08e191d9c"
+        },
+        {
+          "rank": 10,
+          "paper_id": "48a0fa42e4315055b1545af2f1827aba"
+        },
+        {
+          "rank": 11,
+          "paper_id": "0a50ec9d9955545ba56b638bc2cc1ccb"
+        },
+        {
+          "rank": 12,
+          "paper_id": "0a427db927e2531a92e37234791014e3"
+        },
+        {
+          "rank": 13,
+          "paper_id": "67bf82f788365ef08e572e82dcde424f"
+        },
+        {
+          "rank": 14,
+          "paper_id": "2ecc0c7dd8d9589c8cce970c5bc99d6c"
+        },
+        {
+          "rank": 15,
+          "paper_id": "628cfb77e979564ba9575f2daed7d052"
+        },
+        {
+          "rank": 16,
+          "paper_id": "fd2f0765b42859a8abf043014ff34743"
+        },
+        {
+          "rank": 17,
+          "paper_id": "52ec93daf84c5bcf9cb0eb4187a0c871"
+        },
+        {
+          "rank": 18,
+          "paper_id": "6672dfb9d2805932bded3bba4d16b93f"
+        }
+      ],
+      "stats": {
+        "retrieved": 55275,
+        "eligible": 48,
+        "included": 20
+      },
+      "step_count": 7,
+      "document": "# Review BOTH exact REVISED local map summaries through 2026-10-20. Independently\n\n**Question:** Review BOTH exact REVISED local map summaries through 2026-10-20. Independently search current literature, null findings and contradictions. Prior feedback requested NELL1 secondary-association limits and heterogeneous anti-nephrin prevalence. Graph now has source-checked qualifying claims from DOI10.1016/j.ekir.2024.02.1401, 10.1093/ckj/sfaf012 and 10.1016/j.jtauto.2025.100307, inspected primary abstracts. IL-13 section explicitly restricted to overexpression model; broader context-dependent culture study DOI10.1016/j.intimp.2022.109493 inspected abstract but not imported into a different study context. Do not treat already stated safeguards as missing. Identify actual remaining errors versus optional scope expansion. Return separate verdicts, concrete major/minor issues, citations and source access limits; no human approval implied.\n\nminimal-change-nephropathy-summary-candidate-fff563f6c53b\nDigest: bcf67b0b5f9bc0e442c6f9cde99f5237bbe648fe498803922416eca2e1fb74c2\nScope:A bounded immune-mediated podocytopathy map of primary minimal change nephropathy: anti-nephrin autoantibodies with humoral and Th2 associations, observational hemopexin activity, T-cell and cytokine (IL-8, IL-13) observations, experimental antibody and IL-13 models, foot-process effacement and nephrotic syndrome. Excludes secondary causes, genetics, other glomerulopathies and treatment efficacy; CD80, CTLA-4 and ANGPTL4 evidence is not yet curated.\nPrimary minimal change disease (MCD) is represented here as an immune-associated podocytopathy with heterogeneous upstream pathogenesis, foot-process effacement and nephrotic proteinuria. Anti-nephrin autoantibodies identify a subset: one multicentre cohort detected them in 44% of adults with MCD and 69% with active untreated disease. Levels tracked activity and proteinuria, fell during remission and reappeared before relapse; replication supports a subset but prevalence is quantitatively inconsistent. A cell-based assay cohort detected antibodies in 7/36 adults with MCD (19.44%); another pediatric/young-adult cohort found 15% MCD and 11% FSGS positivity. Anti-nephrin is neither universal nor specific to MCD. Human biopsy findings associate antibodies with podocyte IgG. Nephrin immunization in mice induced an MCD-like syndrome, nephrin phosphorylation and podocyte cytoskeletal changes. Patient IgG transferred to a rabbit caused proteinuria, effacement without deposits and nephrin phosphorylation. These experiments support a pathogenic antibody route in selected systems, without establishing each intracellular step or explaining antibody-negative disease. Anti-nephrin-positive patients also had IgG4 predominance, Th2-skewed cytokines and a non-significant plasmablast trend; their sequence is unresolved. A newly added human study found higher hemopexin protease activity despite lower hemopexin concentration during MCD relapse, compared with remission. This supplies a separate observational circulating-factor signal, not proof that hemopexin causes human MCD.\n\nThe antibody-transfer experiment used total IgG from one patient in one rabbit, rather than purified nephrin-specific antibody; animal sufficiency does not establish universal human necessity. The hemopexin study compared 18 relapsing patients, 23 patients in remission after prednisolone, other glomerulopathies and controls; treatment and disease-stage confounding remain. Its kidney-tissue activity assay did not establish in vivo permeability-factor causation. Peripheral CD4 activation at onset remains an association. IL-13 overexpression in rats caused albuminuria, foot-process fusion and changes in nephrin and B7-1 expression, supporting an overexpression-model route. IL-13 effects remain model-dependent; this does not establish uniform pathogenicity or human necessity. Urinary IL-8 rose in relapse, yet that study did not support a disease-specific pathogenic role for IL-8 or TNF-alpha under its tested conditions. No single upstream factor is established as necessary or sufficient across primary MCD. Concurrent steroid-induced remission and antibody clearance do not isolate the mediator of treatment response. Secondary causes, other glomerulopathies and treatment efficacy are excluded from this synthesis. Human observations and animal experiments retain separate graph contexts; most sources, including the newly added hemopexin report, were inspected at abstract level. Independent domain review and calibrated appraisals remain pending.\n\nmembranous-nephropathy-summary-candidate-6c64ff75abce\nDigest: 3df1e4da6b6d6f018a8f088a70f0eada4b028dc6fc77cbda8036781a626fd2be\nScope:Bounded primary (autoantibody-mediated) membranous nephropathy map: podocyte target antigens (PLA2R1, THSD7A and other recently described antigens) lumped as one shared antigen-antibody mechanism, subepithelial immune-complex formation, complement activation, podocyte injury and nephrotic proteinuria. Secondary membranous nephropathy (lupus, malignancy, infection, drug-associated) and therapy efficacy are excluded.\nPrimary membranous nephropathy shares an antigen-specific podocyte autoantibody principle, but antigen-defined subtypes differ in frequency, serology and clinical associations and are increasingly treated as partly distinct entities. Autoantibodies, IgG4-predominant though not IgG4-exclusive, bind a podocyte-associated antigen, not all of which are cell-surface proteins: PLA2R in most inspected adult cases, THSD7A in a smaller PLA2R-negative subgroup, NELL-1 in selected PLA2R-negative cases, and semaphorin 3B, HTRA1 or rarer putative targets beyond those. The evidence differs in kind by antigen: deposit-eluted IgG recognized PLA2R and THSD7A, patient sera recognized NELL-1, semaphorin 3B and HTRA1, and the seven putative mass-spectrometry targets were recovered from immune complexes and co-localized with IgG in the deposits without comparable serological evidence. Anti-PLA2R levels tracked clinical status and proteinuria, and epitope spreading beyond the cysteine-rich domain was an independent risk factor for poor renal outcome. HLA-DQA1 and PLA2R1 risk loci were associated with biopsy-proven disease in white-ancestry cohorts.\n\nAntigen-specific rodent models supply directional evidence: podocyte expression of human PLA2R1 produced antibodies, deposits and nephrotic syndrome, lymphocyte-deficient animals developed neither, and Thsd7a-knockout mice resisted antibody transfer. These do not establish one human effector route. Patient-biopsy assays detected all three complement initiation pathways, with proximity assays favouring the classical pathway; factor-B-null mice were protected and lectin-pathway blockade preserved slit proteins in culture. A newly added retrospective comparison of 17 PLA2R-associated and nine NELL1-associated cases found lower C3 and C4d deposition in NELL1 disease. Deposition is not functional activation, proteomic complement differences were not significant, and this study did not test slit-diaphragm injury. Effector evidence also differs by system: C5b-9 was required for slit-protein proteolysis in culture and C5 deficiency partly reduced albuminuria, while membrane-attack-complex inhibition did not restore albumin permselectivity on a glomerulus-on-a-chip and anti-THSD7A antibodies injured podocytes in C3-deficient mice. These non-exclusive pathways differ by subtype, assay and experimental system; none is established as universal. The under-1-to-4.9% frequencies concern seven putative targets, not NELL-1. In a separate 70-person NELL1 series only 11% lacked known secondary associations, including drugs, autoimmunity or malignancy. NELL1 identity does not establish primary disease; its inclusion is bounded and provisional against mixed literature, with secondary associations excluded. Evidence rests on agent-inspected abstracts; therapy efficacy and independent domain review remain outside the completed work.\n\n\n\n# **Both revised** summaries are **mostly accurate**; the main remaining issue is overstated mechanistic confidence in anti-nephrin MCD.\n\nThe two sub-questions are the **remaining errors** in each revised summary and the **optional expansions/source limits** that should be separated from true mistakes.\n\n## Minimal Change Disease\n\n**Verdict:** **Mostly sound, but not cleanly up to 2026-10-20** because newer contradictory assay literature makes the anti-nephrin section slightly too confident on pathogenic generalization, even though the prevalence-heterogeneity safeguard is now appropriate [[1.1]](https://consensus.app/papers/autoantibodies-targeting-nephrin-in-podocytopathies-hengel-dehde/fcc175416c5b5f038c8845dab4644dd2/) [[1.2]](https://consensus.app/papers/autoantibodies-targeting-nephrin-in-podocytopathies-hengel-dehde/fcc175416c5b5f038c8845dab4644dd2/) [[2.1]](https://consensus.app/papers/evaluation-of-methodologies-in-antinephrin-autoantibody-liu-liu/528b51735c095b98a8c141c62e6bb79e/) [[3.1]](https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/) [[4.1]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/) [[4.2]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/).\n\n- **Major issue:** “These experiments support a pathogenic antibody route in selected systems” is fair, but the surrounding narrative still leans too close to a settled mechanism despite strong assay-dependence and later null/near-null signals in some orthogonal human-based approaches [[2.2]](https://consensus.app/papers/evaluation-of-methodologies-in-antinephrin-autoantibody-liu-liu/528b51735c095b98a8c141c62e6bb79e/) [[2.3]](https://consensus.app/papers/evaluation-of-methodologies-in-antinephrin-autoantibody-liu-liu/528b51735c095b98a8c141c62e6bb79e/) [[2.1]](https://consensus.app/papers/evaluation-of-methodologies-in-antinephrin-autoantibody-liu-liu/528b51735c095b98a8c141c62e6bb79e/) [[4.3]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/) [[4.1]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/) [[4.2]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/).\n- **Major issue:** the anti-nephrin prevalence sentence is no longer wrong, but it is incomplete without noting that heterogeneity is extreme across studies and remains largely unexplained, even in meta-analysis [[5.1]](https://consensus.app/papers/antinephrin-antibody-a-potential-biomarker-of-minimal-chen-chen/3ea75cbcca89598685d73c443ad7d179/) [[6.1]](https://consensus.app/papers/afucosylated-igg-in-idiopathic-nephrotic-syndrome-spinelli-garbarino/2aaa6d869bba58d493fe87e4c9139130/) [[7.1]](https://consensus.app/papers/3131-multicenter-study-of-antinephrin-antibodies-in-corona-alonso/22b64865e4a95782a16f6c595208d326/) [[8.1]](https://consensus.app/papers/association-between-antinephrin-autoantibodies-and-guo-yan/d1d2d372c036545f99356be364d7b3c4/) [[3.2]](https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/) [[3.1]](https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/).\n- **Major issue:** “Anti-nephrin is neither universal nor specific to MCD” is directionally right, but newer evidence suggests the non-specificity may extend beyond FSGS into some overlap/other podocytopathy states, so the present wording slightly understates cross-entity complexity [[1.1]](https://consensus.app/papers/autoantibodies-targeting-nephrin-in-podocytopathies-hengel-dehde/fcc175416c5b5f038c8845dab4644dd2/) [[3.3]](https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/) [[9.1]](https://consensus.app/papers/autoantibodies-against-nephrin-and-podocin-are-hayashi-akai/67dfa88e640159f3849589f08e191d9c/) [[10.1]](https://consensus.app/papers/how-to-identify-iga-nephropathy-presenting-as-nephrotic-yang-duan/48a0fa42e4315055b1545af2f1827aba/) [[11.1]](https://consensus.app/papers/antislit-diaphragm-antibodies-on-kidney-biopsy-identify-raglianti-angelotti/0a50ec9d9955545ba56b638bc2cc1ccb/) [[11.2]](https://consensus.app/papers/antislit-diaphragm-antibodies-on-kidney-biopsy-identify-raglianti-angelotti/0a50ec9d9955545ba56b638bc2cc1ccb/).\n\n## Membranous Nephropathy\n\n**Verdict:** **Substantively sound** on NELL1 limits and complement heterogeneity, with no major factual error evident from the supplied literature; remaining changes are mostly calibration and optional scope expansion [[12.1]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[12.2]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[12.3]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/).\n\n- **No major error found:** the revised NELL1 language now correctly avoids treating NELL1 as straightforwardly primary, and the 70-patient series supports that only **11%** lacked a known secondary association [[12.4]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[12.2]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[12.3]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/).\n- **Minor issue:** “PLA2R in most inspected adult cases” is likely acceptable as a high-level statement, but the summary would be sharper if it explicitly said that antigen-defined MN entities are increasingly handled as partially distinct clinicopathologic groups rather than one pooled mechanism with small frequency differences [[12.1]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[4.4]](https://consensus.app/papers/nephrin-autoimmunity-signal-noise-and-a-path-to-clarity-chen-falk/870feb4bd6a45f0ab64a8148c1b8488b/).\n- **Minor issue:** the complement paragraph is careful, but “patient-biopsy assays detected all three complement initiation pathways” should remain explicitly bounded to the cited assay systems, because the same corpus supports **non-exclusive** and subtype-dependent effector routes rather than a universal cascade [[12.5]](https://consensus.app/papers/characteristics-and-outcomes-of-nell1-membranous-avasare-clark/0a427db927e2531a92e37234791014e3/) [[13.1]](https://consensus.app/papers/passive-transfer-of-patientderived-antinephrin-hengel-dehde/67bf82f788365ef08e572e82dcde424f/).\n\n## Optional Expansions\n\nThese are **scope expansions**, not remaining errors. The MCD map could optionally mention that steroid-responsive pediatric disease shows much higher anti-nephrin prevalence than genetic or multidrug-resistant SRNS, which reinforces subtype restriction rather than universality [[14.1]](https://consensus.app/papers/antinephrin-autoantibodies-in-steroidresistant-hengel-dehde/2ecc0c7dd8d9589c8cce970c5bc99d6c/) [[14.2]](https://consensus.app/papers/antinephrin-autoantibodies-in-steroidresistant-hengel-dehde/2ecc0c7dd8d9589c8cce970c5bc99d6c/) [[14.3]](https://consensus.app/papers/antinephrin-autoantibodies-in-steroidresistant-hengel-dehde/2ecc0c7dd8d9589c8cce970c5bc99d6c/).\n\nIt could also mention that steroid treatment itself can drive rapid seronegativity and B-cell changes, which helps explain why post-treatment sampling depresses measured prevalence across cohorts [[15.1]](https://consensus.app/papers/diseasespecific-prevalence-and-clinical-significance-of-nakai-manabe/628cfb77e979564ba9575f2daed7d052/) [[15.2]](https://consensus.app/papers/diseasespecific-prevalence-and-clinical-significance-of-nakai-manabe/628cfb77e979564ba9575f2daed7d052/) [[16.1]](https://consensus.app/papers/effect-of-steroids-on-antinephrin-autoantibodies-and-b-hengel-beldi-ferchiou/fd2f0765b42859a8abf043014ff34743/) [[16.2]](https://consensus.app/papers/effect-of-steroids-on-antinephrin-autoantibodies-and-b-hengel-beldi-ferchiou/fd2f0765b42859a8abf043014ff34743/) [[16.3]](https://consensus.app/papers/effect-of-steroids-on-antinephrin-autoantibodies-and-b-hengel-beldi-ferchiou/fd2f0765b42859a8abf043014ff34743/).\n\n## Source Limits\n\nMost anti-nephrin contradiction papers here are abstracts, conference abstracts, reviews, or methodology papers rather than uniformly full primary datasets, so confidence is highest for the large multicenter studies and lower for some late-2025 to 2026 prevalence refinements [[1.3]](https://consensus.app/papers/autoantibodies-targeting-nephrin-in-podocytopathies-hengel-dehde/fcc175416c5b5f038c8845dab4644dd2/) [[17.1]](https://consensus.app/papers/antinephrin-antibodies-in-adult-chinese-patients-with-shu-huang/52ec93daf84c5bcf9cb0eb4187a0c871/) [[3.4]](https://consensus.app/papers/association-between-antinephrin-antibodies-and-wang-chen/e465899ffc5456fbabc5fc8943f8444e/) [[7.1]](https://consensus.app/papers/3131-multicenter-study-of-antinephrin-antibodies-in-corona-alonso/22b64865e4a95782a16f6c595208d326/) [[15.3]](https://consensus.app/papers/diseasespecific-prevalence-and-clinical-significance-of-nakai-manabe/628cfb77e979564ba9575f2daed7d052/) [[18.1]](https://consensus.app/papers/prevalence-and-clinical-correlates-of-antinephrin-tu-hsueh/6672dfb9d2805932bded3bba4d16b93f/).\n\nOverall, the **membranous nephropathy** summary has no clear remaining factual error from this corpus, while the **minimal change disease** summary mainly needs one further downgrade in mechanistic certainty around anti-nephrin because the 2025-2026 literature adds real assay-driven contradiction, not just prevalence spread.\n \n_These search results were found and analyzed using Consensus, an AI-powered search engine for research. Try it at https://consensus.app. © 2026 Consensus NLP, Inc. Personal, non-commercial use only; redistribution requires copyright holders’ consent._\n \n## References\n \n`1.` Hengel FE, Dehde S, Zahner G, et al. Autoantibodies Targeting Nephrin in Podocytopathies.. *The New England journal of medicine.* 2024. doi:10.1056/nejmoa2314471\n \n> [1.1] Among the adults, antinephrin autoantibodies were found in 46 of the 105 patients (44%) with minimal change disease, 7 of 74 (9%) with primary focal segmental glomerulosclerosis, and only in rare cases among the patients with other conditions. (Abstract)\n \n> [1.2] In the subgroup of patients with active minimal change disease or idiopathic nephrotic syndrome who were not receiving immunosuppressive treatment, the prevalence of antinephrin autoantibodies was as high as 69% and 90%, respectively. (Abstract)\n \n> [1.3] Results: The study included 539 patients (357 adults and 182 children) and 117 controls. (Abstract)\n \n`2.` Liu P, Liu S, Dalal V, et al. Evaluation of Methodologies in Anti-nephrin Autoantibody Detection. *Kidney international.* 2025;108:485 - 490. doi:10.1016/j.kint.2025.05.018\n \n> [2.1] Among 63 and 24 samples from patients with FSGS or MCD, respectively, two patients with FSGS showed strong antibody signals in both ELISA-based assays and IP-WB, while approximately half of patients with MCD had weak signals detectable only by IP-WB. (Abstract)\n \n> [2.2] Results: Different assay methods and antigen preparations led to method-specific false-positive and false-negative results. (Abstract)\n \n> [2.3] In general, high-quality antigens produced in human cells, combined with IP-based assays, yielded the most robust and reliable results. (Abstract)\n \n`3.` Wang J, Chen J, Chen Z, Guo Z, Bao H. Association between Anti-Nephrin Antibodies and Podocytopathies: A Systematic Review and Meta-Analysis. *Nephron.* 2026;150:312 - 330. doi:10.1159/000550052\n \n> [3.1] The heterogeneity of the positive rate results of anti-nephrin antibodies in the literature is very high (I2 >80%), and most subgroup analyses cannot explore the source of the heterogeneity. (Abstract)\n \n> [3.2] The positive rates of anti-nephrin antibodies in adult patients with primary podocytopathies, minimal change disease, primary focal segmental glomerulosclerosis (FSGS), and children with idiopathic nephrotic syndrome (NS) were 41%, 51%, 32%, and 39%, respectively. (Abstract)\n \n> [3.3] Anti-nephrin antibodies are almost undetectable in patients with secondary FSGS, membranous nephropathy and other glomerular diseases. (Abstract)\n \n> [3.4] Results: A meta-analysis included a total of 1,567 patients from 15 studies. (Abstract)\n \n`4.` Chen DP, Falk RJ. Nephrin autoimmunity: signal, noise, and a path to clarity. *The Journal of Clinical Investigation.* 2026;136. doi:10.1172/jci208243\n \n> [4.1] Their findings suggest that anti-nephrin autoantibodies do not represent a unifying pathogenic mechanism or a reliable biomarker across podocytopathies; indeed, anti-nephrin autoantibody positivity was highest in the control group of healthy volunteers when using murine-derived nephrin. (Body)\n \n> [4.2] Using human-derived nephrin, immunoprecipitation, and high-resolution kidney biopsy imaging, they demonstrated a paucity of circulating or tissue anti-nephrin IgG. (Body)\n \n> [4.3] This controversy is driven largely by limitations of available antibody assays and differences in patient cohort composition. (Body)\n \n> [4.4] More recently, mass spectrometry–based approaches have expanded the antigen spectrum to almost 30 different antigens (e.g., EXT1/EXT2, NELL-1), blurring the distinction between what was previously designated as “primary” membranous nephropathy and autoimmune-associated forms (7, 8). (Body)\n \n`5.` Chen Q, Chen S, Ye Q, et al. Anti-nephrin antibody: a potential biomarker of minimal change disease. *Clinical Kidney Journal.* 2025;18. doi:10.1093/ckj/sfaf012\n \n> [5.1] Results: The prevalence of circulating anti-nephrin antibody was 19.44% (7 of 36) in MCD and 26.92% (7 of 26) in MCD patients with nephrotic proteinuria, which was higher than in FSGS, PMN, DN, IgAN and healthy volunteers. (Abstract)\n \n`6.` Spinelli S, Garbarino A, Lugani F, et al. Afucosylated IgG in idiopathic nephrotic syndrome patients with anti-nephrin autoantibodies correlate with disease activity. *Journal of Translational Autoimmunity.* 2025;11. doi:10.1016/j.jtauto.2025.100307\n \n> [6.1] Results: Anti-nephrin autoantibodies were detected in serum of 11 % of FSGS and 15 % of MCD patients, with a higher prevalence among those with nephrotic-range proteinuria. (Abstract)\n \n`7.` Corona C, Alonso P, Sánchez Alamo B, Garcia EM, Garcia-Bermejo L, Juarez GF. #3131 Multi-center study of anti-nephrin antibodies in minimal change disease and focal segmental glomerulosclerosis. *Nephrology Dialysis Transplantation.* 2025. doi:10.1093/ndt/gfaf116.0334\n \n> [7.1] Based on this threshold, the presence of anti-nephrin antibodies was confirmed in 18% of MCD samples and 12.1% of FSGS samples. (Abstract)\n \n`8.` Guo M, Yan L, Zhao J, et al. Association between anti-nephrin autoantibodies and disease activity in minimal change disease. *Annals of Medicine.* 2026;58. doi:10.1080/07853890.2026.2661115\n \n> [8.1] Results: Among 60 biopsy-confirmed MCD patients, circulating anti-nephrin autoantibodies were detected in 50% of cases. (Abstract)\n \n`9.` Hayashi N, Akai R, Kagaya Y, et al. Autoantibodies against nephrin and podocin are associated with disease severity and steroid dependence in adult-onset nephrotic syndrome. *Scientific Reports.* 2026;16. doi:10.1038/s41598-026-43612-7\n \n> [9.1] Anti-nephrin autoantibodies were detected predominantly in minimal change nephrotic syndrome (38.2%) and less frequently in focal segmental glomerulosclerosis (14.3%), but were rare in membranous nephropathy. (Body)\n \n`10.` Yang Y, Duan L, Wang Y, et al. How to identify IgA nephropathy presenting as nephrotic syndrome coexisting with minimal change disease? A 15-year single-center clinicopathological analysis. *Frontiers in Immunology.* 2025;16. doi:10.3389/fimmu.2025.1669276\n \n> [10.1] Strikingly, an identical pattern of nephrin-IgG co-localization was identified in 54.2% (13/24) of patients in the CR group, mirroring the MCD phenotype. (Body)\n \n`11.` Raglianti V, Angelotti M, Cirillo L, et al. Anti-slit diaphragm antibodies on kidney biopsy identify pediatric patients with steroid-resistant nephrotic syndrome responsive to second-line immunosuppressants.. *Kidney international.* 2024. doi:10.1016/j.kint.2024.09.006\n \n> [11.1] High resolution confocal microscopy on kidney biopsies of a cohort of 128 pediatric patients revealed localization of IgG along the slit diaphragm in 30% of patients with MC and 25% of those with FSGS, but not in other lesion patterns. (Abstract)\n \n> [11.2] Similar observations were obtained in a cohort of 48 adult patients with MC or FSGS at kidney biopsy, where IgG-nephrin colocalization was only 44.4%, suggesting the existence of autoantibodies binding to other slit proteins. (Abstract)\n \n`12.` Avasare RS, Clark S, Spain RI, et al. Characteristics and Outcomes of NELL1 Membranous Nephropathy in Lipoic Acid Users and Nonusers. *Kidney International Reports.* 2024;9:1379 - 1386. doi:10.1016/j.ekir.2024.02.1401\n \n> [12.1] Membranous nephropathy (MN) is an autoimmune disease caused by circulating antibodies directed against podocyte antigens.1, 2, 3 In 2019, 2 groups identified the NELL1 podocyte antigen in a subset of MN with distinct histologic and immunologic features, namely segmental or incomplete glomerular capillary loop involvement with predominant IgG1 staining.4,5 NELL1 MN has also been identified in association with thiol-containing medications, namely lipoic acid,6,7 bucillamine,8 and tiopronin9; traditional indigenous medications, including those with high mercury content10; and with underlying conditions, including malignancy,5 infections (including HIV11), sarcoidosis,12 hematopoietic stem cell transplant and graft-versus-host disease,13 and rheumatoid arthritis.8 (Body)\n \n> [12.2] NELL1 MN was associated with lipoic acid (36%), heavy nonsteroidal antiinflammatory drug (NSAID) use (27%), autoimmune disease (23%), malignancy (10% recent, 23% any), mercury exposure (1%), and 11% had no known secondary association. (Abstract)\n \n> [12.3] Conclusion: Our findings strengthen the association between lipoic acid and NELL1 MN. (Abstract)\n \n> [12.4] Introduction: Neural epidermal growth factor like 1 membranous nephropathy (NELL1 MN) is associated with various secondary etiologies. (Abstract)\n \n> [12.5] We demonstrate a high rate of remission for lipoic acid-associated NELL1 MN without immunosuppressive use; however, we cannot draw further conclusions about the utility of immunosuppression for all-comers with NELL1 MN, particularly those not associated with thiol-containing medications. (Body)\n \n`13.` Hengel FE, Dehde S, Kretz O, et al. Passive transfer of patient-derived anti-nephrin autoantibodies causes a podocytopathy with minimal change lesions. *The Journal of Clinical Investigation.* 2025;135. doi:10.1172/jci186769\n \n> [13.1] Importantly, we did not find complement consumption in the sera of the injected rabbits (Supplemental Figure 2D), which, together with the absence of homologous rabbit IgG and complement deposition (Figure 1F and Supplemental Figure 2C, middle and right), argues against the development of serum sickness (Body)\n \n`14.` Hengel FE, Dehde S, Yilmaz A, et al. Anti-nephrin autoantibodies in steroid-resistant nephrotic syndrome may inform treatment strategy.. *Kidney international.* 2025. doi:10.1016/j.kint.2025.01.019\n \n> [14.1] Results: Sixty-nine of 101 (68%) patients with SSNS, 19 of 67 (28%) patients with SDNS, 14 of 103 patients (14%) with non-genetic SRNS, and 1 of 62 patients (2%) with genetic SRNS were positive for anti-nephrin autoantibodies. (Abstract)\n \n> [14.2] Within the group of non-genetic SRNS patients with active disease, anti-nephrin positivity was found in 13 of 74 (18%) patients responding to intensified immunosuppression compared to none of 17 patients with multidrug-resistant SRNS. (Abstract)\n \n> [14.3] Conclusions: The prevalence of anti-nephrin antibodies is substantially higher in children with steroid responsive NS than in those with SRNS, suggesting that anti-nephrin antibodies primarily drive SSNS/SDNS. (Abstract)\n \n`15.` Nakai A, Manabe S, Seki M, et al. Disease-Specific Prevalence and Clinical Significance of Antinephrin Autoantibodies in Adult Japanese Patients with Podocytopathy: A Single-Center Cohort Study, 2016-2024. *Journal of the American Society of Nephrology.* 2025. doi:10.1681/asn.2025tncwrycb\n \n> [15.1] In MCNS, no patients were positive pre-therapy (0/4), while 21% were positive post-therapy (6/28). (Abstract)\n \n> [15.2] Conclusion: Most ANeph-Ab-positive MCNS cases were identified post-therapy, suggesting treatment-induced seronegativity and potential underestimation of true prevalence. (Abstract)\n \n> [15.3] Results: ANeph-Ab positivity was 18.8% in MCNS, 20.0% in secondary FSGS, and 60.0% in primary FSGS (p = 0.12). (Abstract)\n \n`16.` Hengel FE, Beldi-Ferchiou A, Sakhi H, et al. Effect of Steroids on Anti-nephrin Autoantibodies and B cells in Minimal Change Disease. *Kidney International Reports.* 2026;11. doi:10.1016/j.ekir.2026.103794\n \n> [16.1] Results: We detected anti-nephrin antibodies in 12 of 17 (70.6%) therapy-naïve patients with MCD at t0. (Abstract)\n \n> [16.2] All 12 patients (100%) positive for anti-nephrin antibodies achieved complete remission with no anti-nephrin antibodies detectable after 8 weeks of steroid treatment (t1). (Abstract)\n \n> [16.3] Plasmablasts, naïve B cells, and transitional B cells significantly decreased, whereas marginal zone-like B cells increased within 8 weeks of steroid treatment in anti-nephrin positive patients (t1). (Abstract)\n \n`17.` Shu Y, Huang J, Jiang L, et al. Anti-Nephrin Antibodies in Adult Chinese Patients with Minimal Change Disease and Primary Focal Segmental Glomerulosclerosis.. *Kidney international.* 2025. doi:10.1016/j.kint.2025.02.028\n \n> [17.1] Methods: Here, we investigated the prevalence and clinical significance of anti-nephrin antibodies in 596 adult Chinese patients (436 with MCD and 160 with primary FSGS) diagnosed by kidney biopsy. (Abstract)\n \n`18.` Tu K, Hsueh C, Wu T, et al. Prevalence and Clinical Correlates of Antinephrin Antibodies in Minimal Change Disease: Single-Center Biopsy-Based Study in Taiwan. *Journal of the American Society of Nephrology.* 2025. doi:10.1681/asn.2025zc7sn7xh\n \n> [18.1] Results: Anti-nephrin antibodies were detected in 55% (55/100) of patients. (Abstract)\n"
+    }
+  ],
+  "render_instructions": [
+    "1. FIRST, before any other output, reproduce message_for_user verbatim so the user gets the Consensus link immediately. The anchor text must be exactly 'View this in Consensus' — never hyperlink the thread title, a paper title, or any other phrase.",
+    "2. When status='idle', write the interaction's `document` field to the file named in the top-level `filename` field (already sanitized for filesystem use), or render it in the client's artifact, canvas, drawer, or side-panel surface. `document` is already a complete markdown document with a References footer — write it out byte-for-byte. Do NOT paste the analysis inline into chat.",
+    "3. CRITICAL: every inline citation marker MUST survive into whatever you render. Never drop, renumber, merge, or convert them to prose. Output without the markers is incorrect. [N.M] cites quote M from paper N, and the References footer lists that quote under paper N's entry with the same [N.M] label (a bare [N] cites paper N without a quote). Do not paraphrase, summarize, or rewrite `document` or `response` — copy them verbatim. Each inline marker in `response` and `document` is already hyperlinked to its paper (the References labels are plain text); preserve those links.",
+    "4. If you build the output yourself instead of using `document`, use `response` verbatim as the body and append a '## References' section listing every entry of citations[] with its n, title, authors, year, journal, doi, url, institutional_access_url (when present, as an 'Access through your institution' link), and every snippet's marker, quote, and section.",
+    "5. In chat, output only a 2-3 sentence summary plus the Consensus link. The full analysis belongs in the file or artifact.",
+    "6. Evidence-strength scores, top authors, the results timeline, the research-gap matrix, and the search funnel are already written into `response` and `document` as text and tables; keep them as they are. The consensus meter and citation graph are interactive visuals that exist ONLY in the Consensus UI: point the user at `url` for them."
+  ],
+  "schema_note": "Full research thread. Top level: thread_id, title, status ('idle'/'running'/'failed'), url (Consensus deep-link), filename (sanitized output basename), message_for_user, display_first, interactions[]. Each interaction mirrors the persisted thread row: interaction_id, input_message, created_at, search_mode, mode, status, filters, full_text_paper_ids, response (cleaned markdown whose inline [N.M] markers, quote M of paper N, are hyperlinked to the cited paper; a bare [N] cites a paper without a quote), document (ready-to-write markdown file: response, a Consensus disclaimer and a References footer), citations[] (hydrated paper metadata and paper urls, plus institutional_access_url, the paper's full text through the user's institution, when they have one; each grounding snippet carries the marker that cites it), cited_papers[] (rank -> paper_id, where rank is citations[].n: papers are numbered in order of first citation in response, not by search rank), stats (retrieved/eligible/included counts), step_count (number of visible registered trace nodes), agent_trace (text summary), and agent_trace_raw (full graph nodes, only if include_trace=true)."
+}

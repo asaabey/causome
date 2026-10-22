@@ -1,0 +1,28 @@
+[
+  {
+    "key": "doi-9f75d42e8aa26e094f35",
+    "identifiers": [
+      "DOI:10.1016/j.kint.2025.05.018",
+      "PMID:40490077",
+      "PMCID:PMC12354293"
+    ],
+    "title": "Evaluation of methodologies in anti-nephrin autoantibody detection.",
+    "authors": "Liu P, Liu S, Dalal V, Lane J, Cravedi P, Campbell K, Angeletti A, Xie X, Gessaroli E, Forte E, Gallon L, Jin J.",
+    "publishedAt": "2025-06-07",
+    "journal": "Kidney international",
+    "abstract": " Introduction Recent studies discovered the prominent presence of anti-nephrin autoantibodies in minimal change disease (MCD) and focal segmental glomerulosclerosis (FSGS). However, widely different and often unconventional autoantibody detection methods were used in these studies, making it challenging to standardize anti-nephrin antibody detection and quantification across different studies. Methods Here, we compare methods of conventional ELISA, immunoprecipitation (IP)-based on-beads ELISA, immunoprecipitation-Western blotting (IP-WB), and cell- and tissue-based immunofluorescence staining with two cohorts totaling 169 patients and control individuals. Results Different assay methods and antigen preparations led to method-specific false-positive and false-negative results. In general, high-quality antigens produced in human cells, combined with IP-based assays, yielded the most robust and reliable results. Among 63 and 24 samples from patients with FSGS or MCD, respectively, two patients with FSGS showed strong antibody signals in both ELISA-based assays and IP-WB, while approximately half of patients with MCD had weak signals detectable only by IP-WB. Conclusions These findings highlight the importance of standardizing antibody detection methods.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40490077/",
+    "doi": "10.1016/j.kint.2025.05.018",
+    "pmid": "40490077",
+    "pmcid": "PMC12354293",
+    "accessScope": "Primary report abstract and bibliographic metadata inspected by Codex agent on 2026-10-20 UTC; full text not inspected; no human approval.",
+    "openAccess": false,
+    "license": null,
+    "flags": [],
+    "relatedRecords": [],
+    "providerVersion": "europe-pmc-core-v1",
+    "firstSeenAt": "2026-10-21",
+    "lastCheckedAt": "2026-10-21",
+    "reviewedAt": null
+  }
+]
